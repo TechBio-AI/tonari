@@ -1,0 +1,146 @@
+{
+  "_readme": [
+    "★ これは 11 疾患のための暫定形式です。将来 supabase の themes / theme_facts / fact_sources（器）へ移行します。",
+    "  情報の種類を増やすときは、この形式を拡張するのではなく、器への移行を検討してください（docs/CONTENT_ROADMAP.md）。",
+    "中身: ファウンダーが判定した患者向けの文（docs/disease_summaries_draft_2026-09-13.md、2026-09-13 承認）。",
+    "common_symptoms は HPO v2026-06-23 の「非常に多い」「多い」を元に言い換えたもの。各項目は sources に元の HPO ラベルか「執筆者による記述」を持つ。",
+    "表示では頻度を区別しない。薬剤名は書かない。",
+    "読み込み: lib/portal/disease-summaries.ts"
+  ],
+  "slug": "pompe",
+  "disease": "ポンペ病",
+  "orpha_code": "ORPHA:365",
+  "hpo_version": "v2026-06-23",
+  "approved": "2026-09-13",
+  "symptoms_preface": null,
+  "common_symptoms": [
+    {
+      "text": "手足の付け根に近い筋肉の力が、だんだん弱くなる",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "進行性近位筋虚弱",
+            "筋虚弱"
+          ],
+          "hpo_ids": [
+            "HP:0009073",
+            "HP:0001324"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "階段を上るのがつらい",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "階段の登り困難"
+          ],
+          "hpo_ids": [
+            "HP:0003551"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "立ち上がるとき、手で膝を押して体を支える",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "Gowers サイン"
+          ],
+          "hpo_ids": [
+            "HP:0003391"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "動くと息切れする",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "運動性呼吸困難"
+          ],
+          "hpo_ids": [
+            "HP:0002875"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "呼吸が弱くなる、呼吸器の感染をくり返す",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "呼吸不全",
+            "反復性呼吸器感染症"
+          ],
+          "hpo_ids": [
+            "HP:0002878",
+            "HP:0002205"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "疲れやすい、筋肉が痛む",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "疲労",
+            "筋痛"
+          ],
+          "hpo_ids": [
+            "HP:0012378",
+            "HP:0003326"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "乳児では、心臓が大きくなる",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "心拡大",
+            "左室肥大"
+          ],
+          "hpo_ids": [
+            "HP:0001640",
+            "HP:0001712"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "乳児では、運動の発達が遅い、体重が増えにくい",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "運動発達遅滞",
+            "成長障害 (成長不全)"
+          ],
+          "hpo_ids": [
+            "HP:0001270",
+            "HP:0001508"
+          ]
+        }
+      ]
+    }
+  ],
+  "treatment_summary": [
+    "不足している酵素を補う治療（点滴）があります。",
+    "呼吸の状態を確かめながら、呼吸の管理やリハビリテーションを行います。"
+  ],
+  "treatment_source": "知識ファイル（data/knowledge/comprehensive_rare_diseases_knowledge.json）の treatment を元に、薬剤名を除いて執筆者が要約。ファウンダー確認待ち（2026-09-13 下書き）",
+  "nanbyo_number": null
+}

@@ -1,0 +1,71 @@
+{
+ "idx": 70,
+ "name": "色素性乾皮症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/112",
+   "fetched_at": "2026-09-24T00:44:10+09:00",
+   "sha256": "bf3707997a2f569948f16416a1a8a227ca9ebd449f5e768c5cf943589f2b1eef",
+   "title": "色素性乾皮症（指定難病１５９） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "日の当たる部分の皮膚にしみがたくさんでき、皮膚が乾燥する病気です。",
+  "source_id": "nanbyou",
+  "evidence": "露光部の皮膚にしみがたくさん生じ、皮膚が乾燥し",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "日の当たる部分にしみが増える",
+   "source_id": "nanbyou",
+   "evidence": "露光部の皮膚にしみが増え"
+  },
+  {
+   "text": "皮膚が乾燥する",
+   "source_id": "nanbyou",
+   "evidence": "皮膚が乾燥します"
+  },
+  {
+   "text": "若いうちに皮膚がんができる",
+   "source_id": "nanbyou",
+   "evidence": "若くして、露光部に皮膚がんが生じます"
+  },
+  {
+   "text": "日焼けの反応が異常に強く出る",
+   "source_id": "nanbyou",
+   "evidence": "日に当たると異常に激しい日焼けの反応が生じ"
+  },
+  {
+   "text": "日焼けが引くのに時間がかかる",
+   "source_id": "nanbyou",
+   "evidence": "それが引くのに１−２週間かかります"
+  },
+  {
+   "text": "神経の症状が出ることがある",
+   "source_id": "nanbyou",
+   "evidence": "半数以上の患者さんで神経症状が現れます"
+  }
+ ],
+ "onset": {
+  "text": "特にどのような人に多いということはありません",
+  "source_id": "nanbyou",
+  "evidence": "特にどのような人に多いということはありません"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "現時点で患者さんを完全にXPから解放できるような治療法はありません"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/112",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:35:30+09:00",
+ "shard": 2
+}

@@ -1,0 +1,62 @@
+{
+ "idx": 788,
+ "name": "視床下部過誤腫（笑い発作てんかん）",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/86906",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Gelastic seizures with hypothalamic hamartoma"
+  }
+ ],
+ "summary": {
+  "text": "Hypothalamic hamartomas with gelastic seizures is a rare cerebral malformation with epilepsy syndrome characterized by early-onset gelastic (i.e. ictal laughter) or dacrystic (i.e., ictal crying) seizures due to non-neoplastic developmental malformation - hypothalamic hamartomas. In many patients, seizures progress to other seizure types including focal and generalized seizures, with concomitant cognitive decline and behavioral disorders. Some patients also present a precocious puberty.",
+  "source_id": "orphanet",
+  "evidence": "Hypothalamic hamartomas with gelastic se",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "early-onset gelastic (i.e. ictal laughter) or dacrystic (i.e., ictal crying) seizures",
+   "source_id": "orphanet",
+   "evidence": "early-onset gelastic (i.e. ictal"
+  },
+  {
+   "text": "cognitive decline",
+   "source_id": "orphanet",
+   "evidence": "cognitive decline"
+  },
+  {
+   "text": "behavioral disorders",
+   "source_id": "orphanet",
+   "evidence": "behavioral disorders"
+  },
+  {
+   "text": "precocious puberty",
+   "source_id": "orphanet",
+   "evidence": "precocious puberty"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/86906",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

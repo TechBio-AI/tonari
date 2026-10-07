@@ -1,0 +1,75 @@
+{
+ "idx": 114,
+ "name": "褐色細胞腫",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/01_05_064/",
+   "fetched_at": "2026-09-24T00:46:57+09:00",
+   "sha256": "8c70e8b5c53d95397eae6b71a1bc35b5f7f06a2b15f0572c322762909f22ba96",
+   "title": "褐色細胞腫 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "副腎の内側にある細胞から生じる腫瘍です。",
+  "source_id": "shouman",
+  "evidence": "副腎髄質のクロム親和性細胞から生じた腫瘍。",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "発作のときに血圧が上がる",
+   "source_id": "shouman",
+   "evidence": "発作時のみ高血圧"
+  },
+  {
+   "text": "頭が痛む",
+   "source_id": "shouman",
+   "evidence": "頭痛"
+  },
+  {
+   "text": "動悸がする",
+   "source_id": "shouman",
+   "evidence": "動悸"
+  },
+  {
+   "text": "汗をかく",
+   "source_id": "shouman",
+   "evidence": "発汗が起こるもの"
+  },
+  {
+   "text": "血圧が高い状態が続く",
+   "source_id": "shouman",
+   "evidence": "持続性の高血圧症状"
+  },
+  {
+   "text": "気分が不安定になる",
+   "source_id": "shouman",
+   "evidence": "感情不安定"
+  },
+  {
+   "text": "体重が減る",
+   "source_id": "shouman",
+   "evidence": "体重減少"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "良性例では外科的切除で治癒する。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/01_05_064/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は患者数の数値が中心のため onset は null。",
+  "治療の節には薬剤名が並ぶので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:36:53+09:00",
+ "shard": 2
+}

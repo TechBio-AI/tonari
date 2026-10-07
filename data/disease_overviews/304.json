@@ -1,0 +1,55 @@
+{
+ "idx": 304,
+ "name": "慢性炎症性脱髄性多発根神経炎（MADSAM型）",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/48162",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Lewis-Sumner syndrome"
+  }
+ ],
+ "summary": {
+  "text": "A rare acquired demyelinating polyneuropathy characterized by asymmetrical distal weakness of the upper or lower extremities and motor dysfunction with adult onset. It is considered to be a variant of chronic inflammatory demyelinating polyneuropathy.",
+  "source_id": "orphanet",
+  "evidence": "A rare acquired demyelinating polyneurop",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "asymmetrical distal weakness of the upper or lower extremities",
+   "source_id": "orphanet",
+   "evidence": "asymmetrical distal weakness of the"
+  },
+  {
+   "text": "motor dysfunction",
+   "source_id": "orphanet",
+   "evidence": "motor dysfunction"
+  }
+ ],
+ "onset": {
+  "text": "adult onset",
+  "source_id": "orphanet",
+  "evidence": "adult onset"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/48162",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

@@ -1,0 +1,71 @@
+{
+ "idx": 18,
+ "name": "発作性夜間ヘモグロビン尿症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3783",
+   "fetched_at": "2026-09-24T00:44:39+09:00",
+   "sha256": "ece9103ee641df12f2a8994d807931af82f42b5ebab1192ba502ca857b59a177",
+   "title": "発作性夜間ヘモグロビン尿症（指定難病６２） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "赤血球が血管の中で早くこわれてしまうために貧血になり、朝の尿が濃い色になる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "赤血球が血管内で異常に早く破壊されておこる貧血",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "尿がコーラのような色になる",
+   "source_id": "nanbyou",
+   "evidence": "ヘモグロビン尿というコーラ色の尿が特徴的"
+  },
+  {
+   "text": "顔色が悪くなる",
+   "source_id": "nanbyou",
+   "evidence": "顔色不良"
+  },
+  {
+   "text": "息が切れる",
+   "source_id": "nanbyou",
+   "evidence": "息切れ"
+  },
+  {
+   "text": "動悸がする",
+   "source_id": "nanbyou",
+   "evidence": "動悸"
+  },
+  {
+   "text": "体がだるい",
+   "source_id": "nanbyou",
+   "evidence": "全身倦怠感"
+  },
+  {
+   "text": "力が入りにくい",
+   "source_id": "nanbyou",
+   "evidence": "脱力感"
+  }
+ ],
+ "onset": {
+  "text": "子どもからお年寄りまで、はば広い年代で起こります",
+  "source_id": "nanbyou",
+  "evidence": "小児から老年までほぼ全ての年齢で発症します"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "病気を完全に治すには骨髄移植しかありませんが"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3783",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:22:05+09:00",
+ "shard": 1
+}

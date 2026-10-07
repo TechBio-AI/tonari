@@ -1,0 +1,70 @@
+{
+ "idx": 516,
+ "name": "亜硫酸酸化酵素欠損症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_08_111/",
+   "fetched_at": "2026-09-24T00:50:09+09:00",
+   "sha256": "70aefb17a7690471d7718435547a67543b232cdb48cac0429315014c8b843929",
+   "title": "亜硫酸酸化酵素欠損症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "ある酵素が足りないため、脳の中に毒性の強い物質がたまる病気です。",
+  "source_id": "shouman",
+  "evidence": "亜硫酸酸化酵素が欠損することにより、脳内に毒性の強い亜硫酸が大量に蓄積し",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "治りにくいけいれんが起こる",
+   "source_id": "shouman",
+   "evidence": "生後間もなくより難治性けいれん"
+  },
+  {
+   "text": "発達がゆっくり",
+   "source_id": "shouman",
+   "evidence": "精神運動発達遅滞"
+  },
+  {
+   "text": "体がふにゃふにゃしている",
+   "source_id": "shouman",
+   "evidence": "筋緊張低下"
+  },
+  {
+   "text": "手足が麻痺する",
+   "source_id": "shouman",
+   "evidence": "形成四肢麻痺"
+  },
+  {
+   "text": "おっぱいやミルクを飲む力が弱い",
+   "source_id": "shouman",
+   "evidence": "哺乳力低下"
+  },
+  {
+   "text": "水晶体がずれる",
+   "source_id": "shouman",
+   "evidence": "水晶体脱臼が認められる"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "多くの症例では効果的ではない"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_08_111/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節が保存 HTML に無いため onset は null。",
+  "治療の節には薬の分類名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:52:18+09:00",
+ "shard": 3
+}

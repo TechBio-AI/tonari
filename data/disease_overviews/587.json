@@ -1,0 +1,68 @@
+{
+ "idx": 587,
+ "name": "Camurati-Engelmann病",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/1328",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Camurati-Engelmann disease"
+  }
+ ],
+ "summary": {
+  "text": "Camurati-Engelmann disease (CED) is a rare, clinically variable bone dysplasia syndrome characterized by hyperostosis of the long bones, skull, spine and pelvis, associated with severe pain in the extremities, a wide-based waddling gait, joint contractures, muscle weakness and easy fatigability.",
+  "source_id": "orphanet",
+  "evidence": "Camurati-Engelmann disease (CED) is a ra",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "severe pain in the extremities",
+   "source_id": "orphanet",
+   "evidence": "severe pain in the extremities"
+  },
+  {
+   "text": "wide-based waddling gait",
+   "source_id": "orphanet",
+   "evidence": "wide-based waddling gait"
+  },
+  {
+   "text": "joint contractures",
+   "source_id": "orphanet",
+   "evidence": "joint contractures"
+  },
+  {
+   "text": "muscle weakness",
+   "source_id": "orphanet",
+   "evidence": "muscle weakness"
+  },
+  {
+   "text": "easy fatigability",
+   "source_id": "orphanet",
+   "evidence": "easy fatigability"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/1328",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: hyperostosis（画像所見）",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

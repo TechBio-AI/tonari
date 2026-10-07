@@ -1,0 +1,75 @@
+{
+ "idx": 99,
+ "name": "好酸球性多発血管炎性肉芽腫症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3877",
+   "fetched_at": "2026-09-24T00:44:47+09:00",
+   "sha256": "67fdeba349de5773791459a987b77c15158b5cd536ca5cd887224e2dbe1c8e25",
+   "title": "好酸球性多発血管炎性肉芽腫症（指定難病４５） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "白血球の一種が異常に増え、小さな血管に炎症が起こる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "好酸球が異常に増加して、様々な臓器の中にある小さい血管に 炎症",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "手足がしびれる、動きが悪くなる",
+   "source_id": "nanbyou",
+   "evidence": "手足のしびれや麻痺（動きが悪くなる）"
+  },
+  {
+   "text": "熱が出る",
+   "source_id": "nanbyou",
+   "evidence": "発熱"
+  },
+  {
+   "text": "筋肉が痛む、関節が痛む",
+   "source_id": "nanbyou",
+   "evidence": "筋肉痛、関節痛などが起こります"
+  },
+  {
+   "text": "皮膚に出血斑が出る",
+   "source_id": "nanbyou",
+   "evidence": "皮膚の血管炎による出血斑"
+  },
+  {
+   "text": "咳が出る、血痰が出る",
+   "source_id": "nanbyou",
+   "evidence": "肺の病変による咳や血痰"
+  },
+  {
+   "text": "動悸がする、息苦しい",
+   "source_id": "nanbyou",
+   "evidence": "心筋の障害による動悸や息苦しさ"
+  },
+  {
+   "text": "お腹が痛む",
+   "source_id": "nanbyou",
+   "evidence": "腸の血管炎による腹痛"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "早期に治療を中止すると、再発をきたしますので注意が必要です"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3877",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節の発症年齢は数値と一体のため onset は null。",
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:46:07+09:00",
+ "shard": 3
+}

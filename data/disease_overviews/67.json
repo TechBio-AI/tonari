@@ -1,0 +1,76 @@
+{
+ "idx": 67,
+ "name": "ミトコンドリア病",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/194",
+   "fetched_at": "2026-09-24T00:44:31+09:00",
+   "sha256": "c01bf05c5875547eca33566d01b697143924a8f439afac3d9a30eb5ce43156f2",
+   "title": "ミトコンドリア病（指定難病２１） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "細胞の中でエネルギーを作る部分のはたらきが落ちる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "ミトコンドリアのはたらきが低下すると、細胞の活動が低下します",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "けいれんが起きる",
+   "source_id": "nanbyou",
+   "evidence": "けいれん"
+  },
+  {
+   "text": "脳卒中が起こる",
+   "source_id": "nanbyou",
+   "evidence": "脳卒中"
+  },
+  {
+   "text": "精神の症状が出る",
+   "source_id": "nanbyou",
+   "evidence": "精神症状"
+  },
+  {
+   "text": "発達がゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "発達の遅れなどの脳の症状"
+  },
+  {
+   "text": "物が見えにくい、音が聞こえづらい",
+   "source_id": "nanbyou",
+   "evidence": "物が見えにくい、音が聞こえづらい"
+  },
+  {
+   "text": "運動がしづらい、疲れやすい",
+   "source_id": "nanbyou",
+   "evidence": "運動がしづらい、疲れやすいなどの筋の症状"
+  },
+  {
+   "text": "肝臓や腎臓のはたらきが落ちる",
+   "source_id": "nanbyou",
+   "evidence": "肝臓や腎臓の機能の低下"
+  }
+ ],
+ "onset": {
+  "text": "あらゆる年齢の方にみられます",
+  "source_id": "nanbyou",
+  "evidence": "この病気はあらゆる年齢の人にみられます"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "その症状に対する治療法がある場合にはそれを積極的に行うことが重要です"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/194",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:46:07+09:00",
+ "shard": 3
+}

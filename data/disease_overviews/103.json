@@ -1,0 +1,52 @@
+{
+ "idx": 103,
+ "name": "類天疱瘡",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/703",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Bullous pemphigoid"
+  }
+ ],
+ "summary": {
+  "text": "A rare autoimmune bullous skin disease characterized by acquired, subepidermal tense bullae occurring on normal of inflamed skin and that is typically widespread (occurring in the flexor regions of the proximal arms and legs, in the armpits, groin and the abdomen) and often associated with pruritus. The evolution is typically chronic with spontaneous exacerbations and remission.",
+  "source_id": "orphanet",
+  "evidence": "A rare autoimmune bullous skin disease c",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "subepidermal tense bullae",
+   "source_id": "orphanet",
+   "evidence": "subepidermal tense bullae"
+  },
+  {
+   "text": "pruritus",
+   "source_id": "orphanet",
+   "evidence": "pruritus"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/703",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

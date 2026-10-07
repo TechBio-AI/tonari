@@ -1,0 +1,58 @@
+{
+ "idx": 238,
+ "name": "肺ランゲルハンス細胞組織球症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/687733",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Pulmonary Langerhans cell histiocytosis"
+  }
+ ],
+ "summary": {
+  "text": "A form of Langerhans cell histiocytosis characterized by interstitial changes in the lung tissue, manifesting as a variable combination of cellular inflammation, cystic, and fibrotic lesions. Patients can have symptoms like dyspnea, cough and fever but most of them are asymptomatic, and they may undergo spontaneous remission. It is predominantly observed in young smokers or ex-smokers.",
+  "source_id": "orphanet",
+  "evidence": "A form of Langerhans cell histiocytosis ",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "dyspnea",
+   "source_id": "orphanet",
+   "evidence": "dyspnea"
+  },
+  {
+   "text": "cough",
+   "source_id": "orphanet",
+   "evidence": "cough"
+  },
+  {
+   "text": "fever",
+   "source_id": "orphanet",
+   "evidence": "fever"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/687733",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: interstitial changes in the lung tissue",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

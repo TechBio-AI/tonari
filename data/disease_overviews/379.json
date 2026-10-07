@@ -1,0 +1,62 @@
+{
+ "idx": 379,
+ "name": "CHARGE症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/138",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "CHARGE syndrome"
+  }
+ ],
+ "summary": {
+  "text": "A multiple congenital anomaly characterized by a broad phenotype with Coloboma, Choanal atresia/stenosis, Cranial nerve dysfunction, and Characteristic external and inner ears (known as the major 4 C's).",
+  "source_id": "orphanet",
+  "evidence": "A multiple congenital anomaly characteri",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "Coloboma",
+   "source_id": "orphanet",
+   "evidence": "Coloboma"
+  },
+  {
+   "text": "Choanal atresia/stenosis",
+   "source_id": "orphanet",
+   "evidence": "Choanal atresia/stenosis"
+  },
+  {
+   "text": "Cranial nerve dysfunction",
+   "source_id": "orphanet",
+   "evidence": "Cranial nerve dysfunction"
+  },
+  {
+   "text": "Characteristic external and inner ears",
+   "source_id": "orphanet",
+   "evidence": "Characteristic external and inner ears"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/138",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

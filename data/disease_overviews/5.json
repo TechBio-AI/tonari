@@ -1,0 +1,82 @@
+{
+ "idx": 5,
+ "name": "ニーマン・ピック病C型",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/646",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Niemann-Pick disease type C"
+  }
+ ],
+ "summary": {
+  "text": "A rare lysosomal lipid storage disease characterized by variable clinical signs, depending on the age of onset, such as prolonged unexplained neonatal jaundice or cholestasis, isolated unexplained splenomegaly, and progressive, often severe neurological symptoms such as cognitive decline, cerebellar ataxia, vertical supranuclear gaze palsy (VSPG), dysarthria, dysphagia, dystonia, seizures, gelastic cataplexy, and psychiatric disorders.",
+  "source_id": "orphanet",
+  "evidence": "A rare lysosomal lipid storage disease c",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "prolonged unexplained neonatal jaundice or cholestasis",
+   "source_id": "orphanet",
+   "evidence": "prolonged unexplained neonatal jaundice"
+  },
+  {
+   "text": "isolated unexplained splenomegaly",
+   "source_id": "orphanet",
+   "evidence": "isolated unexplained splenomegaly"
+  },
+  {
+   "text": "cognitive decline",
+   "source_id": "orphanet",
+   "evidence": "cognitive decline"
+  },
+  {
+   "text": "cerebellar ataxia",
+   "source_id": "orphanet",
+   "evidence": "cerebellar ataxia"
+  },
+  {
+   "text": "vertical supranuclear gaze palsy",
+   "source_id": "orphanet",
+   "evidence": "vertical supranuclear gaze palsy"
+  },
+  {
+   "text": "dysarthria",
+   "source_id": "orphanet",
+   "evidence": "dysarthria"
+  },
+  {
+   "text": "dysphagia",
+   "source_id": "orphanet",
+   "evidence": "dysphagia"
+  },
+  {
+   "text": "seizures",
+   "source_id": "orphanet",
+   "evidence": "seizures"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/646",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "発症年齢により症状が変わると書かれており、時期を 1 つに決められないため onset は null。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

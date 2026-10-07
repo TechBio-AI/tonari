@@ -1,0 +1,80 @@
+{
+ "idx": 72,
+ "name": "筋萎縮性側索硬化症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/52",
+   "fetched_at": "2026-09-24T00:46:22+09:00",
+   "sha256": "3f4a074fceb6b167f542700bb52f4d8c32beb669d1ffa202371f624dd391423a",
+   "title": "筋萎縮性側索硬化症（ALS）（指定難病２） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "手足やのど、舌、呼吸の筋肉が少しずつやせて力が入らなくなる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "手足・のど・舌の筋肉や呼吸に必要な筋肉がだんだんやせて力がなくなって",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "手指が使いにくくなる",
+   "source_id": "nanbyou",
+   "evidence": "手指の使いにくさ"
+  },
+  {
+   "text": "ひじから先の筋肉がやせる",
+   "source_id": "nanbyou",
+   "evidence": "肘から先の筋肉がやせて力が弱くなる"
+  },
+  {
+   "text": "話しにくい、飲み込みにくい",
+   "source_id": "nanbyou",
+   "evidence": "話しにくい、食べ物がのみ込みにくいという症状"
+  },
+  {
+   "text": "足先が上がりにくい",
+   "source_id": "nanbyou",
+   "evidence": "足先が上がりにくい（下垂足）"
+  },
+  {
+   "text": "足が突っ張って歩きにくい",
+   "source_id": "nanbyou",
+   "evidence": "足が突っ張って歩きにくい"
+  },
+  {
+   "text": "筋肉がぴくつく",
+   "source_id": "nanbyou",
+   "evidence": "筋のぴくつき"
+  },
+  {
+   "text": "唾液や痰が増える",
+   "source_id": "nanbyou",
+   "evidence": "唾液・よだれや痰（たん）が増える"
+  },
+  {
+   "text": "息切れがする",
+   "source_id": "nanbyou",
+   "evidence": "日常の動作でも息切れをおぼえ"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "体重を維持するための高カロリー栄養療法が大切である"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/52",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節の発症年齢は数値と一体のため onset は null。",
+  "治療の節には薬剤名が並ぶので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:55:18+09:00",
+ "shard": 4
+}

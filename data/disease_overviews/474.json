@@ -1,0 +1,64 @@
+{
+ "idx": 474,
+ "name": "ビタミンD依存性くる病",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4561",
+   "fetched_at": "2026-09-25T03:26:45+09:00",
+   "sha256": "4ca62f85fff955024b57245fe14f3057824677216f5dbd768cbf998cfd84616c",
+   "title": "ビタミンＤ依存性くる病／骨軟化症（指定難病２３９） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "ビタミンDの代謝や効き方に障害があり、骨が十分に硬くならず、弱くなる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "骨に石灰化が起こらず、強度が不足する病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "骨が弱く変形する（くる病・骨軟化症）",
+   "source_id": "nanbyou",
+   "evidence": "くる病所見や骨軟化症所見"
+  },
+  {
+   "text": "手足のこわばり（テタニー）",
+   "source_id": "nanbyou",
+   "evidence": "低カルシウム血症によるテタニーやけいれん"
+  },
+  {
+   "text": "けいれん",
+   "source_id": "nanbyou",
+   "evidence": "テタニーやけいれんなどが見られます"
+  },
+  {
+   "text": "子どもでは成長も妨げられる",
+   "source_id": "nanbyou",
+   "evidence": "小児期には成長も障害され"
+  },
+  {
+   "text": "髪が抜ける（2型の一部）",
+   "source_id": "nanbyou",
+   "evidence": "２型の半数以上に禿頭を伴います"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "活性型ビタミンＤの投与が有効です"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4561",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "onset は数字を含むため null（原文「ほとんどの場合1～2歳以内に発症しますが」）。"
+ ],
+ "extracted_at": "2026-10-02T21:14:56+09:00",
+ "shard": 2
+}

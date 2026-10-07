@@ -1,0 +1,76 @@
+{
+ "idx": 199,
+ "name": "先天性ミオパチー",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4726",
+   "fetched_at": "2026-09-24T00:45:52+09:00",
+   "sha256": "6115743ba9b2be4965b1ea8d58b512a0250b779c8c5412c3072acd064848c758",
+   "title": "先天性ミオパチー（指定難病１１１） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "生まれつき筋肉の組織の形に問題がある病気です。",
+  "source_id": "nanbyou",
+  "evidence": "生まれながらに筋組織の形態に問題があり",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "筋力が弱い",
+   "source_id": "nanbyou",
+   "evidence": "筋力が弱い"
+  },
+  {
+   "text": "体が柔らかい",
+   "source_id": "nanbyou",
+   "evidence": "体が柔らかい"
+  },
+  {
+   "text": "発達がゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "発達の遅れなどの筋力低下の症状"
+  },
+  {
+   "text": "力が入りにくい、疲れやすい",
+   "source_id": "nanbyou",
+   "evidence": "力が入りにくい、疲れやすい"
+  },
+  {
+   "text": "朝に頭痛がする、痰が出しにくい",
+   "source_id": "nanbyou",
+   "evidence": "朝に頭痛を認める、痰が出しにくい"
+  },
+  {
+   "text": "日中も眠い",
+   "source_id": "nanbyou",
+   "evidence": "日中も眠い"
+  },
+  {
+   "text": "背骨が曲がる、関節が固くなる",
+   "source_id": "nanbyou",
+   "evidence": "側弯症、関節が固くなる"
+  }
+ ],
+ "onset": {
+  "text": "生活習慣や住んでいる地域による傾向はありません",
+  "source_id": "nanbyou",
+  "evidence": "生活習慣や住んでいる地域での傾向はありません。"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "根治的な治療は存在しません。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4726",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:38:40+09:00",
+ "shard": 2
+}

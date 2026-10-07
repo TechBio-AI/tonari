@@ -1,0 +1,74 @@
+{
+ "idx": 287,
+ "name": "4p欠失症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4804",
+   "fetched_at": "2026-09-24T00:46:07+09:00",
+   "sha256": "20dd8267c3a98326dccd6b6f1fe8ed42f98a98aab3d3a6dc651997d9a2986d3e",
+   "title": "４ｐ欠失症候群（指定難病１９８） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "顔だちの特徴、成長の遅れ、発達や知的な面の遅れが現れる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "顔貌上の特徴、成長障害、精神運動発達遅滞・知的障害を呈する症候群です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "顔だちに特徴がある",
+   "source_id": "nanbyou",
+   "evidence": "お顔立ちの特徴"
+  },
+  {
+   "text": "おなかの中から体の育ちがゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "子宮内に始まる成長障害"
+  },
+  {
+   "text": "体がふにゃふにゃしている",
+   "source_id": "nanbyou",
+   "evidence": "筋緊張低下"
+  },
+  {
+   "text": "発達や知的な面がゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "様々な程度の精神運動発達遅滞・知的障害"
+  },
+  {
+   "text": "けいれんが起こる",
+   "source_id": "nanbyou",
+   "evidence": "けいれんは90〜100%に"
+  },
+  {
+   "text": "骨に異常が出る",
+   "source_id": "nanbyou",
+   "evidence": "骨格異常は60〜70%に"
+  },
+  {
+   "text": "耳が聞こえにくい",
+   "source_id": "nanbyou",
+   "evidence": "聴覚障害（主に伝音性）"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "起きやすい症状に対する早期検診および適切な治療"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4804",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は遺伝の説明で、発症年齢の記載が無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:49:53+09:00",
+ "shard": 3
+}

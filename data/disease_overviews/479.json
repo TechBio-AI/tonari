@@ -1,0 +1,69 @@
+{
+ "idx": 479,
+ "name": "アンジェルマン症候群（母性UPD型）",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/13_01_009/",
+   "fetched_at": "2026-09-24T00:53:03+09:00",
+   "sha256": "2a0d6357eb41abd05f81550533be2ac1ff139829505bd38d2673944049f58d29",
+   "title": "アンジェルマン（Angelman）症候群 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "てんかん、ふらつく動き、よく笑うといった行動を特徴とする病気です。",
+  "source_id": "shouman",
+  "evidence": "てんかん、失調性運動障害、容易に引き起こされる笑いなどの行動",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "発達が強くゆっくりになる",
+   "source_id": "shouman",
+   "evidence": "重度精神発達の遅れ"
+  },
+  {
+   "text": "てんかん発作が起こる",
+   "source_id": "shouman",
+   "evidence": "てんかん"
+  },
+  {
+   "text": "ふらついた動きになる",
+   "source_id": "shouman",
+   "evidence": "失調性運動障害"
+  },
+  {
+   "text": "よく笑う",
+   "source_id": "shouman",
+   "evidence": "容易に引き起こされる笑い"
+  },
+  {
+   "text": "睡眠が乱れる",
+   "source_id": "shouman",
+   "evidence": "睡眠障害"
+  },
+  {
+   "text": "特徴的な顔だちになる",
+   "source_id": "shouman",
+   "evidence": "特徴的な顔貌（尖った下顎、大きな口）"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "包括的な療育が望まれる。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/13_01_009/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節が保存 HTML に無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:41:31+09:00",
+ "shard": 2
+}

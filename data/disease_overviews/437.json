@@ -1,0 +1,76 @@
+{
+ "idx": 437,
+ "name": "コケイン症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4435",
+   "fetched_at": "2026-09-24T00:45:21+09:00",
+   "sha256": "b8cdc8f19c74e36b7fca732751a5bb59cec267a8fedfe3912697ddd81387ceda",
+   "title": "コケイン症候群（指定難病１９２） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "老化が進みやすく、日焼けしやすい体質をもつ病気です。",
+  "source_id": "nanbyou",
+  "evidence": "老化が進みやすく、日焼けしやすい体質をもちます",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "日に当たると赤くなりやすい",
+   "source_id": "nanbyou",
+   "evidence": "生まれた時から日に当たる赤くなりやすく"
+  },
+  {
+   "text": "身長・体重・頭囲が小さい",
+   "source_id": "nanbyou",
+   "evidence": "身長、体重、頭囲が小さく"
+  },
+  {
+   "text": "発達がゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "発達の遅れもみられます"
+  },
+  {
+   "text": "成長が止まる",
+   "source_id": "nanbyou",
+   "evidence": "成長が止まり"
+  },
+  {
+   "text": "目がくぼみ、皮下脂肪が少なくなる",
+   "source_id": "nanbyou",
+   "evidence": "目がくぼみ、皮下脂肪が少なくなり"
+  },
+  {
+   "text": "目が悪くなる、耳が聞こえにくくなる",
+   "source_id": "nanbyou",
+   "evidence": "少しずつ目が悪くなり、耳が聞こえにくくなって"
+  },
+  {
+   "text": "手足の関節が硬くなる",
+   "source_id": "nanbyou",
+   "evidence": "やがて手足の関節が硬くなり"
+  }
+ ],
+ "onset": {
+  "text": "地域差はなく、生活習慣との関連もありません",
+  "source_id": "nanbyou",
+  "evidence": "地域差はなく、生活習慣との関連もありません。"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "栄養の補給や対症療法が主体となります"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4435",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T03:00:26+09:00",
+ "shard": 4
+}

@@ -1,0 +1,73 @@
+{
+ "idx": 476,
+ "name": "偽性副甲状腺機能低下症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/72",
+   "fetched_at": "2026-09-24T00:46:41+09:00",
+   "sha256": "eca39c53cd76e2195e6c03868fd4858434f7a1d6b434a047fef30be786f8702a",
+   "title": "偽性副甲状腺機能低下症（指定難病２３６） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "副甲状腺ホルモンは分泌されているのに起こる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "偽性副甲状腺機能低下症の患者さんではPTHは分泌されるのですが",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "手足の筋肉がつっぱる、けいれんする",
+   "source_id": "nanbyou",
+   "evidence": "手足の筋肉の「つっぱり」や「けいれん」"
+  },
+  {
+   "text": "手足や口の周りがしびれる",
+   "source_id": "nanbyou",
+   "evidence": "手足や口の周りの「しびれ感」"
+  },
+  {
+   "text": "てんかんのような発作が起こることがある",
+   "source_id": "nanbyou",
+   "evidence": "全身におよぶ「てんかん」のような発作"
+  },
+  {
+   "text": "白内障が起こりやすくなる",
+   "source_id": "nanbyou",
+   "evidence": "白内障も起こりやすくなります"
+  },
+  {
+   "text": "手足の指が短い、背が低い、丸顔",
+   "source_id": "nanbyou",
+   "evidence": "手足の指が短い、身長が低い、丸顔"
+  },
+  {
+   "text": "太りやすい",
+   "source_id": "nanbyou",
+   "evidence": "肥満"
+  }
+ ],
+ "onset": {
+  "text": "男性と女性で起こりやすさに違いはありません",
+  "source_id": "nanbyou",
+  "evidence": "男性と女性では、頻度に違いはありません。"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "血液のカルシウム濃度を正常範囲に近づければ"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/72",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:32:02+09:00",
+ "shard": 1
+}

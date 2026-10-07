@@ -1,0 +1,62 @@
+{
+ "idx": 722,
+ "name": "ネイルパテラ症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2614",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Nail-patella syndrome"
+  }
+ ],
+ "summary": {
+  "text": "A rare hereditary patellar dysostosis characterized by nail hypoplasia or aplasia, aplastic or hypoplastic patellae, elbow dysplasia, and the presence of iliac horns as well as renal and ocular anomalies.",
+  "source_id": "orphanet",
+  "evidence": "A rare hereditary patellar dysostosis ch",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "nail hypoplasia or aplasia",
+   "source_id": "orphanet",
+   "evidence": "nail hypoplasia or aplasia"
+  },
+  {
+   "text": "aplastic or hypoplastic patellae",
+   "source_id": "orphanet",
+   "evidence": "aplastic or hypoplastic patellae"
+  },
+  {
+   "text": "elbow dysplasia",
+   "source_id": "orphanet",
+   "evidence": "elbow dysplasia"
+  },
+  {
+   "text": "renal and ocular anomalies",
+   "source_id": "orphanet",
+   "evidence": "renal and ocular anomalies"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2614",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

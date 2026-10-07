@@ -1,0 +1,72 @@
+{
+ "idx": 449,
+ "name": "Klippel-Trenaunay症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/90308",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Capillary-lymphatic-venous malformation with segmental distribution"
+  }
+ ],
+ "summary": {
+  "text": "A rare congenital complex vascular malformation syndrome characterized by capillary malformations manifesting as wine stains and venous varicosities typically prominent along the lateral aspect of the lower extremities, associated with overgrowth of a limb (most commonly a leg, less frequently other regions of the body), involving bone and/or soft tissues. The diagnosis is usually made in presence of at least two of these three features. Lymphatic malformations are also observed, while arteriovenous fistulas are absent. Patients present recurrent painful thrombophlebitis, venous thrombosis, and sudden venous hemorrhage.",
+  "source_id": "orphanet",
+  "evidence": "A rare congenital complex vascular malfo",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "capillary malformations manifesting as wine stains",
+   "source_id": "orphanet",
+   "evidence": "capillary malformations manifesting as"
+  },
+  {
+   "text": "venous varicosities",
+   "source_id": "orphanet",
+   "evidence": "venous varicosities"
+  },
+  {
+   "text": "overgrowth of a limb",
+   "source_id": "orphanet",
+   "evidence": "overgrowth of a limb"
+  },
+  {
+   "text": "recurrent painful thrombophlebitis",
+   "source_id": "orphanet",
+   "evidence": "recurrent painful thrombophlebitis"
+  },
+  {
+   "text": "venous thrombosis",
+   "source_id": "orphanet",
+   "evidence": "venous thrombosis"
+  },
+  {
+   "text": "sudden venous hemorrhage",
+   "source_id": "orphanet",
+   "evidence": "sudden venous hemorrhage"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/90308",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

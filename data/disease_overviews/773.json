@@ -1,0 +1,83 @@
+{
+ "idx": 773,
+ "name": "Chanarin-Dorfman症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/98907",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Neutral lipid storage disease with ichthyosis"
+  }
+ ],
+ "summary": {
+  "text": "A form of autosomal recessive neutral lipid storage disease characterized by the accumulation of lipid vacuoles in granulocytes (so-called Jordan's anomaly) and a variety of other cell types. Clinically, the skin symptoms with ichthyosiform erythroderma and scaling are initially in the foreground. Later, steatosis hepatis, hepatomegaly and muscle weakness develop. Other manifestations include growth delay, cataracts, sensorineural hearing loss, intellectual disability and bowel disease.",
+  "source_id": "orphanet",
+  "evidence": "A form of autosomal recessive neutral li",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "ichthyosiform erythroderma and scaling",
+   "source_id": "orphanet",
+   "evidence": "ichthyosiform erythroderma and scaling"
+  },
+  {
+   "text": "hepatomegaly",
+   "source_id": "orphanet",
+   "evidence": "hepatomegaly"
+  },
+  {
+   "text": "muscle weakness",
+   "source_id": "orphanet",
+   "evidence": "muscle weakness"
+  },
+  {
+   "text": "growth delay",
+   "source_id": "orphanet",
+   "evidence": "growth delay"
+  },
+  {
+   "text": "cataracts",
+   "source_id": "orphanet",
+   "evidence": "cataracts"
+  },
+  {
+   "text": "sensorineural hearing loss",
+   "source_id": "orphanet",
+   "evidence": "sensorineural hearing loss"
+  },
+  {
+   "text": "intellectual disability",
+   "source_id": "orphanet",
+   "evidence": "intellectual disability"
+  },
+  {
+   "text": "bowel disease",
+   "source_id": "orphanet",
+   "evidence": "bowel disease"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/98907",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: lipid vacuoles in granulocytes（血液検査） / steatosis hepatis",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

@@ -1,0 +1,55 @@
+{
+ "idx": 940,
+ "name": "Usher症候群3型",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/231183",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Usher syndrome type 3"
+  }
+ ],
+ "summary": {
+  "text": "A rare ciliopathy characterized by progressive hearing and visual loss in the first decades of life and, in some cases, vestibular dysfunction. Patients have normal hearing at birth. Onset of hearing loss is usually in late childhood or adolescence after development of speech. Profound deafness is mostly reported by middle age. Retinitis pigmentosa related visual loss also develops in late childhood or adolescence. Developmental motor milestones are generally normal but vestibular dysfunction may occur in adulthood.",
+  "source_id": "orphanet",
+  "evidence": "A rare ciliopathy characterized by progr",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "progressive hearing and visual loss",
+   "source_id": "orphanet",
+   "evidence": "progressive hearing and visual loss"
+  },
+  {
+   "text": "vestibular dysfunction",
+   "source_id": "orphanet",
+   "evidence": "vestibular dysfunction"
+  }
+ ],
+ "onset": {
+  "text": "Onset of hearing loss is usually in late childhood or adolescence",
+  "source_id": "orphanet",
+  "evidence": "Onset of hearing loss is usually in late"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/231183",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

@@ -1,0 +1,79 @@
+{
+ "idx": 312,
+ "name": "ガラクトシアリドーシス",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_085/",
+   "fetched_at": "2026-09-24T00:49:57+09:00",
+   "sha256": "34159460854b4c03a19e2bf388fc79b209caa789dce47b1e5d340c4894776f85",
+   "title": "ガラクトシアリドーシス 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "ある保護たんぱくのはたらきが落ちることが原因の病気です。",
+  "source_id": "shouman",
+  "evidence": "ライソゾーム性保護蛋白質/カテプシンA（PPCA）の活性低下が原因である。",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "生まれたときからむくみや腹水がある",
+   "source_id": "shouman",
+   "evidence": "出生時から浮腫や腹水がみられる"
+  },
+  {
+   "text": "顔だちが粗くなる",
+   "source_id": "shouman",
+   "evidence": "粗な顔貌"
+  },
+  {
+   "text": "骨が変形する",
+   "source_id": "shouman",
+   "evidence": "骨の変形"
+  },
+  {
+   "text": "肝臓や脾臓が大きくなる",
+   "source_id": "shouman",
+   "evidence": "肝臓や脾臓の腫大"
+  },
+  {
+   "text": "ヘルニアができる",
+   "source_id": "shouman",
+   "evidence": "鼠径ヘルニア、臍ヘルニア"
+  },
+  {
+   "text": "視力が下がる",
+   "source_id": "shouman",
+   "evidence": "視力障害などの症状で発症し"
+  },
+  {
+   "text": "ふらつく、手足がぴくつく",
+   "source_id": "shouman",
+   "evidence": "小脳性失調、ミオクローヌス"
+  },
+  {
+   "text": "けいれん発作が起こる",
+   "source_id": "shouman",
+   "evidence": "痙攣発作"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "症状に対する支持療法が中心となる。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_085/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節が保存 HTML に無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:59:04+09:00",
+ "shard": 4
+}

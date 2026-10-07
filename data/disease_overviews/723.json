@@ -1,0 +1,60 @@
+{
+ "idx": 723,
+ "name": "常染色体優性尿細管間質性腎疾患(UMOD型)",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/02_07_027/",
+   "fetched_at": "2026-09-24T00:47:10+09:00",
+   "sha256": "cc7ce3957ed538336e8a665a526b7845c09301c412e27c1e4a70b097cd483cb0",
+   "title": "常染色体優性尿細管間質性腎疾患 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "腎臓の尿細管と間質が傷つき、腎臓のはたらきがゆっくり落ちていく病気です。",
+  "source_id": "shouman",
+  "evidence": "尿細管障害と間質の線維化、緩徐に進行する腎機能低下を特徴とする遺伝性腎疾患",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "腎臓のはたらきが落ちていく",
+   "source_id": "shouman",
+   "evidence": "進行性の腎機能障害"
+  },
+  {
+   "text": "子どものころに夜尿や尿もれがある",
+   "source_id": "shouman",
+   "evidence": "小児期の夜尿、尿失禁"
+  },
+  {
+   "text": "貧血になることがある",
+   "source_id": "shouman",
+   "evidence": "貧血"
+  },
+  {
+   "text": "血圧が低くなることがある",
+   "source_id": "shouman",
+   "evidence": "低血圧"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "根本的な治療は存在せず、保存期には尿酸を含めた慢性腎臓病の合併症管理を行う"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/02_07_027/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "症状の節は検査で分かる所見が中心で、自覚症状として取れたのは 4 件だった。",
+  "疫学の節は有病率の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:43:21+09:00",
+ "shard": 2
+}

@@ -1,0 +1,64 @@
+{
+ "idx": 501,
+ "name": "中鎖アシルCoA脱水素酵素欠損症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_03_045/",
+   "fetched_at": "2026-09-24T00:49:37+09:00",
+   "sha256": "27584f3625e45911b30b6d84c3cb2fa3368a30a48ba7d0be0b03aef8610d4aad",
+   "title": "中鎖アシルCoA脱水素酵素欠損症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "脂肪をエネルギーに変えるのに必要な酵素が足りない病気です。",
+  "source_id": "shouman",
+  "evidence": "中鎖（炭素数4〜10）の直鎖の脂肪酸を代謝するMCADの欠損である",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "けいれんが起きる",
+   "source_id": "shouman",
+   "evidence": "新生児期にけいれん"
+  },
+  {
+   "text": "意識がはっきりしなくなる",
+   "source_id": "shouman",
+   "evidence": "意識障害"
+  },
+  {
+   "text": "呼吸が苦しくなる",
+   "source_id": "shouman",
+   "evidence": "呼吸障害"
+  },
+  {
+   "text": "筋力が落ちる",
+   "source_id": "shouman",
+   "evidence": "筋力低下"
+  },
+  {
+   "text": "肝臓が大きくなる",
+   "source_id": "shouman",
+   "evidence": "肝腫大（脂肪肝）"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "十分量のブドウ糖を供給し"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_03_045/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は頻度の数値のみのため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:32:02+09:00",
+ "shard": 1
+}

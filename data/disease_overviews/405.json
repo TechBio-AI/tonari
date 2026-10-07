@@ -1,0 +1,67 @@
+{
+ "idx": 405,
+ "name": "心臓粘液腫関連カーニー複合",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/1359",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Carney complex"
+  }
+ ],
+ "summary": {
+  "text": "A rare endocrine disease characterized by lentigines with a specific peri-orifical distribution, blue nevus, myxomas, various endocrine tumors including primary pigmented nodular adrenocortical disease (PPNAD), acromegaly, thyroid tumors, and a wide range of other tumors.",
+  "source_id": "orphanet",
+  "evidence": "A rare endocrine disease characterized b",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "lentigines",
+   "source_id": "orphanet",
+   "evidence": "lentigines"
+  },
+  {
+   "text": "blue nevus",
+   "source_id": "orphanet",
+   "evidence": "blue nevus"
+  },
+  {
+   "text": "myxomas",
+   "source_id": "orphanet",
+   "evidence": "myxomas"
+  },
+  {
+   "text": "acromegaly",
+   "source_id": "orphanet",
+   "evidence": "acromegaly"
+  },
+  {
+   "text": "thyroid tumors",
+   "source_id": "orphanet",
+   "evidence": "thyroid tumors"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/1359",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

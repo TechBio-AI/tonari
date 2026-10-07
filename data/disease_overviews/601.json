@@ -1,0 +1,70 @@
+{
+ "idx": 601,
+ "name": "中條-西村症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4582",
+   "fetched_at": "2026-09-24T00:45:41+09:00",
+   "sha256": "52ba1eaa2946610c8694316d65787ecc842053541e8f25aeab867c1d351d1aad",
+   "title": "中條・西村症候群（指定難病２６８） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "熱や赤い発疹をくり返す、自己炎症性の病気のひとつです。",
+  "source_id": "nanbyou",
+  "evidence": "発熱や赤い発疹などを繰り返す「自己 炎症 性疾患」の1つです",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "手足にしもやけのような症状が出る",
+   "source_id": "nanbyou",
+   "evidence": "手足のしもやけのような症状で始まり"
+  },
+  {
+   "text": "熱が出る、赤い発疹が出る",
+   "source_id": "nanbyou",
+   "evidence": "発熱や赤い発疹、筋肉痛などを繰り返します"
+  },
+  {
+   "text": "筋肉が痛む",
+   "source_id": "nanbyou",
+   "evidence": "筋肉痛"
+  },
+  {
+   "text": "背が低いなど発育が遅れる",
+   "source_id": "nanbyou",
+   "evidence": "身長が低いなど発育の遅れも見られます"
+  },
+  {
+   "text": "顔や腕の脂肪と筋肉が減ってやせる",
+   "source_id": "nanbyou",
+   "evidence": "顔や腕の脂肪と筋肉が減ってやせてしまい"
+  },
+  {
+   "text": "指が長く節くれだつ、関節が固まる",
+   "source_id": "nanbyou",
+   "evidence": "指が長く節くれだって、関節が固まり伸びなくなって"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "決まった治療法はありません。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4582",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は出身地の説明で、発症年齢の記載が無いため onset は null。",
+  "治療の節には薬の分類名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:52:18+09:00",
+ "shard": 3
+}

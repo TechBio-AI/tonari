@@ -1,0 +1,79 @@
+{
+ "idx": 156,
+ "name": "オルニチントランスカルバミラーゼ欠損症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_01_013/",
+   "fetched_at": "2026-09-24T00:49:01+09:00",
+   "sha256": "828889570d31053f6182e880e5031e1769c2cb03ac6a108780b3e9708a3e3e79",
+   "title": "オルニチントランスカルバミラーゼ欠損症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "尿素サイクルという回路の障害で、血液中のアンモニアが高くなる病気です。",
+  "source_id": "shouman",
+  "evidence": "尿素サイクル異常症による高アンモニア血症",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "吐く",
+   "source_id": "shouman",
+   "evidence": "嘔吐"
+  },
+  {
+   "text": "おっぱいやミルクを飲む力が弱い",
+   "source_id": "shouman",
+   "evidence": "哺乳力低下"
+  },
+  {
+   "text": "呼吸が速くなる",
+   "source_id": "shouman",
+   "evidence": "多呼吸"
+  },
+  {
+   "text": "けいれんが起きる",
+   "source_id": "shouman",
+   "evidence": "けいれん"
+  },
+  {
+   "text": "意識がはっきりしなくなる",
+   "source_id": "shouman",
+   "evidence": "意識障害"
+  },
+  {
+   "text": "行動に変化が出る",
+   "source_id": "shouman",
+   "evidence": "行動異常"
+  },
+  {
+   "text": "発達がゆっくり",
+   "source_id": "shouman",
+   "evidence": "発達障害などがみられる"
+  }
+ ],
+ "onset": {
+  "text": "男の子では新生児期の発症が多いです",
+  "source_id": "shouman",
+  "evidence": "男児では新生児発症が多い"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "・低蛋白食事療法"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_01_013/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "概要の節の一文が長く 40 字に収まらないため、症状の節の冒頭から summary の evidence を取った（同じページ）。",
+  "治療の節は薬剤名が中心のため、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:38:40+09:00",
+ "shard": 2
+}

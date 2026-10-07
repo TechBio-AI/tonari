@@ -1,0 +1,69 @@
+{
+ "idx": 499,
+ "name": "糖原病III型",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_05_067/",
+   "fetched_at": "2026-09-24T00:49:40+09:00",
+   "sha256": "8f9cbd82bc27e5e8d97b98ed220d8b7efb0a3aaef1946f57864d337ee5d0ec52",
+   "title": "糖原病Ⅲ型 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "グリコーゲンを分解する酵素が足りない、遺伝性の病気です。",
+  "source_id": "shouman",
+  "evidence": "グリコーゲン脱分枝酵素の欠損による常染色体遺伝性疾患で",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "空腹時に低血糖の症状が出る",
+   "source_id": "shouman",
+   "evidence": "空腹時の低血糖症状"
+  },
+  {
+   "text": "人形のような顔だちになる",
+   "source_id": "shouman",
+   "evidence": "人形様顔貌"
+  },
+  {
+   "text": "体の育ちがゆっくり",
+   "source_id": "shouman",
+   "evidence": "成長障害"
+  },
+  {
+   "text": "肝臓が大きくなる",
+   "source_id": "shouman",
+   "evidence": "肝腫大"
+  },
+  {
+   "text": "筋力が落ちる",
+   "source_id": "shouman",
+   "evidence": "筋力低下や心筋症をきたす"
+  },
+  {
+   "text": "運動の発達がゆっくり",
+   "source_id": "shouman",
+   "evidence": "運動発達遅滞が見られること"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "低血糖の予防には頻回の食事摂取"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_05_067/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は有病率の数値のみのため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:52:18+09:00",
+ "shard": 3
+}

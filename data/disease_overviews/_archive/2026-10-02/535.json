@@ -1,0 +1,57 @@
+{
+ "idx": 535,
+ "name": "エメリー・ドレイフス型筋ジストロフィー",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/261",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Emery-Dreifuss muscular dystrophy"
+  }
+ ],
+ "summary": {
+  "text": "A neuromuscular disease that is characterized by muscular weakness and atrophy, with early joint contractures and cardiomyopathy.",
+  "source_id": "orphanet",
+  "evidence": "A neuromuscular disease that is characte",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "muscular weakness and atrophy",
+   "source_id": "orphanet",
+   "evidence": "muscular weakness and atrophy"
+  },
+  {
+   "text": "early joint contractures",
+   "source_id": "orphanet",
+   "evidence": "early joint contractures"
+  },
+  {
+   "text": "cardiomyopathy",
+   "source_id": "orphanet",
+   "evidence": "cardiomyopathy"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/261",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

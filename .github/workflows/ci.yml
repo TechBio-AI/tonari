@@ -1,0 +1,73 @@
+name: CI
+
+# push のたびと main 宛ての pull request で、テスト → 表現リント → 公開面の import 境界 → ビルドを順に回す。
+# Secrets は使わない。Supabase 等の環境変数も与えない（未設定のままビルドが通ることを確かめる）。
+# デプロイはここでは行わない（当面、本番デプロイはファウンダーが手で行う。docs/DEPLOY_CHECKLIST_2026-09-26.md §4）。
+# 型チェックは next build の中で行われるので、別ジョブにしない。
+
+on:
+  push:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  ci:
+    name: test / lint / build
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      NEXT_TELEMETRY_DISABLED: '1'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # 失敗 0 件で通る。describe.skip で隔離したスイート（旧経路のテスト）は skip として数え、失敗にはしない
+      - name: Test (jest)
+        run: npm test -- --ci
+
+      # 公開面（app/demo/、data/disease_overviews/ の text 欄）の禁止語。python3 を使う（ubuntu-latest に同梱）
+      - name: Wording lint
+        run: bash scripts/lint-wording.sh
+
+      # /demo から旧画面・lib/services 等への import 禁止（.eslintrc.json の no-restricted-imports）
+      - name: Portal import lint
+        run: npm run lint:portal
+
+      # 環境変数なし（Supabase 未設定）でのビルド。型チェックを含む。
+      # next.config.js の ignoreDuringBuilds により ESLint はここでは走らない
+      - name: Build
+        run: npm run build
+
+  security:
+    name: npm audit
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+
+      # 結果は見るだけ。high 以上があっても CI は落とさない
+      - name: Run npm audit
+        run: npm audit --audit-level=high
+        continue-on-error: true

@@ -1,0 +1,63 @@
+{
+ "idx": 176,
+ "name": "プロラクチノーマ",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2965",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Prolactinoma"
+  }
+ ],
+ "summary": {
+  "text": "A rare, usually benign, neoplasm of the anterior pituitary gland that results in hyperprolactinemia. The most common clinical manifestations are amenorrhea and infertility in women; and impotence, decreased libido and infertility in men.",
+  "source_id": "orphanet",
+  "evidence": "A rare, usually benign, neoplasm of the ",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "amenorrhea",
+   "source_id": "orphanet",
+   "evidence": "amenorrhea"
+  },
+  {
+   "text": "infertility",
+   "source_id": "orphanet",
+   "evidence": "infertility"
+  },
+  {
+   "text": "impotence",
+   "source_id": "orphanet",
+   "evidence": "impotence"
+  },
+  {
+   "text": "decreased libido",
+   "source_id": "orphanet",
+   "evidence": "decreased libido"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2965",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: hyperprolactinemia",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

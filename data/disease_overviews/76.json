@@ -1,0 +1,75 @@
+{
+ "idx": 76,
+ "name": "大脳皮質基底核変性症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/142",
+   "fetched_at": "2026-09-24T00:44:18+09:00",
+   "sha256": "a3316cb48bbaf74f077f865fecc49d1f074e7c86bcd1d37e96b9d7f9742833d7",
+   "title": "大脳皮質基底核変性症（指定難病７） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "筋肉の硬さや動きの遅さと、手がうまく使えない症状が同時に現れる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "パーキンソン症状(筋肉の硬さ、運動の遅さ、歩行障害など)と大脳皮質症状",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "片方の腕が思うように使えない",
+   "source_id": "nanbyou",
+   "evidence": "最初に片方の腕が思うように使えない"
+  },
+  {
+   "text": "運動が遅くなる",
+   "source_id": "nanbyou",
+   "evidence": "運動の遅さを自覚することが多い"
+  },
+  {
+   "text": "歩きにくくなる",
+   "source_id": "nanbyou",
+   "evidence": "同じ側の足も重くなり歩行が不自由になります"
+  },
+  {
+   "text": "転びやすくなる",
+   "source_id": "nanbyou",
+   "evidence": "転びやすいなどの症状が現れます"
+  },
+  {
+   "text": "言葉が出にくくなる",
+   "source_id": "nanbyou",
+   "evidence": "言葉が出にくくなったり(失語症)"
+  },
+  {
+   "text": "片側の空間を見落とす",
+   "source_id": "nanbyou",
+   "evidence": "片方の空間を見落としてしまったり"
+  },
+  {
+   "text": "手足がすばやくぴくつく",
+   "source_id": "nanbyou",
+   "evidence": "素早いぴくつき"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "特効薬はありません。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/142",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節の発病年齢は数値と一体のため onset は null。",
+  "治療の節には薬剤名が並ぶので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:55:18+09:00",
+ "shard": 4
+}

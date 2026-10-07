@@ -1,0 +1,75 @@
+{
+ "idx": 213,
+ "name": "VIP産生腫瘍",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_32_073/",
+   "fetched_at": "2026-09-24T00:48:13+09:00",
+   "sha256": "24ae84c204204c26215215e28d6bb85af480f5d0362aa512e4a2ebc05943b82c",
+   "title": "VIP産生腫瘍 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "大量の水のような下痢が起こる腫瘍です。",
+  "source_id": "shouman",
+  "evidence": "大量の水様下痢とそれに伴う低カリウム血症",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "水のような下痢が大量に出る",
+   "source_id": "shouman",
+   "evidence": "大量の水様下痢"
+  },
+  {
+   "text": "疲れやすい",
+   "source_id": "shouman",
+   "evidence": "易疲労感"
+  },
+  {
+   "text": "筋力が落ちる",
+   "source_id": "shouman",
+   "evidence": "筋力低下"
+  },
+  {
+   "text": "筋肉がこわばる",
+   "source_id": "shouman",
+   "evidence": "筋硬直"
+  },
+  {
+   "text": "吐き気がする、吐く",
+   "source_id": "shouman",
+   "evidence": "吐き気・嘔吐"
+  },
+  {
+   "text": "皮膚が赤くなる",
+   "source_id": "shouman",
+   "evidence": "皮膚潮紅"
+  },
+  {
+   "text": "お腹の痛みは軽い",
+   "source_id": "shouman",
+   "evidence": "腹痛は軽度であるとされる"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "切除術が推奨される"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_32_073/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "概要にあたる節が保存 HTML に無いため、症状の節から summary の evidence を取った。",
+  "発症年齢は数値と一体のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:33:34+09:00",
+ "shard": 1
+}

@@ -1,0 +1,55 @@
+{
+ "idx": 620,
+ "name": "遺伝性感覚性ニューロパチーI型",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/36386",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Hereditary sensory and autonomic neuropathy type 1"
+  }
+ ],
+ "summary": {
+  "text": "A rare slowly progressive neurological disorder characterized by prominent predominantly distal sensory loss, autonomic disturbances in some patients, autosomal dominant inheritance, and juvenile or adulthood disease onset.",
+  "source_id": "orphanet",
+  "evidence": "A rare slowly progressive neurological d",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "prominent predominantly distal sensory loss",
+   "source_id": "orphanet",
+   "evidence": "prominent predominantly distal sensory"
+  },
+  {
+   "text": "autonomic disturbances",
+   "source_id": "orphanet",
+   "evidence": "autonomic disturbances"
+  }
+ ],
+ "onset": {
+  "text": "juvenile or adulthood disease onset",
+  "source_id": "orphanet",
+  "evidence": "juvenile or adulthood disease onset"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/36386",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

@@ -1,0 +1,82 @@
+{
+ "idx": 881,
+ "name": "VCP関連多系統蛋白症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/52430",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Inclusion body myopathy with Paget disease of bone and frontotemporal dementia"
+  }
+ ],
+ "summary": {
+  "text": "Inclusion body myopathy with Paget disease of bone and frontotemporal dementia (IBMPFD) is a multisystem degenerative genetic disorder characterized by adult-onset proximal and distal muscle weakness (clinically resembling limb-girdle muscular dystrophy); early-onset Paget disease of bone, manifesting with bone pain, deformity and enlargement of the long-bones; and premature frontotemporal dementia, manifesting first with dysnomia, dyscalculia and comprehension deficits followed by progressive aphasia, alexia, and agraphia. As the disease progresses, muscle weakness begins to affect the other limbs and respiratory muscles, ultimately resulting in respiratory or cardiac failure.",
+  "source_id": "orphanet",
+  "evidence": "Inclusion body myopathy with Paget disea",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "proximal and distal muscle weakness",
+   "source_id": "orphanet",
+   "evidence": "proximal and distal muscle weakness"
+  },
+  {
+   "text": "bone pain",
+   "source_id": "orphanet",
+   "evidence": "bone pain"
+  },
+  {
+   "text": "dysnomia",
+   "source_id": "orphanet",
+   "evidence": "dysnomia"
+  },
+  {
+   "text": "dyscalculia",
+   "source_id": "orphanet",
+   "evidence": "dyscalculia"
+  },
+  {
+   "text": "comprehension deficits",
+   "source_id": "orphanet",
+   "evidence": "comprehension deficits"
+  },
+  {
+   "text": "progressive aphasia",
+   "source_id": "orphanet",
+   "evidence": "progressive aphasia"
+  },
+  {
+   "text": "alexia",
+   "source_id": "orphanet",
+   "evidence": "alexia"
+  },
+  {
+   "text": "agraphia",
+   "source_id": "orphanet",
+   "evidence": "agraphia"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/52430",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "筋力低下・骨・認知症で発症時期の書き方が異なり、1 つに決められないため onset は null。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

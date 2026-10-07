@@ -1,0 +1,74 @@
+{
+ "idx": 468,
+ "name": "GM1ガングリオシドーシス",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_086/",
+   "fetched_at": "2026-09-24T00:49:58+09:00",
+   "sha256": "036ae29cde1c02662b83cd62746a9af719ed14b6c172ee9c587f8900322c912e",
+   "title": "GM1-ガングリオシドーシス 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "脳をはじめ全身の臓器に、ある糖脂質がたまる病気です。",
+  "source_id": "shouman",
+  "evidence": "脳をはじめとして全身臓器にGM1ガングリオシドなどの糖脂質",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "発達がゆっくり",
+   "source_id": "shouman",
+   "evidence": "生後６ヶ月までに発達の遅れがあり"
+  },
+  {
+   "text": "体がふにゃふにゃしている",
+   "source_id": "shouman",
+   "evidence": "筋緊張低下"
+  },
+  {
+   "text": "音に敏感になる",
+   "source_id": "shouman",
+   "evidence": "音に対する過敏性が見られること"
+  },
+  {
+   "text": "全身がけいれんする",
+   "source_id": "shouman",
+   "evidence": "全身けいれんが出現する"
+  },
+  {
+   "text": "肝臓や脾臓が大きくなる",
+   "source_id": "shouman",
+   "evidence": "肝脾腫"
+  },
+  {
+   "text": "全身の骨に異常が出る",
+   "source_id": "shouman",
+   "evidence": "全身の骨異常などが進行する"
+  },
+  {
+   "text": "話しにくくなる",
+   "source_id": "shouman",
+   "evidence": "初期には構音障害が目立つ"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "現段階では対症療法に限られる。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_086/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は罹患率の数値のみのため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T03:00:26+09:00",
+ "shard": 4
+}

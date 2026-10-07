@@ -1,0 +1,76 @@
+{
+ "idx": 425,
+ "name": "MECP2重複症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/28597",
+   "fetched_at": "2026-09-24T00:44:36+09:00",
+   "sha256": "95cd70d6fb2d8ccfde4f8c71caa0b45b1518c68a85909a1b69a8b2a0fc5afbd2",
+   "title": "MECP2重複症候群（指定難病３３９） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "赤ちゃんのころから筋肉の緊張が弱く、発達が強く遅れ、まひが進む病気です。",
+  "source_id": "nanbyou",
+  "evidence": "乳児期早期からの筋緊張低下、重度の精神運動発達遅滞、進行性痙性麻痺",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "体がふにゃふにゃしている",
+   "source_id": "nanbyou",
+   "evidence": "筋緊張低下"
+  },
+  {
+   "text": "知的な障害が重い",
+   "source_id": "nanbyou",
+   "evidence": "最重度知的障害"
+  },
+  {
+   "text": "運動の発達がゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "運動発達遅滞"
+  },
+  {
+   "text": "足を中心にまひが進む",
+   "source_id": "nanbyou",
+   "evidence": "進行性の下肢優位の痙性麻痺"
+  },
+  {
+   "text": "呼吸器の感染をくり返す",
+   "source_id": "nanbyou",
+   "evidence": "頻回の呼吸器感染"
+  },
+  {
+   "text": "便秘や吐き気がある",
+   "source_id": "nanbyou",
+   "evidence": "便秘・嘔吐"
+  },
+  {
+   "text": "薬が効きにくいてんかんが起こる",
+   "source_id": "nanbyou",
+   "evidence": "薬剤抵抗性てんかんが主な症状です"
+  }
+ ],
+ "onset": {
+  "text": "多くは男の子ですが、女の子にも起こります",
+  "source_id": "nanbyou",
+  "evidence": "患者さんの多くは男の子ですが、女の子にも起こります。"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "様々な症状に対する対症療法と療育が行われています"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/28597",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T03:00:26+09:00",
+ "shard": 4
+}

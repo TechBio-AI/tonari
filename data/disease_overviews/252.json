@@ -1,0 +1,72 @@
+{
+ "idx": 252,
+ "name": "ウルリッヒ型先天性筋ジストロフィー",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/75840",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Ullrich congenital muscular dystrophy"
+  }
+ ],
+ "summary": {
+  "text": "A form of congenital muscular dystrophy characterized by congenital weakness, hypotonia, proximal joint contractures, marked hyperlaxity of the distal joints, with a loss of ambulation (if achieved) and uniform respiratory insufficiency during childhood.",
+  "source_id": "orphanet",
+  "evidence": "A form of congenital muscular dystrophy ",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "congenital weakness",
+   "source_id": "orphanet",
+   "evidence": "congenital weakness"
+  },
+  {
+   "text": "hypotonia",
+   "source_id": "orphanet",
+   "evidence": "hypotonia"
+  },
+  {
+   "text": "proximal joint contractures",
+   "source_id": "orphanet",
+   "evidence": "proximal joint contractures"
+  },
+  {
+   "text": "marked hyperlaxity of the distal joints",
+   "source_id": "orphanet",
+   "evidence": "marked hyperlaxity of the distal joints"
+  },
+  {
+   "text": "loss of ambulation",
+   "source_id": "orphanet",
+   "evidence": "loss of ambulation"
+  },
+  {
+   "text": "uniform respiratory insufficiency",
+   "source_id": "orphanet",
+   "evidence": "uniform respiratory insufficiency"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/75840",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

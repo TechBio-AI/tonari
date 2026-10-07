@@ -1,0 +1,82 @@
+{
+ "idx": 623,
+ "name": "Morvan症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/83467",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Morvan syndrome"
+  }
+ ],
+ "summary": {
+  "text": "Morvan syndrome is a rare, life-threatening, acquired neurologic disease characterized by neuromyotonia, dysautonomia and encephalopathy with severe insomnia. Signs involving central (e.g. hallucinations, confusion, amnesia, myoclonus), autonomic (e.g. variations in blood pressure, hyperhidrosis) and peripheral (e.g. painful cramps, myokymia) hyperactivity, as well as systemic manifestations (such as weight loss, pruritus, fever), are reported. Thymoma is present in some cases.",
+  "source_id": "orphanet",
+  "evidence": "Morvan syndrome is a rare, life-threaten",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "neuromyotonia",
+   "source_id": "orphanet",
+   "evidence": "neuromyotonia"
+  },
+  {
+   "text": "dysautonomia",
+   "source_id": "orphanet",
+   "evidence": "dysautonomia"
+  },
+  {
+   "text": "encephalopathy",
+   "source_id": "orphanet",
+   "evidence": "encephalopathy"
+  },
+  {
+   "text": "severe insomnia",
+   "source_id": "orphanet",
+   "evidence": "severe insomnia"
+  },
+  {
+   "text": "hallucinations",
+   "source_id": "orphanet",
+   "evidence": "hallucinations"
+  },
+  {
+   "text": "confusion",
+   "source_id": "orphanet",
+   "evidence": "confusion"
+  },
+  {
+   "text": "amnesia",
+   "source_id": "orphanet",
+   "evidence": "amnesia"
+  },
+  {
+   "text": "painful cramps",
+   "source_id": "orphanet",
+   "evidence": "painful cramps"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/83467",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

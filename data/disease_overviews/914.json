@@ -1,0 +1,54 @@
+{
+ "idx": 914,
+ "name": "チロシン血症1型",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/882",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Tyrosinemia type 1"
+  }
+ ],
+ "summary": {
+  "text": "A rare inborn error of tyrosine catabolism characterized by progressive liver disease, renal tubular dysfunction, porphyria-like crises（一部省略）",
+  "source_id": "orphanet",
+  "evidence": "A rare inborn error of tyrosine cataboli",
+  "lang": "en",
+  "omitted": true
+ },
+ "symptoms": [
+  {
+   "text": "progressive liver disease",
+   "source_id": "orphanet",
+   "evidence": "progressive liver disease"
+  },
+  {
+   "text": "porphyria-like crises",
+   "source_id": "orphanet",
+   "evidence": "porphyria-like crises"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/882",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: renal tubular dysfunction",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "summary から治療薬名（nitisinone）を含む句「and a dramatic improvement in prognosis following treatment with nitisinone」を省き、末尾に「（一部省略）」を付けた（2026-09-26 ファウンダー判断、docs/DECISIONS.md）。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

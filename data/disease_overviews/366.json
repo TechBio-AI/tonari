@@ -1,0 +1,70 @@
+{
+ "idx": 366,
+ "name": "巨赤芽球性貧血（ビタミンB12欠乏）",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/09_01_001/",
+   "fetched_at": "2026-09-24T00:50:12+09:00",
+   "sha256": "d160d14d96f7cd32153d6e0f6981539df469098e10076b0d2599144b0a227e83",
+   "title": "巨赤芽球性貧血 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "骨髄に大きな未熟な赤血球のもとが現れるタイプの貧血の総称です。",
+  "source_id": "shouman",
+  "evidence": "種々の原因により骨髄に巨赤芽球が出現する貧血の総称である",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "動悸がする",
+   "source_id": "shouman",
+   "evidence": "動悸"
+  },
+  {
+   "text": "息が切れる",
+   "source_id": "shouman",
+   "evidence": "息切れ"
+  },
+  {
+   "text": "疲れやすい",
+   "source_id": "shouman",
+   "evidence": "易疲労感"
+  },
+  {
+   "text": "舌が赤くなり、つるつるになる",
+   "source_id": "shouman",
+   "evidence": "舌乳頭の萎縮、発赤を伴うハンター舌炎"
+  },
+  {
+   "text": "感覚が鈍くなる",
+   "source_id": "shouman",
+   "evidence": "知覚、振動覚、位置覚の低下"
+  },
+  {
+   "text": "意識がはっきりしなくなることがある",
+   "source_id": "shouman",
+   "evidence": "意識障害"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "高容量経口投与を行う"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/09_01_001/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節は薬剤名が中心のため、含まない箇所を evidence に選んだ。",
+  "疫学の節が保存 HTML に無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:30:26+09:00",
+ "shard": 1
+}

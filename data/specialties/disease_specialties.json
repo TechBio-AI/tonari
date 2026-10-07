@@ -1,0 +1,393 @@
+{
+  "_readme": [
+    "診療科の重ね書き（フェーズ2〜4: タスク4）。草案。ファウンダーが医学的に判定する。",
+    "知識ファイルには診療科のデータが無いため、別ファイルとして新設した（2026-09-10 承認）。",
+    "",
+    "入れてよいもの: 診療科名などの一般名詞だけ。",
+    "入れてはいけないもの: 実在の医療機関名・医師名。架空の病院名も作らない。",
+    "  （実在名を出す系統は lib/services/specialist-database.ts にあるが、別系統なので混ぜない）",
+    "",
+    "role:",
+    "  referral … 紹介先として妥当な科。紹介先の集計にはこれだけを数える。",
+    "  entry    … 最初に受診しがちだが紹介先ではない科。数えない。",
+    "             note に「なぜそこに最初にかかるのか」を必ず書く。",
+    "             これがあると『その科でずっと診られていた』という診断遅延の実態が画面に残る。",
+    "",
+    "age_scope: child / adult / any。名称の文字列ではなく、この値で年齢の絞り込みを行う。",
+    "",
+    "decided_by が null の間は草案。ファウンダーの判定後に 'founder' に変える。",
+    "",
+    "2026-09-10 ファウンダー判定済み。同じ科が referral と entry の両方を持つ場合は、",
+    "  role を配列にせず重複行で表す（集計を単純に保つため）。例: X連鎖性低リン血症性くる病の整形外科。",
+    "2026-09-11: 「遺伝性ATTR型アミロイドーシス」5 件を追加。ファウンダー判定済み（decided_by: founder）。消化器内科を entry に置いた理由: 自律神経障害による下痢・便秘が過敏性腸症候群として長く診られる、診断遅延の典型経路。"
+  ],
+  "version": "2026-09-11",
+  "status": "decided-by-founder-2026-09-11",
+  "entries": {
+    "ファブリー病": [
+      {
+        "specialty_name": "遺伝の専門外来",
+        "role": "referral",
+        "age_scope": "any",
+        "note": null
+      },
+      {
+        "specialty_name": "小児科",
+        "role": "referral",
+        "age_scope": "child",
+        "note": null
+      },
+      {
+        "specialty_name": "腎臓内科",
+        "role": "referral",
+        "age_scope": "adult",
+        "note": null
+      },
+      {
+        "specialty_name": "循環器内科",
+        "role": "referral",
+        "age_scope": "adult",
+        "note": null
+      },
+      {
+        "specialty_name": "脳神経内科",
+        "role": "referral",
+        "age_scope": "adult",
+        "note": null
+      },
+      {
+        "specialty_name": "整形外科",
+        "role": "entry",
+        "age_scope": "any",
+        "note": "手足の痛みを成長痛や関節の痛みとして、最初に受診することが多い"
+      },
+      {
+        "specialty_name": "皮膚科",
+        "role": "entry",
+        "age_scope": "any",
+        "note": "へその周りなどの赤い小さな斑点を、皮膚の病気として最初に受診することがある"
+      }
+    ],
+    "ゴーシェ病": [
+      {
+        "specialty_name": "血液内科",
+        "role": "referral",
+        "age_scope": "adult",
+        "note": null
+      },
+      {
+        "specialty_name": "小児科",
+        "role": "referral",
+        "age_scope": "child",
+        "note": null
+      },
+      {
+        "specialty_name": "遺伝の専門外来",
+        "role": "referral",
+        "age_scope": "any",
+        "note": null
+      },
+      {
+        "specialty_name": "消化器内科",
+        "role": "entry",
+        "age_scope": "adult",
+        "note": "脾臓の腫れや肝機能の異常として、最初に受診することが多い"
+      },
+      {
+        "specialty_name": "整形外科",
+        "role": "entry",
+        "age_scope": "any",
+        "note": "骨の痛みや原因のはっきりしない骨折として、最初に受診することがある"
+      }
+    ],
+    "ポンペ病": [
+      {
+        "specialty_name": "脳神経内科",
+        "role": "referral",
+        "age_scope": "adult",
+        "note": null
+      },
+      {
+        "specialty_name": "小児科",
+        "role": "referral",
+        "age_scope": "child",
+        "note": null
+      },
+      {
+        "specialty_name": "遺伝の専門外来",
+        "role": "referral",
+        "age_scope": "any",
+        "note": null
+      },
+      {
+        "specialty_name": "循環器内科",
+        "role": "referral",
+        "age_scope": "child",
+        "note": null
+      },
+      {
+        "specialty_name": "呼吸器内科",
+        "role": "entry",
+        "age_scope": "adult",
+        "note": "息切れや睡眠中の呼吸の問題として、最初に受診することがある"
+      }
+    ],
+    "ムコ多糖症I型": [
+      {
+        "specialty_name": "小児科",
+        "role": "referral",
+        "age_scope": "child",
+        "note": null
+      },
+      {
+        "specialty_name": "遺伝の専門外来",
+        "role": "referral",
+        "age_scope": "any",
+        "note": null
+      },
+      {
+        "specialty_name": "循環器内科",
+        "role": "referral",
+        "age_scope": "any",
+        "note": null
+      },
+      {
+        "specialty_name": "耳鼻咽喉科",
+        "role": "entry",
+        "age_scope": "child",
+        "note": "繰り返す中耳炎やいびきとして、最初に受診することが多い"
+      },
+      {
+        "specialty_name": "整形外科",
+        "role": "entry",
+        "age_scope": "any",
+        "note": "関節の動きにくさや手根管症候群として、最初に受診することがある"
+      },
+      {
+        "specialty_name": "眼科",
+        "role": "entry",
+        "age_scope": "any",
+        "note": "角膜の混濁として、最初に受診することがある"
+      }
+    ],
+    "フェニルケトン尿症": [
+      {
+        "specialty_name": "小児科",
+        "role": "referral",
+        "age_scope": "child",
+        "note": "新生児マススクリーニングで見つかることが多い"
+      },
+      {
+        "specialty_name": "代謝の専門外来",
+        "role": "referral",
+        "age_scope": "any",
+        "note": null
+      },
+      {
+        "specialty_name": "遺伝の専門外来",
+        "role": "referral",
+        "age_scope": "any",
+        "note": null
+      },
+      {
+        "specialty_name": "精神科",
+        "role": "entry",
+        "age_scope": "adult",
+        "note": "治療が中断した場合に、精神症状や集中力の低下として受診することがある"
+      }
+    ],
+    "オルニチントランスカルバミラーゼ欠損症": [
+      {
+        "specialty_name": "小児科",
+        "role": "referral",
+        "age_scope": "child",
+        "note": null
+      },
+      {
+        "specialty_name": "代謝の専門外来",
+        "role": "referral",
+        "age_scope": "any",
+        "note": null
+      },
+      {
+        "specialty_name": "遺伝の専門外来",
+        "role": "referral",
+        "age_scope": "any",
+        "note": null
+      },
+      {
+        "specialty_name": "救急科",
+        "role": "entry",
+        "age_scope": "any",
+        "note": "意識がもうろうとする、けいれんするなどで、最初に救急を受診することが多い"
+      },
+      {
+        "specialty_name": "精神科",
+        "role": "entry",
+        "age_scope": "adult",
+        "note": "遅発型では、原因のはっきりしない意識の変化や行動の変化として、最初に受診することがある"
+      }
+    ],
+    "軟骨無形成症": [
+      {
+        "specialty_name": "小児科",
+        "role": "referral",
+        "age_scope": "child",
+        "note": null
+      },
+      {
+        "specialty_name": "整形外科",
+        "role": "referral",
+        "age_scope": "any",
+        "note": null
+      },
+      {
+        "specialty_name": "遺伝の専門外来",
+        "role": "referral",
+        "age_scope": "any",
+        "note": null
+      },
+      {
+        "specialty_name": "産婦人科",
+        "role": "entry",
+        "age_scope": "child",
+        "note": "妊娠中の超音波検査で手足の短さを指摘され、最初に相談されることが多い"
+      }
+    ],
+    "低ホスファターゼ症": [
+      {
+        "specialty_name": "小児科",
+        "role": "referral",
+        "age_scope": "child",
+        "note": null
+      },
+      {
+        "specialty_name": "内分泌内科",
+        "role": "referral",
+        "age_scope": "adult",
+        "note": null
+      },
+      {
+        "specialty_name": "整形外科",
+        "role": "referral",
+        "age_scope": "any",
+        "note": null
+      },
+      {
+        "specialty_name": "遺伝の専門外来",
+        "role": "referral",
+        "age_scope": "any",
+        "note": null
+      },
+      {
+        "specialty_name": "歯科",
+        "role": "entry",
+        "age_scope": "child",
+        "note": "乳歯が早く抜けることで、最初に歯科を受診することが多い"
+      }
+    ],
+    "X連鎖性低リン血症性くる病": [
+      {
+        "specialty_name": "小児科",
+        "role": "referral",
+        "age_scope": "child",
+        "note": null
+      },
+      {
+        "specialty_name": "内分泌内科",
+        "role": "referral",
+        "age_scope": "adult",
+        "note": null
+      },
+      {
+        "specialty_name": "整形外科",
+        "role": "referral",
+        "age_scope": "any",
+        "note": null
+      },
+      {
+        "specialty_name": "遺伝の専門外来",
+        "role": "referral",
+        "age_scope": "any",
+        "note": null
+      },
+      {
+        "specialty_name": "歯科",
+        "role": "entry",
+        "age_scope": "any",
+        "note": "歯の膿瘍を繰り返すことで、最初に歯科を受診することがある"
+      },
+      {
+        "specialty_name": "整形外科",
+        "role": "entry",
+        "age_scope": "child",
+        "note": "O脚や歩き方の異常として、最初に受診することが多い"
+      }
+    ],
+    "脊髄性筋萎縮症": [
+      {
+        "specialty_name": "小児神経の専門外来",
+        "role": "referral",
+        "age_scope": "child",
+        "note": null
+      },
+      {
+        "specialty_name": "脳神経内科",
+        "role": "referral",
+        "age_scope": "adult",
+        "note": null
+      },
+      {
+        "specialty_name": "遺伝の専門外来",
+        "role": "referral",
+        "age_scope": "any",
+        "note": null
+      },
+      {
+        "specialty_name": "リハビリテーション科",
+        "role": "entry",
+        "age_scope": "child",
+        "note": "運動の発達の遅れとして、最初に相談されることがある"
+      },
+      {
+        "specialty_name": "整形外科",
+        "role": "entry",
+        "age_scope": "any",
+        "note": "背骨の曲がりや歩き方の異常として、最初に受診することがある"
+      }
+    ],
+    "遺伝性ATTR型アミロイドーシス": [
+      {
+        "specialty_name": "脳神経内科",
+        "role": "referral",
+        "age_scope": "adult",
+        "note": null
+      },
+      {
+        "specialty_name": "循環器内科",
+        "role": "referral",
+        "age_scope": "adult",
+        "note": "心アミロイドーシスの評価"
+      },
+      {
+        "specialty_name": "遺伝の専門外来",
+        "role": "referral",
+        "age_scope": "any",
+        "note": null
+      },
+      {
+        "specialty_name": "整形外科",
+        "role": "entry",
+        "age_scope": "adult",
+        "note": "手のしびれを手根管症候群として、最初に受診することが多い"
+      },
+      {
+        "specialty_name": "消化器内科",
+        "role": "entry",
+        "age_scope": "adult",
+        "note": "下痢や便秘を繰り返す症状で、最初に受診することがある"
+      }
+    ]
+  },
+  "decided_by": "founder"
+}

@@ -1,0 +1,67 @@
+{
+ "idx": 641,
+ "name": "脊髄小脳変性症7型",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/94147",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Spinocerebellar ataxia type 7"
+  }
+ ],
+ "summary": {
+  "text": "An autosomal dominant cerebellar ataxia type II that is characterized by progressive ataxia, motor system abnormalities, dysarthria, dysphagia and retinal degeneration leading to progressive blindness.",
+  "source_id": "orphanet",
+  "evidence": "An autosomal dominant cerebellar ataxia ",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "progressive ataxia",
+   "source_id": "orphanet",
+   "evidence": "progressive ataxia"
+  },
+  {
+   "text": "motor system abnormalities",
+   "source_id": "orphanet",
+   "evidence": "motor system abnormalities"
+  },
+  {
+   "text": "dysarthria",
+   "source_id": "orphanet",
+   "evidence": "dysarthria"
+  },
+  {
+   "text": "dysphagia",
+   "source_id": "orphanet",
+   "evidence": "dysphagia"
+  },
+  {
+   "text": "progressive blindness",
+   "source_id": "orphanet",
+   "evidence": "progressive blindness"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/94147",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

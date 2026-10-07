@@ -1,0 +1,69 @@
+{
+ "idx": 912,
+ "name": "3-メチルグルタコン酸尿症（Barth型以外）",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_02_028/",
+   "fetched_at": "2026-09-24T00:49:17+09:00",
+   "sha256": "2929d25969c952f7606cd013b77bb7559eca59082b4c0a3801438b3b7be380ea",
+   "title": "メチルグルタコン酸尿症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "尿にある有機酸が多く出ることを特徴とする病気の集まりです。",
+  "source_id": "shouman",
+  "evidence": "尿中の3-メチルグルタコン酸(３MGCA)の過剰排泄を特徴とする疾患群であり",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "発語が遅れる",
+   "source_id": "shouman",
+   "evidence": "発語の遅れ程度のものから"
+  },
+  {
+   "text": "急性脳症を起こすことがある",
+   "source_id": "shouman",
+   "evidence": "急性脳症、小脳失調"
+  },
+  {
+   "text": "ふらつく",
+   "source_id": "shouman",
+   "evidence": "小脳失調"
+  },
+  {
+   "text": "発達が強くゆっくりになる",
+   "source_id": "shouman",
+   "evidence": "重度の精神運動発達遅滞に至る例"
+  },
+  {
+   "text": "視機能が落ちていく",
+   "source_id": "shouman",
+   "evidence": "進行性の視機能低下"
+  },
+  {
+   "text": "白内障が起こる",
+   "source_id": "shouman",
+   "evidence": "白内障、錘体外路症状"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "治療用特殊ミルク（ロイシン除去乳）を用いてロイシンを制限する"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_02_028/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は報告数の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T03:02:14+09:00",
+ "shard": 4
+}

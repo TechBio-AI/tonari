@@ -1,0 +1,323 @@
+{
+  "slug": "wilson",
+  "disease_name": "ウィルソン病",
+  "review_status": "pending_founder_review",
+  "_readme": [
+    "ウィルソン病の家族への情報・医療者向けの資材（2026-10-04 作成）。照合表は docs/wilson_extras_review.md。",
+    "review_status が pending_founder_review の間は画面に出さない（ローダーは形を確かめて「保留」にする）。医学的な採否はファウンダーが行い、採否が付いた行だけを残して approved にする。",
+    "出典は難病情報センター・小児慢性特定疾病情報センター・日本先天代謝異常学会のガイドラインに限る（2026-10-04 指示）。evidence は原文 40 字以内。",
+    "  ウィルソン病は詳細ページのある 11 疾患（DEMO_DISEASES）に入っていない。公開するには、準備中ページから家族・医療者向けページへつなぐ作業が要る（照合表 D 節）。",
+    "  遺伝のしかたは常染色体潜性（劣性）。図は X 連鎖用（family.diagram）ではなく常染色体潜性用（family.diagram_ar：両親＝保因者、子の 4 マスのうち 1 つが患者さん）を使う。残り 3 マスの内訳は出典に無いので何も書かない。",
+    "  相談先の先頭 6 行（id が -G のもの）は、ファブリー病と同じ行・同じ出典（日本医学会のガイドラインと施設検索。2026-10-04 ファウンダー判断）。from に元の行を記録。"
+  ],
+  "family": {
+    "inheritance": [
+      {
+        "id": "W-F01",
+        "text": "ウィルソン病は、常染色体潜性遺伝（劣性遺伝）という遺伝のしかたをとる病気です。",
+        "source_url": "https://www.nanbyou.or.jp/entry/4543",
+        "evidence": "遺伝形式は 常染色体潜性遺伝（劣性遺伝） です"
+      },
+      {
+        "id": "W-F02",
+        "text": "潜性遺伝（劣性遺伝）では、対になった 2 本の遺伝子の両方に変化がある場合に、患者さんになります。",
+        "source_url": "https://www.nanbyou.or.jp/entry/4543",
+        "evidence": "対になった2本の遺伝子の両方に変異がある場合に発症し患者さんになります"
+      },
+      {
+        "id": "W-F03",
+        "text": "両親が保因者の場合、その子どもは 4 分の 1 の割合で患者さんになります。",
+        "source_url": "https://www.nanbyou.or.jp/entry/4543",
+        "evidence": "その子供は4分の１の確率で患者さんになります"
+      },
+      {
+        "id": "W-F04",
+        "text": "保因者は、対になった遺伝子の 1 つに変化があり、もう 1 つには変化がない人のことです。ウィルソン病の保因者は発症することはなく、治療は必要ありません。",
+        "source_url": "https://www.nanbyou.or.jp/entry/4543",
+        "evidence": "ウイルソン病では保因者は発症することはなく、治療は必要ありません"
+      },
+      {
+        "id": "W-F05",
+        "text": "男女差はありません。食生活や生活習慣が原因になることもありません。",
+        "source_url": "https://www.nanbyou.or.jp/entry/4543",
+        "evidence": "食生活や生活習慣が原因になることはありません。男女差もありません"
+      }
+    ],
+    "letter": {
+      "status": "draft",
+      "paragraphs": [
+        "（　　　）さんへ",
+        "わたしは、ウィルソン病という病気だと分かりました。この病気は遺伝することがあり、とくにきょうだいに関係するかもしれないので、この手紙を書きました。",
+        "ウィルソン病の保因者の人は、発症することはなく、治療も必要ないとされています。",
+        "このことを知ってどうするか、いつ考えるかは、あなたが自分で決めてよいことです。",
+        "検査を受けるかどうかは、よく知ったうえで、あなたが自分で決めてよいことです。",
+        "（日付）（名前）"
+      ],
+      "writer_note": [
+        "この手紙は、渡さない選択もあります。渡す時期は、あなたが選べます。"
+      ]
+    },
+    "consult": [
+      {
+        "id": "W-G01",
+        "text": "遺伝カウンセリングは、病気の遺伝について、医学的な影響、心の影響、家族への影響を理解し、それに向き合っていくことを助ける場です。",
+        "source_url": "https://jams.med.or.jp/guideline/genetics-diagnosis_2022.pdf",
+        "evidence": "家族への影響を人々が理解し、それに適応していくことを助けるプロセス",
+        "from": "fabry C-01"
+      },
+      {
+        "id": "W-G02",
+        "text": "情報を伝えるだけでなく、自分で選べるよう心の面・生活の面から支えることが大切とされています。",
+        "source_url": "https://jams.med.or.jp/guideline/genetics-diagnosis_2022.pdf",
+        "evidence": "自律的選択が可能となるような心理的社会的支援が重要",
+        "from": "fabry C-02"
+      },
+      {
+        "id": "W-G03",
+        "text": "最終的に決めるのは、相談する人自身の意思が最も大切とされています。",
+        "source_url": "https://jsimd.net/pdf/fabry2020.pdf",
+        "evidence": "最終的な決定はクライエント自身の意思が最も重要である",
+        "from": "fabry C-03"
+      },
+      {
+        "id": "W-G04",
+        "text": "遺伝学的検査で分かった個人の遺伝情報は、本人の同意なく、血縁者を含むほかの人に伝えるべきではないとされています。",
+        "source_url": "https://jams.med.or.jp/guideline/genetics-diagnosis_2022.pdf",
+        "evidence": "被検者の同意なく血縁者を含む第三者に開示すべきではない",
+        "from": "fabry C-04"
+      },
+      {
+        "id": "W-G05",
+        "text": "検査を受けるか受けないかは、十分に理解したうえで本人が自分で決められるよう支えるもの、とされています。",
+        "source_url": "https://jams.med.or.jp/guideline/genetics-diagnosis_2022.pdf",
+        "evidence": "検査を受けるか受けないかについて本人が自律的に意思決定",
+        "from": "fabry C-05"
+      },
+      {
+        "id": "W-G06",
+        "text": "全国遺伝子医療部門連絡会議の「登録機関遺伝子医療体制検索・提供システム」では、病気の分類や都道府県から、遺伝子医療を行っている施設を探せます。",
+        "source_url": "http://www.idenshiiryoubumon.org/search/index.html",
+        "evidence": "県内の遺伝子医療を行っている施設名を表示します。",
+        "link": {
+          "url": "http://www.idenshiiryoubumon.org/search/index.html",
+          "label": "施設を探す（全国遺伝子医療部門連絡会議）"
+        },
+        "from": "fabry C-06"
+      },
+      {
+        "id": "W-C01",
+        "text": "ウィルソン病の患者さんのきょうだいは、4 人に 1 人の割合で患者さんであることがあるとされています。",
+        "source_url": "https://www.nanbyou.or.jp/entry/4543",
+        "evidence": "兄弟・姉妹の方は確率的に4人に1人は患者さんの可能性があります"
+      },
+      {
+        "id": "W-C02",
+        "text": "発症する前の場合、患者さんかどうかは調べてみないと分からないとされています。",
+        "source_url": "https://www.nanbyou.or.jp/entry/4543",
+        "evidence": "発症前の場合、患者さんかどうかは調べてみないと解りません"
+      },
+      {
+        "id": "W-C03",
+        "text": "症状がなくても、検査で見つかった場合は治療が必要とされています（発症前型）。",
+        "source_url": "https://www.nanbyou.or.jp/entry/4543",
+        "evidence": "発症前型と呼ばれており、症状がなくても治療が必要です"
+      },
+      {
+        "id": "W-C04",
+        "text": "ウィルソン病は子どものころから症状が出ることがあります（一般に、肝臓の型は 4 歳以降、神経の型は 8 歳以降）。お子さんの検査をどうするかは、小児科や遺伝科で相談してください。",
+        "source_url": "https://www.nanbyou.or.jp/entry/4543",
+        "evidence": "一般に肝型は4歳以降、神経型・肝神経型は8歳以降に発症しますが"
+      },
+      {
+        "id": "W-C05",
+        "text": "女性の患者さんは妊娠・出産もできますが、妊娠中も治療を続ける必要があるとされています。",
+        "source_url": "https://www.shouman.jp/disease/details/08_08_107/",
+        "evidence": "女性の患者においては妊娠・出産も可能であるが，妊娠中も治療を継続する必要がある"
+      },
+      {
+        "id": "W-C06",
+        "text": "全国規模の患者会（ウイルソン病友の会）があります。",
+        "source_url": "https://www.nanbyou.or.jp/entry/4543",
+        "evidence": "全国規模のウイルソン病友の会"
+      }
+    ],
+    "diagram_ar": {
+      "parents": {
+        "id": "W-D01",
+        "text": "保因者",
+        "source_url": "https://www.nanbyou.or.jp/entry/4543",
+        "evidence": "すなわち、ご両親は 保因者 で"
+      },
+      "affected": {
+        "id": "W-D02",
+        "text": "子どもは、4 分の 1 の割合で患者さんになります",
+        "source_url": "https://www.nanbyou.or.jp/entry/4543",
+        "evidence": "その子供は4分の１の確率で患者さんになります"
+      }
+    }
+  },
+  "clinicians": {
+    "organs": [
+      {
+        "organ": "全体",
+        "facts": [
+          {
+            "id": "W-K01",
+            "text": "発症頻度は 3 万人〜3 万 5 千人に 1 人と言われている。",
+            "source_url": "https://www.nanbyou.or.jp/entry/4543",
+            "evidence": "発症頻度は3万人～3万5千人に１人と言われています"
+          },
+          {
+            "id": "W-K02",
+            "text": "本邦での発症頻度は 35,000〜45,000 人に 1 人と推察される。",
+            "source_url": "https://www.shouman.jp/disease/details/08_08_107/",
+            "evidence": "本邦での発症頻度は，35,000から45,000人に1人と推察される"
+          },
+          {
+            "id": "W-K03",
+            "text": "発症年齢は 3 歳から 50 歳代と幅広く、ピークは 10〜11 歳である。",
+            "source_url": "https://www.shouman.jp/disease/details/08_08_107/",
+            "evidence": "発症年齢は3歳から50歳代と幅広く分布しており"
+          },
+          {
+            "id": "W-K04",
+            "text": "肝障害、錐体外路症状、Kayser-Fleischer 角膜輪が 3 主徴である。",
+            "source_url": "https://www.shouman.jp/disease/details/08_08_107/",
+            "evidence": "肝障害，錐体外路症状ならびにKayser-Fleischer角膜綸が3主徴である"
+          },
+          {
+            "id": "W-K05",
+            "text": "幼児期以降の肝障害、学童期以降に発症した神経症状をみたときには、本症の可能性を考慮する。",
+            "source_url": "https://www.shouman.jp/disease/details/08_08_107/",
+            "evidence": "幼児期以降の肝障害ならびに学童期以降に発症した神経症状をみた時には"
+          },
+          {
+            "id": "W-K06",
+            "text": "成人になって（30 歳以降でも）初めて症状が出る例もある。",
+            "source_url": "https://www.nanbyou.or.jp/entry/4543",
+            "evidence": "成人になって（例えば30歳以降でも）初めて症状が出現する患者さんもおられます"
+          }
+        ]
+      },
+      {
+        "organ": "肝臓",
+        "facts": [
+          {
+            "id": "W-K07",
+            "text": "肝型では黄疸、腹痛、嘔吐、浮腫、腹満、全身倦怠感、食欲不振、出血などがみられる。",
+            "source_url": "https://www.nanbyou.or.jp/entry/4543",
+            "evidence": "腹痛、嘔吐、浮腫、腹満、"
+          },
+          {
+            "id": "W-K08",
+            "text": "経過は慢性肝炎、急性肝炎、肝硬変、急性肝不全、劇症肝炎などさまざまである。",
+            "source_url": "https://www.nanbyou.or.jp/entry/4543",
+            "evidence": "経過も様々で、慢性肝炎、急性肝炎、肝硬変、急性肝不全、"
+          },
+          {
+            "id": "W-K09",
+            "text": "たまたま調べた検査で肝機能異常が見つかり、精査で本症と分かる例がある（発症前型）。",
+            "source_url": "https://www.nanbyou.or.jp/entry/4543",
+            "evidence": "たまたま調べた検査で肝機能異常が見つかり"
+          }
+        ]
+      },
+      {
+        "organ": "神経",
+        "facts": [
+          {
+            "id": "W-K10",
+            "text": "パーキンソン病様の症状（歩行障害、構音の障害、よだれ、手のふるえ、嚥下の障害）がみられる。",
+            "source_url": "https://www.nanbyou.or.jp/entry/4543",
+            "evidence": "いわゆるパーキンソン病様の症状（歩行障害、うまくしゃべれない、よだれ"
+          },
+          {
+            "id": "W-K11",
+            "text": "神経症状としては、構音障害、振戦、歩行障害などが高い頻度でみられる。",
+            "source_url": "https://www.shouman.jp/disease/details/08_08_107/",
+            "evidence": "構音障害，振戦ならびに歩行障害などが高い頻度にてみられる"
+          }
+        ]
+      },
+      {
+        "organ": "精神",
+        "facts": [
+          {
+            "id": "W-K12",
+            "text": "意欲低下、集中力低下、突然の気分変調、性格変化などがみられ、うつ病、統合失調症、不安障害などと誤診されることもある。",
+            "source_url": "https://www.nanbyou.or.jp/entry/4543",
+            "evidence": "意欲低下、集中力低下、突然の気分変調、性格変化などでうつ病"
+          },
+          {
+            "id": "W-K13",
+            "text": "精神症状は特に思春期以降にみられることがある。",
+            "source_url": "https://www.shouman.jp/disease/details/08_08_107/",
+            "evidence": "精神症状（特に思春期以降）"
+          }
+        ]
+      },
+      {
+        "organ": "腎臓・その他",
+        "facts": [
+          {
+            "id": "W-K14",
+            "text": "血尿、腎結石、蛋白尿、関節炎、心筋症などが初発症状の場合もある。",
+            "source_url": "https://www.nanbyou.or.jp/entry/4543",
+            "evidence": "血尿、腎結石、蛋白尿、関節炎、心筋症などの症状が初発症状の場合もあります"
+          }
+        ]
+      },
+      {
+        "organ": "家族歴",
+        "facts": [
+          {
+            "id": "W-K15",
+            "text": "臨床症状のほか、ウィルソン病の家族歴などから本症を疑う。",
+            "source_url": "https://www.shouman.jp/disease/details/08_08_107/",
+            "evidence": "あるいはウイルソン病の家族歴などより本症を疑い"
+          },
+          {
+            "id": "W-K16",
+            "text": "きょうだいに患者がいる場合は、本症である割合が高くなる。",
+            "source_url": "https://www.nanbyou.or.jp/entry/4543",
+            "evidence": "ご兄弟にウィルソン病の患者さんがおられる場合は"
+          }
+        ]
+      },
+      {
+        "organ": "検査の留意点",
+        "facts": [
+          {
+            "id": "W-K17",
+            "text": "本症を疑ったら、血清セルロプラスミン値と尿中銅排泄量を測定する。必要に応じて肝銅含量の測定や ATP7B 遺伝子解析を行う。",
+            "source_url": "https://www.shouman.jp/disease/details/08_08_107/",
+            "evidence": "血清セルロプラスミン値と尿中銅排泄量の測定を行う"
+          },
+          {
+            "id": "W-K18",
+            "text": "小児慢性特定疾病の診断の手引きでは、血清セルロプラスミン低値（20mg/dl 以下）と尿中銅排泄高値（100μg/日 など）を挙げている。",
+            "source_url": "https://www.shouman.jp/disease/instructions/08_08_107/",
+            "evidence": "血清セルロプラスミン低値（20mg/dl以下）"
+          }
+        ]
+      },
+      {
+        "organ": "治療と経過",
+        "facts": [
+          {
+            "id": "W-K19",
+            "text": "経口薬による有効な治療法があり、治療は生涯必要とされる。",
+            "source_url": "https://www.nanbyou.or.jp/entry/4543",
+            "evidence": "経口薬による有効な治療法があります"
+          },
+          {
+            "id": "W-K20",
+            "text": "早期に診断され適切な治療が行われれば、十分な社会復帰あるいは発症の予防が可能である。",
+            "source_url": "https://www.shouman.jp/disease/details/08_08_107/",
+            "evidence": "早期に診断され適切な治療が行われれば，十分な社会復帰あるいは発症の予防が可能"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+ "idx": 150,
+ "name": "封入体筋炎",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3801",
+   "fetched_at": "2026-09-24T00:44:40+09:00",
+   "sha256": "2c54b38fa539f8ce42a9f51f37927e5605e0b3e0561adebf1d293ba32cc4cbc4",
+   "title": "封入体筋炎（指定難病１５） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "主に中高年で発症し、慢性の経過をとる筋肉の病気です。",
+  "source_id": "nanbyou",
+  "evidence": "主に50歳以上で発症する慢性の経過をとる筋疾患の一つです",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "ももの筋肉がやせる",
+   "source_id": "nanbyou",
+   "evidence": "大腿部や手指の筋肉が萎縮し"
+  },
+  {
+   "text": "筋力が低下する",
+   "source_id": "nanbyou",
+   "evidence": "筋力が低下するため"
+  },
+  {
+   "text": "階段が登りにくい",
+   "source_id": "nanbyou",
+   "evidence": "階段が登りにくい"
+  },
+  {
+   "text": "指先で物がつまみにくい",
+   "source_id": "nanbyou",
+   "evidence": "指先で物がつまみにくい"
+  }
+ ],
+ "onset": {
+  "text": "男性が多い傾向にあります",
+  "source_id": "nanbyou",
+  "evidence": "男性が多い傾向にあります"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "残念ながら有効な薬物療法は確立されていません。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3801",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "症状の節が 1 文しかなく、4 件しか取れなかった。",
+  "発症年齢の記載は数値と一体のため、onset には性別の記述だけを取った。"
+ ],
+ "extracted_at": "2026-09-25T02:47:21+09:00",
+ "shard": 3
+}

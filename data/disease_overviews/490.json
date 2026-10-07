@@ -1,0 +1,60 @@
+{
+ "idx": 490,
+ "name": "ラフォラ病",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/501",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Lafora disease"
+  }
+ ],
+ "summary": {
+  "text": "A rare, inherited, severe form of progressive myoclonus epilepsy characterized by drug-resistant epilepsy, myoclonus, and psychomotor deterioration affecting previously healthy children or adolescents.",
+  "source_id": "orphanet",
+  "evidence": "A rare, inherited, severe form of progre",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "drug-resistant epilepsy",
+   "source_id": "orphanet",
+   "evidence": "drug-resistant epilepsy"
+  },
+  {
+   "text": "myoclonus",
+   "source_id": "orphanet",
+   "evidence": "myoclonus"
+  },
+  {
+   "text": "psychomotor deterioration",
+   "source_id": "orphanet",
+   "evidence": "psychomotor deterioration"
+  }
+ ],
+ "onset": {
+  "text": "affecting previously healthy children or adolescents",
+  "source_id": "orphanet",
+  "evidence": "affecting previously healthy children or"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/501",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

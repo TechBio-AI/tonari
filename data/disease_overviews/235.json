@@ -1,0 +1,81 @@
+{
+ "idx": 235,
+ "name": "大理石骨病",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5392",
+   "fetched_at": "2026-09-24T00:46:32+09:00",
+   "sha256": "4434f13520e315d0332a8146407e8464d343150f9a99987ed5b832891985d09a",
+   "title": "大理石骨病（指定難病３２６） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "骨を溶かす役目の細胞がうまく働かず、全身の骨が硬くなる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "骨を溶かす役割をする細胞の機能が障害され、全身の骨がびまん性に硬くなる",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "骨折しやすい",
+   "source_id": "nanbyou",
+   "evidence": "結果的に骨折しやすくなります"
+  },
+  {
+   "text": "骨折が治りにくい",
+   "source_id": "nanbyou",
+   "evidence": "骨折の治癒は遅れます"
+  },
+  {
+   "text": "貧血になる",
+   "source_id": "nanbyou",
+   "evidence": "重症型では貧血"
+  },
+  {
+   "text": "血が止まりにくい",
+   "source_id": "nanbyou",
+   "evidence": "出血傾向"
+  },
+  {
+   "text": "感染症にかかりやすい",
+   "source_id": "nanbyou",
+   "evidence": "感染しやすいなどの骨髄機能不全症状"
+  },
+  {
+   "text": "体の育ちがゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "著しい成長障害"
+  },
+  {
+   "text": "頭に水がたまる",
+   "source_id": "nanbyou",
+   "evidence": "水頭症"
+  },
+  {
+   "text": "歯の異常が出ることがある",
+   "source_id": "nanbyou",
+   "evidence": "歯の異常などの症状"
+  }
+ ],
+ "onset": {
+  "text": "中間型では子どものころに症状が出て気づかれることがあります",
+  "source_id": "nanbyou",
+  "evidence": "中間型は小児期に症状が出現して気がつかれることがあります"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "出現する症状に対する対症療法が中心となります"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5392",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:28:23+09:00",
+ "shard": 1
+}

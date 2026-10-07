@@ -1,0 +1,78 @@
+{
+ "idx": 239,
+ "name": "好酸球性副鼻腔炎",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4537",
+   "fetched_at": "2026-09-24T00:45:34+09:00",
+   "sha256": "17c0c54ac61ff236001616e9eac44982431ebafc2cc1eed57f7df6216bdf71a8",
+   "title": "好酸球性副鼻腔炎（指定難病３０６） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "両方の鼻の中にポリープができ、手術をしてもすぐ再発する副鼻腔炎です。",
+  "source_id": "nanbyou",
+  "evidence": "両側の鼻の中に多発性の鼻茸ができ、手術をしてもすぐに再発する",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "においがわからなくなる",
+   "source_id": "nanbyou",
+   "evidence": "においがわからない嗅覚障害が起こります"
+  },
+  {
+   "text": "鼻がつまる",
+   "source_id": "nanbyou",
+   "evidence": "鼻はつまり"
+  },
+  {
+   "text": "ねばい鼻水が出る",
+   "source_id": "nanbyou",
+   "evidence": "粘稠な鼻汁がでます"
+  },
+  {
+   "text": "ぜんそくの発作が起こることがある",
+   "source_id": "nanbyou",
+   "evidence": "気管支喘息発作を起こすことがあります"
+  },
+  {
+   "text": "耳が聞こえにくい、耳がつまる",
+   "source_id": "nanbyou",
+   "evidence": "難聴を示すことがあり、耳がつまります"
+  },
+  {
+   "text": "口で呼吸することが多くなる",
+   "source_id": "nanbyou",
+   "evidence": "鼻がつまるので口で呼吸をすることが多くなります"
+  },
+  {
+   "text": "口が渇き、のどが痛くなる",
+   "source_id": "nanbyou",
+   "evidence": "口が渇き、のどが痛くなることが多くなります"
+  }
+ ],
+ "onset": {
+  "text": "薬物アレルギーのある方にも起こります",
+  "source_id": "nanbyou",
+  "evidence": "また薬物アレルギーの人にも起こります。"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "内視鏡を用いた手術を行います"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4537",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節には薬の分類名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:48:34+09:00",
+ "shard": 3
+}

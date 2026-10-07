@@ -1,0 +1,70 @@
+{
+ "idx": 563,
+ "name": "皮質下嚢胞をもつ大頭型白質脳症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_09_029/",
+   "fetched_at": "2026-09-24T00:51:10+09:00",
+   "sha256": "2eda8d76e6a25451595d91d17672beb72316557b8b93592bb3bb57598930a831",
+   "title": "皮質下嚢胞をもつ大頭型白質脳症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "脳の白質がやせていく、まれな病気のひとつです。",
+  "source_id": "shouman",
+  "evidence": "稀な白質萎縮症のひとつである。",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "頭が大きくなる",
+   "source_id": "shouman",
+   "evidence": "大頭症が出生から1歳までに出現し"
+  },
+  {
+   "text": "ふらつく",
+   "source_id": "shouman",
+   "evidence": "小脳性運動失調"
+  },
+  {
+   "text": "筋肉がこわばる",
+   "source_id": "shouman",
+   "evidence": "軽度の痙縮"
+  },
+  {
+   "text": "運動の機能に障害が出る",
+   "source_id": "shouman",
+   "evidence": "運動機能障害が出現し"
+  },
+  {
+   "text": "話しにくい、飲み込みにくい",
+   "source_id": "shouman",
+   "evidence": "構音障害、嚥下障害"
+  },
+  {
+   "text": "てんかんを合併する",
+   "source_id": "shouman",
+   "evidence": "てんかんを合併する"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "shouman",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_09_029/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節が保存 HTML に無いため「記載なし」。",
+  "疫学の節は頻度が不明としか書かれておらず、発症年齢の記載が無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:42:40+09:00",
+ "shard": 2
+}

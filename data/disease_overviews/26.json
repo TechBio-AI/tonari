@@ -1,0 +1,71 @@
+{
+ "idx": 26,
+ "name": "ハンチントン病",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/175",
+   "fetched_at": "2026-09-24T00:44:28+09:00",
+   "sha256": "1b5f9176dcfb802ad83103fa7557392d29158cb7e1ebd79f308f23bff4a0016d",
+   "title": "ハンチントン病（指定難病８） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "自分の意思とは関係なく体が動く、気持ちや行動が変わる、考える力が落ちる、といった症状が出る病気です。",
+  "source_id": "nanbyou",
+  "evidence": "舞踏運動 などの 不随意運動 、精神症状、行動異常、認知障害",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "手先が自分の意思と関係なく動く",
+   "source_id": "nanbyou",
+   "evidence": "手先が勝手に動いてしまうような運動症状"
+  },
+  {
+   "text": "細かい動作がしにくくなる",
+   "source_id": "nanbyou",
+   "evidence": "細かい運動がしにくくなったり"
+  },
+  {
+   "text": "顔がゆがむような動きが出る",
+   "source_id": "nanbyou",
+   "evidence": "顔をしかめたり"
+  },
+  {
+   "text": "落ち着かなくなる",
+   "source_id": "nanbyou",
+   "evidence": "落ち着かなくなったり"
+  },
+  {
+   "text": "気持ちが落ち込む",
+   "source_id": "nanbyou",
+   "evidence": "うつの様になったりする精神症状"
+  },
+  {
+   "text": "物を落としたり転んだりする",
+   "source_id": "nanbyou",
+   "evidence": "物を落としたり、転んだりする症状"
+  }
+ ],
+ "onset": {
+  "text": "子どものころからお年寄りまで、はば広い年代で始まります",
+  "source_id": "nanbyou",
+  "evidence": "小児期から老齢まで様々です"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "現在のところ根本的な治療法は残念ながらありません"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/175",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:22:05+09:00",
+ "shard": 1
+}

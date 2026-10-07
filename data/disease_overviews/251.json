@@ -1,0 +1,55 @@
+{
+ "idx": 251,
+ "name": "ミトコンドリアDNA枯渇症候群",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_04_055/",
+   "fetched_at": "2026-09-24T00:49:39+09:00",
+   "sha256": "eb27a11a7d0a99e4af4507e3255942beae14b7e82a73b6e197ac4a7804f5cad0",
+   "title": "ミトコンドリアDNA枯渇症候群 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "細胞の中でエネルギーを作る仕組みが妨げられて、機能の障害が起こる病気の集まりです。",
+  "source_id": "shouman",
+  "evidence": "ミトコンドリアのエネルギー代謝が阻害され機能障害の起こる疾患群",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "エネルギーの代謝が妨げられる",
+   "source_id": "shouman",
+   "evidence": "ミトコンドリアのエネルギー代謝が阻害され"
+  },
+  {
+   "text": "ミトコンドリアDNAの量が減る",
+   "source_id": "shouman",
+   "evidence": "ミトコンドリアDNA（mtDNA）量が何かの原因で減少し"
+  },
+  {
+   "text": "機能の障害が起こる",
+   "source_id": "shouman",
+   "evidence": "機能障害の起こる疾患群"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "研究段階",
+  "source_id": "shouman",
+  "evidence": "今後の検討と進歩が待たれる"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_04_055/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "症状の節が「表を参照されたい」だけで本文が無いため、同じページの概要の節から症状を取った。3 件しか取れなかった。",
+  "疫学の節は頻度の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:57:53+09:00",
+ "shard": 4
+}

@@ -1,0 +1,52 @@
+{
+ "idx": 215,
+ "name": "食道閉鎖症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/1199",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Esophageal atresia"
+  }
+ ],
+ "summary": {
+  "text": "A rare congenital malformation characterized by an interruption in the continuity of the esophagus, with or without persistent communication with the trachea. The clinical presentation varies according to the anatomy, and can lead to the inability to swallow or, in the most severe cases, respiratory distress.",
+  "source_id": "orphanet",
+  "evidence": "A rare congenital malformation character",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "inability to swallow",
+   "source_id": "orphanet",
+   "evidence": "inability to swallow"
+  },
+  {
+   "text": "respiratory distress",
+   "source_id": "orphanet",
+   "evidence": "respiratory distress"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/1199",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

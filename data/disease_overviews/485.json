@@ -1,0 +1,82 @@
+{
+ "idx": 485,
+ "name": "17q21.31欠失症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/96169",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Koolen-De Vries syndrome"
+  }
+ ],
+ "summary": {
+  "text": "A rare multisystem disorder characterized by neonatal/childhood hypotonia, mild to moderate developmental delay or intellectual disability, epilepsy, dysmorphic facial features, hypermetropia, congenital heart anomalies, congenital renal/urologic anomalies, musculoskeletal problems, and a friendly/amiable disposition.",
+  "source_id": "orphanet",
+  "evidence": "A rare multisystem disorder characterize",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "neonatal/childhood hypotonia",
+   "source_id": "orphanet",
+   "evidence": "neonatal/childhood hypotonia"
+  },
+  {
+   "text": "developmental delay or intellectual disability",
+   "source_id": "orphanet",
+   "evidence": "developmental delay or intellectual"
+  },
+  {
+   "text": "epilepsy",
+   "source_id": "orphanet",
+   "evidence": "epilepsy"
+  },
+  {
+   "text": "dysmorphic facial features",
+   "source_id": "orphanet",
+   "evidence": "dysmorphic facial features"
+  },
+  {
+   "text": "hypermetropia",
+   "source_id": "orphanet",
+   "evidence": "hypermetropia"
+  },
+  {
+   "text": "congenital heart anomalies",
+   "source_id": "orphanet",
+   "evidence": "congenital heart anomalies"
+  },
+  {
+   "text": "musculoskeletal problems",
+   "source_id": "orphanet",
+   "evidence": "musculoskeletal problems"
+  },
+  {
+   "text": "friendly/amiable disposition",
+   "source_id": "orphanet",
+   "evidence": "friendly/amiable disposition"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/96169",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

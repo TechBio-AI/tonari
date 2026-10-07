@@ -1,0 +1,48 @@
+{
+ "idx": 760,
+ "name": "Stargardt病",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/827",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Stargardt disease"
+  }
+ ],
+ "summary": {
+  "text": "A rare ophthalmic disorder that is usually characterized by a progressive loss of central vision associated with irregular macular and perimacular yellow-white fundus flecks, and a so-called ''beaten bronze'' atrophic central macular lesion.",
+  "source_id": "orphanet",
+  "evidence": "A rare ophthalmic disorder that is usual",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "progressive loss of central vision",
+   "source_id": "orphanet",
+   "evidence": "progressive loss of central vision"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/827",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: fundus flecks・macular lesion（眼底所見）",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

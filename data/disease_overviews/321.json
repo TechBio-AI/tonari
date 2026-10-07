@@ -1,0 +1,69 @@
+{
+ "idx": 321,
+ "name": "先天性横隔膜ヘルニア",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4510",
+   "fetched_at": "2026-09-24T00:45:32+09:00",
+   "sha256": "6d7472ddbf2ba8f3d326c8c6416645939960a7ea7cb21184a5e22732b20607d2",
+   "title": "先天性横隔膜ヘルニア（指定難病２９４） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "生まれつき横隔膜に穴があいている病気です。",
+  "source_id": "nanbyou",
+  "evidence": "生まれつき横隔膜に欠損孔があって",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "息が苦しくなる",
+   "source_id": "nanbyou",
+   "evidence": "呼吸困難です"
+  },
+  {
+   "text": "皮膚や唇が青紫色になる",
+   "source_id": "nanbyou",
+   "evidence": "チアノーゼ"
+  },
+  {
+   "text": "脈が遅くなる",
+   "source_id": "nanbyou",
+   "evidence": "徐脈"
+  },
+  {
+   "text": "呼吸が止まることがある",
+   "source_id": "nanbyou",
+   "evidence": "無呼吸"
+  },
+  {
+   "text": "呼吸が速くなる",
+   "source_id": "nanbyou",
+   "evidence": "多呼吸"
+  },
+  {
+   "text": "息を吸うときに胸がへこむ",
+   "source_id": "nanbyou",
+   "evidence": "陥没呼吸"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "この病気自体は手術によって治療します。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4510",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節の発症時期は数値と一体のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:30:26+09:00",
+ "shard": 1
+}

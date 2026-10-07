@@ -1,0 +1,76 @@
+{
+ "idx": 194,
+ "name": "ウィリアムズ症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4765",
+   "fetched_at": "2026-09-24T00:46:01+09:00",
+   "sha256": "49240559e75f6a78b06ee666f1c795e713e1d71c48e59a29b6aeb22e877b8eb7",
+   "title": "ウィリアムズ症候群（指定難病１７９） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "成長や発達の遅れ、図形をとらえる苦手さ、心臓や血管の病気などをもつ症候群です。",
+  "source_id": "nanbyou",
+  "evidence": "成長と発達の遅れ、視空間認知障害（絵を描き写すのが苦手など）、心血管疾患",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "背が低い",
+   "source_id": "nanbyou",
+   "evidence": "低身長（軽度）"
+  },
+  {
+   "text": "発達がゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "発達遅滞"
+  },
+  {
+   "text": "音に敏感、音楽を好む",
+   "source_id": "nanbyou",
+   "evidence": "認知特性（過敏性、音楽への嗜好"
+  },
+  {
+   "text": "心臓や血管が狭くなる",
+   "source_id": "nanbyou",
+   "evidence": "心血管疾患（大動脈弁上狭窄、肺動脈狭窄"
+  },
+  {
+   "text": "耳が聞こえにくい、中耳炎になる",
+   "source_id": "nanbyou",
+   "evidence": "耳鼻科疾患（難聴、中耳炎）"
+  },
+  {
+   "text": "目の向きがずれる、遠視になる",
+   "source_id": "nanbyou",
+   "evidence": "眼科疾患（斜視、遠視など）"
+  },
+  {
+   "text": "便秘になる",
+   "source_id": "nanbyou",
+   "evidence": "便秘"
+  }
+ ],
+ "onset": {
+  "text": "乳幼児期に見つかることが多いです",
+  "source_id": "nanbyou",
+  "evidence": "乳幼児期に診断されることが多いです"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "根本的な治療法はありませんが、定期診察を通じて合併症に早期対応していく"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4765",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:38:40+09:00",
+ "shard": 2
+}

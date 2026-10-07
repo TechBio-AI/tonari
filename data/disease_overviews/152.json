@@ -1,0 +1,83 @@
+{
+ "idx": 152,
+ "name": "消化管間質腫瘍",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/44890",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Gastrointestinal stromal tumor"
+  }
+ ],
+ "summary": {
+  "text": "Gastrointestinal stromal tumor (GIST) is the most common mesenchymal neoplasm of the gastrointestinal (GI) tract, typically presenting in adults over the age of 40 (mean age 63), and only rarely in children, in various regions of the GI tract, most commonly the stomach or small intestine but also less commonly in the esophagus, appendix, rectum and colon. GISTs can be asymptomatic or present with various non-specific signs, depending on the location and size of tumor, such as loss of appetite, anemia, weight loss, fatigue, abdominal discomfort or fullness, nausea, vomiting, as well as an abdominal mass, blood in stool, and intestinal obstruction. GISTs can also be seen in familial syndromes such as Carney triad and neurofibromatosis type 1.",
+  "source_id": "orphanet",
+  "evidence": "Gastrointestinal stromal tumor (GIST) is",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "loss of appetite",
+   "source_id": "orphanet",
+   "evidence": "loss of appetite"
+  },
+  {
+   "text": "weight loss",
+   "source_id": "orphanet",
+   "evidence": "weight loss"
+  },
+  {
+   "text": "fatigue",
+   "source_id": "orphanet",
+   "evidence": "fatigue"
+  },
+  {
+   "text": "abdominal discomfort or fullness",
+   "source_id": "orphanet",
+   "evidence": "abdominal discomfort or fullness"
+  },
+  {
+   "text": "nausea",
+   "source_id": "orphanet",
+   "evidence": "nausea"
+  },
+  {
+   "text": "vomiting",
+   "source_id": "orphanet",
+   "evidence": "vomiting"
+  },
+  {
+   "text": "blood in stool",
+   "source_id": "orphanet",
+   "evidence": "blood in stool"
+  },
+  {
+   "text": "intestinal obstruction",
+   "source_id": "orphanet",
+   "evidence": "intestinal obstruction"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/44890",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: anemia",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "発症時期の記述「typically presenting in adults over the age of 40 (mean age 63)」は数字を含むため onset は null。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

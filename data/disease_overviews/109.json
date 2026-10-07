@@ -1,0 +1,74 @@
+{
+ "idx": 109,
+ "name": "骨形成不全症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4567",
+   "fetched_at": "2026-09-24T00:45:37+09:00",
+   "sha256": "95b099563746d6f0ba62b348df93fb7e21e9af562e031f5d680d47b011655fc6",
+   "title": "骨形成不全症（指定難病２７４） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "骨がもろく、骨折しやすく変形もしやすい、生まれつきの病気です。",
+  "source_id": "nanbyou",
+  "evidence": "骨がもろく弱いことから、骨折しやすくなり、骨の変形を来す生まれつきの病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "骨折しやすい",
+   "source_id": "nanbyou",
+   "evidence": "骨折のしやすさ"
+  },
+  {
+   "text": "骨が変形する",
+   "source_id": "nanbyou",
+   "evidence": "骨の変形などの骨の弱さ"
+  },
+  {
+   "text": "体の育ちがゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "成長障害"
+  },
+  {
+   "text": "白目が青く見える",
+   "source_id": "nanbyou",
+   "evidence": "目の強膜が青い"
+  },
+  {
+   "text": "歯の形成が不十分になる",
+   "source_id": "nanbyou",
+   "evidence": "歯の形成が不十分"
+  },
+  {
+   "text": "耳が聞こえにくい",
+   "source_id": "nanbyou",
+   "evidence": "難聴"
+  },
+  {
+   "text": "関節や皮膚が伸びやすい",
+   "source_id": "nanbyou",
+   "evidence": "関節や皮膚が伸びやすい"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "骨折した際に外科的な骨接合術"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4567",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は遺伝形式の説明で、発症年齢の記載が無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:46:07+09:00",
+ "shard": 3
+}

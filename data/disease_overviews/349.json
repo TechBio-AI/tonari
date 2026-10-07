@@ -1,0 +1,75 @@
+{
+ "idx": 349,
+ "name": "心室中隔欠損症（大型）",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/04_45_057/",
+   "fetched_at": "2026-09-24T00:47:48+09:00",
+   "sha256": "aff472f4ff1c424a993212183d9e46291c8bf527fe2cd087014ab20933c47953",
+   "title": "心室中隔欠損症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "心臓の左右の部屋を分ける壁に穴があいている、生まれつきの心臓の病気です。",
+  "source_id": "shouman",
+  "evidence": "左右の心室の間の壁である心室中隔に孔のあいている先天性心疾患。",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "小さい穴では自覚症状がない",
+   "source_id": "shouman",
+   "evidence": "心雑音が聴取されるだけで、自覚症状はまったくない"
+  },
+  {
+   "text": "乳児期早期から心不全が起こる",
+   "source_id": "shouman",
+   "evidence": "乳児期早期から心不全を生じることが多く"
+  },
+  {
+   "text": "呼吸の回数が増える",
+   "source_id": "shouman",
+   "evidence": "呼吸数増加"
+  },
+  {
+   "text": "おっぱいやミルクの飲みが悪い",
+   "source_id": "shouman",
+   "evidence": "哺乳不良が必発である"
+  },
+  {
+   "text": "体重が増えにくい",
+   "source_id": "shouman",
+   "evidence": "体重増加不良"
+  },
+  {
+   "text": "汗をかき、顔色が青白く皮膚が冷たい",
+   "source_id": "shouman",
+   "evidence": "発汗、蒼白で冷たい皮膚を認め"
+  },
+  {
+   "text": "息をするときに音がして苦しくなる",
+   "source_id": "shouman",
+   "evidence": "喘鳴と呼吸困難の発作を生じる"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "大動脈弁の嵌入逸脱をともなう例では小短絡であっても外科治療が必要となる"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/04_45_057/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は頻度の数値のみのため onset は null。",
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:40:16+09:00",
+ "shard": 2
+}

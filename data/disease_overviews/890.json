@@ -1,0 +1,83 @@
+{
+ "idx": 890,
+ "name": "抗ARS抗体症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/81",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Antisynthetase syndrome"
+  }
+ ],
+ "summary": {
+  "text": "A rare idiopathic inflammatory myopathy (IIM) characterized principally by myositis, generally symmetrical arthritis and interstitial lung disease (ILD) in association with serum autoantibodies to aminoacyl-transfer RNA synthetases (anti-ARS). More variable features include arthralgia, Raynaud phenomenon, heliotrophic rash, distal esophageal dysmotility and mechanic's hands.",
+  "source_id": "orphanet",
+  "evidence": "A rare idiopathic inflammatory myopathy ",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "myositis",
+   "source_id": "orphanet",
+   "evidence": "myositis"
+  },
+  {
+   "text": "generally symmetrical arthritis",
+   "source_id": "orphanet",
+   "evidence": "generally symmetrical arthritis"
+  },
+  {
+   "text": "interstitial lung disease",
+   "source_id": "orphanet",
+   "evidence": "interstitial lung disease"
+  },
+  {
+   "text": "arthralgia",
+   "source_id": "orphanet",
+   "evidence": "arthralgia"
+  },
+  {
+   "text": "Raynaud phenomenon",
+   "source_id": "orphanet",
+   "evidence": "Raynaud phenomenon"
+  },
+  {
+   "text": "heliotrophic rash",
+   "source_id": "orphanet",
+   "evidence": "heliotrophic rash"
+  },
+  {
+   "text": "distal esophageal dysmotility",
+   "source_id": "orphanet",
+   "evidence": "distal esophageal dysmotility"
+  },
+  {
+   "text": "mechanic's hands",
+   "source_id": "orphanet",
+   "evidence": "mechanic's hands"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/81",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: serum autoantibodies to aminoacyl-transfer RNA synthetases",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

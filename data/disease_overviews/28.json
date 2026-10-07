@@ -1,0 +1,77 @@
+{
+ "idx": 28,
+ "name": "全身性エリテマトーデス",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/53",
+   "fetched_at": "2026-09-24T00:46:23+09:00",
+   "sha256": "4f65ce372877109a3fcec78297eeba0c80bef9f93d96a26407c322b2f995f418",
+   "title": "全身性エリテマトーデス（SLE）（指定難病４９） – 難病情報センター"
+  },
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/06_01_002/",
+   "fetched_at": "2026-09-24T00:48:27+09:00",
+   "sha256": "5ea409811ed56d8abab7b1e74abc88c7b2ce4d08b6035cf1939a2113abd041b3",
+   "title": "全身性エリテマトーデス 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "全身のさまざまな場所や臓器に、いろいろな症状が出る病気です。",
+  "source_id": "nanbyou",
+  "evidence": "全身のさまざまな場所、臓器に、多彩な症状を引き起こす",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "全身の症状が出る",
+   "source_id": "nanbyou",
+   "evidence": "一般的に、全身症状"
+  },
+  {
+   "text": "皮膚の症状が出る",
+   "source_id": "nanbyou",
+   "evidence": "皮膚や関節症状がほとんどの患者さんに見られます"
+  },
+  {
+   "text": "関節の症状が出る",
+   "source_id": "nanbyou",
+   "evidence": "皮膚や関節症状"
+  },
+  {
+   "text": "内臓や血管の病気が加わる",
+   "source_id": "nanbyou",
+   "evidence": "さまざまな内臓、血管の病気が加わります"
+  },
+  {
+   "text": "内臓の症状がない軽いタイプもある",
+   "source_id": "nanbyou",
+   "evidence": "内臓の症状が全くない軽症のタイプもあります"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "臓器機能障害の発生や進行を抑止することが治療目標となる"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/53",
+   "label": "公式ページ"
+  },
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/06_01_002/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "概要と症状は難病情報センター、治療と疫学は小児慢性から取った（難病情報センター側に該当の節が無かったため）。",
+  "疫学の節は有病率の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:44:40+09:00",
+ "shard": 3
+}

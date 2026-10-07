@@ -1,0 +1,83 @@
+{
+ "idx": 675,
+ "name": "先天性筋ジストロフィー（メロシン欠損型）",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_21_052/",
+   "fetched_at": "2026-09-25T03:28:38+09:00",
+   "sha256": "2f13ccbfd8f4660f769e42c73a00b2a2427cd6848242af69e4ed0077e8a2f068",
+   "title": "メロシン欠損型先天性筋ジストロフィー 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "生まれつき筋力が弱い先天性筋ジストロフィーの一つで、知的障害を伴わないタイプです。",
+  "source_id": "shouman",
+  "evidence": "知的障害を伴わない先天性筋ジストロフィーである",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "おっぱいやミルクを飲みにくい",
+   "source_id": "shouman",
+   "evidence": "出生時よりの哺乳困難"
+  },
+  {
+   "text": "泣き声が弱い",
+   "source_id": "shouman",
+   "evidence": "啼泣微弱"
+  },
+  {
+   "text": "体がやわらかい（筋肉の張りが弱い）",
+   "source_id": "shouman",
+   "evidence": "著明な筋緊張低下"
+  },
+  {
+   "text": "筋力が弱い",
+   "source_id": "shouman",
+   "evidence": "筋緊張低下，筋力低下"
+  },
+  {
+   "text": "関節が固くなる",
+   "source_id": "shouman",
+   "evidence": "多関節拘縮"
+  },
+  {
+   "text": "背骨が曲がる（側弯）",
+   "source_id": "shouman",
+   "evidence": "進行性に関節変形，拘縮，側弯が生じる"
+  },
+  {
+   "text": "呼吸の障害",
+   "source_id": "shouman",
+   "evidence": "出生時より呼吸障害はあるが"
+  }
+ ],
+ "onset": {
+  "text": "生まれたときから症状があります",
+  "source_id": "shouman",
+  "evidence": "出生時よりの哺乳困難"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "対症療法が中心である．"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_21_052/",
+   "label": "公式ページ"
+  },
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4522",
+   "label": "関連する群のページ"
+  }
+ ],
+ "notes": [
+  "症状は完全欠損型の記述から取った。部分欠損例は発症が遅いと出典にある。"
+ ],
+ "extracted_at": "2026-10-02T21:14:56+09:00",
+ "shard": 2
+}

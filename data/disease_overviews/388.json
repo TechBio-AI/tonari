@@ -1,0 +1,83 @@
+{
+ "idx": 388,
+ "name": "レット症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4366",
+   "fetched_at": "2026-09-24T00:45:08+09:00",
+   "sha256": "a73c0ea5b2c350a9fa6b13acfe1a8489c79b9c64b2f8bcca746dc102107f699e",
+   "title": "レット症候群（指定難病１５６） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "乳幼児期に症状が現れる発達の障害で、ほとんどが女の子に起こります。",
+  "source_id": "nanbyou",
+  "evidence": "乳幼児期に症状が現れる発達障害で、ほとんど女児におこります",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "重い知的障害がある",
+   "source_id": "nanbyou",
+   "evidence": "重度の知的障害"
+  },
+  {
+   "text": "言葉が遅れる",
+   "source_id": "nanbyou",
+   "evidence": "言葉の遅れ"
+  },
+  {
+   "text": "てんかん発作が起こる",
+   "source_id": "nanbyou",
+   "evidence": "てんかん発作"
+  },
+  {
+   "text": "頭の成長が止まる",
+   "source_id": "nanbyou",
+   "evidence": "後天的な小頭症"
+  },
+  {
+   "text": "歩き方に異常が出る、ふらつく",
+   "source_id": "nanbyou",
+   "evidence": "歩行時の異常、フラツキ"
+  },
+  {
+   "text": "手をねじるような動作をする",
+   "source_id": "nanbyou",
+   "evidence": "捻じるような動作"
+  },
+  {
+   "text": "睡眠が乱れる、歯ぎしりをする",
+   "source_id": "nanbyou",
+   "evidence": "睡眠障害、歯ぎしり"
+  },
+  {
+   "text": "便秘が続く",
+   "source_id": "nanbyou",
+   "evidence": "頑固な便秘"
+  }
+ ],
+ "onset": {
+  "text": "ほとんどが女の子です",
+  "source_id": "nanbyou",
+  "evidence": "ほとんどが女児であります"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "根本的な治療法はまだ開発されていません。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4366",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:41:31+09:00",
+ "shard": 2
+}

@@ -1,0 +1,74 @@
+{
+ "idx": 389,
+ "name": "神経有棘赤血球症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4051",
+   "fetched_at": "2026-09-24T00:44:57+09:00",
+   "sha256": "c0b3b243ee444c69d157d1bd0639063a95c17abefbeea1e70b0a2e03cc7c6b5f",
+   "title": "神経有棘赤血球症（指定難病９） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "心や神経の症状、行動の変化、考える力の低下などが現れる遺伝性の病気です。",
+  "source_id": "nanbyou",
+  "evidence": "精神神経症状、行動異常、時に認知症などの神経症状を示す遺伝性の神経疾患",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "口の周りが自分の意思と関係なく動く",
+   "source_id": "nanbyou",
+   "evidence": "口の周りにみられる 不随意運動"
+  },
+  {
+   "text": "てんかん発作が起こる",
+   "source_id": "nanbyou",
+   "evidence": "発作的に意識が無くなってひきつけを起こす「てんかん発作」"
+  },
+  {
+   "text": "強いこだわりが出る",
+   "source_id": "nanbyou",
+   "evidence": "強いこだわり"
+  },
+  {
+   "text": "幻覚や妄想が出る",
+   "source_id": "nanbyou",
+   "evidence": "幻覚や妄想"
+  },
+  {
+   "text": "気持ちが落ち込む",
+   "source_id": "nanbyou",
+   "evidence": "抑うつなどの「精神症状」"
+  },
+  {
+   "text": "顔や手足がすばやく動く",
+   "source_id": "nanbyou",
+   "evidence": "顔面・四肢のすばやい動き"
+  },
+  {
+   "text": "発音がはっきりせず飲み込みにくくなる",
+   "source_id": "nanbyou",
+   "evidence": "発音がはっきりせずにコミュニケーション障害"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "現在のところ根本的な治療法はありません。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4051",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節の発症年齢は数値と一体のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:51:03+09:00",
+ "shard": 3
+}

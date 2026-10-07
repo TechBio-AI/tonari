@@ -1,0 +1,69 @@
+{
+ "idx": 469,
+ "name": "GM2ガングリオシドーシス（サンドホフ病）",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_087/",
+   "fetched_at": "2026-09-24T00:49:59+09:00",
+   "sha256": "3faa9a269e597436c56718e9efaeeae00f6b9e13ed42b1f1a6c4cfae3a93bfd5",
+   "title": "GM2-ガングリオシドーシス 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "脳を中心に、ある脂質がたまっていく病気です。",
+  "source_id": "shouman",
+  "evidence": "脳を中心にGM2ガングリオシドなどの糖脂質が蓄積する",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "発達がゆっくりになり、できていたことができなくなる",
+   "source_id": "shouman",
+   "evidence": "精神運動発達遅滞や退行が見られる"
+  },
+  {
+   "text": "けいれんが起きる",
+   "source_id": "shouman",
+   "evidence": "けいれん"
+  },
+  {
+   "text": "見えにくくなる、聞こえにくくなる",
+   "source_id": "shouman",
+   "evidence": "視覚や聴覚の障害"
+  },
+  {
+   "text": "飲み込みにくくなる",
+   "source_id": "shouman",
+   "evidence": "嚥下困難"
+  },
+  {
+   "text": "ふらついて動きがぎこちなくなる",
+   "source_id": "shouman",
+   "evidence": "進行性の運動失調と協調運動障害"
+  },
+  {
+   "text": "話しにくくなる",
+   "source_id": "shouman",
+   "evidence": "構音障害"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "現段階では対症療法に限られる。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_087/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は罹患率の数値のみのため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:32:02+09:00",
+ "shard": 1
+}

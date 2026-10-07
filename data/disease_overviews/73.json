@@ -1,0 +1,55 @@
+{
+ "idx": 73,
+ "name": "脊髄小脳変性症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_30_085/",
+   "fetched_at": "2026-09-24T00:51:55+09:00",
+   "sha256": "69581407a1f4ee1b35880fac90c7d6085729435a88fb210a15fa45135f7d7f1a",
+   "title": "脊髄小脳変性症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "ふらついたり、体を思うように動かしにくくなったりする症状が中心の病気です。",
+  "source_id": "shouman",
+  "evidence": "臨床的には小脳性の運動失調症状を主体とする",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "ふらついて、体を思うように動かしにくい",
+   "source_id": "shouman",
+   "evidence": "症状は失調症状を認める"
+  },
+  {
+   "text": "手足の神経の症状が出ることがある",
+   "source_id": "shouman",
+   "evidence": "末梢神経障害"
+  },
+  {
+   "text": "症状がよくなったり悪くなったりすることがある",
+   "source_id": "shouman",
+   "evidence": "症状の一過性の増悪と寛解を認める場合がある"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "集中的なリハビリテーションの効果があることが示唆されている"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_30_085/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は患者数の数値が中心のため onset は null。",
+  "治療の節には製品名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:24:20+09:00",
+ "shard": 1
+}

@@ -1,0 +1,76 @@
+{
+ "idx": 191,
+ "name": "アレキサンダー病",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4345",
+   "fetched_at": "2026-09-24T00:45:04+09:00",
+   "sha256": "e213e50471c9b1065916223af9a35093dbc93b8c64e463e16af9df0c45adfe66",
+   "title": "アレキサンダー病（指定難病１３１） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "けいれん、頭が大きくなること、発達の遅れを中心とした症状が出る病気です。",
+  "source_id": "nanbyou",
+  "evidence": "乳児期に発症するけいれん、頭囲拡大、精神運動発達の遅れを中核症状とし",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "けいれんが起きる",
+   "source_id": "nanbyou",
+   "evidence": "けいれん、頭囲拡大、精神運動発達の遅れの3つの症状"
+  },
+  {
+   "text": "頭が大きくなる",
+   "source_id": "nanbyou",
+   "evidence": "頭囲拡大"
+  },
+  {
+   "text": "発達がゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "精神運動発達の遅れ"
+  },
+  {
+   "text": "話しにくい、飲み込みにくい",
+   "source_id": "nanbyou",
+   "evidence": "話しにくさ、飲み込みにくさ"
+  },
+  {
+   "text": "手足が動かしにくい、ふらつく",
+   "source_id": "nanbyou",
+   "evidence": "手足の力の動かしにくさ、ふらつき"
+  },
+  {
+   "text": "尿が出にくい、立ちくらみがする",
+   "source_id": "nanbyou",
+   "evidence": "尿が出にくい、立ちくらみ"
+  },
+  {
+   "text": "眠っているときに息が止まる",
+   "source_id": "nanbyou",
+   "evidence": "睡眠時無呼吸などの自律神経障害"
+  }
+ ],
+ "onset": {
+  "text": "新生児からお年寄りまで、あらゆる年齢で発症します",
+  "source_id": "nanbyou",
+  "evidence": "新生児から高齢者まであらゆる年齢で発症する"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "現時点では確立した治療法はありません。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4345",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:57:53+09:00",
+ "shard": 4
+}

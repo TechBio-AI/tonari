@@ -1,0 +1,70 @@
+{
+ "idx": 741,
+ "name": "潰瘍性大腸炎（難治型）",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/12_04_014/",
+   "fetched_at": "2026-09-24T00:52:04+09:00",
+   "sha256": "6314c9f656dd30f44243e9051590b13023a9fcd19dd19c49b4104c81d6018e78",
+   "title": "潰瘍性大腸炎 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "大腸にびらんや潰瘍ができる、原因のわかっていない炎症の病気です。",
+  "source_id": "shouman",
+  "evidence": "しばしばびらんや潰瘍を形成する大腸の原因不明のびまん性非特異的炎症",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "熱が出る",
+   "source_id": "shouman",
+   "evidence": "大腸の炎症による発熱"
+  },
+  {
+   "text": "お腹が痛む",
+   "source_id": "shouman",
+   "evidence": "腹痛"
+  },
+  {
+   "text": "便に血がまじる",
+   "source_id": "shouman",
+   "evidence": "下血"
+  },
+  {
+   "text": "食欲がない",
+   "source_id": "shouman",
+   "evidence": "食欲不振を主症状とし"
+  },
+  {
+   "text": "体重が減る",
+   "source_id": "shouman",
+   "evidence": "体重減少が65%に認められる"
+  },
+  {
+   "text": "貧血になる",
+   "source_id": "shouman",
+   "evidence": "鉄欠乏性貧血も高頻度に存在する"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "低栄養や脱水補正のための全身の集中治療をまず行う"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/12_04_014/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は罹患率の数値が中心のため onset は null。",
+  "治療の節には薬剤名が並ぶので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T03:02:14+09:00",
+ "shard": 4
+}

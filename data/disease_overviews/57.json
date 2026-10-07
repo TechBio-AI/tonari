@@ -1,0 +1,48 @@
+{
+ "idx": 57,
+ "name": "先天性副腎過形成",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/418",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Congenital adrenal hyperplasia"
+  }
+ ],
+ "summary": {
+  "text": "A group of rare inherited endocrine disorders caused by a steroidogenic enzyme deficiency and characterized by adrenal insufficiency and variable degrees of hyper- or hypoandrogenism manifestations, depending on disease type and severity.",
+  "source_id": "orphanet",
+  "evidence": "A group of rare inherited endocrine diso",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "adrenal insufficiency",
+   "source_id": "orphanet",
+   "evidence": "adrenal insufficiency"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/418",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "「hyper- or hypoandrogenism manifestations」は病型で変わるとされ、症状として 1 つに決められないため入れなかった。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

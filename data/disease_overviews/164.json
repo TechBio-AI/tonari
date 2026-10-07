@@ -1,0 +1,70 @@
+{
+ "idx": 164,
+ "name": "レノックス・ガストー症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4889",
+   "fetched_at": "2026-09-24T00:46:20+09:00",
+   "sha256": "36e0d131f9f5eade01ebbce505b82119c6737d09c71f1970d3cfbd3fd72b1455",
+   "title": "レノックス・ガストー症候群（指定難病１４４） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "幼児期から子どものころに始まり、何種類もの発作が出るてんかんです。",
+  "source_id": "nanbyou",
+  "evidence": "幼児期から小児期に発症し、何種類ものてんかん発作がみられ",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "強直発作が出る",
+   "source_id": "nanbyou",
+   "evidence": "強直発作や非定型欠神発作などの多彩なてんかん発作"
+  },
+  {
+   "text": "知的障がいが起こる",
+   "source_id": "nanbyou",
+   "evidence": "知的障がいがおきます"
+  },
+  {
+   "text": "睡眠中に全身が強直する発作が出る",
+   "source_id": "nanbyou",
+   "evidence": "睡眠中に起こることが多い全般強直発作"
+  },
+  {
+   "text": "覚醒時にぼーっとする発作が出る",
+   "source_id": "nanbyou",
+   "evidence": "覚醒時に起こる非定型欠神発作"
+  },
+  {
+   "text": "脱力発作が出る",
+   "source_id": "nanbyou",
+   "evidence": "脱力発作です"
+  },
+  {
+   "text": "体を反り返らせる発作が出る",
+   "source_id": "nanbyou",
+   "evidence": "体全体を反り返らせたりと言ったことが起こります"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "どれも抗てんかん発作薬が効きにくいため"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4889",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は原因の説明で、発症年齢の記載が無いため onset は null。",
+  "治療の節には薬剤名が並ぶので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:56:25+09:00",
+ "shard": 4
+}

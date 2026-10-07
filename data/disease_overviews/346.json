@@ -1,0 +1,80 @@
+{
+ "idx": 346,
+ "name": "遺伝性血管性浮腫（III型）",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/10_07_050/",
+   "fetched_at": "2026-09-24T00:50:52+09:00",
+   "sha256": "ced65356a33ab418f232ac56a96211330c7f3fb8f34c9d6c149e5ca9d4887a08",
+   "title": "遺伝性血管性浮腫（C1インヒビター欠損症） 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "体の一部が突然はれる（むくむ）発作が起こる病気です。",
+  "source_id": "shouman",
+  "evidence": "局所性で突発性の血管性浮腫であり、遺伝性におこる。",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "まぶたや唇、手足がはれる",
+   "source_id": "shouman",
+   "evidence": "眼瞼、口唇、四肢に生じやすい"
+  },
+  {
+   "text": "はれにかゆみや痛みはない",
+   "source_id": "shouman",
+   "evidence": "痒みや痛みはない"
+  },
+  {
+   "text": "お腹が痛む",
+   "source_id": "shouman",
+   "evidence": "腹痛"
+  },
+  {
+   "text": "吐き気がする、吐く",
+   "source_id": "shouman",
+   "evidence": "嘔気、嘔吐"
+  },
+  {
+   "text": "下痢をする",
+   "source_id": "shouman",
+   "evidence": "下痢などがおこる"
+  },
+  {
+   "text": "飲み込みにくい、のどがつまる感じがする",
+   "source_id": "shouman",
+   "evidence": "嚥下困難、のどのつまり感"
+  },
+  {
+   "text": "声が変わる",
+   "source_id": "shouman",
+   "evidence": "声の変化"
+  },
+  {
+   "text": "息が苦しくなる",
+   "source_id": "shouman",
+   "evidence": "進行すると呼吸困難となり"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "発作を予防する"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/10_07_050/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節は製剤名・薬剤名が中心のため、含まない箇所を evidence に選んだ。evidence が短い。",
+  "疫学の節が保存 HTML に無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:30:26+09:00",
+ "shard": 1
+}

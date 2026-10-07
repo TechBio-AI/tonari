@@ -1,0 +1,48 @@
+{
+ "idx": 797,
+ "name": "Gray Platelet症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/721",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Gray platelet syndrome"
+  }
+ ],
+ "summary": {
+  "text": "Gray platelet syndrome (GPS) is a rare inherited bleeding disorder characterized by macrothrombocytopenia, myelofibrosis, splenomegaly and typical gray appearance of platelets on Wright stained peripheral blood smear.",
+  "source_id": "orphanet",
+  "evidence": "Gray platelet syndrome (GPS) is a rare i",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "splenomegaly",
+   "source_id": "orphanet",
+   "evidence": "splenomegaly"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/721",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: macrothrombocytopenia / myelofibrosis / gray appearance of platelets（血液検査）",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

@@ -1,0 +1,48 @@
+{
+ "idx": 524,
+ "name": "Bartter症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/112",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Bartter syndrome"
+  }
+ ],
+ "summary": {
+  "text": "Bartter syndrome is a group of rare renal tubular disease characterized by impaired salt reabsorption in the thick ascending limb of Henle's loop and clinically by the association of hypokalemic alkalosis, hypercalciuria/nephrocalcinosis, increased levels of plasma renin and aldosterone, low blood pressure and vascular resistance to angiotensin II.",
+  "source_id": "orphanet",
+  "evidence": "Bartter syndrome is a group of rare rena",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "low blood pressure",
+   "source_id": "orphanet",
+   "evidence": "low blood pressure"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/112",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: hypokalemic alkalosis / hypercalciuria/nephrocalcinosis / increased levels of plasma renin and aldosterone",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

@@ -1,0 +1,70 @@
+{
+ "idx": 139,
+ "name": "中枢性尿崩症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_08_011/",
+   "fetched_at": "2026-09-24T00:48:04+09:00",
+   "sha256": "f11add5928ca5da01bc3aff9ca659a2e9b1d2355ccb7900127fc8bc7176eb2d2",
+   "title": "中枢性尿崩症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "腎臓での水の再吸収がうまくいかず、うすい尿がたくさん出る状態です。",
+  "source_id": "shouman",
+  "evidence": "腎集合管での水再吸収が障害され、低浸透圧尿が多量に排泄される病態",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "のどが渇く",
+   "source_id": "shouman",
+   "evidence": "主症状は口渇"
+  },
+  {
+   "text": "水をたくさん飲む",
+   "source_id": "shouman",
+   "evidence": "多飲"
+  },
+  {
+   "text": "尿がたくさん出る",
+   "source_id": "shouman",
+   "evidence": "多尿"
+  },
+  {
+   "text": "冷たい水を欲しがる",
+   "source_id": "shouman",
+   "evidence": "特に冷水を欲しがることが特徴的である"
+  },
+  {
+   "text": "夜尿で気づかれることがある",
+   "source_id": "shouman",
+   "evidence": "夜尿で気づかれることもある"
+  },
+  {
+   "text": "熱、けいれん、意識障害が出ることがある",
+   "source_id": "shouman",
+   "evidence": "発熱、痙攣、意識障害などを呈する"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "口渇感に従って自由に飲水をしてよい"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_08_011/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節が保存 HTML に無いため onset は null。",
+  "治療の節は薬剤名が中心のため、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:56:39+09:00",
+ "shard": 4
+}

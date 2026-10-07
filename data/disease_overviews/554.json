@@ -1,0 +1,63 @@
+{
+ "idx": 554,
+ "name": "グルタル酸血症II型",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/26791",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Multiple acyl-CoA dehydrogenase deficiency"
+  }
+ ],
+ "summary": {
+  "text": "Multiple acyl-CoA dehydrogenation deficiency (MADD) is a disorder of fatty acid and amino acid oxidation and is a clinically heterogeneous disorder ranging from a severe neonatal presentation with metabolic acidosis, cardiomyopathy and liver disease, to a mild childhood/adult disease with episodic metabolic decompensation, muscle weakness, and respiratory failure.",
+  "source_id": "orphanet",
+  "evidence": "Multiple acyl-CoA dehydrogenation defici",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "cardiomyopathy",
+   "source_id": "orphanet",
+   "evidence": "cardiomyopathy"
+  },
+  {
+   "text": "liver disease",
+   "source_id": "orphanet",
+   "evidence": "liver disease"
+  },
+  {
+   "text": "muscle weakness",
+   "source_id": "orphanet",
+   "evidence": "muscle weakness"
+  },
+  {
+   "text": "respiratory failure",
+   "source_id": "orphanet",
+   "evidence": "respiratory failure"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/26791",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: metabolic acidosis / metabolic decompensation",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "新生児期の重症型と小児・成人の軽症型が書かれており、時期を 1 つに決められないため onset は null。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

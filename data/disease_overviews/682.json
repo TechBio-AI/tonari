@@ -1,0 +1,69 @@
+{
+ "idx": 682,
+ "name": "カルマン症候群",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_29_061/",
+   "fetched_at": "2026-09-24T00:48:11+09:00",
+   "sha256": "b5e33a12283193afed0f967ae44106a46c5c7e0531909c1d07ef4bc48c0f8434",
+   "title": "カルマン（Kallmann）症候群 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "思春期の体の変化が始まらないか、始まっても進まない病気です。",
+  "source_id": "shouman",
+  "evidence": "二次性徴が発来しないか、発来しても進行せず不完全になる",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "思春期の変化が現れない",
+   "source_id": "shouman",
+   "evidence": "二次性徴が発来しないか"
+  },
+  {
+   "text": "始まっても進まず不完全になる",
+   "source_id": "shouman",
+   "evidence": "発来しても進行せず不完全になる"
+  },
+  {
+   "text": "一時的に背が低くなる",
+   "source_id": "shouman",
+   "evidence": "思春期年齢では一時的に低身長傾向となる"
+  },
+  {
+   "text": "においを感じにくい",
+   "source_id": "shouman",
+   "evidence": "無嗅症･低嗅症を合併する"
+  },
+  {
+   "text": "骨密度が低くなる",
+   "source_id": "shouman",
+   "evidence": "骨密度は治療前に年齢相当に比し低値を呈する"
+  },
+  {
+   "text": "腎臓の形成異常や難聴をともなうことがある",
+   "source_id": "shouman",
+   "evidence": "腎形成異常や難聴、口唇口蓋裂"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "性ホルモン補充療法。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_29_061/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は頻度の数値のみのため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T03:01:40+09:00",
+ "shard": 4
+}

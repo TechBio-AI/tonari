@@ -1,0 +1,69 @@
+{
+ "idx": 320,
+ "name": "遺伝性膵炎",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4780",
+   "fetched_at": "2026-09-24T00:46:03+09:00",
+   "sha256": "975245fab9eb07aa9e950faf1369feeedf19845c2074cecf607b2eb829133b82",
+   "title": "遺伝性膵炎（指定難病２９８） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "遺伝によって慢性のすい炎が家族の中に多く起こる、まれな病気です。",
+  "source_id": "nanbyou",
+  "evidence": "遺伝性膵炎とは、遺伝により慢性膵炎が家族の中に多発する稀な病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "お腹が痛む",
+   "source_id": "nanbyou",
+   "evidence": "幼少期より腹痛"
+  },
+  {
+   "text": "吐き気がする、吐く",
+   "source_id": "nanbyou",
+   "evidence": "悪心 、嘔吐"
+  },
+  {
+   "text": "下痢をする",
+   "source_id": "nanbyou",
+   "evidence": "下痢などの急性膵炎様発作を繰り返し"
+  },
+  {
+   "text": "脂肪便が出る",
+   "source_id": "nanbyou",
+   "evidence": "脂肪便"
+  },
+  {
+   "text": "体重が減る",
+   "source_id": "nanbyou",
+   "evidence": "体重減少をきたす膵外分泌機能不全"
+  },
+  {
+   "text": "糖尿病を合併する",
+   "source_id": "nanbyou",
+   "evidence": "糖尿病を高率に合併します"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "原則として通常の慢性膵炎と同じ治療をします。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4780",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は遺伝の説明で、発症年齢の記載が無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:59:04+09:00",
+ "shard": 4
+}

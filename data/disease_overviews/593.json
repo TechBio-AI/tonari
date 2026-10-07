@@ -1,0 +1,70 @@
+{
+ "idx": 593,
+ "name": "慢性再発性多発性骨髄炎",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4465",
+   "fetched_at": "2026-09-24T00:45:25+09:00",
+   "sha256": "ab100a7ea9e8eee5536e4f8b28a30e4d9337382e5e31b304f8f7768bd892a675",
+   "title": "慢性再発性多発性骨髄炎（指定難病２７０） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "骨の中に炎症が起こり、まわりの骨が吸収される病気です。",
+  "source_id": "nanbyou",
+  "evidence": "非特異的 な骨髄の 炎症 と周囲の骨吸収を認める病態",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "骨が痛む",
+   "source_id": "nanbyou",
+   "evidence": "骨痛（骨の痛み）が主な症状です"
+  },
+  {
+   "text": "ももなど長い骨に痛みが出やすい",
+   "source_id": "nanbyou",
+   "evidence": "痛みは大腿など長管骨（長い骨）に認められる頻度が高い"
+  },
+  {
+   "text": "夜から朝にかけて痛みが強くなる",
+   "source_id": "nanbyou",
+   "evidence": "痛みは夜間〜早朝に強く"
+  },
+  {
+   "text": "運動や寒さで悪くなる",
+   "source_id": "nanbyou",
+   "evidence": "運動や寒さなどにより悪化する傾向があります"
+  },
+  {
+   "text": "関節が痛む、はれる",
+   "source_id": "nanbyou",
+   "evidence": "関節の痛みや腫れ"
+  },
+  {
+   "text": "発疹が出る",
+   "source_id": "nanbyou",
+   "evidence": "発疹"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "CRMOの治療方針は確立されてはいませんが"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4465",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は発症年齢が数値と一体のため onset は null。",
+  "治療の節には薬の分類名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:32:02+09:00",
+ "shard": 1
+}

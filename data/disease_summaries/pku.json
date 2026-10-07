@@ -1,0 +1,139 @@
+{
+  "_readme": [
+    "★ これは 11 疾患のための暫定形式です。将来 supabase の themes / theme_facts / fact_sources（器）へ移行します。",
+    "  情報の種類を増やすときは、この形式を拡張するのではなく、器への移行を検討してください（docs/CONTENT_ROADMAP.md）。",
+    "中身: ファウンダーが判定した患者向けの文（docs/disease_summaries_draft_2026-09-13.md、2026-09-13 承認）。",
+    "common_symptoms は HPO v2026-06-23 の「非常に多い」「多い」を元に言い換えたもの。各項目は sources に元の HPO ラベルか「執筆者による記述」を持つ。",
+    "表示では頻度を区別しない。薬剤名は書かない。",
+    "読み込み: lib/portal/disease-summaries.ts"
+  ],
+  "slug": "pku",
+  "disease": "フェニルケトン尿症",
+  "orpha_code": "ORPHA:716",
+  "hpo_version": "v2026-06-23",
+  "approved": "2026-09-13",
+  "symptoms_preface": "新生児スクリーニングで早く見つかり、食事療法を続けている場合、次の症状は出ないことが多いです。以下は、治療をしない場合に報告されている症状です。",
+  "common_symptoms": [
+    {
+      "text": "発達がゆっくりになる",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "全般性発達遅滞"
+          ],
+          "hpo_ids": [
+            "HP:0001263"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "学習が難しい",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "特異的学習障害",
+            "知的障害, 重度"
+          ],
+          "hpo_ids": [
+            "HP:0001328",
+            "HP:0010864"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "けいれん発作",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "発作"
+          ],
+          "hpo_ids": [
+            "HP:0001250"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "肌や髪の色が薄い",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "皮膚低色素"
+          ],
+          "hpo_ids": [
+            "HP:0001010"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "湿疹が出やすい",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "湿疹"
+          ],
+          "hpo_ids": [
+            "HP:0000964"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "体や尿から独特のにおいがする",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "カビ臭"
+          ],
+          "hpo_ids": [
+            "HP:0410021"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "頭が小さめ",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "小頭"
+          ],
+          "hpo_ids": [
+            "HP:0000252"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "行動の問題（行動異常）",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "行動異常"
+          ],
+          "hpo_ids": [
+            "HP:0000708"
+          ]
+        }
+      ]
+    }
+  ],
+  "treatment_summary": [
+    "フェニルアラニンを制限する食事療法が中心です。",
+    "薬による治療が行われることもあります。",
+    "血液中のフェニルアラニンの値を定期的に確かめます。"
+  ],
+  "treatment_source": "知識ファイル（data/knowledge/comprehensive_rare_diseases_knowledge.json）の treatment を元に、薬剤名を除いて執筆者が要約。ファウンダー確認待ち（2026-09-13 下書き）",
+  "nanbyo_number": null
+}

@@ -1,0 +1,69 @@
+{
+ "idx": 147,
+ "name": "X連鎖無ガンマグロブリン血症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/10_03_023/",
+   "fetched_at": "2026-09-24T00:50:46+09:00",
+   "sha256": "8032af8c02a690303c6c2aab4089f6b1bb1759e8d0549173cf4f8220a740f90e",
+   "title": "X連鎖無ガンマグロブリン血症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "血液中の抗体がどのタイプも大きく減ってしまう病気です。",
+  "source_id": "shouman",
+  "evidence": "血清免疫グロブリンIgG、IgA、IgM、すべてのクラスの値の低下が著しく",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "細菌の感染症をくり返す",
+   "source_id": "shouman",
+   "evidence": "細菌感染症をしばしば反復する"
+  },
+  {
+   "text": "中耳炎になる",
+   "source_id": "shouman",
+   "evidence": "中耳炎"
+  },
+  {
+   "text": "副鼻腔炎になる",
+   "source_id": "shouman",
+   "evidence": "副鼻腔炎"
+  },
+  {
+   "text": "気管支炎や肺炎になる",
+   "source_id": "shouman",
+   "evidence": "気管支炎、肺炎などの呼吸器感染症"
+  },
+  {
+   "text": "皮膚が化膿する",
+   "source_id": "shouman",
+   "evidence": "皮膚化膿症"
+  },
+  {
+   "text": "髄膜炎や敗血症になる",
+   "source_id": "shouman",
+   "evidence": "髄膜炎、敗血症がみられる"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "免疫グロブリン製剤の定期補充療法が基本である"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/10_03_023/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は患者数の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:56:25+09:00",
+ "shard": 4
+}

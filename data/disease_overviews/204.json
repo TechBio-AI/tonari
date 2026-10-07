@@ -1,0 +1,80 @@
+{
+ "idx": 204,
+ "name": "血球貪食性リンパ組織球症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/01_04_025/",
+   "fetched_at": "2026-09-24T00:46:54+09:00",
+   "sha256": "2add55fb3ca5e5f74ae4b1a9ed7acdc0e0091650da62204db31ae2eebb1c7bca",
+   "title": "血球貪食性リンパ組織球症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "血球を取りこむはたらきの細胞が増える病気です。",
+  "source_id": "shouman",
+  "evidence": "マクロファージが増殖する疾患の代表として血球貪食性リンパ組織球症（HLH）",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "熱が続く",
+   "source_id": "shouman",
+   "evidence": "HLH：持続する発熱"
+  },
+  {
+   "text": "発疹が出る",
+   "source_id": "shouman",
+   "evidence": "皮疹"
+  },
+  {
+   "text": "肝臓や脾臓が大きくなる",
+   "source_id": "shouman",
+   "evidence": "肝脾腫"
+  },
+  {
+   "text": "リンパ節がはれる",
+   "source_id": "shouman",
+   "evidence": "リンパ節腫張"
+  },
+  {
+   "text": "出血しやすくなる",
+   "source_id": "shouman",
+   "evidence": "出血症状"
+  },
+  {
+   "text": "けいれんが起きる",
+   "source_id": "shouman",
+   "evidence": "けいれん"
+  },
+  {
+   "text": "呼吸が苦しくなる",
+   "source_id": "shouman",
+   "evidence": "呼吸障害"
+  },
+  {
+   "text": "むくむ",
+   "source_id": "shouman",
+   "evidence": "浮腫"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "原発性HLHでは、造血細胞移植が必要である。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/01_04_025/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は発症数の数値が中心のため onset は null。",
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:33:34+09:00",
+ "shard": 1
+}

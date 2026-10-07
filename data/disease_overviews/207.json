@@ -1,0 +1,79 @@
+{
+ "idx": 207,
+ "name": "後縦靭帯骨化症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/98",
+   "fetched_at": "2026-09-25T03:27:12+09:00",
+   "sha256": "5a7c39b3bc99ef5622e7f5b6b9f1a4a9a1be013909dca2b964849d946103105b",
+   "title": "後縦靱帯骨化症(OPLL)（指定難病６９） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "背骨の中を縦に走る靱帯が骨のように硬くなり、神経の通り道が狭くなって、神経が押される病気です。",
+  "source_id": "nanbyou",
+  "evidence": "後縦靭帯が骨化した結果、脊髄の入っている脊柱管が狭くなり",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "首筋や肩甲骨のまわり、指先の痛みやしびれ",
+   "source_id": "nanbyou",
+   "evidence": "首筋や肩甲骨周辺・指先の痛みやしびれ"
+  },
+  {
+   "text": "足のしびれや感覚の障害",
+   "source_id": "nanbyou",
+   "evidence": "脚のしびれや感覚障害"
+  },
+  {
+   "text": "足が思うように動かない",
+   "source_id": "nanbyou",
+   "evidence": "足が思うように動かない等の運動障害"
+  },
+  {
+   "text": "手指で細かい作業をしにくい",
+   "source_id": "nanbyou",
+   "evidence": "両手の細かい作業が困難となる手指の巧緻運動障害"
+  },
+  {
+   "text": "立つ・歩くことが難しくなることがある",
+   "source_id": "nanbyou",
+   "evidence": "立ったり歩いたりすることが困難となったり"
+  },
+  {
+   "text": "排尿や排便の障害",
+   "source_id": "nanbyou",
+   "evidence": "排尿や排便の障害が出現したり"
+  },
+  {
+   "text": "足の力が抜ける",
+   "source_id": "nanbyou",
+   "evidence": "下肢の脱力やしびれ等が多いようです"
+  }
+ ],
+ "onset": {
+  "text": "中年以降に発症します",
+  "source_id": "nanbyou",
+  "evidence": "病気が発症するのは中年以降"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "症状が重度の場合は手術治療をおこないます。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/98",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "症状は頚椎・胸椎・腰椎のどこに起こるかで異なると出典に書かれている。ここでは部位を分けずに並べた。",
+  "治療の節には薬物療法の記述もあるが、evidence は手術の一文から選んだ。"
+ ],
+ "extracted_at": "2026-10-02T18:21:44+09:00",
+ "shard": 1
+}

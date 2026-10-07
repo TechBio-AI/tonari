@@ -1,0 +1,52 @@
+{
+ "idx": 739,
+ "name": "Tufting Enteropathy",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/92050",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Congenital tufting enteropathy"
+  }
+ ],
+ "summary": {
+  "text": "Congenital Tufting Enteropathy is a rare congenital enteropathy presenting with early-onset severe and intractable diarrhea that leads to irreversible intestinal failure.",
+  "source_id": "orphanet",
+  "evidence": "Congenital Tufting Enteropathy is a rare",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "early-onset severe and intractable diarrhea",
+   "source_id": "orphanet",
+   "evidence": "early-onset severe and intractable"
+  },
+  {
+   "text": "irreversible intestinal failure",
+   "source_id": "orphanet",
+   "evidence": "irreversible intestinal failure"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/92050",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

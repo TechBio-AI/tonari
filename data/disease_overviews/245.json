@@ -1,0 +1,71 @@
+{
+ "idx": 245,
+ "name": "顔面肩甲上腕型筋ジストロフィー",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_21_050/",
+   "fetched_at": "2026-09-24T00:51:35+09:00",
+   "sha256": "899f719b1f75794fed04e47d46068af208cf067c058b9151355280e5c973bcad",
+   "title": "顔面肩甲上腕型筋ジストロフィー 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "顔や肩、上腕の筋肉が主に障害され、ゆっくり進んでいく病気です。",
+  "source_id": "shouman",
+  "evidence": "顔面筋、肩甲、上腕近位部の筋が主に障害をうけ、緩徐進行性を示す疾患である",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "表情が乏しくなる",
+   "source_id": "shouman",
+   "evidence": "初発症状は表情が乏しい"
+  },
+  {
+   "text": "麺をうまくすすれない",
+   "source_id": "shouman",
+   "evidence": "麺をうまくすすれない"
+  },
+  {
+   "text": "腕を上げにくい",
+   "source_id": "shouman",
+   "evidence": "上肢の挙上困難"
+  },
+  {
+   "text": "肩甲骨が翼のように浮き出る",
+   "source_id": "shouman",
+   "evidence": "翼状肩甲"
+  },
+  {
+   "text": "肩まわりの筋力が落ちる",
+   "source_id": "shouman",
+   "evidence": "上肢帯の筋力低下を主訴とする"
+  },
+  {
+   "text": "足にも障害が広がる",
+   "source_id": "shouman",
+   "evidence": "進行とともに下肢帯、下肢にも障害は及び"
+  }
+ ],
+ "onset": {
+  "text": "幼児期から壮年期まで、発症の時期に幅があります",
+  "source_id": "shouman",
+  "evidence": "幼児期から壮年期まで幅があり"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "根本的治療法は現在までのところ見いだされていない。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_21_050/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:57:53+09:00",
+ "shard": 4
+}

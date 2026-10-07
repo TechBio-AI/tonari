@@ -1,0 +1,64 @@
+{
+ "idx": 102,
+ "name": "天疱瘡",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/153",
+   "fetched_at": "2026-09-24T00:44:19+09:00",
+   "sha256": "9858ac872c33910800e624a9f5297f85af1827881167aee581e29fd1d5fe3009",
+   "title": "天疱瘡（指定難病３５） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "皮膚や粘膜に水ぶくれやただれができる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "皮膚や粘膜に水疱（みずぶくれ）やびらんを生じる自己免疫性水疱症です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "口の中に水ぶくれやただれができる",
+   "source_id": "nanbyou",
+   "evidence": "口腔を中心とした粘膜に水疱とびらんが生じます"
+  },
+  {
+   "text": "痛みをともなう",
+   "source_id": "nanbyou",
+   "evidence": "痛みを伴い"
+  },
+  {
+   "text": "食事がとれなくなることがある",
+   "source_id": "nanbyou",
+   "evidence": "食事がとれなくなることがあります"
+  },
+  {
+   "text": "全身に水ぶくれやただれが広がる",
+   "source_id": "nanbyou",
+   "evidence": "全身に水疱・びらんが広がって"
+  },
+  {
+   "text": "頭や顔、胸、背中に赤い皮疹が出る",
+   "source_id": "nanbyou",
+   "evidence": "頭、顔面、胸、背中などに落屑"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "病気の原因となる自己抗体の産生と働きを抑える免疫抑制療法を行います"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/153",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節の発病年齢は数値と一体のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:36:53+09:00",
+ "shard": 2
+}

@@ -1,0 +1,80 @@
+{
+ "idx": 659,
+ "name": "多発性内分泌腫瘍症2B型",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/247709",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Multiple endocrine neoplasia type 2B"
+  }
+ ],
+ "summary": {
+  "text": "A rare form of multiple endocrine neoplasia type 2 (MEN2) syndrome characterized by aggressive medullary thyroid carcinoma in association with other endocrine tumors, notably pheochromocytoma (one or both adrenal glands can be affected). Onset is typically in infancy or childhood and patients often have a typical facies (mucosal neuromas of the lips and tongue, and bumpy lips), ophthalmologic abnormalities (alacrima in infancy, thickened and everted eyelids, mild ptosis, and prominent corneal nerves), skeletal anomalies (marfanoid body habitus, narrow long facies, pes cavus, pectus excavatum, high-arched palate, scoliosis, hyperextensible joints and slipped capital femoral epiphyses), and a generalized ganglioneuromatosis throughout the aerodigestive tract. Chronic constipation, abdominal distension, diarrhea, or megacolon at birth are often the initial manifestations.",
+  "source_id": "orphanet",
+  "evidence": "A rare form of multiple endocrine neopla",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "medullary thyroid carcinoma",
+   "source_id": "orphanet",
+   "evidence": "medullary thyroid carcinoma"
+  },
+  {
+   "text": "pheochromocytoma",
+   "source_id": "orphanet",
+   "evidence": "pheochromocytoma"
+  },
+  {
+   "text": "mucosal neuromas of the lips and tongue",
+   "source_id": "orphanet",
+   "evidence": "mucosal neuromas of the lips and tongue"
+  },
+  {
+   "text": "marfanoid body habitus",
+   "source_id": "orphanet",
+   "evidence": "marfanoid body habitus"
+  },
+  {
+   "text": "Chronic constipation",
+   "source_id": "orphanet",
+   "evidence": "Chronic constipation"
+  },
+  {
+   "text": "abdominal distension",
+   "source_id": "orphanet",
+   "evidence": "abdominal distension"
+  },
+  {
+   "text": "diarrhea",
+   "source_id": "orphanet",
+   "evidence": "diarrhea"
+  }
+ ],
+ "onset": {
+  "text": "Onset is typically in infancy or childhood",
+  "source_id": "orphanet",
+  "evidence": "Onset is typically in infancy or"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/247709",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

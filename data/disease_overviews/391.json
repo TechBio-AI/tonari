@@ -1,0 +1,58 @@
+{
+ "idx": 391,
+ "name": "メチルグルタコン酸尿症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5449",
+   "fetched_at": "2026-09-24T00:46:37+09:00",
+   "sha256": "5557d66aa916c410440d89b54ea8f20bfd4c5876aa83cf26df7c47cb7e8b9473",
+   "title": "メチルグルタコン酸尿症（指定難病３２４） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "尿にメチルグルタコン酸が出るいくつかの病気の総称です。",
+  "source_id": "nanbyou",
+  "evidence": "尿の中にメチルグルタコン酸が排出されるいくつかの病気を総称して",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "症状は病気の型によって異なる",
+   "source_id": "nanbyou",
+   "evidence": "病気の型により症状は異なります"
+  },
+  {
+   "text": "同じ型でも患者ごとに症状が違う",
+   "source_id": "nanbyou",
+   "evidence": "同じ病型でも患者さんによって起きる症状は違う"
+  },
+  {
+   "text": "心臓の力が弱ることがある",
+   "source_id": "nanbyou",
+   "evidence": "心臓の力が弱っているときには"
+  }
+ ],
+ "onset": {
+  "text": "患者さんの数が極めて少なく、詳しいことはわかっていません",
+  "source_id": "nanbyou",
+  "evidence": "患者さんの数が極めて少ないので、詳しいことは分かっていません。"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "非常に有効であるというものはないのが現状です"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5449",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "症状の節が「いろいろな症状が起きるとされています」という記述にとどまり具体的な症状名が無いため、同じページの症状・治療の節から取れた 3 件のみとした。"
+ ],
+ "extracted_at": "2026-09-25T03:00:26+09:00",
+ "shard": 4
+}

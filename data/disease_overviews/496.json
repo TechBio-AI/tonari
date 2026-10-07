@@ -1,0 +1,59 @@
+{
+ "idx": 496,
+ "name": "芳香族Lアミノ酸脱炭酸酵素欠損症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5446",
+   "fetched_at": "2026-09-24T00:46:36+09:00",
+   "sha256": "a0346cd9d64b4a98869f7cd8a898094302abeedea91ecbd606ce4fc264300e1d",
+   "title": "芳香族Ｌ－アミノ酸脱炭酸酵素欠損症（指定難病３２３） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "脳内の伝達物質が足りないために、心と体の発達が遅れる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "ドーパミンとセロトニンが欠乏することにより精神神経発達や運動発達の遅れ",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "体の動きが悪くなる",
+   "source_id": "nanbyou",
+   "evidence": "身体の動きが悪くなるジストニア"
+  },
+  {
+   "text": "精神の発達がゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "精神発達遅滞が主な症状です"
+  },
+  {
+   "text": "運動の発達がゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "運動発達の遅れを引き起こす"
+  }
+ ],
+ "onset": {
+  "text": "生まれつき運動や神経の発達が遅れている方の中にいると考えられています",
+  "source_id": "nanbyou",
+  "evidence": "生まれつき運動や神経発達が遅れている人の中にこの酵素の欠損症の人がいる"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "遺伝子治療が非常に有効な治療法で"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5446",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "症状の節が 1 文しかなく、3 件しか取れなかった。",
+  "治療の節には薬の説明が続くので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:42:40+09:00",
+ "shard": 2
+}

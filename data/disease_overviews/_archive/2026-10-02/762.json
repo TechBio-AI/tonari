@@ -1,0 +1,80 @@
+{
+ "idx": 762,
+ "name": "先天性グリコシルホスファチジルイノシトール欠損症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_13_035/",
+   "fetched_at": "2026-09-24T00:54:02+09:00",
+   "sha256": "0c6129e8ef36d2315955bad186b69ff0ba73e6c738ca8636ba757400b57ef692",
+   "title": "先天性グリコシルホスファチジルイノシトール（GPI）欠損症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "細胞の膜にタンパク質をつなぐ仕組みが、生まれつきうまく働かない病気です。",
+  "source_id": "shouman",
+  "evidence": "遺伝子変異によりこの過程に異常が生じるのが、先天性GPI欠損症（IGD）である",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "知的な発達に遅れがある",
+   "source_id": "shouman",
+   "evidence": "知的障害があり"
+  },
+  {
+   "text": "運動の発達がゆっくり",
+   "source_id": "shouman",
+   "evidence": "多くは運動発達の遅れ"
+  },
+  {
+   "text": "てんかんが起こる",
+   "source_id": "shouman",
+   "evidence": "てんかんを伴い"
+  },
+  {
+   "text": "特徴的な顔だちになる",
+   "source_id": "shouman",
+   "evidence": "顔貌異常：両眼解離、幅の広い鼻梁"
+  },
+  {
+   "text": "指の骨が短い、爪が小さい",
+   "source_id": "shouman",
+   "evidence": "末節骨の短縮、爪の欠損・低形成"
+  },
+  {
+   "text": "耳が聞こえにくい、目の症状が出る",
+   "source_id": "shouman",
+   "evidence": "難聴、眼・視力の異常"
+  },
+  {
+   "text": "体がふにゃふにゃする、関節が固くなる",
+   "source_id": "shouman",
+   "evidence": "筋緊張低下、関節拘縮"
+  },
+  {
+   "text": "感染症にかかりやすい",
+   "source_id": "shouman",
+   "evidence": "易感染性"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "理学療法、作業療法、言語療法"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_13_035/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は症例数の数値が中心のため onset は null。",
+  "治療の節には薬の分類名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:43:21+09:00",
+ "shard": 2
+}

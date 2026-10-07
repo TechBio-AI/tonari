@@ -1,0 +1,74 @@
+{
+ "idx": 149,
+ "name": "網膜芽細胞腫",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/01_05_029/",
+   "fetched_at": "2026-09-24T00:46:55+09:00",
+   "sha256": "5be182a8d2d9b7be069225a6807631ab64d75c53afc79f5dbbf8c328905f4d90",
+   "title": "網膜芽細胞腫 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "目の網膜から生じる、子どもの悪性の腫瘍です。",
+  "source_id": "shouman",
+  "evidence": "網膜芽細胞腫は、胎児性神経網膜由来の悪性腫瘍である。",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "腫瘍が小さいうちは症状がない",
+   "source_id": "shouman",
+   "evidence": "腫瘍が小さいうちは、症状を認めず"
+  },
+  {
+   "text": "瞳が白く見える",
+   "source_id": "shouman",
+   "evidence": "白色瞳孔"
+  },
+  {
+   "text": "目の向きがずれる",
+   "source_id": "shouman",
+   "evidence": "斜視"
+  },
+  {
+   "text": "白目が充血する",
+   "source_id": "shouman",
+   "evidence": "結膜充血"
+  },
+  {
+   "text": "視力が下がる",
+   "source_id": "shouman",
+   "evidence": "視力低下"
+  },
+  {
+   "text": "まぶたがはれる",
+   "source_id": "shouman",
+   "evidence": "眼瞼腫脹"
+  },
+  {
+   "text": "目が前に出る",
+   "source_id": "shouman",
+   "evidence": "眼球突出"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "腫瘍が眼球内にとどまる場合には、視機能や眼球を温存することが第２の目標"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/01_05_029/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は発症率の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:38:40+09:00",
+ "shard": 2
+}

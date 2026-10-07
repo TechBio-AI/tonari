@@ -1,0 +1,66 @@
+{
+ "idx": 594,
+ "name": "アデノシンデアミナーゼ2欠損症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/404553",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Deficiency of adenosine deaminase 2"
+  }
+ ],
+ "summary": {
+  "text": "A rare autoinflammatory disease characterized by a broad clinical phenotype of systemic inflammation, vasculitis, early-onset stroke, immunodeficiency and bone marrow failure. The disease typically presents in young children, although adult cases are being discovered.",
+  "source_id": "orphanet",
+  "evidence": "A rare autoinflammatory disease characte",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "systemic inflammation",
+   "source_id": "orphanet",
+   "evidence": "systemic inflammation"
+  },
+  {
+   "text": "vasculitis",
+   "source_id": "orphanet",
+   "evidence": "vasculitis"
+  },
+  {
+   "text": "early-onset stroke",
+   "source_id": "orphanet",
+   "evidence": "early-onset stroke"
+  },
+  {
+   "text": "immunodeficiency",
+   "source_id": "orphanet",
+   "evidence": "immunodeficiency"
+  }
+ ],
+ "onset": {
+  "text": "typically presents in young children",
+  "source_id": "orphanet",
+  "evidence": "typically presents in young children"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/404553",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: bone marrow failure",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

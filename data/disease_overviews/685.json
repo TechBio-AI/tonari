@@ -1,0 +1,52 @@
+{
+ "idx": 685,
+ "name": "β-プロペラ蛋白関連神経変性",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/329284",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Beta-propeller protein-associated neurodegeneration"
+  }
+ ],
+ "summary": {
+  "text": "Beta-propeller protein-associated neurodegeneration (BPAN), also known as static encephalopathy of childhood with neurodegeneration in adulthood, is a rare form of neurodegeneration with brain iron accumulation (NBIA) characterized by early-onset developmental delay and further neurological deterioration in early adulthood.",
+  "source_id": "orphanet",
+  "evidence": "Beta-propeller protein-associated neurod",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "early-onset developmental delay",
+   "source_id": "orphanet",
+   "evidence": "early-onset developmental delay"
+  },
+  {
+   "text": "further neurological deterioration in early adulthood",
+   "source_id": "orphanet",
+   "evidence": "further neurological deterioration in"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/329284",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

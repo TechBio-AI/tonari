@@ -1,0 +1,74 @@
+{
+ "idx": 32,
+ "name": "重症筋無力症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/120",
+   "fetched_at": "2026-09-24T00:44:14+09:00",
+   "sha256": "ec3180c1d37a7243413774d32765111fef8a9acc5e1add0d7b28e097bc40af93",
+   "title": "重症筋無力症（指定難病１１） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "神経から筋肉へ信号が伝わる部分が、自分の抗体でこわされる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "筋肉側の受容体が 自己抗体 により破壊される自己免疫疾患です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "全身の力が入りにくい",
+   "source_id": "nanbyou",
+   "evidence": "筋力低下"
+  },
+  {
+   "text": "疲れやすい",
+   "source_id": "nanbyou",
+   "evidence": "易疲労性"
+  },
+  {
+   "text": "まぶたが下がる",
+   "source_id": "nanbyou",
+   "evidence": "眼瞼下垂"
+  },
+  {
+   "text": "ものが二重に見える",
+   "source_id": "nanbyou",
+   "evidence": "複視"
+  },
+  {
+   "text": "話しにくい",
+   "source_id": "nanbyou",
+   "evidence": "発語障害"
+  },
+  {
+   "text": "飲み込みにくい",
+   "source_id": "nanbyou",
+   "evidence": "嚥下障害"
+  },
+  {
+   "text": "息ができなくなることがある",
+   "source_id": "nanbyou",
+   "evidence": "呼吸筋麻痺により呼吸ができなくなることもあり"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "治療の基本は免疫療法で"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/120",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節の発症年齢は数値と一体のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:35:30+09:00",
+ "shard": 2
+}

@@ -1,0 +1,55 @@
+{
+ "idx": 17,
+ "name": "血友病A",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/09_21_040/",
+   "fetched_at": "2026-09-24T00:50:31+09:00",
+   "sha256": "7cea479b0fbc2c8e4127ae6f9235692584e63ccfbd725c45a1858e2450fcac3b",
+   "title": "血友病Ａ 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "血を固める第VIII因子という成分の異常で起こる病気です。",
+  "source_id": "shouman",
+  "evidence": "血液凝固第VIII因子の量的・質的異常症である血友病A",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "幼いころから出血をくり返す",
+   "source_id": "shouman",
+   "evidence": "出血症状が幼少時から反復する"
+  },
+  {
+   "text": "重症度は因子の活性値と関係する",
+   "source_id": "shouman",
+   "evidence": "臨床的重症度は第VIII因子または第IX因子活性値と相関し"
+  },
+  {
+   "text": "患者はふつう男性である",
+   "source_id": "shouman",
+   "evidence": "患者は通常男性で"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "補充療法が基本である"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/09_21_040/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "idx 93 血友病Bと同じ出典ページ。症状の節が途中で切れた 1 文しかなく、概要の節から症状を取った。3 件しか取れなかった。",
+  "疫学の節は出生頻度の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:54:01+09:00",
+ "shard": 4
+}

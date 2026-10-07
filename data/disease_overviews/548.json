@@ -1,0 +1,75 @@
+{
+ "idx": 548,
+ "name": "進行性家族性肝内胆汁うっ滞症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/22457",
+   "fetched_at": "2026-09-24T00:44:35+09:00",
+   "sha256": "2c7603e968679a58581d9dad8511f68a9b347ea272f4dd75200ac1d231e99726",
+   "title": "進行性家族性肝内胆汁うっ滞症（指定難病３３８） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "肝臓の細胞から胆汁が出せなくなり、たまって細胞が傷つく病気です。",
+  "source_id": "nanbyou",
+  "evidence": "肝細胞から胆汁が排泄できなくなり、肝細胞内に胆汁がうっ滞し、肝細胞が障害される",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "乳児期から黄疸が長引く",
+   "source_id": "nanbyou",
+   "evidence": "乳児期からの長引く黄疸として発症し"
+  },
+  {
+   "text": "体重が増えにくい",
+   "source_id": "nanbyou",
+   "evidence": "体重増加不良"
+  },
+  {
+   "text": "背が低い",
+   "source_id": "nanbyou",
+   "evidence": "低身長"
+  },
+  {
+   "text": "肝臓や脾臓が大きくなる",
+   "source_id": "nanbyou",
+   "evidence": "肝脾腫"
+  },
+  {
+   "text": "強いかゆみが出る",
+   "source_id": "nanbyou",
+   "evidence": "著明な瘙痒感を呈します"
+  },
+  {
+   "text": "下痢をする",
+   "source_id": "nanbyou",
+   "evidence": "肝外症状として下痢"
+  },
+  {
+   "text": "耳が聞こえにくくなることがある",
+   "source_id": "nanbyou",
+   "evidence": "難聴をきたすこともあります"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "痒みの軽減や病気の進行を遅らせるために"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/22457",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は遺伝の説明で、発症年齢の記載が無いため onset は null。",
+  "治療の節は薬剤名が中心のため、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:42:40+09:00",
+ "shard": 2
+}

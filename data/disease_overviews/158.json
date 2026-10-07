@@ -1,0 +1,76 @@
+{
+ "idx": 158,
+ "name": "シャルコー・マリー・トゥース病",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3773",
+   "fetched_at": "2026-09-24T00:44:38+09:00",
+   "sha256": "a31da6704af1fa034e2f714f15fee6a63f718399e3d3c9df0ea285eb17b4bb3e",
+   "title": "シャルコー・マリー・トゥース病（指定難病１０） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "遺伝子の変化による手足の神経の病気の総称です。",
+  "source_id": "nanbyou",
+  "evidence": "遺伝子変異による 末梢神経 疾患の総称です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "手足の先の筋肉がやせる",
+   "source_id": "nanbyou",
+   "evidence": "四肢遠位部の筋肉の萎縮が"
+  },
+  {
+   "text": "同じ部位の感覚が鈍くなる",
+   "source_id": "nanbyou",
+   "evidence": "同部位の感覚が少し鈍くなっていく"
+  },
+  {
+   "text": "足の形が変わる",
+   "source_id": "nanbyou",
+   "evidence": "足・足趾の変形（凹足）"
+  },
+  {
+   "text": "スリッパが脱げやすい、段差につまずく",
+   "source_id": "nanbyou",
+   "evidence": "スリッパが脱げやすい、段差につまずくなど"
+  },
+  {
+   "text": "特徴的な歩き方になる",
+   "source_id": "nanbyou",
+   "evidence": "特徴的な歩き方"
+  },
+  {
+   "text": "足首の捻挫や骨折をすることがある",
+   "source_id": "nanbyou",
+   "evidence": "足首の捻挫や骨折をされることもあります"
+  },
+  {
+   "text": "背骨が変形することがある",
+   "source_id": "nanbyou",
+   "evidence": "脊柱の変形を生じたり"
+  }
+ ],
+ "onset": {
+  "text": "なりやすい体質というものはありません",
+  "source_id": "nanbyou",
+  "evidence": "CMTになりやすい体質というようなものはありません。"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "明確に効果があると科学的に証明された治療はありません"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3773",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:56:25+09:00",
+ "shard": 4
+}

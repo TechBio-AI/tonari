@@ -1,0 +1,57 @@
+{
+ "idx": 751,
+ "name": "遺伝性眼球運動失行症（Cogan型）",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/1125",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Ocular motor apraxia, Cogan type"
+  }
+ ],
+ "summary": {
+  "text": "Ocular motor apraxia, Cogan type is characterised by impairment of voluntary horizontal eye movements and compensatory head thrust. Around 50 cases have been described so far. The oculomotor manifestations tend to improve with age but the syndrome may also be associated with learning and speech difficulties, or, in some cases, cerebral malformations. Both sporadic and familial forms have been described, with sporadic forms being more frequent. The mode of transmission of the familial form has not yet been clearly established. A gene located on the long arm of chromosome 2, near to the NPHP1 gene involved in nephronophthisis, may be associated with ocular motor apraxia, Cogan type.",
+  "source_id": "orphanet",
+  "evidence": "Ocular motor apraxia, Cogan type is char",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "impairment of voluntary horizontal eye movements",
+   "source_id": "orphanet",
+   "evidence": "impairment of voluntary horizontal eye"
+  },
+  {
+   "text": "compensatory head thrust",
+   "source_id": "orphanet",
+   "evidence": "compensatory head thrust"
+  },
+  {
+   "text": "learning and speech difficulties",
+   "source_id": "orphanet",
+   "evidence": "learning and speech difficulties"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/1125",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

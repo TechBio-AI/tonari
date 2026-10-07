@@ -1,0 +1,70 @@
+{
+ "idx": 175,
+ "name": "高IgD症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4750",
+   "fetched_at": "2026-09-24T00:45:59+09:00",
+   "sha256": "204b79e98a0c7d2ad5495c1526ff0e9a738f08b2d9dc8929b4e3a9a0b207628f",
+   "title": "高IgD症候群（指定難病２６７） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "熱などの炎症が体質として起こる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "発熱などの 炎症 が体質的に起こる病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "周期的に熱が出る",
+   "source_id": "nanbyou",
+   "evidence": "多くは乳児期早期に周期性発熱という形で発症します"
+  },
+  {
+   "text": "リンパ節がはれる",
+   "source_id": "nanbyou",
+   "evidence": "リンパ節腫脹"
+  },
+  {
+   "text": "皮疹が出る",
+   "source_id": "nanbyou",
+   "evidence": "皮疹"
+  },
+  {
+   "text": "お腹が痛む、下痢をする、吐く",
+   "source_id": "nanbyou",
+   "evidence": "腹痛、下痢、嘔吐などが認められます"
+  },
+  {
+   "text": "関節が痛む、はれる",
+   "source_id": "nanbyou",
+   "evidence": "大関節を中心とした関節痛や関節炎"
+  },
+  {
+   "text": "肝臓に障害が出る",
+   "source_id": "nanbyou",
+   "evidence": "肝障害"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "炎症がコントロールできない場合は追加治療として"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4750",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は地域の説明で、発症年齢の記載が無いため onset は null。",
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:56:25+09:00",
+ "shard": 4
+}

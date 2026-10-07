@@ -1,0 +1,70 @@
+{
+ "idx": 51,
+ "name": "結節性硬化症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4384",
+   "fetched_at": "2026-09-24T00:45:12+09:00",
+   "sha256": "4a8c18d31410e506aa6f54091d32bbb5a09953fe4184adcd22b5d242215b307a",
+   "title": "結節性硬化症（指定難病１５８） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "皮膚・神経・腎臓・肺・骨などに良性の腫瘍ができる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "皮膚、神経系、腎、肺、骨などいろいろなところに 過誤腫 と呼ばれる良性の腫瘍",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "てんかんが起こる",
+   "source_id": "nanbyou",
+   "evidence": "てんかんは80％近くの患者さんにおこり"
+  },
+  {
+   "text": "乳児期に頭をカクンとたれる発作が出る",
+   "source_id": "nanbyou",
+   "evidence": "頭をカクンとたれるタイプのてんかん（点頭てんかん）"
+  },
+  {
+   "text": "意識がなくなり手足がけいれんする発作が出る",
+   "source_id": "nanbyou",
+   "evidence": "意識がなくなり、手足の一部がけいれんするタイプのてんかん"
+  },
+  {
+   "text": "知的障害をともなうことがある",
+   "source_id": "nanbyou",
+   "evidence": "知的障害が重度になる可能性が高くなります"
+  },
+  {
+   "text": "顔に赤みのある小さな腫瘍ができる",
+   "source_id": "nanbyou",
+   "evidence": "頬の赤みを帯びた数ミリのニキビ様の腫瘍（顔面血管線維腫）"
+  },
+  {
+   "text": "皮膚にあざのような症状が出る",
+   "source_id": "nanbyou",
+   "evidence": "皮膚にあざの様な症状（母斑）が出る"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "それぞれの症状に対する対症療法がほとんどです。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4384",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は「一番多く」など漢数字を含む言い回しで、onset の規則に触れない抜き書きが取れなかったため null とした。",
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:54:01+09:00",
+ "shard": 4
+}

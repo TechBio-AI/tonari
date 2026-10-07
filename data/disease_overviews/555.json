@@ -1,0 +1,43 @@
+{
+ "idx": 555,
+ "name": "D-2-ヒドロキシグルタル酸尿症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/79315",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "D-2-hydroxyglutaric aciduria"
+  }
+ ],
+ "summary": {
+  "text": "D-2-hydroxyglutaric aciduria (D-2-HGA) is a rare clinically variable neurological form of 2-hydroxyglutaric aciduria characterized biochemically by elevated D-2-hydroxyglutaric acid (D-2-HG) in the urine, plasma and cerebrospinal fluid.",
+  "source_id": "orphanet",
+  "evidence": "D-2-hydroxyglutaric aciduria (D-2-HGA) i",
+  "lang": "en"
+ },
+ "symptoms": [],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/79315",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に症状の列挙が無い（または検査所見だけ）のため symptoms は空。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: elevated D-2-hydroxyglutaric acid",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

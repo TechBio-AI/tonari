@@ -1,0 +1,53 @@
+{
+ "idx": 513,
+ "name": "遺伝性オロト酸尿症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/30",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Hereditary orotic aciduria"
+  }
+ ],
+ "summary": {
+  "text": "A rare genetic disorder of pyrimidine metabolism characterized by early onset of megaloblastic anemia, global developmental delay, and failure to thrive, associated with massive urinary overexcretion of orotic acid (sometimes with orotic acid crystalluria). Patients without megaloblastic anemia, but with additional manifestations such as epilepsy, have also been reported.",
+  "source_id": "orphanet",
+  "evidence": "A rare genetic disorder of pyrimidine me",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "global developmental delay",
+   "source_id": "orphanet",
+   "evidence": "global developmental delay"
+  },
+  {
+   "text": "failure to thrive",
+   "source_id": "orphanet",
+   "evidence": "failure to thrive"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/30",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: megaloblastic anemia / urinary overexcretion of orotic acid",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

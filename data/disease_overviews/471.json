@@ -1,0 +1,70 @@
+{
+ "idx": 471,
+ "name": "ポンペ病（乳児型）",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_097/",
+   "fetched_at": "2026-09-24T00:50:05+09:00",
+   "sha256": "0d7f9436de8a1eeee1f20b132828a08541665215f4c7105262e010cec3372af8",
+   "title": "ポンペ（Pompe）病 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "酵素のはたらきが弱く、筋肉の細胞に糖の一種がたまって筋力が落ちる病気です。",
+  "source_id": "shouman",
+  "evidence": "主に筋細胞のライソゾーム内にグリコーゲンが蓄積して起こる進行性の筋疾患",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "おっぱいやミルクを飲む力が弱い",
+   "source_id": "shouman",
+   "evidence": "哺乳力低下"
+  },
+  {
+   "text": "筋力が落ちる",
+   "source_id": "shouman",
+   "evidence": "筋力低下が出現し"
+  },
+  {
+   "text": "体がふにゃふにゃしている",
+   "source_id": "shouman",
+   "evidence": "フロッピーインファントとなる"
+  },
+  {
+   "text": "心臓が大きくなる",
+   "source_id": "shouman",
+   "evidence": "心肥大"
+  },
+  {
+   "text": "舌が大きい",
+   "source_id": "shouman",
+   "evidence": "巨舌"
+  },
+  {
+   "text": "肝臓が大きくなる",
+   "source_id": "shouman",
+   "evidence": "肝腫大"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "shouman",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_097/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "idx 4 ポンペ病と同じ出典ページ。治療の節が保存 HTML に無いため「記載なし」。",
+  "疫学の節は頻度の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:41:31+09:00",
+ "shard": 2
+}

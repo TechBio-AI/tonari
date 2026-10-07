@@ -1,0 +1,71 @@
+{
+ "idx": 440,
+ "name": "ファンコニ貧血",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4441",
+   "fetched_at": "2026-09-24T00:45:22+09:00",
+   "sha256": "ef18e984b9d8ee12f4a25c8506f9fb2cc8b8ff154b90c6df3bff4f97aa29bbfd",
+   "title": "ファンコニ貧血（指定難病２８５） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "染色体が薬や放射線で切れやすいという特徴をもつ病気です。",
+  "source_id": "nanbyou",
+  "evidence": "染色体が薬剤や放射線などに暴露されると切れやすいという特徴（染色体脆弱）",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "皮膚に色素が沈着する",
+   "source_id": "nanbyou",
+   "evidence": "皮膚の色素沈着"
+  },
+  {
+   "text": "背が低い",
+   "source_id": "nanbyou",
+   "evidence": "低身長"
+  },
+  {
+   "text": "耳や目、親指、骨格に異常がある",
+   "source_id": "nanbyou",
+   "evidence": "耳、眼、手の親指や骨格の異常"
+  },
+  {
+   "text": "内臓の形に違いがある",
+   "source_id": "nanbyou",
+   "evidence": "内臓の 先天性 の形成異常を伴います"
+  },
+  {
+   "text": "血液の成分が減る",
+   "source_id": "nanbyou",
+   "evidence": "赤血球、白血球、血小板が減少すると再生不良性貧血"
+  },
+  {
+   "text": "白血病を合併することがある",
+   "source_id": "nanbyou",
+   "evidence": "白血病や白血病の前段階である骨髄 異形成 症候群"
+  }
+ ],
+ "onset": {
+  "text": "男女による頻度の差はありません",
+  "source_id": "nanbyou",
+  "evidence": "男女による頻度の差はなく"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "身体異常に対しては各臓器別に小児外科、整形外科、耳鼻科などと連携をとり"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4441",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:51:03+09:00",
+ "shard": 3
+}

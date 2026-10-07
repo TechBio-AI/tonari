@@ -1,0 +1,74 @@
+{
+ "idx": 46,
+ "name": "エーラス・ダンロス症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4801",
+   "fetched_at": "2026-09-24T00:46:06+09:00",
+   "sha256": "e56ef79b22797c8ca330168e94b8ebf5db4e9e30e8ce0d355c6c376e928c4e42",
+   "title": "エーラス・ダンロス症候群（指定難病１６８） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "皮膚や関節がよく伸び、体の組織がもろいことを特徴とする遺伝性の病気です。",
+  "source_id": "nanbyou",
+  "evidence": "皮膚、関節の過伸展性、各種組織の脆弱性（もろさ）を特徴とする遺伝性疾患です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "皮膚がよく伸びる",
+   "source_id": "nanbyou",
+   "evidence": "皮膚の過伸展性（伸びやすい）"
+  },
+  {
+   "text": "皮膚が裂けやすい、内出血しやすい",
+   "source_id": "nanbyou",
+   "evidence": "容易に裂ける、薄い瘢痕、内出血しやすい"
+  },
+  {
+   "text": "関節がよく曲がり、脱臼しやすい",
+   "source_id": "nanbyou",
+   "evidence": "関節の過伸展性（柔軟、脱臼しやすい）"
+  },
+  {
+   "text": "慢性の痛みが続く",
+   "source_id": "nanbyou",
+   "evidence": "慢性難治性疼痛"
+  },
+  {
+   "text": "便秘や下痢をくり返す",
+   "source_id": "nanbyou",
+   "evidence": "機能性腸疾患（便秘や下痢を繰り返す）"
+  },
+  {
+   "text": "立ちくらみや動悸がする",
+   "source_id": "nanbyou",
+   "evidence": "自律神経異常（立ちくらみ、動悸など）"
+  },
+  {
+   "text": "皮膚が薄く、血管が透けて見える",
+   "source_id": "nanbyou",
+   "evidence": "皮膚が薄い（皮下静脈が透けて見える）"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "激しい運動を控えることやサポーターを装着するなどの予防が有用です"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4801",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節に発症年齢の記載が無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:44:40+09:00",
+ "shard": 3
+}

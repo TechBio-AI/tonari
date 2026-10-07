@@ -1,0 +1,65 @@
+{
+ "idx": 781,
+ "name": "限局性強皮症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/14_11_016/",
+   "fetched_at": "2026-09-24T00:53:22+09:00",
+   "sha256": "d72ed4ca8f5271a29e78cd7be2c61bcec6c735ea148f852848bb9ca051b620d8",
+   "title": "限局性強皮症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "皮膚とその下に限られた傷みから、皮膚が硬くなる病気です。",
+  "source_id": "shouman",
+  "evidence": "皮膚及びその下床に限局した組織傷害とそれに続発する皮膚硬化・線維化を呈する疾患",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "円形の境界のはっきりした硬い部分ができる",
+   "source_id": "shouman",
+   "evidence": "類円形から楕円形の境界明瞭な局面"
+  },
+  {
+   "text": "初期は中央が象牙のような光沢をもつ",
+   "source_id": "shouman",
+   "evidence": "初期の皮疹は中央が象牙様光沢を有し"
+  },
+  {
+   "text": "周りに赤みが出る",
+   "source_id": "shouman",
+   "evidence": "ライラック輪と呼ばれる炎症を反映した発赤"
+  },
+  {
+   "text": "手足や顔に線状のへこんだ硬い部分ができる",
+   "source_id": "shouman",
+   "evidence": "陥凹した片側性の線状ないし帯状の色素の変化を伴う硬化局面"
+  },
+  {
+   "text": "皮膚が萎縮したり変形したりする",
+   "source_id": "shouman",
+   "evidence": "患部の萎縮・変形・成長障害を引き起こす"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "完成された病変による機能障害・整容的問題に対する治療が行われる"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/14_11_016/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は発症率の数値が中心のため onset は null。",
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:52:52+09:00",
+ "shard": 3
+}

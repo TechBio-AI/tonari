@@ -1,0 +1,62 @@
+{
+ "idx": 588,
+ "name": "Meier-Gorlin症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2554",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Ear-patella-short stature syndrome"
+  }
+ ],
+ "summary": {
+  "text": "A rare microcephalic primordial dwarfism characterized by the association of bilateral microtia (severe hypoplasia of ear pinnae), absent patellae, short stature and characteristic facial features such as high forehead, micrognathism with full lips and small mouth, and accentuated nasolabial folds (smile wrinkles linking the nostrils to the labial commissure).",
+  "source_id": "orphanet",
+  "evidence": "A rare microcephalic primordial dwarfism",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "bilateral microtia",
+   "source_id": "orphanet",
+   "evidence": "bilateral microtia"
+  },
+  {
+   "text": "absent patellae",
+   "source_id": "orphanet",
+   "evidence": "absent patellae"
+  },
+  {
+   "text": "short stature",
+   "source_id": "orphanet",
+   "evidence": "short stature"
+  },
+  {
+   "text": "characteristic facial features",
+   "source_id": "orphanet",
+   "evidence": "characteristic facial features"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2554",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

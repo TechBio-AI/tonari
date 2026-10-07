@@ -1,0 +1,69 @@
+{
+ "idx": 729,
+ "name": "原発性硬化性胆管炎（小児型）",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/12_07_022/",
+   "fetched_at": "2026-09-24T00:52:22+09:00",
+   "sha256": "c1012f4dd02efc7cd6d7ec6d52f63d679d3f2119d104d5692b371edaadcd95b2",
+   "title": "原発性硬化性胆管炎 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "肝臓の内外の胆管が線維で狭くなったり広がったりする、原因不明の病気です。",
+  "source_id": "shouman",
+  "evidence": "肝内外の胆管に線維性狭窄と拡張を生じる、原因不明の疾患である",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "多くは無症状",
+   "source_id": "shouman",
+   "evidence": "小児では、多くは無症状で"
+  },
+  {
+   "text": "血液検査の異常で見つかることが多い",
+   "source_id": "shouman",
+   "evidence": "偶然の機会になされた血液検査で肝機能異常を指摘され"
+  },
+  {
+   "text": "お腹が痛む、下痢や血便が出る",
+   "source_id": "shouman",
+   "evidence": "腹痛、下痢、血便、発熱などが初発症状"
+  },
+  {
+   "text": "皮膚や目が黄色くなる",
+   "source_id": "shouman",
+   "evidence": "進行すると、黄疸"
+  },
+  {
+   "text": "体がだるい",
+   "source_id": "shouman",
+   "evidence": "倦怠感"
+  },
+  {
+   "text": "食道の血管のこぶから出血する",
+   "source_id": "shouman",
+   "evidence": "食道静脈瘤からの出血などがみられる"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "現在、有効な内科的治療はない。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/12_07_022/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は患者数の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T03:02:14+09:00",
+ "shard": 4
+}

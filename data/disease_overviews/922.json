@@ -1,0 +1,47 @@
+{
+ "idx": 922,
+ "name": "先天性小腸閉鎖症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/1201",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Small bowel atresia"
+  }
+ ],
+ "summary": {
+  "text": "A rare, congenital defect of the small intestine characterized by disruption in the normal small intestine continuity, resulting in intestinal obstruction. The malformation may be classified in four different types of small bowel atresia (SBA) based on the anatomical obstruction.",
+  "source_id": "orphanet",
+  "evidence": "A rare, congenital defect of the small i",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "intestinal obstruction",
+   "source_id": "orphanet",
+   "evidence": "intestinal obstruction"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/1201",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

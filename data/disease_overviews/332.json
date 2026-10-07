@@ -1,0 +1,69 @@
+{
+ "idx": 332,
+ "name": "クロンカイト・カナダ症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4606",
+   "fetched_at": "2026-09-24T00:45:44+09:00",
+   "sha256": "de66da051d92637640da58ee39b42e36f92dfd8dfad6f78250b90041efab5c8b",
+   "title": "クロンカイト・カナダ症候群（指定難病２８９） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "主に胃や大腸にポリープが数え切れないほどできる、消化管の病気です。",
+  "source_id": "nanbyou",
+  "evidence": "おもに胃や大腸にポリープが無数に生じる消化管の疾患です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "下痢が続く",
+   "source_id": "nanbyou",
+   "evidence": "慢性的に下痢や腹部の違和感が続き"
+  },
+  {
+   "text": "体重が減る",
+   "source_id": "nanbyou",
+   "evidence": "体重減少"
+  },
+  {
+   "text": "むくむ",
+   "source_id": "nanbyou",
+   "evidence": "むくみなどの全身の症状"
+  },
+  {
+   "text": "髪が抜ける",
+   "source_id": "nanbyou",
+   "evidence": "脱毛"
+  },
+  {
+   "text": "爪がやせる",
+   "source_id": "nanbyou",
+   "evidence": "爪の萎縮"
+  },
+  {
+   "text": "皮膚に色素が沈着する",
+   "source_id": "nanbyou",
+   "evidence": "皮膚の色素沈着"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "多くの場合は薬物療法や栄養サポート（食事療法）などの内科的治療で改善します"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4606",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節の診断時年齢は数値と一体のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:40:16+09:00",
+ "shard": 2
+}

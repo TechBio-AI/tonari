@@ -1,0 +1,57 @@
+{
+ "idx": 652,
+ "name": "von Hippel-Lindau病",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/892",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Von Hippel-Lindau disease"
+  }
+ ],
+ "summary": {
+  "text": "A familial cancer predisposition syndrome associated with a variety of malignant and benign neoplasms, most frequently retinal, cerebellar, and spinal hemangioblastoma, renal cell carcinoma (RCC), and pheochromocytoma/paraganglioma.",
+  "source_id": "orphanet",
+  "evidence": "A familial cancer predisposition syndrom",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "retinal, cerebellar, and spinal hemangioblastoma",
+   "source_id": "orphanet",
+   "evidence": "retinal, cerebellar, and spinal"
+  },
+  {
+   "text": "renal cell carcinoma",
+   "source_id": "orphanet",
+   "evidence": "renal cell carcinoma"
+  },
+  {
+   "text": "pheochromocytoma/paraganglioma",
+   "source_id": "orphanet",
+   "evidence": "pheochromocytoma/paraganglioma"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/892",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

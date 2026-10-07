@@ -1,0 +1,62 @@
+{
+ "idx": 575,
+ "name": "骨幹端異形成症(Schmid型)",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/174",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Metaphyseal chondrodysplasia, Schmid type"
+  }
+ ],
+ "summary": {
+  "text": "Schmid metaphyseal chondrodysplasia is a rare disorder characterized by moderately short stature with short limbs, coxa vara, bowlegs and an abnormal gait.",
+  "source_id": "orphanet",
+  "evidence": "Schmid metaphyseal chondrodysplasia is a",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "moderately short stature with short limbs",
+   "source_id": "orphanet",
+   "evidence": "moderately short stature with short"
+  },
+  {
+   "text": "coxa vara",
+   "source_id": "orphanet",
+   "evidence": "coxa vara"
+  },
+  {
+   "text": "bowlegs",
+   "source_id": "orphanet",
+   "evidence": "bowlegs"
+  },
+  {
+   "text": "abnormal gait",
+   "source_id": "orphanet",
+   "evidence": "abnormal gait"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/174",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

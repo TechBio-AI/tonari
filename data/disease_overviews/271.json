@@ -1,0 +1,52 @@
+{
+ "idx": 271,
+ "name": "ミオクローヌス・ジストニア症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/36899",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Myoclonus-dystonia syndrome"
+  }
+ ],
+ "summary": {
+  "text": "Myoclonus-dystonia syndrome (MDS) is a rare movement disorder characterized by mild to moderate dystonia along with 'lightning-like' myoclonic jerks.",
+  "source_id": "orphanet",
+  "evidence": "Myoclonus-dystonia syndrome (MDS) is a r",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "mild to moderate dystonia",
+   "source_id": "orphanet",
+   "evidence": "mild to moderate dystonia"
+  },
+  {
+   "text": "'lightning-like' myoclonic jerks",
+   "source_id": "orphanet",
+   "evidence": "'lightning-like' myoclonic jerks"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/36899",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

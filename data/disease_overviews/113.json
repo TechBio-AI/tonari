@@ -1,0 +1,84 @@
+{
+ "idx": 113,
+ "name": "バセドウ病",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_10_015/",
+   "fetched_at": "2026-09-25T03:27:40+09:00",
+   "sha256": "4eddf723d22665fca6cfc459436fa6d3b61bccc52b9142f4a4322d4d59fca88c",
+   "title": "バセドウ（Basedow）病 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "体を守るしくみ（自己免疫）によって甲状腺が全体に腫れ、甲状腺のはたらきが高まりすぎる病気です。",
+  "source_id": "shouman",
+  "evidence": "自己免疫機序により甲状腺がびまん性に腫大し甲状腺機能亢進症を呈する",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "首の前にある甲状腺が腫れる",
+   "source_id": "shouman",
+   "evidence": "甲状腺腫"
+  },
+  {
+   "text": "汗を多くかく",
+   "source_id": "shouman",
+   "evidence": "多汗"
+  },
+  {
+   "text": "疲れやすい",
+   "source_id": "shouman",
+   "evidence": "易疲労感"
+  },
+  {
+   "text": "落ち着きがない",
+   "source_id": "shouman",
+   "evidence": "落ち着きがない"
+  },
+  {
+   "text": "手がふるえる",
+   "source_id": "shouman",
+   "evidence": "手のふるえ"
+  },
+  {
+   "text": "目が前に出てくる",
+   "source_id": "shouman",
+   "evidence": "眼球突出"
+  },
+  {
+   "text": "脈が速くなる・どきどきする",
+   "source_id": "shouman",
+   "evidence": "頻脈、動悸"
+  },
+  {
+   "text": "暑がりになる",
+   "source_id": "shouman",
+   "evidence": "暑がり"
+  }
+ ],
+ "onset": {
+  "text": "中学生のころから多くなります",
+  "source_id": "shouman",
+  "evidence": "中学生から頻度が増加する。"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "バセドウ病の治療には、抗甲状腺薬による内服治療、甲状腺亜全摘による外科治療"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_10_015/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "症状と onset は小児慢性の「小児期発症例」の記述から取った。",
+  "治療の節の後半には薬剤名があるため、evidence は薬剤名を含まない冒頭の一文から選んだ。"
+ ],
+ "extracted_at": "2026-10-02T18:21:44+09:00",
+ "shard": 1
+}

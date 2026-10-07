@@ -1,0 +1,68 @@
+{
+ "idx": 225,
+ "name": "シトルリン血症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/187",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Citrullinemia"
+  }
+ ],
+ "summary": {
+  "text": "Citrullinemia is an autosomal recessively inherited disorder of urea cycle metabolism and ammonia detoxification characterized by elevated concentrations of serum citrulline and ammonia. The disease presents with a large range of manifestations including neonatal hyperammonemic encephalopathy with lethargy, seizures and coma; hepatic dysfunction in all age groups; episodes of hyperammonemia and neuropsychiatric symptoms in children or adults, or, can be asymptomatic in some cases (detected in newborn screening programs). Citrullinemia is divided into two main groups that are encoded by different genes: citrullinemia type I (comprised of acute neonatal citrullinemia type I and adult-onset citrullinemia type I) and citrin deficiency (comprised of adult-onset citrullinemia type II and neonatal intrahepatic cholestasis due to citrin deficiency).",
+  "source_id": "orphanet",
+  "evidence": "Citrullinemia is an autosomal recessivel",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "lethargy",
+   "source_id": "orphanet",
+   "evidence": "lethargy"
+  },
+  {
+   "text": "seizures",
+   "source_id": "orphanet",
+   "evidence": "seizures"
+  },
+  {
+   "text": "coma",
+   "source_id": "orphanet",
+   "evidence": "coma"
+  },
+  {
+   "text": "hepatic dysfunction",
+   "source_id": "orphanet",
+   "evidence": "hepatic dysfunction"
+  },
+  {
+   "text": "neuropsychiatric symptoms",
+   "source_id": "orphanet",
+   "evidence": "neuropsychiatric symptoms"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/187",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: elevated concentrations of serum citrulline and ammonia / hyperammonemia",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "発症時期は病型ごとに新生児期・成人など複数書かれており、1 つに決められないため onset は null。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

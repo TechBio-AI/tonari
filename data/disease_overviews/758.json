@@ -1,0 +1,62 @@
+{
+ "idx": 758,
+ "name": "青錐体単色型色覚異常",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/16",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Blue cone monochromatism"
+  }
+ ],
+ "summary": {
+  "text": "Blue cone monochromatism (BCM) is a recessive X-linked disease characterized by severely impaired color discrimination, low visual acuity, nystagmus, and photophobia, due to dysfunction of the red (L) and green (M) cone photoreceptors. BCM is as an incomplete form of achromatopsia.",
+  "source_id": "orphanet",
+  "evidence": "Blue cone monochromatism (BCM) is a rece",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "severely impaired color discrimination",
+   "source_id": "orphanet",
+   "evidence": "severely impaired color discrimination"
+  },
+  {
+   "text": "low visual acuity",
+   "source_id": "orphanet",
+   "evidence": "low visual acuity"
+  },
+  {
+   "text": "nystagmus",
+   "source_id": "orphanet",
+   "evidence": "nystagmus"
+  },
+  {
+   "text": "photophobia",
+   "source_id": "orphanet",
+   "evidence": "photophobia"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/16",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

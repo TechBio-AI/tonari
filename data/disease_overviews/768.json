@@ -1,0 +1,52 @@
+{
+ "idx": 768,
+ "name": "先天性魚鱗癬様紅皮症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/79394",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Congenital ichthyosiform erythroderma"
+  }
+ ],
+ "summary": {
+  "text": "A rare autosomal recessive congenital ichthyosis (ARCI) characterized by generalised scaling accompanied by a more or less severe erythroderma, without blister formation.",
+  "source_id": "orphanet",
+  "evidence": "A rare autosomal recessive congenital ic",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "generalised scaling",
+   "source_id": "orphanet",
+   "evidence": "generalised scaling"
+  },
+  {
+   "text": "erythroderma",
+   "source_id": "orphanet",
+   "evidence": "erythroderma"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/79394",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

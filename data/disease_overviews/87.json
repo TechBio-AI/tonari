@@ -1,0 +1,70 @@
+{
+ "idx": 87,
+ "name": "シスチン症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_099/",
+   "fetched_at": "2026-09-24T00:50:06+09:00",
+   "sha256": "5053d6faa9ca9c9cb593a165a1bca3eacd60b09fa63bd61e6e37cad74fc3629a",
+   "title": "シスチン症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "シスチンという物質が細胞の中にたまることで起こる病気です。",
+  "source_id": "shouman",
+  "evidence": "シスチンが細胞内に蓄積するために発症する先天代謝異常症である。",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "腎臓の尿細管の働きが落ちる",
+   "source_id": "shouman",
+   "evidence": "生後6カ月頃より腎性ファンコニー症候群が出現し"
+  },
+  {
+   "text": "むくみなどネフローゼ症候群になる",
+   "source_id": "shouman",
+   "evidence": "ネフローゼ症候群を呈して"
+  },
+  {
+   "text": "腎臓のはたらきが失われる",
+   "source_id": "shouman",
+   "evidence": "腎不全となる"
+  },
+  {
+   "text": "まぶしく感じる",
+   "source_id": "shouman",
+   "evidence": "羞明"
+  },
+  {
+   "text": "角膜がただれる",
+   "source_id": "shouman",
+   "evidence": "角膜びらん"
+  },
+  {
+   "text": "目の網膜に変化が出る",
+   "source_id": "shouman",
+   "evidence": "網膜色素変性などを引き起こす"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "腎不全が進行した場合は腎臓移植が適応となる"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_099/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は頻度の数値のみのため onset は null。",
+  "治療の節には薬剤名が並ぶので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:46:07+09:00",
+ "shard": 3
+}

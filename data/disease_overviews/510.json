@@ -1,0 +1,74 @@
+{
+ "idx": 510,
+ "name": "スミス・レムリ・オピッツ症候群",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/13_01_028/",
+   "fetched_at": "2026-09-24T00:53:06+09:00",
+   "sha256": "611f6aa1ba83089bb0ec8138731b883c9dc4c0e1164e1f712d6c971c31d1fd47",
+   "title": "スミス・レムリ・オピッツ（Smith-Lemli-Opitz）症候群 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "体の中でコレステロールが作られにくくなることで起こる病気です。",
+  "source_id": "shouman",
+  "evidence": "コレステロール産生が低下することにより発症する症候群である",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "体の育ちがゆっくり",
+   "source_id": "shouman",
+   "evidence": "成長障害"
+  },
+  {
+   "text": "頭が小さい",
+   "source_id": "shouman",
+   "evidence": "小頭症"
+  },
+  {
+   "text": "知的な発達がゆっくり",
+   "source_id": "shouman",
+   "evidence": "知的障害"
+  },
+  {
+   "text": "特徴的な顔だちになる",
+   "source_id": "shouman",
+   "evidence": "特徴的顔貌（狭額症、内眼角贅皮、眼瞼下垂"
+  },
+  {
+   "text": "上あごが割れている",
+   "source_id": "shouman",
+   "evidence": "口蓋裂"
+  },
+  {
+   "text": "足の指がくっついている",
+   "source_id": "shouman",
+   "evidence": "第２趾と第３趾の合趾症"
+  },
+  {
+   "text": "けいれんが起きる",
+   "source_id": "shouman",
+   "evidence": "難治性てんかんや痙攣"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "根本的な治療法は確立していない"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/13_01_028/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節が保存 HTML に無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:32:02+09:00",
+ "shard": 1
+}

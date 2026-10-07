@@ -1,0 +1,74 @@
+{
+ "idx": 224,
+ "name": "尿素サイクル異常症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4732",
+   "fetched_at": "2026-09-24T00:45:54+09:00",
+   "sha256": "3b9b50b669b8e28c5a420f2c6cb852f015d992d3c4c022ec7ddf8232fcdab9e6",
+   "title": "尿素サイクル異常症（指定難病２５１） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "アンモニアを無害にする回路に生まれつきの異常があって起こる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "尿素合成経路の代謝系に先天的な異常があり、高アンモニア血症の症状などで発症する",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "なんとなく元気がない",
+   "source_id": "nanbyou",
+   "evidence": "何となく元気がない"
+  },
+  {
+   "text": "おっぱいやミルクの飲みが悪い",
+   "source_id": "nanbyou",
+   "evidence": "哺乳力低下"
+  },
+  {
+   "text": "呼吸が速くなる",
+   "source_id": "nanbyou",
+   "evidence": "多呼吸"
+  },
+  {
+   "text": "吐き気がする、吐く",
+   "source_id": "nanbyou",
+   "evidence": "嘔気、嘔吐"
+  },
+  {
+   "text": "意識がはっきりしなくなる",
+   "source_id": "nanbyou",
+   "evidence": "意識障害"
+  },
+  {
+   "text": "けいれんが起きる",
+   "source_id": "nanbyou",
+   "evidence": "痙攣など"
+  },
+  {
+   "text": "発達がゆっくり、行動に変化が出る",
+   "source_id": "nanbyou",
+   "evidence": "発達障害、行動異常、精神障害を引き起こします"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "食事療法と薬物・アミノ酸療法が基本です。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4732",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は遺伝の説明で、発症年齢の記載が無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:48:34+09:00",
+ "shard": 3
+}

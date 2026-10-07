@@ -1,0 +1,194 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "ignorePatterns": [
+    "node_modules/",
+    ".next/",
+    "supabase/",
+    "_ARCHIVE_DO_NOT_USE/"
+  ],
+  "rules": {},
+  "overrides": [
+    {
+      "files": [
+        "app/demo/**/*"
+      ],
+      "rules": {
+        "no-restricted-imports": [
+          "error",
+          {
+            "patterns": [
+              {
+                "group": [
+                  "**/components/diagnosis",
+                  "@/components/diagnosis",
+                  "**/components/diagnosis/**",
+                  "@/components/diagnosis/**"
+                ],
+                "message": "/demo から旧診断UIの import は禁止 [Phase0-T5]。公開面は器由来の情報のみを扱う (docs/SCHEMA_CANON.md)。"
+              },
+              {
+                "group": [
+                  "**/components/pharma",
+                  "@/components/pharma",
+                  "**/components/pharma/**",
+                  "@/components/pharma/**"
+                ],
+                "message": "/demo から製薬向けUIの import は禁止 [Phase0-T5]。"
+              },
+              {
+                "group": [
+                  "**/components/doctor",
+                  "@/components/doctor",
+                  "**/components/doctor/**",
+                  "@/components/doctor/**"
+                ],
+                "message": "/demo から医師向けUIの import は禁止 [Phase0-T5]。"
+              },
+              {
+                "group": [
+                  "**/components/followup",
+                  "@/components/followup",
+                  "**/components/followup/**",
+                  "@/components/followup/**"
+                ],
+                "message": "/demo からフォローアップ系UIの import は禁止 [Phase0-T5]。"
+              },
+              {
+                "group": [
+                  "**/app/pharma",
+                  "@/app/pharma",
+                  "**/app/pharma/**",
+                  "@/app/pharma/**",
+                  "**/app/doctor",
+                  "@/app/doctor",
+                  "**/app/doctor/**",
+                  "@/app/doctor/**",
+                  "**/app/diagnosis",
+                  "@/app/diagnosis",
+                  "**/app/diagnosis/**",
+                  "@/app/diagnosis/**",
+                  "**/app/test-diagnosis",
+                  "@/app/test-diagnosis",
+                  "**/app/test-diagnosis/**",
+                  "@/app/test-diagnosis/**",
+                  "../pharma",
+                  "../pharma/**",
+                  "../../pharma",
+                  "../../pharma/**",
+                  "../../../pharma",
+                  "../../../pharma/**",
+                  "../../../../pharma",
+                  "../../../../pharma/**",
+                  "../../../../../pharma",
+                  "../../../../../pharma/**",
+                  "../../../../../../pharma",
+                  "../../../../../../pharma/**",
+                  "../../../../../../../pharma",
+                  "../../../../../../../pharma/**",
+                  "../doctor",
+                  "../doctor/**",
+                  "../../doctor",
+                  "../../doctor/**",
+                  "../../../doctor",
+                  "../../../doctor/**",
+                  "../../../../doctor",
+                  "../../../../doctor/**",
+                  "../../../../../doctor",
+                  "../../../../../doctor/**",
+                  "../../../../../../doctor",
+                  "../../../../../../doctor/**",
+                  "../../../../../../../doctor",
+                  "../../../../../../../doctor/**",
+                  "../diagnosis",
+                  "../diagnosis/**",
+                  "../../diagnosis",
+                  "../../diagnosis/**",
+                  "../../../diagnosis",
+                  "../../../diagnosis/**",
+                  "../../../../diagnosis",
+                  "../../../../diagnosis/**",
+                  "../../../../../diagnosis",
+                  "../../../../../diagnosis/**",
+                  "../../../../../../diagnosis",
+                  "../../../../../../diagnosis/**",
+                  "../../../../../../../diagnosis",
+                  "../../../../../../../diagnosis/**",
+                  "../test-diagnosis",
+                  "../test-diagnosis/**",
+                  "../../test-diagnosis",
+                  "../../test-diagnosis/**",
+                  "../../../test-diagnosis",
+                  "../../../test-diagnosis/**",
+                  "../../../../test-diagnosis",
+                  "../../../../test-diagnosis/**",
+                  "../../../../../test-diagnosis",
+                  "../../../../../test-diagnosis/**",
+                  "../../../../../../test-diagnosis",
+                  "../../../../../../test-diagnosis/**",
+                  "../../../../../../../test-diagnosis",
+                  "../../../../../../../test-diagnosis/**"
+                ],
+                "message": "/demo から製薬・医師・診断系ページの import は禁止（2026-09-25）。"
+              },
+              {
+                "group": [
+                  "**/app/api",
+                  "@/app/api",
+                  "**/app/api/**",
+                  "@/app/api/**",
+                  "../api",
+                  "../api/**",
+                  "../../api",
+                  "../../api/**",
+                  "../../../api",
+                  "../../../api/**",
+                  "../../../../api",
+                  "../../../../api/**",
+                  "../../../../../api",
+                  "../../../../../api/**",
+                  "../../../../../../api",
+                  "../../../../../../api/**",
+                  "../../../../../../../api",
+                  "../../../../../../../api/**"
+                ],
+                "message": "/demo から旧 API route（app/api/）の import は禁止（2026-09-25）。/demo の route は app/demo/ の中に置く。"
+              },
+              {
+                "group": [
+                  "**/lib/services",
+                  "**/lib/services/**",
+                  "@/lib/services",
+                  "@/lib/services/**"
+                ],
+                "message": "/demo から lib/services/ の import は全面禁止（2026-09-25）。旧診断・症状検索・外部 LLM 送信経路を含むため。/demo 用の処理は lib/portal/ に置く。"
+              },
+              {
+                "group": [
+                  "**/lib/types/pharma-types",
+                  "@/lib/types/pharma-types",
+                  "**/lib/types/followup-types",
+                  "@/lib/types/followup-types",
+                  "**/lib/validations/diagnosis.schema",
+                  "@/lib/validations/diagnosis.schema",
+                  "**/lib/validations/followup.schema",
+                  "@/lib/validations/followup.schema",
+                  "**/lib/data/demo-pharma-data",
+                  "@/lib/data/demo-pharma-data"
+                ],
+                "message": "/demo から製薬・診断・フォローアップ系の lib（lib/pharma・lib/diagnosis 相当）の import は禁止（2026-09-25）。"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

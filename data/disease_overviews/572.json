@@ -1,0 +1,58 @@
+{
+ "idx": 572,
+ "name": "Desbuquois骨異形成症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/1425",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Desbuquois syndrome"
+  }
+ ],
+ "summary": {
+  "text": "Desbuquois syndrome (DBQD) is an osteochondrodysplasia characterized by severe micromelic dwarfism, facial dysmorphism, joint laxity with multiple dislocations, vertebral and metaphyseal abnormalities and advanced carpotarsal ossification. Two forms have been distinguished on the basis of the presence (type 1) or the absence (type 2) of characteristic hand anomalies. A variant form of DBQD, Kim variant, has also been described and is characterized by short stature and articular, minor facial and significant hand anomalies.",
+  "source_id": "orphanet",
+  "evidence": "Desbuquois syndrome (DBQD) is an osteoch",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "severe micromelic dwarfism",
+   "source_id": "orphanet",
+   "evidence": "severe micromelic dwarfism"
+  },
+  {
+   "text": "facial dysmorphism",
+   "source_id": "orphanet",
+   "evidence": "facial dysmorphism"
+  },
+  {
+   "text": "joint laxity with multiple dislocations",
+   "source_id": "orphanet",
+   "evidence": "joint laxity with multiple dislocations"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/1425",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: vertebral and metaphyseal abnormalities（画像所見） / advanced carpotarsal ossification（画像所見）",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

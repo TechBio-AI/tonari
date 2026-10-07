@@ -1,0 +1,55 @@
+{
+ "idx": 151,
+ "name": "ループス腎炎",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/02_02_015/",
+   "fetched_at": "2026-09-24T00:47:09+09:00",
+   "sha256": "9bbbec9961833f66257c9e57e5d4f7e40d1f9b4a0bed84f49c4b0c9762eb71d0",
+   "title": "ループス腎炎 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "全身性エリテマトーデスにともなって最も多くみられる臓器の病変です。",
+  "source_id": "shouman",
+  "evidence": "SLEに合併する最も頻度の高い臓器病変であり，予後を決定する因子である",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "免疫複合体が組織にたまる",
+   "source_id": "shouman",
+   "evidence": "免疫複合体(immune complex)の組織沈着"
+  },
+  {
+   "text": "全身のいろいろな臓器に病変が出る",
+   "source_id": "shouman",
+   "evidence": "組織沈着により起こる多臓器病変"
+  },
+  {
+   "text": "全身に炎症が起こる",
+   "source_id": "shouman",
+   "evidence": "全身性の炎症性自己免疫疾患である"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "速やかに炎症反応を鎮静化するための「寛解導入療法」"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/02_02_015/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "症状の節が保存 HTML に無いため、同じページの概要の節から症状を取った。3 件しか取れなかった。",
+  "疫学の節が保存 HTML に無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:56:25+09:00",
+ "shard": 4
+}

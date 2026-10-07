@@ -1,0 +1,47 @@
+{
+ "idx": 120,
+ "name": "ベッカー型筋ジストロフィー",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/98895",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Becker muscular dystrophy"
+  }
+ ],
+ "summary": {
+  "text": "A rare, genetic muscular dystrophy characterized by progressive muscle wasting and weakness due to degeneration of skeletal, smooth and cardiac muscle.",
+  "source_id": "orphanet",
+  "evidence": "A rare, genetic muscular dystrophy chara",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "progressive muscle wasting and weakness",
+   "source_id": "orphanet",
+   "evidence": "progressive muscle wasting and weakness"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/98895",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

@@ -1,0 +1,69 @@
+{
+ "idx": 399,
+ "name": "ネフロン癆",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/22436",
+   "fetched_at": "2026-09-24T00:44:34+09:00",
+   "sha256": "672f226526dc3b007706a433bdfb9d6f9485c502213dd5f718a9127594654558",
+   "title": "ネフロン癆（指定難病３３５） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "腎臓のはたらきが少しずつ落ち、腎臓に袋状のものができる遺伝性の病気です。",
+  "source_id": "nanbyou",
+  "evidence": "腎機能が徐々に低下する遺伝性の病気で、特徴的な嚢胞（球状の袋）が腎臓にできます",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "水をよく飲む、尿が多くなる",
+   "source_id": "nanbyou",
+   "evidence": "多飲、多尿"
+  },
+  {
+   "text": "昼間の尿もれや夜尿がある",
+   "source_id": "nanbyou",
+   "evidence": "昼間の尿失禁や夜尿"
+  },
+  {
+   "text": "体重が増えにくい、背が低い",
+   "source_id": "nanbyou",
+   "evidence": "成長障害（体重増加不良・低身長）"
+  },
+  {
+   "text": "血圧が高くなる",
+   "source_id": "nanbyou",
+   "evidence": "腎不全の症状として高血圧"
+  },
+  {
+   "text": "顔色が悪くなる",
+   "source_id": "nanbyou",
+   "evidence": "貧血症状として顔色が悪いこと"
+  },
+  {
+   "text": "息切れ、呼吸が苦しくなる",
+   "source_id": "nanbyou",
+   "evidence": "心不全症状として息切れ、呼吸困難"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "根本的な治療法はありません。末期腎不全に至る時期をいかに遅らせるか"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/22436",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節の発見年齢は数値と一体のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:51:03+09:00",
+ "shard": 3
+}

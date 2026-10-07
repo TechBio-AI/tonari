@@ -1,0 +1,42 @@
+{
+ "idx": 753,
+ "name": "前眼部形成異常（Axenfeld-Rieger症候群）",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/782",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Axenfeld-Rieger syndrome"
+  }
+ ],
+ "summary": {
+  "text": "Axenfeld-Rieger syndrome (ARS) is a generic term used to designate overlapping genetic disorders, in which the major physical condition is anterior segment dysgenesis of the eye. Patients with ARS may also present with multiple variable congenital anomalies.",
+  "source_id": "orphanet",
+  "evidence": "Axenfeld-Rieger syndrome (ARS) is a gene",
+  "lang": "en"
+ },
+ "symptoms": [],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/782",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Definition は眼の構造の異常の説明で、症状の列挙が無い。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

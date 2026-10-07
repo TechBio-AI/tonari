@@ -1,0 +1,62 @@
+{
+ "idx": 262,
+ "name": "掌蹠膿疱症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/163927",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Pustulosis palmaris et plantaris"
+  }
+ ],
+ "summary": {
+  "text": "A rare skin disease characterized by chronic eruption of sterile pustules on an erythematous and desquamative background. The lesions are usually painful and affect the palms and soles, sometimes also the lateral aspects of hands and feet. Nail lesions (such as nail pitting, onycholysis, subungual pustules, and nail dystrophy) are also observed. The condition takes a chronic and relapsing course. Typical associations are psoriatic arthritis, thyroid gland dysfunction, and smoking.",
+  "source_id": "orphanet",
+  "evidence": "A rare skin disease characterized by chr",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "chronic eruption of sterile pustules",
+   "source_id": "orphanet",
+   "evidence": "chronic eruption of sterile pustules"
+  },
+  {
+   "text": "affect the palms and soles",
+   "source_id": "orphanet",
+   "evidence": "affect the palms and soles"
+  },
+  {
+   "text": "usually painful",
+   "source_id": "orphanet",
+   "evidence": "usually painful"
+  },
+  {
+   "text": "Nail lesions",
+   "source_id": "orphanet",
+   "evidence": "Nail lesions"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/163927",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

@@ -1,0 +1,62 @@
+{
+ "idx": 47,
+ "name": "ターナー症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/881",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Turner syndrome"
+  }
+ ],
+ "summary": {
+  "text": "A rare chromosomal anomaly syndrome characterized by complete or partial loss of an X chromosome in phenotypic females, clinically manifesting with short stature, primary ovarian insufficiency as well as cardiovascular, renal, liver, autoimmune diseases, hearing loss and neurocognitive abnormalities.",
+  "source_id": "orphanet",
+  "evidence": "A rare chromosomal anomaly syndrome char",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "short stature",
+   "source_id": "orphanet",
+   "evidence": "short stature"
+  },
+  {
+   "text": "primary ovarian insufficiency",
+   "source_id": "orphanet",
+   "evidence": "primary ovarian insufficiency"
+  },
+  {
+   "text": "hearing loss",
+   "source_id": "orphanet",
+   "evidence": "hearing loss"
+  },
+  {
+   "text": "neurocognitive abnormalities",
+   "source_id": "orphanet",
+   "evidence": "neurocognitive abnormalities"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/881",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

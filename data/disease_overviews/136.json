@@ -1,0 +1,68 @@
+{
+ "idx": 136,
+ "name": "副甲状腺機能低下症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4426",
+   "fetched_at": "2026-09-24T00:45:20+09:00",
+   "sha256": "916ce31f575213283dfd1944324a87fe33d3815e97c776010476d11a16f86e36",
+   "title": "副甲状腺機能低下症（指定難病２３５） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "副甲状腺から出るホルモンが少なくなることで起こる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "副甲状腺ホルモンの分泌が低下することにより",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "手足の筋肉がけいれんする",
+   "source_id": "nanbyou",
+   "evidence": "テタニーと呼ばれる特徴的な手足の筋肉のけいれん"
+  },
+  {
+   "text": "手足や口の周りがしびれる",
+   "source_id": "nanbyou",
+   "evidence": "手足や口の周りのしびれ感"
+  },
+  {
+   "text": "全身のけいれん発作が起きることがある",
+   "source_id": "nanbyou",
+   "evidence": "けいれんは高度の場合には全身に及び"
+  },
+  {
+   "text": "歯の育ちに影響が出ることがある",
+   "source_id": "nanbyou",
+   "evidence": "歯の発育が障害される場合もある"
+  },
+  {
+   "text": "白内障が起こりやすくなる",
+   "source_id": "nanbyou",
+   "evidence": "白内障も起こりやすくなります"
+  }
+ ],
+ "onset": {
+  "text": "男性と女性で起こりやすさに違いはありません",
+  "source_id": "nanbyou",
+  "evidence": "男性と女性では、頻度に違いはありません。"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "血液中カルシウム濃度をほぼ正常に維持する事が出来ます"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4426",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:26:37+09:00",
+ "shard": 1
+}

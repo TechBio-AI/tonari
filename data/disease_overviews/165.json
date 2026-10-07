@@ -1,0 +1,78 @@
+{
+ "idx": 165,
+ "name": "ドラベ症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4744",
+   "fetched_at": "2026-09-24T00:45:57+09:00",
+   "sha256": "b6193ecac435b5a1bd912d046ed76662d2e159fb8d5afeac4493967c5fb3c03a",
+   "title": "ドラベ症候群（指定難病１４０） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "赤ちゃんのころにけいれんで始まり、その後もけいれんを何度もくり返す病気です。",
+  "source_id": "nanbyou",
+  "evidence": "全身あるいは片側のけいれんで発症し、その後もけいれんを何度も繰り返す病気",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "全身または体の片側がけいれんする",
+   "source_id": "nanbyou",
+   "evidence": "全身あるいは片側のけいれんを繰り返します"
+  },
+  {
+   "text": "熱やお風呂でけいれんが起きやすい",
+   "source_id": "nanbyou",
+   "evidence": "けいれんは発熱、入浴やワクチン接種などの体温上昇で引き起こされやすく"
+  },
+  {
+   "text": "けいれんが止まらなくなることがある",
+   "source_id": "nanbyou",
+   "evidence": "てんかん重積状態に至ることも多く"
+  },
+  {
+   "text": "数秒ぼんやりする発作が出ることがある",
+   "source_id": "nanbyou",
+   "evidence": "数秒間ぼんやりする欠神発作"
+  },
+  {
+   "text": "一瞬手足がぴくつく",
+   "source_id": "nanbyou",
+   "evidence": "一瞬四肢がぴくつくミオクロニー発作"
+  },
+  {
+   "text": "発達がゆっくりになる",
+   "source_id": "nanbyou",
+   "evidence": "発達が伸び悩み"
+  },
+  {
+   "text": "歩き始めが遅れ、ふらつきが続くことがある",
+   "source_id": "nanbyou",
+   "evidence": "歩行獲得が遅れることがあり、歩行可能になってもふらつきが持続する"
+  }
+ ],
+ "onset": {
+  "text": "なりやすい特別な要因は、今のところ知られていません",
+  "source_id": "nanbyou",
+  "evidence": "この病気になりやすい特別な要因は今のところ知られていません。"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "できるだけ少ない種類の薬に絞り込んで薬の副作用を最小限にすることが望ましい"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4744",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節には薬剤名が並ぶので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:26:37+09:00",
+ "shard": 1
+}

@@ -1,0 +1,75 @@
+{
+ "idx": 127,
+ "name": "真性多血症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/09_11_021/",
+   "fetched_at": "2026-09-24T00:50:21+09:00",
+   "sha256": "5f2d87f4840af504151455e2fe110a17678f46b324454a00717aaef895a3c793",
+   "title": "真性多血症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "血を作るもとの細胞が増えることで起こる、まれな病気の集まりです。",
+  "source_id": "shouman",
+  "evidence": "造血幹細胞レベルのクローナルな増殖に起因するとされる、稀な疾患群",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "症状がないこともある",
+   "source_id": "shouman",
+   "evidence": "PVでは無症状のこともある"
+  },
+  {
+   "text": "頭が痛む、めまいがする",
+   "source_id": "shouman",
+   "evidence": "頭痛、めまい"
+  },
+  {
+   "text": "ほてる、のぼせる",
+   "source_id": "shouman",
+   "evidence": "ほてり、のぼせ"
+  },
+  {
+   "text": "耳鳴りがする",
+   "source_id": "shouman",
+   "evidence": "耳鳴り"
+  },
+  {
+   "text": "顔が赤くなる",
+   "source_id": "shouman",
+   "evidence": "赤ら顔"
+  },
+  {
+   "text": "血圧が高くなる",
+   "source_id": "shouman",
+   "evidence": "高血圧などの症状が起きる"
+  },
+  {
+   "text": "肝臓や脾臓が大きくなる",
+   "source_id": "shouman",
+   "evidence": "肝脾腫が多くみられる"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "小児のPV/ETなどは無治療経過観察の場合もある"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/09_11_021/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "idx 126 本態性血小板血症と同じ出典ページ。",
+  "疫学の節は発症頻度が不明としか書かれておらず onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:56:25+09:00",
+ "shard": 4
+}

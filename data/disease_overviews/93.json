@@ -1,0 +1,55 @@
+{
+ "idx": 93,
+ "name": "血友病B",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/09_21_041/",
+   "fetched_at": "2026-09-24T00:50:32+09:00",
+   "sha256": "d669fc12c5186fb42d46db8d9f8b89ecf6ce4304c5ef1eff741437426baefa14",
+   "title": "血友病Ｂ 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "血を固める第IX因子という成分の異常で起こる病気です。",
+  "source_id": "shouman",
+  "evidence": "第IX因子の量的・質的異常症である血友病B",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "幼いころから出血をくり返す",
+   "source_id": "shouman",
+   "evidence": "出血症状が幼少時から反復する"
+  },
+  {
+   "text": "重症度は因子の活性値と関係する",
+   "source_id": "shouman",
+   "evidence": "臨床的重症度は第VIII因子または第IX因子活性値と相関し"
+  },
+  {
+   "text": "患者はふつう男性である",
+   "source_id": "shouman",
+   "evidence": "患者は通常男性で"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "補充療法が基本である"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/09_21_041/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "症状の節が途中で切れた 1 文しかなく、同じページの概要の節から症状を取った。3 件しか取れなかった。",
+  "疫学の節は出生頻度の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:46:07+09:00",
+ "shard": 3
+}

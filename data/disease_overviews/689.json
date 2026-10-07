@@ -1,0 +1,58 @@
+{
+ "idx": 689,
+ "name": "McLeod症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/59306",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "McLeod neuroacanthocytosis syndrome"
+  }
+ ],
+ "summary": {
+  "text": "McLeod neuroacanthocytosis syndrome (MLS) is a form of neuroacanthocytosis and is characterized clinically by a Huntington's disease-like phenotype with an involuntary hyperkinetic movement disorder, psychiatric manifestations and cognitive alterations, and biochemically by absence of the Kx antigen and by weak expression of the Kell antigens.",
+  "source_id": "orphanet",
+  "evidence": "McLeod neuroacanthocytosis syndrome (MLS",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "involuntary hyperkinetic movement disorder",
+   "source_id": "orphanet",
+   "evidence": "involuntary hyperkinetic movement"
+  },
+  {
+   "text": "psychiatric manifestations",
+   "source_id": "orphanet",
+   "evidence": "psychiatric manifestations"
+  },
+  {
+   "text": "cognitive alterations",
+   "source_id": "orphanet",
+   "evidence": "cognitive alterations"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/59306",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: Kx antigen・Kell antigens（血液検査）",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

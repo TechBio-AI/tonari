@@ -1,0 +1,78 @@
+{
+ "idx": 112,
+ "name": "急速進行性糸球体腎炎",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/74",
+   "fetched_at": "2026-09-24T00:46:43+09:00",
+   "sha256": "66e5f3d3727026c743b4778ea3d27d462abeada3464190559fa8cef23d92fab0",
+   "title": "急速進行性糸球体腎炎（指定難病２２０） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "数週間から数か月の短い間に、腎臓のはたらきが急に落ちていく病気です。",
+  "source_id": "nanbyou",
+  "evidence": "数週から数カ月の短い期間に急速に腎機能が低下する病気",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "目に見える血尿が出る",
+   "source_id": "nanbyou",
+   "evidence": "目にみえる血尿が出現すること"
+  },
+  {
+   "text": "尿の量が減る",
+   "source_id": "nanbyou",
+   "evidence": "尿量が減少すること"
+  },
+  {
+   "text": "微熱が出る",
+   "source_id": "nanbyou",
+   "evidence": "微熱"
+  },
+  {
+   "text": "体がだるい",
+   "source_id": "nanbyou",
+   "evidence": "だるさ"
+  },
+  {
+   "text": "食欲がない",
+   "source_id": "nanbyou",
+   "evidence": "食欲がない"
+  },
+  {
+   "text": "吐き気がする",
+   "source_id": "nanbyou",
+   "evidence": "吐き気"
+  },
+  {
+   "text": "息苦しくなる",
+   "source_id": "nanbyou",
+   "evidence": "息苦しさ"
+  }
+ ],
+ "onset": {
+  "text": "子どもからお年寄りまでみられますが、中高年に多い傾向があります",
+  "source_id": "nanbyou",
+  "evidence": "小児から高齢者までみられますが、中高年に多い傾向にあります"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "この病気をおこした原因を治療することが治療の基本になります"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/74",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:24:20+09:00",
+ "shard": 1
+}

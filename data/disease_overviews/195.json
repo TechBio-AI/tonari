@@ -1,0 +1,76 @@
+{
+ "idx": 195,
+ "name": "アンジェルマン症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4771",
+   "fetched_at": "2026-09-24T00:46:02+09:00",
+   "sha256": "e98e508d44e9659ab450a9e207e1486f9e8157ee2d1c07867d9612d8c1e96945",
+   "title": "アンジェルマン症候群（指定難病２０１） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "重い知的障害、てんかん、ぎこちない動き、よく笑うことを特徴とする病気です。",
+  "source_id": "nanbyou",
+  "evidence": "重い知的障害、てんかん、ぎこちない動きを示し、ちょっとしたことでよく笑う",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "乳児期後半から発達の遅れに気づかれる",
+   "source_id": "nanbyou",
+   "evidence": "乳児期後半から発達の遅れに気づかれる"
+  },
+  {
+   "text": "意味のある言葉を話すようになることはまれ",
+   "source_id": "nanbyou",
+   "evidence": "意味のあることばを話すようになることは稀ですが"
+  },
+  {
+   "text": "てんかんを合併する",
+   "source_id": "nanbyou",
+   "evidence": "てんかんが合併します"
+  },
+  {
+   "text": "熱性けいれんとして始まることが多い",
+   "source_id": "nanbyou",
+   "evidence": "けいれんは乳児期に熱性けいれんとしておこることが最も多い"
+  },
+  {
+   "text": "ちょっとしたことでよく笑う",
+   "source_id": "nanbyou",
+   "evidence": "容易に引き起こされる笑い"
+  },
+  {
+   "text": "落ち着きがない、好奇心が強い",
+   "source_id": "nanbyou",
+   "evidence": "落ち着きのなさや旺盛な好奇心"
+  },
+  {
+   "text": "睡眠が乱れる",
+   "source_id": "nanbyou",
+   "evidence": "睡眠障害の合併が多く"
+  }
+ ],
+ "onset": {
+  "text": "特にどのような人に多いということはありません",
+  "source_id": "nanbyou",
+  "evidence": "特に、どのような人に多いということはありません。"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "治療は対症療法となります。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4771",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:48:34+09:00",
+ "shard": 3
+}

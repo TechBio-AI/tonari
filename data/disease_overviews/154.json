@@ -1,0 +1,75 @@
+{
+ "idx": 154,
+ "name": "先天性プロテインC欠乏症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/09_22_048/",
+   "fetched_at": "2026-09-24T00:50:33+09:00",
+   "sha256": "87865df52c6cb6b1f928ff4143e1043be6377c4234598ea4408c925ca1502565",
+   "title": "先天性プロテインC欠乏症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "重い型では、赤ちゃんのころに脳の血管がつまったり出血したりします。",
+  "source_id": "shouman",
+  "evidence": "ホモおよび複合へテロ接合の重症型は新生児に脳梗塞・出血",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "赤ちゃんで脳の血管がつまる、出血する",
+   "source_id": "shouman",
+   "evidence": "新生児・乳児は脳梗塞と出血"
+  },
+  {
+   "text": "頭に水がたまる",
+   "source_id": "shouman",
+   "evidence": "水頭症"
+  },
+  {
+   "text": "目の中で出血する",
+   "source_id": "shouman",
+   "evidence": "硝子体出血"
+  },
+  {
+   "text": "手足の先が黒くなる、紫色のあざが出る",
+   "source_id": "shouman",
+   "evidence": "電撃性紫斑病（四肢先端の壊死、紫斑）"
+  },
+  {
+   "text": "腎臓のはたらきが落ちる",
+   "source_id": "shouman",
+   "evidence": "腎不全"
+  },
+  {
+   "text": "足がむくんで痛み、赤紫色にはれる",
+   "source_id": "shouman",
+   "evidence": "足のむくみ、正座不能、疼痛と赤紫色の腫脹"
+  },
+  {
+   "text": "胸が痛み、息が苦しくなる",
+   "source_id": "shouman",
+   "evidence": "胸痛と呼吸困難"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "外科的な血栓除去術"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/09_22_048/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は割合の数値が中心のため onset は null。",
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:26:37+09:00",
+ "shard": 1
+}

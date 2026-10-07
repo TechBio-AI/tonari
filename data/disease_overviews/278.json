@@ -1,0 +1,63 @@
+{
+ "idx": 278,
+ "name": "突発性難聴",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/90059",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Sudden sensorineural hearing loss"
+  }
+ ],
+ "summary": {
+  "text": "A rare otorhinolaryngologic condition characterized by sudden hearing loss of at least 30 decibels across three contiguous frequencies, within 72 hours or less, due to acute damage to the cochlear hair cells, resulting from acoustic trauma or mechanical trauma during surgery, or occurring without any known cause. The hearing loss may affect one or both ears. Typical concomitant symptoms are aural fullness, tinnitus, and vertigo. Patients may fully recover or remain with hearing loss of variable intensity.",
+  "source_id": "orphanet",
+  "evidence": "A rare otorhinolaryngologic condition ch",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "sudden hearing loss",
+   "source_id": "orphanet",
+   "evidence": "sudden hearing loss"
+  },
+  {
+   "text": "aural fullness",
+   "source_id": "orphanet",
+   "evidence": "aural fullness"
+  },
+  {
+   "text": "tinnitus",
+   "source_id": "orphanet",
+   "evidence": "tinnitus"
+  },
+  {
+   "text": "vertigo",
+   "source_id": "orphanet",
+   "evidence": "vertigo"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/90059",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "聴力の基準（30 decibels・72 hours）は検査値のため入れていない。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

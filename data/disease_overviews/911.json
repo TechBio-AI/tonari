@@ -1,0 +1,69 @@
+{
+ "idx": 911,
+ "name": "カルニチンパルミトイルトランスフェラーゼ1A欠損症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_03_041/",
+   "fetched_at": "2026-09-25T03:28:07+09:00",
+   "sha256": "f802bdf98ea0a4a74b6593e164e15c7ecf1b36dd97a41b7a73a36dbb91613f7d",
+   "title": "カルニチンパルミトイルトランスフェラーゼⅠ欠損症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "脂肪をエネルギーに変えるしくみがうまくはたらかず、エネルギーが足りなくなる病気です。",
+  "source_id": "shouman",
+  "evidence": "脂肪酸代謝が十分行われずにエネルギー産生低下を引き起こす",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "けいれん",
+   "source_id": "shouman",
+   "evidence": "けいれん，意識障害，呼吸障害"
+  },
+  {
+   "text": "意識の障害",
+   "source_id": "shouman",
+   "evidence": "意識障害"
+  },
+  {
+   "text": "呼吸の障害",
+   "source_id": "shouman",
+   "evidence": "呼吸障害などで急性発症し"
+  },
+  {
+   "text": "肝臓が大きくなる",
+   "source_id": "shouman",
+   "evidence": "肝腫大"
+  },
+  {
+   "text": "腎臓の障害",
+   "source_id": "shouman",
+   "evidence": "腎尿細管障害を呈する症例もある"
+  }
+ ],
+ "onset": {
+  "text": "乳児期以降は、空腹や発熱のときに発症します",
+  "source_id": "shouman",
+  "evidence": "乳児期以降は飢餓時や発熱時に"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "安定期には食事間隔の指導"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_03_041/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "新生児期に発症する型もあると出典にある。onset は乳児期以降の記述から取った。",
+  "治療の節には薬剤名があるため、evidence は食事指導の句から選んだ。"
+ ],
+ "extracted_at": "2026-10-02T21:14:56+09:00",
+ "shard": 2
+}

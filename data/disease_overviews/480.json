@@ -1,0 +1,60 @@
+{
+ "idx": 480,
+ "name": "1p36欠失症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4495",
+   "fetched_at": "2026-09-24T00:45:29+09:00",
+   "sha256": "194587a9acbd4d236eabe5e74e51775eaec1cbb8d46815f96913337433e63280",
+   "title": "１ｐ３６欠失症候群（指定難病１９７） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "発達の遅れ、筋緊張の低下、てんかんなどの神経の症状が現れる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "精神運動発達の遅れや筋緊張低下、てんかんなどの神経症状に加え",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "発達がゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "精神運動発達遅滞はほとんどの患者さんで認められます"
+  },
+  {
+   "text": "てんかんを合併することがある",
+   "source_id": "nanbyou",
+   "evidence": "てんかんや先天性心疾患"
+  },
+  {
+   "text": "生まれつきの心臓の病気を合併することがある",
+   "source_id": "nanbyou",
+   "evidence": "先天性心疾患、甲状腺機能障害"
+  },
+  {
+   "text": "太りやすい",
+   "source_id": "nanbyou",
+   "evidence": "肥満"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "根本的な治療法はありません。各症状に対して一般的な対症療法を行います。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4495",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "症状の節が短く、4 件しか取れなかった。",
+  "「どのような人に多いのですか」の節は男女比の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:51:03+09:00",
+ "shard": 3
+}

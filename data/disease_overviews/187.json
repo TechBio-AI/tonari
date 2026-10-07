@@ -1,0 +1,42 @@
+{
+ "idx": 187,
+ "name": "キャッスルマン病",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/160",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Castleman disease"
+  }
+ ],
+ "summary": {
+  "text": "A rare lymphoid hemopathy characterized by involvement of lymph nodes in any part of the body, most frequently the mediastinum, abdomen, neck, or spleen, and occurring as unicentric, idiopathic multicentric, or KSHV/HHV8-associated multicentric Castleman disease. Depending on the type, patients are most commonly asymptomatic or typically present with systemic symptoms.",
+  "source_id": "orphanet",
+  "evidence": "A rare lymphoid hemopathy characterized ",
+  "lang": "en"
+ },
+ "symptoms": [],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/160",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Definition は「無症状または全身症状」とだけ書き、症状の列挙が無い。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

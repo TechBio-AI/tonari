@@ -1,0 +1,84 @@
+{
+ "idx": 2,
+ "name": "ムコ多糖症II型",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_076/",
+   "fetched_at": "2026-09-24T00:49:50+09:00",
+   "sha256": "fc6f1064b9a2e0cbc82845deb043eeb6189ac066e97d4d2c658efde350b6556b",
+   "title": "ムコ多糖症Ⅱ型 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "ある物質を分解する酵素が生まれつき足りないために起こる病気です。",
+  "source_id": "shouman",
+  "evidence": "ライソゾーム酵素であるIduronate-2-sulfatase の先天的欠損",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "中耳炎をくり返す",
+   "source_id": "shouman",
+   "evidence": "反復性の中耳炎"
+  },
+  {
+   "text": "へそや足のつけ根にヘルニアができる",
+   "source_id": "shouman",
+   "evidence": "臍・鼠径ヘルニア"
+  },
+  {
+   "text": "特徴的な顔だちになる",
+   "source_id": "shouman",
+   "evidence": "特徴的顔貌（頭囲拡大、側頭・前頭の膨隆"
+  },
+  {
+   "text": "舌が大きい",
+   "source_id": "shouman",
+   "evidence": "巨舌"
+  },
+  {
+   "text": "いびきのような呼吸音がする",
+   "source_id": "shouman",
+   "evidence": "騒音呼吸"
+  },
+  {
+   "text": "毛深い、皮膚がごわつく",
+   "source_id": "shouman",
+   "evidence": "多毛、粗な皮膚を呈する"
+  },
+  {
+   "text": "耳が聞こえにくくなる",
+   "source_id": "shouman",
+   "evidence": "伝音性難聴をきたす"
+  },
+  {
+   "text": "手指が曲がったまま伸びにくい",
+   "source_id": "shouman",
+   "evidence": "手指拘縮（鷲手）"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "対症療法と原因治療がある。後者としては、酵素補充療法と造血細胞移植がある。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_076/",
+   "label": "公式ページ"
+  },
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4063",
+   "label": "関連する群のページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は頻度の数値のみのため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:44:40+09:00",
+ "shard": 3
+}

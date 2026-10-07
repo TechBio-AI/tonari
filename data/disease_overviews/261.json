@@ -1,0 +1,70 @@
+{
+ "idx": 261,
+ "name": "アルポート症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4348",
+   "fetched_at": "2026-09-24T00:45:05+09:00",
+   "sha256": "e9da8fd86270e5803f372fada5740238dc546127f971bfd412ace8ec8fc4da8d",
+   "title": "アルポート症候群（指定難病２１８） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "慢性の腎炎、難聴、目の合併症が現れる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "慢性腎炎、難聴、眼合併症を呈する症候群で、しばしば末期腎不全へと進行します",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "幼いころから血尿がある",
+   "source_id": "nanbyou",
+   "evidence": "典型例では幼少期から血尿を認めます"
+  },
+  {
+   "text": "見た目では尿の血に気づかない",
+   "source_id": "nanbyou",
+   "evidence": "ふつうは見た目では尿に血液が混じっていることは分からず"
+  },
+  {
+   "text": "風邪のときに赤やコーラ色の尿が出る",
+   "source_id": "nanbyou",
+   "evidence": "赤またはコーラ色の尿が出ることがあります"
+  },
+  {
+   "text": "尿にたんぱくが出る",
+   "source_id": "nanbyou",
+   "evidence": "年齢とともに蛋白尿を認めはじめ"
+  },
+  {
+   "text": "腎臓のはたらきがゆっくり落ちる",
+   "source_id": "nanbyou",
+   "evidence": "非常にゆっくりした経過で末期腎不全へと進行する"
+  },
+  {
+   "text": "耳が聞こえにくくなる",
+   "source_id": "nanbyou",
+   "evidence": "２）難聴：生下時や幼少期に認めることはありません"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "現在まで根治的治療法はありません。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4348",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は遺伝と家族歴の説明で、発症年齢の記載が無いため onset は null。",
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:49:53+09:00",
+ "shard": 3
+}

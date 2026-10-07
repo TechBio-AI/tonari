@@ -1,0 +1,69 @@
+{
+ "idx": 274,
+ "name": "両大血管右室起始症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4873",
+   "fetched_at": "2026-09-24T00:46:19+09:00",
+   "sha256": "b5c96a04708cb2d7d00f5c750ac75e79817cdd6c2d1a73adb361a144ca4dada9",
+   "title": "両大血管右室起始症（指定難病２１６） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "心臓から出る二本の大きな血管が、どちらも主に右側の部屋から出ている病気です。",
+  "source_id": "nanbyou",
+  "evidence": "大血管の一つともう一つの半分（50%ルール）以上が右室から起始している病気",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "呼吸が速い",
+   "source_id": "nanbyou",
+   "evidence": "多呼吸"
+  },
+  {
+   "text": "息を吸うときに胸がへこむ",
+   "source_id": "nanbyou",
+   "evidence": "陥没呼吸"
+  },
+  {
+   "text": "おっぱいやミルクの飲みが悪い",
+   "source_id": "nanbyou",
+   "evidence": "哺乳不良"
+  },
+  {
+   "text": "体重が増えにくい",
+   "source_id": "nanbyou",
+   "evidence": "体重増加不良"
+  },
+  {
+   "text": "汗をかきやすい",
+   "source_id": "nanbyou",
+   "evidence": "発汗などの心不全症状"
+  },
+  {
+   "text": "皮膚や唇が青紫色になる",
+   "source_id": "nanbyou",
+   "evidence": "チアノーゼ が新生児より見られ"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "心室中隔欠損孔を閉鎖します"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4873",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は家系の説明で、発症年齢の記載が無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:28:23+09:00",
+ "shard": 1
+}

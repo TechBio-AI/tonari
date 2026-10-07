@@ -1,0 +1,62 @@
+{
+ "idx": 53,
+ "name": "常染色体優性多発性嚢胞腎",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/730",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Autosomal dominant polycystic kidney disease"
+  }
+ ],
+ "summary": {
+  "text": "A rare, genetic, renal tubular disease characterized by progressive outgrowths of fluid-filled cysts from the renal epithelium, which can manifest with hematuria, urinary tract infections, hypertension, and abdominal or flank pain. The slowly progressive loss of kidney function may evolve to end stage kidney disease (ESKD).",
+  "source_id": "orphanet",
+  "evidence": "A rare, genetic, renal tubular disease c",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "hematuria",
+   "source_id": "orphanet",
+   "evidence": "hematuria"
+  },
+  {
+   "text": "urinary tract infections",
+   "source_id": "orphanet",
+   "evidence": "urinary tract infections"
+  },
+  {
+   "text": "hypertension",
+   "source_id": "orphanet",
+   "evidence": "hypertension"
+  },
+  {
+   "text": "abdominal or flank pain",
+   "source_id": "orphanet",
+   "evidence": "abdominal or flank pain"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/730",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

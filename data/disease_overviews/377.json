@@ -1,0 +1,74 @@
+{
+ "idx": 377,
+ "name": "コルネリア・デランゲ症候群",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/13_01_007/",
+   "fetched_at": "2026-09-24T00:52:58+09:00",
+   "sha256": "1aa37bf746a5237c5939e3f35d329e56011851fd7ae6aa1347bb02089d0c5aab",
+   "title": "コルネリア・デランゲ（Cornelia de Lange）症候群 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "眉が濃くつながる、まつげが長いなど、特徴的な顔だちをともなう病気です。",
+  "source_id": "shouman",
+  "evidence": "特徴的な顔貌（濃い眉毛、両側眉癒合、長くカールした睫毛",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "おっぱいやミルクを飲むのが難しい",
+   "source_id": "shouman",
+   "evidence": "哺乳困難"
+  },
+  {
+   "text": "耳が聞こえにくい",
+   "source_id": "shouman",
+   "evidence": "両側性感音難聴が多い"
+  },
+  {
+   "text": "背骨が横に曲がる",
+   "source_id": "shouman",
+   "evidence": "側弯"
+  },
+  {
+   "text": "体の育ちがゆっくり",
+   "source_id": "shouman",
+   "evidence": "成長障害"
+  },
+  {
+   "text": "貧血になる",
+   "source_id": "shouman",
+   "evidence": "貧血"
+  },
+  {
+   "text": "行動に特徴が出る",
+   "source_id": "shouman",
+   "evidence": "行動異常"
+  },
+  {
+   "text": "上あごが割れていることがある",
+   "source_id": "shouman",
+   "evidence": "口蓋裂"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "本質的な治療法はない。種々の合併症に対する対症療法。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/13_01_007/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節が保存 HTML に無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:30:26+09:00",
+ "shard": 1
+}

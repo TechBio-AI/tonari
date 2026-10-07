@@ -1,0 +1,74 @@
+{
+ "idx": 212,
+ "name": "グルカゴノーマ",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_33_076/",
+   "fetched_at": "2026-09-24T00:48:14+09:00",
+   "sha256": "d14927bc85271a32ab28ec4b92aecbedaf5c8adb768b192429694b6171904579",
+   "title": "グルカゴノーマ 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "主にすい臓にできる腫瘍から、あるホルモンが出すぎる病気です。",
+  "source_id": "shouman",
+  "evidence": "主に膵に発生する腫瘍からのグルカゴン分泌過剰による疾患。",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "移動する赤い発疹が出る",
+   "source_id": "shouman",
+   "evidence": "遊走性壊死性紅斑"
+  },
+  {
+   "text": "糖尿病になる",
+   "source_id": "shouman",
+   "evidence": "耐糖能障害や糖尿病"
+  },
+  {
+   "text": "体重が減る",
+   "source_id": "shouman",
+   "evidence": "体重減少"
+  },
+  {
+   "text": "貧血になる",
+   "source_id": "shouman",
+   "evidence": "貧血などがある"
+  },
+  {
+   "text": "静脈に血栓ができる",
+   "source_id": "shouman",
+   "evidence": "静脈血栓症"
+  },
+  {
+   "text": "舌炎や口角炎、口内炎が起こる",
+   "source_id": "shouman",
+   "evidence": "舌炎，口角炎，口内炎，眼瞼炎などになる"
+  },
+  {
+   "text": "下痢や便秘、腹痛が起こる",
+   "source_id": "shouman",
+   "evidence": "消化器症状は下痢，便秘，食欲低下，腹痛がある"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "外科的切除が治癒させうる唯一の治療法であり"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_33_076/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節の好発年齢は数値と一体のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:57:53+09:00",
+ "shard": 4
+}

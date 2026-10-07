@@ -1,0 +1,79 @@
+{
+ "idx": 740,
+ "name": "クローン病（小児型重症）",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/12_04_015/",
+   "fetched_at": "2026-09-24T00:52:07+09:00",
+   "sha256": "af9bb57b397a70b1772754e4b71ba6b09f6da686efce41ee1d50aeb76f122045",
+   "title": "クローン（Crohn）病 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "消化管に肉芽腫をともなう炎症が起こる、主に若い人に発症する病気です。",
+  "source_id": "shouman",
+  "evidence": "消化管の肉芽腫性炎症性腸疾患で、主として若年者に発症し",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "お腹が痛む",
+   "source_id": "shouman",
+   "evidence": "腹痛、下痢、血便を主症状とし"
+  },
+  {
+   "text": "下痢をする",
+   "source_id": "shouman",
+   "evidence": "下痢、血便"
+  },
+  {
+   "text": "便に血がまじる",
+   "source_id": "shouman",
+   "evidence": "血便"
+  },
+  {
+   "text": "食欲がなくなる",
+   "source_id": "shouman",
+   "evidence": "摂食障害と食欲不振"
+  },
+  {
+   "text": "体重が減る",
+   "source_id": "shouman",
+   "evidence": "体重減少が認められ"
+  },
+  {
+   "text": "体の育ちがゆっくり",
+   "source_id": "shouman",
+   "evidence": "成長障害が存在する"
+  },
+  {
+   "text": "骨折しやすくなる",
+   "source_id": "shouman",
+   "evidence": "骨発達障害のため骨折をおこしやすくなる"
+  },
+  {
+   "text": "皮膚に赤いしこりができる",
+   "source_id": "shouman",
+   "evidence": "腸管外病変として結節性紅斑"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "経腸栄養剤による栄養療法、薬物治療、外科治療にわかれる"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/12_04_015/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は罹患率の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:52:52+09:00",
+ "shard": 3
+}

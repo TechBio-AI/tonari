@@ -1,0 +1,74 @@
+{
+ "idx": 619,
+ "name": "先天性無痛無汗症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4360",
+   "fetched_at": "2026-09-24T00:45:06+09:00",
+   "sha256": "640fb7654e457c1e529a6738a433cc3552f3320f1916a8ad13abd733aa1ad460",
+   "title": "先天性無痛無汗症（指定難病１３０） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "熱さや冷たさ、痛みを感じられなくなる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "全身の温度覚（熱い冷たいを感じる）と痛覚（痛みの感覚）が消失しています",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "温度や痛みを感じない",
+   "source_id": "nanbyou",
+   "evidence": "全身の温度や痛みの感覚が消失し"
+  },
+  {
+   "text": "汗が出にくい",
+   "source_id": "nanbyou",
+   "evidence": "発汗が低下します"
+  },
+  {
+   "text": "骨折や脱臼、やけどをくり返す",
+   "source_id": "nanbyou",
+   "evidence": "骨折・脱臼などの外傷、熱傷や凍傷を繰り返し"
+  },
+  {
+   "text": "関節が変形することがある",
+   "source_id": "nanbyou",
+   "evidence": "シャルコー関節と呼ばれる関節変形"
+  },
+  {
+   "text": "体温が上がりすぎる、下がりすぎる",
+   "source_id": "nanbyou",
+   "evidence": "高体温からけいれん"
+  },
+  {
+   "text": "自分の指や舌、唇をかんでしまう",
+   "source_id": "nanbyou",
+   "evidence": "特に指先、舌や口唇を噛むことが問題になります"
+  },
+  {
+   "text": "便秘になる",
+   "source_id": "nanbyou",
+   "evidence": "便秘"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "この病気を完全に治す治療法は現在ありません。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4360",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は遺伝形式と地域の説明で、発症年齢の記載が無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:32:02+09:00",
+ "shard": 1
+}

@@ -1,0 +1,74 @@
+{
+ "idx": 63,
+ "name": "クローン病",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/81",
+   "fetched_at": "2026-09-24T00:46:44+09:00",
+   "sha256": "3412f45a8d9fd94ebba80c4bbcf4f6fd30ebf394e775cc69bbf797b47976677a",
+   "title": "クローン病（指定難病９６） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "大腸や小腸の粘膜に慢性の炎症や潰瘍を起こす、原因のわかっていない病気です。",
+  "source_id": "nanbyou",
+  "evidence": "大腸及び小腸の粘膜に慢性の 炎症 または潰瘍をひきおこす原因不明の疾患",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "お腹が痛む",
+   "source_id": "nanbyou",
+   "evidence": "特徴的な症状は腹痛と下痢"
+  },
+  {
+   "text": "下痢をする",
+   "source_id": "nanbyou",
+   "evidence": "腹痛と下痢"
+  },
+  {
+   "text": "熱が出る",
+   "source_id": "nanbyou",
+   "evidence": "発熱"
+  },
+  {
+   "text": "便に血がまじる",
+   "source_id": "nanbyou",
+   "evidence": "下血"
+  },
+  {
+   "text": "体重が減る",
+   "source_id": "nanbyou",
+   "evidence": "体重減少"
+  },
+  {
+   "text": "体がだるい",
+   "source_id": "nanbyou",
+   "evidence": "全身倦怠感"
+  },
+  {
+   "text": "貧血になる",
+   "source_id": "nanbyou",
+   "evidence": "貧血などの症状"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "内科治療（栄養療法や薬物療法など）と外科治療があります"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/81",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節の発症年齢は数値と一体のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:44:40+09:00",
+ "shard": 3
+}

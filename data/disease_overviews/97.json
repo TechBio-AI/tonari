@@ -1,0 +1,58 @@
+{
+ "idx": 97,
+ "name": "成人スチル病",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/829",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Adult-onset Still disease"
+  }
+ ],
+ "summary": {
+  "text": "A rare inflammatory multisystem disorder characterized clinically by four cardinal signs: fever of unknown origin, arthralgia or arthritis, hyperleucocytosis, and typical skin rash.",
+  "source_id": "orphanet",
+  "evidence": "A rare inflammatory multisystem disorder",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "fever of unknown origin",
+   "source_id": "orphanet",
+   "evidence": "fever of unknown origin"
+  },
+  {
+   "text": "arthralgia or arthritis",
+   "source_id": "orphanet",
+   "evidence": "arthralgia or arthritis"
+  },
+  {
+   "text": "typical skin rash",
+   "source_id": "orphanet",
+   "evidence": "typical skin rash"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/829",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: hyperleucocytosis",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

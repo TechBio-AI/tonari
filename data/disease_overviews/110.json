@@ -1,0 +1,71 @@
+{
+ "idx": 110,
+ "name": "網膜色素変性症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/196",
+   "fetched_at": "2026-09-24T00:44:32+09:00",
+   "sha256": "2c9a0d64cea6f91e4850022a89c9e8e37069dad5fb7e58da2868a2bb1f7a1022",
+   "title": "網膜色素変性症（指定難病９０） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "目の網膜に異常が起こる、遺伝性で進んでいく病気です。",
+  "source_id": "nanbyou",
+  "evidence": "網膜という組織に異常をきたす遺伝性、進行性の病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "暗いところで見えにくくなる",
+   "source_id": "nanbyou",
+   "evidence": "暗いところでの見え方が悪くなること（夜盲）"
+  },
+  {
+   "text": "視野が狭くなる",
+   "source_id": "nanbyou",
+   "evidence": "視野が狭くなっていること（視野 狭窄 ）"
+  },
+  {
+   "text": "人にぶつかりやすくなる",
+   "source_id": "nanbyou",
+   "evidence": "ひとにぶつかりやすくなる"
+  },
+  {
+   "text": "視力が下がる、色の見え方が変わる",
+   "source_id": "nanbyou",
+   "evidence": "視力の低下や色覚異常"
+  },
+  {
+   "text": "まぶしく感じる",
+   "source_id": "nanbyou",
+   "evidence": "日常の生活環境でまぶしく感じる（羞明）"
+  },
+  {
+   "text": "全体が白っぽく感じる",
+   "source_id": "nanbyou",
+   "evidence": "全体が白っぽく感じることもあります"
+  }
+ ],
+ "onset": {
+  "text": "このような人に多いというはっきりした特徴はありません",
+  "source_id": "nanbyou",
+  "evidence": "このような人に多い、というはっきりとした特徴はありません"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "確実に進行を止める確立された治療法はありません"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/196",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:55:18+09:00",
+ "shard": 4
+}

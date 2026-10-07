@@ -1,0 +1,60 @@
+{
+ "idx": 456,
+ "name": "腎性尿崩症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_08_013/",
+   "fetched_at": "2026-09-24T00:48:05+09:00",
+   "sha256": "851b3a11d6137a8abb808bc80850cffadd6e25fa0bc64701a114b0544c7ec677",
+   "title": "腎性尿崩症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "腎臓が抗利尿ホルモンに反応しにくくなる病気です。",
+  "source_id": "shouman",
+  "evidence": "腎臓の腎尿細管細胞の抗利尿ホルモンに対する感受性が低下して",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "熱が出る",
+   "source_id": "shouman",
+   "evidence": "原因不明の発熱をきたし"
+  },
+  {
+   "text": "けいれんが起きる",
+   "source_id": "shouman",
+   "evidence": "さらにけいれんをきたす"
+  },
+  {
+   "text": "水をよく飲み、尿が多くなる",
+   "source_id": "shouman",
+   "evidence": "多飲・多尿"
+  },
+  {
+   "text": "尿の量が多くなる",
+   "source_id": "shouman",
+   "evidence": "多尿を呈する疾患"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "現時点では根治治療は困難である。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_08_013/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は罹病率の数値が中心のため onset は null。",
+  "治療の節には薬の分類名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:51:03+09:00",
+ "shard": 3
+}

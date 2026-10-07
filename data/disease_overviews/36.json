@@ -1,0 +1,76 @@
+{
+ "idx": 36,
+ "name": "サルコイドーシス",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/110",
+   "fetched_at": "2026-09-24T00:44:08+09:00",
+   "sha256": "1ad8931527d2ed83facef0bbc8c6087b8e605060a034f8306eb452b783b7956e",
+   "title": "サルコイドーシス（指定難病８４） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "小さなかたまりが、リンパ節・目・肺・心臓など、全身のいろいろな場所にできる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "結節 が、リンパ節、目、肺、心臓などの、全身のさまざまな臓器にできてくる",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "せきが出る、息が切れる",
+   "source_id": "nanbyou",
+   "evidence": "せきや息切れがでてくることがあります"
+  },
+  {
+   "text": "目がかすむ",
+   "source_id": "nanbyou",
+   "evidence": "かすむ感じ(霧視)"
+  },
+  {
+   "text": "目の前に虫が飛ぶように見える",
+   "source_id": "nanbyou",
+   "evidence": "飛蚊症"
+  },
+  {
+   "text": "目が充血する、まぶしい",
+   "source_id": "nanbyou",
+   "evidence": "充血やまぶしさといった症状"
+  },
+  {
+   "text": "視力が下がる",
+   "source_id": "nanbyou",
+   "evidence": "ぶどう膜炎自体でも視力が低下することが多い"
+  },
+  {
+   "text": "疲れやすい",
+   "source_id": "nanbyou",
+   "evidence": "「疲れ」と「息切れ」は、大体セットで訴える患者さんが多いです"
+  },
+  {
+   "text": "胸が痛む",
+   "source_id": "nanbyou",
+   "evidence": "一番多い痛みは胸痛です"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "症状の軽い例では自然改善を期待して経過をみるのが一般的です"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/110",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "症状は「臓器によってどのような症状がでるのでしょうか」「非特異的全身症状」の節から取った（同じページ内）。",
+  "治療の節には薬の分類名が出てくるので、含まない箇所を evidence に選んだ。",
+  "発症年齢の節が無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:26:54+09:00",
+ "shard": 1
+}

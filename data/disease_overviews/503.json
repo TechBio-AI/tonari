@@ -1,0 +1,58 @@
+{
+ "idx": 503,
+ "name": "高フェニルアラニン血症（BH4反応型）",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/293284",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Tetrahydrobiopterin-responsive phenylketonuria"
+  }
+ ],
+ "summary": {
+  "text": "A form of phenylketonuria (PKU), an inborn error of amino acid metabolism, characterized by mild to moderate symptoms of PKU including impaired cognitive function, seizures, and behavioral and developmental disorders, and a marked reduction of elevated phenylalanine concentrations after oral loading with tetrahydrobiopterin (BH4), an essential cofactor of phenylalanine hydroxylase.",
+  "source_id": "orphanet",
+  "evidence": "A form of phenylketonuria (PKU), an inbo",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "impaired cognitive function",
+   "source_id": "orphanet",
+   "evidence": "impaired cognitive function"
+  },
+  {
+   "text": "seizures",
+   "source_id": "orphanet",
+   "evidence": "seizures"
+  },
+  {
+   "text": "behavioral and developmental disorders",
+   "source_id": "orphanet",
+   "evidence": "behavioral and developmental disorders"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/293284",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: BH4 負荷試験後の phenylalanine 値の低下（検査）",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

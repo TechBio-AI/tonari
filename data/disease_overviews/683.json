@@ -1,0 +1,58 @@
+{
+ "idx": 683,
+ "name": "遺伝性パントテン酸キナーゼ関連神経変性",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/157850",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Pantothenate kinase-associated neurodegeneration"
+  }
+ ],
+ "summary": {
+  "text": "A rare neurodegenerative disorder characterized by progressive dystonia, dysarthria, retinal degeneration and abnormal iron accumulation in the globus pallidus and substantia nigra with a characteristic ''eye-of-the-tiger'' sign on T2-weighted MRI. Forms include classic disease with early onset and rapid progression and atypical disease with later onset and slower progression.",
+  "source_id": "orphanet",
+  "evidence": "A rare neurodegenerative disorder charac",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "progressive dystonia",
+   "source_id": "orphanet",
+   "evidence": "progressive dystonia"
+  },
+  {
+   "text": "dysarthria",
+   "source_id": "orphanet",
+   "evidence": "dysarthria"
+  },
+  {
+   "text": "retinal degeneration",
+   "source_id": "orphanet",
+   "evidence": "retinal degeneration"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/157850",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: abnormal iron accumulation / MRI 所見",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "病型で early onset・later onset と分かれており、時期を 1 つに決められないため onset は null。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

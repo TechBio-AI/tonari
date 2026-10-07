@@ -1,0 +1,74 @@
+{
+ "idx": 400,
+ "name": "色素失調症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/13_01_023/",
+   "fetched_at": "2026-09-24T00:53:05+09:00",
+   "sha256": "0758b3442b53989a8416387c3193818fc626bd69d9d71659c63fb43ccaf10721",
+   "title": "色素失調症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "皮膚・髪・歯・爪・目・中枢神経に症状が現れる病気です。",
+  "source_id": "shouman",
+  "evidence": "色素失調症は、皮膚、髪、歯、爪、目、中枢神経に症状が現れる疾患である。",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "生まれた直後に赤い水ぶくれの発疹が出る",
+   "source_id": "shouman",
+   "evidence": "出生時またはその直後に紅斑水疱性の発疹がみられる"
+  },
+  {
+   "text": "発疹がいぼ状、色素沈着、萎縮と変化する",
+   "source_id": "shouman",
+   "evidence": "疣状、色素沈着、萎縮という経過をたどる"
+  },
+  {
+   "text": "髪が抜ける",
+   "source_id": "shouman",
+   "evidence": "脱毛"
+  },
+  {
+   "text": "歯が欠けたり形が違ったりする",
+   "source_id": "shouman",
+   "evidence": "歯牙欠損、歯牙形態異常"
+  },
+  {
+   "text": "網膜の血管に異常が出る",
+   "source_id": "shouman",
+   "evidence": "網膜の血管形成異常"
+  },
+  {
+   "text": "けいれん発作が起こる",
+   "source_id": "shouman",
+   "evidence": "痙攣発作、知的障害もみられる"
+  },
+  {
+   "text": "背骨が曲がる",
+   "source_id": "shouman",
+   "evidence": "骨格（40％）：後側彎症"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "疾患特異的な治療法は確立されていない。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/13_01_023/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は出生頻度の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T03:00:26+09:00",
+ "shard": 4
+}

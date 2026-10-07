@@ -1,0 +1,65 @@
+{
+ "idx": 161,
+ "name": "イソ吉草酸血症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4816",
+   "fetched_at": "2026-09-24T00:46:10+09:00",
+   "sha256": "2a670f7a9ac29fea649b1535f4466d1275d3cb435ff65f9342c612f7cc263db4",
+   "title": "イソ吉草酸血症（指定難病２４７） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "エネルギーづくりをじゃまする有害な酸が体にたまる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "イソ吉草酸はエネルギー産生をじゃまする有害な有機酸です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "吐く",
+   "source_id": "nanbyou",
+   "evidence": "嘔吐が引き起こされます"
+  },
+  {
+   "text": "意識がはっきりしなくなる",
+   "source_id": "nanbyou",
+   "evidence": "意識障害"
+  },
+  {
+   "text": "体の動きに障害が出る",
+   "source_id": "nanbyou",
+   "evidence": "運動機能障害が見られるようになります"
+  },
+  {
+   "text": "出血しやすくなる",
+   "source_id": "nanbyou",
+   "evidence": "出血しやすくなったり"
+  },
+  {
+   "text": "感染を防ぐ力が落ちる",
+   "source_id": "nanbyou",
+   "evidence": "感染防護機能が低下していたり"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "食事が取れなくて症状が悪化した時にはブドウ糖の点滴で改善をはかります"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4816",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は遺伝の説明で、発症年齢の記載が無いため onset は null。",
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:38:40+09:00",
+ "shard": 2
+}

@@ -1,0 +1,76 @@
+{
+ "idx": 708,
+ "name": "先天性赤芽球癆(一過性)",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/09_02_003/",
+   "fetched_at": "2026-09-24T00:50:13+09:00",
+   "sha256": "618a1d0dd06eb92010b543461419e0743d918301e9a22b83d7523c83630c06ff",
+   "title": "先天性赤芽球癆（ダイアモンド・ブラックファン（Diamond-Blackfan）貧血） 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "赤血球を作るはたらきだけが障害される、生まれつきの病気です。",
+  "source_id": "shouman",
+  "evidence": "赤血球造血のみが障害される先天性の造血不全症である",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "顔色が悪い",
+   "source_id": "shouman",
+   "evidence": "顔色不良"
+  },
+  {
+   "text": "息が切れる",
+   "source_id": "shouman",
+   "evidence": "息切れ"
+  },
+  {
+   "text": "動悸がする",
+   "source_id": "shouman",
+   "evidence": "動悸"
+  },
+  {
+   "text": "めまいがする",
+   "source_id": "shouman",
+   "evidence": "めまい"
+  },
+  {
+   "text": "疲れやすい",
+   "source_id": "shouman",
+   "evidence": "易疲労感"
+  },
+  {
+   "text": "頭が痛い",
+   "source_id": "shouman",
+   "evidence": "頭痛"
+  },
+  {
+   "text": "体の形の違いをともなうことがある",
+   "source_id": "shouman",
+   "evidence": "合併奇形"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "輸血が必要となる"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/09_02_003/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "idx 185 ダイアモンド・ブラックファン貧血と同じ出典ページ。",
+  "疫学の節は発症頻度の数値のみのため onset は null。",
+  "治療の節には薬の分類名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:42:40+09:00",
+ "shard": 2
+}

@@ -1,0 +1,64 @@
+{
+ "idx": 500,
+ "name": "糖原病V型",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_05_069/",
+   "fetched_at": "2026-09-24T00:49:41+09:00",
+   "sha256": "0e950cf01a2bc2b7f8d5f4ca764cb757b5134bdd6a4ee5047ecbd1644350ab45",
+   "title": "糖原病Ⅴ型 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "筋肉のグリコーゲンを分解する酵素が足りない、遺伝性の病気です。",
+  "source_id": "shouman",
+  "evidence": "筋グリコーゲンホスホリラーゼの欠損により発症する常染色体劣性遺伝性疾患である",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "運動に耐えられない",
+   "source_id": "shouman",
+   "evidence": "運動不耐"
+  },
+  {
+   "text": "運動のときに痛みをともなう筋けいれんが起こる",
+   "source_id": "shouman",
+   "evidence": "運動時有痛性筋けいれん"
+  },
+  {
+   "text": "ミオグロビン尿が出る",
+   "source_id": "shouman",
+   "evidence": "ミオグロビン尿症"
+  },
+  {
+   "text": "短く強い運動で症状が誘発される",
+   "source_id": "shouman",
+   "evidence": "強い短時間の等尺性運動でそれらの筋症状が誘発される"
+  },
+  {
+   "text": "運動を続けると症状が軽くなることがある",
+   "source_id": "shouman",
+   "evidence": "突然筋痛や有痛性筋けいれんが軽快し再び運動の持続が可能となる"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "重量挙げなどの強い等尺性の運動を避ける"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_05_069/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は有病率の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T03:01:40+09:00",
+ "shard": 4
+}

@@ -1,0 +1,80 @@
+{
+ "idx": 68,
+ "name": "ライソゾーム病",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4063",
+   "fetched_at": "2026-09-24T00:44:58+09:00",
+   "sha256": "ac6cab86a85db126f51047f2c523f48d133ae1bcc85c6cb9f677f05c4ed2dfd1",
+   "title": "ライソゾーム病（指定難病１９） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "ライソゾーム病は、次第に進んでいく病気です。",
+  "source_id": "nanbyou",
+  "evidence": "ライソゾーム病は次第に悪くなる病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "生まれた直後はほとんど正常",
+   "source_id": "nanbyou",
+   "evidence": "産まれた直後は、ほとんどの場合、全く正常な赤ちゃんです"
+  },
+  {
+   "text": "成長するにつれて症状が現れる",
+   "source_id": "nanbyou",
+   "evidence": "成長するにつれて、だんだんと症状が現れてきます"
+  },
+  {
+   "text": "お座りや独り歩きができない",
+   "source_id": "nanbyou",
+   "evidence": "お座りや独り歩きができない"
+  },
+  {
+   "text": "言葉が出ない",
+   "source_id": "nanbyou",
+   "evidence": "言葉が出ない"
+  },
+  {
+   "text": "できていたことができなくなる",
+   "source_id": "nanbyou",
+   "evidence": "歩けていたのに歩けなくなった"
+  },
+  {
+   "text": "けいれん発作が起こる",
+   "source_id": "nanbyou",
+   "evidence": "けいれん発作といった症状"
+  },
+  {
+   "text": "肝臓や脾臓が大きくはれる",
+   "source_id": "nanbyou",
+   "evidence": "肝臓や脾臓が大きく腫れてくる"
+  },
+  {
+   "text": "骨や関節が次第に曲がる",
+   "source_id": "nanbyou",
+   "evidence": "骨や関節が次第に曲がってくる"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "酵素補充療法：欠損している酵素を点滴して治療する方法です"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4063",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "概要の節が細胞の仕組みの説明で 40 字に収まる定義の一文が取れなかったため、症状の節の冒頭から summary の evidence を取った（同じページ）。",
+  "「どのような人に多いのですか」の節は遺伝形式の説明で、確率の数値を含むため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:55:18+09:00",
+ "shard": 4
+}

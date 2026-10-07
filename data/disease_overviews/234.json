@@ -1,0 +1,66 @@
+{
+ "idx": 234,
+ "name": "リンパ管腫",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/16_01_006/",
+   "fetched_at": "2026-09-24T00:53:33+09:00",
+   "sha256": "436dc10efc86ee51622fd449d012c9e51f9e77b61a3257b01ba2b11981e8acb1",
+   "title": "リンパ管腫 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "リンパ液のたまった袋が集まってこぶを作る、良性の病変です。",
+  "source_id": "shouman",
+  "evidence": "大小のリンパ嚢胞を主体とした腫瘤性病変であり、生物学的には良性である",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "頭や首、体にこぶができる",
+   "source_id": "shouman",
+   "evidence": "頭頚部、体幹、四肢の体表に突出する腫瘤を形成する"
+  },
+  {
+   "text": "外からわかりにくいこともある",
+   "source_id": "shouman",
+   "evidence": "胸腔・腹腔内にあって外観上分かりにくい場合もある"
+  },
+  {
+   "text": "熱が出る、痛む",
+   "source_id": "shouman",
+   "evidence": "発熱や疼痛を生ずる"
+  },
+  {
+   "text": "急にお腹が痛くなることがある",
+   "source_id": "shouman",
+   "evidence": "急性腹症を呈して発症する"
+  },
+  {
+   "text": "気道が圧迫されて息苦しくなる",
+   "source_id": "shouman",
+   "evidence": "気道を圧迫し呼吸困難を呈し"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "リンパ管腫に対しては外科的切除"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/16_01_006/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "idx 648 リンパ管腫症と同じ出典ページ。",
+  "疫学の節は発生率の数値が中心のため onset は null。",
+  "治療の節には薬剤名が並ぶので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:57:53+09:00",
+ "shard": 4
+}

@@ -1,0 +1,67 @@
+{
+ "idx": 582,
+ "name": "捻曲性骨異形成症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/628",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Diastrophic dysplasia"
+  }
+ ],
+ "summary": {
+  "text": "A rare osteochondrodysplasia characterized by shortened limbs, normal sized head, short stature with short extremities (final adult height is 120cm +/- 20cm), spinal deformities and joint malformations leading to multiple joint contractures (principally involving the shoulders, elbows, interphalangeal joints and hips). The name indicates the ''twisted'' appearance of the spine and limbs in severe forms that is peculiar of this condition.",
+  "source_id": "orphanet",
+  "evidence": "A rare osteochondrodysplasia characteriz",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "shortened limbs",
+   "source_id": "orphanet",
+   "evidence": "shortened limbs"
+  },
+  {
+   "text": "short stature with short extremities",
+   "source_id": "orphanet",
+   "evidence": "short stature with short extremities"
+  },
+  {
+   "text": "spinal deformities",
+   "source_id": "orphanet",
+   "evidence": "spinal deformities"
+  },
+  {
+   "text": "joint malformations",
+   "source_id": "orphanet",
+   "evidence": "joint malformations"
+  },
+  {
+   "text": "multiple joint contractures",
+   "source_id": "orphanet",
+   "evidence": "multiple joint contractures"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/628",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

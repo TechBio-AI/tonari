@@ -1,0 +1,83 @@
+{
+ "idx": 567,
+ "name": "Andersen-Tawil症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/37553",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Andersen-Tawil syndrome"
+  }
+ ],
+ "summary": {
+  "text": "A rare disorder characterized by periodic muscle paralysis, prolongation of the QT interval with a variety of ventricular arrhythmias (leading to predisposition to sudden cardiac death) and characteristic physical features: short stature, scoliosis, low-set ears, hypertelorism, broad nasal root, micrognathia, clinodactyly, brachydactyly and syndactyly.",
+  "source_id": "orphanet",
+  "evidence": "A rare disorder characterized by periodi",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "periodic muscle paralysis",
+   "source_id": "orphanet",
+   "evidence": "periodic muscle paralysis"
+  },
+  {
+   "text": "ventricular arrhythmias",
+   "source_id": "orphanet",
+   "evidence": "ventricular arrhythmias"
+  },
+  {
+   "text": "short stature",
+   "source_id": "orphanet",
+   "evidence": "short stature"
+  },
+  {
+   "text": "scoliosis",
+   "source_id": "orphanet",
+   "evidence": "scoliosis"
+  },
+  {
+   "text": "low-set ears",
+   "source_id": "orphanet",
+   "evidence": "low-set ears"
+  },
+  {
+   "text": "hypertelorism",
+   "source_id": "orphanet",
+   "evidence": "hypertelorism"
+  },
+  {
+   "text": "micrognathia",
+   "source_id": "orphanet",
+   "evidence": "micrognathia"
+  },
+  {
+   "text": "syndactyly",
+   "source_id": "orphanet",
+   "evidence": "syndactyly"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/37553",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: prolongation of the QT interval（心電図所見）",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

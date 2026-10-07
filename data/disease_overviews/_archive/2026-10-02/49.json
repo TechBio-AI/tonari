@@ -1,0 +1,72 @@
+{
+ "idx": 49,
+ "name": "プラダー・ウィリー症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/739",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Prader-Willi syndrome"
+  }
+ ],
+ "summary": {
+  "text": "A rare genetic, neurodevelopmental syndrome characterized by hypothalamic-pituitary dysfunction with severe hypotonia and feeding deficits during the neonatal period followed by an excessive weight gain period with hyperphagia with a risk of severe obesity during childhood and adulthood, learning difficulties, deficits of social skills and behavioral problems or severe psychiatric problems.",
+  "source_id": "orphanet",
+  "evidence": "A rare genetic, neurodevelopmental syndr",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "severe hypotonia",
+   "source_id": "orphanet",
+   "evidence": "severe hypotonia"
+  },
+  {
+   "text": "feeding deficits during the neonatal period",
+   "source_id": "orphanet",
+   "evidence": "feeding deficits during the neonatal"
+  },
+  {
+   "text": "hyperphagia",
+   "source_id": "orphanet",
+   "evidence": "hyperphagia"
+  },
+  {
+   "text": "learning difficulties",
+   "source_id": "orphanet",
+   "evidence": "learning difficulties"
+  },
+  {
+   "text": "deficits of social skills",
+   "source_id": "orphanet",
+   "evidence": "deficits of social skills"
+  },
+  {
+   "text": "behavioral problems or severe psychiatric problems",
+   "source_id": "orphanet",
+   "evidence": "behavioral problems or severe"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/739",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

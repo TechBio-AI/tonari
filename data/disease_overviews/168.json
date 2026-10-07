@@ -1,0 +1,75 @@
+{
+ "idx": 168,
+ "name": "亜急性硬化性全脳炎",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/42",
+   "fetched_at": "2026-09-24T00:45:02+09:00",
+   "sha256": "dd1be00464a5bc8d415d8f2df206b9aa659ca650c984681bad30da4d03ddc906",
+   "title": "亜急性硬化性全脳炎(SSPE)（指定難病２４） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "はしかのウイルスによって、ゆっくり進む脳の炎症が起こる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "麻疹（はしか）ウイルスによるゆっくりと進行する脳の 炎症 （脳炎）です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "学業成績が下がる",
+   "source_id": "nanbyou",
+   "evidence": "学業成績低下"
+  },
+  {
+   "text": "記憶力が落ちる",
+   "source_id": "nanbyou",
+   "evidence": "記憶力低下"
+  },
+  {
+   "text": "いつもと違った行動が出る",
+   "source_id": "nanbyou",
+   "evidence": "いつもと違った行動"
+  },
+  {
+   "text": "感情が不安定になる",
+   "source_id": "nanbyou",
+   "evidence": "感情不安定"
+  },
+  {
+   "text": "体がビクッとなる発作が出る",
+   "source_id": "nanbyou",
+   "evidence": "体がビクッとなる発作"
+  },
+  {
+   "text": "歩きにくくなる",
+   "source_id": "nanbyou",
+   "evidence": "歩行障害"
+  },
+  {
+   "text": "字が下手になる",
+   "source_id": "nanbyou",
+   "evidence": "字が下手になった"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "根本的な治療法はまだありません。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/42",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節（小児慢性）は発生数の数値が中心のため onset は null。",
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:56:25+09:00",
+ "shard": 4
+}

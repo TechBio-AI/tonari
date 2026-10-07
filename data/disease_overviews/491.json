@@ -1,0 +1,83 @@
+{
+ "idx": 491,
+ "name": "脂肪萎縮症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5332",
+   "fetched_at": "2026-09-24T00:46:27+09:00",
+   "sha256": "acfd5d9e4586d1d4a85312afcf26f1ae82eddff04186ea799f988291fc1ace9a",
+   "title": "脂肪萎縮症（指定難病２６５） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "皮下脂肪や内臓脂肪などの脂肪組織が減ったり失われたりする病気の総称です。",
+  "source_id": "nanbyou",
+  "evidence": "皮下脂肪や内臓脂肪などの脂肪組織が減少あるいは消失する疾患の総称です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "全身の脂肪が失われ筋肉質に見える",
+   "source_id": "nanbyou",
+   "evidence": "全身の脂肪組織の消失と筋肉質な外見を認めます"
+  },
+  {
+   "text": "皮膚に色素が沈着する",
+   "source_id": "nanbyou",
+   "evidence": "皮膚の色素沈着"
+  },
+  {
+   "text": "へそのヘルニアができる",
+   "source_id": "nanbyou",
+   "evidence": "臍ヘルニア"
+  },
+  {
+   "text": "心臓の筋肉が厚くなる",
+   "source_id": "nanbyou",
+   "evidence": "心筋肥大"
+  },
+  {
+   "text": "月経が止まる",
+   "source_id": "nanbyou",
+   "evidence": "多発性卵巣 嚢胞 症候群、無月経が認められます"
+  },
+  {
+   "text": "糖尿病になる",
+   "source_id": "nanbyou",
+   "evidence": "糖尿病や脂質異常も顕著で"
+  },
+  {
+   "text": "脂肪肝になる",
+   "source_id": "nanbyou",
+   "evidence": "重度の脂肪肝を認めます"
+  },
+  {
+   "text": "手足の皮下脂肪が減る",
+   "source_id": "nanbyou",
+   "evidence": "思春期頃より四肢の皮下脂肪が減少する"
+  }
+ ],
+ "onset": {
+  "text": "先天性全身性脂肪萎縮症の発症に男女差はありません",
+  "source_id": "nanbyou",
+  "evidence": "先天性全身性脂肪萎縮症の発症に男女差はありません。"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "脂肪萎縮そのものに対する確立した治療法はありません"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5332",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T03:00:26+09:00",
+ "shard": 4
+}

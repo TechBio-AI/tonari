@@ -1,0 +1,64 @@
+{
+ "idx": 637,
+ "name": "肺胞微石症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/03_04_006/",
+   "fetched_at": "2026-09-24T00:47:23+09:00",
+   "sha256": "b0d1acd38ac12077bd28f3546c5d1608bf60ea5e6044f5400257e1dc6610eb93",
+   "title": "肺胞微石症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "肺の奥の袋の中に、小さな石のようなものがたまっていく病気です。",
+  "source_id": "shouman",
+  "evidence": "肺胞内にリン酸カルシウムを主成分とする微小結石が蓄積することにより",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "体を動かすと息が苦しい",
+   "source_id": "shouman",
+   "evidence": "労作時呼吸困難"
+  },
+  {
+   "text": "血液の酸素が少なくなる",
+   "source_id": "shouman",
+   "evidence": "低酸素血症"
+  },
+  {
+   "text": "せきが出る",
+   "source_id": "shouman",
+   "evidence": "咳嗽"
+  },
+  {
+   "text": "胸が痛む",
+   "source_id": "shouman",
+   "evidence": "胸痛"
+  },
+  {
+   "text": "子どものころは症状がない",
+   "source_id": "shouman",
+   "evidence": "病初期（小児期）には無症状で"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "呼吸不全に対して、在宅酸素療法などの対症療法を行う"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/03_04_006/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は報告数の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:42:40+09:00",
+ "shard": 2
+}

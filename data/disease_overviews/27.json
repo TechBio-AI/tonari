@@ -1,0 +1,80 @@
+{
+ "idx": 27,
+ "name": "ウィルソン病",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4543",
+   "fetched_at": "2026-09-24T00:45:35+09:00",
+   "sha256": "f67b38dbd4ce155a54d3fb83b34c359c7b415233e014021dc4354cbe015d5336",
+   "title": "ウィルソン病（指定難病１７１） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "肝臓や脳など全身の臓器に銅がたまって、障害が出る病気です。",
+  "source_id": "nanbyou",
+  "evidence": "肝臓や脳など全身の臓器に銅が蓄積して、障害をきたす病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "皮膚や目が黄色くなる",
+   "source_id": "nanbyou",
+   "evidence": "黄疸"
+  },
+  {
+   "text": "お腹が痛む、吐く",
+   "source_id": "nanbyou",
+   "evidence": "腹痛、嘔吐"
+  },
+  {
+   "text": "むくむ、お腹が張る",
+   "source_id": "nanbyou",
+   "evidence": "浮腫、腹満"
+  },
+  {
+   "text": "体がだるい、食欲がない",
+   "source_id": "nanbyou",
+   "evidence": "全身倦怠感 、食欲不振"
+  },
+  {
+   "text": "歩きにくい、うまく話せない",
+   "source_id": "nanbyou",
+   "evidence": "歩行障害、うまくしゃべれない"
+  },
+  {
+   "text": "手がふるえる",
+   "source_id": "nanbyou",
+   "evidence": "手が震える"
+  },
+  {
+   "text": "飲み込みにくい",
+   "source_id": "nanbyou",
+   "evidence": "物をうまく呑み込めない"
+  },
+  {
+   "text": "意欲や集中力が落ちる",
+   "source_id": "nanbyou",
+   "evidence": "意欲低下、集中力低下"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "経口薬による有効な治療法があります。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4543",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節には薬剤名が並ぶので、含まない箇所を evidence に選んだ。",
+  "onset は発症時期の記述ではないため null（2026-10-03 ファウンダー指示）。"
+ ],
+ "extracted_at": "2026-09-25T02:35:30+09:00",
+ "shard": 2
+}

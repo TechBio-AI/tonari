@@ -1,0 +1,477 @@
+{
+  "query_set": [
+    "Fabry disease",
+    "Fabry disease acroparesthesia",
+    "Fabry disease angiokeratoma",
+    "Fabry disease clinical features",
+    "Fabry disease cornea verticillata",
+    "GLA gene Fabry"
+  ],
+  "retrieved_stamp": "2026-07-05",
+  "source": "NCBI E-utilities (PubMed)",
+  "note": "Aggregated & PMID-deduplicated from RareDx_Researcher --live runs. Metadata/abstracts verbatim from NCBI; no LLM/summarization. Canonical S2 input for Fabry.",
+  "source_queries": [
+    {
+      "query": "Fabry disease",
+      "count": 6,
+      "file": "2026-07-05_Fabry_disease.json"
+    },
+    {
+      "query": "Fabry disease acroparesthesia",
+      "count": 5,
+      "file": "2026-07-05_Fabry_disease_acroparesthesia.json"
+    },
+    {
+      "query": "Fabry disease angiokeratoma",
+      "count": 5,
+      "file": "2026-07-05_Fabry_disease_angiokeratoma.json"
+    },
+    {
+      "query": "Fabry disease clinical features",
+      "count": 5,
+      "file": "2026-07-05_Fabry_disease_clinical_features.json"
+    },
+    {
+      "query": "Fabry disease cornea verticillata",
+      "count": 5,
+      "file": "2026-07-05_Fabry_disease_cornea_verticillata.json"
+    },
+    {
+      "query": "GLA gene Fabry",
+      "count": 5,
+      "file": "2026-07-05_GLA_gene_Fabry.json"
+    }
+  ],
+  "count": 22,
+  "records": [
+    {
+      "pmid": "20301469",
+      "title": "Fabry Disease.",
+      "authors": [
+        "Adam MP",
+        "Bick S",
+        "Mirzaa GM",
+        "Pagon RA",
+        "Wallace SE",
+        "Amemiya A",
+        "Mehta A",
+        "Hughes DA"
+      ],
+      "year": "1993",
+      "journal": "",
+      "doi": null,
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/20301469/",
+      "abstract": null,
+      "_matched_queries": [
+        "Fabry disease acroparesthesia"
+      ]
+    },
+    {
+      "pmid": "21092187",
+      "title": "Fabry disease.",
+      "authors": [
+        "Germain DP"
+      ],
+      "year": "2010",
+      "journal": "Orphanet journal of rare diseases",
+      "doi": "10.1186/1750-1172-5-30",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/21092187/",
+      "abstract": "Fabry disease (FD) is a progressive, X-linked inherited disorder of glycosphingolipid metabolism due to deficient or absent lysosomal α-galactosidase A activity. FD is pan-ethnic and the reported annual incidence of 1 in 100,000 may underestimate the true prevalence of the disease. Classically affected hemizygous males, with no residual α-galactosidase A activity may display all the characteristic neurological (pain), cutaneous (angiokeratoma), renal (proteinuria, kidney failure), cardiovascular (cardiomyopathy, arrhythmia), cochleo-vestibular and cerebrovascular (transient ischemic attacks, strokes) signs of the disease while heterozygous females have symptoms ranging from very mild to severe. Deficient activity of lysosomal α-galactosidase A results in progressive accumulation of globotriaosylceramide within lysosomes, believed to trigger a cascade of cellular events. Demonstration of marked α-galactosidase A deficiency is the definitive method for the diagnosis of hemizygous males. Enzyme analysis may occasionnally help to detect heterozygotes but is often inconclusive due to random X-chromosomal inactivation so that molecular testing (genotyping) of females is mandatory. In childhood, other possible causes of pain such as rheumatoid arthritis and 'growing pains' must be ruled out. In adulthood, multiple sclerosis is sometimes considered. Prenatal diagnosis, available by determination of enzyme activity or DNA testing in chorionic villi or cultured amniotic cells is, for ethical reasons, only considered in male fetuses. Pre-implantation diagnosis is possible. The existence of atypical variants and the availability of a specific therapy singularly complicate genetic counseling. A disease-specific therapeutic option - enzyme replacement therapy using recombinant human α-galactosidase A - has been recently introduced and its long term outcome is currently still being investigated. Conventional management consists of pain relief with analgesic drugs, nephroprotection (angiotensin converting enzyme inhibitors and angiotensin receptors blockers) and antiarrhythmic agents, whereas dialysis or renal transplantation are available for patients experiencing end-stage renal failure. With age, progressive damage to vital organ systems develops and at some point, organs may start to fail in functioning. End-stage renal disease and life-threatening cardiovascular or cerebrovascular complications limit life-expectancy of untreated males and females with reductions of 20 and 10 years, respectively, as compared to the general population. While there is increasing evidence that long-term enzyme therapy can halt disease progression, the importance of adjunctive therapies should be emphasized and the possibility of developing an oral therapy drives research forward into active site specific chaperones.",
+      "_matched_queries": [
+        "Fabry disease angiokeratoma"
+      ]
+    },
+    {
+      "pmid": "21675497",
+      "title": "Fabry disease.",
+      "authors": [
+        "Tarabuso AL"
+      ],
+      "year": "2011",
+      "journal": "Skinmed",
+      "doi": null,
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/21675497/",
+      "abstract": "Fabry disease (FD) is an X-linked lysosomal disorder caused by the deficient activity of the enzyme alpha-galactosidase A, which leads to multisystemic storage of globotriaosylceramide in visceral tissues and vascular endothelium. FD manifests primarily in affected hemizygous men, with a wide range of clinical signs in heterozygous women. Acroparesthesias, angiokeratomas, pain crisis, and cornea verticillata are early manifestations of FD. With age, severe complications involving the kidneys, heart, and brain cause considerable morbidity and premature death. Although the clinical onset of FD occurs in childhood, diagnosis is often delayed or missed. In men, the diagnosis must be confirmed biochemically by demonstration of decreased levels of alpha-galactosidase A activity. In women, the disease is diagnosed by identification of a mutation in the alpha-galactosidase A gene. Until a few years ago, the existing treatment for FD was based on clinical manifestations, but the advent of enzyme replacement therapy should stimulate the identification of the signs and symptoms suggestive of this disorder to allow earlier diagnosis and treatment.",
+      "_matched_queries": [
+        "Fabry disease acroparesthesia",
+        "Fabry disease cornea verticillata"
+      ]
+    },
+    {
+      "pmid": "22428782",
+      "title": "Neurological features of Fabry disease: clinical, pathophysiological aspects and therapy.",
+      "authors": [
+        "Bersano A",
+        "Lanfranconi S",
+        "Valcarenghi C",
+        "Bresolin N",
+        "Micieli G",
+        "Baron P"
+      ],
+      "year": "2012",
+      "journal": "Acta neurologica Scandinavica",
+      "doi": "10.1111/j.1600-0404.2012.01661.x",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/22428782/",
+      "abstract": "Fabry disease is a multisystem, X-linked, lysosomal storage disorder caused by a mutation in the GLA gene on chromosome Xq22 resulting in alpha-galactosidase A enzyme (α-Gal A) deficiency. Neurological manifestations other than cerebrovascular accidents include small fibre neuropathy and dysautonomic disorders, which may be the presenting clinical features in a proportion of patients. An atypical disease onset may be misdiagnosed until the emergence of a more typical clinical picture, characterized by chronic renal and cardiac failure. Thus, neurologists should consider Fabry disease in differential diagnosis and provide an appropriate diagnostic work up. This review focuses on central and peripheral nervous system involving available diagnostic tools and diagnostic work up in Fabry disease. It also covers the most recent evidence regarding enzyme replacement therapy.",
+      "_matched_queries": [
+        "Fabry disease clinical features"
+      ]
+    },
+    {
+      "pmid": "23931807",
+      "title": "Fabry disease.",
+      "authors": [
+        "Toyooka K"
+      ],
+      "year": "2013",
+      "journal": "Handbook of clinical neurology",
+      "doi": "10.1016/B978-0-444-52902-2.00037-0",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/23931807/",
+      "abstract": "Fabry disease results from deficient activity of the enzyme α-galactosidase A and progressive lysosomal deposition of globotriaosylceramide (GL-3) in cells throughout the body. The main neurological presentations of Fabry disease patients are painful neuropathy, hypohidrosis, and stroke. Fabry neuropathy is characterized as a length-dependent peripheral neuropathy affecting mainly the small myelinated (Aδ) fibers and unmyelinated (C) fibers. Enzyme replacement therapy (ERT) has been shown to have some positive effects on the reduction of neuropathic pain, the improvement of detection threshold for thermal sensation, and sweat function. On the contrary, the effect of ERT on the central nervous system has not been established. Early initiation of ERT before irreversible organ failure is extremely important, and alternative therapeutic approaches are currently being explored. Heterozygotes suffer from peripheral neuropathy at a higher rate than previously shown, significant multisystemic disease, and severely decreased quality of life. As well as being carriers, heterozygotes also display symptoms of Fabry disease, and should be carefully monitored and given adequate therapy.",
+      "_matched_queries": [
+        "Fabry disease angiokeratoma"
+      ]
+    },
+    {
+      "pmid": "25106696",
+      "title": "Fabry's disease.",
+      "authors": [
+        "El-Abassi R",
+        "Singhal D",
+        "England JD"
+      ],
+      "year": "2014",
+      "journal": "Journal of the neurological sciences",
+      "doi": "10.1016/j.jns.2014.06.029",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/25106696/",
+      "abstract": "Fabry's disease is an X-linked lysosomal storage disorder caused by abnormalities in the GLA gene, which leads to a deficiency in α-galactosidase A. The abnormal accumulation of glycosphingolipids, primarily globotriaosylceramide, manifests as serious and progressive impairment of renal and cardiac functions. In addition, patients experience pain, gastrointestinal disturbance, transient ischemic attacks and strokes. Disease presentation in female heterozygotes may be as severe as in males although women may also remain asymptomatic. This review covers all basic aspects of the disease such as epidemiology, pathophysiology, clinical presentation by systems, diagnosis, management, prevention, and repercussions on quality of life. With the development of enzyme replacement therapy in the past few years, early initiation of treatment was found to be key for reduction of disease burden in major affected organs with improvement in neuropathic pain, decreased cardiac mass and stabilization of renal function, gastrointestinal symptoms, and hearing. This review aims to raise the awareness of the signs and symptoms of Fabry's disease as well as to provide guidelines for the diagnosis and treatment.",
+      "_matched_queries": [
+        "GLA gene Fabry"
+      ]
+    },
+    {
+      "pmid": "26564084",
+      "title": "Fabry disease.",
+      "authors": [
+        "Schiffmann R"
+      ],
+      "year": "2015",
+      "journal": "Handbook of clinical neurology",
+      "doi": "10.1016/B978-0-444-62702-5.00017-2",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26564084/",
+      "abstract": "Fabry disease, an X-linked disorder of glycosphingolipids that is caused by mutations of the GLA gene that codes for α-galactosidase A, leads to dysfunction of many cell types and includes a systemic vasculopathy. As a result, patients have a markedly increased risk of developing ischemic stroke, small-fiber peripheral neuropathy, cardiac dysfunction and chronic kidney disease. Virtually all complications of Fabry disease are non-specific in nature and clinically indistinguishable from similar abnormalities that occur in the context of more common disorders in the general population. Recent studies suggested a much higher incidence of mutations of the GLA gene, suggesting that this disorder is under-diagnosed. However, some of the gene variants may be benign. Although the etiology of Fabry disease has been known for many years, the mechanism by which the accumulating α-D-galactosyl moieties cause this multi organ disorder has only recently been studied and is yet to be completely elucidated. Specific therapy for Fabry disease has been developed in the last few years but its role in the management of the disorder is still being investigated. Fortunately, standard 'non-specific' medical and surgical therapy is effective in slowing deterioration or compensating for organ failure in patients with Fabry disease.",
+      "_matched_queries": [
+        "Fabry disease",
+        "Fabry disease angiokeratoma",
+        "GLA gene Fabry"
+      ]
+    },
+    {
+      "pmid": "26835405",
+      "title": "Paediatric Fabry disease.",
+      "authors": [
+        "Ellaway C"
+      ],
+      "year": "2016",
+      "journal": "Translational pediatrics",
+      "doi": "10.3978/j.issn.2224-4336.2015.12.02",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26835405/",
+      "abstract": "Fabry disease is a rare, progressive X-linked inborn error of the glycosphingolipid metabolic pathway. Mutations of the GLA gene result in deficiency of the lysosomal enzyme, α-galactosidase A (α-Gal A) with accumulation of glycosphingolipids, particularly globotriaosylceramide (GL3) in the vascular endothelium of various tissues. Accumulation of GL3 eventually leads to life threatening renal, cardiac and cerebrovascular complications typically in the third to fifth decades of life. The first signs and symptoms of classic Fabry disease however appear in childhood but diagnosis is often delayed. The symptoms most commonly experienced in childhood include neuropathic pain, gastrointestinal dysfunction, hyperhidrosis and heat intolerance. Timely diagnosis is important as early treatment with enzyme replacement therapy reduces GL3 accumulation, can stabilize disease progression and potentially prevent irreversible organ damage. Physicians should be familiar with the signs and symptoms of Fabry disease in childhood and be particularly vigilant for unusual or non-specific but recurrent or episodic symptoms.",
+      "_matched_queries": [
+        "Fabry disease acroparesthesia"
+      ]
+    },
+    {
+      "pmid": "28613767",
+      "title": "Fabry Disease.",
+      "authors": [
+        "Bokhari SRA",
+        "Safdar A"
+      ],
+      "year": "2026",
+      "journal": "",
+      "doi": null,
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/28613767/",
+      "abstract": null,
+      "_matched_queries": [
+        "Fabry disease acroparesthesia",
+        "Fabry disease clinical features"
+      ]
+    },
+    {
+      "pmid": "28674962",
+      "title": "Fabry disease.",
+      "authors": [
+        "Yuasa T",
+        "Takenaka T",
+        "Higuchi K",
+        "Uchiyama N",
+        "Horizoe Y",
+        "Cyaen H",
+        "Mizukami N",
+        "Takasaki K",
+        "Kisanuki A",
+        "Miyata M",
+        "Ohishi M"
+      ],
+      "year": "2017",
+      "journal": "Journal of echocardiography",
+      "doi": "10.1007/s12574-017-0340-x",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/28674962/",
+      "abstract": "Fabry disease resulting from a deficiency of α-galactosidase A leads to the accumulation of globotriaosylceramide in various organs. Because the disease is an X-linked recessive disorder, males tend to develop more symptoms and more severe symptoms than females. There are also some variants of Fabry disease, and cardiac variant (cardiac Fabry disease) has the dysfunctions only in heart. Cardiac manifestations in Fabry disease are initially symmetrical and concentric left ventricular hypertrophy, and later progressive cardiac dysfunction with localized thinning of the basal posterior wall. In recent years, enzyme replacement therapy has been performed as a treatment for Fabry disease, and the initiation of this therapy is expected before the cardiac fibrosis develops. Therefore, early diagnosis of Fabry disease is essential, and echocardiography is an indispensable tool for clinical practice of this disease. Then, it is necessary to remember this disease as a differential diagnosis when encountering unexplained left ventricular hypertrophy.",
+      "_matched_queries": [
+        "Fabry disease"
+      ]
+    },
+    {
+      "pmid": "28745569",
+      "title": "Fabry Nephropathy.",
+      "authors": [
+        "Colpart P",
+        "Félix S"
+      ],
+      "year": "2017",
+      "journal": "Archives of pathology & laboratory medicine",
+      "doi": "10.5858/arpa.2016-0418-RS",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/28745569/",
+      "abstract": "Fabry disease is a rare X-linked recessive lysosomal storage disease. Multiple mutations of the GLA gene lead to a deficient or absent activity of the lysosomal enzyme α-galactosidase A, resulting in progressive glycotriaosylceramide accumulation in many organs. Low α-galactosidase A activity and mutations in the GLA gene confirm the diagnosis. Clinical signs are multisystemic, heterogeneous, and progressive. Renal, cardiac, and neurovascular involvements are the main life-threatening complications, highlighting the importance of an early initiation of enzyme replacement therapy improving long-term outcome. Fabry nephropathy lesions are characterized by a cell vacuolization of glomeruli, tubules, interstitium, and arteries and by ultrastructural myelin bodies. The main histologic differential diagnoses are toxicity of lysosomal inhibitors and other renal lipidoses. Renal biopsies are not necessary for diagnosis but have an important role in the evaluation of disease evolution and treatment efficiency, which is a major challenge for improving outcome and quality of life.",
+      "_matched_queries": [
+        "GLA gene Fabry"
+      ]
+    },
+    {
+      "pmid": "29562089",
+      "title": "A Review of Fabry Disease.",
+      "authors": [
+        "Chan B",
+        "Adam DN"
+      ],
+      "year": "2018",
+      "journal": "Skin therapy letter",
+      "doi": null,
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29562089/",
+      "abstract": "Fabry disease (FD) is an X-linked lysosomal storage disease. A lack of alpha-galactosidase activity results in the accumulation of globotriaosylceramide in cells of various systems, leading to multi-systemic effects. The cutaneous hallmark of FD is a specific distribution of angiokeratoma. Other common symptoms include cornea verticillata, acroparesthesia, and sweating abnormalities. FD-specific symptoms, history, as well as examination of angiokeratoma can assist in the differential diagnosis. Enzyme replacement therapy is the current mainstay of treatment.",
+      "_matched_queries": [
+        "Fabry disease",
+        "Fabry disease acroparesthesia",
+        "Fabry disease angiokeratoma",
+        "Fabry disease cornea verticillata"
+      ]
+    },
+    {
+      "pmid": "32640076",
+      "title": "An expert consensus document on the management of cardiovascular manifestations of Fabry disease.",
+      "authors": [
+        "Linhart A",
+        "Germain DP",
+        "Olivotto I",
+        "Akhtar MM",
+        "Anastasakis A",
+        "Hughes D",
+        "Namdar M",
+        "Pieroni M",
+        "Hagège A",
+        "Cecchi F",
+        "Gimeno JR",
+        "Limongelli G",
+        "Elliott P"
+      ],
+      "year": "2020",
+      "journal": "European journal of heart failure",
+      "doi": "10.1002/ejhf.1960",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32640076/",
+      "abstract": "Fabry disease (FD) is an X-linked lysosomal storage disorder caused by pathogenic variants in the α-galactosidase A (GLA) gene that leads to reduced or undetectable α-galactosidase A enzyme activity and progressive accumulation of globotriaosylceramide and its deacylated form globotriaosylsphingosine in cells throughout the body. FD can be multisystemic with neurological, renal, cutaneous and cardiac involvement or be limited to the heart. Cardiac involvement is characterized by progressive cardiac hypertrophy, fibrosis, arrhythmias, heart failure and sudden cardiac death. The cardiac management of FD requires specific measures including enzyme replacement therapy or small pharmacological chaperones in patients carrying amenable pathogenic GLA gene variants and more general management of cardiac symptoms and complications. In this paper, we summarize current knowledge of FD-related heart disease and expert consensus recommendations for its management.",
+      "_matched_queries": [
+        "GLA gene Fabry"
+      ]
+    },
+    {
+      "pmid": "32661622",
+      "title": "Fabry disease: where are we now?",
+      "authors": [
+        "Turkmen K",
+        "Baloglu I"
+      ],
+      "year": "2020",
+      "journal": "International urology and nephrology",
+      "doi": "10.1007/s11255-020-02546-3",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32661622/",
+      "abstract": "Fabry disease (FD) is a multisystemic X-linked disorder characterized by the accumulation of lysosomal globotriaosylceramide (Gb3) secondary to decreased activity of α-galactosidase in cells. Generally, males are more severely affected due to the X-linked inheritance pattern of the disease. However, females are asymptomatic or have a less severe pattern of disease. Enzyme replacement therapy (ERT) is the cornerstone of the treatment of FD. At present, there are two forms of ERT that can be applied to FD patients. Novel therapeutic approaches including chaperone therapy, substrate reduction therapy, and gene therapy have been introduced in the era of treatment of FD. In this review, we aimed to discuss the prevalence, clinical and genetic features, pathophysiology, diagnosis, and therapeutic options in FD patients with nephropathy.",
+      "_matched_queries": [
+        "Fabry disease"
+      ]
+    },
+    {
+      "pmid": "32723516",
+      "title": "When and How to Diagnose Fabry Disease in Clinical Pratice.",
+      "authors": [
+        "Michaud M",
+        "Mauhin W",
+        "Belmatoug N",
+        "Garnotel R",
+        "Bedreddine N",
+        "Catros F",
+        "Ancellin S",
+        "Lidove O",
+        "Gaches F"
+      ],
+      "year": "2020",
+      "journal": "The American journal of the medical sciences",
+      "doi": "10.1016/j.amjms.2020.07.011",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32723516/",
+      "abstract": "Fabry disease is a frequent lysosomal storage disorder secondary to the deficiency of alpha-galactosidase A enzyme. This X-linked genetic disease realizes progressive and systemic manifestations that affect both male and female. Fabry disease may present as \"classical\", as \"late-onset\" or \"non-classical\" forms. Symptoms and organ involvements of classical Fabry disease are acral pain crisis, cornea verticillata, hypertrophic cardiomyopathy, stroke and chronic kidney disease with proteinuria. Other common symptoms are often poorly recognized, such as gastrointestinal or ear involvements. In classical Fabry disease, symptoms first appear during childhood or during teenage years in males, but later in females. Patients with non-classical or late-onset Fabry disease have delayed manifestations or a single-organ involvement. Diagnosis is therefore difficult when classical organ involvements are missing, in paucisymptomatic patients or in late-onset forms. Recognition of Fabry disease is important because effective treatments are available. They have to be prescribed early. In male, diagnosis is made with alpha-galactosidase A enzyme activity dosage in leukocyte, that is very low or null in classical forms and under 30 percent in late-onset forms. Diagnosis is more challenging in females who may express normal residual enzyme activity. Other plasmatic biomarkers, such as lyso-globotriaosylceramide are interesting, especially in females. In this review, we aimed to summarize main clinical manifestations of Fabry disease to know when to evoke Fabry disease and propose a practical diagnosis algorithm to know how to diagnose.",
+      "_matched_queries": [
+        "Fabry disease cornea verticillata"
+      ]
+    },
+    {
+      "pmid": "33172708",
+      "title": "[Fabry disease: A review].",
+      "authors": [
+        "Michaud M",
+        "Mauhin W",
+        "Belmatoug N",
+        "Bedreddine N",
+        "Garnotel R",
+        "Catros F",
+        "Lidove O",
+        "Gaches F"
+      ],
+      "year": "2021",
+      "journal": "La Revue de medecine interne",
+      "doi": "10.1016/j.revmed.2020.08.019",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33172708/",
+      "abstract": "Fabry disease is the second most frequent lysosomal storage disorder. It is a X-linked genetic disease secondary to alpha-galactosidase A enzyme deficiency. This is a progressive and systemic disease that affects both males and females. Classical symptoms and organ involvements are acral pain crisis, cornea verticillata, hypertrophic cardiomyopathy, stroke and chronic kidney disease with proteinuria. Nevertheless, organ damages can be missing or pauci-symptomatic and other common symptoms are poorly recognised, such as gastrointestinal or ear involvement. In classical Fabry disease, symptoms first appear during childhood or teenage in males, but later in females. Patients may have non-classical or late-onset Fabry disease with delayed manifestations or with single-organ involvement. Recognition of Fabry disease is important because treatments are available, but it may be challenging. Diagnosis is easy in males, with dosage of alpha-galactosidase A enzyme activity into leukocytes, but more difficult in females who can express normal residual activity. Other plasmatic biomarkers, such as lyso-globotriaosylceramide (lyso-Gb3), are interesting in females, but need to be associated with GLA gene analysis. In this review, we aimed at summarize the main clinical manifestations of Fabry disease and propose a practical algorithm to know how to diagnose this complex disease.",
+      "_matched_queries": [
+        "Fabry disease angiokeratoma",
+        "Fabry disease cornea verticillata",
+        "GLA gene Fabry"
+      ]
+    },
+    {
+      "pmid": "35130356",
+      "title": "Small fiber neuropathy.",
+      "authors": [
+        "Finsterer J",
+        "Scorza FA"
+      ],
+      "year": "2022",
+      "journal": "Acta neurologica Scandinavica",
+      "doi": "10.1111/ane.13591",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/35130356/",
+      "abstract": "Small fiber neuropathy (SFN) is a peripheral nervous system disease due to affection of A-delta or C-fibers in a proximal, distal, or diffuse distribution. Selective SFN (without large fiber affection) manifests with pain, sensory disturbances, or autonomic dysfunction. Though uniform diagnostic criteria are unavailable, most of them request typical clinical features and reduced intra-epidermal nerve fiber density on proximal or distal skin biopsy. Little consensus has been reached about the treatment of SFN, why this narrative review aims at summarizing and discussing treatment options for SFN. Treatment of SFN can be classified as symptomatic, pathophysiologic, or causal. Prerequisites for treating SFN are an established diagnosis, knowledge about the symptoms and signs, and the etiology. Pain usually responds to oral/intravenous pain killers, antidepressants, anti-seizure drugs, or topical, transdermal specifications. Some of the autonomic disturbances respond favorably to symptomatic treatment. SFN related to Fabry disease or hATTR are accessible to pathogenesis-related therapy. Immune-mediated SFN responds to immunosuppression or immune-modulation. Several of the secondary SFNs respond to causal treatment of the underlying disorder. In conclusion, treatment of SFN relies on a multimodal concept and includes causative, pathophysiologic, and symptomatic measures. It strongly depends on the clinical presentation, diagnosis, and etiology, why it is crucial before initiation of treatment to fix the diagnosis and etiology. Due to the heterogeneous clinical presentation and multi-causality, treatment of SFN should be individualized with the goal of controlling the underlying cause, alleviating pain, and optimizing functionality.",
+      "_matched_queries": [
+        "Fabry disease clinical features"
+      ]
+    },
+    {
+      "pmid": "35926321",
+      "title": "An expert consensus on practical clinical recommendations and guidance for patients with classic Fabry disease.",
+      "authors": [
+        "Germain DP",
+        "Altarescu G",
+        "Barriales-Villa R",
+        "Mignani R",
+        "Pawlaczyk K",
+        "Pieruzzi F",
+        "Terryn W",
+        "Vujkovac B",
+        "Ortiz A"
+      ],
+      "year": "2022",
+      "journal": "Molecular genetics and metabolism",
+      "doi": "10.1016/j.ymgme.2022.07.010",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/35926321/",
+      "abstract": "Fabry disease is an X-linked inherited lysosomal disorder that causes accumulation of glycosphingolipids in body fluids and tissues, leading to progressive organ damage and reduced life expectancy. It can affect both males and females and can be classified into classic or later-onset phenotypes. In classic Fabry disease, α-galactosidase A (α-Gal A) activity is absent or severely reduced and disease manifestations have an early onset that can affect multiple organs. In contrast, in later-onset Fabry disease, patients have residual α-Gal A activity and clinical features are primarily confined to the heart. Individualized therapeutic goals in Fabry disease are required due to varying phenotypes and patient characteristics, and the wide spectrum of disease severity. An international group of expert physicians convened to discuss and develop practical clinical recommendations for disease- and organ-specific therapeutic goals in Fabry disease, based on expert consensus and evidence identified through a structured literature review. Biomarkers reflecting involvement of various organs in adult patients with classic Fabry disease are discussed and consensus recommendations for disease- and organ-specific therapeutic goals are provided. These consensus recommendations should support the establishment of individualized approaches to the management of patients with classic Fabry disease by considering identification, diagnosis, and initiation of disease-specific therapies before significant organ involvement, as well as routine monitoring, to reduce morbidity, optimize patient care, and improve patient health-related quality of life.",
+      "_matched_queries": [
+        "Fabry disease clinical features"
+      ]
+    },
+    {
+      "pmid": "38289538",
+      "title": "Fabry Disease: Cardiac Implications and Molecular Mechanisms.",
+      "authors": [
+        "Weissman D",
+        "Dudek J",
+        "Sequeira V",
+        "Maack C"
+      ],
+      "year": "2024",
+      "journal": "Current heart failure reports",
+      "doi": "10.1007/s11897-024-00645-1",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38289538/",
+      "abstract": "This review explores the interplay among metabolic dysfunction, oxidative stress, inflammation, and fibrosis in Fabry disease, focusing on their potential implications for cardiac involvement. We aim to discuss the biochemical processes that operate in parallel to sphingolipid accumulation and contribute to disease pathogenesis, emphasizing the importance of a comprehensive understanding of these processes.\nBeyond sphingolipid accumulation, emerging studies have revealed that mitochondrial dysfunction, oxidative stress, and chronic inflammation could be significant contributors to Fabry disease and cardiac involvement. These factors promote cardiac remodeling and fibrosis and may predispose Fabry patients to conduction disturbances, ventricular arrhythmias, and heart failure. While current treatments, such as enzyme replacement therapy and pharmacological chaperones, address disease progression and symptoms, their effectiveness is limited. Our review uncovers the potential relationships among metabolic disturbances, oxidative stress, inflammation, and fibrosis in Fabry disease-related cardiac complications. Current findings suggest that beyond sphingolipid accumulation, other mechanisms may significantly contribute to disease pathogenesis. This prompts the exploration of innovative therapeutic strategies and underscores the importance of a holistic approach to understanding and managing Fabry disease.",
+      "_matched_queries": [
+        "Fabry disease"
+      ]
+    },
+    {
+      "pmid": "38321152",
+      "title": "Cornea verticillata in Fabry disease.",
+      "authors": [
+        "Idrus EA",
+        "Iskandar E"
+      ],
+      "year": "2024",
+      "journal": "QJM : monthly journal of the Association of Physicians",
+      "doi": "10.1093/qjmed/hcae025",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38321152/",
+      "abstract": "",
+      "_matched_queries": [
+        "Fabry disease cornea verticillata"
+      ]
+    },
+    {
+      "pmid": "39292930",
+      "title": "Fabry's Disease.",
+      "authors": [
+        "Soloway S",
+        "Lister D"
+      ],
+      "year": "2024",
+      "journal": "The New England journal of medicine",
+      "doi": "10.1056/NEJMicm2402990",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39292930/",
+      "abstract": "",
+      "_matched_queries": [
+        "Fabry disease"
+      ]
+    },
+    {
+      "pmid": "39308653",
+      "title": "2024 Update of the TSOC Expert Consensus of Fabry Disease.",
+      "authors": [
+        "Hung CL",
+        "Wu YW",
+        "Kuo L",
+        "Sung KT",
+        "Lin HH",
+        "Chang WT",
+        "Chang CH",
+        "Lai CH",
+        "Huang CY",
+        "Wang CL",
+        "Lin CC",
+        "Juang JJ",
+        "Chen PS",
+        "Wang CY",
+        "Chang HC",
+        "Chu CY",
+        "Wang WH",
+        "Tseng H",
+        "Kao YT",
+        "Wang TD",
+        "Yu WC",
+        "Chen WJ"
+      ],
+      "year": "2024",
+      "journal": "Acta Cardiologica Sinica",
+      "doi": "10.6515/ACS.202409_40(5).20240731A",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39308653/",
+      "abstract": "As an X-linked inherited lysosomal storage disease that is caused by α-galactosidase A gene variants resulting in progressive accumulation of pathogenic glycosphingolipid (Gb3) accumulation in multiple tissues and organs, Fabry disease (FD) can be classified into classic or late-onset phenotypes. In classic phenotype patients, α-galactosidase A activity is absent or severely reduced, resulting in a more progressive disease course with multi-systemic involvement. Conversely, late-onset phenotype, often with missense variants (e.g., IVS4+919G>A) in Taiwan, may present with a more chronic clinical course with predominant cardiac involvement (cardiac subtype), as they tend to have residual enzyme activity, remaining asymptomatic or clinically silent during childhood and adolescence. In either form, cardiac hypertrophy remains the most common feature of cardiac involvement, potentially leading to myocardial fibrosis, arrhythmias, and heart failure. Diagnosis is established through α-galactosidase enzyme activity assessment or biomarker analyisis (globotriaosylsphingosine, Lyso-Gb3), advanced imaging modalities (echocardiography and cardiac magnetic resonance imaging), and genotyping to differentiate FD from other cardiomyopathy. Successful therapeutic response relies on early recognition and by disease awareness from typical features in classic phenotype and cardiac red flags in cardiac variants for timely therapeutic interventions. Recent advances in pharmacological approach including enzyme replacement therapy (agalsidase alfa or beta), oral chaperone therapy (migalastat), and substrate reduction therapy (venglustat) aim to prevent from irreversible organ damage. Genotype- and gender-based monitoring of treatment effects through biomarker (Lyso-Gb3), renal assessment, and cardiac responses using advanced imaging modalities are key steps to optimizing patient care in FD.",
+      "_matched_queries": [
+        "Fabry disease clinical features"
+      ]
+    }
+  ]
+}

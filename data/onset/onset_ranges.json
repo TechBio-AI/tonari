@@ -1,0 +1,124 @@
+{
+  "_readme": [
+    "発症年齢の区分の重ね書き（フェーズ2〜4: タスク2）。",
+    "知識ファイル data/knowledge/comprehensive_rare_diseases_knowledge.json は変更しない。",
+    "この別ファイルを疾患名で重ねる。原本を汚さないための設計（2026-09-10 ファウンダー承認）。",
+    "",
+    "onset_range の意味（プロトタイプ db/schema.sql:96 と同じ 3 値）:",
+    "  child … 主に小児期に発症する",
+    "  adult … 主に成人期に発症する",
+    "  any   … どちらでもない / 型によって幅が広い",
+    "",
+    "係数は非対称（lib/scoring/onset.ts）。",
+    "  adult の疾患 × 16歳未満の入力 → 0.5",
+    "  child の疾患 × 成人の入力     → 1.0（下げない）",
+    "  診断が遅れて成人になっている患者こそ、この仕組みが見つけるべき相手であるため。",
+    "",
+    "hpo_reference について:",
+    "  当初は HPO の onset 注釈を参考値として引く予定だったが、手元のデータからは引けなかった。",
+    "  data/hpo/phenotype.hpoa の ORPHA 行には aspect=C（臨床経過＝発症年齢）の注釈が",
+    "  全体で 98 疾患ぶんしかなく、この 10 疾患はいずれも含まれない（2026-09-10 実測）。",
+    "  Orphanet の発症年齢は en_product9_ages という別ファイルにあるが、手元には無い",
+    "  （data/orphanet/en_product1.xml は命名法のみ）。よって全件 null とし、不明であることを残す。",
+    "",
+    "decided_by が null の間は「草案」。ファウンダーが医学的に判定して 'founder' に変える。",
+    "",
+    "2026-09-10 追記: 成人発症の3疾患を追加（ファウンダー判定）。係数0.5が実データで発動するようになった。",
+    "  「ALS」は「筋萎縮性側索硬化症」の重複レコードだったため同じ判定を両方に置いていたが、2026-09-13 の知識ベース統合（docs/kb_restructure_apply_log_2026-09-13.md 組 2）で ALS レコードが消えたので ALS 行を削除した（13 疾患・13 行）。"
+  ],
+  "version": "2026-09-10",
+  "status": "decided-by-founder-2026-09-10",
+  "entries": {
+    "ファブリー病": {
+      "onset_range": "child",
+      "onset_tendency": "多くは小児期から思春期に、手足の痛みや汗の出にくさで始まります",
+      "note": "女性のヘテロ接合体では、発症が成人期まで遅れることがあります",
+      "hpo_reference": null,
+      "decided_by": "founder"
+    },
+    "ゴーシェ病": {
+      "onset_range": "any",
+      "onset_tendency": "型によって幅があり、乳児期に始まるものから成人期に見つかるものまであります",
+      "note": "1型（非神経型）は成人期に見つかることがあり、2型・3型は乳幼児期に始まります",
+      "hpo_reference": null,
+      "decided_by": "founder"
+    },
+    "ポンペ病": {
+      "onset_range": "any",
+      "onset_tendency": "乳児期に始まる型と、小児期以降にゆっくり始まる遅発型があります",
+      "note": "遅発型は成人期に見つかることがあります",
+      "hpo_reference": null,
+      "decided_by": "founder"
+    },
+    "ムコ多糖症I型": {
+      "onset_range": "child",
+      "onset_tendency": "多くは乳幼児期から小児期に始まります",
+      "note": "軽症型（Scheie型）では見つかるのが遅れることがあります",
+      "hpo_reference": null,
+      "decided_by": "founder"
+    },
+    "フェニルケトン尿症": {
+      "onset_range": "child",
+      "onset_tendency": "新生児期に始まります",
+      "note": "新生児マススクリーニングの対象疾患です",
+      "hpo_reference": null,
+      "decided_by": "founder"
+    },
+    "オルニチントランスカルバミラーゼ欠損症": {
+      "onset_range": "any",
+      "onset_tendency": "新生児期に始まる型と、小児期以降に始まる遅発型があります",
+      "note": "女性のヘテロ接合体では成人期に初めて症状が出ることがあります",
+      "hpo_reference": null,
+      "decided_by": "founder"
+    },
+    "軟骨無形成症": {
+      "onset_range": "child",
+      "onset_tendency": "出生時から特徴が見られます",
+      "note": "妊娠中の超音波検査で指摘されることがあります",
+      "hpo_reference": null,
+      "decided_by": "founder"
+    },
+    "低ホスファターゼ症": {
+      "onset_range": "any",
+      "onset_tendency": "周産期に始まる重い型から、成人期に見つかる軽い型まで幅があります",
+      "note": "成人型は骨折を繰り返すことで見つかることがあります",
+      "hpo_reference": null,
+      "decided_by": "founder"
+    },
+    "X連鎖性低リン血症性くる病": {
+      "onset_range": "child",
+      "onset_tendency": "多くは歩き始めるころに、脚の変形や成長の遅れとして現れます",
+      "note": "成人期には骨や関節の痛みが続くことがあります",
+      "hpo_reference": null,
+      "decided_by": "founder"
+    },
+    "脊髄性筋萎縮症": {
+      "onset_range": "child",
+      "onset_tendency": "多くは乳児期から小児期に始まります",
+      "note": "IV型は成人期に始まりますが、頻度は高くありません",
+      "hpo_reference": null,
+      "decided_by": "founder"
+    },
+    "遺伝性ATTR型アミロイドーシス": {
+      "onset_range": "adult",
+      "onset_tendency": "多くは成人期に発症します",
+      "note": "日本人に多いV30M型は成人発症が典型です。手足のしびれで始まることが多く、診断までに時間がかかることがあります",
+      "hpo_reference": null,
+      "decided_by": "founder"
+    },
+    "筋萎縮性側索硬化症": {
+      "onset_range": "adult",
+      "onset_tendency": "多くは中年期以降に発症します",
+      "note": null,
+      "hpo_reference": null,
+      "decided_by": "founder"
+    },
+    "球脊髄性筋萎縮症": {
+      "onset_range": "adult",
+      "onset_tendency": "多くは成人期に発症します",
+      "note": "X連鎖性で、発症するのは成人男性です",
+      "hpo_reference": null,
+      "decided_by": "founder"
+    }
+  }
+}

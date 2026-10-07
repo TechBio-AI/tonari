@@ -1,0 +1,64 @@
+{
+ "idx": 31,
+ "name": "パーキンソン病",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/169",
+   "fetched_at": "2026-09-24T00:44:23+09:00",
+   "sha256": "3c9b35b3c9f51bf203e160ef0169be35b1b91d749e0f6558a59f5fc1cfd1caa0",
+   "title": "パーキンソン病（指定難病６） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "手足のふるえ、動きが遅くなる、体がこわばる、転びやすくなる、といった症状が出る病気です。",
+  "source_id": "nanbyou",
+  "evidence": "振戦（ふるえ）、動作緩慢、筋強剛（筋固縮）、姿勢保持障害（転びやすいこと）",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "手足がふるえる",
+   "source_id": "nanbyou",
+   "evidence": "振戦（ふるえ）"
+  },
+  {
+   "text": "動きが遅くなる",
+   "source_id": "nanbyou",
+   "evidence": "動作緩慢"
+  },
+  {
+   "text": "体がこわばる",
+   "source_id": "nanbyou",
+   "evidence": "筋強剛（筋固縮）"
+  },
+  {
+   "text": "バランスが悪くなり転びやすい",
+   "source_id": "nanbyou",
+   "evidence": "姿勢保持障害はバランスが悪くなり転倒しやすくなることです"
+  },
+  {
+   "text": "最初の一歩が踏み出しにくい",
+   "source_id": "nanbyou",
+   "evidence": "最初の一歩が踏み出しにくくなる「すくみ」"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "治療の基本は薬物療法です。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/169",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は原因の説明で、発症年齢の記載が無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:22:05+09:00",
+ "shard": 1
+}

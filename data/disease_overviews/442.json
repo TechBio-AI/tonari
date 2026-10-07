@@ -1,0 +1,64 @@
+{
+ "idx": 442,
+ "name": "シュワッハマン・ダイアモンド症候群",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/10_05_039/",
+   "fetched_at": "2026-09-24T00:50:50+09:00",
+   "sha256": "9bf27df5b136f3805bfcd272a4ac820792a4a90dc30a3ae61fca89f8ab2c0fc6",
+   "title": "シュワッハマン・ダイアモンド（Shwachman-Diamond）症候群 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "すい臓の外分泌の異常、血球の減少、骨格の異常を特徴とする病気です。",
+  "source_id": "shouman",
+  "evidence": "膵外分泌の異常と血球減少、骨格異常を特徴とする常染色体劣性遺伝性疾患",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "栄養の吸収が悪くなる",
+   "source_id": "shouman",
+   "evidence": "膵外分泌異常による栄養吸収障害"
+  },
+  {
+   "text": "感染症にかかりやすい",
+   "source_id": "shouman",
+   "evidence": "好中球減少による易感染性"
+  },
+  {
+   "text": "貧血になる",
+   "source_id": "shouman",
+   "evidence": "貧血や血小板減少"
+  },
+  {
+   "text": "骨格に異常が出る",
+   "source_id": "shouman",
+   "evidence": "骨格異常"
+  },
+  {
+   "text": "背が低い",
+   "source_id": "shouman",
+   "evidence": "低身長などがみられる"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "膵酵素補充と脂溶性ビタミン（A、D、E、K）の補充が行なわれる"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/10_05_039/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は発症率の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T03:00:26+09:00",
+ "shard": 4
+}

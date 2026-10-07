@@ -1,0 +1,83 @@
+{
+ "idx": 646,
+ "name": "遺伝性びまん性白質脳症球状封入体型",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/313808",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Adult-onset leukoencephalopathy with axonal spheroids and pigmented glia"
+  }
+ ],
+ "summary": {
+  "text": "A rare leukodystrophy characterized by progressive cognitive impairment, neuropsychiatric features, motor dysfunction involving parkinsonian symptoms, gait disturbances, spasticity and speech impairment. Epilepsy, stroke-like episodes, sensory dysfunction, dizziness, fatigue, urinary and fecal incontinence are commonly observed in affected individuals. Neuroaxonal spheroids and pigmented (iron or lipofuscin) macrophages and glial cells, together with diffuse myelin loss and axonal destruction, are major histopathological hallmarks.",
+  "source_id": "orphanet",
+  "evidence": "A rare leukodystrophy characterized by p",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "progressive cognitive impairment",
+   "source_id": "orphanet",
+   "evidence": "progressive cognitive impairment"
+  },
+  {
+   "text": "neuropsychiatric features",
+   "source_id": "orphanet",
+   "evidence": "neuropsychiatric features"
+  },
+  {
+   "text": "parkinsonian symptoms",
+   "source_id": "orphanet",
+   "evidence": "parkinsonian symptoms"
+  },
+  {
+   "text": "gait disturbances",
+   "source_id": "orphanet",
+   "evidence": "gait disturbances"
+  },
+  {
+   "text": "spasticity",
+   "source_id": "orphanet",
+   "evidence": "spasticity"
+  },
+  {
+   "text": "speech impairment",
+   "source_id": "orphanet",
+   "evidence": "speech impairment"
+  },
+  {
+   "text": "Epilepsy",
+   "source_id": "orphanet",
+   "evidence": "Epilepsy"
+  },
+  {
+   "text": "dizziness",
+   "source_id": "orphanet",
+   "evidence": "dizziness"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/313808",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: 組織所見",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

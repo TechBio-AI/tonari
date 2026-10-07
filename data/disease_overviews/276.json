@@ -1,0 +1,84 @@
+{
+ "idx": 276,
+ "name": "マンノシドーシス",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_082/",
+   "fetched_at": "2026-09-24T00:49:55+09:00",
+   "sha256": "4687c7f5367c30576bd6745e9f9bb92031e1220c55caccdf4048360566152c0a",
+   "title": "マンノシドーシス 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "糖とたんぱくの結合を分解する酵素がはたらかない病気です。",
+  "source_id": "shouman",
+  "evidence": "糖蛋白質の糖鎖を加水分解するリソソ−ム酵素",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "顔だちが粗くなる",
+   "source_id": "shouman",
+   "evidence": "粗野な顔貌"
+  },
+  {
+   "text": "骨の形に違いが出る",
+   "source_id": "shouman",
+   "evidence": "多発性骨異形成"
+  },
+  {
+   "text": "発達がゆっくりになり、できていたことができなくなる",
+   "source_id": "shouman",
+   "evidence": "精神発達遅延，退行"
+  },
+  {
+   "text": "肝臓や脾臓が大きくなる",
+   "source_id": "shouman",
+   "evidence": "肝脾腫"
+  },
+  {
+   "text": "角膜がにごる",
+   "source_id": "shouman",
+   "evidence": "角膜混濁"
+  },
+  {
+   "text": "白内障が起こる",
+   "source_id": "shouman",
+   "evidence": "白内障（特徴的な棘状白濁）"
+  },
+  {
+   "text": "耳が聞こえにくい",
+   "source_id": "shouman",
+   "evidence": "難聴などを乳児期から幼児期にかけて認める"
+  },
+  {
+   "text": "感染症にかかりやすい",
+   "source_id": "shouman",
+   "evidence": "易感染性"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "支持療法などが主たる治療法である。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_082/",
+   "label": "公式ページ"
+  },
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4063",
+   "label": "関連する群のページ"
+  }
+ ],
+ "notes": [
+  "疫学の節が保存 HTML に無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:49:53+09:00",
+ "shard": 3
+}

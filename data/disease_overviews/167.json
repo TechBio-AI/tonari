@@ -1,0 +1,71 @@
+{
+ "idx": 167,
+ "name": "スタージ・ウェーバー症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4307",
+   "fetched_at": "2026-09-24T00:45:02+09:00",
+   "sha256": "3a85f133908fe85f085f5cedde51c0aa1692826de02cdf1cf04860084b5fed3a",
+   "title": "スタージ・ウェーバー症候群（指定難病１５７） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "脳をおおう血管の異常、顔のあざ、眼圧の上昇を特徴とする病気です。",
+  "source_id": "nanbyou",
+  "evidence": "軟膜毛細血管異常と顔面の痣であるポートワイン母斑、眼圧上昇を特徴とする",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "顔にあざがある",
+   "source_id": "nanbyou",
+   "evidence": "顔面のポートワイン母斑"
+  },
+  {
+   "text": "てんかん発作が起こる",
+   "source_id": "nanbyou",
+   "evidence": "てんかん発作"
+  },
+  {
+   "text": "手足が麻痺する",
+   "source_id": "nanbyou",
+   "evidence": "運動麻痺"
+  },
+  {
+   "text": "片頭痛が起こる",
+   "source_id": "nanbyou",
+   "evidence": "片頭痛"
+  },
+  {
+   "text": "発達が遅れる",
+   "source_id": "nanbyou",
+   "evidence": "発達が遅れてしまうことが重大な問題"
+  },
+  {
+   "text": "動作が止まってぼーっとする発作が出る",
+   "source_id": "nanbyou",
+   "evidence": "動作が停止してぼーっとしている"
+  }
+ ],
+ "onset": {
+  "text": "発生の要因はわかっていません",
+  "source_id": "nanbyou",
+  "evidence": "発生要因は分かっていません。"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "発作抑制と発達促進を目的に脳外科手術の適応を考えなければなりません"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4307",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:47:21+09:00",
+ "shard": 3
+}

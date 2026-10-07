@@ -1,0 +1,57 @@
+{
+ "idx": 260,
+ "name": "多発性内分泌腫瘍症2型",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/653",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Multiple endocrine neoplasia type 2"
+  }
+ ],
+ "summary": {
+  "text": "A rare multiple endocrine neoplasia (MEN) syndrome that is principally characterized by the association of medullary thyroid carcinoma (MTC) with other endocrine tumors. The variant MEN 2A is defined by MTC associated with pheochromocytoma and/or primary hyperparathyroidism (MEN2A); the variant MEN 2B is defined as an aggressive form of MTC in association with pheochromocytoma but without primary hyperparathyroidism.",
+  "source_id": "orphanet",
+  "evidence": "A rare multiple endocrine neoplasia (MEN",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "medullary thyroid carcinoma",
+   "source_id": "orphanet",
+   "evidence": "medullary thyroid carcinoma"
+  },
+  {
+   "text": "pheochromocytoma",
+   "source_id": "orphanet",
+   "evidence": "pheochromocytoma"
+  },
+  {
+   "text": "primary hyperparathyroidism",
+   "source_id": "orphanet",
+   "evidence": "primary hyperparathyroidism"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/653",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

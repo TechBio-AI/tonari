@@ -1,0 +1,61 @@
+{
+ "idx": 244,
+ "name": "限局性皮質異形成",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4456",
+   "fetched_at": "2026-09-24T00:45:24+09:00",
+   "sha256": "7e4fe1e1be57bfcef2bfc235fb9796974f49c2882d2eff840c72169870621385",
+   "title": "限局性皮質異形成（指定難病１３７） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "大脳の皮質の一部分に限って形づくりの違いがある状態です。",
+  "source_id": "nanbyou",
+  "evidence": "「限局性皮質 異形成 」は、そのうち大脳皮質の一部分に限定して存在する異常です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "てんかん発作が起こる",
+   "source_id": "nanbyou",
+   "evidence": "てんかん発作を引き起こします"
+  },
+  {
+   "text": "発作の症状は場所によってさまざま",
+   "source_id": "nanbyou",
+   "evidence": "てんかん発作の症状は、限局性皮質異形成の脳内での場所に応じてさまざま"
+  },
+  {
+   "text": "発達に影響が出ることがある",
+   "source_id": "nanbyou",
+   "evidence": "さまざまな程度の発達障害をもたらすことがあります"
+  },
+  {
+   "text": "薬で発作が抑えられないことが多い",
+   "source_id": "nanbyou",
+   "evidence": "抗てんかん発作薬では抑えられないことが多く"
+  }
+ ],
+ "onset": {
+  "text": "この病気になりやすい人はわかっていません",
+  "source_id": "nanbyou",
+  "evidence": "特にこの病気になりやすい人はわかっていません。"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "外科的切除は、抗てんかん発作薬ではてんかん発作が消失しない場合に行います"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4456",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:48:34+09:00",
+ "shard": 3
+}

@@ -1,0 +1,52 @@
+{
+ "idx": 755,
+ "name": "Peters異常",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/708",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Peters anomaly"
+  }
+ ],
+ "summary": {
+  "text": "Peters anomaly (PA) is a congenital corneal opacity disorder characterized by a central corneal leukoma that obstructs the pupil leading to visual loss as well as absence of the posterior corneal stroma and Descemet membrane.",
+  "source_id": "orphanet",
+  "evidence": "Peters anomaly (PA) is a congenital corn",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "central corneal leukoma",
+   "source_id": "orphanet",
+   "evidence": "central corneal leukoma"
+  },
+  {
+   "text": "visual loss",
+   "source_id": "orphanet",
+   "evidence": "visual loss"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/708",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

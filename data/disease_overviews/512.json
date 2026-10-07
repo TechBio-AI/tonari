@@ -1,0 +1,74 @@
+{
+ "idx": 512,
+ "name": "シアリドーシス",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_084/",
+   "fetched_at": "2026-09-24T00:49:56+09:00",
+   "sha256": "89b853dfb959ea46c0ab951e01068742c801951a5fde78bb0c705e4dff11f8d3",
+   "title": "シアリドーシス 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "ある酵素のはたらきに異常があって起こる病気です。",
+  "source_id": "shouman",
+  "evidence": "リソソーム性ノイラミニダーゼ（シアリダーゼ）の異常による",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "視力が下がる",
+   "source_id": "shouman",
+   "evidence": "視力低下"
+  },
+  {
+   "text": "手足が一瞬ぴくつく発作が起こる",
+   "source_id": "shouman",
+   "evidence": "ミオクローヌス発作"
+  },
+  {
+   "text": "発達がゆっくり",
+   "source_id": "shouman",
+   "evidence": "精神運動発達遅延"
+  },
+  {
+   "text": "顔だちが粗くなる",
+   "source_id": "shouman",
+   "evidence": "粗な顔貌"
+  },
+  {
+   "text": "お腹がふくらむ",
+   "source_id": "shouman",
+   "evidence": "腹部膨満"
+  },
+  {
+   "text": "耳が聞こえにくい",
+   "source_id": "shouman",
+   "evidence": "難聴"
+  },
+  {
+   "text": "肝臓や脾臓が大きくなる",
+   "source_id": "shouman",
+   "evidence": "肝脾腫"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "症状に対する支持療法が中心となる。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_084/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節が保存 HTML に無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:42:40+09:00",
+ "shard": 2
+}

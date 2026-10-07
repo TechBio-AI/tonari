@@ -1,0 +1,78 @@
+{
+ "idx": 106,
+ "name": "リンパ脈管筋腫症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/173",
+   "fetched_at": "2026-09-24T00:44:25+09:00",
+   "sha256": "5f8f16edd221b96b61d3e73dde901fd44148c7a0c6f0269baa3d6773696c9bb4",
+   "title": "リンパ脈管筋腫症（LAM）（指定難病８９） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "異常な細胞が、肺・リンパ節・腎臓などでゆっくりと増えていく病気です。",
+  "source_id": "nanbyou",
+  "evidence": "異常細胞が、肺、リンパ節、腎臓などで、比較的ゆっくりと増える病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "動いたときに息が切れる",
+   "source_id": "nanbyou",
+   "evidence": "労作時 の息切れ"
+  },
+  {
+   "text": "咳が出る",
+   "source_id": "nanbyou",
+   "evidence": "咳"
+  },
+  {
+   "text": "痰が出る",
+   "source_id": "nanbyou",
+   "evidence": "痰"
+  },
+  {
+   "text": "血のまじった痰が出る",
+   "source_id": "nanbyou",
+   "evidence": "血痰"
+  },
+  {
+   "text": "息をするときにヒューヒューと音がする",
+   "source_id": "nanbyou",
+   "evidence": "喘息様の 喘鳴"
+  },
+  {
+   "text": "胸が痛む、息苦しくなる",
+   "source_id": "nanbyou",
+   "evidence": "胸痛や呼吸困難がみられます"
+  },
+  {
+   "text": "お腹が張る",
+   "source_id": "nanbyou",
+   "evidence": "腹部膨満（腹部の張り）"
+  }
+ ],
+ "onset": {
+  "text": "多くは妊娠できる年齢の女性に起こりますが、閉経後に見つかる方もいます",
+  "source_id": "nanbyou",
+  "evidence": "ほとんどは妊娠可能な年齢の女性に発症しますが、閉経後に診断される患者さんもいます"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "肺機能の低下を防ぐ効果が認められ"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/173",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:24:20+09:00",
+ "shard": 1
+}

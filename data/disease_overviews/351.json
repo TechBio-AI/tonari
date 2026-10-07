@@ -1,0 +1,69 @@
+{
+ "idx": 351,
+ "name": "動脈管開存症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/04_42_051/",
+   "fetched_at": "2026-09-24T00:47:47+09:00",
+   "sha256": "cf119a5033a1eb5bf78df52793edc4585e505776fc43e695e4ce900a6b302b30",
+   "title": "動脈管開存症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "赤ちゃんのころに閉じるはずの血管が、生まれた後も閉じずに残る病気です。",
+  "source_id": "shouman",
+  "evidence": "出生後も自然閉鎖せず開存状態を維持した疾患。",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "特徴的な心雑音が聞こえる",
+   "source_id": "shouman",
+   "evidence": "最も特徴的な所見は連続性心雑音である"
+  },
+  {
+   "text": "疲れやすい、息が切れる",
+   "source_id": "shouman",
+   "evidence": "易疲労感や息切れなどの心不全症状"
+  },
+  {
+   "text": "呼吸が速い",
+   "source_id": "shouman",
+   "evidence": "乳児では多呼吸"
+  },
+  {
+   "text": "脈が速い",
+   "source_id": "shouman",
+   "evidence": "頻脈"
+  },
+  {
+   "text": "汗を多くかく",
+   "source_id": "shouman",
+   "evidence": "多汗"
+  },
+  {
+   "text": "おっぱいやミルクの飲みが悪い、体重が増えにくい",
+   "source_id": "shouman",
+   "evidence": "哺乳不良、体重増加不良がみられる"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "動脈管の閉鎖治療には①開胸手術、②カテーテル治療、③胸腔鏡下手術がある"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/04_42_051/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は頻度の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:49:53+09:00",
+ "shard": 3
+}

@@ -1,0 +1,74 @@
+{
+ "idx": 75,
+ "name": "進行性核上性麻痺",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4114",
+   "fetched_at": "2026-09-24T00:45:00+09:00",
+   "sha256": "867e0868765b8c11a3ef27aea9b8cd5e99cdc13c6755895738acc8c6430c6d98",
+   "title": "進行性核上性麻痺（指定難病５） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "脳の神経細胞が減り、転びやすくなったり見えにくくなったりする病気です。",
+  "source_id": "nanbyou",
+  "evidence": "神経細胞が減少し、転びやすくなったり、下の方が見にくい、しゃべりにくい",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "転びやすくなる",
+   "source_id": "nanbyou",
+   "evidence": "転びやすい"
+  },
+  {
+   "text": "目の動きが悪くなり下を見にくい",
+   "source_id": "nanbyou",
+   "evidence": "眼の動きが悪くなり下を見ようとしてもうまくできない"
+  },
+  {
+   "text": "しゃべりにくい",
+   "source_id": "nanbyou",
+   "evidence": "しゃべりにくい"
+  },
+  {
+   "text": "飲み込みにくい",
+   "source_id": "nanbyou",
+   "evidence": "嚥下障害"
+  },
+  {
+   "text": "足がすくんで前に出にくい",
+   "source_id": "nanbyou",
+   "evidence": "足がすくんで前に出にくくなったり（すくみ足）"
+  },
+  {
+   "text": "歩行が速くなって止まれなくなる",
+   "source_id": "nanbyou",
+   "evidence": "歩行がだんだん速くなって止まれなくなる"
+  },
+  {
+   "text": "動作が遅くなり関節が固くなる",
+   "source_id": "nanbyou",
+   "evidence": "徐々に動作が緩慢になるとともに手足の関節が固くなり"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "根本的な治療薬はまだありません。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4114",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節の発症年齢は数値と一体のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:46:07+09:00",
+ "shard": 3
+}

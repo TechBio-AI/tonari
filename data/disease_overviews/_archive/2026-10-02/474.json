@@ -1,0 +1,63 @@
+{
+ "idx": 474,
+ "name": "ビタミンD依存性くる病",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_35_080/",
+   "fetched_at": "2026-09-24T00:48:17+09:00",
+   "sha256": "70ada72e381faab1866d54cdd4980627a78c623cffa1e767a641cb14ae531910",
+   "title": "ビタミンD依存性くる病 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "ビタミンDが効きにくく、くる病を起こす遺伝性の病気です。",
+  "source_id": "shouman",
+  "evidence": "遺伝性にビタミンD抵抗性くる病（骨軟化症）をきたす疾患で",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "くる病の所見が出る",
+   "source_id": "shouman",
+   "evidence": "くる病所見や"
+  },
+  {
+   "text": "低カルシウム血症でテタニーが起こる",
+   "source_id": "shouman",
+   "evidence": "低カルシウム血症によるテタニー"
+  },
+  {
+   "text": "けいれんが起きる",
+   "source_id": "shouman",
+   "evidence": "けいれんで発症する"
+  },
+  {
+   "text": "髪が抜けることが多い",
+   "source_id": "shouman",
+   "evidence": "II型では禿頭を伴う事が多い"
+  }
+ ],
+ "onset": {
+  "text": "ふつう生後数か月以内に発症します",
+  "source_id": "shouman",
+  "evidence": "通常生後数カ月以内に"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "活性型ビタミンDを治療に用いれば通常量で治癒させうる"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_35_080/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "症状の節が短く、4 件しか取れなかった。"
+ ],
+ "extracted_at": "2026-09-25T03:00:26+09:00",
+ "shard": 4
+}

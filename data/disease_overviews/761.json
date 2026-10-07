@@ -1,0 +1,53 @@
+{
+ "idx": 761,
+ "name": "Best卵黄状黄斑ジストロフィー",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/1243",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Best vitelliform macular dystrophy"
+  }
+ ],
+ "summary": {
+  "text": "Best vitelliform macular dystrophy (BVMD) is a genetic macular dystrophy characterized by loss of central visual acuity, metamorphopsia and a decrease in the Arden ratio secondary to an egg yolk-like lesion located in the foveal or parafoveal region.",
+  "source_id": "orphanet",
+  "evidence": "Best vitelliform macular dystrophy (BVMD",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "loss of central visual acuity",
+   "source_id": "orphanet",
+   "evidence": "loss of central visual acuity"
+  },
+  {
+   "text": "metamorphopsia",
+   "source_id": "orphanet",
+   "evidence": "metamorphopsia"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/1243",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: Arden ratio（検査値）",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

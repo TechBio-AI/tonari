@@ -1,0 +1,143 @@
+{
+  "_readme": [
+    "★ これは 11 疾患のための暫定形式です。将来 supabase の themes / theme_facts / fact_sources（器）へ移行します。",
+    "  情報の種類を増やすときは、この形式を拡張するのではなく、器への移行を検討してください（docs/CONTENT_ROADMAP.md）。",
+    "中身: ファウンダーが判定した患者向けの文（docs/disease_summaries_draft_2026-09-13.md、2026-09-13 承認）。",
+    "common_symptoms は HPO v2026-06-23 の「非常に多い」「多い」を元に言い換えたもの。各項目は sources に元の HPO ラベルか「執筆者による記述」を持つ。",
+    "表示では頻度を区別しない。薬剤名は書かない。",
+    "読み込み: lib/portal/disease-summaries.ts"
+  ],
+  "slug": "sma",
+  "disease": "脊髄性筋萎縮症",
+  "orpha_code": "ORPHA:70",
+  "hpo_version": "v2026-06-23",
+  "approved": "2026-09-13",
+  "symptoms_preface": null,
+  "common_symptoms": [
+    {
+      "text": "手足の付け根に近い筋肉の力が弱い",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "近位筋虚弱"
+          ],
+          "hpo_ids": [
+            "HP:0003701"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "筋肉がやせる",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "筋萎縮"
+          ],
+          "hpo_ids": [
+            "HP:0003202"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "歩きにくい、走りにくい、階段を上りにくい",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "歩行障害",
+            "走行困難",
+            "階段の登り困難"
+          ],
+          "hpo_ids": [
+            "HP:0001288",
+            "HP:0009046",
+            "HP:0003551"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "飲み込みにくい",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "嚥下障害"
+          ],
+          "hpo_ids": [
+            "HP:0002015"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "赤ちゃんでは、おっぱいやミルクを吸う力が弱い",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "吸啜不全"
+          ],
+          "hpo_ids": [
+            "HP:0002033"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "呼吸が弱くなる、肺炎をくり返す",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "筋虚弱による呼吸不全",
+            "反復性誤嚥性肺炎"
+          ],
+          "hpo_ids": [
+            "HP:0002747",
+            "HP:0002100"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "舌が細かくぴくぴく動く",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "舌線維束性収縮"
+          ],
+          "hpo_ids": [
+            "HP:0001308"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "疲れやすい",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "疲労"
+          ],
+          "hpo_ids": [
+            "HP:0012378"
+          ]
+        }
+      ]
+    }
+  ],
+  "treatment_summary": [
+    "神経の働きを保つための薬による治療があります（注射や飲み薬）。",
+    "遺伝子治療が行われることがあります。",
+    "呼吸の管理を行います。"
+  ],
+  "treatment_source": "知識ファイル（data/knowledge/comprehensive_rare_diseases_knowledge.json）の treatment を元に、薬剤名を除いて執筆者が要約。ファウンダー確認待ち（2026-09-13 下書き）",
+  "nanbyo_number": null
+}

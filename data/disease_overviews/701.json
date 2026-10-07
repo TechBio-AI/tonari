@@ -1,0 +1,59 @@
+{
+ "idx": 701,
+ "name": "大田原症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4381",
+   "fetched_at": "2026-09-24T00:45:11+09:00",
+   "sha256": "b3695e43b198b97556cf6cd36897c6dc3c6a0ad0bf79283fc1093b99bd3338cb",
+   "title": "大田原症候群（指定難病１４６） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "生まれて間もない時期に始まる、重いてんかんです。",
+  "source_id": "nanbyou",
+  "evidence": "新生児期から乳児期早期（生後3カ月以内）に発症する重症のてんかんです",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "四肢や頭がピクッと動く発作が出る",
+   "source_id": "nanbyou",
+   "evidence": "四肢や頭部がピクッと動く短いもの"
+  },
+  {
+   "text": "発作が一定の間隔でくり返す",
+   "source_id": "nanbyou",
+   "evidence": "比較的一定の間隔で繰り返します"
+  },
+  {
+   "text": "起きているときも眠っているときも起こる",
+   "source_id": "nanbyou",
+   "evidence": "覚醒時に起こることも睡眠中に起こることもあります"
+  },
+  {
+   "text": "体の一部や全体がけいれんする発作を合併することがある",
+   "source_id": "nanbyou",
+   "evidence": "体の一部や全体がけいれんしたり動作が止まったりするような発作"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "早期の外科治療が勧められます"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4381",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は原因の説明で、発症年齢の記載が無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:52:18+09:00",
+ "shard": 3
+}

@@ -1,0 +1,55 @@
+{
+ "idx": 178,
+ "name": "膜性腎症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/02_01_005/",
+   "fetched_at": "2026-09-24T00:47:06+09:00",
+   "sha256": "4b3afaa78306a5cc03dbaa36e3ca4b5bad54ecb426cacc939a96591d1afd91ee",
+   "title": "膜性腎症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "腎臓のろ過膜に免疫の複合体がたまることで起こる病気です。",
+  "source_id": "shouman",
+  "evidence": "糸球体基底膜上皮下の免疫複合体沈着",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "むくみなどネフローゼ症候群になる",
+   "source_id": "shouman",
+   "evidence": "ネフローゼ症候群を発症し"
+  },
+  {
+   "text": "尿にたんぱくが出る",
+   "source_id": "shouman",
+   "evidence": "無症候性蛋白尿"
+  },
+  {
+   "text": "尿に血がまじることがある",
+   "source_id": "shouman",
+   "evidence": "一部には血尿を伴う"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "小児の膜性腎症の症例は少なく，治療法は確立していない"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/02_01_005/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "症状の節は自覚症状ではなく検査で分かる所見が中心で、3 件しか取れなかった。",
+  "疫学の節が保存 HTML に無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:38:40+09:00",
+ "shard": 2
+}

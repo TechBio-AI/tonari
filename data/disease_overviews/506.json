@@ -1,0 +1,73 @@
+{
+ "idx": 506,
+ "name": "N-アセチルグルタミン酸合成酵素欠損症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_01_011/",
+   "fetched_at": "2026-09-24T00:49:00+09:00",
+   "sha256": "02cc46a2d75ac5b35cda86d04e4ae2b2a087edb1cc37c1311e04c1c70b12dbb4",
+   "title": "N-アセチルグルタミン酸合成酵素欠損症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "アンモニアを無害にする回路のはたらきが足りない病気です。",
+  "source_id": "shouman",
+  "evidence": "アンモニアは肝臓において尿素サイクルを経て、無害な尿素に代謝される。",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "興奮しやすくなる",
+   "source_id": "shouman",
+   "evidence": "興奮性亢進"
+  },
+  {
+   "text": "おっぱいやミルクの飲みが悪い",
+   "source_id": "shouman",
+   "evidence": "哺乳不良"
+  },
+  {
+   "text": "呼吸が速くなる",
+   "source_id": "shouman",
+   "evidence": "多呼吸"
+  },
+  {
+   "text": "けいれんが起きる",
+   "source_id": "shouman",
+   "evidence": "けいれん"
+  },
+  {
+   "text": "体が反り返る",
+   "source_id": "shouman",
+   "evidence": "後弓反張"
+  },
+  {
+   "text": "強い眠気や意識がなくなる",
+   "source_id": "shouman",
+   "evidence": "嗜眠・昏睡"
+  }
+ ],
+ "onset": {
+  "text": "新生児期に発症することが多いです",
+  "source_id": "shouman",
+  "evidence": "新生児発症例が多い"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "・低蛋白食事療法"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_01_011/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節は薬剤名が中心のため、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:42:40+09:00",
+ "shard": 2
+}

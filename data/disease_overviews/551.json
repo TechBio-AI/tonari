@@ -1,0 +1,75 @@
+{
+ "idx": 551,
+ "name": "短鎖アシルCoA脱水素酵素欠損症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_03_046/",
+   "fetched_at": "2026-09-24T00:49:39+09:00",
+   "sha256": "2fa8ec292752efea9062db4a1eda943b7faa3910d0d74b49b0a1e8833639b8b1",
+   "title": "短鎖アシルCoA脱水素酵素欠損症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "脂肪をエネルギーに変える過程にはたらく酵素が足りない病気です。",
+  "source_id": "shouman",
+  "evidence": "短鎖アシルCoAのβ酸化を触媒するSCADの欠損である",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "発達がゆっくり",
+   "source_id": "shouman",
+   "evidence": "発達遅滞"
+  },
+  {
+   "text": "言葉が遅れる",
+   "source_id": "shouman",
+   "evidence": "言葉の遅れ"
+  },
+  {
+   "text": "体がふにゃふにゃしている",
+   "source_id": "shouman",
+   "evidence": "筋緊張低下"
+  },
+  {
+   "text": "体の育ちがゆっくり",
+   "source_id": "shouman",
+   "evidence": "成長障害"
+  },
+  {
+   "text": "おっぱいやミルクを飲むのが難しい",
+   "source_id": "shouman",
+   "evidence": "哺乳障害"
+  },
+  {
+   "text": "けいれんが起きる",
+   "source_id": "shouman",
+   "evidence": "けいれん"
+  },
+  {
+   "text": "頭が小さい",
+   "source_id": "shouman",
+   "evidence": "小頭症"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "適切な新生児管理が重要である"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_03_046/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "原文は「本疾病に特化した治療法はなく、基本的に治療を必要としない」と書いている。4 つの type のどれにも当てはまらないため、管理についての記述を evidence に選んだ。判断が要る。",
+  "疫学の節は頻度の数値のみのため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:32:02+09:00",
+ "shard": 1
+}

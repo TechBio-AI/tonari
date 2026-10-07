@@ -1,0 +1,43 @@
+{
+ "idx": 709,
+ "name": "遺伝性鉄過剰症(フェロポルチン病)",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/648562",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Ferroportin disease"
+  }
+ ],
+ "summary": {
+  "text": "A rare disorder of iron metabolism and transport characterized by iron retention in macrophages (particularly of the liver and spleen), with a clinical picture of mild anemia and elevated of serum ferritin levels. Ferroportin disease is distinct from hemochromatosis as it is not associated with high transferrin saturation or low hepcidin concentrations.",
+  "source_id": "orphanet",
+  "evidence": "A rare disorder of iron metabolism and t",
+  "lang": "en"
+ },
+ "symptoms": [],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/648562",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に症状の列挙が無い（または検査所見だけ）のため symptoms は空。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: mild anemia / elevated serum ferritin levels",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

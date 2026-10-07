@@ -1,0 +1,74 @@
+{
+ "idx": 3,
+ "name": "ゴーシェ病",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_090/",
+   "fetched_at": "2026-09-24T00:50:01+09:00",
+   "sha256": "06f5218696e906b4551a5486d8f08fb96af84ac5c776fec8deea42d01aa6937c",
+   "title": "ゴーシェ（Gaucher）病 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "ある脂質が体の組織にたまっていく病気です。",
+  "source_id": "shouman",
+  "evidence": "その基質である糖脂質のグルコセレブロシドが組織に蓄積する",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "肝臓や脾臓が大きくなる",
+   "source_id": "shouman",
+   "evidence": "肝脾腫"
+  },
+  {
+   "text": "骨が痛む、骨折しやすい",
+   "source_id": "shouman",
+   "evidence": "骨症状（病的骨折や骨クリーゼ）"
+  },
+  {
+   "text": "貧血になる",
+   "source_id": "shouman",
+   "evidence": "貧血や血小板減少を認める"
+  },
+  {
+   "text": "血小板が減る",
+   "source_id": "shouman",
+   "evidence": "血小板減少"
+  },
+  {
+   "text": "発達がゆっくり",
+   "source_id": "shouman",
+   "evidence": "精神運動発達遅滞"
+  },
+  {
+   "text": "けいれんが起きる",
+   "source_id": "shouman",
+   "evidence": "痙攣、項部後屈などの神経症状"
+  },
+  {
+   "text": "目の動きに障害が出る",
+   "source_id": "shouman",
+   "evidence": "衝動性眼球運動障害"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "酵素補充療法と対症療法がある。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_090/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は有病率の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:54:01+09:00",
+ "shard": 4
+}

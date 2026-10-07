@@ -1,0 +1,73 @@
+{
+ "idx": 84,
+ "name": "肥大型心筋症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/177",
+   "fetched_at": "2026-09-24T00:44:28+09:00",
+   "sha256": "8ee0346cbb43e6fc488190ac61c44eefd62930e1f96ed59c5e0c9654b7770fec",
+   "title": "肥大型心筋症（指定難病５８） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "心臓の筋肉（主に左心室）が厚くなる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "心筋の肥大（通常左心室、ときに右心室の肥大）がおこる病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "多くは症状がないか、わずか",
+   "source_id": "nanbyou",
+   "evidence": "大部分の患者さんが、無症状かわずかな症状を示すだけ"
+  },
+  {
+   "text": "検診で心雑音や心電図異常が見つかる",
+   "source_id": "nanbyou",
+   "evidence": "偶然検診で心雑音や心電図異常をきっかけに診断"
+  },
+  {
+   "text": "動悸やめまいが起こる",
+   "source_id": "nanbyou",
+   "evidence": "不整脈に伴う動悸やめまい"
+  },
+  {
+   "text": "運動時に息が苦しい、胸が圧迫される",
+   "source_id": "nanbyou",
+   "evidence": "運動時の呼吸困難・胸の圧迫感"
+  },
+  {
+   "text": "失神することがある",
+   "source_id": "nanbyou",
+   "evidence": "「失神」は"
+  },
+  {
+   "text": "呼吸困難や動悸を自覚することがある",
+   "source_id": "nanbyou",
+   "evidence": "多くの方が呼吸困難や動悸など様々な症状を自覚します"
+  }
+ ],
+ "onset": {
+  "text": "はば広い年代で発症します",
+  "source_id": "nanbyou",
+  "evidence": "幅広い年齢層に発症します。"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "厚くなった筋肉を切除する外科手術を行うこともあります"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/177",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節には薬の分類名が並ぶので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:55:18+09:00",
+ "shard": 4
+}

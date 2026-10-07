@@ -1,0 +1,80 @@
+{
+ "idx": 133,
+ "name": "シェーグレン症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/111",
+   "fetched_at": "2026-09-24T00:44:10+09:00",
+   "sha256": "a8e64069476f24e5e1af5abdc8ea7eeae1db24389ff07179715afa758ecd6ccd",
+   "title": "シェーグレン症候群（指定難病５３） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "涙をつくる腺や唾液をつくる腺が、主にねらわれる自己免疫の病気です。",
+  "source_id": "nanbyou",
+  "evidence": "涙腺・唾液腺を主な標的とする自己免疫疾患です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "目が乾く",
+   "source_id": "nanbyou",
+   "evidence": "目が乾く"
+  },
+  {
+   "text": "目がごろごろする",
+   "source_id": "nanbyou",
+   "evidence": "目がごろごろする"
+  },
+  {
+   "text": "口が渇く",
+   "source_id": "nanbyou",
+   "evidence": "口が渇く"
+  },
+  {
+   "text": "唾液が出ない",
+   "source_id": "nanbyou",
+   "evidence": "唾液が出ない"
+  },
+  {
+   "text": "鼻が乾く",
+   "source_id": "nanbyou",
+   "evidence": "鼻が渇く"
+  },
+  {
+   "text": "唾液腺がはれて痛む",
+   "source_id": "nanbyou",
+   "evidence": "唾液腺の腫れと痛み"
+  },
+  {
+   "text": "関節が痛む",
+   "source_id": "nanbyou",
+   "evidence": "関節痛"
+  },
+  {
+   "text": "疲労感がある",
+   "source_id": "nanbyou",
+   "evidence": "疲労感"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "根本的にシェーグレン症候群を治癒させることは出来ません"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/111",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "症状の節は見出し直後が「以下のようなものがあります。」だけで、本文が箇条書きのため、同じページの症状の箇条書きから evidence を取った。",
+  "「どのような人に多いのですか」の節の年齢は数値と一体のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:37:15+09:00",
+ "shard": 2
+}

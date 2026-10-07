@@ -1,0 +1,76 @@
+{
+ "idx": 311,
+ "name": "非ケトーシス型高グリシン血症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5440",
+   "fetched_at": "2026-09-24T00:46:35+09:00",
+   "sha256": "4b9978fa3535863b38c36314fb7c98f88bcd82443d3d3a850c92b7b7cfc1fc5d",
+   "title": "非ケトーシス型高グリシン血症（指定難病３２１） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "あるアミノ酸を分解する酵素のはたらきが生まれつき弱い病気です。",
+  "source_id": "nanbyou",
+  "evidence": "「グリシン開裂 酵素 」と呼ばれる酵素の働きが先天的に低下している",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "意識がはっきりしなくなる",
+   "source_id": "nanbyou",
+   "evidence": "意識障害"
+  },
+  {
+   "text": "筋力が落ちる",
+   "source_id": "nanbyou",
+   "evidence": "筋力低下"
+  },
+  {
+   "text": "呼吸が苦しくなる",
+   "source_id": "nanbyou",
+   "evidence": "呼吸困難"
+  },
+  {
+   "text": "けいれんが起きる",
+   "source_id": "nanbyou",
+   "evidence": "けいれん"
+  },
+  {
+   "text": "しゃっくりが出る",
+   "source_id": "nanbyou",
+   "evidence": "しゃっくり"
+  },
+  {
+   "text": "自発呼吸がなくなることがある",
+   "source_id": "nanbyou",
+   "evidence": "自発呼吸が無くなることが多く"
+  },
+  {
+   "text": "発達がゆっくりになる",
+   "source_id": "nanbyou",
+   "evidence": "発達が遅れるため生涯にわたる療養が必要"
+  }
+ ],
+ "onset": {
+  "text": "生まれたばかりの赤ちゃんの病気です",
+  "source_id": "nanbyou",
+  "evidence": "生まれたばかりの赤ちゃんの病気です。"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "確実に効くと証明された治療法はありません。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5440",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:49:53+09:00",
+ "shard": 3
+}

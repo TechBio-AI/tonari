@@ -1,0 +1,60 @@
+{
+ "idx": 78,
+ "name": "慢性炎症性脱髄性多発神経炎",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_43_104/",
+   "fetched_at": "2026-09-24T00:51:58+09:00",
+   "sha256": "210d6c72259270a9ce87f5bcb839a6d803c6506e7eb6a3592ed34a617096b138",
+   "title": "慢性炎症性脱髄性多発神経炎 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "手足の神経がこわれて、力が入りにくくなったり感覚が鈍くなったりする病気です。",
+  "source_id": "shouman",
+  "evidence": "末梢神経の脱髄を生じ、筋力低下あるいは感覚障害を示す自己免疫性炎症性疾患",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "左右どちらの手足にも力が入りにくくなる",
+   "source_id": "shouman",
+   "evidence": "左右対称性の筋力低下"
+  },
+  {
+   "text": "感覚が鈍くなる、しびれる",
+   "source_id": "shouman",
+   "evidence": "感覚低下・異常感覚を生じる"
+  },
+  {
+   "text": "ふらつく",
+   "source_id": "shouman",
+   "evidence": "深部感覚障害による失調"
+  },
+  {
+   "text": "手足がふるえる",
+   "source_id": "shouman",
+   "evidence": "振戦もしばしば認められる"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "血漿浄化療法などの免疫療法を行う。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_43_104/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節が保存 HTML に無いため onset は null。",
+  "治療の節には薬の分類名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:24:20+09:00",
+ "shard": 1
+}

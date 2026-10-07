@@ -1,0 +1,61 @@
+{
+  "idx": 23,
+  "name": "レーベル先天性黒内障",
+  "sources": [
+    {
+      "id": "orphanet",
+      "url": "https://example.invalid/sample/orphanet",
+      "fetched_at": "2026-09-25T00:00:00+09:00",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "title": "[SAMPLE] heading"
+    }
+  ],
+  "summary": {
+    "text": "[SAMPLE] Placeholder English definition text for layout only.",
+    "source_id": "orphanet",
+    "evidence": "[SAMPLE] placeholder",
+    "lang": "en"
+  },
+  "symptoms": [
+    {
+      "text": "[SAMPLE] placeholder symptom 1",
+      "source_id": "orphanet",
+      "evidence": "【サンプル】仮の原文"
+    },
+    {
+      "text": "[SAMPLE] placeholder symptom 2",
+      "source_id": "orphanet",
+      "evidence": "【サンプル】仮の原文"
+    },
+    {
+      "text": "[SAMPLE] placeholder symptom 3",
+      "source_id": "orphanet",
+      "evidence": "【サンプル】仮の原文"
+    }
+  ],
+  "onset": null,
+  "treatment": {
+    "type": "研究段階",
+    "source_id": "orphanet",
+    "evidence": "[SAMPLE] placeholder"
+  },
+  "links": [
+    {
+      "id": "orphanet",
+      "url": "https://example.invalid/sample/orphanet",
+      "label": "公式ページ"
+    }
+  ],
+  "notes": [
+    "【サンプル】本番データではない"
+  ],
+  "extracted_at": "2026-09-25T00:00:00+09:00",
+  "shard": 0,
+  "_sample": true,
+  "_readme": [
+    "★ 本番データではない。画面開発用の手書きサンプル（2026-09-25）。",
+    "本文はすべて意味のない仮の文。医学的な事実を書いていない。URL は example.invalid（存在しない）。",
+    "本番の読み込み（data/disease_overviews/<idx>.json）はこのフォルダを読まない。テストだけが読む。",
+    "idx と name はフェーズ0 の照合表（_match_table.json）の実在の組。name は画面では使わない。"
+  ]
+}

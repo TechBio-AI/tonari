@@ -1,0 +1,76 @@
+{
+ "idx": 317,
+ "name": "前眼部形成異常",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5455",
+   "fetched_at": "2026-09-24T00:46:38+09:00",
+   "sha256": "137bd869e545ff25749e63cec1f241294aae8c093c811f30dfc9c1a12b19166f",
+   "title": "前眼部形成異常（指定難病３２８） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "目の前の部分が作られる途中の違いで、生まれつき角膜がにごる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "発生の途中の異常により、生まれたときから角膜の濁りを伴う病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "角膜がにごる",
+   "source_id": "nanbyou",
+   "evidence": "角膜の濁り"
+  },
+  {
+   "text": "視力が下がる",
+   "source_id": "nanbyou",
+   "evidence": "片眼または両眼の視力の障害"
+  },
+  {
+   "text": "まぶしがる",
+   "source_id": "nanbyou",
+   "evidence": "まぶしがることが多くみられます"
+  },
+  {
+   "text": "眼鏡での矯正が難しいことが多い",
+   "source_id": "nanbyou",
+   "evidence": "眼鏡による視力矯正は難しいことがほとんどです"
+  },
+  {
+   "text": "白内障や緑内障を合併することがある",
+   "source_id": "nanbyou",
+   "evidence": "白内障や緑内障などの目の中の異常"
+  },
+  {
+   "text": "歯や顔の骨の発生に違いが出ることがある",
+   "source_id": "nanbyou",
+   "evidence": "歯の発生異常、顔の骨の発生異常"
+  },
+  {
+   "text": "耳が聞こえにくいことがある",
+   "source_id": "nanbyou",
+   "evidence": "難聴"
+  }
+ ],
+ "onset": {
+  "text": "この病気を起こすリスクになることは、今のところ見つかっていません",
+  "source_id": "nanbyou",
+  "evidence": "前眼部形成異常をおこすリスクになるようなことは、見つかっていません"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "日本でもほとんど角膜移植は行われていません"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5455",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:40:16+09:00",
+ "shard": 2
+}

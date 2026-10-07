@@ -1,0 +1,70 @@
+{
+ "idx": 318,
+ "name": "肺動脈性肺高血圧症（結合組織病関連）",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/04_61_085/",
+   "fetched_at": "2026-09-24T00:47:50+09:00",
+   "sha256": "9e5f8e82e578258c7d10d8e4fd3e55e927255fe2188f205f445c0c1da225ed93",
+   "title": "肺動脈性肺高血圧症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "肺の動脈の血圧が高くなり、心臓が送り出す血液が減る病気です。",
+  "source_id": "shouman",
+  "evidence": "肺動脈の血圧が高まり、心拍出量低下を生じ",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "体を動かすと息が苦しい",
+   "source_id": "shouman",
+   "evidence": "労作時呼吸困難"
+  },
+  {
+   "text": "疲れやすい",
+   "source_id": "shouman",
+   "evidence": "易疲労感"
+  },
+  {
+   "text": "動悸がする",
+   "source_id": "shouman",
+   "evidence": "動悸"
+  },
+  {
+   "text": "胸が痛む",
+   "source_id": "shouman",
+   "evidence": "胸痛"
+  },
+  {
+   "text": "失神する",
+   "source_id": "shouman",
+   "evidence": "失神"
+  },
+  {
+   "text": "せきが出る",
+   "source_id": "shouman",
+   "evidence": "咳嗽などがみられる"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "薬物療法が基本となる。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/04_61_085/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は発症率の数値のみのため onset は null。",
+  "治療の節には薬剤名が並ぶので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:49:53+09:00",
+ "shard": 3
+}

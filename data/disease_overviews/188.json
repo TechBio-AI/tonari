@@ -1,0 +1,66 @@
+{
+ "idx": 188,
+ "name": "閉塞性細気管支炎",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4720",
+   "fetched_at": "2026-09-24T00:45:51+09:00",
+   "sha256": "51eb86c35002164857eff1d09b3d32517dde0677d37934bd0300fb5b327521dd",
+   "title": "閉塞性細気管支炎（指定難病２２８） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "細い気管支に炎症が起こり、内側がつまってしまう病気です。",
+  "source_id": "nanbyou",
+  "evidence": "細い気管支に 炎症 が起こり、細気管支の内腔が詰まって",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "早い時期は自覚症状がはっきりしない",
+   "source_id": "nanbyou",
+   "evidence": "病気の早い時期には自覚症状がはっきりしません"
+  },
+  {
+   "text": "咳が出る",
+   "source_id": "nanbyou",
+   "evidence": "咳"
+  },
+  {
+   "text": "動いたときに息が切れる",
+   "source_id": "nanbyou",
+   "evidence": "労作時 の息切れ"
+  },
+  {
+   "text": "気管支の感染症をくり返す",
+   "source_id": "nanbyou",
+   "evidence": "繰り返す気管支の感染症"
+  },
+  {
+   "text": "息が苦しくなる",
+   "source_id": "nanbyou",
+   "evidence": "呼吸困難が出現します"
+  }
+ ],
+ "onset": {
+  "text": "赤ちゃんからお年寄りまで、男女ともにみられます",
+  "source_id": "nanbyou",
+  "evidence": "乳幼児から高齢者までの男女にみられ"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "確立された治療法はありません。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4720",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:38:40+09:00",
+ "shard": 2
+}

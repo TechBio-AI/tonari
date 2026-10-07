@@ -1,0 +1,62 @@
+{
+ "idx": 50,
+ "name": "ダウン症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/870",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Down syndrome"
+  }
+ ],
+ "summary": {
+  "text": "A total autosomal trisomy that is caused by the presence of a third (partial or total) copy of chromosome 21 and that is characterized by variable intellectual disability, muscular hypotonia, and joint laxity, often associated with a characteristic facial dysmorphism and various anomalies such as cardiac, gastrointestinal, neurosensorial or endocrine defects.",
+  "source_id": "orphanet",
+  "evidence": "A total autosomal trisomy that is caused",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "variable intellectual disability",
+   "source_id": "orphanet",
+   "evidence": "variable intellectual disability"
+  },
+  {
+   "text": "muscular hypotonia",
+   "source_id": "orphanet",
+   "evidence": "muscular hypotonia"
+  },
+  {
+   "text": "joint laxity",
+   "source_id": "orphanet",
+   "evidence": "joint laxity"
+  },
+  {
+   "text": "characteristic facial dysmorphism",
+   "source_id": "orphanet",
+   "evidence": "characteristic facial dysmorphism"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/870",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

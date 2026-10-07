@@ -1,0 +1,57 @@
+{
+ "idx": 342,
+ "name": "脊髄小脳変性症6型",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/98758",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Spinocerebellar ataxia type 6"
+  }
+ ],
+ "summary": {
+  "text": "An autosomal dominant cerebellar ataxia type III that is characterized by late-onset and slowly progressive gait ataxia and other cerebellar signs such as impaired muscle coordination and nystagmus.",
+  "source_id": "orphanet",
+  "evidence": "An autosomal dominant cerebellar ataxia ",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "slowly progressive gait ataxia",
+   "source_id": "orphanet",
+   "evidence": "slowly progressive gait ataxia"
+  },
+  {
+   "text": "impaired muscle coordination",
+   "source_id": "orphanet",
+   "evidence": "impaired muscle coordination"
+  },
+  {
+   "text": "nystagmus",
+   "source_id": "orphanet",
+   "evidence": "nystagmus"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/98758",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "「late-onset」は時期を特定しない言い方のため onset は null。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

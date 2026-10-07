@@ -1,0 +1,64 @@
+{
+ "idx": 301,
+ "name": "大動脈縮窄症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/04_56_070/",
+   "fetched_at": "2026-09-24T00:47:49+09:00",
+   "sha256": "b4c2c86dcc6f6bba89bf15d74c05de9f14cd2f34c1e1aa281f164c7fcc4ee0e2",
+   "title": "大動脈縮窄症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "大動脈の一部が狭くなり、左心室に負担がかかる病気です。",
+  "source_id": "shouman",
+  "evidence": "大動脈への動脈管接続部に生じる狭窄。左室の圧負荷をきたす。",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "狭窄が強いと乳児期から心不全になる",
+   "source_id": "shouman",
+   "evidence": "狭窄が高度だと、乳児期から心不全をきたす"
+  },
+  {
+   "text": "大人になるまで症状がないこともある",
+   "source_id": "shouman",
+   "evidence": "成人期まで無症状のこともあるが"
+  },
+  {
+   "text": "上半身の血圧が高くなる",
+   "source_id": "shouman",
+   "evidence": "上半身は高血圧となり"
+  },
+  {
+   "text": "脳出血を起こすことがある",
+   "source_id": "shouman",
+   "evidence": "脳出血"
+  },
+  {
+   "text": "心筋梗塞を起こすことがある",
+   "source_id": "shouman",
+   "evidence": "心筋梗塞などの合併症を起こす"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "大動脈縮窄部を切除して端々吻合する手術を行う。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/04_56_070/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は頻度の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:59:04+09:00",
+ "shard": 4
+}

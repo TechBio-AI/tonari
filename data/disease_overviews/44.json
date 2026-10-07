@@ -1,0 +1,75 @@
+{
+ "idx": 44,
+ "name": "全身性アミロイドーシス",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/45",
+   "fetched_at": "2026-09-24T00:45:30+09:00",
+   "sha256": "c2a8ceed849d9702acf779acb8ddde67d840d3030682887ed841d4b116d101fb",
+   "title": "全身性アミロイドーシス（指定難病２８） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "異常なたんぱく質が全身のいろいろな臓器にたまり、働きが落ちる病気の総称です。",
+  "source_id": "nanbyou",
+  "evidence": "線維状の異常蛋白質が全身の様々な臓器に沈着し、機能障害をおこす病気の総称です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "心臓のはたらきが落ちる、脈が乱れる",
+   "source_id": "nanbyou",
+   "evidence": "心臓の障害（心不全や不整脈）"
+  },
+  {
+   "text": "腎臓のはたらきが落ちる",
+   "source_id": "nanbyou",
+   "evidence": "腎臓の障害（ネフローゼ症候群や腎不全）"
+  },
+  {
+   "text": "手足がしびれる、麻痺する",
+   "source_id": "nanbyou",
+   "evidence": "手足のしびれ、麻痺"
+  },
+  {
+   "text": "立ちくらみがする",
+   "source_id": "nanbyou",
+   "evidence": "立ちくらみ"
+  },
+  {
+   "text": "排尿がうまくいかない",
+   "source_id": "nanbyou",
+   "evidence": "排尿の異常"
+  },
+  {
+   "text": "便秘や下痢になる",
+   "source_id": "nanbyou",
+   "evidence": "便秘、下痢"
+  },
+  {
+   "text": "舌や肝臓がはれることがある",
+   "source_id": "nanbyou",
+   "evidence": "舌、甲状腺、肝臓が腫れることもあります"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "根治的治療法が発展してきたものもあります"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/45",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は分類の説明で、発症年齢の記載が無いため onset は null。",
+  "治療の節には薬剤名が並ぶので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:35:30+09:00",
+ "shard": 2
+}

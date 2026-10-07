@@ -1,0 +1,65 @@
+{
+ "idx": 263,
+ "name": "悪性黒色腫",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/01_05_063/",
+   "fetched_at": "2026-09-24T00:46:56+09:00",
+   "sha256": "217a64a6fc17576b7c74772cab014acd040e319542309a885e410d3aab65217e",
+   "title": "悪性黒色腫 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "黒いあざが大きくなったり出血したりして気づかれることが多い病気です。",
+  "source_id": "shouman",
+  "evidence": "黒色斑の増大や出血により気づかれることが多い。",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "黒いあざが大きくなる",
+   "source_id": "shouman",
+   "evidence": "黒色斑の増大"
+  },
+  {
+   "text": "出血する",
+   "source_id": "shouman",
+   "evidence": "出血により気づかれることが多い"
+  },
+  {
+   "text": "左右非対称の形になる",
+   "source_id": "shouman",
+   "evidence": "臨床的には、非対称性"
+  },
+  {
+   "text": "境界がぼやけてにじむ",
+   "source_id": "shouman",
+   "evidence": "境界の不整さ（滲み出し）"
+  },
+  {
+   "text": "色の濃淡がまだらになる",
+   "source_id": "shouman",
+   "evidence": "色合いの多彩性（色の濃淡）"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "外科的切除がまず選択される"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/01_05_063/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "概要にあたる節が保存 HTML に無いため、症状の節の冒頭から summary の evidence を取った。",
+  "疫学の節は発生率の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:59:04+09:00",
+ "shard": 4
+}

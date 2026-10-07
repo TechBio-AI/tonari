@@ -1,0 +1,82 @@
+{
+ "idx": 690,
+ "name": "良性家族性舞踏病",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/1429",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Benign hereditary chorea"
+  }
+ ],
+ "summary": {
+  "text": "A rare, genetic, movement disorder characterized by early-onset, very slowly progressive choreiform movements that may involve variable parts of the body, typically aggravated by stress or anxiety, in various members of a family. Additional variable manifestations include hypotonia, often resulting in psychomotor delay (including gait disturbances) and dysarthria, as well as myoclonus, dystonia, behavioral symptoms (ADHD, obsessive-compulsive disorder), learning difficulties (particularly in writing) and spasticity with hyperreflexia and/or flexor/extensor plantar reflexes.",
+  "source_id": "orphanet",
+  "evidence": "A rare, genetic, movement disorder chara",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "very slowly progressive choreiform movements",
+   "source_id": "orphanet",
+   "evidence": "very slowly progressive choreiform"
+  },
+  {
+   "text": "hypotonia",
+   "source_id": "orphanet",
+   "evidence": "hypotonia"
+  },
+  {
+   "text": "psychomotor delay",
+   "source_id": "orphanet",
+   "evidence": "psychomotor delay"
+  },
+  {
+   "text": "dysarthria",
+   "source_id": "orphanet",
+   "evidence": "dysarthria"
+  },
+  {
+   "text": "myoclonus",
+   "source_id": "orphanet",
+   "evidence": "myoclonus"
+  },
+  {
+   "text": "dystonia",
+   "source_id": "orphanet",
+   "evidence": "dystonia"
+  },
+  {
+   "text": "learning difficulties",
+   "source_id": "orphanet",
+   "evidence": "learning difficulties"
+  },
+  {
+   "text": "spasticity with hyperreflexia",
+   "source_id": "orphanet",
+   "evidence": "spasticity with hyperreflexia"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/1429",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

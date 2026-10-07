@@ -1,0 +1,48 @@
+{
+ "idx": 444,
+ "name": "Kostmann症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/42738",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Severe congenital neutropenia"
+  }
+ ],
+ "summary": {
+  "text": "A rare primary immunodeficiency, without an associated lymphocyte deficit, characterized by impaired neutrophil maturation and/or function, associated with severe infections, diverse comorbidities, and/or an increased risk of leukemic transformation.",
+  "source_id": "orphanet",
+  "evidence": "A rare primary immunodeficiency, without",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "severe infections",
+   "source_id": "orphanet",
+   "evidence": "severe infections"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/42738",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: impaired neutrophil maturation",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

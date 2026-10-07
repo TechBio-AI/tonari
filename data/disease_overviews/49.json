@@ -1,0 +1,69 @@
+{
+ "idx": 49,
+ "name": "プラダー・ウィリー症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4768",
+   "fetched_at": "2026-09-25T03:26:54+09:00",
+   "sha256": "8126a633b48adb3566c1d1ec5c08a56b1e097bad339da5ec20fa00fe7b2c7200",
+   "title": "プラダー･ウィリ症候群（指定難病１９３） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "父親から受け継いだときにはたらく遺伝子群がはたらかなくなって起こる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "父性遺伝子と呼ばれる遺伝子群の作用消失で発症します",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "赤ちゃんのころ体がやわらかく、おっぱいを飲む力が弱い",
+   "source_id": "nanbyou",
+   "evidence": "筋緊張低下は顕著で、哺乳障害のため"
+  },
+  {
+   "text": "髪や肌の色が薄い",
+   "source_id": "nanbyou",
+   "evidence": "色素低下"
+  },
+  {
+   "text": "食べすぎてしまう傾向",
+   "source_id": "nanbyou",
+   "evidence": "過食傾向が始まり"
+  },
+  {
+   "text": "太りやすい、背が低い",
+   "source_id": "nanbyou",
+   "evidence": "幼児期には肥満、低身長が目立つ"
+  },
+  {
+   "text": "思春期の体の変化が起こりにくい",
+   "source_id": "nanbyou",
+   "evidence": "二次性徴発来不全"
+  },
+  {
+   "text": "性格や行動の特徴",
+   "source_id": "nanbyou",
+   "evidence": "特徴的な性格障害、異常行動"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "低身長改善および体組成改善目的で成長ホルモン療法を受けることができます"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4768",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は発症時期の記述ではないため onset は null。"
+ ],
+ "extracted_at": "2026-10-02T21:14:56+09:00",
+ "shard": 2
+}

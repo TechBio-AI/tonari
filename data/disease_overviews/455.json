@@ -1,0 +1,55 @@
+{
+ "idx": 455,
+ "name": "先天性中枢性低換気症候群",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/03_03_003/",
+   "fetched_at": "2026-09-24T00:47:21+09:00",
+   "sha256": "dbb3f62ebdf183c1c0ba73f51737f26fb3b12a997157e9b159a09484f28fa4ba",
+   "title": "先天性中枢性低換気症候群 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "呼吸をつかさどる中枢が生まれつき障害され、主に眠っているときに呼吸が浅くなる病気です。",
+  "source_id": "shouman",
+  "evidence": "呼吸中枢の先天的な障害により、典型例では新生児期に発症し主に睡眠時に",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "眠っているときに呼吸が浅くなる",
+   "source_id": "shouman",
+   "evidence": "主に睡眠時に、重症例では覚醒時にも低換気をきたす"
+  },
+  {
+   "text": "重い場合は起きているときも呼吸が浅くなる",
+   "source_id": "shouman",
+   "evidence": "重症例では覚醒時にも低換気をきたす"
+  },
+  {
+   "text": "血液の二酸化炭素が増え、酸素が減る",
+   "source_id": "shouman",
+   "evidence": "高二酸化炭素血症や低酸素血症"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "shouman",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/03_03_003/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "症状・治療の節が保存 HTML に無いため、症状は同じページの概要から取り、治療は「記載なし」とした。",
+  "疫学の節は症例数の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:41:31+09:00",
+ "shard": 2
+}

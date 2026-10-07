@@ -1,0 +1,66 @@
+{
+ "idx": 697,
+ "name": "脳表ヘモジデリン沈着症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4810",
+   "fetched_at": "2026-09-24T00:46:08+09:00",
+   "sha256": "2401d8ef4643fc098e1d0f21c2da4de624d1fced3ebb1b5fb09bd4e4028286cb",
+   "title": "脳表ヘモジデリン沈着症（指定難病１２２） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "脳の表面に血液が少しずつ漏れ続けることで起こる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "脳の表面（くも膜下出血を生じる場所）に、血液が持続的に漏れ出て",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "耳が聞こえにくくなる",
+   "source_id": "nanbyou",
+   "evidence": "主な症状は、難聴"
+  },
+  {
+   "text": "ほとんどの人で難聴が起こる",
+   "source_id": "nanbyou",
+   "evidence": "この難聴は必発で"
+  },
+  {
+   "text": "話しにくくなる",
+   "source_id": "nanbyou",
+   "evidence": "話しにくくなったり"
+  },
+  {
+   "text": "体がふらつく",
+   "source_id": "nanbyou",
+   "evidence": "体がふらついたりし"
+  },
+  {
+   "text": "手足の動きに障害が出る",
+   "source_id": "nanbyou",
+   "evidence": "錐体路障害です"
+  }
+ ],
+ "onset": {
+  "text": "どういった方に多いかはわかっていません",
+  "source_id": "nanbyou",
+  "evidence": "とくに、どういった方に多いということはわかっていません。"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "この病気に対する、 特異的 な治療法はありません。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4810",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:32:55+09:00",
+ "shard": 1
+}

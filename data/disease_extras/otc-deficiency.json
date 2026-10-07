@@ -1,0 +1,324 @@
+{
+  "slug": "otc-deficiency",
+  "disease_name": "オルニチントランスカルバミラーゼ欠損症",
+  "review_status": "pending_founder_review",
+  "_readme": [
+    "オルニチントランスカルバミラーゼ欠損症（OTC 欠損症）の家族への情報・医療者向けの資材（2026-10-04 作成）。照合表は docs/otc_extras_review.md。",
+    "review_status が pending_founder_review の間は画面に出さない（ローダーは形を確かめて「保留」にする）。医学的な採否はファウンダーが行い、採否が付いた行だけを残して approved にする。",
+    "出典は難病情報センター・小児慢性特定疾病情報センター・日本先天代謝異常学会のガイドラインに限る（2026-10-04 指示）。evidence は原文 40 字以内。",
+    "  遺伝のしかたは X 連鎖。出典（難病情報センター・小慢・学会のガイドライン、および全国遺伝子医療部門連絡会議のサイト）に「父・母が患者の場合に子へどう伝わるか」の記述が無いため、図のマス（family.diagram）は空のまま（不明）。",
+    "  ファイル名・slug は疾患ページと同じ otc-deficiency（2026-10-04 に otc.json から改名）。",
+    "  相談先の先頭 6 行（id が -G のもの）は、ファブリー病と同じ行・同じ出典（日本医学会のガイドラインと施設検索。2026-10-04 ファウンダー判断）。from に元の行を記録。"
+  ],
+  "family": {
+    "inheritance": [
+      {
+        "id": "O-F01",
+        "text": "OTC 欠損症は、X 連鎖性遺伝という遺伝のしかたをとる病気です。",
+        "source_url": "https://www.nanbyou.or.jp/entry/4732",
+        "evidence": "オルニチントランスカルバミラーゼ欠損症はＸ連鎖性遺伝です"
+      },
+      {
+        "id": "O-F02",
+        "text": "原因の OTC 遺伝子は X 染色体にあります。",
+        "source_url": "https://www.shouman.jp/disease/details/08_01_013/",
+        "evidence": "X染色体にあるOTC遺伝子の機能喪失型変異に起因する"
+      },
+      {
+        "id": "O-F03",
+        "text": "男性に症状が強く、女性は一般に男性より軽いことが多いものの、いったん発症すると重い場合も少なくありません。",
+        "source_url": "https://www.nanbyou.or.jp/entry/4732",
+        "evidence": "一旦発症すると重篤な場合も少なくありません"
+      },
+      {
+        "id": "O-F04",
+        "text": "女性でも、症状は生まれてすぐに出る場合から、症状のない場合まで、さまざまです。",
+        "source_url": "https://www.shouman.jp/disease/details/08_01_013/",
+        "evidence": "新生児期発症から無症状例まで様々な症候を呈する"
+      },
+      {
+        "id": "O-F05",
+        "text": "家族に患者がいない（突然変異による）発症も、少なからずみられます。",
+        "source_url": "https://www.nanbyou.or.jp/entry/4732",
+        "evidence": "による発症も少なからずみられます"
+      },
+      {
+        "id": "O-F06",
+        "text": "同じ遺伝子の変化をもつきょうだいでも、発症の時期や重さが違うことがあります。",
+        "source_url": "https://jsimd.net/pdf/newborn-mass-screening-disease-practice-guideline2019.pdf",
+        "evidence": "同じ遺伝子変異をもつ同胞でも発症時期や重症度が異なることもある"
+      }
+    ],
+    "diagram": {
+      "father": {
+        "son": null,
+        "daughter": null
+      },
+      "mother": {
+        "son": null,
+        "daughter": null
+      }
+    },
+    "letter": {
+      "status": "draft",
+      "paragraphs": [
+        "（　　　）さんへ",
+        "わたしは、オルニチントランスカルバミラーゼ欠損症（OTC 欠損症）という病気だと分かりました。この病気は遺伝することがあり、家族にも関係するかもしれないので、この手紙を書きました。",
+        "この病気は、女性でも症状が出ることがあるとされています。",
+        "このことを知ってどうするか、いつ考えるかは、あなたが自分で決めてよいことです。",
+        "検査を受けるかどうかは、よく知ったうえで、あなたが自分で決めてよいことです。",
+        "（日付）（名前）"
+      ],
+      "writer_note": [
+        "この手紙は、渡さない選択もあります。渡す時期は、あなたが選べます。"
+      ]
+    },
+    "consult": [
+      {
+        "id": "O-G01",
+        "text": "遺伝カウンセリングは、病気の遺伝について、医学的な影響、心の影響、家族への影響を理解し、それに向き合っていくことを助ける場です。",
+        "source_url": "https://jams.med.or.jp/guideline/genetics-diagnosis_2022.pdf",
+        "evidence": "家族への影響を人々が理解し、それに適応していくことを助けるプロセス",
+        "from": "fabry C-01"
+      },
+      {
+        "id": "O-G02",
+        "text": "情報を伝えるだけでなく、自分で選べるよう心の面・生活の面から支えることが大切とされています。",
+        "source_url": "https://jams.med.or.jp/guideline/genetics-diagnosis_2022.pdf",
+        "evidence": "自律的選択が可能となるような心理的社会的支援が重要",
+        "from": "fabry C-02"
+      },
+      {
+        "id": "O-G03",
+        "text": "最終的に決めるのは、相談する人自身の意思が最も大切とされています。",
+        "source_url": "https://jsimd.net/pdf/fabry2020.pdf",
+        "evidence": "最終的な決定はクライエント自身の意思が最も重要である",
+        "from": "fabry C-03"
+      },
+      {
+        "id": "O-G04",
+        "text": "遺伝学的検査で分かった個人の遺伝情報は、本人の同意なく、血縁者を含むほかの人に伝えるべきではないとされています。",
+        "source_url": "https://jams.med.or.jp/guideline/genetics-diagnosis_2022.pdf",
+        "evidence": "被検者の同意なく血縁者を含む第三者に開示すべきではない",
+        "from": "fabry C-04"
+      },
+      {
+        "id": "O-G05",
+        "text": "検査を受けるか受けないかは、十分に理解したうえで本人が自分で決められるよう支えるもの、とされています。",
+        "source_url": "https://jams.med.or.jp/guideline/genetics-diagnosis_2022.pdf",
+        "evidence": "検査を受けるか受けないかについて本人が自律的に意思決定",
+        "from": "fabry C-05"
+      },
+      {
+        "id": "O-G06",
+        "text": "全国遺伝子医療部門連絡会議の「登録機関遺伝子医療体制検索・提供システム」では、病気の分類や都道府県から、遺伝子医療を行っている施設を探せます。",
+        "source_url": "http://www.idenshiiryoubumon.org/search/index.html",
+        "evidence": "県内の遺伝子医療を行っている施設名を表示します。",
+        "link": {
+          "url": "http://www.idenshiiryoubumon.org/search/index.html",
+          "label": "施設を探す（全国遺伝子医療部門連絡会議）"
+        },
+        "from": "fabry C-06"
+      },
+      {
+        "id": "O-C01",
+        "text": "女性の患者さんが妊娠・出産するときには、高アンモニア血症の管理や、おなかの赤ちゃんへの影響について、遺伝カウンセリングが必要になるとされています。",
+        "source_url": "https://www.shouman.jp/disease/details/08_01_013/",
+        "evidence": "胎児の罹患の可能性に関しての遺伝カウンセリングが必要になる"
+      },
+      {
+        "id": "O-C02",
+        "text": "症状が出ていない女性でも、出産をきっかけに高アンモニア血症を起こすことがあるので、注意が必要とされています。",
+        "source_url": "https://jsimd.net/pdf/newborn-mass-screening-disease-practice-guideline2019.pdf",
+        "evidence": "出産を機に高アンモニア血症を発症することがあるので，注意が必要である"
+      },
+      {
+        "id": "O-C03",
+        "text": "OTC 欠損症は、男の子では生まれてすぐに発症することが多いとされています。お子さんの検査をどうするかは、小児科や遺伝科で相談してください。",
+        "source_url": "https://www.shouman.jp/disease/details/08_01_013/",
+        "evidence": "男児では新生児発症が多い"
+      }
+    ]
+  },
+  "clinicians": {
+    "organs": [
+      {
+        "organ": "全体",
+        "facts": [
+          {
+            "id": "O-K01",
+            "text": "OTC 欠損症は尿素サイクル異常症の中で最も頻度が高く、頻度は 8 万人に 1 人である。",
+            "source_url": "https://www.shouman.jp/disease/details/08_01_013/",
+            "evidence": "OTC欠損症は尿素サイクル異常症の中では最も頻度が高い"
+          },
+          {
+            "id": "O-K02",
+            "text": "「血中アンモニアが上昇」し「アニオンギャップが正常」で「低血糖がない」場合には、尿素サイクル異常症の存在が強く疑われる。",
+            "source_url": "https://jsimd.net/pdf/newborn-mass-screening-disease-practice-guideline2019.pdf",
+            "evidence": "「血中アンモニアが上昇」し「アニオンギャップが正常」で「低血糖がない」"
+          },
+          {
+            "id": "O-K03",
+            "text": "OTC 欠損症は新生児マススクリーニングの対象疾患とされていない。",
+            "source_url": "https://jsimd.net/pdf/newborn-mass-screening-disease-practice-guideline2019.pdf",
+            "evidence": "CPS1欠損症とOTC欠損症，NAGS欠損症，HHH症候群"
+          }
+        ]
+      },
+      {
+        "organ": "神経・意識",
+        "facts": [
+          {
+            "id": "O-K04",
+            "text": "臨床症状は非特異的な神経学的異常が多く、嘔吐、哺乳力低下、多呼吸、けいれん、意識障害、行動異常、発達障害などがみられる。",
+            "source_url": "https://www.shouman.jp/disease/details/08_01_013/",
+            "evidence": "嘔吐、哺乳力低下、多呼吸、けいれん、意識障害、行動異常、発達障害"
+          },
+          {
+            "id": "O-K05",
+            "text": "何となく元気がない、嘔気など、非特異的な症状がほとんどである。乳幼児期の突然死の報告もある。",
+            "source_url": "https://www.nanbyou.or.jp/entry/4732",
+            "evidence": "乳幼児期の突然死の報告もあります"
+          },
+          {
+            "id": "O-K06",
+            "text": "慢性期には、タンパク嫌い、成長障害、肝腫大、肝酵素上昇、頭痛、腹痛、嘔吐などもみられる。",
+            "source_url": "https://jsimd.net/pdf/newborn-mass-screening-disease-practice-guideline2019.pdf",
+            "evidence": "嘔吐，タンパク嫌い，成長障害，肝腫大，肝酵素上昇，皮膚炎"
+          }
+        ]
+      },
+      {
+        "organ": "誘因",
+        "facts": [
+          {
+            "id": "O-K07",
+            "text": "高アンモニア血症は、異化の亢進（発熱、絶食など）、タンパクの過剰摂取、薬物などによって悪化する。",
+            "source_url": "https://jsimd.net/pdf/newborn-mass-screening-disease-practice-guideline2019.pdf",
+            "evidence": "異化の亢進（発熱，絶食など），タンパクの過剰摂取，薬物などによって悪化する"
+          },
+          {
+            "id": "O-K08",
+            "text": "遅発発症型は発作的に症状が現れ、どの年齢でも起こりうる。",
+            "source_url": "https://jsimd.net/pdf/newborn-mass-screening-disease-practice-guideline2019.pdf",
+            "evidence": "遅発発症型の特徴は，発作的に症状が現れることで，どの年齢でも起こりうる"
+          }
+        ]
+      },
+      {
+        "organ": "新生児・男児",
+        "facts": [
+          {
+            "id": "O-K09",
+            "text": "男児では新生児発症が多い。",
+            "source_url": "https://www.shouman.jp/disease/details/08_01_013/",
+            "evidence": "男児では新生児発症が多い"
+          },
+          {
+            "id": "O-K10",
+            "text": "新生児期には、敗血症様症状、体温不安定、呼吸困難、多呼吸がみられる。",
+            "source_url": "https://jsimd.net/pdf/newborn-mass-screening-disease-practice-guideline2019.pdf",
+            "evidence": "新生児期：敗血症様症状，体温不安定，呼吸困難，多呼吸"
+          }
+        ]
+      },
+      {
+        "organ": "女性",
+        "facts": [
+          {
+            "id": "O-K11",
+            "text": "OTC 遺伝子ヘテロ変異の女性では、X 染色体不活化の偏りの程度によって、無症状から新生児期発症まで様々な病態がある。",
+            "source_url": "https://jsimd.net/pdf/newborn-mass-screening-disease-practice-guideline2019.pdf",
+            "evidence": "X 染色体不活化の偏りの程度によって，無症状から新生児期発症まで様々な病態"
+          },
+          {
+            "id": "O-K12",
+            "text": "遅発発症の女性患者は、必ずしも軽症とは限らない。",
+            "source_url": "https://jsimd.net/pdf/newborn-mass-screening-disease-practice-guideline2019.pdf",
+            "evidence": "遅発発症の OTC 欠損症女性患者は，必ずしも軽症とは限らない"
+          },
+          {
+            "id": "O-K13",
+            "text": "出産後に発症または症状の悪化がみられることがあり、出産後の高アンモニア血症は出産後 7〜14 日後に発症することが多い。",
+            "source_url": "https://jsimd.net/pdf/newborn-mass-screening-disease-practice-guideline2019.pdf",
+            "evidence": "出産後の高アンモニア血症は，出産後7～14日後に発症することが多い"
+          },
+          {
+            "id": "O-K14",
+            "text": "急性期には、産後のうつやいらだちなどの精神的症状（女性において）がみられることがある。",
+            "source_url": "https://jsimd.net/pdf/newborn-mass-screening-disease-practice-guideline2019.pdf",
+            "evidence": "産後のうつやいらだちなどの精神的症状（女性において）"
+          }
+        ]
+      },
+      {
+        "organ": "肝臓",
+        "facts": [
+          {
+            "id": "O-K15",
+            "text": "女児では肝機能障害を契機に発見されることがある。",
+            "source_url": "https://www.shouman.jp/disease/details/08_01_013/",
+            "evidence": "女児では肝機能障害を契機に発見されることがある"
+          }
+        ]
+      },
+      {
+        "organ": "家族歴",
+        "facts": [
+          {
+            "id": "O-K16",
+            "text": "3 親等内の尿素サイクル異常症の存在、新生児期における同胞の突然死は、診断の手引きの臨床症状・家族歴の項目である。",
+            "source_url": "https://www.shouman.jp/disease/instructions/08_01_013/",
+            "evidence": "②3親等内の尿素サイクル異常症の存在"
+          }
+        ]
+      },
+      {
+        "organ": "検査の留意点",
+        "facts": [
+          {
+            "id": "O-K17",
+            "text": "血中アンモニア高値の目安は、新生児 >120 μmol/L（200 μg/dL）、乳児期以降 >60 μmol/L（100 μg/dL）。",
+            "source_url": "https://www.shouman.jp/disease/instructions/08_01_013/",
+            "evidence": "新生児>120 μmol/L(200 μg/dL)、乳児期以降>60 μmol/"
+          },
+          {
+            "id": "O-K18",
+            "text": "特異的検査として、血中アミノ酸分析（シトルリン低値）、尿有機酸分析（オロト酸排泄増加）がある。",
+            "source_url": "https://www.shouman.jp/disease/instructions/08_01_013/",
+            "evidence": "血中アミノ酸分析(シトルリン低値)、尿有機酸分析（オロト酸排泄増加）"
+          },
+          {
+            "id": "O-K19",
+            "text": "BUN が低下していることが多い。",
+            "source_url": "https://jsimd.net/pdf/newborn-mass-screening-disease-practice-guideline2019.pdf",
+            "evidence": "BUN＊が低下していることが多い"
+          },
+          {
+            "id": "O-K20",
+            "text": "鑑別として、有機酸血症、シトリン欠損症、ウイルス性肝炎、門脈体循環シャント、薬剤性肝障害、肝不全などによる高アンモニア血症がある。",
+            "source_url": "https://jsimd.net/pdf/newborn-mass-screening-disease-practice-guideline2019.pdf",
+            "evidence": "有機酸血症，シトリン欠損症，ウイルス性肝炎，門脈体循環シャント"
+          }
+        ]
+      },
+      {
+        "organ": "治療と経過",
+        "facts": [
+          {
+            "id": "O-K21",
+            "text": "治療の基本は低蛋白食事療法で、高アンモニア発作を繰り返すときには肝移植の適応である。",
+            "source_url": "https://www.shouman.jp/disease/details/08_01_013/",
+            "evidence": "高アンモニア発作を繰り返すときには肝移植の適応である"
+          },
+          {
+            "id": "O-K22",
+            "text": "高アンモニア血症が遷延した場合には中枢神経後遺症を残すが、近年予後は改善している。",
+            "source_url": "https://www.shouman.jp/disease/details/08_01_013/",
+            "evidence": "高アンモニア血症が遷延した場合には中枢神経後遺症を残すが、近年予後は改善している"
+          }
+        ]
+      }
+    ]
+  }
+}

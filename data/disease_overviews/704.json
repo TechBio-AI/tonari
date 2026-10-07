@@ -1,0 +1,73 @@
+{
+ "idx": 704,
+ "name": "環状20番染色体症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4576",
+   "fetched_at": "2026-09-24T00:45:39+09:00",
+   "sha256": "906102371211562da15b9fb0431a609398dcbc8808b55cd5f972a23f4abe7f8f",
+   "title": "環状２０番染色体症候群（指定難病１５０） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "てんかんを主な症状とし、染色体に特定の変化がみられる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "てんかんを主症状とする病気のうち、染色体に特定の異常を認める病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "怖がったり驚いたような表情の発作が出る",
+   "source_id": "nanbyou",
+   "evidence": "怖がっているような、あるいは驚いたような表情"
+  },
+  {
+   "text": "手足がこわばる、ぴくつく",
+   "source_id": "nanbyou",
+   "evidence": "手足をこわばらせてつっぱる、ぴくつく"
+  },
+  {
+   "text": "全身がけいれんする",
+   "source_id": "nanbyou",
+   "evidence": "全身けいれんする発作（強直間代発作）"
+  },
+  {
+   "text": "意識がくもり、適切な行動ができなくなる",
+   "source_id": "nanbyou",
+   "evidence": "意識がくもり、適切な行動ができない"
+  },
+  {
+   "text": "動作が遅くなる、言葉が減る",
+   "source_id": "nanbyou",
+   "evidence": "動作緩慢、発語減少"
+  },
+  {
+   "text": "知的な発達や行動に影響が出ることがある",
+   "source_id": "nanbyou",
+   "evidence": "知的障害や行動障害を伴うことがあります"
+  }
+ ],
+ "onset": {
+  "text": "報告は世界各地からあり、女性にやや多いです",
+  "source_id": "nanbyou",
+  "evidence": "症例報告は世界各地からなされており、女性にやや多いです。"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "きわめて薬が効きにくく、完全な発作消失は難しいことが多いです"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4576",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:32:55+09:00",
+ "shard": 1
+}

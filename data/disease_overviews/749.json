@@ -1,0 +1,57 @@
+{
+ "idx": 749,
+ "name": "Duane眼球後退症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/233",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Duane retraction syndrome"
+  }
+ ],
+ "summary": {
+  "text": "A rare, ocular congenital cranial dysinnervation disorder characterized by limited horizontal eye movement accompanied by globe retraction and palpebral fissure narrowing on attempted adduction.",
+  "source_id": "orphanet",
+  "evidence": "A rare, ocular congenital cranial dysinn",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "limited horizontal eye movement",
+   "source_id": "orphanet",
+   "evidence": "limited horizontal eye movement"
+  },
+  {
+   "text": "globe retraction",
+   "source_id": "orphanet",
+   "evidence": "globe retraction"
+  },
+  {
+   "text": "palpebral fissure narrowing on attempted adduction",
+   "source_id": "orphanet",
+   "evidence": "palpebral fissure narrowing on attempted"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/233",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

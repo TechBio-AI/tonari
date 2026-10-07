@@ -1,0 +1,82 @@
+{
+ "idx": 821,
+ "name": "遺伝性痙性対麻痺7型",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/99013",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Spastic paraplegia type 7"
+  }
+ ],
+ "summary": {
+  "text": "A form of hereditary spastic ataxia characterized by an onset usually in adulthood (but ranging from 10-72 years) of progressive bilateral lower limb weakness and spasticity and sometimes predominant cerebellar ataxia. In addition to frequent sphincter dysfunction and decreased vibratory sense at the ankles, manifestations may include optical neuropathy, nystagmus, blepharoptosis, ophthalmoplegia, decreased hearing, scoliosis, pes cavus, motor and sensory neuropathy, muscle atrophy, parkinsonism, and dystonia.",
+  "source_id": "orphanet",
+  "evidence": "A form of hereditary spastic ataxia char",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "progressive bilateral lower limb weakness and spasticity",
+   "source_id": "orphanet",
+   "evidence": "progressive bilateral lower limb"
+  },
+  {
+   "text": "cerebellar ataxia",
+   "source_id": "orphanet",
+   "evidence": "cerebellar ataxia"
+  },
+  {
+   "text": "sphincter dysfunction",
+   "source_id": "orphanet",
+   "evidence": "sphincter dysfunction"
+  },
+  {
+   "text": "optical neuropathy",
+   "source_id": "orphanet",
+   "evidence": "optical neuropathy"
+  },
+  {
+   "text": "nystagmus",
+   "source_id": "orphanet",
+   "evidence": "nystagmus"
+  },
+  {
+   "text": "blepharoptosis",
+   "source_id": "orphanet",
+   "evidence": "blepharoptosis"
+  },
+  {
+   "text": "decreased hearing",
+   "source_id": "orphanet",
+   "evidence": "decreased hearing"
+  },
+  {
+   "text": "scoliosis",
+   "source_id": "orphanet",
+   "evidence": "scoliosis"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/99013",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "onset の記述「an onset usually in adulthood (but ranging from 10-72 years)」は数字を含むため onset は null。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

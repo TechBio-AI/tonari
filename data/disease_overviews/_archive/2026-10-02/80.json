@@ -1,0 +1,52 @@
+{
+ "idx": 80,
+ "name": "視神経脊髄炎",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/71211",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Neuromyelitis optica spectrum disorder"
+  }
+ ],
+ "summary": {
+  "text": "A rare inflammatory disease of the central nervous system characterized mainly by attacks of uni- or bilateral optic neuritis (ON) and acute myelitis.",
+  "source_id": "orphanet",
+  "evidence": "A rare inflammatory disease of the centr",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "uni- or bilateral optic neuritis",
+   "source_id": "orphanet",
+   "evidence": "uni- or bilateral optic neuritis"
+  },
+  {
+   "text": "acute myelitis",
+   "source_id": "orphanet",
+   "evidence": "acute myelitis"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/71211",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

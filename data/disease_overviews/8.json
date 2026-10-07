@@ -1,0 +1,83 @@
+{
+ "idx": 8,
+ "name": "軟骨無形成症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4570",
+   "fetched_at": "2026-09-24T00:45:38+09:00",
+   "sha256": "c7d2b8663da05a7f1385825191b6435cf722a46e11f13dc5d1e053ae07259975",
+   "title": "軟骨無形成症（指定難病２７６） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "背が低く、手足や指が短くなる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "低身長や四肢の短さ、指の短さが引き起こされる病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "背が低い",
+   "source_id": "nanbyou",
+   "evidence": "低身長"
+  },
+  {
+   "text": "特徴的な顔つきになる",
+   "source_id": "nanbyou",
+   "evidence": "特徴的な顔つき"
+  },
+  {
+   "text": "頭に水がたまる",
+   "source_id": "nanbyou",
+   "evidence": "水頭症"
+  },
+  {
+   "text": "呼吸が止まる、呼吸に障害が出る",
+   "source_id": "nanbyou",
+   "evidence": "無呼吸、呼吸障害"
+  },
+  {
+   "text": "中耳炎になる、耳が聞こえにくい",
+   "source_id": "nanbyou",
+   "evidence": "中耳炎、伝音性難聴"
+  },
+  {
+   "text": "手足がしびれる、力が入らない",
+   "source_id": "nanbyou",
+   "evidence": "しびれ、脱力"
+  },
+  {
+   "text": "腰や足が痛む",
+   "source_id": "nanbyou",
+   "evidence": "腰痛、下肢痛"
+  },
+  {
+   "text": "かみ合わせや歯並びが乱れる",
+   "source_id": "nanbyou",
+   "evidence": "歯の咬合不整、歯列不整"
+  }
+ ],
+ "onset": {
+  "text": "おなかの中にいるときの超音波検査で、骨が短いことを指摘されることがあります",
+  "source_id": "nanbyou",
+  "evidence": "胎内で超音波検査により骨が短いことを指摘されたり"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "上記の様な症状に対して、内科的、外科的治療が行われます。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4570",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「生後早期に…短い四肢や指」の一文は漢数字（四）を含み onset の規則に触れるため、同じ節の別の箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:44:56+09:00",
+ "shard": 3
+}

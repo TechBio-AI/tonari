@@ -1,0 +1,60 @@
+{
+ "idx": 250,
+ "name": "毛細血管拡張性運動失調症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/10_02_012/",
+   "fetched_at": "2026-09-24T00:50:44+09:00",
+   "sha256": "779a2b821123e0510ec06215512e80bd1b5c38a506a918fb5d9009d37659ea51",
+   "title": "毛細血管拡張性運動失調症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "ふらつき、細い血管の広がり、免疫の弱さが現れる病気です。",
+  "source_id": "shouman",
+  "evidence": "運動失調と毛細血管拡張、細胞性免疫不全を呈する疾患である",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "ふらついて体を思うように動かしにくい",
+   "source_id": "shouman",
+   "evidence": "運動失調と毛細血管拡張"
+  },
+  {
+   "text": "細い血管が広がって見える",
+   "source_id": "shouman",
+   "evidence": "毛細血管拡張"
+  },
+  {
+   "text": "免疫のはたらきが弱い",
+   "source_id": "shouman",
+   "evidence": "細胞性免疫不全を呈する"
+  },
+  {
+   "text": "飲み込みにくくなる",
+   "source_id": "shouman",
+   "evidence": "嚥下障害に対するリハビリテーション"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "現在のところATに対する根本的治療はない。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/10_02_012/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "症状の節が保存 HTML に無いため、同じページの概要と治療の節から症状を取った。",
+  "疫学の節は発症率の数値のみのため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:48:34+09:00",
+ "shard": 3
+}

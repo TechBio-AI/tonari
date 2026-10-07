@@ -1,0 +1,73 @@
+{
+ "idx": 673,
+ "name": "高オルニチン血症-高アンモニア血症-ホモシトルリン尿症症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/415",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Hyperornithinemia-hyperammonemia-homocitrullinuria syndrome"
+  }
+ ],
+ "summary": {
+  "text": "A rare, genetic disorder of urea cycle metabolism characterized by either a neonatal-onset with manifestations of lethargy, poor feeding, vomiting and tachypnea or, more commonly, presentations in infancy, childhood or adulthood with chronic neurocognitive deficits, acute encephalopathy and/or coagulation defects or other chronic liver dysfunction.",
+  "source_id": "orphanet",
+  "evidence": "A rare, genetic disorder of urea cycle m",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "lethargy",
+   "source_id": "orphanet",
+   "evidence": "lethargy"
+  },
+  {
+   "text": "poor feeding",
+   "source_id": "orphanet",
+   "evidence": "poor feeding"
+  },
+  {
+   "text": "vomiting",
+   "source_id": "orphanet",
+   "evidence": "vomiting"
+  },
+  {
+   "text": "tachypnea",
+   "source_id": "orphanet",
+   "evidence": "tachypnea"
+  },
+  {
+   "text": "chronic neurocognitive deficits",
+   "source_id": "orphanet",
+   "evidence": "chronic neurocognitive deficits"
+  },
+  {
+   "text": "acute encephalopathy",
+   "source_id": "orphanet",
+   "evidence": "acute encephalopathy"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/415",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: coagulation defects",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "新生児期と乳児期〜成人の発症が書かれており、時期を 1 つに決められないため onset は null。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

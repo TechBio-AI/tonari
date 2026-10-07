@@ -1,0 +1,76 @@
+{
+ "idx": 108,
+ "name": "進行性骨化性線維異形成症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/54",
+   "fetched_at": "2026-09-24T00:46:33+09:00",
+   "sha256": "2bc85ff031893403f3c5c62939ff8d3a2c767177a9669e5784acf0ea1812e8e0",
+   "title": "進行性骨化性線維異形成症（FOP）（指定難病２７２） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "全身の筋肉やその周りの膜・腱・じん帯が、少しずつ硬くなって骨に変わる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "全身の筋肉やその周囲の膜、腱、靭帯などが徐々に硬くなって骨に変わり",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "皮膚の下がはれたり硬くなったりする",
+   "source_id": "nanbyou",
+   "evidence": "皮膚の下が腫れたり硬くなったりして"
+  },
+  {
+   "text": "熱をもったり痛んだりする",
+   "source_id": "nanbyou",
+   "evidence": "時に熱を持ったり痛みを伴うことがあります"
+  },
+  {
+   "text": "関節の動きが悪くなる",
+   "source_id": "nanbyou",
+   "evidence": "手足の関節の動きが悪くなったり"
+  },
+  {
+   "text": "背中が変形する",
+   "source_id": "nanbyou",
+   "evidence": "背中が変形したりします"
+  },
+  {
+   "text": "呼吸に障害が出る",
+   "source_id": "nanbyou",
+   "evidence": "呼吸の障害が起きたり"
+  },
+  {
+   "text": "口が開けにくくなる",
+   "source_id": "nanbyou",
+   "evidence": "口が開けにくくなったりすることがあります"
+  },
+  {
+   "text": "生まれつき足の親指が短く曲がっている",
+   "source_id": "nanbyou",
+   "evidence": "生まれつき足の親指が短く曲がっていることが多い"
+  }
+ ],
+ "onset": {
+  "text": "特定の国や地域に多いという傾向はありません",
+  "source_id": "nanbyou",
+  "evidence": "この病気は特定の国や地域に多いという傾向はなく"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "この病気を完全に治してしまう治療法は現在ありません。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/54",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:36:53+09:00",
+ "shard": 2
+}

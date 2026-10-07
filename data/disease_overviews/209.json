@@ -1,0 +1,65 @@
+{
+ "idx": 209,
+ "name": "広範脊柱管狭窄症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/101",
+   "fetched_at": "2026-09-24T00:44:05+09:00",
+   "sha256": "3c5c756fdf68c2238ae9e6378d93374680e895c017f922ce6961471f1799cf6d",
+   "title": "広範脊柱管狭窄症（指定難病７０） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "背骨の中の神経の通り道が広い範囲で狭くなり、神経に障害が出る病気です。",
+  "source_id": "nanbyou",
+  "evidence": "広範囲にわたり脊柱管が狭くなり、脊髄神経の障害を引き起こす病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "手がしびれる、使いにくくなる",
+   "source_id": "nanbyou",
+   "evidence": "手のしびれ、使いにくさ"
+  },
+  {
+   "text": "足がしびれる、つっぱる",
+   "source_id": "nanbyou",
+   "evidence": "下肢のしびれやつっぱり"
+  },
+  {
+   "text": "歩きにくくなる",
+   "source_id": "nanbyou",
+   "evidence": "歩行障害"
+  },
+  {
+   "text": "尿が近くなる",
+   "source_id": "nanbyou",
+   "evidence": "頻尿などがおこります"
+  },
+  {
+   "text": "立ったり歩いたりすると足が痛む",
+   "source_id": "nanbyou",
+   "evidence": "立ち上がった時や歩いた時の下肢の痛みやしびれ"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "治療として局所の安静を必要とします。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/101",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節の発症年齢は数値と一体のため onset は null。",
+  "治療の節には薬剤名が並ぶので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:38:40+09:00",
+ "shard": 2
+}

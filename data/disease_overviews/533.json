@@ -1,0 +1,43 @@
+{
+ "idx": 533,
+ "name": "中心核ミオパチー",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/595",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Centronuclear myopathy"
+  }
+ ],
+ "summary": {
+  "text": "A rare group of inherited neuromuscular disorders characterized by clinical features of a congenital myopathy and centrally placed nuclei on muscle biopsy. The clinical picture and other histologic features varies according to gene involved and mode of inheritance.",
+  "source_id": "orphanet",
+  "evidence": "A rare group of inherited neuromuscular ",
+  "lang": "en"
+ },
+ "symptoms": [],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/595",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: centrally placed nuclei on muscle biopsy",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Definition は「clinical features of a congenital myopathy」とだけ書き、症状の列挙が無い。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

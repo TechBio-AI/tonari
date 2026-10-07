@@ -1,0 +1,83 @@
+{
+ "idx": 14,
+ "name": "脊髄性筋萎縮症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/135",
+   "fetched_at": "2026-09-24T00:44:17+09:00",
+   "sha256": "97addbb3d73aa26c6bf39a2e722339270aa7400c7109913612b198b1cc61b28e",
+   "title": "脊髄性筋萎縮症（指定難病３） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "脊髄の運動神経がおかされて、筋肉がやせていく病気です。",
+  "source_id": "nanbyou",
+  "evidence": "脊髄の運動ニューロン(脊髄前角細胞)の病変によって起こる 神経原性の筋萎縮症",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "筋力が落ちる、筋肉がやせる",
+   "source_id": "nanbyou",
+   "evidence": "全ての型で筋力低下と筋萎縮を示し"
+  },
+  {
+   "text": "支えなしに座れない",
+   "source_id": "nanbyou",
+   "evidence": "支えなしに座ることができず"
+  },
+  {
+   "text": "おっぱいやミルクを飲むのが難しい",
+   "source_id": "nanbyou",
+   "evidence": "哺乳困難"
+  },
+  {
+   "text": "飲み込みにくい、むせる",
+   "source_id": "nanbyou",
+   "evidence": "嚥下困難 、誤嚥"
+  },
+  {
+   "text": "呼吸が苦しくなる",
+   "source_id": "nanbyou",
+   "evidence": "呼吸不全を伴います"
+  },
+  {
+   "text": "舌が細かくふるえる",
+   "source_id": "nanbyou",
+   "evidence": "舌の細かい振え"
+  },
+  {
+   "text": "関節が固くなる、背骨が曲がる",
+   "source_id": "nanbyou",
+   "evidence": "関節拘縮と側弯が著明になります"
+  },
+  {
+   "text": "転びやすくなる",
+   "source_id": "nanbyou",
+   "evidence": "転びやすい"
+  }
+ ],
+ "onset": {
+  "text": "男女差はありません。型によって乳児期や幼児期に発症します",
+  "source_id": "nanbyou",
+  "evidence": "男女差はありません。I型は乳児期、II型は乳児期から幼児期"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "本症では世界的に治療薬の開発と治験（臨床試験）が実施され"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/135",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節には薬剤名が並ぶので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:44:40+09:00",
+ "shard": 3
+}

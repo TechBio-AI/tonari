@@ -1,0 +1,71 @@
+{
+ "idx": 611,
+ "name": "総排泄腔遺残",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4588",
+   "fetched_at": "2026-09-24T00:45:42+09:00",
+   "sha256": "f5f97f69d5fc6a51eeffe15bbb3653892a72ec2d3d13f37298b3eb07dd67c954",
+   "title": "総排泄腔遺残（指定難病２９３） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "一つの狭い通路に膀胱・腟・直腸が開いている、生まれつきの病気です。",
+  "source_id": "nanbyou",
+  "evidence": "総排泄腔という狭い通路に膀胱、腟、直腸が開口するため",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "排便が障害される",
+   "source_id": "nanbyou",
+   "evidence": "排便が障害され腸管が進行性に拡張し"
+  },
+  {
+   "text": "お腹がふくらむ",
+   "source_id": "nanbyou",
+   "evidence": "腹部膨満 と腸管穿孔が発生します"
+  },
+  {
+   "text": "排尿も障害されることがある",
+   "source_id": "nanbyou",
+   "evidence": "共通管が狭い場合や長い場合は排尿も障害されます"
+  },
+  {
+   "text": "腟に尿がたまって広がる",
+   "source_id": "nanbyou",
+   "evidence": "尿が腟に流入し腟が拡張する"
+  },
+  {
+   "text": "お腹に水がたまる",
+   "source_id": "nanbyou",
+   "evidence": "腹部膨満、腹水、水腎症、腸管拡張などが発生します"
+  },
+  {
+   "text": "腎臓や尿路に異常をともなう",
+   "source_id": "nanbyou",
+   "evidence": "片腎無形成、水腎症、腎 異形成"
+  }
+ ],
+ "onset": {
+  "text": "女の子にしか発生せず、男の子には発生しません",
+  "source_id": "nanbyou",
+  "evidence": "女児にしか発生しない病気で、男児には発生しません。"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "外科治療が中心となります。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4588",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T03:01:40+09:00",
+ "shard": 4
+}

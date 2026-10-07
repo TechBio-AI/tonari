@@ -1,0 +1,74 @@
+{
+ "idx": 383,
+ "name": "クリグラー・ナジャー症候群",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/12_11_034/",
+   "fetched_at": "2026-09-24T00:52:41+09:00",
+   "sha256": "608a352d877b027f7be4e83fdc526db65e45b2465ff18083b6341ff8d4677eff",
+   "title": "クリグラー・ナジャー（Crigler-Najjar）症候群 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "ある物質を処理する反応が障害されて起こる病気です。",
+  "source_id": "shouman",
+  "evidence": "グルクロン酸抱合が障害されて起きるもの",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "体がふにゃふにゃする",
+   "source_id": "shouman",
+   "evidence": "核黄疸（ビリルビン脳症）の症状は筋緊張低下"
+  },
+  {
+   "text": "眠りがちになる",
+   "source_id": "shouman",
+   "evidence": "傾眠傾向"
+  },
+  {
+   "text": "体が反り返る",
+   "source_id": "shouman",
+   "evidence": "後弓反張"
+  },
+  {
+   "text": "目が下を向く",
+   "source_id": "shouman",
+   "evidence": "落陽現象"
+  },
+  {
+   "text": "甲高い泣き声になる",
+   "source_id": "shouman",
+   "evidence": "甲高い泣き声"
+  },
+  {
+   "text": "けいれんが起きる",
+   "source_id": "shouman",
+   "evidence": "けいれんなどである"
+  },
+  {
+   "text": "耳が聞こえにくくなる",
+   "source_id": "shouman",
+   "evidence": "感音性難聴などが現れる"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "光線療法を継続し可能であれば肝移植を受ける"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/12_11_034/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は頻度の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:59:04+09:00",
+ "shard": 4
+}

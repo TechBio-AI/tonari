@@ -1,0 +1,68 @@
+{
+ "idx": 757,
+ "name": "先天性停止性夜盲",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/215",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Congenital stationary night blindness"
+  }
+ ],
+ "summary": {
+  "text": "Congenital stationary night blindness (CSNB) refers to a non-progressive group of retinal disorders characterized by night or dim light vision disturbance or delayed dark adaptation, poor visual acuity (ranging from 20/30 to 20/200), myopia (ranging from low (-0.25 diopters [D] to -4.75 D) to high (≥-10.00 D)), nystagmus, strabismus, normal color vision and fundus abnormalities.",
+  "source_id": "orphanet",
+  "evidence": "Congenital stationary night blindness (C",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "night or dim light vision disturbance",
+   "source_id": "orphanet",
+   "evidence": "night or dim light vision disturbance"
+  },
+  {
+   "text": "poor visual acuity",
+   "source_id": "orphanet",
+   "evidence": "poor visual acuity"
+  },
+  {
+   "text": "myopia",
+   "source_id": "orphanet",
+   "evidence": "myopia"
+  },
+  {
+   "text": "nystagmus",
+   "source_id": "orphanet",
+   "evidence": "nystagmus"
+  },
+  {
+   "text": "strabismus",
+   "source_id": "orphanet",
+   "evidence": "strabismus"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/215",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: 視力・屈折の数値 / fundus abnormalities（眼底所見）",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

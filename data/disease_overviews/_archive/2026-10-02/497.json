@@ -1,0 +1,62 @@
+{
+ "idx": 497,
+ "name": "セピアプテリン還元酵素欠損症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/70594",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Dopa-responsive dystonia due to sepiapterin reductase deficiency"
+  }
+ ],
+ "summary": {
+  "text": "Dopa-responsive dystonia (DRD) due to sepiapterin reductase deficiency (SRD) is a very rare neurometabolic disorder characterized by dystonia with diurnal fluctuations, axial hypotonia, oculogyric crises, and delays in motor and cognitive development.",
+  "source_id": "orphanet",
+  "evidence": "Dopa-responsive dystonia (DRD) due to se",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "dystonia with diurnal fluctuations",
+   "source_id": "orphanet",
+   "evidence": "dystonia with diurnal fluctuations"
+  },
+  {
+   "text": "axial hypotonia",
+   "source_id": "orphanet",
+   "evidence": "axial hypotonia"
+  },
+  {
+   "text": "oculogyric crises",
+   "source_id": "orphanet",
+   "evidence": "oculogyric crises"
+  },
+  {
+   "text": "delays in motor and cognitive development",
+   "source_id": "orphanet",
+   "evidence": "delays in motor and cognitive"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/70594",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

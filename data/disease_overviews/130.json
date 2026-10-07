@@ -1,0 +1,69 @@
+{
+ "idx": 130,
+ "name": "球脊髄性筋萎縮症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/73",
+   "fetched_at": "2026-09-24T00:46:42+09:00",
+   "sha256": "934c3f9e7c5d7e3f356c39e9bb93f39dcd01dd0bd105003e313b4c8d879ac28e",
+   "title": "球脊髄性筋萎縮症（指定難病１） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "話したり飲み込んだりする筋肉や、舌・手足の筋肉がやせていく病気です。",
+  "source_id": "nanbyou",
+  "evidence": "飲み込んだりするときに使う筋肉や舌の筋肉、さらには手足の筋肉が萎縮",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "しゃべりにくい",
+   "source_id": "nanbyou",
+   "evidence": "しゃべりにくい"
+  },
+  {
+   "text": "食事のときにむせやすい",
+   "source_id": "nanbyou",
+   "evidence": "食事の際にむせやすい"
+  },
+  {
+   "text": "顔がぴくつく",
+   "source_id": "nanbyou",
+   "evidence": "顔がぴくつく"
+  },
+  {
+   "text": "手足がやせて力が入らない",
+   "source_id": "nanbyou",
+   "evidence": "手足がやせて力が入らない"
+  },
+  {
+   "text": "乳房が大きくなることがある",
+   "source_id": "nanbyou",
+   "evidence": "乳房が大きくなることもあります"
+  }
+ ],
+ "onset": {
+  "text": "男性のみに起こります",
+  "source_id": "nanbyou",
+  "evidence": "男性のみが発症し"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "進行抑制治療として承認されています"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/73",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節には薬剤名と製品名が出てくるので、含まない箇所を evidence に選んだ。",
+  "発症年齢の記載は数値と一体のため、onset には性別の記述だけを取った。"
+ ],
+ "extracted_at": "2026-09-25T02:26:37+09:00",
+ "shard": 1
+}

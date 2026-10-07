@@ -1,0 +1,43 @@
+{
+ "idx": 711,
+ "name": "遺伝性血栓性血小板減少性紫斑病",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/93583",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Congenital thrombotic thrombocytopenic purpura"
+  }
+ ],
+ "summary": {
+  "text": "A hereditary form of thrombotic thrombocytopenic purpura (TTP) characterized by profound peripheral thrombocytopenia, microangiopathic hemolytic anemia (MAHA) and single or multiple organ failure of variable severity.",
+  "source_id": "orphanet",
+  "evidence": "A hereditary form of thrombotic thromboc",
+  "lang": "en"
+ },
+ "symptoms": [],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/93583",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: profound peripheral thrombocytopenia / microangiopathic hemolytic anemia",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "臓器不全の記述は重症度の説明で、症状の列挙として扱わなかった。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

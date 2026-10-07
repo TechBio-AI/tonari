@@ -1,0 +1,165 @@
+{
+  "_readme": [
+    "★ これは 11 疾患のための暫定形式です。将来 supabase の themes / theme_facts / fact_sources（器）へ移行します。",
+    "  情報の種類を増やすときは、この形式を拡張するのではなく、器への移行を検討してください（docs/CONTENT_ROADMAP.md）。",
+    "中身: ファウンダーが判定した患者向けの文（docs/disease_summaries_draft_2026-09-13.md、2026-09-13 承認）。",
+    "common_symptoms は HPO v2026-06-23 の「非常に多い」「多い」を元に言い換えたもの。各項目は sources に元の HPO ラベルか「執筆者による記述」を持つ。",
+    "例外：OMIM 側のアノテーションに由来する項目が 2 件ある（HP:0002013、HP:0006323）",
+    "表示では頻度を区別しない。薬剤名は書かない。",
+    "読み込み: lib/portal/disease-summaries.ts"
+  ],
+  "slug": "hypophosphatasia",
+  "disease": "低ホスファターゼ症",
+  "orpha_code": "ORPHA:436",
+  "hpo_version": "v2026-06-23",
+  "approved": "2026-09-13",
+  "symptoms_preface": null,
+  "common_symptoms": [
+    {
+      "text": "歯に問題が出る。乳歯が早く抜ける",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "歯の異常"
+          ],
+          "hpo_ids": [
+            "HP:0000164"
+          ]
+        },
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "早発性乳歯喪失"
+          ],
+          "hpo_ids": [
+            "HP:0006323"
+          ],
+          "annotations": [
+            {
+              "database_id": "OMIM:241510",
+              "disease_name": "Hypophosphatasia, childhood",
+              "frequency": null
+            },
+            {
+              "database_id": "OMIM:146300",
+              "disease_name": "Hypophosphatasia, adult",
+              "frequency": null
+            }
+          ],
+          "hpo_annotation_version": "2026-06-23"
+        }
+      ]
+    },
+    {
+      "text": "背が低い、乳児期に体重が増えにくい",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "低身長",
+            "乳児期の成長障害 (成長不全)"
+          ],
+          "hpo_ids": [
+            "HP:0004322",
+            "HP:0001531"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "手足の骨が曲がる",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "長管骨湾曲"
+          ],
+          "hpo_ids": [
+            "HP:0006487"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "胸が狭く、肋骨の形に異常がある",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "狭い胸郭",
+            "肋骨の異常"
+          ],
+          "hpo_ids": [
+            "HP:0000774",
+            "HP:0000772"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "頭の骨の形や、泉門（頭のやわらかい部分）に異常がある",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "大きな泉門",
+            "頭蓋合骨症"
+          ],
+          "hpo_ids": [
+            "HP:0000239",
+            "HP:0001363"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "骨折しやすい",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "反復性骨折"
+          ],
+          "hpo_ids": [
+            "HP:0002757"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "呼吸が弱くなる",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "呼吸不全"
+          ],
+          "hpo_ids": [
+            "HP:0002093"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "けいれん発作",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "発作"
+          ],
+          "hpo_ids": [
+            "HP:0001250"
+          ]
+        }
+      ]
+    }
+  ],
+  "treatment_summary": [
+    "不足している酵素を補う治療があります。",
+    "症状に合わせた治療を行います。"
+  ],
+  "treatment_source": "知識ファイル（data/knowledge/comprehensive_rare_diseases_knowledge.json）の treatment を元に、薬剤名を除いて執筆者が要約。ファウンダー確認待ち（2026-09-13 下書き）",
+  "nanbyo_number": null
+}

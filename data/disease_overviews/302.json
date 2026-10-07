@@ -1,0 +1,74 @@
+{
+ "idx": 302,
+ "name": "先天性胆道拡張症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/12_08_028/",
+   "fetched_at": "2026-09-24T00:52:27+09:00",
+   "sha256": "ab651c5ece65af11f488fa164514398f02fce1a0118232204faa8b34be835fa8",
+   "title": "先天性胆道拡張症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "肝臓の中や外の胆管がふくらんだ状態になる病気です。",
+  "source_id": "shouman",
+  "evidence": "肝内胆管や肝外胆管もしくは両方が拡張する病態である",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "右上腹部にしこりがある",
+   "source_id": "shouman",
+   "evidence": "右上腹部腫瘤"
+  },
+  {
+   "text": "皮膚や目が黄色くなる",
+   "source_id": "shouman",
+   "evidence": "黄疸"
+  },
+  {
+   "text": "お腹が痛む",
+   "source_id": "shouman",
+   "evidence": "腹痛"
+  },
+  {
+   "text": "熱が出る",
+   "source_id": "shouman",
+   "evidence": "乳幼児では発熱"
+  },
+  {
+   "text": "食欲がない",
+   "source_id": "shouman",
+   "evidence": "食欲不振"
+  },
+  {
+   "text": "吐く",
+   "source_id": "shouman",
+   "evidence": "嘔吐"
+  },
+  {
+   "text": "便の色が変わる",
+   "source_id": "shouman",
+   "evidence": "便色異常"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "治療には外科手術が必要である。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/12_08_028/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は頻度の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:30:26+09:00",
+ "shard": 1
+}

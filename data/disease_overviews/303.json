@@ -1,0 +1,69 @@
+{
+ "idx": 303,
+ "name": "先天性門脈欠損症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/12_10_032/",
+   "fetched_at": "2026-09-24T00:52:31+09:00",
+   "sha256": "32087015f42d441de9efb4300c269574b6c10685ba544c863c74b329462a9d3c",
+   "title": "先天性門脈欠損症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "門脈という血管が育たず、肝臓に十分な血が流れない生まれつきの病気です。",
+  "source_id": "shouman",
+  "evidence": "門脈低形成または欠損により門脈血流が肝を十分灌流しないもの",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "多くは症状がない",
+   "source_id": "shouman",
+   "evidence": "CPSSの多くは無症状であり"
+  },
+  {
+   "text": "神経の症状や肝性脳症が出る",
+   "source_id": "shouman",
+   "evidence": "神経症状ないし肝性脳症"
+  },
+  {
+   "text": "肝臓に腫瘍ができる",
+   "source_id": "shouman",
+   "evidence": "肝腫瘍"
+  },
+  {
+   "text": "息が苦しくなる、肺の血圧が上がる",
+   "source_id": "shouman",
+   "evidence": "肝肺症候群ないし肺高血圧症"
+  },
+  {
+   "text": "低血糖になる",
+   "source_id": "shouman",
+   "evidence": "高インスリン性の低血糖"
+  },
+  {
+   "text": "頭が痛む",
+   "source_id": "shouman",
+   "evidence": "頭痛なども知られている"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "有症状例はシャント閉鎖術を考慮する。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/12_10_032/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は頻度の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:40:16+09:00",
+ "shard": 2
+}

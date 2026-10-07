@@ -1,0 +1,81 @@
+{
+ "idx": 19,
+ "name": "非典型溶血性尿毒症症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3846",
+   "fetched_at": "2026-09-24T00:44:44+09:00",
+   "sha256": "9b4f780e1dd00c5e57f1619e9d3c3862ccc0bdef70976c850f126de1a870ec06",
+   "title": "非典型溶血性尿毒症症候群（指定難病１０９） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "生まれつき、体を守る仕組みの一つを抑えきれない体質で起こる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "遺伝子の変異により生まれつき補体のコントロールがつきにくい人が",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "皮膚に点状や斑状の出血斑が出る",
+   "source_id": "nanbyou",
+   "evidence": "点状や斑状の出血斑"
+  },
+  {
+   "text": "体がだるい",
+   "source_id": "nanbyou",
+   "evidence": "全身倦怠感"
+  },
+  {
+   "text": "息が切れる",
+   "source_id": "nanbyou",
+   "evidence": "息切れです"
+  },
+  {
+   "text": "むくむ",
+   "source_id": "nanbyou",
+   "evidence": "浮腫（むくみ）"
+  },
+  {
+   "text": "尿の量が減る",
+   "source_id": "nanbyou",
+   "evidence": "尿量の減少"
+  },
+  {
+   "text": "食欲が落ちる",
+   "source_id": "nanbyou",
+   "evidence": "食欲低下"
+  },
+  {
+   "text": "熱が出る",
+   "source_id": "nanbyou",
+   "evidence": "発熱"
+  },
+  {
+   "text": "お腹が痛む、便に血がまじる",
+   "source_id": "nanbyou",
+   "evidence": "消化器症状（腹痛・下血）"
+  }
+ ],
+ "onset": {
+  "text": "赤ちゃんから大人まで、はば広い年代でみられます",
+  "source_id": "nanbyou",
+  "evidence": "aHUSは新生児から大人まで幅広い年齢層に見られます。"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "血漿交換や血漿輸注という血漿療法"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3846",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:35:30+09:00",
+ "shard": 2
+}

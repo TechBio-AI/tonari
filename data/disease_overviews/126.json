@@ -1,0 +1,60 @@
+{
+ "idx": 126,
+ "name": "本態性血小板血症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/09_19_031/",
+   "fetched_at": "2026-09-24T00:50:30+09:00",
+   "sha256": "83394867722e70a423f0b46cdecc5c042de18f19dbea7a8f198918951c9862fc",
+   "title": "本態性血小板血症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "血を作るもとの細胞が増えることで起こる、まれな病気の集まりです。",
+  "source_id": "shouman",
+  "evidence": "造血幹細胞レベルのクローナルな増殖に起因するとされる、稀な疾患群",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "血小板が増える",
+   "source_id": "shouman",
+   "evidence": "ETでは血小板が増加することにより"
+  },
+  {
+   "text": "痛みやしびれが出る",
+   "source_id": "shouman",
+   "evidence": "痛み・痺れ等の血栓症の症状"
+  },
+  {
+   "text": "紫色のあざができる",
+   "source_id": "shouman",
+   "evidence": "紫斑"
+  },
+  {
+   "text": "鼻血が出やすい",
+   "source_id": "shouman",
+   "evidence": "鼻血などの易出血症状"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "小児のPV/ETなどは無治療経過観察の場合もある"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/09_19_031/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は発症頻度が不明としか書かれておらず onset は null。",
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:47:21+09:00",
+ "shard": 3
+}

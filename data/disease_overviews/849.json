@@ -1,0 +1,73 @@
+{
+ "idx": 849,
+ "name": "先天性葉酸吸収不全",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4822",
+   "fetched_at": "2026-09-24T00:46:11+09:00",
+   "sha256": "8bd041ff5c4b2babb3c18565b4ceb34b887c188239dea31ecfe2da625d83f904",
+   "title": "先天性葉酸吸収不全（指定難病２５３） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "食べ物にふくまれる葉酸を、生まれつき腸から吸収できない病気です。",
+  "source_id": "nanbyou",
+  "evidence": "食品中に含まれている葉酸を生まれつき腸管で吸収できず",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "貧血になる",
+   "source_id": "nanbyou",
+   "evidence": "貧血（赤血球の減少"
+  },
+  {
+   "text": "感染症をくり返す",
+   "source_id": "nanbyou",
+   "evidence": "繰り返す感染症"
+  },
+  {
+   "text": "下痢が治りにくい",
+   "source_id": "nanbyou",
+   "evidence": "治りにくい下痢"
+  },
+  {
+   "text": "体重が増えにくい",
+   "source_id": "nanbyou",
+   "evidence": "体重増加不良などの成長障害"
+  },
+  {
+   "text": "発達がゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "発達の遅れ"
+  },
+  {
+   "text": "てんかんが起こる",
+   "source_id": "nanbyou",
+   "evidence": "てんかん"
+  }
+ ],
+ "onset": {
+  "text": "発症は早く、乳児期から症状が現れます",
+  "source_id": "nanbyou",
+  "evidence": "発症は早く、乳児期から貧血などの症状が現れます。"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "定期的に筋肉内に注射することにより"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4822",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:32:55+09:00",
+ "shard": 1
+}

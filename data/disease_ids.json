@@ -1,0 +1,5716 @@
+{
+ "_readme": [
+  "疾患の固定 ID（stable_id）と、知識ファイル上の位置（idx）・主名・orpha_code の対応表（共通契約 A）。",
+  "この対応は不変。知識ファイルの並び替え・統合・分割をしても stable_id は変えない。新しい疾患は末尾に付番する。",
+  "idx・主名・orpha_code は作成時（2026-10-03）の値。詳しくは docs/disease_ids.md",
+  "生成: scripts/portal/assign_stable_ids.py"
+ ],
+ "diseases": [
+  {
+   "stable_id": "rd00001",
+   "idx": 0,
+   "name": "ファブリー病",
+   "orpha_code": "ORPHA:324"
+  },
+  {
+   "stable_id": "rd00002",
+   "idx": 1,
+   "name": "ムコ多糖症I型",
+   "orpha_code": "ORPHA:579"
+  },
+  {
+   "stable_id": "rd00003",
+   "idx": 2,
+   "name": "ムコ多糖症II型",
+   "orpha_code": "ORPHA:580"
+  },
+  {
+   "stable_id": "rd00004",
+   "idx": 3,
+   "name": "ゴーシェ病",
+   "orpha_code": "ORPHA:355"
+  },
+  {
+   "stable_id": "rd00005",
+   "idx": 4,
+   "name": "ポンペ病",
+   "orpha_code": "ORPHA:365"
+  },
+  {
+   "stable_id": "rd00006",
+   "idx": 5,
+   "name": "ニーマン・ピック病C型",
+   "orpha_code": "ORPHA:646"
+  },
+  {
+   "stable_id": "rd00007",
+   "idx": 6,
+   "name": "メチルマロン酸血症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00008",
+   "idx": 7,
+   "name": "遺伝性血管浮腫",
+   "orpha_code": "ORPHA:91378"
+  },
+  {
+   "stable_id": "rd00009",
+   "idx": 8,
+   "name": "軟骨無形成症",
+   "orpha_code": "ORPHA:15"
+  },
+  {
+   "stable_id": "rd00010",
+   "idx": 9,
+   "name": "デュシェンヌ型筋ジストロフィー",
+   "orpha_code": "ORPHA:98896"
+  },
+  {
+   "stable_id": "rd00011",
+   "idx": 10,
+   "name": "血栓性血小板減少性紫斑病",
+   "orpha_code": "ORPHA:54057"
+  },
+  {
+   "stable_id": "rd00012",
+   "idx": 11,
+   "name": "原発性高シュウ酸尿症1型",
+   "orpha_code": "ORPHA:93598"
+  },
+  {
+   "stable_id": "rd00013",
+   "idx": 12,
+   "name": "フェニルケトン尿症",
+   "orpha_code": "ORPHA:716"
+  },
+  {
+   "stable_id": "rd00014",
+   "idx": 13,
+   "name": "MELAS症候群",
+   "orpha_code": "ORPHA:550"
+  },
+  {
+   "stable_id": "rd00015",
+   "idx": 14,
+   "name": "脊髄性筋萎縮症",
+   "orpha_code": "ORPHA:70"
+  },
+  {
+   "stable_id": "rd00016",
+   "idx": 15,
+   "name": "遺伝性ATTR型アミロイドーシス",
+   "orpha_code": "ORPHA:271861"
+  },
+  {
+   "stable_id": "rd00017",
+   "idx": 16,
+   "name": "遺伝性ALS",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00018",
+   "idx": 17,
+   "name": "血友病A",
+   "orpha_code": "ORPHA:98878"
+  },
+  {
+   "stable_id": "rd00019",
+   "idx": 18,
+   "name": "発作性夜間ヘモグロビン尿症",
+   "orpha_code": "ORPHA:447"
+  },
+  {
+   "stable_id": "rd00020",
+   "idx": 19,
+   "name": "非典型溶血性尿毒症症候群",
+   "orpha_code": "ORPHA:2134"
+  },
+  {
+   "stable_id": "rd00021",
+   "idx": 20,
+   "name": "原発性免疫不全症",
+   "orpha_code": "ORPHA:101997"
+  },
+  {
+   "stable_id": "rd00022",
+   "idx": 21,
+   "name": "X連鎖性低リン血症性くる病",
+   "orpha_code": "ORPHA:89936"
+  },
+  {
+   "stable_id": "rd00023",
+   "idx": 22,
+   "name": "低ホスファターゼ症",
+   "orpha_code": "ORPHA:436"
+  },
+  {
+   "stable_id": "rd00024",
+   "idx": 23,
+   "name": "レーベル先天性黒内障",
+   "orpha_code": "ORPHA:65"
+  },
+  {
+   "stable_id": "rd00025",
+   "idx": 24,
+   "name": "プリオン病",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00026",
+   "idx": 25,
+   "name": "カタトニア症候群",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00027",
+   "idx": 26,
+   "name": "ハンチントン病",
+   "orpha_code": "ORPHA:399"
+  },
+  {
+   "stable_id": "rd00028",
+   "idx": 27,
+   "name": "ウィルソン病",
+   "orpha_code": "ORPHA:905"
+  },
+  {
+   "stable_id": "rd00029",
+   "idx": 28,
+   "name": "全身性エリテマトーデス",
+   "orpha_code": "ORPHA:536"
+  },
+  {
+   "stable_id": "rd00030",
+   "idx": 29,
+   "name": "関節リウマチ",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00031",
+   "idx": 30,
+   "name": "多発性硬化症",
+   "orpha_code": "ORPHA:802"
+  },
+  {
+   "stable_id": "rd00032",
+   "idx": 31,
+   "name": "パーキンソン病",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00033",
+   "idx": 32,
+   "name": "重症筋無力症",
+   "orpha_code": "ORPHA:589"
+  },
+  {
+   "stable_id": "rd00034",
+   "idx": 33,
+   "name": "ベーチェット病",
+   "orpha_code": "ORPHA:117"
+  },
+  {
+   "stable_id": "rd00035",
+   "idx": 34,
+   "name": "全身性強皮症",
+   "orpha_code": "ORPHA:90291"
+  },
+  {
+   "stable_id": "rd00036",
+   "idx": 35,
+   "name": "皮膚筋炎",
+   "orpha_code": "ORPHA:221"
+  },
+  {
+   "stable_id": "rd00037",
+   "idx": 36,
+   "name": "サルコイドーシス",
+   "orpha_code": "ORPHA:797"
+  },
+  {
+   "stable_id": "rd00038",
+   "idx": 37,
+   "name": "結節性多発動脈炎",
+   "orpha_code": "ORPHA:767"
+  },
+  {
+   "stable_id": "rd00039",
+   "idx": 38,
+   "name": "ANCA関連血管炎",
+   "orpha_code": "ORPHA:156152"
+  },
+  {
+   "stable_id": "rd00040",
+   "idx": 39,
+   "name": "IgA腎症",
+   "orpha_code": "ORPHA:34145"
+  },
+  {
+   "stable_id": "rd00041",
+   "idx": 40,
+   "name": "特発性肺線維症",
+   "orpha_code": "ORPHA:2032"
+  },
+  {
+   "stable_id": "rd00042",
+   "idx": 41,
+   "name": "特発性血小板減少性紫斑病",
+   "orpha_code": "ORPHA:3002"
+  },
+  {
+   "stable_id": "rd00043",
+   "idx": 42,
+   "name": "再生不良性貧血",
+   "orpha_code": "ORPHA:182040"
+  },
+  {
+   "stable_id": "rd00044",
+   "idx": 43,
+   "name": "骨髄異形成症候群",
+   "orpha_code": "ORPHA:52"
+  },
+  {
+   "stable_id": "rd00045",
+   "idx": 44,
+   "name": "全身性アミロイドーシス",
+   "orpha_code": "ORPHA:69"
+  },
+  {
+   "stable_id": "rd00046",
+   "idx": 45,
+   "name": "マルファン症候群",
+   "orpha_code": "ORPHA:558"
+  },
+  {
+   "stable_id": "rd00047",
+   "idx": 46,
+   "name": "エーラス・ダンロス症候群",
+   "orpha_code": "ORPHA:98249"
+  },
+  {
+   "stable_id": "rd00048",
+   "idx": 47,
+   "name": "ターナー症候群",
+   "orpha_code": "ORPHA:881"
+  },
+  {
+   "stable_id": "rd00049",
+   "idx": 48,
+   "name": "クラインフェルター症候群",
+   "orpha_code": "ORPHA:484"
+  },
+  {
+   "stable_id": "rd00050",
+   "idx": 49,
+   "name": "プラダー・ウィリー症候群",
+   "orpha_code": "ORPHA:739"
+  },
+  {
+   "stable_id": "rd00051",
+   "idx": 50,
+   "name": "ダウン症候群",
+   "orpha_code": "ORPHA:870"
+  },
+  {
+   "stable_id": "rd00052",
+   "idx": 51,
+   "name": "結節性硬化症",
+   "orpha_code": "ORPHA:805"
+  },
+  {
+   "stable_id": "rd00053",
+   "idx": 52,
+   "name": "神経線維腫症1型",
+   "orpha_code": "ORPHA:636"
+  },
+  {
+   "stable_id": "rd00054",
+   "idx": 53,
+   "name": "常染色体優性多発性嚢胞腎",
+   "orpha_code": "ORPHA:730"
+  },
+  {
+   "stable_id": "rd00055",
+   "idx": 54,
+   "name": "嚢胞性線維症",
+   "orpha_code": "ORPHA:586"
+  },
+  {
+   "stable_id": "rd00056",
+   "idx": 55,
+   "name": "22q11.2欠失症候群",
+   "orpha_code": "ORPHA:567"
+  },
+  {
+   "stable_id": "rd00057",
+   "idx": 56,
+   "name": "筋強直性ジストロフィー",
+   "orpha_code": "ORPHA:206647"
+  },
+  {
+   "stable_id": "rd00058",
+   "idx": 57,
+   "name": "先天性副腎過形成",
+   "orpha_code": "ORPHA:418"
+  },
+  {
+   "stable_id": "rd00059",
+   "idx": 58,
+   "name": "先天性甲状腺機能低下症",
+   "orpha_code": "ORPHA:442"
+  },
+  {
+   "stable_id": "rd00060",
+   "idx": 59,
+   "name": "成長ホルモン分泌不全性低身長症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00061",
+   "idx": 60,
+   "name": "特発性大腿骨頭壊死症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00062",
+   "idx": 61,
+   "name": "もやもや病",
+   "orpha_code": "ORPHA:2573"
+  },
+  {
+   "stable_id": "rd00063",
+   "idx": 62,
+   "name": "川崎病",
+   "orpha_code": "ORPHA:2331"
+  },
+  {
+   "stable_id": "rd00064",
+   "idx": 63,
+   "name": "クローン病",
+   "orpha_code": "ORPHA:206"
+  },
+  {
+   "stable_id": "rd00065",
+   "idx": 64,
+   "name": "潰瘍性大腸炎",
+   "orpha_code": "ORPHA:771"
+  },
+  {
+   "stable_id": "rd00066",
+   "idx": 65,
+   "name": "原発性胆汁性胆管炎",
+   "orpha_code": "ORPHA:186"
+  },
+  {
+   "stable_id": "rd00067",
+   "idx": 66,
+   "name": "自己免疫性肝炎",
+   "orpha_code": "ORPHA:2137"
+  },
+  {
+   "stable_id": "rd00068",
+   "idx": 67,
+   "name": "ミトコンドリア病",
+   "orpha_code": "ORPHA:68380"
+  },
+  {
+   "stable_id": "rd00069",
+   "idx": 68,
+   "name": "ライソゾーム病",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00070",
+   "idx": 69,
+   "name": "副腎白質ジストロフィー",
+   "orpha_code": "ORPHA:43"
+  },
+  {
+   "stable_id": "rd00071",
+   "idx": 70,
+   "name": "色素性乾皮症",
+   "orpha_code": "ORPHA:910"
+  },
+  {
+   "stable_id": "rd00072",
+   "idx": 71,
+   "name": "表皮水疱症",
+   "orpha_code": "ORPHA:304"
+  },
+  {
+   "stable_id": "rd00073",
+   "idx": 72,
+   "name": "筋萎縮性側索硬化症",
+   "orpha_code": "ORPHA:803"
+  },
+  {
+   "stable_id": "rd00074",
+   "idx": 73,
+   "name": "脊髄小脳変性症",
+   "orpha_code": "ORPHA:94145"
+  },
+  {
+   "stable_id": "rd00075",
+   "idx": 74,
+   "name": "多系統萎縮症",
+   "orpha_code": "ORPHA:102"
+  },
+  {
+   "stable_id": "rd00076",
+   "idx": 75,
+   "name": "進行性核上性麻痺",
+   "orpha_code": "ORPHA:683"
+  },
+  {
+   "stable_id": "rd00077",
+   "idx": 76,
+   "name": "大脳皮質基底核変性症",
+   "orpha_code": "ORPHA:2098"
+  },
+  {
+   "stable_id": "rd00078",
+   "idx": 77,
+   "name": "てんかん",
+   "orpha_code": "ORPHA:166463"
+  },
+  {
+   "stable_id": "rd00079",
+   "idx": 78,
+   "name": "慢性炎症性脱髄性多発神経炎",
+   "orpha_code": "ORPHA:2932"
+  },
+  {
+   "stable_id": "rd00080",
+   "idx": 79,
+   "name": "ギラン・バレー症候群",
+   "orpha_code": "ORPHA:2103"
+  },
+  {
+   "stable_id": "rd00081",
+   "idx": 80,
+   "name": "視神経脊髄炎",
+   "orpha_code": "ORPHA:71211"
+  },
+  {
+   "stable_id": "rd00082",
+   "idx": 81,
+   "name": "全身型重症筋無力症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00083",
+   "idx": 82,
+   "name": "肺動脈性肺高血圧症",
+   "orpha_code": "ORPHA:182090"
+  },
+  {
+   "stable_id": "rd00084",
+   "idx": 83,
+   "name": "特発性拡張型心筋症",
+   "orpha_code": "ORPHA:217604"
+  },
+  {
+   "stable_id": "rd00085",
+   "idx": 84,
+   "name": "肥大型心筋症",
+   "orpha_code": "ORPHA:217569"
+  },
+  {
+   "stable_id": "rd00086",
+   "idx": 85,
+   "name": "拘束型心筋症",
+   "orpha_code": "ORPHA:217632"
+  },
+  {
+   "stable_id": "rd00087",
+   "idx": 86,
+   "name": "大動脈炎症候群",
+   "orpha_code": "ORPHA:3287"
+  },
+  {
+   "stable_id": "rd00088",
+   "idx": 87,
+   "name": "シスチン症",
+   "orpha_code": "ORPHA:213"
+  },
+  {
+   "stable_id": "rd00089",
+   "idx": 88,
+   "name": "ホモシスチン尿症",
+   "orpha_code": "ORPHA:394"
+  },
+  {
+   "stable_id": "rd00090",
+   "idx": 89,
+   "name": "メープルシロップ尿症",
+   "orpha_code": "ORPHA:511"
+  },
+  {
+   "stable_id": "rd00091",
+   "idx": 90,
+   "name": "ガラクトース血症",
+   "orpha_code": "ORPHA:352"
+  },
+  {
+   "stable_id": "rd00092",
+   "idx": 91,
+   "name": "糖原病",
+   "orpha_code": "ORPHA:79201"
+  },
+  {
+   "stable_id": "rd00093",
+   "idx": 92,
+   "name": "アラジール症候群",
+   "orpha_code": "ORPHA:52"
+  },
+  {
+   "stable_id": "rd00094",
+   "idx": 93,
+   "name": "血友病B",
+   "orpha_code": "ORPHA:98879"
+  },
+  {
+   "stable_id": "rd00095",
+   "idx": 94,
+   "name": "フォン・ヴィレブランド病",
+   "orpha_code": "ORPHA:903"
+  },
+  {
+   "stable_id": "rd00096",
+   "idx": 95,
+   "name": "自己免疫性溶血性貧血",
+   "orpha_code": "ORPHA:98375"
+  },
+  {
+   "stable_id": "rd00097",
+   "idx": 96,
+   "name": "特発性門脈圧亢進症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00098",
+   "idx": 97,
+   "name": "成人スチル病",
+   "orpha_code": "ORPHA:829"
+  },
+  {
+   "stable_id": "rd00099",
+   "idx": 98,
+   "name": "混合性結合組織病",
+   "orpha_code": "ORPHA:809"
+  },
+  {
+   "stable_id": "rd00100",
+   "idx": 99,
+   "name": "好酸球性多発血管炎性肉芽腫症",
+   "orpha_code": "ORPHA:183"
+  },
+  {
+   "stable_id": "rd00101",
+   "idx": 100,
+   "name": "巨細胞性動脈炎",
+   "orpha_code": "ORPHA:397"
+  },
+  {
+   "stable_id": "rd00102",
+   "idx": 101,
+   "name": "IgG4関連疾患",
+   "orpha_code": "ORPHA:284264"
+  },
+  {
+   "stable_id": "rd00103",
+   "idx": 102,
+   "name": "天疱瘡",
+   "orpha_code": "ORPHA:704"
+  },
+  {
+   "stable_id": "rd00104",
+   "idx": 103,
+   "name": "類天疱瘡",
+   "orpha_code": "ORPHA:703"
+  },
+  {
+   "stable_id": "rd00105",
+   "idx": 104,
+   "name": "原発性硬化性胆管炎",
+   "orpha_code": "ORPHA:171"
+  },
+  {
+   "stable_id": "rd00106",
+   "idx": 105,
+   "name": "好酸球性消化管疾患",
+   "orpha_code": "ORPHA:402029"
+  },
+  {
+   "stable_id": "rd00107",
+   "idx": 106,
+   "name": "リンパ脈管筋腫症",
+   "orpha_code": "ORPHA:538"
+  },
+  {
+   "stable_id": "rd00108",
+   "idx": 107,
+   "name": "肺胞蛋白症",
+   "orpha_code": "ORPHA:747"
+  },
+  {
+   "stable_id": "rd00109",
+   "idx": 108,
+   "name": "進行性骨化性線維異形成症",
+   "orpha_code": "ORPHA:337"
+  },
+  {
+   "stable_id": "rd00110",
+   "idx": 109,
+   "name": "骨形成不全症",
+   "orpha_code": "ORPHA:666"
+  },
+  {
+   "stable_id": "rd00111",
+   "idx": 110,
+   "name": "網膜色素変性症",
+   "orpha_code": "ORPHA:791"
+  },
+  {
+   "stable_id": "rd00112",
+   "idx": 111,
+   "name": "ネフローゼ症候群",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00113",
+   "idx": 112,
+   "name": "急速進行性糸球体腎炎",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00114",
+   "idx": 113,
+   "name": "バセドウ病",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00115",
+   "idx": 114,
+   "name": "褐色細胞腫",
+   "orpha_code": "ORPHA:29072"
+  },
+  {
+   "stable_id": "rd00116",
+   "idx": 115,
+   "name": "原発性アルドステロン症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00117",
+   "idx": 116,
+   "name": "クッシング症候群",
+   "orpha_code": "ORPHA:641613"
+  },
+  {
+   "stable_id": "rd00118",
+   "idx": 117,
+   "name": "先端巨大症",
+   "orpha_code": "ORPHA:963"
+  },
+  {
+   "stable_id": "rd00119",
+   "idx": 118,
+   "name": "下垂体前葉機能低下症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00120",
+   "idx": 119,
+   "name": "尿崩症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00121",
+   "idx": 120,
+   "name": "ベッカー型筋ジストロフィー",
+   "orpha_code": "ORPHA:98895"
+  },
+  {
+   "stable_id": "rd00122",
+   "idx": 121,
+   "name": "福山型先天性筋ジストロフィー",
+   "orpha_code": "ORPHA:272"
+  },
+  {
+   "stable_id": "rd00123",
+   "idx": 122,
+   "name": "ナルコレプシー",
+   "orpha_code": "ORPHA:619284"
+  },
+  {
+   "stable_id": "rd00124",
+   "idx": 123,
+   "name": "慢性骨髄性白血病",
+   "orpha_code": "ORPHA:521"
+  },
+  {
+   "stable_id": "rd00125",
+   "idx": 124,
+   "name": "慢性リンパ性白血病",
+   "orpha_code": "ORPHA:67038"
+  },
+  {
+   "stable_id": "rd00126",
+   "idx": 125,
+   "name": "原発性マクログロブリン血症",
+   "orpha_code": "ORPHA:33226"
+  },
+  {
+   "stable_id": "rd00127",
+   "idx": 126,
+   "name": "本態性血小板血症",
+   "orpha_code": "ORPHA:3318"
+  },
+  {
+   "stable_id": "rd00128",
+   "idx": 127,
+   "name": "真性多血症",
+   "orpha_code": "ORPHA:729"
+  },
+  {
+   "stable_id": "rd00129",
+   "idx": 128,
+   "name": "原発性骨髄線維症",
+   "orpha_code": "ORPHA:824"
+  },
+  {
+   "stable_id": "rd00130",
+   "idx": 129,
+   "name": "多発性骨髄腫",
+   "orpha_code": "ORPHA:29073"
+  },
+  {
+   "stable_id": "rd00131",
+   "idx": 130,
+   "name": "球脊髄性筋萎縮症",
+   "orpha_code": "ORPHA:481"
+  },
+  {
+   "stable_id": "rd00132",
+   "idx": 131,
+   "name": "特発性正常圧水頭症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00133",
+   "idx": 132,
+   "name": "多巣性運動ニューロパチー",
+   "orpha_code": "ORPHA:641"
+  },
+  {
+   "stable_id": "rd00134",
+   "idx": 133,
+   "name": "シェーグレン症候群",
+   "orpha_code": "ORPHA:289390"
+  },
+  {
+   "stable_id": "rd00135",
+   "idx": 134,
+   "name": "再発性多発軟骨炎",
+   "orpha_code": "ORPHA:728"
+  },
+  {
+   "stable_id": "rd00136",
+   "idx": 135,
+   "name": "抗リン脂質抗体症候群",
+   "orpha_code": "ORPHA:80"
+  },
+  {
+   "stable_id": "rd00137",
+   "idx": 136,
+   "name": "副甲状腺機能低下症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00138",
+   "idx": 137,
+   "name": "副甲状腺機能亢進症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00139",
+   "idx": 138,
+   "name": "アジソン病",
+   "orpha_code": "ORPHA:85138"
+  },
+  {
+   "stable_id": "rd00140",
+   "idx": 139,
+   "name": "中枢性尿崩症",
+   "orpha_code": "ORPHA:178029"
+  },
+  {
+   "stable_id": "rd00141",
+   "idx": 140,
+   "name": "ムコ多糖症III型",
+   "orpha_code": "ORPHA:581"
+  },
+  {
+   "stable_id": "rd00142",
+   "idx": 141,
+   "name": "ムコ多糖症IV型",
+   "orpha_code": "ORPHA:582"
+  },
+  {
+   "stable_id": "rd00143",
+   "idx": 142,
+   "name": "ムコ多糖症VI型",
+   "orpha_code": "ORPHA:583"
+  },
+  {
+   "stable_id": "rd00144",
+   "idx": 143,
+   "name": "酸性スフィンゴミエリナーゼ欠損症",
+   "orpha_code": "ORPHA:618899"
+  },
+  {
+   "stable_id": "rd00145",
+   "idx": 144,
+   "name": "CLN2病",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00146",
+   "idx": 145,
+   "name": "特発性肺動脈性肺高血圧症",
+   "orpha_code": "ORPHA:275766"
+  },
+  {
+   "stable_id": "rd00147",
+   "idx": 146,
+   "name": "短腸症候群",
+   "orpha_code": "ORPHA:104008"
+  },
+  {
+   "stable_id": "rd00148",
+   "idx": 147,
+   "name": "X連鎖無ガンマグロブリン血症",
+   "orpha_code": "ORPHA:47"
+  },
+  {
+   "stable_id": "rd00149",
+   "idx": 148,
+   "name": "分類不能型免疫不全症",
+   "orpha_code": "ORPHA:1572"
+  },
+  {
+   "stable_id": "rd00150",
+   "idx": 149,
+   "name": "網膜芽細胞腫",
+   "orpha_code": "ORPHA:790"
+  },
+  {
+   "stable_id": "rd00151",
+   "idx": 150,
+   "name": "封入体筋炎",
+   "orpha_code": "ORPHA:611"
+  },
+  {
+   "stable_id": "rd00152",
+   "idx": 151,
+   "name": "ループス腎炎",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00153",
+   "idx": 152,
+   "name": "消化管間質腫瘍",
+   "orpha_code": "ORPHA:44890"
+  },
+  {
+   "stable_id": "rd00154",
+   "idx": 153,
+   "name": "神経内分泌腫瘍",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00155",
+   "idx": 154,
+   "name": "先天性プロテインC欠乏症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00156",
+   "idx": 155,
+   "name": "乾癬性関節炎",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00157",
+   "idx": 156,
+   "name": "オルニチントランスカルバミラーゼ欠損症",
+   "orpha_code": "ORPHA:664"
+  },
+  {
+   "stable_id": "rd00158",
+   "idx": 157,
+   "name": "プロピオン酸血症",
+   "orpha_code": "ORPHA:35"
+  },
+  {
+   "stable_id": "rd00159",
+   "idx": 158,
+   "name": "シャルコー・マリー・トゥース病",
+   "orpha_code": "ORPHA:166"
+  },
+  {
+   "stable_id": "rd00160",
+   "idx": 159,
+   "name": "ウィルソン病型肝障害",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00161",
+   "idx": 160,
+   "name": "グルタル酸血症1型",
+   "orpha_code": "ORPHA:25"
+  },
+  {
+   "stable_id": "rd00162",
+   "idx": 161,
+   "name": "イソ吉草酸血症",
+   "orpha_code": "ORPHA:33"
+  },
+  {
+   "stable_id": "rd00163",
+   "idx": 162,
+   "name": "極長鎖アシルCoA脱水素酵素欠損症",
+   "orpha_code": "ORPHA:26793"
+  },
+  {
+   "stable_id": "rd00164",
+   "idx": 163,
+   "name": "ビオチニダーゼ欠損症",
+   "orpha_code": "ORPHA:79241"
+  },
+  {
+   "stable_id": "rd00165",
+   "idx": 164,
+   "name": "レノックス・ガストー症候群",
+   "orpha_code": "ORPHA:2382"
+  },
+  {
+   "stable_id": "rd00166",
+   "idx": 165,
+   "name": "ドラベ症候群",
+   "orpha_code": "ORPHA:33069"
+  },
+  {
+   "stable_id": "rd00167",
+   "idx": 166,
+   "name": "ウエスト症候群",
+   "orpha_code": "ORPHA:697160"
+  },
+  {
+   "stable_id": "rd00168",
+   "idx": 167,
+   "name": "スタージ・ウェーバー症候群",
+   "orpha_code": "ORPHA:3205"
+  },
+  {
+   "stable_id": "rd00169",
+   "idx": 168,
+   "name": "亜急性硬化性全脳炎",
+   "orpha_code": "ORPHA:2806"
+  },
+  {
+   "stable_id": "rd00170",
+   "idx": 169,
+   "name": "心サルコイドーシス",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00171",
+   "idx": 170,
+   "name": "心臓粘液腫",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00172",
+   "idx": 171,
+   "name": "線維性骨異形成症",
+   "orpha_code": "ORPHA:249"
+  },
+  {
+   "stable_id": "rd00173",
+   "idx": 172,
+   "name": "家族性地中海熱",
+   "orpha_code": "ORPHA:342"
+  },
+  {
+   "stable_id": "rd00174",
+   "idx": 173,
+   "name": "TNF受容体関連周期性症候群",
+   "orpha_code": "ORPHA:32960"
+  },
+  {
+   "stable_id": "rd00175",
+   "idx": 174,
+   "name": "クリオピリン関連周期熱症候群",
+   "orpha_code": "ORPHA:208650"
+  },
+  {
+   "stable_id": "rd00176",
+   "idx": 175,
+   "name": "高IgD症候群",
+   "orpha_code": "ORPHA:343"
+  },
+  {
+   "stable_id": "rd00177",
+   "idx": 176,
+   "name": "プロラクチノーマ",
+   "orpha_code": "ORPHA:2965"
+  },
+  {
+   "stable_id": "rd00178",
+   "idx": 177,
+   "name": "巣状分節性糸球体硬化症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00179",
+   "idx": 178,
+   "name": "膜性腎症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00180",
+   "idx": 179,
+   "name": "びまん性汎細気管支炎",
+   "orpha_code": "ORPHA:171700"
+  },
+  {
+   "stable_id": "rd00181",
+   "idx": 180,
+   "name": "全身性エリテマトーデス皮膚型",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00182",
+   "idx": 181,
+   "name": "ヒルシュスプルング病",
+   "orpha_code": "ORPHA:388"
+  },
+  {
+   "stable_id": "rd00183",
+   "idx": 182,
+   "name": "胆道閉鎖症",
+   "orpha_code": "ORPHA:30391"
+  },
+  {
+   "stable_id": "rd00184",
+   "idx": 183,
+   "name": "寒冷凝集素症",
+   "orpha_code": "ORPHA:56425"
+  },
+  {
+   "stable_id": "rd00185",
+   "idx": 184,
+   "name": "後天性血友病A",
+   "orpha_code": "ORPHA:599480"
+  },
+  {
+   "stable_id": "rd00186",
+   "idx": 185,
+   "name": "ダイアモンド・ブラックファン貧血",
+   "orpha_code": "ORPHA:124"
+  },
+  {
+   "stable_id": "rd00187",
+   "idx": 186,
+   "name": "POEMS症候群",
+   "orpha_code": "ORPHA:2905"
+  },
+  {
+   "stable_id": "rd00188",
+   "idx": 187,
+   "name": "キャッスルマン病",
+   "orpha_code": "ORPHA:160"
+  },
+  {
+   "stable_id": "rd00189",
+   "idx": 188,
+   "name": "閉塞性細気管支炎",
+   "orpha_code": "ORPHA:1303"
+  },
+  {
+   "stable_id": "rd00190",
+   "idx": 189,
+   "name": "甲状腺クリーゼ",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00191",
+   "idx": 190,
+   "name": "インスリノーマ",
+   "orpha_code": "ORPHA:97279"
+  },
+  {
+   "stable_id": "rd00192",
+   "idx": 191,
+   "name": "アレキサンダー病",
+   "orpha_code": "ORPHA:58"
+  },
+  {
+   "stable_id": "rd00193",
+   "idx": 192,
+   "name": "ペリツェウス・メルツバッハー病",
+   "orpha_code": "ORPHA:702"
+  },
+  {
+   "stable_id": "rd00194",
+   "idx": 193,
+   "name": "脊髄空洞症",
+   "orpha_code": "ORPHA:3280"
+  },
+  {
+   "stable_id": "rd00195",
+   "idx": 194,
+   "name": "ウィリアムズ症候群",
+   "orpha_code": "ORPHA:904"
+  },
+  {
+   "stable_id": "rd00196",
+   "idx": 195,
+   "name": "アンジェルマン症候群",
+   "orpha_code": "ORPHA:72"
+  },
+  {
+   "stable_id": "rd00197",
+   "idx": 196,
+   "name": "ヌーナン症候群",
+   "orpha_code": "ORPHA:648"
+  },
+  {
+   "stable_id": "rd00198",
+   "idx": 197,
+   "name": "自己免疫性膵炎",
+   "orpha_code": "ORPHA:103919"
+  },
+  {
+   "stable_id": "rd00199",
+   "idx": 198,
+   "name": "好酸球性食道炎",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00200",
+   "idx": 199,
+   "name": "先天性ミオパチー",
+   "orpha_code": "ORPHA:97245"
+  },
+  {
+   "stable_id": "rd00201",
+   "idx": 200,
+   "name": "ミトコンドリア脳筋症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00202",
+   "idx": 201,
+   "name": "ミオクロニーてんかん",
+   "orpha_code": "ORPHA:98261"
+  },
+  {
+   "stable_id": "rd00203",
+   "idx": 202,
+   "name": "特発性多中心性キャッスルマン病",
+   "orpha_code": "ORPHA:570431"
+  },
+  {
+   "stable_id": "rd00204",
+   "idx": 203,
+   "name": "慢性活動性EBウイルス感染症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00205",
+   "idx": 204,
+   "name": "血球貪食性リンパ組織球症",
+   "orpha_code": "ORPHA:158032"
+  },
+  {
+   "stable_id": "rd00206",
+   "idx": 205,
+   "name": "汎発性膿疱性乾癬",
+   "orpha_code": "ORPHA:247353"
+  },
+  {
+   "stable_id": "rd00207",
+   "idx": 206,
+   "name": "魚鱗癬",
+   "orpha_code": "ORPHA:79354"
+  },
+  {
+   "stable_id": "rd00208",
+   "idx": 207,
+   "name": "後縦靭帯骨化症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00209",
+   "idx": 208,
+   "name": "黄色靭帯骨化症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00210",
+   "idx": 209,
+   "name": "広範脊柱管狭窄症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00211",
+   "idx": 210,
+   "name": "一次性膜性増殖性糸球体腎炎",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00212",
+   "idx": 211,
+   "name": "デンスデポジット病",
+   "orpha_code": "ORPHA:93571"
+  },
+  {
+   "stable_id": "rd00213",
+   "idx": 212,
+   "name": "グルカゴノーマ",
+   "orpha_code": "ORPHA:97280"
+  },
+  {
+   "stable_id": "rd00214",
+   "idx": 213,
+   "name": "VIP産生腫瘍",
+   "orpha_code": "ORPHA:97282"
+  },
+  {
+   "stable_id": "rd00215",
+   "idx": 214,
+   "name": "鎖肛",
+   "orpha_code": "ORPHA:96346"
+  },
+  {
+   "stable_id": "rd00216",
+   "idx": 215,
+   "name": "食道閉鎖症",
+   "orpha_code": "ORPHA:1199"
+  },
+  {
+   "stable_id": "rd00217",
+   "idx": 216,
+   "name": "ブルガダ症候群",
+   "orpha_code": "ORPHA:130"
+  },
+  {
+   "stable_id": "rd00218",
+   "idx": 217,
+   "name": "QT延長症候群",
+   "orpha_code": "ORPHA:768"
+  },
+  {
+   "stable_id": "rd00219",
+   "idx": 218,
+   "name": "カテコラミン誘発性多形性心室頻拍",
+   "orpha_code": "ORPHA:3286"
+  },
+  {
+   "stable_id": "rd00220",
+   "idx": 219,
+   "name": "加齢黄斑変性（滲出型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00221",
+   "idx": 220,
+   "name": "総動脈幹遺残症",
+   "orpha_code": "ORPHA:3384"
+  },
+  {
+   "stable_id": "rd00222",
+   "idx": 221,
+   "name": "完全大血管転位症",
+   "orpha_code": "ORPHA:216675"
+  },
+  {
+   "stable_id": "rd00223",
+   "idx": 222,
+   "name": "単心室症",
+   "orpha_code": "ORPHA:1464"
+  },
+  {
+   "stable_id": "rd00224",
+   "idx": 223,
+   "name": "ファロー四徴症",
+   "orpha_code": "ORPHA:3303"
+  },
+  {
+   "stable_id": "rd00225",
+   "idx": 224,
+   "name": "尿素サイクル異常症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00226",
+   "idx": 225,
+   "name": "シトルリン血症",
+   "orpha_code": "ORPHA:187"
+  },
+  {
+   "stable_id": "rd00227",
+   "idx": 226,
+   "name": "アルギニノコハク酸尿症",
+   "orpha_code": "ORPHA:23"
+  },
+  {
+   "stable_id": "rd00228",
+   "idx": 227,
+   "name": "グリコーゲン蓄積症II型",
+   "orpha_code": "ORPHA:420429"
+  },
+  {
+   "stable_id": "rd00229",
+   "idx": 228,
+   "name": "原発性卵巣不全",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00230",
+   "idx": 229,
+   "name": "肝内結石症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00231",
+   "idx": 230,
+   "name": "バッド・キアリ症候群",
+   "orpha_code": "ORPHA:131"
+  },
+  {
+   "stable_id": "rd00232",
+   "idx": 231,
+   "name": "遺伝性難聴",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00233",
+   "idx": 232,
+   "name": "若年発症型両側性感音難聴",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00234",
+   "idx": 233,
+   "name": "遺伝性出血性末梢血管拡張症",
+   "orpha_code": "ORPHA:774"
+  },
+  {
+   "stable_id": "rd00235",
+   "idx": 234,
+   "name": "リンパ管腫",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00236",
+   "idx": 235,
+   "name": "大理石骨病",
+   "orpha_code": "ORPHA:2781"
+  },
+  {
+   "stable_id": "rd00237",
+   "idx": 236,
+   "name": "多発性内軟骨腫症",
+   "orpha_code": "ORPHA:296"
+  },
+  {
+   "stable_id": "rd00238",
+   "idx": 237,
+   "name": "特発性間質性肺炎",
+   "orpha_code": "ORPHA:98300"
+  },
+  {
+   "stable_id": "rd00239",
+   "idx": 238,
+   "name": "肺ランゲルハンス細胞組織球症",
+   "orpha_code": "ORPHA:687733"
+  },
+  {
+   "stable_id": "rd00240",
+   "idx": 239,
+   "name": "好酸球性副鼻腔炎",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00241",
+   "idx": 240,
+   "name": "IgA血管炎",
+   "orpha_code": "ORPHA:761"
+  },
+  {
+   "stable_id": "rd00242",
+   "idx": 241,
+   "name": "特発性後天性全身性無汗症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00243",
+   "idx": 242,
+   "name": "遺伝性球状赤血球症",
+   "orpha_code": "ORPHA:822"
+  },
+  {
+   "stable_id": "rd00244",
+   "idx": 243,
+   "name": "片側巨脳症",
+   "orpha_code": "ORPHA:99802"
+  },
+  {
+   "stable_id": "rd00245",
+   "idx": 244,
+   "name": "限局性皮質異形成",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00246",
+   "idx": 245,
+   "name": "顔面肩甲上腕型筋ジストロフィー",
+   "orpha_code": "ORPHA:269"
+  },
+  {
+   "stable_id": "rd00247",
+   "idx": 246,
+   "name": "肢帯型筋ジストロフィー",
+   "orpha_code": "ORPHA:263"
+  },
+  {
+   "stable_id": "rd00248",
+   "idx": 247,
+   "name": "眼咽頭型筋ジストロフィー",
+   "orpha_code": "ORPHA:270"
+  },
+  {
+   "stable_id": "rd00249",
+   "idx": 248,
+   "name": "重症複合免疫不全症",
+   "orpha_code": "ORPHA:183660"
+  },
+  {
+   "stable_id": "rd00250",
+   "idx": 249,
+   "name": "ウィスコット・オルドリッチ症候群",
+   "orpha_code": "ORPHA:906"
+  },
+  {
+   "stable_id": "rd00251",
+   "idx": 250,
+   "name": "毛細血管拡張性運動失調症",
+   "orpha_code": "ORPHA:100"
+  },
+  {
+   "stable_id": "rd00252",
+   "idx": 251,
+   "name": "ミトコンドリアDNA枯渇症候群",
+   "orpha_code": "ORPHA:35698"
+  },
+  {
+   "stable_id": "rd00253",
+   "idx": 252,
+   "name": "ウルリッヒ型先天性筋ジストロフィー",
+   "orpha_code": "ORPHA:75840"
+  },
+  {
+   "stable_id": "rd00254",
+   "idx": 253,
+   "name": "ツェルウェガー症候群",
+   "orpha_code": "ORPHA:912"
+  },
+  {
+   "stable_id": "rd00255",
+   "idx": 254,
+   "name": "腸管ベーチェット病",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00256",
+   "idx": 255,
+   "name": "大腸ポリポーシス",
+   "orpha_code": "ORPHA:733"
+  },
+  {
+   "stable_id": "rd00257",
+   "idx": 256,
+   "name": "アルミート不整脈原性心筋症",
+   "orpha_code": "ORPHA:247"
+  },
+  {
+   "stable_id": "rd00258",
+   "idx": 257,
+   "name": "三尖弁閉鎖症",
+   "orpha_code": "ORPHA:1209"
+  },
+  {
+   "stable_id": "rd00259",
+   "idx": 258,
+   "name": "ガストリノーマ",
+   "orpha_code": "ORPHA:913"
+  },
+  {
+   "stable_id": "rd00260",
+   "idx": 259,
+   "name": "多発性内分泌腫瘍症1型",
+   "orpha_code": "ORPHA:652"
+  },
+  {
+   "stable_id": "rd00261",
+   "idx": 260,
+   "name": "多発性内分泌腫瘍症2型",
+   "orpha_code": "ORPHA:653"
+  },
+  {
+   "stable_id": "rd00262",
+   "idx": 261,
+   "name": "アルポート症候群",
+   "orpha_code": "ORPHA:63"
+  },
+  {
+   "stable_id": "rd00263",
+   "idx": 262,
+   "name": "掌蹠膿疱症",
+   "orpha_code": "ORPHA:163927"
+  },
+  {
+   "stable_id": "rd00264",
+   "idx": 263,
+   "name": "悪性黒色腫",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00265",
+   "idx": 264,
+   "name": "もやもや病（小児型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00266",
+   "idx": 265,
+   "name": "特発性ステロイド性骨壊死症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00267",
+   "idx": 266,
+   "name": "濾胞性リンパ腫",
+   "orpha_code": "ORPHA:545"
+  },
+  {
+   "stable_id": "rd00268",
+   "idx": 267,
+   "name": "びまん性大細胞型B細胞リンパ腫",
+   "orpha_code": "ORPHA:544"
+  },
+  {
+   "stable_id": "rd00269",
+   "idx": 268,
+   "name": "マントル細胞リンパ腫",
+   "orpha_code": "ORPHA:52416"
+  },
+  {
+   "stable_id": "rd00270",
+   "idx": 269,
+   "name": "ホジキンリンパ腫",
+   "orpha_code": "ORPHA:98293"
+  },
+  {
+   "stable_id": "rd00271",
+   "idx": 270,
+   "name": "もやもや病関連脳出血",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00272",
+   "idx": 271,
+   "name": "ミオクローヌス・ジストニア症候群",
+   "orpha_code": "ORPHA:36899"
+  },
+  {
+   "stable_id": "rd00273",
+   "idx": 272,
+   "name": "遺伝性痙性対麻痺",
+   "orpha_code": "ORPHA:685"
+  },
+  {
+   "stable_id": "rd00274",
+   "idx": 273,
+   "name": "エプスタイン奇形",
+   "orpha_code": "ORPHA:1880"
+  },
+  {
+   "stable_id": "rd00275",
+   "idx": 274,
+   "name": "両大血管右室起始症",
+   "orpha_code": "ORPHA:3426"
+  },
+  {
+   "stable_id": "rd00276",
+   "idx": 275,
+   "name": "ムコリピドーシスII型",
+   "orpha_code": "ORPHA:576"
+  },
+  {
+   "stable_id": "rd00277",
+   "idx": 276,
+   "name": "マンノシドーシス",
+   "orpha_code": "ORPHA:61"
+  },
+  {
+   "stable_id": "rd00278",
+   "idx": 277,
+   "name": "フコシドーシス",
+   "orpha_code": "ORPHA:349"
+  },
+  {
+   "stable_id": "rd00279",
+   "idx": 278,
+   "name": "突発性難聴",
+   "orpha_code": "ORPHA:90059"
+  },
+  {
+   "stable_id": "rd00280",
+   "idx": 279,
+   "name": "メニエール病",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00281",
+   "idx": 280,
+   "name": "特発性器質化肺炎",
+   "orpha_code": "ORPHA:1302"
+  },
+  {
+   "stable_id": "rd00282",
+   "idx": 281,
+   "name": "過敏性肺炎",
+   "orpha_code": "ORPHA:31740"
+  },
+  {
+   "stable_id": "rd00283",
+   "idx": 282,
+   "name": "先天性巨大色素性母斑",
+   "orpha_code": "ORPHA:626"
+  },
+  {
+   "stable_id": "rd00284",
+   "idx": 283,
+   "name": "膀胱尿管逆流症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00285",
+   "idx": 284,
+   "name": "強直性脊椎炎",
+   "orpha_code": "ORPHA:449"
+  },
+  {
+   "stable_id": "rd00286",
+   "idx": 285,
+   "name": "関節リウマチ関連間質性肺疾患",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00287",
+   "idx": 286,
+   "name": "5p欠失症候群",
+   "orpha_code": "ORPHA:281"
+  },
+  {
+   "stable_id": "rd00288",
+   "idx": 287,
+   "name": "4p欠失症候群",
+   "orpha_code": "ORPHA:280"
+  },
+  {
+   "stable_id": "rd00289",
+   "idx": 288,
+   "name": "成人T細胞白血病リンパ腫",
+   "orpha_code": "ORPHA:86875"
+  },
+  {
+   "stable_id": "rd00290",
+   "idx": 289,
+   "name": "T細胞性大顆粒リンパ球性白血病",
+   "orpha_code": "ORPHA:86872"
+  },
+  {
+   "stable_id": "rd00291",
+   "idx": 290,
+   "name": "原発性胆汁性胆管炎重症型",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00292",
+   "idx": 291,
+   "name": "自己免疫性好中球減少症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00293",
+   "idx": 292,
+   "name": "周期性好中球減少症",
+   "orpha_code": "ORPHA:2686"
+  },
+  {
+   "stable_id": "rd00294",
+   "idx": 293,
+   "name": "家族性高コレステロール血症",
+   "orpha_code": "ORPHA:406"
+  },
+  {
+   "stable_id": "rd00295",
+   "idx": 294,
+   "name": "リポ蛋白リパーゼ欠損症",
+   "orpha_code": "ORPHA:309015"
+  },
+  {
+   "stable_id": "rd00296",
+   "idx": 295,
+   "name": "先天性筋無力症候群",
+   "orpha_code": "ORPHA:590"
+  },
+  {
+   "stable_id": "rd00297",
+   "idx": 296,
+   "name": "周期性四肢麻痺",
+   "orpha_code": "ORPHA:206976"
+  },
+  {
+   "stable_id": "rd00298",
+   "idx": 297,
+   "name": "非ジストロフィー性ミオトニア",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00299",
+   "idx": 298,
+   "name": "進行性多巣性白質脳症",
+   "orpha_code": "ORPHA:217260"
+  },
+  {
+   "stable_id": "rd00300",
+   "idx": 299,
+   "name": "好酸球性筋膜炎",
+   "orpha_code": "ORPHA:3165"
+  },
+  {
+   "stable_id": "rd00301",
+   "idx": 300,
+   "name": "肺動脈閉鎖症",
+   "orpha_code": "ORPHA:1207"
+  },
+  {
+   "stable_id": "rd00302",
+   "idx": 301,
+   "name": "大動脈縮窄症",
+   "orpha_code": "ORPHA:1457"
+  },
+  {
+   "stable_id": "rd00303",
+   "idx": 302,
+   "name": "先天性胆道拡張症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00304",
+   "idx": 303,
+   "name": "先天性門脈欠損症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00305",
+   "idx": 304,
+   "name": "慢性炎症性脱髄性多発根神経炎（MADSAM型）",
+   "orpha_code": "ORPHA:48162"
+  },
+  {
+   "stable_id": "rd00306",
+   "idx": 305,
+   "name": "フィッシャー症候群",
+   "orpha_code": "ORPHA:98919"
+  },
+  {
+   "stable_id": "rd00307",
+   "idx": 306,
+   "name": "原発性アルドステロン症（両側型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00308",
+   "idx": 307,
+   "name": "骨パジェット病",
+   "orpha_code": "ORPHA:2801"
+  },
+  {
+   "stable_id": "rd00309",
+   "idx": 308,
+   "name": "先天性表皮水疱症（接合部型）",
+   "orpha_code": "ORPHA:305"
+  },
+  {
+   "stable_id": "rd00310",
+   "idx": 309,
+   "name": "Leber遺伝性視神経症",
+   "orpha_code": "ORPHA:104"
+  },
+  {
+   "stable_id": "rd00311",
+   "idx": 310,
+   "name": "メープルシロップ尿症（間欠型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00312",
+   "idx": 311,
+   "name": "非ケトーシス型高グリシン血症",
+   "orpha_code": "ORPHA:407"
+  },
+  {
+   "stable_id": "rd00313",
+   "idx": 312,
+   "name": "ガラクトシアリドーシス",
+   "orpha_code": "ORPHA:351"
+  },
+  {
+   "stable_id": "rd00314",
+   "idx": 313,
+   "name": "全身性ALアミロイドーシス",
+   "orpha_code": "ORPHA:85443"
+  },
+  {
+   "stable_id": "rd00315",
+   "idx": 314,
+   "name": "老人性全身性アミロイドーシス",
+   "orpha_code": "ORPHA:330001"
+  },
+  {
+   "stable_id": "rd00316",
+   "idx": 315,
+   "name": "気管支拡張症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00317",
+   "idx": 316,
+   "name": "常染色体劣性多発性嚢胞腎",
+   "orpha_code": "ORPHA:731"
+  },
+  {
+   "stable_id": "rd00318",
+   "idx": 317,
+   "name": "前眼部形成異常",
+   "orpha_code": "ORPHA:88632"
+  },
+  {
+   "stable_id": "rd00319",
+   "idx": 318,
+   "name": "肺動脈性肺高血圧症（結合組織病関連）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00320",
+   "idx": 319,
+   "name": "腸回転異常症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00321",
+   "idx": 320,
+   "name": "遺伝性膵炎",
+   "orpha_code": "ORPHA:676"
+  },
+  {
+   "stable_id": "rd00322",
+   "idx": 321,
+   "name": "先天性横隔膜ヘルニア",
+   "orpha_code": "ORPHA:2140"
+  },
+  {
+   "stable_id": "rd00323",
+   "idx": 322,
+   "name": "臍帯ヘルニア",
+   "orpha_code": "ORPHA:660"
+  },
+  {
+   "stable_id": "rd00324",
+   "idx": 323,
+   "name": "腹壁破裂",
+   "orpha_code": "ORPHA:2368"
+  },
+  {
+   "stable_id": "rd00325",
+   "idx": 324,
+   "name": "好酸球性中耳炎",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00326",
+   "idx": 325,
+   "name": "反応性関節炎",
+   "orpha_code": "ORPHA:29207"
+  },
+  {
+   "stable_id": "rd00327",
+   "idx": 326,
+   "name": "先天性水腎症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00328",
+   "idx": 327,
+   "name": "赤色ぼろ繊維・ミオクローヌスてんかん症候群",
+   "orpha_code": "ORPHA:551"
+  },
+  {
+   "stable_id": "rd00329",
+   "idx": 328,
+   "name": "Leigh脳症",
+   "orpha_code": "ORPHA:506"
+  },
+  {
+   "stable_id": "rd00330",
+   "idx": 329,
+   "name": "Kearns-Sayre症候群",
+   "orpha_code": "ORPHA:480"
+  },
+  {
+   "stable_id": "rd00331",
+   "idx": 330,
+   "name": "Pearson症候群",
+   "orpha_code": "ORPHA:699"
+  },
+  {
+   "stable_id": "rd00332",
+   "idx": 331,
+   "name": "慢性偽性腸閉塞症",
+   "orpha_code": "ORPHA:2978"
+  },
+  {
+   "stable_id": "rd00333",
+   "idx": 332,
+   "name": "クロンカイト・カナダ症候群",
+   "orpha_code": "ORPHA:2930"
+  },
+  {
+   "stable_id": "rd00334",
+   "idx": 333,
+   "name": "孤立性線維性腫瘍",
+   "orpha_code": "ORPHA:2126"
+  },
+  {
+   "stable_id": "rd00335",
+   "idx": 334,
+   "name": "後腹膜線維症",
+   "orpha_code": "ORPHA:31"
+  },
+  {
+   "stable_id": "rd00336",
+   "idx": 335,
+   "name": "ランゲルハンス細胞組織球症",
+   "orpha_code": "ORPHA:389"
+  },
+  {
+   "stable_id": "rd00337",
+   "idx": 336,
+   "name": "遠位型ミオパチー",
+   "orpha_code": "ORPHA:599"
+  },
+  {
+   "stable_id": "rd00338",
+   "idx": 337,
+   "name": "ポルフィリン症（急性間欠性）",
+   "orpha_code": "ORPHA:79276"
+  },
+  {
+   "stable_id": "rd00339",
+   "idx": 338,
+   "name": "骨髄性プロトポルフィリン症",
+   "orpha_code": "ORPHA:79278"
+  },
+  {
+   "stable_id": "rd00340",
+   "idx": 339,
+   "name": "ウォルマン病",
+   "orpha_code": "ORPHA:75233"
+  },
+  {
+   "stable_id": "rd00341",
+   "idx": 340,
+   "name": "原発性シュウ酸過多症",
+   "orpha_code": "ORPHA:416"
+  },
+  {
+   "stable_id": "rd00342",
+   "idx": 341,
+   "name": "正常圧水頭症（二次性）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00343",
+   "idx": 342,
+   "name": "脊髄小脳変性症6型",
+   "orpha_code": "ORPHA:98758"
+  },
+  {
+   "stable_id": "rd00344",
+   "idx": 343,
+   "name": "脊髄小脳変性症3型",
+   "orpha_code": "ORPHA:98757"
+  },
+  {
+   "stable_id": "rd00345",
+   "idx": 344,
+   "name": "慢性肉芽腫症",
+   "orpha_code": "ORPHA:379"
+  },
+  {
+   "stable_id": "rd00346",
+   "idx": 345,
+   "name": "補体欠損症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00347",
+   "idx": 346,
+   "name": "遺伝性血管性浮腫（III型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00348",
+   "idx": 347,
+   "name": "メッケル憩室",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00349",
+   "idx": 348,
+   "name": "肝血管腫",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00350",
+   "idx": 349,
+   "name": "心室中隔欠損症（大型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00351",
+   "idx": 350,
+   "name": "心房中隔欠損症（大型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00352",
+   "idx": 351,
+   "name": "動脈管開存症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00353",
+   "idx": 352,
+   "name": "抗糸球体基底膜病",
+   "orpha_code": "ORPHA:375"
+  },
+  {
+   "stable_id": "rd00354",
+   "idx": 353,
+   "name": "副腎脳白質ジストロフィー脊髄型",
+   "orpha_code": "ORPHA:139399"
+  },
+  {
+   "stable_id": "rd00355",
+   "idx": 354,
+   "name": "多種カルボキシラーゼ欠損症",
+   "orpha_code": "ORPHA:148"
+  },
+  {
+   "stable_id": "rd00356",
+   "idx": 355,
+   "name": "ジヒドロピリミジナーゼ欠損症",
+   "orpha_code": "ORPHA:38874"
+  },
+  {
+   "stable_id": "rd00357",
+   "idx": 356,
+   "name": "慢性免疫性脱髄性多発根神経炎純運動型",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00358",
+   "idx": 357,
+   "name": "多系統萎縮症C型",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00359",
+   "idx": 358,
+   "name": "多系統萎縮症P型",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00360",
+   "idx": 359,
+   "name": "前頭側頭型認知症",
+   "orpha_code": "ORPHA:282"
+  },
+  {
+   "stable_id": "rd00361",
+   "idx": 360,
+   "name": "特発性拡張型心筋症（小児）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00362",
+   "idx": 361,
+   "name": "左心低形成症候群",
+   "orpha_code": "ORPHA:2248"
+  },
+  {
+   "stable_id": "rd00363",
+   "idx": 362,
+   "name": "リウマチ性多発筋痛症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00364",
+   "idx": 363,
+   "name": "RS3PE症候群",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00365",
+   "idx": 364,
+   "name": "カロリ病",
+   "orpha_code": "ORPHA:53035"
+  },
+  {
+   "stable_id": "rd00366",
+   "idx": 365,
+   "name": "特発性好酸球増多症候群",
+   "orpha_code": "ORPHA:168956"
+  },
+  {
+   "stable_id": "rd00367",
+   "idx": 366,
+   "name": "巨赤芽球性貧血（ビタミンB12欠乏）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00368",
+   "idx": 367,
+   "name": "後部尿道弁",
+   "orpha_code": "ORPHA:93110"
+  },
+  {
+   "stable_id": "rd00369",
+   "idx": 368,
+   "name": "子宮内膜症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00370",
+   "idx": 369,
+   "name": "未熟児網膜症",
+   "orpha_code": "ORPHA:90050"
+  },
+  {
+   "stable_id": "rd00371",
+   "idx": 370,
+   "name": "環状肉芽腫",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00372",
+   "idx": 371,
+   "name": "結節性多発動脈炎（皮膚型）",
+   "orpha_code": "ORPHA:439729"
+  },
+  {
+   "stable_id": "rd00373",
+   "idx": 372,
+   "name": "高安動脈炎（若年型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00374",
+   "idx": 373,
+   "name": "先天性副腎低形成症",
+   "orpha_code": "ORPHA:595337"
+  },
+  {
+   "stable_id": "rd00375",
+   "idx": 374,
+   "name": "ベックウィズ・ヴィーデマン症候群",
+   "orpha_code": "ORPHA:116"
+  },
+  {
+   "stable_id": "rd00376",
+   "idx": 375,
+   "name": "Silver-Russell症候群",
+   "orpha_code": "ORPHA:813"
+  },
+  {
+   "stable_id": "rd00377",
+   "idx": 376,
+   "name": "Sotos症候群",
+   "orpha_code": "ORPHA:821"
+  },
+  {
+   "stable_id": "rd00378",
+   "idx": 377,
+   "name": "コルネリア・デランゲ症候群",
+   "orpha_code": "ORPHA:199"
+  },
+  {
+   "stable_id": "rd00379",
+   "idx": 378,
+   "name": "Kabuki症候群",
+   "orpha_code": "ORPHA:2322"
+  },
+  {
+   "stable_id": "rd00380",
+   "idx": 379,
+   "name": "CHARGE症候群",
+   "orpha_code": "ORPHA:138"
+  },
+  {
+   "stable_id": "rd00381",
+   "idx": 380,
+   "name": "VACTERL連合",
+   "orpha_code": "ORPHA:887"
+  },
+  {
+   "stable_id": "rd00382",
+   "idx": 381,
+   "name": "ルビンシュタイン・テイビ症候群",
+   "orpha_code": "ORPHA:783"
+  },
+  {
+   "stable_id": "rd00383",
+   "idx": 382,
+   "name": "スミス・マギニス症候群",
+   "orpha_code": "ORPHA:819"
+  },
+  {
+   "stable_id": "rd00384",
+   "idx": 383,
+   "name": "クリグラー・ナジャー症候群",
+   "orpha_code": "ORPHA:205"
+  },
+  {
+   "stable_id": "rd00385",
+   "idx": 384,
+   "name": "ロイス・ディーツ症候群",
+   "orpha_code": "ORPHA:60030"
+  },
+  {
+   "stable_id": "rd00386",
+   "idx": 385,
+   "name": "Treacher Collins症候群",
+   "orpha_code": "ORPHA:861"
+  },
+  {
+   "stable_id": "rd00387",
+   "idx": 386,
+   "name": "Apert症候群",
+   "orpha_code": "ORPHA:87"
+  },
+  {
+   "stable_id": "rd00388",
+   "idx": 387,
+   "name": "Crouzon症候群",
+   "orpha_code": "ORPHA:207"
+  },
+  {
+   "stable_id": "rd00389",
+   "idx": 388,
+   "name": "レット症候群",
+   "orpha_code": "ORPHA:778"
+  },
+  {
+   "stable_id": "rd00390",
+   "idx": 389,
+   "name": "神経有棘赤血球症",
+   "orpha_code": "ORPHA:263440"
+  },
+  {
+   "stable_id": "rd00391",
+   "idx": 390,
+   "name": "若年性パーキンソン病",
+   "orpha_code": "ORPHA:2828"
+  },
+  {
+   "stable_id": "rd00392",
+   "idx": 391,
+   "name": "メチルグルタコン酸尿症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00393",
+   "idx": 392,
+   "name": "リジン尿性蛋白不耐症",
+   "orpha_code": "ORPHA:470"
+  },
+  {
+   "stable_id": "rd00394",
+   "idx": 393,
+   "name": "遺伝性鉄芽球性貧血",
+   "orpha_code": "ORPHA:75564"
+  },
+  {
+   "stable_id": "rd00395",
+   "idx": 394,
+   "name": "ピルビン酸キナーゼ欠損症",
+   "orpha_code": "ORPHA:766"
+  },
+  {
+   "stable_id": "rd00396",
+   "idx": 395,
+   "name": "巨大結腸症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00397",
+   "idx": 396,
+   "name": "肺静脈還流異常症",
+   "orpha_code": "ORPHA:99062"
+  },
+  {
+   "stable_id": "rd00398",
+   "idx": 397,
+   "name": "拡張型心筋症関連伝導障害",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00399",
+   "idx": 398,
+   "name": "DiGeorge症候群関連免疫不全",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00400",
+   "idx": 399,
+   "name": "ネフロン癆",
+   "orpha_code": "ORPHA:655"
+  },
+  {
+   "stable_id": "rd00401",
+   "idx": 400,
+   "name": "色素失調症",
+   "orpha_code": "ORPHA:464"
+  },
+  {
+   "stable_id": "rd00402",
+   "idx": 401,
+   "name": "肥厚性皮膚骨膜症",
+   "orpha_code": "ORPHA:2796"
+  },
+  {
+   "stable_id": "rd00403",
+   "idx": 402,
+   "name": "Phelan-McDermid症候群",
+   "orpha_code": "ORPHA:48652"
+  },
+  {
+   "stable_id": "rd00404",
+   "idx": 403,
+   "name": "Costello症候群",
+   "orpha_code": "ORPHA:3071"
+  },
+  {
+   "stable_id": "rd00405",
+   "idx": 404,
+   "name": "コフィン・シリス症候群",
+   "orpha_code": "ORPHA:1465"
+  },
+  {
+   "stable_id": "rd00406",
+   "idx": 405,
+   "name": "心臓粘液腫関連カーニー複合",
+   "orpha_code": "ORPHA:1359"
+  },
+  {
+   "stable_id": "rd00407",
+   "idx": 406,
+   "name": "Gorlin症候群",
+   "orpha_code": "ORPHA:377"
+  },
+  {
+   "stable_id": "rd00408",
+   "idx": 407,
+   "name": "毛細血管拡張症性小脳失調症2型",
+   "orpha_code": "ORPHA:251347"
+  },
+  {
+   "stable_id": "rd00409",
+   "idx": 408,
+   "name": "Friedreich失調症",
+   "orpha_code": "ORPHA:95"
+  },
+  {
+   "stable_id": "rd00410",
+   "idx": 409,
+   "name": "眼皮膚白皮症",
+   "orpha_code": "ORPHA:55"
+  },
+  {
+   "stable_id": "rd00411",
+   "idx": 410,
+   "name": "Waardenburg症候群",
+   "orpha_code": "ORPHA:3440"
+  },
+  {
+   "stable_id": "rd00412",
+   "idx": 411,
+   "name": "Pfeiffer症候群",
+   "orpha_code": "ORPHA:710"
+  },
+  {
+   "stable_id": "rd00413",
+   "idx": 412,
+   "name": "Muenke症候群",
+   "orpha_code": "ORPHA:53271"
+  },
+  {
+   "stable_id": "rd00414",
+   "idx": 413,
+   "name": "Saethre-Chotzen症候群",
+   "orpha_code": "ORPHA:794"
+  },
+  {
+   "stable_id": "rd00415",
+   "idx": 414,
+   "name": "Schinzel-Giedion症候群",
+   "orpha_code": "ORPHA:798"
+  },
+  {
+   "stable_id": "rd00416",
+   "idx": 415,
+   "name": "Mowat-Wilson症候群",
+   "orpha_code": "ORPHA:2152"
+  },
+  {
+   "stable_id": "rd00417",
+   "idx": 416,
+   "name": "Pitt-Hopkins症候群",
+   "orpha_code": "ORPHA:2896"
+  },
+  {
+   "stable_id": "rd00418",
+   "idx": 417,
+   "name": "Kleefstra症候群",
+   "orpha_code": "ORPHA:261494"
+  },
+  {
+   "stable_id": "rd00419",
+   "idx": 418,
+   "name": "Wiedemann-Steiner症候群",
+   "orpha_code": "ORPHA:319182"
+  },
+  {
+   "stable_id": "rd00420",
+   "idx": 419,
+   "name": "Cornelia de Lange症候群2型",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00421",
+   "idx": 420,
+   "name": "Pallister-Killian症候群",
+   "orpha_code": "ORPHA:884"
+  },
+  {
+   "stable_id": "rd00422",
+   "idx": 421,
+   "name": "Jacobsen症候群",
+   "orpha_code": "ORPHA:2308"
+  },
+  {
+   "stable_id": "rd00423",
+   "idx": 422,
+   "name": "Emanuel症候群",
+   "orpha_code": "ORPHA:96170"
+  },
+  {
+   "stable_id": "rd00424",
+   "idx": 423,
+   "name": "Potocki-Lupski症候群",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00425",
+   "idx": 424,
+   "name": "Renpenning症候群",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00426",
+   "idx": 425,
+   "name": "MECP2重複症候群",
+   "orpha_code": "ORPHA:1762"
+  },
+  {
+   "stable_id": "rd00427",
+   "idx": 426,
+   "name": "Myhre症候群",
+   "orpha_code": "ORPHA:2588"
+  },
+  {
+   "stable_id": "rd00428",
+   "idx": 427,
+   "name": "Floating-Harbor症候群",
+   "orpha_code": "ORPHA:2044"
+  },
+  {
+   "stable_id": "rd00429",
+   "idx": 428,
+   "name": "Tatton-Brown-Rahman症候群",
+   "orpha_code": "ORPHA:404443"
+  },
+  {
+   "stable_id": "rd00430",
+   "idx": 429,
+   "name": "Weaver症候群",
+   "orpha_code": "ORPHA:3447"
+  },
+  {
+   "stable_id": "rd00431",
+   "idx": 430,
+   "name": "Marshall-Smith症候群",
+   "orpha_code": "ORPHA:561"
+  },
+  {
+   "stable_id": "rd00432",
+   "idx": 431,
+   "name": "Bohring-Opitz症候群",
+   "orpha_code": "ORPHA:97297"
+  },
+  {
+   "stable_id": "rd00433",
+   "idx": 432,
+   "name": "バルデー・ビードル症候群",
+   "orpha_code": "ORPHA:110"
+  },
+  {
+   "stable_id": "rd00434",
+   "idx": 433,
+   "name": "ジュベール症候群",
+   "orpha_code": "ORPHA:140874"
+  },
+  {
+   "stable_id": "rd00435",
+   "idx": 434,
+   "name": "ウォルフラム症候群",
+   "orpha_code": "ORPHA:3463"
+  },
+  {
+   "stable_id": "rd00436",
+   "idx": 435,
+   "name": "Alström症候群",
+   "orpha_code": "ORPHA:64"
+  },
+  {
+   "stable_id": "rd00437",
+   "idx": 436,
+   "name": "Cohen症候群",
+   "orpha_code": "ORPHA:193"
+  },
+  {
+   "stable_id": "rd00438",
+   "idx": 437,
+   "name": "コケイン症候群",
+   "orpha_code": "ORPHA:191"
+  },
+  {
+   "stable_id": "rd00439",
+   "idx": 438,
+   "name": "ウェルナー症候群",
+   "orpha_code": "ORPHA:902"
+  },
+  {
+   "stable_id": "rd00440",
+   "idx": 439,
+   "name": "ブルーム症候群",
+   "orpha_code": "ORPHA:125"
+  },
+  {
+   "stable_id": "rd00441",
+   "idx": 440,
+   "name": "ファンコニ貧血",
+   "orpha_code": "ORPHA:84"
+  },
+  {
+   "stable_id": "rd00442",
+   "idx": 441,
+   "name": "先天性角化不全症",
+   "orpha_code": "ORPHA:1775"
+  },
+  {
+   "stable_id": "rd00443",
+   "idx": 442,
+   "name": "シュワッハマン・ダイアモンド症候群",
+   "orpha_code": "ORPHA:811"
+  },
+  {
+   "stable_id": "rd00444",
+   "idx": 443,
+   "name": "先天性無巨核球性血小板減少症",
+   "orpha_code": "ORPHA:3319"
+  },
+  {
+   "stable_id": "rd00445",
+   "idx": 444,
+   "name": "Kostmann症候群",
+   "orpha_code": "ORPHA:42738"
+  },
+  {
+   "stable_id": "rd00446",
+   "idx": 445,
+   "name": "ウィスコット・オルドリッチ症候群関連血小板減少症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00447",
+   "idx": 446,
+   "name": "先天性赤血球形成異常性貧血",
+   "orpha_code": "ORPHA:85"
+  },
+  {
+   "stable_id": "rd00448",
+   "idx": 447,
+   "name": "先天性アンチトロンビン欠乏症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00449",
+   "idx": 448,
+   "name": "遺伝性プロテインS欠乏症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00450",
+   "idx": 449,
+   "name": "Klippel-Trenaunay症候群",
+   "orpha_code": "ORPHA:90308"
+  },
+  {
+   "stable_id": "rd00451",
+   "idx": 450,
+   "name": "Proteus症候群",
+   "orpha_code": "ORPHA:744"
+  },
+  {
+   "stable_id": "rd00452",
+   "idx": 451,
+   "name": "マッキューン・オルブライト症候群",
+   "orpha_code": "ORPHA:562"
+  },
+  {
+   "stable_id": "rd00453",
+   "idx": 452,
+   "name": "CLOVES症候群",
+   "orpha_code": "ORPHA:140944"
+  },
+  {
+   "stable_id": "rd00454",
+   "idx": 453,
+   "name": "Parkes Weber症候群",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00455",
+   "idx": 454,
+   "name": "遺伝性リンパ浮腫",
+   "orpha_code": "ORPHA:79452"
+  },
+  {
+   "stable_id": "rd00456",
+   "idx": 455,
+   "name": "先天性中枢性低換気症候群",
+   "orpha_code": "ORPHA:661"
+  },
+  {
+   "stable_id": "rd00457",
+   "idx": 456,
+   "name": "腎性尿崩症",
+   "orpha_code": "ORPHA:223"
+  },
+  {
+   "stable_id": "rd00458",
+   "idx": 457,
+   "name": "IPEX症候群",
+   "orpha_code": "ORPHA:37042"
+  },
+  {
+   "stable_id": "rd00459",
+   "idx": 458,
+   "name": "自己免疫性リンパ増殖症候群",
+   "orpha_code": "ORPHA:3261"
+  },
+  {
+   "stable_id": "rd00460",
+   "idx": 459,
+   "name": "Hyper-IgE症候群",
+   "orpha_code": "ORPHA:2314"
+  },
+  {
+   "stable_id": "rd00461",
+   "idx": 460,
+   "name": "Omenn症候群",
+   "orpha_code": "ORPHA:39041"
+  },
+  {
+   "stable_id": "rd00462",
+   "idx": 461,
+   "name": "Chediak-Higashi症候群",
+   "orpha_code": "ORPHA:167"
+  },
+  {
+   "stable_id": "rd00463",
+   "idx": 462,
+   "name": "Griscelli症候群",
+   "orpha_code": "ORPHA:381"
+  },
+  {
+   "stable_id": "rd00464",
+   "idx": 463,
+   "name": "メンケス病",
+   "orpha_code": "ORPHA:565"
+  },
+  {
+   "stable_id": "rd00465",
+   "idx": 464,
+   "name": "Canavan病",
+   "orpha_code": "ORPHA:141"
+  },
+  {
+   "stable_id": "rd00466",
+   "idx": 465,
+   "name": "クラッベ病",
+   "orpha_code": "ORPHA:487"
+  },
+  {
+   "stable_id": "rd00467",
+   "idx": 466,
+   "name": "異染性白質ジストロフィー",
+   "orpha_code": "ORPHA:512"
+  },
+  {
+   "stable_id": "rd00468",
+   "idx": 467,
+   "name": "Niemann-Pick病B型",
+   "orpha_code": "ORPHA:77293"
+  },
+  {
+   "stable_id": "rd00469",
+   "idx": 468,
+   "name": "GM1ガングリオシドーシス",
+   "orpha_code": "ORPHA:354"
+  },
+  {
+   "stable_id": "rd00470",
+   "idx": 469,
+   "name": "GM2ガングリオシドーシス（サンドホフ病）",
+   "orpha_code": "ORPHA:796"
+  },
+  {
+   "stable_id": "rd00471",
+   "idx": 470,
+   "name": "多発性スルファターゼ欠損症",
+   "orpha_code": "ORPHA:585"
+  },
+  {
+   "stable_id": "rd00472",
+   "idx": 471,
+   "name": "ポンペ病（乳児型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00473",
+   "idx": 472,
+   "name": "シトリン欠損症",
+   "orpha_code": "ORPHA:247582"
+  },
+  {
+   "stable_id": "rd00474",
+   "idx": 473,
+   "name": "腫瘍性骨軟化症",
+   "orpha_code": "ORPHA:352540"
+  },
+  {
+   "stable_id": "rd00475",
+   "idx": 474,
+   "name": "ビタミンD依存性くる病",
+   "orpha_code": "ORPHA:289157"
+  },
+  {
+   "stable_id": "rd00476",
+   "idx": 475,
+   "name": "遺伝性低リン血症性くる病（FGF23関連）",
+   "orpha_code": "ORPHA:89937"
+  },
+  {
+   "stable_id": "rd00477",
+   "idx": 476,
+   "name": "偽性副甲状腺機能低下症",
+   "orpha_code": "ORPHA:97593"
+  },
+  {
+   "stable_id": "rd00478",
+   "idx": 477,
+   "name": "ミトコンドリア神経胃腸脳筋症",
+   "orpha_code": "ORPHA:298"
+  },
+  {
+   "stable_id": "rd00479",
+   "idx": 478,
+   "name": "Zellweger症候群（軽症型）",
+   "orpha_code": "ORPHA:44"
+  },
+  {
+   "stable_id": "rd00480",
+   "idx": 479,
+   "name": "アンジェルマン症候群（母性UPD型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00481",
+   "idx": 480,
+   "name": "1p36欠失症候群",
+   "orpha_code": "ORPHA:1606"
+  },
+  {
+   "stable_id": "rd00482",
+   "idx": 481,
+   "name": "2q37欠失症候群",
+   "orpha_code": "ORPHA:1001"
+  },
+  {
+   "stable_id": "rd00483",
+   "idx": 482,
+   "name": "8p23.1欠失症候群",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00484",
+   "idx": 483,
+   "name": "15q13.3欠失症候群",
+   "orpha_code": "ORPHA:199318"
+  },
+  {
+   "stable_id": "rd00485",
+   "idx": 484,
+   "name": "16p11.2欠失症候群",
+   "orpha_code": "ORPHA:261211"
+  },
+  {
+   "stable_id": "rd00486",
+   "idx": 485,
+   "name": "17q21.31欠失症候群",
+   "orpha_code": "ORPHA:96169"
+  },
+  {
+   "stable_id": "rd00487",
+   "idx": 486,
+   "name": "乳児てんかん性スパズム症候群（結節性硬化症関連）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00488",
+   "idx": 487,
+   "name": "CDKL5欠損症",
+   "orpha_code": "ORPHA:505652"
+  },
+  {
+   "stable_id": "rd00489",
+   "idx": 488,
+   "name": "PCDH19関連てんかん",
+   "orpha_code": "ORPHA:714652"
+  },
+  {
+   "stable_id": "rd00490",
+   "idx": 489,
+   "name": "進行性ミオクローヌスてんかん（Unverricht-Lundborg型）",
+   "orpha_code": "ORPHA:308"
+  },
+  {
+   "stable_id": "rd00491",
+   "idx": 490,
+   "name": "ラフォラ病",
+   "orpha_code": "ORPHA:501"
+  },
+  {
+   "stable_id": "rd00492",
+   "idx": 491,
+   "name": "脂肪萎縮症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00493",
+   "idx": 492,
+   "name": "クッシング症候群（ACTH非依存性）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00494",
+   "idx": 493,
+   "name": "先天性高インスリン血症",
+   "orpha_code": "ORPHA:657"
+  },
+  {
+   "stable_id": "rd00495",
+   "idx": 494,
+   "name": "GLUT1欠損症",
+   "orpha_code": "ORPHA:71277"
+  },
+  {
+   "stable_id": "rd00496",
+   "idx": 495,
+   "name": "レッシュ・ナイハン症候群",
+   "orpha_code": "ORPHA:510"
+  },
+  {
+   "stable_id": "rd00497",
+   "idx": 496,
+   "name": "芳香族Lアミノ酸脱炭酸酵素欠損症",
+   "orpha_code": "ORPHA:35708"
+  },
+  {
+   "stable_id": "rd00498",
+   "idx": 497,
+   "name": "セピアプテリン還元酵素欠損症",
+   "orpha_code": "ORPHA:70594"
+  },
+  {
+   "stable_id": "rd00499",
+   "idx": 498,
+   "name": "糖原病Ia型",
+   "orpha_code": "ORPHA:364"
+  },
+  {
+   "stable_id": "rd00500",
+   "idx": 499,
+   "name": "糖原病III型",
+   "orpha_code": "ORPHA:366"
+  },
+  {
+   "stable_id": "rd00501",
+   "idx": 500,
+   "name": "糖原病V型",
+   "orpha_code": "ORPHA:368"
+  },
+  {
+   "stable_id": "rd00502",
+   "idx": 501,
+   "name": "中鎖アシルCoA脱水素酵素欠損症",
+   "orpha_code": "ORPHA:42"
+  },
+  {
+   "stable_id": "rd00503",
+   "idx": 502,
+   "name": "ホロカルボキシラーゼ合成酵素欠損症",
+   "orpha_code": "ORPHA:79242"
+  },
+  {
+   "stable_id": "rd00504",
+   "idx": 503,
+   "name": "高フェニルアラニン血症（BH4反応型）",
+   "orpha_code": "ORPHA:293284"
+  },
+  {
+   "stable_id": "rd00505",
+   "idx": 504,
+   "name": "テトラヒドロビオプテリン欠乏症",
+   "orpha_code": "ORPHA:226"
+  },
+  {
+   "stable_id": "rd00506",
+   "idx": 505,
+   "name": "カルバミルリン酸合成酵素I欠損症",
+   "orpha_code": "ORPHA:147"
+  },
+  {
+   "stable_id": "rd00507",
+   "idx": 506,
+   "name": "N-アセチルグルタミン酸合成酵素欠損症",
+   "orpha_code": "ORPHA:927"
+  },
+  {
+   "stable_id": "rd00508",
+   "idx": 507,
+   "name": "遺伝性果糖不耐症",
+   "orpha_code": "ORPHA:469"
+  },
+  {
+   "stable_id": "rd00509",
+   "idx": 508,
+   "name": "先天性グリコシル化異常症",
+   "orpha_code": "ORPHA:137"
+  },
+  {
+   "stable_id": "rd00510",
+   "idx": 509,
+   "name": "脳腱黄色腫症",
+   "orpha_code": "ORPHA:909"
+  },
+  {
+   "stable_id": "rd00511",
+   "idx": 510,
+   "name": "スミス・レムリ・オピッツ症候群",
+   "orpha_code": "ORPHA:818"
+  },
+  {
+   "stable_id": "rd00512",
+   "idx": 511,
+   "name": "Niemann-Pick病A型",
+   "orpha_code": "ORPHA:77292"
+  },
+  {
+   "stable_id": "rd00513",
+   "idx": 512,
+   "name": "シアリドーシス",
+   "orpha_code": "ORPHA:309294"
+  },
+  {
+   "stable_id": "rd00514",
+   "idx": 513,
+   "name": "遺伝性オロト酸尿症",
+   "orpha_code": "ORPHA:30"
+  },
+  {
+   "stable_id": "rd00515",
+   "idx": 514,
+   "name": "遺伝性キサンチン尿症",
+   "orpha_code": "ORPHA:3467"
+  },
+  {
+   "stable_id": "rd00516",
+   "idx": 515,
+   "name": "モリブデン補因子欠損症",
+   "orpha_code": "ORPHA:99732"
+  },
+  {
+   "stable_id": "rd00517",
+   "idx": 516,
+   "name": "亜硫酸酸化酵素欠損症",
+   "orpha_code": "ORPHA:833"
+  },
+  {
+   "stable_id": "rd00518",
+   "idx": 517,
+   "name": "セロイドリポフスチン症",
+   "orpha_code": "ORPHA:216"
+  },
+  {
+   "stable_id": "rd00519",
+   "idx": 518,
+   "name": "Wolcott-Rallison症候群",
+   "orpha_code": "ORPHA:1667"
+  },
+  {
+   "stable_id": "rd00520",
+   "idx": 519,
+   "name": "Mitchell-Riley症候群",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00521",
+   "idx": 520,
+   "name": "KCNJ11関連新生児糖尿病",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00522",
+   "idx": 521,
+   "name": "Hartnup病",
+   "orpha_code": "ORPHA:2116"
+  },
+  {
+   "stable_id": "rd00523",
+   "idx": 522,
+   "name": "Lowe症候群",
+   "orpha_code": "ORPHA:534"
+  },
+  {
+   "stable_id": "rd00524",
+   "idx": 523,
+   "name": "Dent病",
+   "orpha_code": "ORPHA:1652"
+  },
+  {
+   "stable_id": "rd00525",
+   "idx": 524,
+   "name": "Bartter症候群",
+   "orpha_code": "ORPHA:112"
+  },
+  {
+   "stable_id": "rd00526",
+   "idx": 525,
+   "name": "Gitelman症候群",
+   "orpha_code": "ORPHA:358"
+  },
+  {
+   "stable_id": "rd00527",
+   "idx": 526,
+   "name": "Liddle症候群",
+   "orpha_code": "ORPHA:526"
+  },
+  {
+   "stable_id": "rd00528",
+   "idx": 527,
+   "name": "Gordon症候群",
+   "orpha_code": "ORPHA:757"
+  },
+  {
+   "stable_id": "rd00529",
+   "idx": 528,
+   "name": "筋強直性ジストロフィー2型",
+   "orpha_code": "ORPHA:606"
+  },
+  {
+   "stable_id": "rd00530",
+   "idx": 529,
+   "name": "乳児型ネマリンミオパチー",
+   "orpha_code": "ORPHA:607"
+  },
+  {
+   "stable_id": "rd00531",
+   "idx": 530,
+   "name": "セントラルコア病",
+   "orpha_code": "ORPHA:597"
+  },
+  {
+   "stable_id": "rd00532",
+   "idx": 531,
+   "name": "ミニコア病",
+   "orpha_code": "ORPHA:598"
+  },
+  {
+   "stable_id": "rd00533",
+   "idx": 532,
+   "name": "先天性線維型不均等症",
+   "orpha_code": "ORPHA:2020"
+  },
+  {
+   "stable_id": "rd00534",
+   "idx": 533,
+   "name": "中心核ミオパチー",
+   "orpha_code": "ORPHA:595"
+  },
+  {
+   "stable_id": "rd00535",
+   "idx": 534,
+   "name": "ベスレムミオパチー",
+   "orpha_code": "ORPHA:610"
+  },
+  {
+   "stable_id": "rd00536",
+   "idx": 535,
+   "name": "エメリー・ドレイフス型筋ジストロフィー",
+   "orpha_code": "ORPHA:261"
+  },
+  {
+   "stable_id": "rd00537",
+   "idx": 536,
+   "name": "筋細管ミオパチー（X連鎖型）",
+   "orpha_code": "ORPHA:596"
+  },
+  {
+   "stable_id": "rd00538",
+   "idx": 537,
+   "name": "遠位関節拘縮症",
+   "orpha_code": "ORPHA:97120"
+  },
+  {
+   "stable_id": "rd00539",
+   "idx": 538,
+   "name": "Freeman-Sheldon症候群",
+   "orpha_code": "ORPHA:2053"
+  },
+  {
+   "stable_id": "rd00540",
+   "idx": 539,
+   "name": "ミトコンドリア心筋症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00541",
+   "idx": 540,
+   "name": "Barth症候群",
+   "orpha_code": "ORPHA:111"
+  },
+  {
+   "stable_id": "rd00542",
+   "idx": 541,
+   "name": "遺伝性感覚性自律神経性ニューロパチー",
+   "orpha_code": "ORPHA:140471"
+  },
+  {
+   "stable_id": "rd00543",
+   "idx": 542,
+   "name": "遺伝性運動感覚性ニューロパチー（デジェリーヌ・ソッタス型）",
+   "orpha_code": "ORPHA:64748"
+  },
+  {
+   "stable_id": "rd00544",
+   "idx": 543,
+   "name": "巨大軸索ニューロパチー",
+   "orpha_code": "ORPHA:643"
+  },
+  {
+   "stable_id": "rd00545",
+   "idx": 544,
+   "name": "Chiari奇形（I型）",
+   "orpha_code": "ORPHA:268882"
+  },
+  {
+   "stable_id": "rd00546",
+   "idx": 545,
+   "name": "二分脊椎",
+   "orpha_code": "ORPHA:823"
+  },
+  {
+   "stable_id": "rd00547",
+   "idx": 546,
+   "name": "頭蓋骨早期癒合症（非症候群性）",
+   "orpha_code": "ORPHA:139390"
+  },
+  {
+   "stable_id": "rd00548",
+   "idx": 547,
+   "name": "先天性中枢性低換気症候群（非ポリアラニン型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00549",
+   "idx": 548,
+   "name": "進行性家族性肝内胆汁うっ滞症",
+   "orpha_code": "ORPHA:172"
+  },
+  {
+   "stable_id": "rd00550",
+   "idx": 549,
+   "name": "3-ヒドロキシ-3-メチルグルタル酸血症",
+   "orpha_code": "ORPHA:20"
+  },
+  {
+   "stable_id": "rd00551",
+   "idx": 550,
+   "name": "カルニチンパルミトイルトランスフェラーゼII欠損症",
+   "orpha_code": "ORPHA:228302"
+  },
+  {
+   "stable_id": "rd00552",
+   "idx": 551,
+   "name": "短鎖アシルCoA脱水素酵素欠損症",
+   "orpha_code": "ORPHA:26792"
+  },
+  {
+   "stable_id": "rd00553",
+   "idx": 552,
+   "name": "ケトアシドーシス発作を伴うスクシニル-CoA: 3-ケト酸CoAトランスフェラーゼ欠損症",
+   "orpha_code": "ORPHA:832"
+  },
+  {
+   "stable_id": "rd00554",
+   "idx": 553,
+   "name": "ミトコンドリア三機能蛋白欠損症",
+   "orpha_code": "ORPHA:5"
+  },
+  {
+   "stable_id": "rd00555",
+   "idx": 554,
+   "name": "グルタル酸血症II型",
+   "orpha_code": "ORPHA:26791"
+  },
+  {
+   "stable_id": "rd00556",
+   "idx": 555,
+   "name": "D-2-ヒドロキシグルタル酸尿症",
+   "orpha_code": "ORPHA:79315"
+  },
+  {
+   "stable_id": "rd00557",
+   "idx": 556,
+   "name": "L-2-ヒドロキシグルタル酸尿症",
+   "orpha_code": "ORPHA:79314"
+  },
+  {
+   "stable_id": "rd00558",
+   "idx": 557,
+   "name": "ヒスチジン血症",
+   "orpha_code": "ORPHA:2157"
+  },
+  {
+   "stable_id": "rd00559",
+   "idx": 558,
+   "name": "Dubin-Johnson症候群",
+   "orpha_code": "ORPHA:234"
+  },
+  {
+   "stable_id": "rd00560",
+   "idx": 559,
+   "name": "Rotor症候群",
+   "orpha_code": "ORPHA:3111"
+  },
+  {
+   "stable_id": "rd00561",
+   "idx": 560,
+   "name": "4H白質ジストロフィー",
+   "orpha_code": "ORPHA:289494"
+  },
+  {
+   "stable_id": "rd00562",
+   "idx": 561,
+   "name": "Aicardi-Goutières症候群",
+   "orpha_code": "ORPHA:51"
+  },
+  {
+   "stable_id": "rd00563",
+   "idx": 562,
+   "name": "白質消失病",
+   "orpha_code": "ORPHA:135"
+  },
+  {
+   "stable_id": "rd00564",
+   "idx": 563,
+   "name": "皮質下嚢胞をもつ大頭型白質脳症",
+   "orpha_code": "ORPHA:2478"
+  },
+  {
+   "stable_id": "rd00565",
+   "idx": 564,
+   "name": "X連鎖性副腎白質ジストロフィー（小児脳型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00566",
+   "idx": 565,
+   "name": "遺伝性痙性対麻痺2型",
+   "orpha_code": "ORPHA:280270"
+  },
+  {
+   "stable_id": "rd00567",
+   "idx": 566,
+   "name": "Danon病",
+   "orpha_code": "ORPHA:34587"
+  },
+  {
+   "stable_id": "rd00568",
+   "idx": 567,
+   "name": "Andersen-Tawil症候群",
+   "orpha_code": "ORPHA:37553"
+  },
+  {
+   "stable_id": "rd00569",
+   "idx": 568,
+   "name": "Timothy症候群",
+   "orpha_code": "ORPHA:65283"
+  },
+  {
+   "stable_id": "rd00570",
+   "idx": 569,
+   "name": "先天性QT短縮症候群",
+   "orpha_code": "ORPHA:51083"
+  },
+  {
+   "stable_id": "rd00571",
+   "idx": 570,
+   "name": "先天性ジストログリカノパチー",
+   "orpha_code": "ORPHA:899"
+  },
+  {
+   "stable_id": "rd00572",
+   "idx": 571,
+   "name": "Conradi-Hünermann-Happle症候群",
+   "orpha_code": "ORPHA:35173"
+  },
+  {
+   "stable_id": "rd00573",
+   "idx": 572,
+   "name": "Desbuquois骨異形成症",
+   "orpha_code": "ORPHA:1425"
+  },
+  {
+   "stable_id": "rd00574",
+   "idx": 573,
+   "name": "骨形成不全症IV型",
+   "orpha_code": "ORPHA:216820"
+  },
+  {
+   "stable_id": "rd00575",
+   "idx": 574,
+   "name": "骨形成不全症V型",
+   "orpha_code": "ORPHA:216828"
+  },
+  {
+   "stable_id": "rd00576",
+   "idx": 575,
+   "name": "骨幹端異形成症(Schmid型)",
+   "orpha_code": "ORPHA:174"
+  },
+  {
+   "stable_id": "rd00577",
+   "idx": 576,
+   "name": "ピクノジソストーシス",
+   "orpha_code": "ORPHA:763"
+  },
+  {
+   "stable_id": "rd00578",
+   "idx": 577,
+   "name": "多発性骨端異形成症",
+   "orpha_code": "ORPHA:251"
+  },
+  {
+   "stable_id": "rd00579",
+   "idx": 578,
+   "name": "先天性脊椎骨端異形成症",
+   "orpha_code": "ORPHA:94068"
+  },
+  {
+   "stable_id": "rd00580",
+   "idx": 579,
+   "name": "Stickler症候群",
+   "orpha_code": "ORPHA:828"
+  },
+  {
+   "stable_id": "rd00581",
+   "idx": 580,
+   "name": "Acromesomelic Dysplasia(Maroteaux型)",
+   "orpha_code": "ORPHA:40"
+  },
+  {
+   "stable_id": "rd00582",
+   "idx": 581,
+   "name": "タナトフォリック骨異形成症",
+   "orpha_code": "ORPHA:2655"
+  },
+  {
+   "stable_id": "rd00583",
+   "idx": 582,
+   "name": "捻曲性骨異形成症",
+   "orpha_code": "ORPHA:628"
+  },
+  {
+   "stable_id": "rd00584",
+   "idx": 583,
+   "name": "Ellis-van Creveld症候群",
+   "orpha_code": "ORPHA:289"
+  },
+  {
+   "stable_id": "rd00585",
+   "idx": 584,
+   "name": "偽性軟骨無形成症",
+   "orpha_code": "ORPHA:750"
+  },
+  {
+   "stable_id": "rd00586",
+   "idx": 585,
+   "name": "屈曲肢異形成症",
+   "orpha_code": "ORPHA:140"
+  },
+  {
+   "stable_id": "rd00587",
+   "idx": 586,
+   "name": "Hajdu-Cheney症候群",
+   "orpha_code": "ORPHA:955"
+  },
+  {
+   "stable_id": "rd00588",
+   "idx": 587,
+   "name": "Camurati-Engelmann病",
+   "orpha_code": "ORPHA:1328"
+  },
+  {
+   "stable_id": "rd00589",
+   "idx": 588,
+   "name": "Meier-Gorlin症候群",
+   "orpha_code": "ORPHA:2554"
+  },
+  {
+   "stable_id": "rd00590",
+   "idx": 589,
+   "name": "多中心性Castleman病",
+   "orpha_code": "ORPHA:160"
+  },
+  {
+   "stable_id": "rd00591",
+   "idx": 590,
+   "name": "全身性肥満細胞症",
+   "orpha_code": "ORPHA:2467"
+  },
+  {
+   "stable_id": "rd00592",
+   "idx": 591,
+   "name": "巨大リンパ管奇形(嚢胞性ヒグローマ)",
+   "orpha_code": "ORPHA:79489"
+  },
+  {
+   "stable_id": "rd00593",
+   "idx": 592,
+   "name": "SAPHO症候群",
+   "orpha_code": "ORPHA:793"
+  },
+  {
+   "stable_id": "rd00594",
+   "idx": 593,
+   "name": "慢性再発性多発性骨髄炎",
+   "orpha_code": "ORPHA:324964"
+  },
+  {
+   "stable_id": "rd00595",
+   "idx": 594,
+   "name": "アデノシンデアミナーゼ2欠損症",
+   "orpha_code": "ORPHA:404553"
+  },
+  {
+   "stable_id": "rd00596",
+   "idx": 595,
+   "name": "H症候群",
+   "orpha_code": "ORPHA:168569"
+  },
+  {
+   "stable_id": "rd00597",
+   "idx": 596,
+   "name": "Muckle-Wells症候群",
+   "orpha_code": "ORPHA:575"
+  },
+  {
+   "stable_id": "rd00598",
+   "idx": 597,
+   "name": "CINCA症候群",
+   "orpha_code": "ORPHA:1451"
+  },
+  {
+   "stable_id": "rd00599",
+   "idx": 598,
+   "name": "PAPA症候群",
+   "orpha_code": "ORPHA:69126"
+  },
+  {
+   "stable_id": "rd00600",
+   "idx": 599,
+   "name": "PFAPA症候群",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00601",
+   "idx": 600,
+   "name": "ブラウ症候群",
+   "orpha_code": "ORPHA:90340"
+  },
+  {
+   "stable_id": "rd00602",
+   "idx": 601,
+   "name": "中條-西村症候群",
+   "orpha_code": "ORPHA:324977"
+  },
+  {
+   "stable_id": "rd00603",
+   "idx": 602,
+   "name": "A20ハプロ不全症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00604",
+   "idx": 603,
+   "name": "VEXAS症候群",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00605",
+   "idx": 604,
+   "name": "Schnitzler症候群",
+   "orpha_code": "ORPHA:37748"
+  },
+  {
+   "stable_id": "rd00606",
+   "idx": 605,
+   "name": "先天性気管狭窄症",
+   "orpha_code": "ORPHA:141127"
+  },
+  {
+   "stable_id": "rd00607",
+   "idx": 606,
+   "name": "先天性嚢胞性腺腫様奇形",
+   "orpha_code": "ORPHA:2444"
+  },
+  {
+   "stable_id": "rd00608",
+   "idx": 607,
+   "name": "肺分画症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00609",
+   "idx": 608,
+   "name": "Cantrell五徴候群",
+   "orpha_code": "ORPHA:1335"
+  },
+  {
+   "stable_id": "rd00610",
+   "idx": 609,
+   "name": "膀胱尿管逆流症（先天性高度）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00611",
+   "idx": 610,
+   "name": "先天性腎尿路奇形",
+   "orpha_code": "ORPHA:93545"
+  },
+  {
+   "stable_id": "rd00612",
+   "idx": 611,
+   "name": "総排泄腔遺残",
+   "orpha_code": "ORPHA:93929"
+  },
+  {
+   "stable_id": "rd00613",
+   "idx": 612,
+   "name": "先天性気管支閉鎖症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00614",
+   "idx": 613,
+   "name": "Townes-Brocks症候群",
+   "orpha_code": "ORPHA:857"
+  },
+  {
+   "stable_id": "rd00615",
+   "idx": 614,
+   "name": "Meckel-Gruber症候群",
+   "orpha_code": "ORPHA:564"
+  },
+  {
+   "stable_id": "rd00616",
+   "idx": 615,
+   "name": "Fraser症候群",
+   "orpha_code": "ORPHA:2052"
+  },
+  {
+   "stable_id": "rd00617",
+   "idx": 616,
+   "name": "Pallister-Hall症候群",
+   "orpha_code": "ORPHA:672"
+  },
+  {
+   "stable_id": "rd00618",
+   "idx": 617,
+   "name": "Baraitser-Winter症候群",
+   "orpha_code": "ORPHA:2995"
+  },
+  {
+   "stable_id": "rd00619",
+   "idx": 618,
+   "name": "Donnai-Barrow症候群",
+   "orpha_code": "ORPHA:2143"
+  },
+  {
+   "stable_id": "rd00620",
+   "idx": 619,
+   "name": "先天性無痛無汗症",
+   "orpha_code": "ORPHA:642"
+  },
+  {
+   "stable_id": "rd00621",
+   "idx": 620,
+   "name": "遺伝性感覚性ニューロパチーI型",
+   "orpha_code": "ORPHA:36386"
+  },
+  {
+   "stable_id": "rd00622",
+   "idx": 621,
+   "name": "遺伝性圧脆弱性ニューロパチー",
+   "orpha_code": "ORPHA:640"
+  },
+  {
+   "stable_id": "rd00623",
+   "idx": 622,
+   "name": "Isaac症候群",
+   "orpha_code": "ORPHA:84142"
+  },
+  {
+   "stable_id": "rd00624",
+   "idx": 623,
+   "name": "Morvan症候群",
+   "orpha_code": "ORPHA:83467"
+  },
+  {
+   "stable_id": "rd00625",
+   "idx": 624,
+   "name": "Stiff-Person症候群",
+   "orpha_code": "ORPHA:3198"
+  },
+  {
+   "stable_id": "rd00626",
+   "idx": 625,
+   "name": "自己免疫性脳炎（抗NMDA受容体）",
+   "orpha_code": "ORPHA:217253"
+  },
+  {
+   "stable_id": "rd00627",
+   "idx": 626,
+   "name": "抗LGI1抗体関連脳炎",
+   "orpha_code": "ORPHA:163908"
+  },
+  {
+   "stable_id": "rd00628",
+   "idx": 627,
+   "name": "視神経脊髄炎関連疾患（MOG抗体）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00629",
+   "idx": 628,
+   "name": "抗GABAb受容体抗体関連脳炎",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00630",
+   "idx": 629,
+   "name": "抗AMPA受容体抗体関連脳炎",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00631",
+   "idx": 630,
+   "name": "傍腫瘍性小脳変性症",
+   "orpha_code": "ORPHA:623626"
+  },
+  {
+   "stable_id": "rd00632",
+   "idx": 631,
+   "name": "Lambert-Eaton筋無力症候群",
+   "orpha_code": "ORPHA:43393"
+  },
+  {
+   "stable_id": "rd00633",
+   "idx": 632,
+   "name": "眼球クローヌス・ミオクローヌス症候群",
+   "orpha_code": "ORPHA:1183"
+  },
+  {
+   "stable_id": "rd00634",
+   "idx": 633,
+   "name": "神経サルコイドーシス",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00635",
+   "idx": 634,
+   "name": "IgG4関連硬膜炎",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00636",
+   "idx": 635,
+   "name": "IgG4関連涙腺・唾液腺炎",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00637",
+   "idx": 636,
+   "name": "IgG4関連後腹膜/大動脈周囲炎",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00638",
+   "idx": 637,
+   "name": "肺胞微石症",
+   "orpha_code": "ORPHA:60025"
+  },
+  {
+   "stable_id": "rd00639",
+   "idx": 638,
+   "name": "原発性リンパ浮腫（Meige型）",
+   "orpha_code": "ORPHA:90186"
+  },
+  {
+   "stable_id": "rd00640",
+   "idx": 639,
+   "name": "脊髄小脳変性症1型",
+   "orpha_code": "ORPHA:98755"
+  },
+  {
+   "stable_id": "rd00641",
+   "idx": 640,
+   "name": "脊髄小脳変性症2型",
+   "orpha_code": "ORPHA:98756"
+  },
+  {
+   "stable_id": "rd00642",
+   "idx": 641,
+   "name": "脊髄小脳変性症7型",
+   "orpha_code": "ORPHA:94147"
+  },
+  {
+   "stable_id": "rd00643",
+   "idx": 642,
+   "name": "脊髄小脳失調症31型",
+   "orpha_code": "ORPHA:217012"
+  },
+  {
+   "stable_id": "rd00644",
+   "idx": 643,
+   "name": "歯状核赤核淡蒼球ルイ体萎縮症",
+   "orpha_code": "ORPHA:101"
+  },
+  {
+   "stable_id": "rd00645",
+   "idx": 644,
+   "name": "遺伝性痙性対麻痺4型",
+   "orpha_code": "ORPHA:100985"
+  },
+  {
+   "stable_id": "rd00646",
+   "idx": 645,
+   "name": "遺伝性痙性対麻痺11型",
+   "orpha_code": "ORPHA:2822"
+  },
+  {
+   "stable_id": "rd00647",
+   "idx": 646,
+   "name": "遺伝性びまん性白質脳症球状封入体型",
+   "orpha_code": "ORPHA:313808"
+  },
+  {
+   "stable_id": "rd00648",
+   "idx": 647,
+   "name": "副腎皮質刺激ホルモン単独欠損症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00649",
+   "idx": 648,
+   "name": "リンパ管腫症",
+   "orpha_code": "ORPHA:141209"
+  },
+  {
+   "stable_id": "rd00650",
+   "idx": 649,
+   "name": "Gorham-Stout病",
+   "orpha_code": "ORPHA:73"
+  },
+  {
+   "stable_id": "rd00651",
+   "idx": 650,
+   "name": "Kasabach-Merritt現象",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00652",
+   "idx": 651,
+   "name": "Birt-Hogg-Dubé症候群",
+   "orpha_code": "ORPHA:122"
+  },
+  {
+   "stable_id": "rd00653",
+   "idx": 652,
+   "name": "von Hippel-Lindau病",
+   "orpha_code": "ORPHA:892"
+  },
+  {
+   "stable_id": "rd00654",
+   "idx": 653,
+   "name": "Li-Fraumeni症候群",
+   "orpha_code": "ORPHA:524"
+  },
+  {
+   "stable_id": "rd00655",
+   "idx": 654,
+   "name": "Cowden症候群",
+   "orpha_code": "ORPHA:201"
+  },
+  {
+   "stable_id": "rd00656",
+   "idx": 655,
+   "name": "Peutz-Jeghers症候群",
+   "orpha_code": "ORPHA:2869"
+  },
+  {
+   "stable_id": "rd00657",
+   "idx": 656,
+   "name": "若年性ポリポーシス症候群",
+   "orpha_code": "ORPHA:2929"
+  },
+  {
+   "stable_id": "rd00658",
+   "idx": 657,
+   "name": "遺伝性びまん性胃癌",
+   "orpha_code": "ORPHA:26106"
+  },
+  {
+   "stable_id": "rd00659",
+   "idx": 658,
+   "name": "多発性内分泌腫瘍症2A型",
+   "orpha_code": "ORPHA:247698"
+  },
+  {
+   "stable_id": "rd00660",
+   "idx": 659,
+   "name": "多発性内分泌腫瘍症2B型",
+   "orpha_code": "ORPHA:247709"
+  },
+  {
+   "stable_id": "rd00661",
+   "idx": 660,
+   "name": "遺伝性褐色細胞腫/パラガングリオーマ症候群",
+   "orpha_code": "ORPHA:29072"
+  },
+  {
+   "stable_id": "rd00662",
+   "idx": 661,
+   "name": "Carney-Stratakis症候群",
+   "orpha_code": "ORPHA:97286"
+  },
+  {
+   "stable_id": "rd00663",
+   "idx": 662,
+   "name": "遺伝性網膜芽細胞腫",
+   "orpha_code": "ORPHA:357027"
+  },
+  {
+   "stable_id": "rd00664",
+   "idx": 663,
+   "name": "遺伝性平滑筋腫症腎細胞癌症候群",
+   "orpha_code": "ORPHA:523"
+  },
+  {
+   "stable_id": "rd00665",
+   "idx": 664,
+   "name": "Baller-Gerold症候群",
+   "orpha_code": "ORPHA:1225"
+  },
+  {
+   "stable_id": "rd00666",
+   "idx": 665,
+   "name": "Rothmund-Thomson症候群",
+   "orpha_code": "ORPHA:2909"
+  },
+  {
+   "stable_id": "rd00667",
+   "idx": 666,
+   "name": "眼球運動失行を伴う失調症1型",
+   "orpha_code": "ORPHA:1168"
+  },
+  {
+   "stable_id": "rd00668",
+   "idx": 667,
+   "name": "眼球運動失行を伴う失調症2型",
+   "orpha_code": "ORPHA:64753"
+  },
+  {
+   "stable_id": "rd00669",
+   "idx": 668,
+   "name": "甲状腺ホルモン不応症",
+   "orpha_code": "ORPHA:853"
+  },
+  {
+   "stable_id": "rd00670",
+   "idx": 669,
+   "name": "TSH産生下垂体腺腫",
+   "orpha_code": "ORPHA:91347"
+  },
+  {
+   "stable_id": "rd00671",
+   "idx": 670,
+   "name": "先天性甲状腺機能低下症（中枢性）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00672",
+   "idx": 671,
+   "name": "成人成長ホルモン分泌不全症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00673",
+   "idx": 672,
+   "name": "アルギニン血症",
+   "orpha_code": "ORPHA:90"
+  },
+  {
+   "stable_id": "rd00674",
+   "idx": 673,
+   "name": "高オルニチン血症-高アンモニア血症-ホモシトルリン尿症症候群",
+   "orpha_code": "ORPHA:415"
+  },
+  {
+   "stable_id": "rd00675",
+   "idx": 674,
+   "name": "遺伝性腎性低尿酸血症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00676",
+   "idx": 675,
+   "name": "先天性筋ジストロフィー（メロシン欠損型）",
+   "orpha_code": "ORPHA:258"
+  },
+  {
+   "stable_id": "rd00677",
+   "idx": 676,
+   "name": "先天性副腎皮質過形成症（11β-水酸化酵素欠損型）",
+   "orpha_code": "ORPHA:90795"
+  },
+  {
+   "stable_id": "rd00678",
+   "idx": 677,
+   "name": "先天性副腎皮質過形成症（17α-水酸化酵素欠損型）",
+   "orpha_code": "ORPHA:90793"
+  },
+  {
+   "stable_id": "rd00679",
+   "idx": 678,
+   "name": "先天性リポイド過形成症",
+   "orpha_code": "ORPHA:90790"
+  },
+  {
+   "stable_id": "rd00680",
+   "idx": 679,
+   "name": "性分化疾患（完全型AIS）",
+   "orpha_code": "ORPHA:99429"
+  },
+  {
+   "stable_id": "rd00681",
+   "idx": 680,
+   "name": "5α-還元酵素欠損症",
+   "orpha_code": "ORPHA:753"
+  },
+  {
+   "stable_id": "rd00682",
+   "idx": 681,
+   "name": "Swyer症候群",
+   "orpha_code": "ORPHA:242"
+  },
+  {
+   "stable_id": "rd00683",
+   "idx": 682,
+   "name": "カルマン症候群",
+   "orpha_code": "ORPHA:478"
+  },
+  {
+   "stable_id": "rd00684",
+   "idx": 683,
+   "name": "遺伝性パントテン酸キナーゼ関連神経変性",
+   "orpha_code": "ORPHA:157850"
+  },
+  {
+   "stable_id": "rd00685",
+   "idx": 684,
+   "name": "PLA2G6関連神経変性",
+   "orpha_code": "ORPHA:329303"
+  },
+  {
+   "stable_id": "rd00686",
+   "idx": 685,
+   "name": "β-プロペラ蛋白関連神経変性",
+   "orpha_code": "ORPHA:329284"
+  },
+  {
+   "stable_id": "rd00687",
+   "idx": 686,
+   "name": "Kufor-Rakeb症候群",
+   "orpha_code": "ORPHA:306674"
+  },
+  {
+   "stable_id": "rd00688",
+   "idx": 687,
+   "name": "Woodhouse-Sakati症候群",
+   "orpha_code": "ORPHA:3464"
+  },
+  {
+   "stable_id": "rd00689",
+   "idx": 688,
+   "name": "Huntington病様2",
+   "orpha_code": "ORPHA:98934"
+  },
+  {
+   "stable_id": "rd00690",
+   "idx": 689,
+   "name": "McLeod症候群",
+   "orpha_code": "ORPHA:59306"
+  },
+  {
+   "stable_id": "rd00691",
+   "idx": 690,
+   "name": "良性家族性舞踏病",
+   "orpha_code": "ORPHA:1429"
+  },
+  {
+   "stable_id": "rd00692",
+   "idx": 691,
+   "name": "Perry症候群",
+   "orpha_code": "ORPHA:178509"
+  },
+  {
+   "stable_id": "rd00693",
+   "idx": 692,
+   "name": "遺伝性ジストニア（DYT1）",
+   "orpha_code": "ORPHA:256"
+  },
+  {
+   "stable_id": "rd00694",
+   "idx": 693,
+   "name": "ドパ反応性ジストニア",
+   "orpha_code": "ORPHA:255"
+  },
+  {
+   "stable_id": "rd00695",
+   "idx": 694,
+   "name": "X連鎖性ジストニア・パーキンソニズム",
+   "orpha_code": "ORPHA:53351"
+  },
+  {
+   "stable_id": "rd00696",
+   "idx": 695,
+   "name": "遺伝性痙攣性発声障害",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00697",
+   "idx": 696,
+   "name": "本態性振戦（重症型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00698",
+   "idx": 697,
+   "name": "脳表ヘモジデリン沈着症",
+   "orpha_code": "ORPHA:247245"
+  },
+  {
+   "stable_id": "rd00699",
+   "idx": 698,
+   "name": "特発性基底核石灰化症",
+   "orpha_code": "ORPHA:1980"
+  },
+  {
+   "stable_id": "rd00700",
+   "idx": 699,
+   "name": "遺伝性多発性外骨腫",
+   "orpha_code": "ORPHA:321"
+  },
+  {
+   "stable_id": "rd00701",
+   "idx": 700,
+   "name": "先天性多発性関節拘縮症",
+   "orpha_code": "ORPHA:1037"
+  },
+  {
+   "stable_id": "rd00702",
+   "idx": 701,
+   "name": "大田原症候群",
+   "orpha_code": "ORPHA:1934"
+  },
+  {
+   "stable_id": "rd00703",
+   "idx": 702,
+   "name": "遊走性焦点発作を伴う乳児てんかん",
+   "orpha_code": "ORPHA:293181"
+  },
+  {
+   "stable_id": "rd00704",
+   "idx": 703,
+   "name": "環状14番染色体症候群",
+   "orpha_code": "ORPHA:1440"
+  },
+  {
+   "stable_id": "rd00705",
+   "idx": 704,
+   "name": "環状20番染色体症候群",
+   "orpha_code": "ORPHA:1444"
+  },
+  {
+   "stable_id": "rd00706",
+   "idx": 705,
+   "name": "18トリソミー",
+   "orpha_code": "ORPHA:3380"
+  },
+  {
+   "stable_id": "rd00707",
+   "idx": 706,
+   "name": "13トリソミー",
+   "orpha_code": "ORPHA:3378"
+  },
+  {
+   "stable_id": "rd00708",
+   "idx": 707,
+   "name": "部分トリソミー（不均衡転座）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00709",
+   "idx": 708,
+   "name": "先天性赤芽球癆(一過性)",
+   "orpha_code": "ORPHA:98871"
+  },
+  {
+   "stable_id": "rd00710",
+   "idx": 709,
+   "name": "遺伝性鉄過剰症(フェロポルチン病)",
+   "orpha_code": "ORPHA:648562"
+  },
+  {
+   "stable_id": "rd00711",
+   "idx": 710,
+   "name": "先天性溶血性貧血（不安定ヘモグロビン症）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00712",
+   "idx": 711,
+   "name": "遺伝性血栓性血小板減少性紫斑病",
+   "orpha_code": "ORPHA:93583"
+  },
+  {
+   "stable_id": "rd00713",
+   "idx": 712,
+   "name": "後天性血栓性血小板減少性紫斑病",
+   "orpha_code": "ORPHA:93585"
+  },
+  {
+   "stable_id": "rd00714",
+   "idx": 713,
+   "name": "C3腎症",
+   "orpha_code": "ORPHA:329918"
+  },
+  {
+   "stable_id": "rd00715",
+   "idx": 714,
+   "name": "IgA腎症（重症進行型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00716",
+   "idx": 715,
+   "name": "膜性腎症（PLA2R陽性型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00717",
+   "idx": 716,
+   "name": "微小変化型ネフローゼ症候群（成人）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00718",
+   "idx": 717,
+   "name": "巣状分節性糸球体硬化症（遺伝性）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00719",
+   "idx": 718,
+   "name": "Alport症候群（X連鎖型）",
+   "orpha_code": "ORPHA:88917"
+  },
+  {
+   "stable_id": "rd00720",
+   "idx": 719,
+   "name": "先天性フィンランド型ネフローゼ症候群",
+   "orpha_code": "ORPHA:839"
+  },
+  {
+   "stable_id": "rd00721",
+   "idx": 720,
+   "name": "Denys-Drash症候群",
+   "orpha_code": "ORPHA:220"
+  },
+  {
+   "stable_id": "rd00722",
+   "idx": 721,
+   "name": "Frasier症候群",
+   "orpha_code": "ORPHA:347"
+  },
+  {
+   "stable_id": "rd00723",
+   "idx": 722,
+   "name": "ネイルパテラ症候群",
+   "orpha_code": "ORPHA:2614"
+  },
+  {
+   "stable_id": "rd00724",
+   "idx": 723,
+   "name": "常染色体優性尿細管間質性腎疾患(UMOD型)",
+   "orpha_code": "ORPHA:88950"
+  },
+  {
+   "stable_id": "rd00725",
+   "idx": 724,
+   "name": "常染色体優性尿細管間質性腎疾患(MUC1型)",
+   "orpha_code": "ORPHA:88949"
+  },
+  {
+   "stable_id": "rd00726",
+   "idx": 725,
+   "name": "先天性腎性マグネシウム喪失症",
+   "orpha_code": "ORPHA:30924"
+  },
+  {
+   "stable_id": "rd00727",
+   "idx": 726,
+   "name": "SeSAME/EAST症候群",
+   "orpha_code": "ORPHA:199343"
+  },
+  {
+   "stable_id": "rd00728",
+   "idx": 727,
+   "name": "先天性腎尿細管障害（Fanconi症候群）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00729",
+   "idx": 728,
+   "name": "肝外門脈閉塞症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00730",
+   "idx": 729,
+   "name": "原発性硬化性胆管炎（小児型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00731",
+   "idx": 730,
+   "name": "先天性肝線維症",
+   "orpha_code": "ORPHA:2031"
+  },
+  {
+   "stable_id": "rd00732",
+   "idx": 731,
+   "name": "セリアック病",
+   "orpha_code": "ORPHA:555"
+  },
+  {
+   "stable_id": "rd00733",
+   "idx": 732,
+   "name": "自己免疫性腸症",
+   "orpha_code": "ORPHA:94075"
+  },
+  {
+   "stable_id": "rd00734",
+   "idx": 733,
+   "name": "好酸球性消化管疾患（非食道型）",
+   "orpha_code": "ORPHA:2070"
+  },
+  {
+   "stable_id": "rd00735",
+   "idx": 734,
+   "name": "蛋白漏出性胃腸症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00736",
+   "idx": 735,
+   "name": "腸管囊胞様気腫症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00737",
+   "idx": 736,
+   "name": "先天性吸収不良症候群（先天性クロール下痢）",
+   "orpha_code": "ORPHA:53689"
+  },
+  {
+   "stable_id": "rd00738",
+   "idx": 737,
+   "name": "先天性ナトリウム下痢",
+   "orpha_code": "ORPHA:103908"
+  },
+  {
+   "stable_id": "rd00739",
+   "idx": 738,
+   "name": "先天性微絨毛封入体病",
+   "orpha_code": "ORPHA:2290"
+  },
+  {
+   "stable_id": "rd00740",
+   "idx": 739,
+   "name": "Tufting Enteropathy",
+   "orpha_code": "ORPHA:92050"
+  },
+  {
+   "stable_id": "rd00741",
+   "idx": 740,
+   "name": "クローン病（小児型重症）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00742",
+   "idx": 741,
+   "name": "潰瘍性大腸炎（難治型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00743",
+   "idx": 742,
+   "name": "ヒルシュスプルング病関連腸炎",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00744",
+   "idx": 743,
+   "name": "先天性肺サーファクタント異常症",
+   "orpha_code": "ORPHA:217563"
+  },
+  {
+   "stable_id": "rd00745",
+   "idx": 744,
+   "name": "先天性肺動静脈瘻",
+   "orpha_code": "ORPHA:2038"
+  },
+  {
+   "stable_id": "rd00746",
+   "idx": 745,
+   "name": "Mounier-Kuhn症候群",
+   "orpha_code": "ORPHA:3347"
+  },
+  {
+   "stable_id": "rd00747",
+   "idx": 746,
+   "name": "Williams-Campbell症候群",
+   "orpha_code": "ORPHA:3348"
+  },
+  {
+   "stable_id": "rd00748",
+   "idx": 747,
+   "name": "遺伝性眼瞼下垂",
+   "orpha_code": "ORPHA:91411"
+  },
+  {
+   "stable_id": "rd00749",
+   "idx": 748,
+   "name": "先天性線維症症候群",
+   "orpha_code": "ORPHA:45358"
+  },
+  {
+   "stable_id": "rd00750",
+   "idx": 749,
+   "name": "Duane眼球後退症候群",
+   "orpha_code": "ORPHA:233"
+  },
+  {
+   "stable_id": "rd00751",
+   "idx": 750,
+   "name": "Moebius症候群",
+   "orpha_code": "ORPHA:570"
+  },
+  {
+   "stable_id": "rd00752",
+   "idx": 751,
+   "name": "遺伝性眼球運動失行症（Cogan型）",
+   "orpha_code": "ORPHA:1125"
+  },
+  {
+   "stable_id": "rd00753",
+   "idx": 752,
+   "name": "遺伝性視神経症（常染色体優性）",
+   "orpha_code": "ORPHA:98672"
+  },
+  {
+   "stable_id": "rd00754",
+   "idx": 753,
+   "name": "前眼部形成異常（Axenfeld-Rieger症候群）",
+   "orpha_code": "ORPHA:782"
+  },
+  {
+   "stable_id": "rd00755",
+   "idx": 754,
+   "name": "Norrie病",
+   "orpha_code": "ORPHA:649"
+  },
+  {
+   "stable_id": "rd00756",
+   "idx": 755,
+   "name": "Peters異常",
+   "orpha_code": "ORPHA:708"
+  },
+  {
+   "stable_id": "rd00757",
+   "idx": 756,
+   "name": "先天性無虹彩症",
+   "orpha_code": "ORPHA:77"
+  },
+  {
+   "stable_id": "rd00758",
+   "idx": 757,
+   "name": "先天性停止性夜盲",
+   "orpha_code": "ORPHA:215"
+  },
+  {
+   "stable_id": "rd00759",
+   "idx": 758,
+   "name": "青錐体単色型色覚異常",
+   "orpha_code": "ORPHA:16"
+  },
+  {
+   "stable_id": "rd00760",
+   "idx": 759,
+   "name": "全色盲（CNGA3型）",
+   "orpha_code": "ORPHA:49382"
+  },
+  {
+   "stable_id": "rd00761",
+   "idx": 760,
+   "name": "Stargardt病",
+   "orpha_code": "ORPHA:827"
+  },
+  {
+   "stable_id": "rd00762",
+   "idx": 761,
+   "name": "Best卵黄状黄斑ジストロフィー",
+   "orpha_code": "ORPHA:1243"
+  },
+  {
+   "stable_id": "rd00763",
+   "idx": 762,
+   "name": "先天性グリコシルホスファチジルイノシトール欠損症",
+   "orpha_code": "ORPHA:352587"
+  },
+  {
+   "stable_id": "rd00764",
+   "idx": 763,
+   "name": "Kabuki症候群2型",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00765",
+   "idx": 764,
+   "name": "KBG症候群",
+   "orpha_code": "ORPHA:2332"
+  },
+  {
+   "stable_id": "rd00766",
+   "idx": 765,
+   "name": "Coffin-Lowry症候群",
+   "orpha_code": "ORPHA:192"
+  },
+  {
+   "stable_id": "rd00767",
+   "idx": 766,
+   "name": "Bosch-Boonstra-Schaaf視神経萎縮症候群",
+   "orpha_code": "ORPHA:401777"
+  },
+  {
+   "stable_id": "rd00768",
+   "idx": 767,
+   "name": "遺伝性対側性色素異常症",
+   "orpha_code": "ORPHA:41"
+  },
+  {
+   "stable_id": "rd00769",
+   "idx": 768,
+   "name": "先天性魚鱗癬様紅皮症",
+   "orpha_code": "ORPHA:79394"
+  },
+  {
+   "stable_id": "rd00770",
+   "idx": 769,
+   "name": "葉状魚鱗癬",
+   "orpha_code": "ORPHA:313"
+  },
+  {
+   "stable_id": "rd00771",
+   "idx": 770,
+   "name": "Sjögren-Larsson症候群",
+   "orpha_code": "ORPHA:816"
+  },
+  {
+   "stable_id": "rd00772",
+   "idx": 771,
+   "name": "Netherton症候群",
+   "orpha_code": "ORPHA:634"
+  },
+  {
+   "stable_id": "rd00773",
+   "idx": 772,
+   "name": "遺伝性掌蹠角化症（Vörner型）",
+   "orpha_code": "ORPHA:2199"
+  },
+  {
+   "stable_id": "rd00774",
+   "idx": 773,
+   "name": "Chanarin-Dorfman症候群",
+   "orpha_code": "ORPHA:98907"
+  },
+  {
+   "stable_id": "rd00775",
+   "idx": 774,
+   "name": "Hailey-Hailey病",
+   "orpha_code": "ORPHA:2841"
+  },
+  {
+   "stable_id": "rd00776",
+   "idx": 775,
+   "name": "Darier病",
+   "orpha_code": "ORPHA:218"
+  },
+  {
+   "stable_id": "rd00777",
+   "idx": 776,
+   "name": "水疱型先天性魚鱗癬様紅皮症",
+   "orpha_code": "ORPHA:312"
+  },
+  {
+   "stable_id": "rd00778",
+   "idx": 777,
+   "name": "遺伝性痛覚不全症（SCN9A型）",
+   "orpha_code": "ORPHA:217399"
+  },
+  {
+   "stable_id": "rd00779",
+   "idx": 778,
+   "name": "肢端紅痛症（SCN9A型）",
+   "orpha_code": "ORPHA:90026"
+  },
+  {
+   "stable_id": "rd00780",
+   "idx": 779,
+   "name": "発作性極度疼痛症",
+   "orpha_code": "ORPHA:46348"
+  },
+  {
+   "stable_id": "rd00781",
+   "idx": 780,
+   "name": "Sneddon症候群",
+   "orpha_code": "ORPHA:820"
+  },
+  {
+   "stable_id": "rd00782",
+   "idx": 781,
+   "name": "限局性強皮症",
+   "orpha_code": "ORPHA:2715"
+  },
+  {
+   "stable_id": "rd00783",
+   "idx": 782,
+   "name": "遺伝性毛髪・歯・爪異常症",
+   "orpha_code": "ORPHA:79373"
+  },
+  {
+   "stable_id": "rd00784",
+   "idx": 783,
+   "name": "遺伝性掌蹠角化症（Papillon-Lefèvre症候群）",
+   "orpha_code": "ORPHA:678"
+  },
+  {
+   "stable_id": "rd00785",
+   "idx": 784,
+   "name": "掌蹠角化症(Naxos病関連)",
+   "orpha_code": "ORPHA:34217"
+  },
+  {
+   "stable_id": "rd00786",
+   "idx": 785,
+   "name": "弾性線維性仮性黄色腫",
+   "orpha_code": "ORPHA:758"
+  },
+  {
+   "stable_id": "rd00787",
+   "idx": 786,
+   "name": "遺伝性結合組織疾患（Cutis Laxa）",
+   "orpha_code": "ORPHA:209"
+  },
+  {
+   "stable_id": "rd00788",
+   "idx": 787,
+   "name": "先天性副腎皮質過形成症（3β-HSD欠損型）",
+   "orpha_code": "ORPHA:90791"
+  },
+  {
+   "stable_id": "rd00789",
+   "idx": 788,
+   "name": "視床下部過誤腫（笑い発作てんかん）",
+   "orpha_code": "ORPHA:86906"
+  },
+  {
+   "stable_id": "rd00790",
+   "idx": 789,
+   "name": "Rasmussen脳炎",
+   "orpha_code": "ORPHA:1929"
+  },
+  {
+   "stable_id": "rd00791",
+   "idx": 790,
+   "name": "遺伝性ジスフィブリノゲン血症",
+   "orpha_code": "ORPHA:98881"
+  },
+  {
+   "stable_id": "rd00792",
+   "idx": 791,
+   "name": "遺伝性第VII因子欠損症",
+   "orpha_code": "ORPHA:327"
+  },
+  {
+   "stable_id": "rd00793",
+   "idx": 792,
+   "name": "遺伝性第X因子欠損症",
+   "orpha_code": "ORPHA:328"
+  },
+  {
+   "stable_id": "rd00794",
+   "idx": 793,
+   "name": "遺伝性第XI因子欠損症",
+   "orpha_code": "ORPHA:329"
+  },
+  {
+   "stable_id": "rd00795",
+   "idx": 794,
+   "name": "遺伝性第XIII因子欠損症",
+   "orpha_code": "ORPHA:330"
+  },
+  {
+   "stable_id": "rd00796",
+   "idx": 795,
+   "name": "Glanzmann血小板無力症",
+   "orpha_code": "ORPHA:849"
+  },
+  {
+   "stable_id": "rd00797",
+   "idx": 796,
+   "name": "Bernard-Soulier症候群",
+   "orpha_code": "ORPHA:274"
+  },
+  {
+   "stable_id": "rd00798",
+   "idx": 797,
+   "name": "Gray Platelet症候群",
+   "orpha_code": "ORPHA:721"
+  },
+  {
+   "stable_id": "rd00799",
+   "idx": 798,
+   "name": "Quebec Platelet Disorder",
+   "orpha_code": "ORPHA:220436"
+  },
+  {
+   "stable_id": "rd00800",
+   "idx": 799,
+   "name": "Scott症候群",
+   "orpha_code": "ORPHA:806"
+  },
+  {
+   "stable_id": "rd00801",
+   "idx": 800,
+   "name": "先天性無フィブリノゲン血症",
+   "orpha_code": "ORPHA:98880"
+  },
+  {
+   "stable_id": "rd00802",
+   "idx": 801,
+   "name": "先天性プラスミノゲン欠損症",
+   "orpha_code": "ORPHA:722"
+  },
+  {
+   "stable_id": "rd00803",
+   "idx": 802,
+   "name": "先天性第V因子欠損症",
+   "orpha_code": "ORPHA:326"
+  },
+  {
+   "stable_id": "rd00804",
+   "idx": 803,
+   "name": "第V因子・第VIII因子複合欠損症",
+   "orpha_code": "ORPHA:35909"
+  },
+  {
+   "stable_id": "rd00805",
+   "idx": 804,
+   "name": "先天性第II因子欠損症",
+   "orpha_code": "ORPHA:325"
+  },
+  {
+   "stable_id": "rd00806",
+   "idx": 805,
+   "name": "PAI-1欠損症",
+   "orpha_code": "ORPHA:99901"
+  },
+  {
+   "stable_id": "rd00807",
+   "idx": 806,
+   "name": "先天性赤血球膜異常症(楕円赤血球症)",
+   "orpha_code": "ORPHA:288"
+  },
+  {
+   "stable_id": "rd00808",
+   "idx": 807,
+   "name": "遺伝性有口赤血球症",
+   "orpha_code": "ORPHA:98365"
+  },
+  {
+   "stable_id": "rd00809",
+   "idx": 808,
+   "name": "遺伝性血小板減少症(MYH9関連疾患)",
+   "orpha_code": "ORPHA:182050"
+  },
+  {
+   "stable_id": "rd00810",
+   "idx": 809,
+   "name": "X連鎖性血小板減少症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00811",
+   "idx": 810,
+   "name": "ANKRD26関連血小板減少症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00812",
+   "idx": 811,
+   "name": "ヌーナン症候群様疾患(CBL変異)",
+   "orpha_code": "ORPHA:363700"
+  },
+  {
+   "stable_id": "rd00813",
+   "idx": 812,
+   "name": "Legius症候群",
+   "orpha_code": "ORPHA:137605"
+  },
+  {
+   "stable_id": "rd00814",
+   "idx": 813,
+   "name": "Marden-Walker症候群",
+   "orpha_code": "ORPHA:2461"
+  },
+  {
+   "stable_id": "rd00815",
+   "idx": 814,
+   "name": "Filippi症候群",
+   "orpha_code": "ORPHA:3255"
+  },
+  {
+   "stable_id": "rd00816",
+   "idx": 815,
+   "name": "特発性側弯症（重症進行性）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00817",
+   "idx": 816,
+   "name": "先天性側弯症（椎体形成異常）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00818",
+   "idx": 817,
+   "name": "変形性股関節症（二次性・若年型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00819",
+   "idx": 818,
+   "name": "脊髄係留症候群",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00820",
+   "idx": 819,
+   "name": "環軸椎脱臼（先天性）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00821",
+   "idx": 820,
+   "name": "遺伝性痙性対麻痺3A型",
+   "orpha_code": "ORPHA:100984"
+  },
+  {
+   "stable_id": "rd00822",
+   "idx": 821,
+   "name": "遺伝性痙性対麻痺7型",
+   "orpha_code": "ORPHA:99013"
+  },
+  {
+   "stable_id": "rd00823",
+   "idx": 822,
+   "name": "遺伝性痙性対麻痺5A型",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00824",
+   "idx": 823,
+   "name": "遺伝性ニューロパチー（SORD欠損症）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00825",
+   "idx": 824,
+   "name": "遺伝性運動ニューロパチー（dHMN）",
+   "orpha_code": "ORPHA:53739"
+  },
+  {
+   "stable_id": "rd00826",
+   "idx": 825,
+   "name": "抗MAG抗体ニューロパチー",
+   "orpha_code": "ORPHA:209004"
+  },
+  {
+   "stable_id": "rd00827",
+   "idx": 826,
+   "name": "肥厚性硬膜炎",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00828",
+   "idx": 827,
+   "name": "脊髄硬膜動静脈瘻",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00829",
+   "idx": 828,
+   "name": "特発性頭蓋内圧亢進症",
+   "orpha_code": "ORPHA:238624"
+  },
+  {
+   "stable_id": "rd00830",
+   "idx": 829,
+   "name": "先天性大脳白質形成不全症（TUBB4A型）",
+   "orpha_code": "ORPHA:139441"
+  },
+  {
+   "stable_id": "rd00831",
+   "idx": 830,
+   "name": "先天性大脳白質形成不全症（SOX10型）",
+   "orpha_code": "ORPHA:163746"
+  },
+  {
+   "stable_id": "rd00832",
+   "idx": 831,
+   "name": "Allan-Herndon-Dudley症候群",
+   "orpha_code": "ORPHA:59"
+  },
+  {
+   "stable_id": "rd00833",
+   "idx": 832,
+   "name": "遺伝性線条体壊死",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00834",
+   "idx": 833,
+   "name": "遺伝性小脳低形成",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00835",
+   "idx": 834,
+   "name": "先天性眼球振盪",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00836",
+   "idx": 835,
+   "name": "進行性外眼筋麻痺(ミトコンドリア)",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00837",
+   "idx": 836,
+   "name": "NARP症候群",
+   "orpha_code": "ORPHA:644"
+  },
+  {
+   "stable_id": "rd00838",
+   "idx": 837,
+   "name": "ミトコンドリアDNA枯渇症候群（肝脳型）",
+   "orpha_code": "ORPHA:254902"
+  },
+  {
+   "stable_id": "rd00839",
+   "idx": 838,
+   "name": "ミトコンドリアDNA枯渇症候群（筋型）",
+   "orpha_code": "ORPHA:254875"
+  },
+  {
+   "stable_id": "rd00840",
+   "idx": 839,
+   "name": "ミトコンドリア糖尿病・難聴",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00841",
+   "idx": 840,
+   "name": "エチルマロン酸脳症",
+   "orpha_code": "ORPHA:51188"
+  },
+  {
+   "stable_id": "rd00842",
+   "idx": 841,
+   "name": "先天性高乳酸血症（PDH欠損症）",
+   "orpha_code": "ORPHA:765"
+  },
+  {
+   "stable_id": "rd00843",
+   "idx": 842,
+   "name": "先天性高乳酸血症（PC欠損症）",
+   "orpha_code": "ORPHA:3008"
+  },
+  {
+   "stable_id": "rd00844",
+   "idx": 843,
+   "name": "複合体I欠損症",
+   "orpha_code": "ORPHA:2609"
+  },
+  {
+   "stable_id": "rd00845",
+   "idx": 844,
+   "name": "複合体III欠損症",
+   "orpha_code": "ORPHA:2611"
+  },
+  {
+   "stable_id": "rd00846",
+   "idx": 845,
+   "name": "複合体IV欠損症（SCO2型）",
+   "orpha_code": "ORPHA:2612"
+  },
+  {
+   "stable_id": "rd00847",
+   "idx": 846,
+   "name": "ミトコンドリア翻訳異常症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00848",
+   "idx": 847,
+   "name": "コエンザイムQ10欠損症",
+   "orpha_code": "ORPHA:35656"
+  },
+  {
+   "stable_id": "rd00849",
+   "idx": 848,
+   "name": "遺伝性マンガン輸送異常症",
+   "orpha_code": "ORPHA:521406"
+  },
+  {
+   "stable_id": "rd00850",
+   "idx": 849,
+   "name": "先天性葉酸吸収不全",
+   "orpha_code": "ORPHA:90045"
+  },
+  {
+   "stable_id": "rd00851",
+   "idx": 850,
+   "name": "先天性intrinsic factor欠損症",
+   "orpha_code": "ORPHA:35858"
+  },
+  {
+   "stable_id": "rd00852",
+   "idx": 851,
+   "name": "トランスコバラミン欠損症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00853",
+   "idx": 852,
+   "name": "遺伝性ピリドキシン依存性てんかん",
+   "orpha_code": "ORPHA:3006"
+  },
+  {
+   "stable_id": "rd00854",
+   "idx": 853,
+   "name": "セリンリン酸化経路異常症",
+   "orpha_code": "ORPHA:2671"
+  },
+  {
+   "stable_id": "rd00855",
+   "idx": 854,
+   "name": "ピリドキサミン5リン酸酸化酵素欠損症",
+   "orpha_code": "ORPHA:79096"
+  },
+  {
+   "stable_id": "rd00856",
+   "idx": 855,
+   "name": "先天性グルタミン合成酵素欠損症",
+   "orpha_code": "ORPHA:71278"
+  },
+  {
+   "stable_id": "rd00857",
+   "idx": 856,
+   "name": "先天性副腎不全(NR0B1型)",
+   "orpha_code": "ORPHA:95702"
+  },
+  {
+   "stable_id": "rd00858",
+   "idx": 857,
+   "name": "家族性低カルシウム尿性高カルシウム血症",
+   "orpha_code": "ORPHA:405"
+  },
+  {
+   "stable_id": "rd00859",
+   "idx": 858,
+   "name": "常染色体優性低カルシウム血症",
+   "orpha_code": "ORPHA:428"
+  },
+  {
+   "stable_id": "rd00860",
+   "idx": 859,
+   "name": "新生児重症副甲状腺機能亢進症",
+   "orpha_code": "ORPHA:417"
+  },
+  {
+   "stable_id": "rd00861",
+   "idx": 860,
+   "name": "先天性副甲状腺機能低下症(GCM2型)",
+   "orpha_code": "ORPHA:2238"
+  },
+  {
+   "stable_id": "rd00862",
+   "idx": 861,
+   "name": "遺伝性低マグネシウム血症(TRPM6以外)",
+   "orpha_code": "ORPHA:306516"
+  },
+  {
+   "stable_id": "rd00863",
+   "idx": 862,
+   "name": "遺伝性低カリウム性周期性四肢麻痺",
+   "orpha_code": "ORPHA:681"
+  },
+  {
+   "stable_id": "rd00864",
+   "idx": 863,
+   "name": "遺伝性高カリウム性周期性四肢麻痺",
+   "orpha_code": "ORPHA:682"
+  },
+  {
+   "stable_id": "rd00865",
+   "idx": 864,
+   "name": "先天性パラミオトニア",
+   "orpha_code": "ORPHA:684"
+  },
+  {
+   "stable_id": "rd00866",
+   "idx": 865,
+   "name": "先天性ミオトニア(Thomsen/Becker型)",
+   "orpha_code": "ORPHA:614"
+  },
+  {
+   "stable_id": "rd00867",
+   "idx": 866,
+   "name": "Schwartz-Jampel症候群",
+   "orpha_code": "ORPHA:800"
+  },
+  {
+   "stable_id": "rd00868",
+   "idx": 867,
+   "name": "Rippling Muscle Disease",
+   "orpha_code": "ORPHA:97238"
+  },
+  {
+   "stable_id": "rd00869",
+   "idx": 868,
+   "name": "遺伝性ミオパチー（GNE型）",
+   "orpha_code": "ORPHA:602"
+  },
+  {
+   "stable_id": "rd00870",
+   "idx": 869,
+   "name": "先天性筋緊張性ジストロフィー",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00871",
+   "idx": 870,
+   "name": "核膜病（LMNA関連拡張型心筋症）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00872",
+   "idx": 871,
+   "name": "LMNA関連肢帯型筋ジストロフィー",
+   "orpha_code": "ORPHA:98853"
+  },
+  {
+   "stable_id": "rd00873",
+   "idx": 872,
+   "name": "FKRP関連肢帯型筋ジストロフィー",
+   "orpha_code": "ORPHA:34515"
+  },
+  {
+   "stable_id": "rd00874",
+   "idx": 873,
+   "name": "Calpain3関連肢帯型筋ジストロフィー",
+   "orpha_code": "ORPHA:267"
+  },
+  {
+   "stable_id": "rd00875",
+   "idx": 874,
+   "name": "Dysferlin関連肢帯型筋ジストロフィー",
+   "orpha_code": "ORPHA:268"
+  },
+  {
+   "stable_id": "rd00876",
+   "idx": 875,
+   "name": "Anoctamin5関連肢帯型筋ジストロフィー",
+   "orpha_code": "ORPHA:206549"
+  },
+  {
+   "stable_id": "rd00877",
+   "idx": 876,
+   "name": "Sarcoglycan関連肢帯型筋ジストロフィー",
+   "orpha_code": "ORPHA:207052"
+  },
+  {
+   "stable_id": "rd00878",
+   "idx": 877,
+   "name": "SELENON関連ミオパチー",
+   "orpha_code": "ORPHA:97244"
+  },
+  {
+   "stable_id": "rd00879",
+   "idx": 878,
+   "name": "DNM2関連中心核ミオパチー",
+   "orpha_code": "ORPHA:169186"
+  },
+  {
+   "stable_id": "rd00880",
+   "idx": 879,
+   "name": "BIN1関連中心核ミオパチー",
+   "orpha_code": "ORPHA:169189"
+  },
+  {
+   "stable_id": "rd00881",
+   "idx": 880,
+   "name": "TTN関連ミオパチー",
+   "orpha_code": "ORPHA:609"
+  },
+  {
+   "stable_id": "rd00882",
+   "idx": 881,
+   "name": "VCP関連多系統蛋白症",
+   "orpha_code": "ORPHA:52430"
+  },
+  {
+   "stable_id": "rd00883",
+   "idx": 882,
+   "name": "BAG3関連筋原線維性ミオパチー",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00884",
+   "idx": 883,
+   "name": "Desmin関連ミオパチー",
+   "orpha_code": "ORPHA:98909"
+  },
+  {
+   "stable_id": "rd00885",
+   "idx": 884,
+   "name": "Myosin Heavy Chain 7関連ミオパチー",
+   "orpha_code": "ORPHA:59135"
+  },
+  {
+   "stable_id": "rd00886",
+   "idx": 885,
+   "name": "壊死性ミオパチー（抗SRP抗体型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00887",
+   "idx": 886,
+   "name": "壊死性ミオパチー（抗HMGCR抗体型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00888",
+   "idx": 887,
+   "name": "抗MDA5抗体陽性皮膚筋炎",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00889",
+   "idx": 888,
+   "name": "抗TIF1γ抗体陽性皮膚筋炎",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00890",
+   "idx": 889,
+   "name": "抗Mi-2抗体陽性皮膚筋炎",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00891",
+   "idx": 890,
+   "name": "抗ARS抗体症候群",
+   "orpha_code": "ORPHA:81"
+  },
+  {
+   "stable_id": "rd00892",
+   "idx": 891,
+   "name": "先天性筋無力症候群（CHAT型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00893",
+   "idx": 892,
+   "name": "先天性筋無力症候群（COLQ型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00894",
+   "idx": 893,
+   "name": "先天性筋無力症候群（Rapsyn型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00895",
+   "idx": 894,
+   "name": "先天性筋無力症候群（SYT2型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00896",
+   "idx": 895,
+   "name": "先天性筋無力症候群（GFPT1型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00897",
+   "idx": 896,
+   "name": "遺伝性感覚性ニューロパチーII型",
+   "orpha_code": "ORPHA:970"
+  },
+  {
+   "stable_id": "rd00898",
+   "idx": 897,
+   "name": "遺伝性運動感覚性ニューロパチー(HMSN)VI型",
+   "orpha_code": "ORPHA:90120"
+  },
+  {
+   "stable_id": "rd00899",
+   "idx": 898,
+   "name": "遺伝性ニューロパチー(NEFL型)",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00900",
+   "idx": 899,
+   "name": "遺伝性ニューロパチー（GDAP1型）",
+   "orpha_code": "ORPHA:99948"
+  },
+  {
+   "stable_id": "rd00901",
+   "idx": 900,
+   "name": "先天性無痛症（HSAN V型）",
+   "orpha_code": "ORPHA:64752"
+  },
+  {
+   "stable_id": "rd00902",
+   "idx": 901,
+   "name": "Ross症候群",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00903",
+   "idx": 902,
+   "name": "特発性自律神経ニューロパチー",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00904",
+   "idx": 903,
+   "name": "純粋自律神経不全症",
+   "orpha_code": "ORPHA:441"
+  },
+  {
+   "stable_id": "rd00905",
+   "idx": 904,
+   "name": "遺伝性アミロイドニューロパチー（V30M以外）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00906",
+   "idx": 905,
+   "name": "AAアミロイドーシス",
+   "orpha_code": "ORPHA:85445"
+  },
+  {
+   "stable_id": "rd00907",
+   "idx": 906,
+   "name": "透析アミロイドーシス",
+   "orpha_code": "ORPHA:85446"
+  },
+  {
+   "stable_id": "rd00908",
+   "idx": 907,
+   "name": "遺伝性全身性AApoAIアミロイドーシス",
+   "orpha_code": "ORPHA:93560"
+  },
+  {
+   "stable_id": "rd00909",
+   "idx": 908,
+   "name": "AGelアミロイドーシス",
+   "orpha_code": "ORPHA:93557"
+  },
+  {
+   "stable_id": "rd00910",
+   "idx": 909,
+   "name": "ALect2アミロイドーシス",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00911",
+   "idx": 910,
+   "name": "全身性カルニチン欠乏症",
+   "orpha_code": "ORPHA:158"
+  },
+  {
+   "stable_id": "rd00912",
+   "idx": 911,
+   "name": "カルニチンパルミトイルトランスフェラーゼ1A欠損症",
+   "orpha_code": "ORPHA:156"
+  },
+  {
+   "stable_id": "rd00913",
+   "idx": 912,
+   "name": "3-メチルグルタコン酸尿症（Barth型以外）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00914",
+   "idx": 913,
+   "name": "メチオニンアデノシルトランスフェラーゼ欠損症",
+   "orpha_code": "ORPHA:168598"
+  },
+  {
+   "stable_id": "rd00915",
+   "idx": 914,
+   "name": "チロシン血症1型",
+   "orpha_code": "ORPHA:882"
+  },
+  {
+   "stable_id": "rd00916",
+   "idx": 915,
+   "name": "チロシン血症2型",
+   "orpha_code": "ORPHA:28378"
+  },
+  {
+   "stable_id": "rd00917",
+   "idx": 916,
+   "name": "先天性胆汁酸合成異常症(3β-HSD型)",
+   "orpha_code": "ORPHA:485631"
+  },
+  {
+   "stable_id": "rd00918",
+   "idx": 917,
+   "name": "先天性胆汁酸合成異常症(Δ4-3-oxosteroid型)",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00919",
+   "idx": 918,
+   "name": "ペルオキシソーム形成異常症（Zellweger Spectrum）軽症型",
+   "orpha_code": "ORPHA:772"
+  },
+  {
+   "stable_id": "rd00920",
+   "idx": 919,
+   "name": "D-bifunctional protein欠損症",
+   "orpha_code": "ORPHA:300"
+  },
+  {
+   "stable_id": "rd00921",
+   "idx": 920,
+   "name": "先天性横隔膜ヘルニア（Morgagni型）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00922",
+   "idx": 921,
+   "name": "先天性十二指腸閉鎖症",
+   "orpha_code": "ORPHA:1203"
+  },
+  {
+   "stable_id": "rd00923",
+   "idx": 922,
+   "name": "先天性小腸閉鎖症",
+   "orpha_code": "ORPHA:1201"
+  },
+  {
+   "stable_id": "rd00924",
+   "idx": 923,
+   "name": "先天性気管気管支軟化症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00925",
+   "idx": 924,
+   "name": "先天性喉頭軟化症",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00926",
+   "idx": 925,
+   "name": "先天性声門下狭窄",
+   "orpha_code": "ORPHA:141121"
+  },
+  {
+   "stable_id": "rd00927",
+   "idx": 926,
+   "name": "先天性後鼻孔閉鎖",
+   "orpha_code": "ORPHA:137914"
+  },
+  {
+   "stable_id": "rd00928",
+   "idx": 927,
+   "name": "ピエール・ロバン症候群",
+   "orpha_code": "ORPHA:718"
+  },
+  {
+   "stable_id": "rd00929",
+   "idx": 928,
+   "name": "Goldenhar症候群",
+   "orpha_code": "ORPHA:141132"
+  },
+  {
+   "stable_id": "rd00930",
+   "idx": 929,
+   "name": "三角頭蓋（前頭縫合早期癒合）",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00931",
+   "idx": 930,
+   "name": "Pfeiffer症候群1型",
+   "orpha_code": "ORPHA:93258"
+  },
+  {
+   "stable_id": "rd00932",
+   "idx": 931,
+   "name": "頭蓋骨幹端異形成症（Pyle型）",
+   "orpha_code": "ORPHA:3005"
+  },
+  {
+   "stable_id": "rd00933",
+   "idx": 932,
+   "name": "先天性鼻涙管閉塞",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00934",
+   "idx": 933,
+   "name": "先天性緑内障",
+   "orpha_code": "ORPHA:98976"
+  },
+  {
+   "stable_id": "rd00935",
+   "idx": 934,
+   "name": "微小眼球症",
+   "orpha_code": "ORPHA:136"
+  },
+  {
+   "stable_id": "rd00936",
+   "idx": 935,
+   "name": "先天性白内障",
+   "orpha_code": "ORPHA:136"
+  },
+  {
+   "stable_id": "rd00937",
+   "idx": 936,
+   "name": "網膜色素変性症(X連鎖性)",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00938",
+   "idx": 937,
+   "name": "網膜色素変性症(常染色体劣性RHO以外)",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00939",
+   "idx": 938,
+   "name": "Usher症候群1型",
+   "orpha_code": "ORPHA:231169"
+  },
+  {
+   "stable_id": "rd00940",
+   "idx": 939,
+   "name": "Usher症候群2型",
+   "orpha_code": "ORPHA:231178"
+  },
+  {
+   "stable_id": "rd00941",
+   "idx": 940,
+   "name": "Usher症候群3型",
+   "orpha_code": "ORPHA:231183"
+  },
+  {
+   "stable_id": "rd00942",
+   "idx": 941,
+   "name": "遺伝性難聴(GJB2型)",
+   "orpha_code": "ORPHA:90635"
+  },
+  {
+   "stable_id": "rd00943",
+   "idx": 942,
+   "name": "遺伝性難聴(MYO15A型)",
+   "orpha_code": "ORPHA:90636"
+  },
+  {
+   "stable_id": "rd00944",
+   "idx": 943,
+   "name": "遺伝性難聴(SLC26A4型-非症候群性)",
+   "orpha_code": null
+  },
+  {
+   "stable_id": "rd00945",
+   "idx": 944,
+   "name": "Pendred症候群",
+   "orpha_code": "ORPHA:705"
+  },
+  {
+   "stable_id": "rd00946",
+   "idx": 945,
+   "name": "Waardenburg症候群1型",
+   "orpha_code": "ORPHA:894"
+  },
+  {
+   "stable_id": "rd00947",
+   "idx": 946,
+   "name": "Waardenburg症候群2型",
+   "orpha_code": "ORPHA:895"
+  },
+  {
+   "stable_id": "rd00948",
+   "idx": 947,
+   "name": "鰓耳腎症候群",
+   "orpha_code": "ORPHA:107"
+  },
+  {
+   "stable_id": "rd00949",
+   "idx": 948,
+   "name": "遺伝性難聴(OTOF型)",
+   "orpha_code": "ORPHA:90636"
+  },
+  {
+   "stable_id": "rd00950",
+   "idx": 949,
+   "name": "COACH症候群",
+   "orpha_code": "ORPHA:2816"
+  },
+  {
+   "stable_id": "rd00951",
+   "idx": 950,
+   "name": "口顔指症候群",
+   "orpha_code": "ORPHA:140997"
+  }
+ ]
+}

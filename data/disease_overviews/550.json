@@ -1,0 +1,75 @@
+{
+ "idx": 550,
+ "name": "カルニチンパルミトイルトランスフェラーゼII欠損症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_03_042/",
+   "fetched_at": "2026-09-24T00:49:26+09:00",
+   "sha256": "ffad46b5e7fc1b439a59acd078d4167281640b9e8d25a05bde534dde30b58b6e",
+   "title": "カルニチンパルミトイルトランスフェラーゼⅡ欠損症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "脂肪酸をエネルギーに変える過程で、運び込みが障害される病気です。",
+  "source_id": "shouman",
+  "evidence": "長鎖脂肪酸のミトコンドリア内への転送が障害され、脂肪酸代謝が十分行われずに",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "けいれんが起きる",
+   "source_id": "shouman",
+   "evidence": "新生児発症型はけいれん"
+  },
+  {
+   "text": "意識がはっきりしなくなる",
+   "source_id": "shouman",
+   "evidence": "意識障害"
+  },
+  {
+   "text": "呼吸に障害が出る",
+   "source_id": "shouman",
+   "evidence": "呼吸障害"
+  },
+  {
+   "text": "心臓のはたらきが落ちる",
+   "source_id": "shouman",
+   "evidence": "心不全などで急性発症し"
+  },
+  {
+   "text": "低血糖になる",
+   "source_id": "shouman",
+   "evidence": "著しい低血糖"
+  },
+  {
+   "text": "筋力が落ちる",
+   "source_id": "shouman",
+   "evidence": "筋力低下"
+  },
+  {
+   "text": "筋肉が痛む",
+   "source_id": "shouman",
+   "evidence": "間欠的な横紋筋融解症，筋痛などの症状"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "安定期には食事間隔の指導（年齢に応じた空腹許容時間の厳守）"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_03_042/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は頻度の数値のみのため onset は null。",
+  "治療の節には薬剤名が並ぶので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T03:01:40+09:00",
+ "shard": 4
+}

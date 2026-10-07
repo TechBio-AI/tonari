@@ -1,0 +1,69 @@
+{
+ "idx": 409,
+ "name": "眼皮膚白皮症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4492",
+   "fetched_at": "2026-09-24T00:45:28+09:00",
+   "sha256": "ce150407e905f53565009450735ae94f812a61f8a24e92872f82a84ef6377f58",
+   "title": "眼皮膚白皮症（指定難病１６４） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "生まれたときから皮膚・髪・目の色がうすい病気です。",
+  "source_id": "nanbyou",
+  "evidence": "出生時より皮膚、毛髪、眼の色（虹彩の色）が薄く",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "全身の皮膚が白っぽい",
+   "source_id": "nanbyou",
+   "evidence": "全身の皮膚が白色調"
+  },
+  {
+   "text": "目の虹彩が青から灰色に見える",
+   "source_id": "nanbyou",
+   "evidence": "青から灰色調の虹彩"
+  },
+  {
+   "text": "矯正しても視力が出にくい",
+   "source_id": "nanbyou",
+   "evidence": "矯正不能な視力障害"
+  },
+  {
+   "text": "目がゆれる",
+   "source_id": "nanbyou",
+   "evidence": "眼振等の眼症状"
+  },
+  {
+   "text": "髪が白から茶褐色、銀色になる",
+   "source_id": "nanbyou",
+   "evidence": "白から茶褐色あるいは銀色の頭髪"
+  },
+  {
+   "text": "出血しやすいタイプがある",
+   "source_id": "nanbyou",
+   "evidence": "出血傾向"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "確立された根治的な治療は、今のところありません。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4492",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は遺伝形式の説明で、発症年齢の記載が無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:51:03+09:00",
+ "shard": 3
+}

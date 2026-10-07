@@ -1,0 +1,53 @@
+{
+ "idx": 333,
+ "name": "孤立性線維性腫瘍",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2126",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Solitary fibrous tumor"
+  }
+ ],
+ "summary": {
+  "text": "A rare soft tissue tumor characterized by a well-circumscribed mass potentially occurring at any anatomical site, histopathologically showing spindled to ovoid cells arranged around a branching and hyalinized vasculature and variable stromal collagen deposition. Immunohistochemistry reveals CD34 and/or STAT6 expression. NAB2-STAT6 gene fusions are pathognomonic for this tumor, which may be malignant or benign. Clinically, most patients present with a slow-growing, painless mass. Large tumors may cause paraneoplastic syndromes such as Doege-Potter syndrome, with the induction of severe hypoglycemia or acromegaloid features.",
+  "source_id": "orphanet",
+  "evidence": "A rare soft tissue tumor characterized b",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "slow-growing, painless mass",
+   "source_id": "orphanet",
+   "evidence": "slow-growing, painless mass"
+  },
+  {
+   "text": "acromegaloid features",
+   "source_id": "orphanet",
+   "evidence": "acromegaloid features"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2126",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: 免疫染色・遺伝子融合の所見 / severe hypoglycemia",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

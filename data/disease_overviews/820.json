@@ -1,0 +1,70 @@
+{
+ "idx": 820,
+ "name": "遺伝性痙性対麻痺3A型",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/100984",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Autosomal dominant spastic paraplegia type 3"
+  }
+ ],
+ "summary": {
+  "text": "A rare, pure or complex form of hereditary spastic paraplegia, with variable phenotype, typically characterized by childhood-onset of minimally progressive, bilateral, mainly symmetric lower limb spasticity and weakness, associated with pes cavus, scoliosis, sphincter disturbances and/or urinary bladder hyperactivity. Rare additional associated manifestations may include mild intellectual disability, axonal motor neuropathy, and seizures.",
+  "source_id": "orphanet",
+  "evidence": "A rare, pure or complex form of heredita",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "lower limb spasticity and weakness",
+   "source_id": "orphanet",
+   "evidence": "lower limb spasticity and weakness"
+  },
+  {
+   "text": "pes cavus",
+   "source_id": "orphanet",
+   "evidence": "pes cavus"
+  },
+  {
+   "text": "scoliosis",
+   "source_id": "orphanet",
+   "evidence": "scoliosis"
+  },
+  {
+   "text": "sphincter disturbances",
+   "source_id": "orphanet",
+   "evidence": "sphincter disturbances"
+  },
+  {
+   "text": "urinary bladder hyperactivity",
+   "source_id": "orphanet",
+   "evidence": "urinary bladder hyperactivity"
+  }
+ ],
+ "onset": {
+  "text": "childhood-onset",
+  "source_id": "orphanet",
+  "evidence": "childhood-onset"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/100984",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

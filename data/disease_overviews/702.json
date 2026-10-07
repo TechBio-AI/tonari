@@ -1,0 +1,76 @@
+{
+ "idx": 702,
+ "name": "遊走性焦点発作を伴う乳児てんかん",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4717",
+   "fetched_at": "2026-09-24T00:45:50+09:00",
+   "sha256": "50f4352e111a6264cd159d5438d09dd61a6669a7350d204c0a7e434aa61b9df5",
+   "title": "遊走性焦点発作を伴う乳児てんかん（指定難病１４８） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "発作の出どころが脳の中を移動していくてんかんです。",
+  "source_id": "nanbyou",
+  "evidence": "発作中に脳波の焦点（発作の出所）が反対側または同じ側の離れた部分に移動し",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "手足を小刻みに震わせる、つっぱる",
+   "source_id": "nanbyou",
+   "evidence": "手足を小刻みに震わせる、つっぱる"
+  },
+  {
+   "text": "まぶたや口元をぴくぴくさせる",
+   "source_id": "nanbyou",
+   "evidence": "まぶたや口元をぴくぴくさせる"
+  },
+  {
+   "text": "眼や頭を片方に向ける",
+   "source_id": "nanbyou",
+   "evidence": "眼や頭を片方に向ける"
+  },
+  {
+   "text": "手足の力がぬける",
+   "source_id": "nanbyou",
+   "evidence": "手足の力がぬける"
+  },
+  {
+   "text": "動作が止まる、ぼんやりする",
+   "source_id": "nanbyou",
+   "evidence": "動作が止まる、ぼんやりするなどの、非運動症状"
+  },
+  {
+   "text": "呼吸を止める、顔色が変わる",
+   "source_id": "nanbyou",
+   "evidence": "呼吸を止める、顔色が青くなる・赤くなる"
+  },
+  {
+   "text": "できていたことができなくなる",
+   "source_id": "nanbyou",
+   "evidence": "今までできていたことができなくなったり（退行）"
+  }
+ ],
+ "onset": {
+  "text": "特にどんな人に多いということはありません",
+  "source_id": "nanbyou",
+  "evidence": "特にどんな人に多いということはありません。"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "抗てんかん発作薬をはじめとする内科的治療が中心です。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4717",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T03:01:40+09:00",
+ "shard": 4
+}

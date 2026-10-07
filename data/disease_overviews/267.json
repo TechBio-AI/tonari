@@ -1,0 +1,62 @@
+{
+ "idx": 267,
+ "name": "びまん性大細胞型B細胞リンパ腫",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/544",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Diffuse large B-cell lymphoma"
+  }
+ ],
+ "summary": {
+  "text": "Diffuse large B-cell lymphoma is the most common subtype of non-Hodgkin lymphoma (NHL) in adults characterized by a median age of presentation in the sixth decade of life (but also rarely occurring in adolescents and children) with the initial presentation being single or multiple rapidly growing masses (that may or may not be painful) in nodal or extranodal sites (such as thyroid, skin, breast, gastrointestinal tract, testes, bone, or brain) and that can be accompanied by symptoms of fever, night sweats and weight loss. DLBCL has an aggressive disease course, with the elderly having a poorer prognosis than younger patients, and with relapses being common.",
+  "source_id": "orphanet",
+  "evidence": "Diffuse large B-cell lymphoma is the mos",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "rapidly growing masses",
+   "source_id": "orphanet",
+   "evidence": "rapidly growing masses"
+  },
+  {
+   "text": "fever",
+   "source_id": "orphanet",
+   "evidence": "fever"
+  },
+  {
+   "text": "night sweats",
+   "source_id": "orphanet",
+   "evidence": "night sweats"
+  },
+  {
+   "text": "weight loss",
+   "source_id": "orphanet",
+   "evidence": "weight loss"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/544",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "発症時期の記述「a median age of presentation in the sixth decade of life」は序数（sixth）を含むため、数字の規則の趣旨に合わせて onset は null。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

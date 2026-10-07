@@ -1,0 +1,4277 @@
+{
+  "_meta": {
+    "_readme": [
+      "HPO 由来の症状の重ね書き（2026-09-11、まず 11 疾患）。",
+      "知識ファイル data/knowledge/comprehensive_rare_diseases_knowledge.json は変更しない。既存の症状は減らさない。",
+      "この別ファイルを疾患名（知識ファイルの表記そのもの）で重ね、HPO 由来の症状を『足す』だけに使う。",
+      "",
+      "出典: data/hpo/phenotype.hpoa（HPO v2026-06-23、aspect=P のみ、qualifier=NOT は 0 件、frequency=Excluded は 0 件）",
+      "      data/hpo/hp-ja.babelon.tsv（HPO 公式 Babelon 日本語訳、source_version hp/releases/2023-07-21）",
+      "      data/hpo/hp.obo（英語ラベル）",
+      "data/hpo/ の原本は 1 バイトも変更していない（生成後に SHA-256 を照合、source_files を参照）。",
+      "",
+      "使い分け（lib/scoring/hpo.ts）:",
+      "  - 疾患ページの『主な症状』に表示する … label_ja_status が official / corrected のものだけ（患者が読めない英語は出さない）",
+      "  - 検索の照合に使う               … 表示対象の日本語ラベル + 全件の英語ラベル（医師の入力向け）",
+      "  - 絞り込み質問には出さない       … HPO 由来の語は医学用語なので、患者に『〜はありますか』とは問わない",
+      "",
+      "label_ja_status:",
+      "  official  … 公式訳をそのまま使う",
+      "  corrected … 公式訳に誤りがあるため訂正した（label_ja_official に公式訳を残す。原本は変更していない）",
+      "  reported  … 誤訳の疑いを報告済みで、ファウンダー判断待ち。表示にも照合にも使わない（英語ラベルのみ照合）",
+      "  none      … 日本語訳が存在しない（2023-07-21 以降の新ターム）。英語ラベルのみ照合",
+      "",
+      "frequency は phenotype.hpoa の値そのまま（HP:0040280〜HP:0040284）。意味は frequency_labels を参照。",
+      "同じ HPO ID が複数行（出典違い）で付いている場合は最初の行だけを採る。11 疾患では重複 0 件。"
+    ],
+    "generated": "2026-09-11",
+    "hpo_version": "v2026-06-23",
+    "hpo_ja_source_version": "hp/releases/2023-07-21",
+    "license": {
+      "name": "HPO license (https://hpo.jax.org/app/license)",
+      "conditions": [
+        "1. 内容および内部の論理的関係を改変しない（原本は読み取り専用。訂正はこの派生ファイル側でのみ行い、公式訳を併記する）",
+        "2. 使用する HPO のバージョンを記録する（hpo_version）",
+        "3. HPO コンソーシアムを引用する（citation）"
+      ],
+      "citation": "Gargano MA, Matentzoglu N, Coleman B, et al. The Human Phenotype Ontology in 2024: phenotypes around the world. Nucleic Acids Res. 2024;52(D1):D1333–D1346. https://hpo.jax.org/",
+      "attribution_ja": "本サービスは Human Phenotype Ontology（HPO, リリース 2026-06-23）を利用しています。HPO コンソーシアムに謝意を表します。日本語訳は HPO 公式の Babelon 翻訳ファイル（hp-ja.babelon.tsv）に基づきます。"
+    },
+    "source_files": {
+      "data/hpo/phenotype.hpoa": {
+        "sha256": "89004f85b253f980ffe84218d2c080665cbf67a57bbb322111d6a2db5eb31dff",
+        "bytes": 35672303
+      },
+      "data/hpo/hp-ja.babelon.tsv": {
+        "sha256": "cefe15af19d988598eee0077cc75e2d488837adb746522f4cb5d1312fc343eea",
+        "bytes": 3821368
+      },
+      "data/hpo/hp.obo": {
+        "sha256": "a5092cbdf605f568403cf7380d9173014015692433b2cc631bc5c1b053876b1b",
+        "bytes": 11222341
+      }
+    },
+    "frequency_labels": {
+      "HP:0040280": "必発（Obligate）",
+      "HP:0040281": "非常に多い（Very frequent, 80-99%）",
+      "HP:0040282": "多い（Frequent, 30-79%）",
+      "HP:0040283": "ときどき（Occasional, 5-29%）",
+      "HP:0040284": "まれ（Very rare, 1-4%）",
+      "HP:0040285": "みられない（Excluded, 0%）"
+    },
+    "ja_label_corrections": [
+      {
+        "hpo_id": "HP:0031006",
+        "label_en": "Acroparesthesia",
+        "label_ja_official": "視覚障害",
+        "label_ja_corrected": "肢端錯感覚",
+        "reason": "公式訳「視覚障害」は Acroparesthesia の訳として誤り。ファウンダー指示（2026-09-11）で訂正",
+        "decided_by": "founder",
+        "date": "2026-09-11"
+      },
+      {
+        "hpo_id": "HP:0500008",
+        "label_en": "Cornea verticillata",
+        "label_ja_official": "垂直角膜",
+        "label_ja_corrected": "渦巻状角膜混濁",
+        "reason": "公式訳「垂直角膜」は Cornea verticillata の訳として誤り。ファウンダー指示（2026-09-11）で訂正",
+        "decided_by": "founder",
+        "date": "2026-09-11"
+      },
+      {
+        "hpo_id": "HP:0001097",
+        "label_en": "Keratoconjunctivitis sicca",
+        "label_ja_official": "乾燥性",
+        "label_ja_corrected": "乾燥性角結膜炎",
+        "reason": "公式訳「乾燥性」は語が欠落。ファウンダー指示（2026-09-11）で訂正",
+        "decided_by": "founder",
+        "date": "2026-09-11"
+      },
+      {
+        "hpo_id": "HP:0002017",
+        "label_en": "Nausea and vomiting",
+        "label_ja_official": "吐気と 嘔吐",
+        "label_ja_corrected": "吐き気と嘔吐",
+        "reason": "公式訳「吐気と 嘔吐」は空白混入。ファウンダー指示（2026-09-11）で訂正",
+        "decided_by": "founder",
+        "date": "2026-09-11"
+      },
+      {
+        "hpo_id": "HP:0003233",
+        "label_en": "Decreased circulating HDL-C concentration",
+        "label_ja_official": "高αリポ蛋白血症",
+        "label_ja_corrected": "低HDLコレステロール血症",
+        "reason": "公式訳「高αリポ蛋白血症」は意味が逆（減少を増加と訳している）。ファウンダー指示（2026-09-11）で訂正",
+        "decided_by": "founder",
+        "date": "2026-09-11"
+      },
+      {
+        "hpo_id": "HP:0006844",
+        "label_en": "Absent patellar reflexes",
+        "label_ja_official": "膝蓋腱反射",
+        "label_ja_corrected": "膝蓋腱反射消失",
+        "reason": "公式訳「膝蓋腱反射」は否定（消失）が欠落し意味が反転。ファウンダー指示（2026-09-11）で訂正",
+        "decided_by": "founder",
+        "date": "2026-09-11"
+      }
+    ],
+    "ja_label_reported_not_corrected": [
+      {
+        "hpo_id": "HP:0000726",
+        "label_en": "Dementia",
+        "label_ja_official": "Dementia",
+        "suspected_correct": "認知症",
+        "note": "公式訳が英語のまま（Dementia）",
+        "status": "ファウンダー判断待ち"
+      },
+      {
+        "hpo_id": "HP:0001950",
+        "label_en": "Respiratory alkalosis",
+        "label_ja_official": "活性減少アルカローシス",
+        "suspected_correct": "呼吸性アルカローシス",
+        "note": "公式訳「活性減少アルカローシス」は意味が異なる",
+        "status": "ファウンダー判断待ち"
+      },
+      {
+        "hpo_id": "HP:0005216",
+        "label_en": "Impaired mastication",
+        "label_ja_official": "咀嚼こんな",
+        "suspected_correct": "咀嚼困難",
+        "note": "公式訳「咀嚼こんな」は誤字",
+        "status": "ファウンダー判断待ち"
+      },
+      {
+        "hpo_id": "HP:0008445",
+        "label_en": "Cervical spinal canal stenosis",
+        "label_ja_official": "頚椎管後索",
+        "suspected_correct": "頚椎脊柱管狭窄",
+        "note": "公式訳「頚椎管後索」は誤り",
+        "status": "ファウンダー判断待ち"
+      },
+      {
+        "hpo_id": "HP:0012418",
+        "label_en": "Hypoxemia",
+        "label_ja_official": "低酸素血症への感受性の減少",
+        "suspected_correct": "低酸素血症",
+        "note": "公式訳「低酸素血症への感受性の減少」は意味が異なる",
+        "status": "ファウンダー判断待ち"
+      },
+      {
+        "hpo_id": "HP:0012735",
+        "label_en": "Cough",
+        "label_ja_official": "外層",
+        "suspected_correct": "咳",
+        "note": "公式訳「外層」は誤り",
+        "status": "ファウンダー判断待ち"
+      },
+      {
+        "hpo_id": "HP:0030757",
+        "label_en": "Tooth abscess",
+        "label_ja_official": "歯槽膿漏",
+        "suspected_correct": "歯膿瘍",
+        "note": "公式訳「歯槽膿漏」は別の疾患概念",
+        "status": "ファウンダー判断待ち"
+      },
+      {
+        "hpo_id": "HP:0003572",
+        "label_en": "Low plasma citrulline",
+        "label_ja_official": "血症シトルリン低値",
+        "suspected_correct": "血漿シトルリン低値",
+        "note": "公式訳「血症シトルリン低値」は誤字",
+        "status": "ファウンダー判断待ち"
+      },
+      {
+        "hpo_id": "HP:0002938",
+        "label_en": "Lumbar hyperlordosis",
+        "label_ja_official": "腰椎前弯 hyperlordosis",
+        "suspected_correct": "腰椎前弯過剰",
+        "note": "公式訳「腰椎前弯 hyperlordosis」に英語が混入",
+        "status": "ファウンダー判断待ち"
+      },
+      {
+        "hpo_id": "HP:0008872",
+        "label_en": "Feeding difficulties in infancy",
+        "label_ja_official": "食餌摂取障害 in infancy",
+        "suspected_correct": "乳児期の哺乳障害",
+        "note": "公式訳「食餌摂取障害 in infancy」に英語が混入",
+        "status": "ファウンダー判断待ち"
+      },
+      {
+        "hpo_id": "HP:0001156",
+        "label_en": "Brachydactyly",
+        "label_ja_official": "短指症候群",
+        "suspected_correct": "短指症",
+        "note": "公式訳「短指症候群」は症候群ではない",
+        "status": "ファウンダー判断待ち"
+      },
+      {
+        "hpo_id": "HP:0010885",
+        "label_en": "Avascular necrosis",
+        "label_ja_official": "無菌性壊死",
+        "suspected_correct": "無血管性骨壊死",
+        "note": "公式訳「無菌性壊死」は概念が異なる",
+        "status": "ファウンダー判断待ち"
+      }
+    ],
+    "counts": [
+      {
+        "disease": "ファブリー病",
+        "orpha": "ORPHA:324",
+        "rows_P": 76,
+        "unique": 76,
+        "ja_official": 73,
+        "ja_corrected": 3,
+        "ja_reported": 0,
+        "ja_none": 0
+      },
+      {
+        "disease": "ゴーシェ病",
+        "orpha": "ORPHA:355",
+        "rows_P": 92,
+        "unique": 92,
+        "ja_official": 87,
+        "ja_corrected": 1,
+        "ja_reported": 3,
+        "ja_none": 1
+      },
+      {
+        "disease": "ポンペ病",
+        "orpha": "ORPHA:365",
+        "rows_P": 72,
+        "unique": 72,
+        "ja_official": 69,
+        "ja_corrected": 0,
+        "ja_reported": 2,
+        "ja_none": 1
+      },
+      {
+        "disease": "ムコ多糖症I型",
+        "orpha": "ORPHA:579",
+        "rows_P": 57,
+        "unique": 57,
+        "ja_official": 55,
+        "ja_corrected": 0,
+        "ja_reported": 2,
+        "ja_none": 0
+      },
+      {
+        "disease": "フェニルケトン尿症",
+        "orpha": "ORPHA:716",
+        "rows_P": 25,
+        "unique": 25,
+        "ja_official": 24,
+        "ja_corrected": 0,
+        "ja_reported": 1,
+        "ja_none": 0
+      },
+      {
+        "disease": "オルニチントランスカルバミラーゼ欠損症",
+        "orpha": "ORPHA:664",
+        "rows_P": 29,
+        "unique": 29,
+        "ja_official": 27,
+        "ja_corrected": 0,
+        "ja_reported": 2,
+        "ja_none": 0
+      },
+      {
+        "disease": "軟骨無形成症",
+        "orpha": "ORPHA:15",
+        "rows_P": 39,
+        "unique": 39,
+        "ja_official": 35,
+        "ja_corrected": 0,
+        "ja_reported": 4,
+        "ja_none": 0
+      },
+      {
+        "disease": "低ホスファターゼ症",
+        "orpha": "ORPHA:436",
+        "rows_P": 20,
+        "unique": 20,
+        "ja_official": 19,
+        "ja_corrected": 0,
+        "ja_reported": 1,
+        "ja_none": 0
+      },
+      {
+        "disease": "X連鎖性低リン血症性くる病",
+        "orpha": "ORPHA:89936",
+        "rows_P": 52,
+        "unique": 52,
+        "ja_official": 50,
+        "ja_corrected": 0,
+        "ja_reported": 1,
+        "ja_none": 1
+      },
+      {
+        "disease": "脊髄性筋萎縮症",
+        "orpha": "ORPHA:70",
+        "rows_P": 50,
+        "unique": 50,
+        "ja_official": 49,
+        "ja_corrected": 1,
+        "ja_reported": 0,
+        "ja_none": 0
+      },
+      {
+        "disease": "遺伝性ATTR型アミロイドーシス",
+        "orpha": "ORPHA:271861",
+        "rows_P": 36,
+        "unique": 36,
+        "ja_official": 33,
+        "ja_corrected": 3,
+        "ja_reported": 0,
+        "ja_none": 0
+      }
+    ]
+  },
+  "ファブリー病": {
+    "orpha_code": "ORPHA:324",
+    "hpoa_disease_name": "Fabry disease",
+    "hpo_version": "v2026-06-23",
+    "symptoms": [
+      {
+        "hpo_id": "HP:0000083",
+        "label_ja": "腎不全",
+        "label_en": "Renal insufficiency",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000100",
+        "label_ja": "ネフローゼ症候群",
+        "label_en": "Nephrotic syndrome",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000365",
+        "label_ja": "難聴",
+        "label_en": "Hearing impairment",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000524",
+        "label_ja": "結膜毛細血管拡張",
+        "label_en": "Conjunctival telangiectasia",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000790",
+        "label_ja": "血尿",
+        "label_en": "Hematuria",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000962",
+        "label_ja": "過角化症",
+        "label_en": "Hyperkeratosis",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000966",
+        "label_ja": "減汗症",
+        "label_en": "Hypohidrosis",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001014",
+        "label_ja": "被角血管腫",
+        "label_en": "Angiokeratoma",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001131",
+        "label_ja": "角膜ジストロフィー",
+        "label_en": "Corneal dystrophy",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001369",
+        "label_ja": "関節炎",
+        "label_en": "Arthritis",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001482",
+        "label_ja": "皮下結節",
+        "label_en": "Subcutaneous nodule",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001635",
+        "label_ja": "うっ血性心不全",
+        "label_en": "Congestive heart failure",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001903",
+        "label_ja": "貧血",
+        "label_en": "Anemia",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002024",
+        "label_ja": "吸収障害",
+        "label_en": "Malabsorption",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002027",
+        "label_ja": "腹痛",
+        "label_en": "Abdominal pain",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002326",
+        "label_ja": "一過性虚血発作",
+        "label_en": "Transient ischemic attack",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002829",
+        "label_ja": "関節痛",
+        "label_en": "Arthralgia",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003326",
+        "label_ja": "筋痛",
+        "label_en": "Myalgia",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0004343",
+        "label_ja": "グリコスフィンゴリピド 代謝の異常",
+        "label_en": "Abnormal glycosphingolipid metabolism",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0007957",
+        "label_ja": "角膜混濁",
+        "label_en": "Corneal opacity",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0012378",
+        "label_ja": "疲労",
+        "label_en": "Fatigue",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0033595",
+        "label_ja": "循環グロボトリアオシルセラミド濃度上昇",
+        "label_en": "Elevated circulating globotriaosylceramide concentration",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0034864",
+        "label_ja": "α-ガラクトシダーゼA活性の低下",
+        "label_en": "Decreased alpha-galactosidase A activity",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0100579",
+        "label_ja": "粘膜の毛細血管拡張",
+        "label_en": "Mucosal telangiectasiae",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0100585",
+        "label_ja": "皮膚毛細血管拡張",
+        "label_en": "Telangiectasia of the skin",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000091",
+        "label_ja": "腎尿細管異常",
+        "label_en": "Abnormal renal tubule morphology",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000093",
+        "label_ja": "蛋白尿",
+        "label_en": "Proteinuria",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000112",
+        "label_ja": "腎症",
+        "label_en": "Nephropathy",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000179",
+        "label_ja": "分厚い下口唇唇紅部",
+        "label_en": "Thick lower lip vermilion",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000280",
+        "label_ja": "粗な顔貌",
+        "label_en": "Coarse facial features",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000360",
+        "label_ja": "耳鳴",
+        "label_en": "Tinnitus",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000518",
+        "label_ja": "白内障",
+        "label_en": "Cataract",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000648",
+        "label_ja": "視神経萎縮",
+        "label_en": "Optic atrophy",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000708",
+        "label_ja": "行動異常",
+        "label_en": "Atypical behavior",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000823",
+        "label_ja": "思春期遅発",
+        "label_en": "Delayed puberty",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001646",
+        "label_ja": "大動脈弁の異常",
+        "label_en": "Abnormal aortic valve morphology",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001653",
+        "label_ja": "僧帽弁逆流",
+        "label_en": "Mitral regurgitation",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001678",
+        "label_ja": "房室ブロック",
+        "label_en": "Atrioventricular block",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002017",
+        "label_ja": "吐き気と嘔吐",
+        "label_en": "Nausea and vomiting",
+        "frequency": "HP:0040282",
+        "label_ja_status": "corrected",
+        "label_ja_official": "吐気と 嘔吐",
+        "label_ja_note": "公式訳「吐気と 嘔吐」は空白混入。ファウンダー指示（2026-09-11）で訂正"
+      },
+      {
+        "hpo_id": "HP:0002039",
+        "label_ja": "食思不振",
+        "label_en": "Anorexia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002046",
+        "label_ja": "熱不耐性",
+        "label_en": "Heat intolerance",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002097",
+        "label_ja": "肺気腫",
+        "label_en": "Emphysema",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003077",
+        "label_ja": "高脂血症",
+        "label_en": "Hyperlipidemia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003119",
+        "label_ja": "脂質代謝の異常",
+        "label_en": "Abnormal circulating lipid concentration",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003546",
+        "label_ja": "運動不耐症",
+        "label_en": "Exercise intolerance",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0004322",
+        "label_ja": "低身長",
+        "label_en": "Short stature",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0011710",
+        "label_ja": "脚ブロック",
+        "label_en": "Bundle branch block",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0012532",
+        "label_ja": "慢性疼痛",
+        "label_en": "Chronic pain",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0031006",
+        "label_ja": "肢端錯感覚",
+        "label_en": "Acroparesthesia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "corrected",
+        "label_ja_official": "視覚障害",
+        "label_ja_note": "公式訳「視覚障害」は Acroparesthesia の訳として誤り。ファウンダー指示（2026-09-11）で訂正"
+      },
+      {
+        "hpo_id": "HP:0100543",
+        "label_ja": "認知障害",
+        "label_en": "Cognitive impairment",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0500008",
+        "label_ja": "渦巻状角膜混濁",
+        "label_en": "Cornea verticillata",
+        "frequency": "HP:0040282",
+        "label_ja_status": "corrected",
+        "label_ja_official": "垂直角膜",
+        "label_ja_note": "公式訳「垂直角膜」は Cornea verticillata の訳として誤り。ファウンダー指示（2026-09-11）で訂正"
+      },
+      {
+        "hpo_id": "HP:0000407",
+        "label_ja": "感音難聴",
+        "label_en": "Sensorineural hearing impairment",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000716",
+        "label_ja": "うつ",
+        "label_en": "Depression",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000739",
+        "label_ja": "不安",
+        "label_en": "Anxiety",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000822",
+        "label_ja": "高血圧",
+        "label_en": "Hypertension",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000873",
+        "label_ja": "尿崩症",
+        "label_en": "Diabetes insipidus",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001004",
+        "label_ja": "リンパ性浮腫",
+        "label_en": "Lymphedema",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001250",
+        "label_ja": "発作",
+        "label_en": "Seizure",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001297",
+        "label_ja": "卒中",
+        "label_en": "Stroke",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001637",
+        "label_ja": "心筋の異常",
+        "label_en": "Abnormal myocardium morphology",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001639",
+        "label_ja": "肥大型心筋症",
+        "label_en": "Hypertrophic cardiomyopathy",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001681",
+        "label_ja": "狭心症",
+        "label_en": "Angina pectoris",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001712",
+        "label_ja": "左室肥大",
+        "label_en": "Left ventricular hypertrophy",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001945",
+        "label_ja": "発熱",
+        "label_en": "Fever",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002093",
+        "label_ja": "呼吸不全",
+        "label_en": "Respiratory insufficiency",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002094",
+        "label_ja": "呼吸困難",
+        "label_en": "Dyspnea",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002321",
+        "label_ja": "眩暈",
+        "label_en": "Vertigo",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002376",
+        "label_ja": "発達退行",
+        "label_en": "Developmental regression",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002571",
+        "label_ja": "アカラジア",
+        "label_en": "Achalasia",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002823",
+        "label_ja": "大腿骨の異常",
+        "label_en": "Abnormal femur morphology",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0004306",
+        "label_ja": "心内膜の異常",
+        "label_en": "Abnormal endocardium morphology",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0004349",
+        "label_ja": "骨ミネラル濃度減少",
+        "label_en": "Reduced bone mineral density",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0006510",
+        "label_ja": "慢性閉塞性肺疾患",
+        "label_en": "Chronic pulmonary obstruction",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0011675",
+        "label_ja": "不整脈",
+        "label_en": "Arrhythmia",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0100820",
+        "label_ja": "糸球体症",
+        "label_en": "Glomerulopathy",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000975",
+        "label_ja": "多汗",
+        "label_en": "Hyperhidrosis",
+        "frequency": "HP:0040284",
+        "label_ja_status": "official"
+      }
+    ]
+  },
+  "ゴーシェ病": {
+    "orpha_code": "ORPHA:355",
+    "hpoa_disease_name": "Gaucher disease",
+    "hpo_version": "v2026-06-23",
+    "symptoms": [
+      {
+        "hpo_id": "HP:0001744",
+        "label_ja": "脾腫",
+        "label_en": "Splenomegaly",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001903",
+        "label_ja": "貧血",
+        "label_en": "Anemia",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002240",
+        "label_ja": "肝腫",
+        "label_en": "Hepatomegaly",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003656",
+        "label_ja": "β-グルコセレブロシダーゼタンパクと活性の減少",
+        "label_en": "Decreased beta-glucocerebrosidase level",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0012378",
+        "label_ja": "疲労",
+        "label_en": "Fatigue",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000486",
+        "label_ja": "斜視",
+        "label_en": "Strabismus",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000716",
+        "label_ja": "うつ",
+        "label_en": "Depression",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000823",
+        "label_ja": "思春期遅発",
+        "label_en": "Delayed puberty",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000924",
+        "label_ja": "骨格の異常",
+        "label_en": "Abnormality of the skeletal system",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000938",
+        "label_ja": "骨減少症",
+        "label_en": "Osteopenia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001081",
+        "label_ja": "胆石症",
+        "label_en": "Cholelithiasis",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001249",
+        "label_ja": "知的障害",
+        "label_en": "Intellectual disability",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001251",
+        "label_ja": "運動失調",
+        "label_en": "Ataxia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001373",
+        "label_ja": "関節脱臼",
+        "label_en": "Joint dislocation",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001510",
+        "label_ja": "成長遅滞",
+        "label_en": "Growth delay",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001873",
+        "label_ja": "血小板減少",
+        "label_en": "Thrombocytopenia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001882",
+        "label_ja": "白血球減少症",
+        "label_en": "Decreased total leukocyte count",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001945",
+        "label_ja": "発熱",
+        "label_en": "Fever",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002015",
+        "label_ja": "嚥下障害",
+        "label_en": "Dysphagia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002027",
+        "label_ja": "腹痛",
+        "label_en": "Abdominal pain",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002069",
+        "label_ja": "全身性間代性強直性発作",
+        "label_en": "Bilateral tonic-clonic seizure",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002123",
+        "label_ja": "全身性ミオクローヌス発作",
+        "label_en": "Generalized myoclonic seizure",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002376",
+        "label_ja": "発達退行",
+        "label_en": "Developmental regression",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002653",
+        "label_ja": "骨痛",
+        "label_en": "Bone pain",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002750",
+        "label_ja": "骨格骨化遅延",
+        "label_en": "Delayed skeletal maturation",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002757",
+        "label_ja": "反復性骨折",
+        "label_en": "Recurrent fractures",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002829",
+        "label_ja": "関節痛",
+        "label_en": "Arthralgia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003281",
+        "label_ja": "血清フェリチン増加",
+        "label_en": "Increased circulating ferritin concentration",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003330",
+        "label_ja": "骨構造異常",
+        "label_en": "Abnormal bone structure",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0004975",
+        "label_ja": "大腿骨のErlenmeyer フラスコ変形",
+        "label_en": "Erlenmeyer flask deformity of the femurs",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0008872",
+        "label_ja": "食餌摂取障害 in infancy",
+        "label_en": "Feeding difficulties in infancy",
+        "frequency": "HP:0040282",
+        "label_ja_status": "reported",
+        "label_ja_note": "誤訳の疑いを報告済み（未訂正）。表示・照合には使わない: 公式訳「食餌摂取障害 in infancy」に英語が混入"
+      },
+      {
+        "hpo_id": "HP:0010885",
+        "label_ja": "無菌性壊死",
+        "label_en": "Avascular necrosis",
+        "frequency": "HP:0040282",
+        "label_ja_status": "reported",
+        "label_ja_note": "誤訳の疑いを報告済み（未訂正）。表示・照合には使わない: 公式訳「無菌性壊死」は概念が異なる"
+      },
+      {
+        "hpo_id": "HP:0032640",
+        "label_ja": "循環CCL18値の上昇",
+        "label_en": "Elevated circulating CCL18 concentration",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0100022",
+        "label_ja": "運動の異常",
+        "label_en": "Abnormality of movement",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:6000213",
+        "label_ja": null,
+        "label_en": "Elevated circulating angiotensin-converting enzyme concentration",
+        "frequency": "HP:0040282",
+        "label_ja_status": "none",
+        "label_ja_note": "hp-ja.babelon.tsv（2023-07-21 版）に訳が無い。英語ラベルのみ"
+      },
+      {
+        "hpo_id": "HP:0000093",
+        "label_ja": "蛋白尿",
+        "label_en": "Proteinuria",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000225",
+        "label_ja": "歯肉出血",
+        "label_en": "Gingival bleeding",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000238",
+        "label_ja": "水頭症",
+        "label_en": "Hydrocephalus",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000365",
+        "label_ja": "難聴",
+        "label_en": "Hearing impairment",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000488",
+        "label_ja": "網膜症",
+        "label_en": "Retinopathy",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000657",
+        "label_ja": "眼球運動失行症",
+        "label_en": "Oculomotor apraxia",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000726",
+        "label_ja": "Dementia",
+        "label_en": "Dementia",
+        "frequency": "HP:0040283",
+        "label_ja_status": "reported",
+        "label_ja_note": "誤訳の疑いを報告済み（未訂正）。表示・照合には使わない: 公式訳が英語のまま（Dementia）"
+      },
+      {
+        "hpo_id": "HP:0000790",
+        "label_ja": "血尿",
+        "label_en": "Hematuria",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000939",
+        "label_ja": "骨粗鬆症",
+        "label_en": "Osteoporosis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001000",
+        "label_ja": "皮膚色素の異常",
+        "label_en": "Abnormal skin pigmentation",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001103",
+        "label_ja": "黄斑の異常",
+        "label_en": "Abnormal macular morphology",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001252",
+        "label_ja": "筋緊張低下",
+        "label_en": "Hypotonia",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001300",
+        "label_ja": "パーキンソン症候群",
+        "label_en": "Parkinsonism",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001337",
+        "label_ja": "振戦",
+        "label_en": "Tremor",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001387",
+        "label_ja": "関節拘縮",
+        "label_en": "Joint stiffness",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001394",
+        "label_ja": "肝硬変",
+        "label_en": "Cirrhosis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001395",
+        "label_ja": "肝線維症",
+        "label_en": "Hepatic fibrosis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001637",
+        "label_ja": "心筋の異常",
+        "label_en": "Abnormal myocardium morphology",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001654",
+        "label_ja": "心弁の異常",
+        "label_en": "Abnormal heart valve morphology",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001697",
+        "label_ja": "心外膜の異常",
+        "label_en": "Abnormal pericardium morphology",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001789",
+        "label_ja": "胎児水腫",
+        "label_en": "Hydrops fetalis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001876",
+        "label_ja": "汎血球減少症",
+        "label_en": "Pancytopenia",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001892",
+        "label_ja": "異常な出血",
+        "label_en": "Abnormal bleeding",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001928",
+        "label_ja": "凝固の異常",
+        "label_en": "Abnormality of coagulation",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002071",
+        "label_ja": "錐体外路運動機能の異常",
+        "label_en": "Abnormality of extrapyramidal motor function",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002092",
+        "label_ja": "肺高血圧",
+        "label_en": "Pulmonary arterial hypertension",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002093",
+        "label_ja": "呼吸不全",
+        "label_en": "Respiratory insufficiency",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002119",
+        "label_ja": "脳室拡大",
+        "label_en": "Ventriculomegaly",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002179",
+        "label_ja": "後弓反張",
+        "label_en": "Opisthotonus",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002206",
+        "label_ja": "肺線維症",
+        "label_en": "Pulmonary fibrosis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002754",
+        "label_ja": "骨髄炎",
+        "label_en": "Osteomyelitis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002756",
+        "label_ja": "病的骨折",
+        "label_en": "Pathologic fracture",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002758",
+        "label_ja": "骨関節炎",
+        "label_en": "Osteoarthritis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002797",
+        "label_ja": "骨融解",
+        "label_en": "Osteolysis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002804",
+        "label_ja": "先天性多発性関節拘縮",
+        "label_en": "Arthrogryposis multiplex congenita",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002808",
+        "label_ja": "後弯",
+        "label_en": "Kyphosis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003233",
+        "label_ja": "低HDLコレステロール血症",
+        "label_en": "Decreased circulating HDL-C concentration",
+        "frequency": "HP:0040283",
+        "label_ja_status": "corrected",
+        "label_ja_official": "高αリポ蛋白血症",
+        "label_ja_note": "公式訳「高αリポ蛋白血症」は意味が逆（減少を増加と訳している）。ファウンダー指示（2026-09-11）で訂正"
+      },
+      {
+        "hpo_id": "HP:0003459",
+        "label_ja": "ポリクローナル IgM 上昇",
+        "label_en": "Polyclonal elevation of circulating IgM concentration",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0004322",
+        "label_ja": "低身長",
+        "label_en": "Short stature",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0004374",
+        "label_ja": "片麻痺/片側不全麻痺",
+        "label_en": "Hemiplegia/hemiparesis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0004380",
+        "label_ja": "大動脈弁石灰化",
+        "label_en": "Aortic valve calcification",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0004382",
+        "label_ja": "僧帽弁石灰化",
+        "label_en": "Mitral valve calcification",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0006530",
+        "label_ja": "間質性肺疾患",
+        "label_en": "Abnormal pulmonary interstitial morphology",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0006775",
+        "label_ja": "多発性骨髄腫",
+        "label_en": "Multiple myeloma",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0006824",
+        "label_ja": "脳神経麻痺",
+        "label_en": "Cranial nerve paralysis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0007141",
+        "label_ja": "感覚運動ニューロパチー",
+        "label_en": "Sensorimotor neuropathy",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0007957",
+        "label_ja": "角膜混濁",
+        "label_en": "Corneal opacity",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0008064",
+        "label_ja": "魚鱗癬",
+        "label_en": "Ichthyosis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0010702",
+        "label_ja": "高ガンマグロブリン血症",
+        "label_en": "Increased circulating immunoglobulin concentration",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0010729",
+        "label_ja": "黄斑のチェリーレッド斑",
+        "label_en": "Cherry red spot of the macula",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0011001",
+        "label_ja": "骨ミネラル濃度の増加",
+        "label_en": "Increased bone mineral density",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0011227",
+        "label_ja": "CRP 上昇",
+        "label_en": "Elevated circulating C-reactive protein concentration",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0012115",
+        "label_ja": "肝炎",
+        "label_en": "Hepatitis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0031047",
+        "label_ja": "パラ蛋白血症",
+        "label_en": "Paraproteinemia",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001399",
+        "label_ja": "肝不全",
+        "label_en": "Hepatic failure",
+        "frequency": "HP:0040284",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0012223",
+        "label_ja": "脾破裂",
+        "label_en": "Splenic rupture",
+        "frequency": "HP:0040284",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0034336",
+        "label_ja": "脾臓梗塞",
+        "label_en": "Splenic infarction",
+        "frequency": "HP:0040284",
+        "label_ja_status": "official"
+      }
+    ]
+  },
+  "ポンペ病": {
+    "orpha_code": "ORPHA:365",
+    "hpoa_disease_name": "Glycogen storage disease due to acid maltase deficiency",
+    "hpo_version": "v2026-06-23",
+    "symptoms": [
+      {
+        "hpo_id": "HP:0001324",
+        "label_ja": "筋虚弱",
+        "label_en": "Muscle weakness",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0009073",
+        "label_ja": "進行性近位筋虚弱",
+        "label_en": "Progressive proximal muscle weakness",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0010471",
+        "label_ja": "オリゴ糖尿",
+        "label_en": "Oligosacchariduria",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0034932",
+        "label_ja": "循環酸性マルターゼ活性の低下",
+        "label_en": "Decreased circulating acid maltase activity",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000338",
+        "label_ja": "仮面顔",
+        "label_en": "Hypomimic face",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000750",
+        "label_ja": "発語および言語発達遅延",
+        "label_en": "Delayed speech and language development",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001265",
+        "label_ja": "反射低下",
+        "label_en": "Hyporeflexia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001270",
+        "label_ja": "運動発達遅滞",
+        "label_en": "Motor delay",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001284",
+        "label_ja": "無反射",
+        "label_en": "Areflexia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001288",
+        "label_ja": "歩行障害",
+        "label_en": "Gait disturbance",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001308",
+        "label_ja": "舌線維束性収縮",
+        "label_en": "Tongue fasciculations",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001508",
+        "label_ja": "成長障害 (成長不全)",
+        "label_en": "Failure to thrive",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001510",
+        "label_ja": "成長遅滞",
+        "label_en": "Growth delay",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001640",
+        "label_ja": "心拡大",
+        "label_en": "Cardiomegaly",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001712",
+        "label_ja": "左室肥大",
+        "label_en": "Left ventricular hypertrophy",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002093",
+        "label_ja": "呼吸不全",
+        "label_en": "Respiratory insufficiency",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002205",
+        "label_ja": "反復性呼吸器感染症",
+        "label_en": "Recurrent respiratory infections",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002240",
+        "label_ja": "肝腫",
+        "label_en": "Hepatomegaly",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002747",
+        "label_ja": "筋虚弱による呼吸不全",
+        "label_en": "Respiratory insufficiency due to muscle weakness",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002875",
+        "label_ja": "運動性呼吸困難",
+        "label_en": "Exertional dyspnea",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003236",
+        "label_ja": "血清 creatine phosphokinase上昇",
+        "label_en": "Elevated circulating creatine kinase activity",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003326",
+        "label_ja": "筋痛",
+        "label_en": "Myalgia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003391",
+        "label_ja": "Gowers サイン",
+        "label_en": "Gowers sign",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003458",
+        "label_ja": "筋電図: ミオパチー異常",
+        "label_en": "EMG: myopathic abnormalities",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003546",
+        "label_ja": "運動不耐症",
+        "label_en": "Exercise intolerance",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003551",
+        "label_ja": "階段の登り困難",
+        "label_en": "Difficulty climbing stairs",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0007340",
+        "label_ja": "下肢筋虚弱",
+        "label_en": "Lower limb muscle weakness",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0008872",
+        "label_ja": "食餌摂取障害 in infancy",
+        "label_en": "Feeding difficulties in infancy",
+        "frequency": "HP:0040282",
+        "label_ja_status": "reported",
+        "label_ja_note": "誤訳の疑いを報告済み（未訂正）。表示・照合には使わない: 公式訳「食餌摂取障害 in infancy」に英語が混入"
+      },
+      {
+        "hpo_id": "HP:0011947",
+        "label_ja": "呼吸器感染",
+        "label_en": "Respiratory tract infection",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0012378",
+        "label_ja": "疲労",
+        "label_en": "Fatigue",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0025435",
+        "label_ja": "循環乳酸脱水素酵素濃度の上昇",
+        "label_en": "Increased circulating lactate dehydrogenase concentration",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0030148",
+        "label_ja": "心雑音",
+        "label_en": "Heart murmur",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0030231",
+        "label_ja": "筋線維リソソームにおけるグリコーゲンの蓄積",
+        "label_en": "Glycogen accumulation in muscle fiber lysosomes",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0031964",
+        "label_ja": "循環アラニンアミノトランスフェラーゼ濃度の上昇",
+        "label_en": "Elevated circulating alanine aminotransferase concentration",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0100595",
+        "label_ja": "前屈症",
+        "label_en": "Camptocormia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000158",
+        "label_ja": "巨舌",
+        "label_en": "Macroglossia",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000183",
+        "label_ja": "舌運動障害",
+        "label_en": "Tongue muscle weakness",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000297",
+        "label_ja": "顔面筋緊張低下",
+        "label_en": "Facial hypotonia",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000365",
+        "label_ja": "難聴",
+        "label_en": "Hearing impairment",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000508",
+        "label_ja": "眼瞼下垂",
+        "label_en": "Ptosis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000939",
+        "label_ja": "骨粗鬆症",
+        "label_en": "Osteoporosis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001260",
+        "label_ja": "構音障害",
+        "label_en": "Dysarthria",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001639",
+        "label_ja": "肥大型心筋症",
+        "label_en": "Hypertrophic cardiomyopathy",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002015",
+        "label_ja": "嚥下障害",
+        "label_en": "Dysphagia",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002098",
+        "label_ja": "呼吸窮迫",
+        "label_en": "Respiratory distress",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002326",
+        "label_ja": "一過性虚血発作",
+        "label_en": "Transient ischemic attack",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002540",
+        "label_ja": "歩行不能",
+        "label_en": "Inability to walk",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002633",
+        "label_ja": "血管炎",
+        "label_en": "Vasculitis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002650",
+        "label_ja": "側弯",
+        "label_en": "Scoliosis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002878",
+        "label_ja": "呼吸不全",
+        "label_en": "Respiratory failure",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003307",
+        "label_ja": "前弯",
+        "label_en": "Hyperlordosis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003324",
+        "label_ja": "全身性筋虚弱",
+        "label_en": "Generalized muscle weakness",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0004944",
+        "label_ja": "大脳動脈瘤",
+        "label_en": "Dilatation of the cerebral artery",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0005165",
+        "label_ja": "短い PR 間隔",
+        "label_en": "Shortened PR interval",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0005216",
+        "label_ja": "咀嚼こんな",
+        "label_en": "Impaired mastication",
+        "frequency": "HP:0040283",
+        "label_ja_status": "reported",
+        "label_ja_note": "誤訳の疑いを報告済み（未訂正）。表示・照合には使わない: 公式訳「咀嚼こんな」は誤字"
+      },
+      {
+        "hpo_id": "HP:0006824",
+        "label_ja": "脳神経麻痺",
+        "label_en": "Cranial nerve paralysis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0008947",
+        "label_ja": "乳児筋性筋緊張低下",
+        "label_en": "Floppy infant",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0009113",
+        "label_ja": "横隔膜虚弱",
+        "label_en": "Diaphragmatic weakness",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0010535",
+        "label_ja": "睡眠時無呼吸",
+        "label_en": "Sleep apnea",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0012532",
+        "label_ja": "慢性疼痛",
+        "label_en": "Chronic pain",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0012727",
+        "label_ja": "胸部大動脈瘤",
+        "label_en": "Thoracic aortic aneurysm",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0012764",
+        "label_ja": "起坐呼吸",
+        "label_en": "Orthopnea",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0030195",
+        "label_ja": "嚥下筋の疲労性筋力低下",
+        "label_en": "Fatigable weakness of swallowing muscles",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0030196",
+        "label_ja": "呼吸筋の疲労性筋力低下",
+        "label_en": "Fatigable weakness of respiratory muscles",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0031310",
+        "label_ja": "脳底動脈石灰化症",
+        "label_en": "Basilar artery calcification",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0032092",
+        "label_ja": "左室流出路閉塞",
+        "label_en": "Left ventricular outflow tract obstruction",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:3000062",
+        "label_ja": null,
+        "label_en": "Abnormal internal carotid artery morphology",
+        "frequency": "HP:0040283",
+        "label_ja_status": "none",
+        "label_ja_note": "hp-ja.babelon.tsv（2023-07-21 版）に訳が無い。英語ラベルのみ"
+      },
+      {
+        "hpo_id": "HP:0001371",
+        "label_ja": "屈曲拘縮",
+        "label_en": "Flexion contracture",
+        "frequency": "HP:0040284",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002607",
+        "label_ja": "遺糞症",
+        "label_en": "Bowel incontinence",
+        "frequency": "HP:0040284",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0007002",
+        "label_ja": "運動性軸索ニューロパチー",
+        "label_en": "Motor axonal neuropathy",
+        "frequency": "HP:0040284",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0100543",
+        "label_ja": "認知障害",
+        "label_en": "Cognitive impairment",
+        "frequency": "HP:0040284",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0100750",
+        "label_ja": "無気肺",
+        "label_en": "Atelectasis",
+        "frequency": "HP:0040284",
+        "label_ja_status": "official"
+      }
+    ]
+  },
+  "ムコ多糖症I型": {
+    "orpha_code": "ORPHA:579",
+    "hpoa_disease_name": "Mucopolysaccharidosis type 1",
+    "hpo_version": "v2026-06-23",
+    "symptoms": [
+      {
+        "hpo_id": "HP:0000023",
+        "label_ja": "鼠径ヘルニア",
+        "label_en": "Inguinal hernia",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000246",
+        "label_ja": "副鼻腔炎",
+        "label_en": "Sinusitis",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000280",
+        "label_ja": "粗な顔貌",
+        "label_en": "Coarse facial features",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000389",
+        "label_ja": "慢性中耳炎",
+        "label_en": "Chronic otitis media",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000944",
+        "label_ja": "骨幹端の異常",
+        "label_en": "Abnormal metaphysis morphology",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001171",
+        "label_ja": "裂手",
+        "label_en": "Split hand",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001387",
+        "label_ja": "関節拘縮",
+        "label_en": "Joint stiffness",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001608",
+        "label_ja": "声の異常",
+        "label_en": "Abnormality of the voice",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001744",
+        "label_ja": "脾腫",
+        "label_en": "Splenomegaly",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002230",
+        "label_ja": "全身性多毛",
+        "label_en": "Generalized hirsutism",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002650",
+        "label_ja": "側弯",
+        "label_en": "Scoliosis",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003312",
+        "label_ja": "椎体骨形態異常",
+        "label_en": "Abnormal vertebral body morphology",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0004322",
+        "label_ja": "低身長",
+        "label_en": "Short stature",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0005930",
+        "label_ja": "骨端の異常",
+        "label_en": "Abnormal epiphysis morphology",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0007957",
+        "label_ja": "角膜混濁",
+        "label_en": "Corneal opacity",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0008155",
+        "label_ja": "ムコ多糖症",
+        "label_en": "Mucopolysacchariduria",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0100790",
+        "label_ja": "ヘルニア",
+        "label_en": "Hernia",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000179",
+        "label_ja": "分厚い下口唇唇紅部",
+        "label_en": "Thick lower lip vermilion",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000212",
+        "label_ja": "歯肉過成長",
+        "label_en": "Gingival overgrowth",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000232",
+        "label_ja": "下口唇唇紅部外反",
+        "label_en": "Everted lower lip vermilion",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000256",
+        "label_ja": "大頭",
+        "label_en": "Macrocephaly",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000268",
+        "label_ja": "長頭",
+        "label_en": "Dolichocephaly",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000271",
+        "label_ja": "顔の異常",
+        "label_en": "Abnormality of the face",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000293",
+        "label_ja": "大きな頬",
+        "label_en": "Full cheeks",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000294",
+        "label_ja": "低い前部毛髪線",
+        "label_en": "Low anterior hairline",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000365",
+        "label_ja": "難聴",
+        "label_en": "Hearing impairment",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000407",
+        "label_ja": "感音難聴",
+        "label_en": "Sensorineural hearing impairment",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000488",
+        "label_ja": "網膜症",
+        "label_en": "Retinopathy",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000501",
+        "label_ja": "緑内障",
+        "label_en": "Glaucoma",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000687",
+        "label_ja": "歯間隔離",
+        "label_en": "Widely spaced teeth",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000691",
+        "label_ja": "小歯",
+        "label_en": "Microdontia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001249",
+        "label_ja": "知的障害",
+        "label_en": "Intellectual disability",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002024",
+        "label_ja": "吸収障害",
+        "label_en": "Malabsorption",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002104",
+        "label_ja": "無呼吸",
+        "label_en": "Apnea",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002205",
+        "label_ja": "反復性呼吸器感染症",
+        "label_en": "Recurrent respiratory infections",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002376",
+        "label_ja": "発達退行",
+        "label_en": "Developmental regression",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002829",
+        "label_ja": "関節痛",
+        "label_en": "Arthralgia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003272",
+        "label_ja": "寛骨の異常",
+        "label_en": "Abnormal hip bone morphology",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003401",
+        "label_ja": "感覚異常",
+        "label_en": "Paresthesia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0005105",
+        "label_ja": "異常な鼻形態",
+        "label_en": "Abnormal nasal morphology",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0005280",
+        "label_ja": "落ちくぼんだ鼻梁",
+        "label_en": "Depressed nasal bridge",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0009928",
+        "label_ja": "分厚い鼻翼",
+        "label_en": "Thick nasal alae",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0012735",
+        "label_ja": "外層",
+        "label_en": "Cough",
+        "frequency": "HP:0040282",
+        "label_ja_status": "reported",
+        "label_ja_note": "誤訳の疑いを報告済み（未訂正）。表示・照合には使わない: 公式訳「外層」は誤り"
+      },
+      {
+        "hpo_id": "HP:0100625",
+        "label_ja": "胸郭拡大",
+        "label_en": "Enlarged thorax",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0100765",
+        "label_ja": "扁桃の異常",
+        "label_en": "Abnormality of the tonsils",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000238",
+        "label_ja": "水頭症",
+        "label_en": "Hydrocephalus",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000505",
+        "label_ja": "視力障害",
+        "label_en": "Visual impairment",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000648",
+        "label_ja": "視神経萎縮",
+        "label_en": "Optic atrophy",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001373",
+        "label_ja": "関節脱臼",
+        "label_en": "Joint dislocation",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001635",
+        "label_ja": "うっ血性心不全",
+        "label_en": "Congestive heart failure",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001639",
+        "label_ja": "肥大型心筋症",
+        "label_en": "Hypertrophic cardiomyopathy",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001646",
+        "label_ja": "大動脈弁の異常",
+        "label_en": "Abnormal aortic valve morphology",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001654",
+        "label_ja": "心弁の異常",
+        "label_en": "Abnormal heart valve morphology",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003416",
+        "label_ja": "脊椎管狭窄",
+        "label_en": "Spinal canal stenosis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0004374",
+        "label_ja": "片麻痺/片側不全麻痺",
+        "label_en": "Hemiplegia/hemiparesis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0010885",
+        "label_ja": "無菌性壊死",
+        "label_en": "Avascular necrosis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "reported",
+        "label_ja_note": "誤訳の疑いを報告済み（未訂正）。表示・照合には使わない: 公式訳「無菌性壊死」は概念が異なる"
+      },
+      {
+        "hpo_id": "HP:0100261",
+        "label_ja": "腱形態異常",
+        "label_en": "Abnormal tendon morphology",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      }
+    ]
+  },
+  "フェニルケトン尿症": {
+    "orpha_code": "ORPHA:716",
+    "hpoa_disease_name": "Phenylketonuria",
+    "hpo_version": "v2026-06-23",
+    "symptoms": [
+      {
+        "hpo_id": "HP:0032351",
+        "label_ja": "フェニルアラニン尿症",
+        "label_en": "Phenylalaninuria",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000252",
+        "label_ja": "小頭",
+        "label_en": "Microcephaly",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000708",
+        "label_ja": "行動異常",
+        "label_en": "Atypical behavior",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000938",
+        "label_ja": "骨減少症",
+        "label_en": "Osteopenia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000964",
+        "label_ja": "湿疹",
+        "label_en": "Eczematoid dermatitis",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001010",
+        "label_ja": "皮膚低色素",
+        "label_en": "Hypopigmentation of the skin",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001250",
+        "label_ja": "発作",
+        "label_en": "Seizure",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001263",
+        "label_ja": "全般性発達遅滞",
+        "label_en": "Global developmental delay",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001328",
+        "label_ja": "特異的学習障害",
+        "label_en": "Specific learning disability",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001510",
+        "label_ja": "成長遅滞",
+        "label_en": "Growth delay",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002353",
+        "label_ja": "脳波異常",
+        "label_en": "EEG abnormality",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002500",
+        "label_ja": "大脳白質の異常",
+        "label_en": "Abnormal cerebral white matter morphology",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0004923",
+        "label_ja": "高フェニールアラニン血症",
+        "label_en": "Hyperphenylalaninemia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0010864",
+        "label_ja": "知的障害, 重度",
+        "label_en": "Severe intellectual disability",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0410021",
+        "label_ja": "カビ臭",
+        "label_en": "Musty odor",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000716",
+        "label_ja": "うつ",
+        "label_en": "Depression",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000726",
+        "label_ja": "Dementia",
+        "label_en": "Dementia",
+        "frequency": "HP:0040283",
+        "label_ja_status": "reported",
+        "label_ja_note": "誤訳の疑いを報告済み（未訂正）。表示・照合には使わない: 公式訳が英語のまま（Dementia）"
+      },
+      {
+        "hpo_id": "HP:0000736",
+        "label_ja": "短い注意期間",
+        "label_en": "Short attention span",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000739",
+        "label_ja": "不安",
+        "label_en": "Anxiety",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001251",
+        "label_ja": "運動失調",
+        "label_en": "Ataxia",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001298",
+        "label_ja": "脳症",
+        "label_en": "Encephalopathy",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001337",
+        "label_ja": "振戦",
+        "label_en": "Tremor",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002061",
+        "label_ja": "下肢痙性",
+        "label_en": "Lower limb spasticity",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0030680",
+        "label_ja": "循環器系の形態異常",
+        "label_en": "Abnormal cardiovascular system morphology",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0100704",
+        "label_ja": "皮質性視力障害",
+        "label_en": "Cerebral visual impairment",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      }
+    ]
+  },
+  "オルニチントランスカルバミラーゼ欠損症": {
+    "orpha_code": "ORPHA:664",
+    "hpoa_disease_name": "Ornithine transcarbamylase deficiency",
+    "hpo_version": "v2026-06-23",
+    "symptoms": [
+      {
+        "hpo_id": "HP:0001399",
+        "label_ja": "肝不全",
+        "label_en": "Hepatic failure",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001744",
+        "label_ja": "脾腫",
+        "label_en": "Splenomegaly",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001943",
+        "label_ja": "低血糖",
+        "label_en": "Hypoglycemia",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001987",
+        "label_ja": "高アンモニア血症",
+        "label_en": "Hyperammonemia",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003355",
+        "label_ja": "アミノ酸尿",
+        "label_en": "Aminoaciduria",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001250",
+        "label_ja": "発作",
+        "label_en": "Seizure",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001252",
+        "label_ja": "筋緊張低下",
+        "label_en": "Hypotonia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001254",
+        "label_ja": "無気力",
+        "label_en": "Lethargy",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001259",
+        "label_ja": "昏睡",
+        "label_en": "Coma",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001298",
+        "label_ja": "脳症",
+        "label_en": "Encephalopathy",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001950",
+        "label_ja": "活性減少アルカローシス",
+        "label_en": "Respiratory alkalosis",
+        "frequency": "HP:0040282",
+        "label_ja_status": "reported",
+        "label_ja_note": "誤訳の疑いを報告済み（未訂正）。表示・照合には使わない: 公式訳「活性減少アルカローシス」は意味が異なる"
+      },
+      {
+        "hpo_id": "HP:0002033",
+        "label_ja": "吸啜不全",
+        "label_en": "Poor suck",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002038",
+        "label_ja": "蛋白回避",
+        "label_en": "Protein avoidance",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002039",
+        "label_ja": "食思不振",
+        "label_en": "Anorexia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002045",
+        "label_ja": "低体温",
+        "label_en": "Hypothermia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002329",
+        "label_ja": "眠気",
+        "label_en": "Drowsiness",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002910",
+        "label_ja": "肝トランスアミナーゼ上昇",
+        "label_en": "Elevated circulating hepatic transaminase concentration",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003218",
+        "label_ja": "オロチン酸尿",
+        "label_en": "Oroticaciduria",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003572",
+        "label_ja": "血症シトルリン低値",
+        "label_en": "Low plasma citrulline",
+        "frequency": "HP:0040282",
+        "label_ja_status": "reported",
+        "label_ja_note": "誤訳の疑いを報告済み（未訂正）。表示・照合には使わない: 公式訳「血症シトルリン低値」は誤字"
+      },
+      {
+        "hpo_id": "HP:0005961",
+        "label_ja": "低アルギニン血症",
+        "label_en": "Hypoargininemia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000716",
+        "label_ja": "うつ",
+        "label_en": "Depression",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000739",
+        "label_ja": "不安",
+        "label_en": "Anxiety",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001328",
+        "label_ja": "特異的学習障害",
+        "label_en": "Specific learning disability",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001508",
+        "label_ja": "成長障害 (成長不全)",
+        "label_en": "Failure to thrive",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002572",
+        "label_ja": "嘔吐エピソード",
+        "label_en": "Episodic vomiting",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002908",
+        "label_ja": "抱合型高ビリルビン血症",
+        "label_en": "Conjugated hyperbilirubinemia",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003645",
+        "label_ja": "部分的トロンボプラスチン時間遷延",
+        "label_en": "Prolonged partial thromboplastin time",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0007018",
+        "label_ja": "注意力欠陥多動性疾患",
+        "label_en": "Attention deficit hyperactivity disorder",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0031258",
+        "label_ja": "せん妄",
+        "label_en": "Delirium",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      }
+    ]
+  },
+  "軟骨無形成症": {
+    "orpha_code": "ORPHA:15",
+    "hpoa_disease_name": "Achondroplasia",
+    "hpo_version": "v2026-06-23",
+    "symptoms": [
+      {
+        "hpo_id": "HP:0002808",
+        "label_ja": "後弯",
+        "label_en": "Kyphosis",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002979",
+        "label_ja": "下肢湾曲",
+        "label_en": "Bowing of the legs",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003498",
+        "label_ja": "不均衡型低身長",
+        "label_en": "Disproportionate short stature",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0005619",
+        "label_ja": "胸腰椎後弯",
+        "label_en": "Thoracolumbar kyphosis",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0009826",
+        "label_ja": "四肢成長不全",
+        "label_en": "Limb undergrowth",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000242",
+        "label_ja": "頭頂突出",
+        "label_en": "Parietal bossing",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000256",
+        "label_ja": "大頭",
+        "label_en": "Macrocephaly",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000309",
+        "label_ja": "顔面中部の異常",
+        "label_en": "Abnormal midface morphology",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000365",
+        "label_ja": "難聴",
+        "label_en": "Hearing impairment",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000463",
+        "label_ja": "上向きの鼻孔",
+        "label_en": "Anteverted nares",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001156",
+        "label_ja": "短指症候群",
+        "label_en": "Brachydactyly",
+        "frequency": "HP:0040282",
+        "label_ja_status": "reported",
+        "label_ja_note": "誤訳の疑いを報告済み（未訂正）。表示・照合には使わない: 公式訳「短指症候群」は症候群ではない"
+      },
+      {
+        "hpo_id": "HP:0001377",
+        "label_ja": "肘伸展制限",
+        "label_en": "Limited elbow extension",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002007",
+        "label_ja": "前頭突出, 額突出",
+        "label_en": "Frontal bossing",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002870",
+        "label_ja": "閉塞性睡眠時無呼吸",
+        "label_en": "Obstructive sleep apnea",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002938",
+        "label_ja": "腰椎前弯 hyperlordosis",
+        "label_en": "Lumbar hyperlordosis",
+        "frequency": "HP:0040282",
+        "label_ja_status": "reported",
+        "label_ja_note": "誤訳の疑いを報告済み（未訂正）。表示・照合には使わない: 公式訳「腰椎前弯 hyperlordosis」に英語が混入"
+      },
+      {
+        "hpo_id": "HP:0003026",
+        "label_ja": "短い長管骨",
+        "label_en": "Short long bone",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003194",
+        "label_ja": "短い鼻梁",
+        "label_en": "Short nasal bridge",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003416",
+        "label_ja": "脊椎管狭窄",
+        "label_en": "Spinal canal stenosis",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0004060",
+        "label_ja": "鉾状の手",
+        "label_en": "Trident hand",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0005280",
+        "label_ja": "落ちくぼんだ鼻梁",
+        "label_en": "Depressed nasal bridge",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0005819",
+        "label_ja": "短い指中節骨",
+        "label_en": "Short middle phalanx of finger",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0008445",
+        "label_ja": "頚椎管後索",
+        "label_en": "Cervical spinal canal stenosis",
+        "frequency": "HP:0040282",
+        "label_ja_status": "reported",
+        "label_ja_note": "誤訳の疑いを報告済み（未訂正）。表示・照合には使わない: 公式訳「頚椎管後索」は誤り"
+      },
+      {
+        "hpo_id": "HP:0008947",
+        "label_ja": "乳児筋性筋緊張低下",
+        "label_en": "Floppy infant",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0010241",
+        "label_ja": "短い指の基節骨",
+        "label_en": "Short proximal phalanx of finger",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0010536",
+        "label_ja": "中枢性睡眠時無呼吸",
+        "label_en": "Central sleep apnea",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0011452",
+        "label_ja": "中耳機能異常",
+        "label_en": "Functional abnormality of the middle ear",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0045086",
+        "label_ja": "膝関節の過可動性",
+        "label_en": "Knee joint hypermobility",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0045087",
+        "label_ja": "股関節の過可動性",
+        "label_en": "Hip joint hypermobility",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000260",
+        "label_ja": "幅広い大泉門",
+        "label_en": "Wide anterior fontanel",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000956",
+        "label_ja": "黒色表皮腫",
+        "label_en": "Acanthosis nigricans",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001513",
+        "label_ja": "肥満",
+        "label_en": "Obesity",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002091",
+        "label_ja": "拘束性肺疾患",
+        "label_en": "Restrictive ventilatory defect",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003180",
+        "label_ja": "平坦な寛骨臼蓋",
+        "label_en": "Flat acetabular roof",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003375",
+        "label_ja": "狭い大仙坐骨切痕",
+        "label_en": "Narrow greater sciatic notch",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0005257",
+        "label_ja": "胸郭低形成",
+        "label_en": "Thoracic hypoplasia",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0008905",
+        "label_ja": "四肢近位短縮",
+        "label_en": "Rhizomelia",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0011867",
+        "label_ja": "腸骨翼の異常",
+        "label_en": "Abnormal iliac wing morphology",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0012418",
+        "label_ja": "低酸素血症への感受性の減少",
+        "label_en": "Hypoxemia",
+        "frequency": "HP:0040283",
+        "label_ja_status": "reported",
+        "label_ja_note": "誤訳の疑いを報告済み（未訂正）。表示・照合には使わない: 公式訳「低酸素血症への感受性の減少」は意味が異なる"
+      },
+      {
+        "hpo_id": "HP:0000238",
+        "label_ja": "水頭症",
+        "label_en": "Hydrocephalus",
+        "frequency": "HP:0040284",
+        "label_ja_status": "official"
+      }
+    ]
+  },
+  "低ホスファターゼ症": {
+    "orpha_code": "ORPHA:436",
+    "hpoa_disease_name": "Hypophosphatasia",
+    "hpo_version": "v2026-06-23",
+    "symptoms": [
+      {
+        "hpo_id": "HP:0000164",
+        "label_ja": "歯の異常",
+        "label_en": "Abnormality of the dentition",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000239",
+        "label_ja": "大きな泉門",
+        "label_en": "Large fontanelles",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000772",
+        "label_ja": "肋骨の異常",
+        "label_en": "Abnormal rib morphology",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000774",
+        "label_ja": "狭い胸郭",
+        "label_en": "Narrow chest",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000944",
+        "label_ja": "骨幹端の異常",
+        "label_en": "Abnormal metaphysis morphology",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001024",
+        "label_ja": "長管骨角部先端上の皮膚小孔",
+        "label_en": "Skin dimple over apex of long bone angulation",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001363",
+        "label_ja": "頭蓋合骨症",
+        "label_en": "Craniosynostosis",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001531",
+        "label_ja": "乳児期の成長障害 (成長不全)",
+        "label_en": "Failure to thrive in infancy",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002097",
+        "label_ja": "肺気腫",
+        "label_en": "Emphysema",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0004322",
+        "label_ja": "低身長",
+        "label_en": "Short stature",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0006487",
+        "label_ja": "長管骨湾曲",
+        "label_en": "Bowing of the long bones",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0008872",
+        "label_ja": "食餌摂取障害 in infancy",
+        "label_en": "Feeding difficulties in infancy",
+        "frequency": "HP:0040281",
+        "label_ja_status": "reported",
+        "label_ja_note": "誤訳の疑いを報告済み（未訂正）。表示・照合には使わない: 公式訳「食餌摂取障害 in infancy」に英語が混入"
+      },
+      {
+        "hpo_id": "HP:0010781",
+        "label_ja": "皮膚小孔",
+        "label_en": "Skin dimple",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000737",
+        "label_ja": "被刺激性",
+        "label_en": "Irritability",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001250",
+        "label_ja": "発作",
+        "label_en": "Seizure",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001252",
+        "label_ja": "筋緊張低下",
+        "label_en": "Hypotonia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001903",
+        "label_ja": "貧血",
+        "label_en": "Anemia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002093",
+        "label_ja": "呼吸不全",
+        "label_en": "Respiratory insufficiency",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002757",
+        "label_ja": "反復性骨折",
+        "label_en": "Recurrent fractures",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003072",
+        "label_ja": "高カルシウム血症",
+        "label_en": "Hypercalcemia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      }
+    ]
+  },
+  "X連鎖性低リン血症性くる病": {
+    "orpha_code": "ORPHA:89936",
+    "hpoa_disease_name": "X-linked hypophosphatemia",
+    "hpo_version": "v2026-06-23",
+    "symptoms": [
+      {
+        "hpo_id": "HP:0000117",
+        "label_ja": "腎性リン喪失",
+        "label_en": "Renal phosphate wasting",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002148",
+        "label_ja": "低リン血症",
+        "label_en": "Hypophosphatemia",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002748",
+        "label_ja": "くる病",
+        "label_en": "Rickets",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003127",
+        "label_ja": "低カルシウム尿",
+        "label_en": "Hypocalciuria",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003155",
+        "label_ja": "アルカリホスファターゼ上昇",
+        "label_en": "Elevated circulating alkaline phosphatase concentration",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0006490",
+        "label_ja": "下肢骨骨幹端の異常",
+        "label_en": "Abnormal lower-limb metaphysis morphology",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000121",
+        "label_ja": "腎石灰化症",
+        "label_en": "Nephrocalcinosis",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000694",
+        "label_ja": "貝形歯",
+        "label_en": "Odontodysplasia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000897",
+        "label_ja": "くる病性念珠",
+        "label_en": "Rachitic rosary",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001510",
+        "label_ja": "成長遅滞",
+        "label_en": "Growth delay",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002653",
+        "label_ja": "骨痛",
+        "label_en": "Bone pain",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002829",
+        "label_ja": "関節痛",
+        "label_en": "Arthralgia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002857",
+        "label_ja": "外反膝",
+        "label_en": "Genu valgum",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002970",
+        "label_ja": "内反膝",
+        "label_en": "Genu varum",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002979",
+        "label_ja": "下肢湾曲",
+        "label_en": "Bowing of the legs",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003498",
+        "label_ja": "不均衡型低身長",
+        "label_en": "Disproportionate short stature",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003856",
+        "label_ja": "上肢の骨幹端拡大",
+        "label_en": "Upper limb metaphyseal widening",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0004349",
+        "label_ja": "骨ミネラル濃度減少",
+        "label_en": "Reduced bone mineral density",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0005930",
+        "label_ja": "骨端の異常",
+        "label_en": "Abnormal epiphysis morphology",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0006487",
+        "label_ja": "長管骨湾曲",
+        "label_en": "Bowing of the long bones",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0008117",
+        "label_ja": "短い距骨頸部",
+        "label_en": "Shortening of the talar neck",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0008144",
+        "label_ja": "平坦な距骨ドーム",
+        "label_en": "Flattening of the talar dome",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0010299",
+        "label_ja": "象牙質異常",
+        "label_en": "Abnormal dentin morphology",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0025335",
+        "label_ja": "起立遅延",
+        "label_en": "Delayed ability to stand",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0030757",
+        "label_ja": "歯槽膿漏",
+        "label_en": "Tooth abscess",
+        "frequency": "HP:0040282",
+        "label_ja_status": "reported",
+        "label_ja_note": "誤訳の疑いを報告済み（未訂正）。表示・照合には使わない: 公式訳「歯槽膿漏」は別の疾患概念"
+      },
+      {
+        "hpo_id": "HP:0031936",
+        "label_ja": "歩行能力の遅れ",
+        "label_en": "Delayed ability to walk",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000360",
+        "label_ja": "耳鳴",
+        "label_en": "Tinnitus",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000787",
+        "label_ja": "腎結石",
+        "label_en": "Kidney stone",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000867",
+        "label_ja": "二次性副甲状腺機能亢進症",
+        "label_en": "Secondary hyperparathyroidism",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000920",
+        "label_ja": "肋軟骨接合部の拡大",
+        "label_en": "Enlargement of the costochondral junction",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001324",
+        "label_ja": "筋虚弱",
+        "label_en": "Muscle weakness",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001363",
+        "label_ja": "頭蓋合骨症",
+        "label_en": "Craniosynostosis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001369",
+        "label_ja": "関節炎",
+        "label_en": "Arthritis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001376",
+        "label_ja": "関節運動制限",
+        "label_en": "Limitation of joint mobility",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002007",
+        "label_ja": "前頭突出, 額突出",
+        "label_en": "Frontal bossing",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002015",
+        "label_ja": "嚥下障害",
+        "label_en": "Dysphagia",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002176",
+        "label_ja": "脊髄圧迫",
+        "label_en": "Spinal cord compression",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002360",
+        "label_ja": "睡眠障害",
+        "label_en": "Sleep disturbance",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002869",
+        "label_ja": "腸骨翼フレア",
+        "label_en": "Flared iliac wing",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003416",
+        "label_ja": "脊椎管狭窄",
+        "label_en": "Spinal canal stenosis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0006432",
+        "label_ja": "台形の遠位大腿骨顆",
+        "label_en": "Trapezoidal distal femoral condyles",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0006640",
+        "label_ja": "多発性肋骨骨折",
+        "label_en": "Multiple rib fractures",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0007099",
+        "label_ja": "I 型Arnold-Chiari 奇形",
+        "label_en": "Chiari type I malformation",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0008442",
+        "label_ja": "脊椎過骨症",
+        "label_en": "Vertebral hyperostosis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0012378",
+        "label_ja": "疲労",
+        "label_en": "Fatigue",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0012449",
+        "label_ja": "仙腸関節滑膜炎",
+        "label_en": "Sacroiliac joint synovitis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0025369",
+        "label_ja": "厚い成長板",
+        "label_en": "Thick growth plates",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0100686",
+        "label_ja": "腱付着部炎",
+        "label_en": "Enthesitis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:6000407",
+        "label_ja": null,
+        "label_en": "Elevated circulating fibroblast growth factor 23 concentration",
+        "frequency": "HP:0040283",
+        "label_ja_status": "none",
+        "label_ja_note": "hp-ja.babelon.tsv（2023-07-21 版）に訳が無い。英語ラベルのみ"
+      },
+      {
+        "hpo_id": "HP:0000407",
+        "label_ja": "感音難聴",
+        "label_en": "Sensorineural hearing impairment",
+        "frequency": "HP:0040284",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0005789",
+        "label_ja": "全身性骨硬化症",
+        "label_en": "Generalized osteosclerosis",
+        "frequency": "HP:0040284",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0100658",
+        "label_ja": "蜂巣織炎",
+        "label_en": "Cellulitis",
+        "frequency": "HP:0040284",
+        "label_ja_status": "official"
+      }
+    ]
+  },
+  "脊髄性筋萎縮症": {
+    "orpha_code": "ORPHA:70",
+    "hpoa_disease_name": "Proximal spinal muscular atrophy",
+    "hpo_version": "v2026-06-23",
+    "symptoms": [
+      {
+        "hpo_id": "HP:0003202",
+        "label_ja": "筋萎縮",
+        "label_en": "Skeletal muscle atrophy",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003701",
+        "label_ja": "近位筋虚弱",
+        "label_en": "Proximal muscle weakness",
+        "frequency": "HP:0040281",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001283",
+        "label_ja": "球麻痺",
+        "label_en": "Bulbar palsy",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001284",
+        "label_ja": "無反射",
+        "label_en": "Areflexia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001288",
+        "label_ja": "歩行障害",
+        "label_en": "Gait disturbance",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001308",
+        "label_ja": "舌線維束性収縮",
+        "label_en": "Tongue fasciculations",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001315",
+        "label_ja": "腱反射減少",
+        "label_en": "Diminished deep tendon reflex",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002015",
+        "label_ja": "嚥下障害",
+        "label_en": "Dysphagia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002033",
+        "label_ja": "吸啜不全",
+        "label_en": "Poor suck",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002100",
+        "label_ja": "反復性誤嚥性肺炎",
+        "label_en": "Recurrent aspiration pneumonia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002460",
+        "label_ja": "遠位筋虚弱",
+        "label_en": "Distal muscle weakness",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002540",
+        "label_ja": "歩行不能",
+        "label_en": "Inability to walk",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002643",
+        "label_ja": "新生児呼吸窮迫",
+        "label_en": "Neonatal respiratory distress",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002747",
+        "label_ja": "筋虚弱による呼吸不全",
+        "label_en": "Respiratory insufficiency due to muscle weakness",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003327",
+        "label_ja": "軸性筋虚弱",
+        "label_en": "Axial muscle weakness",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003551",
+        "label_ja": "階段の登り困難",
+        "label_en": "Difficulty climbing stairs",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003731",
+        "label_ja": "大腿四頭筋 筋虚弱",
+        "label_en": "Quadriceps muscle weakness",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0004878",
+        "label_ja": "肋間筋虚弱",
+        "label_en": "Intercostal muscle weakness",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0004891",
+        "label_ja": "誤嚥による反復性感染症",
+        "label_en": "Recurrent infections due to aspiration",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0009046",
+        "label_ja": "走行困難",
+        "label_en": "Difficulty running",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0012378",
+        "label_ja": "疲労",
+        "label_en": "Fatigue",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0030319",
+        "label_ja": "顔面筋の筋力低下",
+        "label_en": "Weakness of facial musculature",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0031108",
+        "label_ja": "上腕三頭筋の筋力低下",
+        "label_en": "Triceps weakness",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001252",
+        "label_ja": "筋緊張低下",
+        "label_en": "Hypotonia",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001263",
+        "label_ja": "全般性発達遅滞",
+        "label_en": "Global developmental delay",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001270",
+        "label_ja": "運動発達遅滞",
+        "label_en": "Motor delay",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001319",
+        "label_ja": "新生児筋緊張低下",
+        "label_en": "Neonatal hypotonia",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001349",
+        "label_ja": "顔面両麻痺",
+        "label_en": "Facial diplegia",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001371",
+        "label_ja": "屈曲拘縮",
+        "label_en": "Flexion contracture",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001558",
+        "label_ja": "胎動減少",
+        "label_en": "Decreased fetal movement",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001631",
+        "label_ja": "心房中隔欠損",
+        "label_en": "Atrial septal defect",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002019",
+        "label_ja": "便秘",
+        "label_en": "Constipation",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002020",
+        "label_ja": "胃食道逆流",
+        "label_en": "Gastroesophageal reflux",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002091",
+        "label_ja": "拘束性肺疾患",
+        "label_en": "Restrictive ventilatory defect",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002421",
+        "label_ja": "頸定不全",
+        "label_en": "Poor head control",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002578",
+        "label_ja": "胃不全麻痺",
+        "label_en": "Gastroparesis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002650",
+        "label_ja": "側弯",
+        "label_en": "Scoliosis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002791",
+        "label_ja": "低換気",
+        "label_en": "Hypoventilation",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002827",
+        "label_ja": "股関節脱臼",
+        "label_en": "Hip dislocation",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002828",
+        "label_ja": "多発性関節拘縮",
+        "label_en": "Multiple joint contractures",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002878",
+        "label_ja": "呼吸不全",
+        "label_en": "Respiratory failure",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002942",
+        "label_ja": "胸部後弯",
+        "label_en": "Thoracic kyphosis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003698",
+        "label_ja": "起立困難",
+        "label_en": "Difficulty standing",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0006380",
+        "label_ja": "膝屈曲拘縮",
+        "label_en": "Knee flexion contracture",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0006844",
+        "label_ja": "膝蓋腱反射消失",
+        "label_en": "Absent patellar reflexes",
+        "frequency": "HP:0040283",
+        "label_ja_status": "corrected",
+        "label_ja_official": "膝蓋腱反射",
+        "label_ja_note": "公式訳「膝蓋腱反射」は否定（消失）が欠落し意味が反転。ファウンダー指示（2026-09-11）で訂正"
+      },
+      {
+        "hpo_id": "HP:0008959",
+        "label_ja": "遠位上肢筋虚弱",
+        "label_en": "Distal upper limb muscle weakness",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0009053",
+        "label_ja": "遠位下肢筋虚弱",
+        "label_en": "Distal lower limb muscle weakness",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001662",
+        "label_ja": "徐脈",
+        "label_en": "Bradycardia",
+        "frequency": "HP:0040284",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001942",
+        "label_ja": "代謝性アシドーシス",
+        "label_en": "Metabolic acidosis",
+        "frequency": "HP:0040284",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002987",
+        "label_ja": "肘屈曲拘縮",
+        "label_en": "Elbow flexion contracture",
+        "frequency": "HP:0040284",
+        "label_ja_status": "official"
+      }
+    ]
+  },
+  "遺伝性ATTR型アミロイドーシス": {
+    "orpha_code": "ORPHA:271861",
+    "hpoa_disease_name": "Hereditary ATTR amyloidosis",
+    "hpo_version": "v2026-06-23",
+    "symptoms": [
+      {
+        "hpo_id": "HP:0000016",
+        "label_ja": "尿閉",
+        "label_en": "Urinary retention",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000112",
+        "label_ja": "腎症",
+        "label_en": "Nephropathy",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000501",
+        "label_ja": "緑内障",
+        "label_en": "Glaucoma",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000802",
+        "label_ja": "インポテンス",
+        "label_en": "Impotence",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000970",
+        "label_ja": "無汗症",
+        "label_en": "Anhidrosis",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001097",
+        "label_ja": "乾燥性角結膜炎",
+        "label_en": "Keratoconjunctivitis sicca",
+        "frequency": "HP:0040282",
+        "label_ja_status": "corrected",
+        "label_ja_official": "乾燥性",
+        "label_ja_note": "公式訳「乾燥性」は語が欠落。ファウンダー指示（2026-09-11）で訂正"
+      },
+      {
+        "hpo_id": "HP:0001635",
+        "label_ja": "うっ血性心不全",
+        "label_en": "Congestive heart failure",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001712",
+        "label_ja": "左室肥大",
+        "label_en": "Left ventricular hypertrophy",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001723",
+        "label_ja": "拘束性心筋症",
+        "label_en": "Restrictive cardiomyopathy",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002014",
+        "label_ja": "下痢",
+        "label_en": "Diarrhea",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002017",
+        "label_ja": "吐き気と嘔吐",
+        "label_en": "Nausea and vomiting",
+        "frequency": "HP:0040282",
+        "label_ja_status": "corrected",
+        "label_ja_official": "吐気と 嘔吐",
+        "label_ja_note": "公式訳「吐気と 嘔吐」は空白混入。ファウンダー指示（2026-09-11）で訂正"
+      },
+      {
+        "hpo_id": "HP:0002019",
+        "label_ja": "便秘",
+        "label_en": "Constipation",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0002578",
+        "label_ja": "胃不全麻痺",
+        "label_en": "Gastroparesis",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0003202",
+        "label_ja": "筋萎縮",
+        "label_en": "Skeletal muscle atrophy",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0004926",
+        "label_ja": "自律神経性機能障害による起立性低血圧",
+        "label_en": "Orthostatic hypotension due to autonomic dysfunction",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0007141",
+        "label_ja": "感覚運動ニューロパチー",
+        "label_en": "Sensorimotor neuropathy",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0011675",
+        "label_ja": "不整脈",
+        "label_en": "Arrhythmia",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0012185",
+        "label_ja": "収縮性正中神経ニューロパチー",
+        "label_en": "Constrictive median neuropathy",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0012332",
+        "label_ja": "異常な自律神経生理",
+        "label_en": "Abnormal autonomic nervous system physiology",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0012722",
+        "label_ja": "心ブロック",
+        "label_en": "Heart block",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0031327",
+        "label_ja": "トランスサイレチン心アミロイドーシス",
+        "label_en": "Cardiac transthyretin amyloid deposition",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0100832",
+        "label_ja": "飛蚊症",
+        "label_en": "Vitreous floaters",
+        "frequency": "HP:0040282",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000083",
+        "label_ja": "腎不全",
+        "label_en": "Renal insufficiency",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0000100",
+        "label_ja": "ネフローゼ症候群",
+        "label_en": "Nephrotic syndrome",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001324",
+        "label_ja": "筋虚弱",
+        "label_en": "Muscle weakness",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0001824",
+        "label_ja": "体重喪失",
+        "label_en": "Weight loss",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0004610",
+        "label_ja": "腰椎脊椎管狭窄",
+        "label_en": "Lumbar spinal canal stenosis",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0009027",
+        "label_ja": "足背屈筋虚弱",
+        "label_en": "Foot dorsiflexor weakness",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0010829",
+        "label_ja": "温度覚障害",
+        "label_en": "Impaired temperature sensation",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0011970",
+        "label_ja": "大脳アミロイド血管症",
+        "label_en": "Cerebral amyloid angiopathy",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0012531",
+        "label_ja": "疼痛",
+        "label_en": "Pain",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0025309",
+        "label_ja": "異常な瞳孔の形",
+        "label_en": "Abnormal pupil shape",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0031006",
+        "label_ja": "肢端錯感覚",
+        "label_en": "Acroparesthesia",
+        "frequency": "HP:0040283",
+        "label_ja_status": "corrected",
+        "label_ja_official": "視覚障害",
+        "label_ja_note": "公式訳「視覚障害」は Acroparesthesia の訳として誤り。ファウンダー指示（2026-09-11）で訂正"
+      },
+      {
+        "hpo_id": "HP:0031189",
+        "label_ja": "手首下垂",
+        "label_en": "Wrist drop",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0033748",
+        "label_ja": "知覚低下",
+        "label_en": "Hypoesthesia",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      },
+      {
+        "hpo_id": "HP:0100550",
+        "label_ja": "腱破裂",
+        "label_en": "Tendon rupture",
+        "frequency": "HP:0040283",
+        "label_ja_status": "official"
+      }
+    ]
+  }
+}

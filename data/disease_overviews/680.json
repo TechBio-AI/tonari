@@ -1,0 +1,65 @@
+{
+ "idx": 680,
+ "name": "5α-還元酵素欠損症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_31_068/",
+   "fetched_at": "2026-09-24T00:48:12+09:00",
+   "sha256": "4a5059f81aceb2bce1485707534063b174097b33fc78574f3ae0211b972f9401",
+   "title": "5α-還元酵素欠損症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "男性としての体の発達が、さまざまな程度で進みにくくなる病気です。",
+  "source_id": "shouman",
+  "evidence": "種々の程度の男性化障害を呈する",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "新生児期に外性器の違いで気づかれる",
+   "source_id": "shouman",
+   "evidence": "新生児期に外性器異常で気づかれることが多く"
+  },
+  {
+   "text": "男性化の程度がさまざま",
+   "source_id": "shouman",
+   "evidence": "種々の程度の男性化障害を呈する"
+  },
+  {
+   "text": "精巣が本来と違う場所にある",
+   "source_id": "shouman",
+   "evidence": "精巣が、鼠径管、大陰唇または陰嚢内に存在する"
+  },
+  {
+   "text": "思春期に部分的に男性化する",
+   "source_id": "shouman",
+   "evidence": "思春期には陰茎が軽度増大するなど部分的に男性化する"
+  },
+  {
+   "text": "乳房の発育は見られない",
+   "source_id": "shouman",
+   "evidence": "乳房発育は認められない"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "必要に応じて外陰形成術を行う"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_31_068/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "概要と疫学の節が保存 HTML に無いため、症状の節から summary の evidence を取り、onset は null とした。",
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:52:18+09:00",
+ "shard": 3
+}

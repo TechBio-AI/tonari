@@ -1,0 +1,60 @@
+{
+ "idx": 401,
+ "name": "肥厚性皮膚骨膜症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4603",
+   "fetched_at": "2026-09-24T00:45:43+09:00",
+   "sha256": "ec9499b3235e28804c7346d44d1256c752c7011a1ea12cbb74ab3e4e0b0ba8ab",
+   "title": "肥厚性皮膚骨膜症（指定難病１６５） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "手足の指先が広くなる変化が起こる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "(手足の指先が広くなる)太鼓ばち指",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "皮膚が厚くなりしわが深くなる",
+   "source_id": "nanbyou",
+   "evidence": "皮膚が厚くなりしわが深くなる状態です"
+  },
+  {
+   "text": "指先がふくらむ",
+   "source_id": "nanbyou",
+   "evidence": "指先がふくらみ、爪の付け根の角度がなくなった状態"
+  },
+  {
+   "text": "腕や脚の骨の外側が厚くなる",
+   "source_id": "nanbyou",
+   "evidence": "外側の硬い部分(骨皮質)が厚くなってしまった状態"
+  },
+  {
+   "text": "頭の皮膚が厚くなり脳のようなシワができる",
+   "source_id": "nanbyou",
+   "evidence": "頭の皮膚が厚くなり、脳のようなシワが出来た状態"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "対症療法が試みられています"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4603",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節の発症時期は数値と一体のため onset は null。",
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:30:26+09:00",
+ "shard": 1
+}

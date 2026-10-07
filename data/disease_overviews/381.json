@@ -1,0 +1,76 @@
+{
+ "idx": 381,
+ "name": "ルビンシュタイン・テイビ症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4067",
+   "fetched_at": "2026-09-24T00:44:59+09:00",
+   "sha256": "b3fed22ff16d14c4417a403d6b0e8316442525692da2bf0e3ac423ff6960bcf0",
+   "title": "ルビンシュタイン・テイビ症候群（指定難病１０２） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "特徴的な顔だち、幅広い親指と足の親ゆび、発達の遅れを共通の特徴とする病気です。",
+  "source_id": "nanbyou",
+  "evidence": "幅広い母指趾や精神運動発達遅滞は、ほとんどの患者で共通する症状です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "特徴的な顔だちになる",
+   "source_id": "nanbyou",
+   "evidence": "特徴的顔貌"
+  },
+  {
+   "text": "親指と足の親ゆびが幅広い",
+   "source_id": "nanbyou",
+   "evidence": "幅広い母指趾"
+  },
+  {
+   "text": "発達がゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "精神運動発達遅滞"
+  },
+  {
+   "text": "体格が小さい",
+   "source_id": "nanbyou",
+   "evidence": "体格はこがらです"
+  },
+  {
+   "text": "生まれつきの心臓の病気をともなう",
+   "source_id": "nanbyou",
+   "evidence": "先天性心疾患（動脈管開存、心室中隔欠損"
+  },
+  {
+   "text": "目の向きがずれる、緑内障になる",
+   "source_id": "nanbyou",
+   "evidence": "眼科合併症（斜視、屈折異常、緑内障）"
+  },
+  {
+   "text": "背骨が横に曲がる",
+   "source_id": "nanbyou",
+   "evidence": "側弯症"
+  }
+ ],
+ "onset": {
+  "text": "人種や性別による発症頻度の差はないといわれています",
+  "source_id": "nanbyou",
+  "evidence": "人種や性別の差によって発症頻度はない"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "根本的治療はありません。各症状に対して、一般と同様に適切な対症療法を行います。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4067",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:41:31+09:00",
+ "shard": 2
+}

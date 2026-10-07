@@ -1,0 +1,55 @@
+{
+ "idx": 497,
+ "name": "セピアプテリン還元酵素欠損症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5437",
+   "fetched_at": "2026-09-25T03:27:05+09:00",
+   "sha256": "1be721c3ec827f5c61b780411722d35bc2748c4daaacbdb9e81c1c03d0a3d653",
+   "title": "セピアプテリン還元酵素（SR）欠損症（指定難病３１９） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "体を動かす神経などではたらく物質が不足し、主に体が動きにくくなる（ジストニア）病気です。",
+  "source_id": "nanbyou",
+  "evidence": "主に身体が動きにくくなるジストニアを引き起こす病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "体が動きにくくなる（ジストニア）",
+   "source_id": "nanbyou",
+   "evidence": "身体の動きが悪くなるジストニア"
+  },
+  {
+   "text": "精神の発達の遅れ",
+   "source_id": "nanbyou",
+   "evidence": "精神発達の遅れ"
+  },
+  {
+   "text": "言葉の遅れ",
+   "source_id": "nanbyou",
+   "evidence": "言葉の後れ"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "nanbyou",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5437",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節は薬剤名を含む一文だけのため、treatment は「記載なし」。",
+  "「どのような人に多いのですか」の節は発症時期の記述ではないため onset は null。"
+ ],
+ "extracted_at": "2026-10-02T21:14:56+09:00",
+ "shard": 2
+}

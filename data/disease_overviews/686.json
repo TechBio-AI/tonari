@@ -1,0 +1,62 @@
+{
+ "idx": 686,
+ "name": "Kufor-Rakeb症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/306674",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Kufor-Rakeb syndrome"
+  }
+ ],
+ "summary": {
+  "text": "Kufor-Rakeb syndrome (KRS) is a rare genetic neurodegenerative disorder characterized by juvenile Parkinsonism, pyramidal degeneration (dystonia), supranuclear palsy, and cognitive impairment.",
+  "source_id": "orphanet",
+  "evidence": "Kufor-Rakeb syndrome (KRS) is a rare gen",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "juvenile Parkinsonism",
+   "source_id": "orphanet",
+   "evidence": "juvenile Parkinsonism"
+  },
+  {
+   "text": "dystonia",
+   "source_id": "orphanet",
+   "evidence": "dystonia"
+  },
+  {
+   "text": "supranuclear palsy",
+   "source_id": "orphanet",
+   "evidence": "supranuclear palsy"
+  },
+  {
+   "text": "cognitive impairment",
+   "source_id": "orphanet",
+   "evidence": "cognitive impairment"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/306674",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

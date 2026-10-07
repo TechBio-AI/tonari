@@ -1,0 +1,69 @@
+{
+ "idx": 465,
+ "name": "クラッベ病",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_092/",
+   "fetched_at": "2026-09-24T00:50:03+09:00",
+   "sha256": "7527282d137976c9c07016b2e622dcfc60e95587ac0f6bf02168f7085cc065ca",
+   "title": "クラッベ（Krabbe）病 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "神経をおおう部分がこわれていく病気です。",
+  "source_id": "shouman",
+  "evidence": "脱随（髄鞘、ミエリンの破壊）を引き起こし",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "おっぱいやミルクの飲みが悪い",
+   "source_id": "shouman",
+   "evidence": "哺乳不良"
+  },
+  {
+   "text": "刺激に敏感になる",
+   "source_id": "shouman",
+   "evidence": "易刺激性"
+  },
+  {
+   "text": "首がすわらない",
+   "source_id": "shouman",
+   "evidence": "首が座らないなどの症状"
+  },
+  {
+   "text": "発達がゆっくりになり、できていたことができなくなる",
+   "source_id": "shouman",
+   "evidence": "精神運動発達遅滞、退行を認める"
+  },
+  {
+   "text": "ふらつく、歩きにくくなる",
+   "source_id": "shouman",
+   "evidence": "失調、歩行障害"
+  },
+  {
+   "text": "目が見えにくくなる",
+   "source_id": "shouman",
+   "evidence": "視力障害"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "発症早期の造血幹細胞移植は有効である"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_092/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は頻度の数値のみのため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:41:31+09:00",
+ "shard": 2
+}

@@ -1,0 +1,83 @@
+{
+ "idx": 257,
+ "name": "三尖弁閉鎖症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4480",
+   "fetched_at": "2026-09-24T00:45:27+09:00",
+   "sha256": "c16e41b97bd85905ee4702e02c8c775b264eb51d087161885a090682bf69fb84",
+   "title": "三尖弁閉鎖症（指定難病２１２） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "心臓の右の部屋どうしをつなぐ弁が、生まれつきふさがっている病気です。",
+  "source_id": "nanbyou",
+  "evidence": "三尖弁閉鎖症は、生まれつき三尖弁が閉鎖している病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "皮膚や唇が青紫色になる",
+   "source_id": "nanbyou",
+   "evidence": "チアノーゼ（低酸素血症）が主な症状"
+  },
+  {
+   "text": "青紫色が次第に強くなる",
+   "source_id": "nanbyou",
+   "evidence": "チアノーゼは次第に強くなります"
+  },
+  {
+   "text": "呼吸が速くなる",
+   "source_id": "nanbyou",
+   "evidence": "多呼吸"
+  },
+  {
+   "text": "意識がはっきりしなくなることがある",
+   "source_id": "nanbyou",
+   "evidence": "意識障害"
+  },
+  {
+   "text": "呼吸が苦しくなる",
+   "source_id": "nanbyou",
+   "evidence": "呼吸障害"
+  },
+  {
+   "text": "肝臓が大きくなる",
+   "source_id": "nanbyou",
+   "evidence": "肝臓の腫大"
+  },
+  {
+   "text": "むくむ",
+   "source_id": "nanbyou",
+   "evidence": "浮腫"
+  },
+  {
+   "text": "体重が増えにくい",
+   "source_id": "nanbyou",
+   "evidence": "体重増加不良"
+  }
+ ],
+ "onset": {
+  "text": "どのような人に多いかは、はっきりわかっていません",
+  "source_id": "nanbyou",
+  "evidence": "特にどのような人に多いという傾向は明らかではありません"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "シャント手術 を行います"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4480",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:28:23+09:00",
+ "shard": 1
+}

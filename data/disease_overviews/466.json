@@ -1,0 +1,74 @@
+{
+ "idx": 466,
+ "name": "異染性白質ジストロフィー",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_088/",
+   "fetched_at": "2026-09-24T00:50:01+09:00",
+   "sha256": "e20cb97a662913c7e9be91ef90ed4698ed742dd9f7dacf71e800308919aeca45",
+   "title": "異染性白質ジストロフィー 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "ある酵素が足りないために起こる病気です。",
+  "source_id": "shouman",
+  "evidence": "アリルスルファターゼAの欠損により発症する",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "筋力が落ちる",
+   "source_id": "shouman",
+   "evidence": "筋力低下"
+  },
+  {
+   "text": "表情が乏しくなる",
+   "source_id": "shouman",
+   "evidence": "表情が乏しいなど初発症状がある"
+  },
+  {
+   "text": "言葉がなくなる",
+   "source_id": "shouman",
+   "evidence": "言葉の消失"
+  },
+  {
+   "text": "飲み込みにくくなる",
+   "source_id": "shouman",
+   "evidence": "嚥下困難"
+  },
+  {
+   "text": "足からつっぱるような麻痺が出る",
+   "source_id": "shouman",
+   "evidence": "下肢からはじまる痙性まひ"
+  },
+  {
+   "text": "けいれんが起きる",
+   "source_id": "shouman",
+   "evidence": "けいれんなどの症状が出現し"
+  },
+  {
+   "text": "歩きにくくなる",
+   "source_id": "shouman",
+   "evidence": "若年型は3歳～10歳から歩行障害"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "現段階では対症療法に限られる。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_088/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は罹患率の数値のみのため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:51:03+09:00",
+ "shard": 3
+}

@@ -1,0 +1,55 @@
+{
+ "idx": 439,
+ "name": "ブルーム症候群",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/10_02_014/",
+   "fetched_at": "2026-09-24T00:50:45+09:00",
+   "sha256": "f0c424a11b5b60c13660df3d0cf4d0fc5098fa6bf249d0adbeaaac45f53f10f0",
+   "title": "ブルーム（Bloom）症候群 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "染色体が不安定で、特徴的な体の所見と免疫の弱さをもつ病気です。",
+  "source_id": "shouman",
+  "evidence": "染色体不安定性を基盤とした特徴的な身体所見と放射線感受性を呈する免疫不全症",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "免疫のはたらきが弱い",
+   "source_id": "shouman",
+   "evidence": "免疫不全症であり"
+  },
+  {
+   "text": "悪性腫瘍を合併しやすい",
+   "source_id": "shouman",
+   "evidence": "悪性腫瘍合併率が多い疾患である"
+  },
+  {
+   "text": "放射線に弱い",
+   "source_id": "shouman",
+   "evidence": "放射線感受性を呈する"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "免疫不全の程度により感染症への対策を行う。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/10_02_014/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "症状の節が保存 HTML に無いため、同じページの概要の節から症状を取った。3 件しか取れなかった。",
+  "疫学の節が保存 HTML に無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:41:31+09:00",
+ "shard": 2
+}

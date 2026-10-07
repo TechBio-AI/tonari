@@ -1,0 +1,74 @@
+{
+ "idx": 404,
+ "name": "コフィン・シリス症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4762",
+   "fetched_at": "2026-09-24T00:46:00+09:00",
+   "sha256": "0f213b9a8d4299b878577c58f3d17a1acc115e62c1778039332b700474c1b683",
+   "title": "コフィン・シリス症候群（指定難病１８５） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "小指の爪や指先の骨が小さく、顔だちに特徴がある病気です。",
+  "source_id": "nanbyou",
+  "evidence": "小指の爪や末節（先端の骨）の低形成、お顔立ちの特徴",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "発達がゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "発達の遅れ（運動、知的）"
+  },
+  {
+   "text": "小指の爪や骨が小さい",
+   "source_id": "nanbyou",
+   "evidence": "小指の爪および末節骨の低（無）形成"
+  },
+  {
+   "text": "毛深い",
+   "source_id": "nanbyou",
+   "evidence": "毛深い"
+  },
+  {
+   "text": "頭髪が薄い",
+   "source_id": "nanbyou",
+   "evidence": "頭髪は薄い"
+  },
+  {
+   "text": "歯に異常がある",
+   "source_id": "nanbyou",
+   "evidence": "歯の異常"
+  },
+  {
+   "text": "体が小さい",
+   "source_id": "nanbyou",
+   "evidence": "小柄（子宮内、出生後）"
+  },
+  {
+   "text": "生まれつきの心臓の病気をともなう",
+   "source_id": "nanbyou",
+   "evidence": "先天性 心疾患"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "起きやすい症状に対する早期検診および適切な治療"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4762",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は遺伝の説明で、発症年齢の記載が無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:41:31+09:00",
+ "shard": 2
+}

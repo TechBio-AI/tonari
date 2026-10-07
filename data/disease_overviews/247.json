@@ -1,0 +1,70 @@
+{
+ "idx": 247,
+ "name": "眼咽頭型筋ジストロフィー",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/270",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Oculopharyngeal muscular dystrophy"
+  }
+ ],
+ "summary": {
+  "text": "A rare, adult-onset, progressive myopathy characterized by progressive eyelid ptosis, ophthalmoplegia, dysphagia, dysarthria and proximal limb weakness.",
+  "source_id": "orphanet",
+  "evidence": "A rare, adult-onset, progressive myopath",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "progressive eyelid ptosis",
+   "source_id": "orphanet",
+   "evidence": "progressive eyelid ptosis"
+  },
+  {
+   "text": "ophthalmoplegia",
+   "source_id": "orphanet",
+   "evidence": "ophthalmoplegia"
+  },
+  {
+   "text": "dysphagia",
+   "source_id": "orphanet",
+   "evidence": "dysphagia"
+  },
+  {
+   "text": "dysarthria",
+   "source_id": "orphanet",
+   "evidence": "dysarthria"
+  },
+  {
+   "text": "proximal limb weakness",
+   "source_id": "orphanet",
+   "evidence": "proximal limb weakness"
+  }
+ ],
+ "onset": {
+  "text": "adult-onset",
+  "source_id": "orphanet",
+  "evidence": "adult-onset"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/270",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

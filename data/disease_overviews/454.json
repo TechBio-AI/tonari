@@ -1,0 +1,50 @@
+{
+ "idx": 454,
+ "name": "遺伝性リンパ浮腫",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/79452",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Milroy disease"
+  }
+ ],
+ "summary": {
+  "text": "Milroy disease is a frequent form of primary lymphedema characterized generally by painless, chronic lower-limb lymphedema found at birth or developing in the early neonatal period.",
+  "source_id": "orphanet",
+  "evidence": "Milroy disease is a frequent form of pri",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "painless, chronic lower-limb lymphedema",
+   "source_id": "orphanet",
+   "evidence": "painless, chronic lower-limb lymphedema"
+  }
+ ],
+ "onset": {
+  "text": "found at birth or developing in the early neonatal period",
+  "source_id": "orphanet",
+  "evidence": "found at birth or developing in the"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/79452",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

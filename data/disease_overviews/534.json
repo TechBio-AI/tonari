@@ -1,0 +1,60 @@
+{
+ "idx": 534,
+ "name": "ベスレムミオパチー",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/610",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Bethlem muscular dystrophy"
+  }
+ ],
+ "summary": {
+  "text": "A form of congenital muscular dystrophy characterized by a congenital to childhood onset of progressive proximal muscle weakness, joint contractures, and potential respiratory insufficiency in adulthood.",
+  "source_id": "orphanet",
+  "evidence": "A form of congenital muscular dystrophy ",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "progressive proximal muscle weakness",
+   "source_id": "orphanet",
+   "evidence": "progressive proximal muscle weakness"
+  },
+  {
+   "text": "joint contractures",
+   "source_id": "orphanet",
+   "evidence": "joint contractures"
+  },
+  {
+   "text": "potential respiratory insufficiency",
+   "source_id": "orphanet",
+   "evidence": "potential respiratory insufficiency"
+  }
+ ],
+ "onset": {
+  "text": "congenital to childhood onset",
+  "source_id": "orphanet",
+  "evidence": "congenital to childhood onset"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/610",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

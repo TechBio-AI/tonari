@@ -1,0 +1,65 @@
+{
+ "idx": 221,
+ "name": "完全大血管転位症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4477",
+   "fetched_at": "2026-09-24T00:45:26+09:00",
+   "sha256": "ae1bba806f660fca1eeb9e6ca2a7fba1a193daca33d81c5a314ec77a2dd697c9",
+   "title": "完全大血管転位症（指定難病２０９） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "心臓から出る二本の大きな血管の出どころが入れかわっている病気です。",
+  "source_id": "nanbyou",
+  "evidence": "右心室から大動脈が、左心室から肺動脈が起始する先天性心疾患です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "生まれてすぐ強い青紫色が出る",
+   "source_id": "nanbyou",
+   "evidence": "生直後から強いチアノーゼが見られます"
+  },
+  {
+   "text": "呼吸が速い",
+   "source_id": "nanbyou",
+   "evidence": "多呼吸"
+  },
+  {
+   "text": "おっぱいやミルクを飲むのが難しい",
+   "source_id": "nanbyou",
+   "evidence": "哺乳困難"
+  },
+  {
+   "text": "尿が少ない",
+   "source_id": "nanbyou",
+   "evidence": "乏尿などの心不全症状"
+  },
+  {
+   "text": "青紫色が強く出るタイプもある",
+   "source_id": "nanbyou",
+   "evidence": "一般的にチアノーゼが強いです"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "外科治療としては、Ⅰ型､Ⅱ型では新生児期に動脈スイッチ手術を実施します"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4477",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は一文だけで「一般的な傾向」という漢数字を含む言い回しのため、onset の規則に触れない抜き書きが取れず null とした。",
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:57:53+09:00",
+ "shard": 4
+}

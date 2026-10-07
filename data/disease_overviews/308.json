@@ -1,0 +1,52 @@
+{
+ "idx": 308,
+ "name": "先天性表皮水疱症（接合部型）",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/305",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Junctional epidermolysis bullosa"
+  }
+ ],
+ "summary": {
+  "text": "A group of inherited epidermolysis bullosa characterized by involvement of the skin and mucous membranes, and is defined by the formation of blistering lesions between the epidermis and the dermis at the lamina lucida level of the cutaneous basement membrane zone and by healing of lesions with atrophy and/or exuberant granulation tissue formation.",
+  "source_id": "orphanet",
+  "evidence": "A group of inherited epidermolysis bullo",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "involvement of the skin and mucous membranes",
+   "source_id": "orphanet",
+   "evidence": "involvement of the skin and mucous"
+  },
+  {
+   "text": "blistering lesions",
+   "source_id": "orphanet",
+   "evidence": "blistering lesions"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/305",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

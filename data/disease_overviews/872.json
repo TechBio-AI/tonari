@@ -1,0 +1,83 @@
+{
+ "idx": 872,
+ "name": "FKRP関連肢帯型筋ジストロフィー",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/34515",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "FKRP-related limb-girdle muscular dystrophy R9"
+  }
+ ],
+ "summary": {
+  "text": "A form of autosomal recessive limb-girdle muscular dystrophy that presents a highly variable age of onset and phenotypic spectrum typically characterized by slowly progressive proximal weakness of the pelvic and shoulder girdle musculature (predominantly affecting the lower limbs), frequently associated with waddling gait, scapular winging, calf and tongue hypertrophy, exercise-induced myalgia, abdominal muscle weakness, cardiomyopathy, respiratory muscle involvement, and myoglobinuria and/or elevated creatine kinase serum levels.",
+  "source_id": "orphanet",
+  "evidence": "A form of autosomal recessive limb-girdl",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "slowly progressive proximal weakness",
+   "source_id": "orphanet",
+   "evidence": "slowly progressive proximal weakness"
+  },
+  {
+   "text": "waddling gait",
+   "source_id": "orphanet",
+   "evidence": "waddling gait"
+  },
+  {
+   "text": "scapular winging",
+   "source_id": "orphanet",
+   "evidence": "scapular winging"
+  },
+  {
+   "text": "calf and tongue hypertrophy",
+   "source_id": "orphanet",
+   "evidence": "calf and tongue hypertrophy"
+  },
+  {
+   "text": "exercise-induced myalgia",
+   "source_id": "orphanet",
+   "evidence": "exercise-induced myalgia"
+  },
+  {
+   "text": "abdominal muscle weakness",
+   "source_id": "orphanet",
+   "evidence": "abdominal muscle weakness"
+  },
+  {
+   "text": "cardiomyopathy",
+   "source_id": "orphanet",
+   "evidence": "cardiomyopathy"
+  },
+  {
+   "text": "respiratory muscle involvement",
+   "source_id": "orphanet",
+   "evidence": "respiratory muscle involvement"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/34515",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: myoglobinuria / elevated creatine kinase serum levels",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "発症年齢は「highly variable」とされているため onset は null。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

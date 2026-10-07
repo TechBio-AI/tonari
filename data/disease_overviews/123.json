@@ -1,0 +1,70 @@
+{
+ "idx": 123,
+ "name": "慢性骨髄性白血病",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/01_01_013/",
+   "fetched_at": "2026-09-24T00:46:49+09:00",
+   "sha256": "d4fb3be581e943f2a03c72a11de9fd5917177b63fa7d12a1ea0e71270fc4f813",
+   "title": "慢性骨髄性白血病 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "血を作る細胞が増えすぎ、段階を追って進んでいく病気です。",
+  "source_id": "shouman",
+  "evidence": "慢性期から移行期、急性転化期へ進行する骨髄増殖性疾患である",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "はじめは症状がない",
+   "source_id": "shouman",
+   "evidence": "慢性期では初期は無症状である"
+  },
+  {
+   "text": "熱が出る",
+   "source_id": "shouman",
+   "evidence": "発熱"
+  },
+  {
+   "text": "体がだるい",
+   "source_id": "shouman",
+   "evidence": "倦怠感"
+  },
+  {
+   "text": "お腹が張る",
+   "source_id": "shouman",
+   "evidence": "腹部膨満などの自覚症状"
+  },
+  {
+   "text": "見えにくくなることがある",
+   "source_id": "shouman",
+   "evidence": "視力障害"
+  },
+  {
+   "text": "皮疹が出る、リンパ節がはれる",
+   "source_id": "shouman",
+   "evidence": "皮疹やリンパ節腫大"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "治療効果判定基準に従い、所定の時期の達成度により治療方針を決定する"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/01_01_013/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は頻度の数値が中心のため onset は null。",
+  "治療の節は薬剤名・製品名が中心のため、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:36:53+09:00",
+ "shard": 2
+}

@@ -1,0 +1,42 @@
+{
+ "idx": 314,
+ "name": "老人性全身性アミロイドーシス",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/330001",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Wild type ATTR amyloidosis"
+  }
+ ],
+ "summary": {
+  "text": "A common form of systemic amyloidosis characterized by deposition of wild type transthyretin predominantly in the heart and the soft tissues (mainly the carpal tunnel region, lumbar canal and tendons).",
+  "source_id": "orphanet",
+  "evidence": "A common form of systemic amyloidosis ch",
+  "lang": "en"
+ },
+ "symptoms": [],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/330001",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Definition は沈着の部位の説明で、症状の列挙が無い。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

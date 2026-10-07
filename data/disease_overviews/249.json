@@ -1,0 +1,60 @@
+{
+ "idx": 249,
+ "name": "ウィスコット・オルドリッチ症候群",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/10_02_011/",
+   "fetched_at": "2026-09-24T00:50:43+09:00",
+   "sha256": "decc40012d23faabc55654550cf2a7115eac0491babb2932e3999bb6cb6cc5ef",
+   "title": "ウィスコット・オルドリッチ（Wiskott-Aldrich）症候群 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "血小板が少ない、湿疹、感染しやすい、の三つを主な特徴とする病気です。",
+  "source_id": "shouman",
+  "evidence": "サイズの減少を伴う血小板減少、湿疹、易感染性を3主徴とし",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "血小板が少なくなる",
+   "source_id": "shouman",
+   "evidence": "血小板減少"
+  },
+  {
+   "text": "湿疹が出る",
+   "source_id": "shouman",
+   "evidence": "湿疹"
+  },
+  {
+   "text": "感染症にかかりやすい",
+   "source_id": "shouman",
+   "evidence": "易感染性"
+  },
+  {
+   "text": "出血しやすくなる",
+   "source_id": "shouman",
+   "evidence": "出血傾向"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "根治療法として同種造血幹細胞移植がある"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/10_02_011/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "症状の節が保存 HTML に無いため、同じページの概要と治療の節から症状を取った。",
+  "疫学の節は登録数の数値のみのため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:40:16+09:00",
+ "shard": 2
+}

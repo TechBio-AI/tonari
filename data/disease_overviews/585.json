@@ -1,0 +1,62 @@
+{
+ "idx": 585,
+ "name": "屈曲肢異形成症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/140",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Campomelic dysplasia"
+  }
+ ],
+ "summary": {
+  "text": "A rare skeletal dysplasia characterized by peculiar facial anomalies, Pierre Robin sequence, cleft palate, shortening and bowing of long bones. Sexual ambiguity or female external genitalia is possible in individuals with a male karyotype.",
+  "source_id": "orphanet",
+  "evidence": "A rare skeletal dysplasia characterized ",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "peculiar facial anomalies",
+   "source_id": "orphanet",
+   "evidence": "peculiar facial anomalies"
+  },
+  {
+   "text": "Pierre Robin sequence",
+   "source_id": "orphanet",
+   "evidence": "Pierre Robin sequence"
+  },
+  {
+   "text": "cleft palate",
+   "source_id": "orphanet",
+   "evidence": "cleft palate"
+  },
+  {
+   "text": "shortening and bowing of long bones",
+   "source_id": "orphanet",
+   "evidence": "shortening and bowing of long bones"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/140",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

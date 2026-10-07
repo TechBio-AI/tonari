@@ -1,0 +1,70 @@
+{
+ "idx": 344,
+ "name": "慢性肉芽腫症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/10_05_040/",
+   "fetched_at": "2026-09-24T00:50:51+09:00",
+   "sha256": "7de6485c501116cf8dc15257e267bf2065f35d4d6e4de090d7522794e47b943a",
+   "title": "慢性肉芽腫症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "細菌やかびを殺す力が弱く、感染症にかかりやすくなる病気です。",
+  "source_id": "shouman",
+  "evidence": "食細胞の殺菌能が低下することで細菌や真菌に対して易感染性を呈し",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "肺炎をくり返す",
+   "source_id": "shouman",
+   "evidence": "乳幼児期から肺炎"
+  },
+  {
+   "text": "リンパ節が化膿する",
+   "source_id": "shouman",
+   "evidence": "化膿性リンパ節炎"
+  },
+  {
+   "text": "皮下や肝臓に膿がたまる",
+   "source_id": "shouman",
+   "evidence": "皮下膿瘍、肝膿瘍"
+  },
+  {
+   "text": "骨髄炎になる",
+   "source_id": "shouman",
+   "evidence": "骨髄炎"
+  },
+  {
+   "text": "蜂窩織炎や髄膜炎になる",
+   "source_id": "shouman",
+   "evidence": "蜂窩織炎、髄膜炎などの感染症を繰り返す"
+  },
+  {
+   "text": "お腹が痛む、下痢や血便が出る",
+   "source_id": "shouman",
+   "evidence": "腹痛、下痢、血便、発熱などの症状をきたす"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "根治療法は造血幹細胞移植であり"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/10_05_040/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は発生頻度の数値が中心のため onset は null。",
+  "治療の節には薬剤名が並ぶので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:59:04+09:00",
+ "shard": 4
+}

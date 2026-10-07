@@ -1,0 +1,78 @@
+{
+ "idx": 124,
+ "name": "慢性リンパ性白血病",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/67038",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "B-cell chronic lymphocytic leukemia"
+  }
+ ],
+ "summary": {
+  "text": "B-cell chronic lymphocytic leukemia (B-CLL) is a type of B-cell non-Hodgkin lymphoma, and the most common form of leukemia in Western countries, affecting elderly adults (mean age of 67 and 72 years) with a slight male predominance (1.7:1), and characterized by a highly variable clinical presentation that can include asymptomatic disease or non-specific B-symptoms such as unintentional weight loss, severe fatigue, fever (without evidence of infection), and night sweats as well as cervical lymphadenopathy, splenomegaly and frequent infections. Some patients can also develop autoimmune complications such as autoimmune hemolytic anemia or immune thrombocytopenia. The clinical course is extremely heterogeneous with survival ranging from a few months to several decades.",
+  "source_id": "orphanet",
+  "evidence": "B-cell chronic lymphocytic leukemia (B-C",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "unintentional weight loss",
+   "source_id": "orphanet",
+   "evidence": "unintentional weight loss"
+  },
+  {
+   "text": "severe fatigue",
+   "source_id": "orphanet",
+   "evidence": "severe fatigue"
+  },
+  {
+   "text": "fever",
+   "source_id": "orphanet",
+   "evidence": "fever"
+  },
+  {
+   "text": "night sweats",
+   "source_id": "orphanet",
+   "evidence": "night sweats"
+  },
+  {
+   "text": "cervical lymphadenopathy",
+   "source_id": "orphanet",
+   "evidence": "cervical lymphadenopathy"
+  },
+  {
+   "text": "splenomegaly",
+   "source_id": "orphanet",
+   "evidence": "splenomegaly"
+  },
+  {
+   "text": "frequent infections",
+   "source_id": "orphanet",
+   "evidence": "frequent infections"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/67038",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: autoimmune hemolytic anemia / immune thrombocytopenia",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "年齢の記述「affecting elderly adults (mean age of 67 and 72 years)」は数字を含むため onset は null。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

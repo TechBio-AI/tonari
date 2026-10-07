@@ -1,0 +1,72 @@
+{
+ "idx": 378,
+ "name": "Kabuki症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2322",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Kabuki syndrome"
+  }
+ ],
+ "summary": {
+  "text": "A rare multiple congenital anomalies/neurodevelopmental disorder characterized by five major features: intellectual disability (typically mild to moderate), visceral malformations (frequently congenital heart defects), persistence of fetal fingertip pads, post-natal short stature, skeletal anomalies (brachymesophalangy, brachydactyly V, spinal column abnormalities and fifth digit clinodactyly) and specific facial features (arched and broad eyebrows, long palpebral fissures, eversion of the lower eyelid, large prominent, cupped ears, depressed nasal tip and short columella). Various additional features are frequently observed.",
+  "source_id": "orphanet",
+  "evidence": "A rare multiple congenital anomalies/neu",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "intellectual disability",
+   "source_id": "orphanet",
+   "evidence": "intellectual disability"
+  },
+  {
+   "text": "visceral malformations",
+   "source_id": "orphanet",
+   "evidence": "visceral malformations"
+  },
+  {
+   "text": "persistence of fetal fingertip pads",
+   "source_id": "orphanet",
+   "evidence": "persistence of fetal fingertip pads"
+  },
+  {
+   "text": "post-natal short stature",
+   "source_id": "orphanet",
+   "evidence": "post-natal short stature"
+  },
+  {
+   "text": "skeletal anomalies",
+   "source_id": "orphanet",
+   "evidence": "skeletal anomalies"
+  },
+  {
+   "text": "specific facial features",
+   "source_id": "orphanet",
+   "evidence": "specific facial features"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2322",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

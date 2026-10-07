@@ -1,0 +1,57 @@
+{
+ "idx": 386,
+ "name": "Apert症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/87",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Apert syndrome"
+  }
+ ],
+ "summary": {
+  "text": "A frequent form of acrocephalosyndactyly, a group of inherited congenital malformation disorders, characterized by craniosynostosis, midface hypoplasia, and finger and toe anomalies and/or syndactyly.",
+  "source_id": "orphanet",
+  "evidence": "A frequent form of acrocephalosyndactyly",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "craniosynostosis",
+   "source_id": "orphanet",
+   "evidence": "craniosynostosis"
+  },
+  {
+   "text": "midface hypoplasia",
+   "source_id": "orphanet",
+   "evidence": "midface hypoplasia"
+  },
+  {
+   "text": "finger and toe anomalies and/or syndactyly",
+   "source_id": "orphanet",
+   "evidence": "finger and toe anomalies and/or"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/87",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

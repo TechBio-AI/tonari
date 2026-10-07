@@ -1,0 +1,73 @@
+{
+ "idx": 373,
+ "name": "先天性副腎低形成症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3852",
+   "fetched_at": "2026-09-24T00:44:45+09:00",
+   "sha256": "fcc7cf03252b5f5edb0d7264a52d9b01458064eacc6d1d61646aa5f3b31e5a16",
+   "title": "先天性副腎低形成症（指定難病８２） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "副腎皮質から出るホルモンが足りなくなった状態の病気です。",
+  "source_id": "nanbyou",
+  "evidence": "ステロイドホルモンの分泌が低下することにより生体で不足した状態",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "吐く",
+   "source_id": "nanbyou",
+   "evidence": "嘔吐"
+  },
+  {
+   "text": "おっぱいやミルクの飲みが悪い",
+   "source_id": "nanbyou",
+   "evidence": "哺乳不良"
+  },
+  {
+   "text": "皮膚に色素が沈着する",
+   "source_id": "nanbyou",
+   "evidence": "色素沈着"
+  },
+  {
+   "text": "血圧が低い",
+   "source_id": "nanbyou",
+   "evidence": "低血圧"
+  },
+  {
+   "text": "ショックの状態になる",
+   "source_id": "nanbyou",
+   "evidence": "ショック症状などで発症します"
+  },
+  {
+   "text": "思春期の変化が現れない",
+   "source_id": "nanbyou",
+   "evidence": "思春期年齢になっても二次性徴がみられません"
+  }
+ ],
+ "onset": {
+  "text": "新生児期から乳児期に見つかることが多いです",
+  "source_id": "nanbyou",
+  "evidence": "先天性副腎低形成症は新生児期～乳児期にかけて見つかることが多いです。"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "生涯にわたり不足するステロイドホルモン"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3852",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:49:53+09:00",
+ "shard": 3
+}

@@ -1,0 +1,79 @@
+{
+ "idx": 508,
+ "name": "先天性グリコシル化異常症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_13_034/",
+   "fetched_at": "2026-09-24T00:51:11+09:00",
+   "sha256": "13699c34aae3100b56faaa3769d83107d340dd0b399f1fcf6360044caf52c546",
+   "title": "先天性グリコシル化異常症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "たんぱくに糖の鎖をつける過程に生まれつきの異常がある病気です。",
+  "source_id": "shouman",
+  "evidence": "糖タンパクの糖鎖の合成過程および修飾過程に関わる遺伝子変異により",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "体がふにゃふにゃしている",
+   "source_id": "shouman",
+   "evidence": "乳児期からの筋緊張低下"
+  },
+  {
+   "text": "体重が増えにくい",
+   "source_id": "shouman",
+   "evidence": "体重増加不良"
+  },
+  {
+   "text": "発達がゆっくり",
+   "source_id": "shouman",
+   "evidence": "精神運動発達遅滞"
+  },
+  {
+   "text": "特徴的な顔だちになる",
+   "source_id": "shouman",
+   "evidence": "特徴的顔貌がある"
+  },
+  {
+   "text": "てんかんが起こる",
+   "source_id": "shouman",
+   "evidence": "てんかん、内斜視など眼科異常"
+  },
+  {
+   "text": "おしりに脂肪がつく、乳頭がへこむ",
+   "source_id": "shouman",
+   "evidence": "臀部脂肪沈着・乳頭陥没など皮膚症状"
+  },
+  {
+   "text": "おっぱいやミルクの飲みが悪い、吐く",
+   "source_id": "shouman",
+   "evidence": "乳児期の哺乳不良、嘔吐"
+  },
+  {
+   "text": "肝臓が大きくなる",
+   "source_id": "shouman",
+   "evidence": "肝腫大、肝線維症"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "対症療法に留まるが、マンノースやガラクトースなど糖補充療法が有用なタイプもある"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_13_034/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は患者数の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:52:18+09:00",
+ "shard": 3
+}

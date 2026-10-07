@@ -1,0 +1,58 @@
+{
+ "idx": 129,
+ "name": "多発性骨髄腫",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/29073",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Multiple myeloma"
+  }
+ ],
+ "summary": {
+  "text": "Multiple myeloma (MM) is a malignant tumor of plasma cell characterized by overproduction of abnormal plasma cells in the bone marrow and skeletal destruction. The clinical features are bone pain, renal impairment, immunodeficiency, anemia and presence of abnormal immunoglobulins (Ig).",
+  "source_id": "orphanet",
+  "evidence": "Multiple myeloma (MM) is a malignant tum",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "bone pain",
+   "source_id": "orphanet",
+   "evidence": "bone pain"
+  },
+  {
+   "text": "renal impairment",
+   "source_id": "orphanet",
+   "evidence": "renal impairment"
+  },
+  {
+   "text": "immunodeficiency",
+   "source_id": "orphanet",
+   "evidence": "immunodeficiency"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/29073",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: anemia / presence of abnormal immunoglobulins (Ig) / overproduction of abnormal plasma cells in the bone marrow",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

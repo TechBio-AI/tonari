@@ -1,0 +1,74 @@
+{
+ "idx": 433,
+ "name": "ジュベール症候群",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_05_016/",
+   "fetched_at": "2026-09-24T00:51:06+09:00",
+   "sha256": "c4b94c2176b0f60acb72092a22c42548596a7009d868dde922b7543a9b6266e6",
+   "title": "ジュベール（Joubert）症候群関連疾患 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "筋肉の緊張が弱い、呼吸の異常、目の動きの障害、小脳の一部が育たない病気です。",
+  "source_id": "shouman",
+  "evidence": "筋緊張低下、呼吸異常、眼球運動失行、小脳虫部低形成・欠損を呈する疾患である",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "体がふにゃふにゃしている",
+   "source_id": "shouman",
+   "evidence": "筋緊張低下"
+  },
+  {
+   "text": "呼吸に異常が出る",
+   "source_id": "shouman",
+   "evidence": "呼吸異常"
+  },
+  {
+   "text": "目の動きがうまくいかない",
+   "source_id": "shouman",
+   "evidence": "眼球運動失行"
+  },
+  {
+   "text": "発達が強くゆっくりになる",
+   "source_id": "shouman",
+   "evidence": "重度の精神運動発達遅滞"
+  },
+  {
+   "text": "目が見えにくい",
+   "source_id": "shouman",
+   "evidence": "病初期からみられる視覚障害"
+  },
+  {
+   "text": "まぶたが下がる",
+   "source_id": "shouman",
+   "evidence": "眼瞼下垂様顔貌"
+  },
+  {
+   "text": "腎臓のはたらきが落ちていく",
+   "source_id": "shouman",
+   "evidence": "進行性腎機能障害"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "腎障害が進行すると透析、腎移植などが必要になる"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_05_016/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は推定人数の数値のみのため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:41:31+09:00",
+ "shard": 2
+}

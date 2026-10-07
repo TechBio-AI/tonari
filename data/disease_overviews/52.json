@@ -1,0 +1,59 @@
+{
+ "idx": 52,
+ "name": "神経線維腫症1型",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/14_06_011/",
+   "fetched_at": "2026-09-24T00:53:19+09:00",
+   "sha256": "f0f85ba15b54efa45414d5071f6040b7afc24ff849dbbfd2fbcba57aed664596",
+   "title": "レックリングハウゼン（Recklinghausen）病（神経線維腫症Ⅰ型） 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "うすい茶色のあざと、皮膚などにできる柔らかい腫れものを主な特徴とする病気です。",
+  "source_id": "shouman",
+  "evidence": "カフェ・オ・レ斑と、神経線維腫を主徴とし",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "うすい茶色のあざが生まれたときからある",
+   "source_id": "shouman",
+   "evidence": "生下時からカフェ・オ・レ斑"
+  },
+  {
+   "text": "思春期ごろから皮膚に腫れものが増える",
+   "source_id": "shouman",
+   "evidence": "思春期頃から皮膚、神経に多発する神経線維腫"
+  },
+  {
+   "text": "腫れものが大きくなって近くの臓器を圧迫することがある",
+   "source_id": "shouman",
+   "evidence": "隣接臓器への圧迫に伴う種々の症状がでたり"
+  },
+  {
+   "text": "すねの骨が変形して折れることがある",
+   "source_id": "shouman",
+   "evidence": "下腿骨の変形による骨折"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "個々の神経線維腫に対する外科的切除。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/14_06_011/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節が保存 HTML に無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:24:20+09:00",
+ "shard": 1
+}

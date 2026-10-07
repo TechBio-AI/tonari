@@ -1,0 +1,62 @@
+{
+ "idx": 798,
+ "name": "Quebec Platelet Disorder",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/220436",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Quebec platelet disorder"
+  }
+ ],
+ "summary": {
+  "text": "A rare platelet granule disorder characterized by moderate to severe bleeding after trauma, surgery or obstetric interventions, frequent ecchymoses, mucocutaneous bleeding and muscle and joint bleeds.",
+  "source_id": "orphanet",
+  "evidence": "A rare platelet granule disorder charact",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "moderate to severe bleeding after trauma, surgery or obstetric interventions",
+   "source_id": "orphanet",
+   "evidence": "moderate to severe bleeding after"
+  },
+  {
+   "text": "frequent ecchymoses",
+   "source_id": "orphanet",
+   "evidence": "frequent ecchymoses"
+  },
+  {
+   "text": "mucocutaneous bleeding",
+   "source_id": "orphanet",
+   "evidence": "mucocutaneous bleeding"
+  },
+  {
+   "text": "muscle and joint bleeds",
+   "source_id": "orphanet",
+   "evidence": "muscle and joint bleeds"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/220436",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

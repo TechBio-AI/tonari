@@ -1,0 +1,57 @@
+{
+ "idx": 359,
+ "name": "前頭側頭型認知症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/282",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Frontotemporal dementia"
+  }
+ ],
+ "summary": {
+  "text": "Frontotemporal dementia (FTD) comprises a group of neurodegenerative disorders, characterized by progressive changes in behavior, executive dysfunction and language impairment, as a result of degeneration of the medial prefrontal and frontoinsular cortices. Four clinical subtypes have been identified: semantic dementia, progressive non-fluent aphasia, behavioral variant FTD and right temporal lobar atrophy.",
+  "source_id": "orphanet",
+  "evidence": "Frontotemporal dementia (FTD) comprises ",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "progressive changes in behavior",
+   "source_id": "orphanet",
+   "evidence": "progressive changes in behavior"
+  },
+  {
+   "text": "executive dysfunction",
+   "source_id": "orphanet",
+   "evidence": "executive dysfunction"
+  },
+  {
+   "text": "language impairment",
+   "source_id": "orphanet",
+   "evidence": "language impairment"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/282",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

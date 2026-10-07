@@ -1,0 +1,79 @@
+{
+ "idx": 117,
+ "name": "先端巨大症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_03_004/",
+   "fetched_at": "2026-09-24T00:47:58+09:00",
+   "sha256": "ee1d07008b07b5cc56426ebcdab5c8738a2c0709fcd787c17d4a0da719071e6f",
+   "title": "先端巨大症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "成長ホルモンが長い期間出すぎることで起こる病気です。",
+  "source_id": "shouman",
+  "evidence": "成長ホルモン(GH)が長期間にわたり過剰に分泌されることによって生ずる病態",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "手足の先が大きくなる",
+   "source_id": "shouman",
+   "evidence": "手足末端の肥大"
+  },
+  {
+   "text": "顔だちが変わる",
+   "source_id": "shouman",
+   "evidence": "顔貌の変化"
+  },
+  {
+   "text": "下あごや頬骨が突き出る",
+   "source_id": "shouman",
+   "evidence": "下顎、眉弓部や頬骨の突出"
+  },
+  {
+   "text": "鼻や唇が大きくなる",
+   "source_id": "shouman",
+   "evidence": "鼻・口唇の肥大"
+  },
+  {
+   "text": "舌が大きくなる",
+   "source_id": "shouman",
+   "evidence": "巨大舌"
+  },
+  {
+   "text": "声が低く響くようになる",
+   "source_id": "shouman",
+   "evidence": "特徴的な反響性の低い声を生ずる"
+  },
+  {
+   "text": "皮膚がごわつき厚くなる",
+   "source_id": "shouman",
+   "evidence": "皮膚は粗造で肥厚し"
+  },
+  {
+   "text": "関節が不安定になり変形する",
+   "source_id": "shouman",
+   "evidence": "関節が不安定になり、骨棘や変形を来す"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "治療法は外科的療法、薬物療法、放射線療法に大別される。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_03_004/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節の発症年齢は数値と一体のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:46:07+09:00",
+ "shard": 3
+}

@@ -1,0 +1,71 @@
+{
+  "idx": 6,
+  "name": "メチルマロン酸血症",
+  "sources": [
+    {
+      "id": "nanbyou",
+      "url": "https://example.invalid/sample/nanbyou",
+      "fetched_at": "2026-09-25T00:00:00+09:00",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "title": "【サンプル】見出し"
+    }
+  ],
+  "summary": {
+    "text": "【サンプル】ひとことでの説明の仮の文です。",
+    "source_id": "nanbyou",
+    "evidence": "【サンプル】仮の原文",
+    "lang": "ja"
+  },
+  "symptoms": [
+    {
+      "text": "【サンプル】症状の仮の文1",
+      "source_id": "nanbyou",
+      "evidence": "【サンプル】仮の原文"
+    },
+    {
+      "text": "【サンプル】症状の仮の文2",
+      "source_id": "nanbyou",
+      "evidence": "【サンプル】仮の原文"
+    },
+    {
+      "text": "【サンプル】症状の仮の文3",
+      "source_id": "nanbyou",
+      "evidence": "【サンプル】仮の原文"
+    },
+    {
+      "text": "【サンプル】症状の仮の文4",
+      "source_id": "nanbyou",
+      "evidence": "【サンプル】仮の原文"
+    }
+  ],
+  "onset": null,
+  "treatment": {
+    "type": "記載なし",
+    "source_id": "nanbyou",
+    "evidence": ""
+  },
+  "links": [
+    {
+      "id": "nanbyou",
+      "url": "https://example.invalid/sample/nanbyou",
+      "label": "公式ページ"
+    },
+    {
+      "id": "nanbyou",
+      "url": "https://example.invalid/sample/nanbyou-group",
+      "label": "関連する群のページ"
+    }
+  ],
+  "notes": [
+    "【サンプル】本番データではない"
+  ],
+  "extracted_at": "2026-09-25T00:00:00+09:00",
+  "shard": 0,
+  "_sample": true,
+  "_readme": [
+    "★ 本番データではない。画面開発用の手書きサンプル（2026-09-25）。",
+    "本文はすべて意味のない仮の文。医学的な事実を書いていない。URL は example.invalid（存在しない）。",
+    "本番の読み込み（data/disease_overviews/<idx>.json）はこのフォルダを読まない。テストだけが読む。",
+    "idx と name はフェーズ0 の照合表（_match_table.json）の実在の組。name は画面では使わない。"
+  ]
+}

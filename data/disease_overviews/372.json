@@ -1,0 +1,70 @@
+{
+ "idx": 372,
+ "name": "高安動脈炎（若年型）",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/06_02_007/",
+   "fetched_at": "2026-09-24T00:48:29+09:00",
+   "sha256": "f53492431693d641b4cf16134b4b05bad1ded8e197f8e7862bfd3d5bae738a95",
+   "title": "高安動脈炎（大動脈炎症候群） 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "大動脈やその枝などが細くなったり、ふさがったり、ふくらんだりする病気です。",
+  "source_id": "shouman",
+  "evidence": "大動脈とその主要分枝及び肺動脈、冠動脈に狭窄、閉塞又は拡張病変をきたす",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "熱が出る",
+   "source_id": "shouman",
+   "evidence": "初期症状として認められるのは、発熱"
+  },
+  {
+   "text": "体がだるい、疲れやすい",
+   "source_id": "shouman",
+   "evidence": "全身倦怠感、易疲労感"
+  },
+  {
+   "text": "首のリンパ節がはれる",
+   "source_id": "shouman",
+   "evidence": "頸部リンパ節腫脹"
+  },
+  {
+   "text": "首や背中、腰が痛む",
+   "source_id": "shouman",
+   "evidence": "疼痛（頸部痛、背部痛、腰痛）"
+  },
+  {
+   "text": "腕に血がまわりにくくなる",
+   "source_id": "shouman",
+   "evidence": "上肢の乏血症状"
+  },
+  {
+   "text": "めまい、頭痛、失神が起こる",
+   "source_id": "shouman",
+   "evidence": "頭部乏血症状（めまい、頭痛、失神発作、片麻痺など）"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "発症早期から適切な内科的治療を行うことで、重大な臓器障害を予防し"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/06_02_007/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "idx 86 大動脈炎症候群と同じ出典ページ。",
+  "疫学の節は患者数の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:41:31+09:00",
+ "shard": 2
+}

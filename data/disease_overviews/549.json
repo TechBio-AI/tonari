@@ -1,0 +1,76 @@
+{
+ "idx": 549,
+ "name": "3-ヒドロキシ-3-メチルグルタル酸血症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_02_029/",
+   "fetched_at": "2026-09-24T00:49:18+09:00",
+   "sha256": "8d7d2bb953652f1a852573358c7ae6da0e7e99498ab3d7b65e4137891d627ae6",
+   "title": "3-ヒドロキシ-3-メチルグルタル酸血症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "肝臓でのエネルギー代謝が障害され、低血糖になる病気です。",
+  "source_id": "shouman",
+  "evidence": "肝臓でケトン体産生とロイシンの中間代謝が障害され、非ケトン性低血糖",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "強い低血糖になる",
+   "source_id": "shouman",
+   "evidence": "強い低血糖を呈し"
+  },
+  {
+   "text": "吐く",
+   "source_id": "shouman",
+   "evidence": "嘔吐"
+  },
+  {
+   "text": "意識がはっきりしなくなる",
+   "source_id": "shouman",
+   "evidence": "意識障害"
+  },
+  {
+   "text": "けいれんが起きる",
+   "source_id": "shouman",
+   "evidence": "けいれん"
+  },
+  {
+   "text": "呼吸が速くなる",
+   "source_id": "shouman",
+   "evidence": "多呼吸などを認める"
+  },
+  {
+   "text": "体温が下がる",
+   "source_id": "shouman",
+   "evidence": "低体温"
+  },
+  {
+   "text": "肝臓が大きくなる",
+   "source_id": "shouman",
+   "evidence": "２）肝腫大"
+  }
+ ],
+ "onset": {
+  "text": "およそ半数が新生児期に、ほかは乳幼児期に発症します",
+  "source_id": "shouman",
+  "evidence": "約半数が新生児期に，そのほかは乳幼児期に"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "十分なグルコースの含まれる輸液により低血糖補正を直ちに行う"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_02_029/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:52:18+09:00",
+ "shard": 3
+}

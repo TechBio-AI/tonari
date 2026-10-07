@@ -1,0 +1,79 @@
+{
+ "idx": 141,
+ "name": "ムコ多糖症IV型",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_078/",
+   "fetched_at": "2026-09-24T00:49:52+09:00",
+   "sha256": "ac3945250383f05e678127d2214946dc2247f8baf852b6ce2f4d39ba8da3b25f",
+   "title": "ムコ多糖症Ⅳ型 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "胴が短く背が低い、X脚、角膜のにごりなどを特徴とする病気です。",
+  "source_id": "shouman",
+  "evidence": "短胴性低身長、X脚、手関節弛緩、角膜混濁、弁膜症",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "胴が短く背が低い",
+   "source_id": "shouman",
+   "evidence": "短胴型小人症"
+  },
+  {
+   "text": "胸が前に出る",
+   "source_id": "shouman",
+   "evidence": "鳩胸"
+  },
+  {
+   "text": "背骨が曲がる",
+   "source_id": "shouman",
+   "evidence": "脊椎後弯（突背）、脊椎側弯"
+  },
+  {
+   "text": "ひざが外に曲がる",
+   "source_id": "shouman",
+   "evidence": "外反膝（X脚）"
+  },
+  {
+   "text": "関節がのびすぎる",
+   "source_id": "shouman",
+   "evidence": "関節過伸展"
+  },
+  {
+   "text": "手首の力や握力が弱い",
+   "source_id": "shouman",
+   "evidence": "手首の力や握力が非常に弱く"
+  },
+  {
+   "text": "歩き方が揺れる",
+   "source_id": "shouman",
+   "evidence": "動揺性歩行も特徴的である"
+  },
+  {
+   "text": "眠っているときに息が止まる、いびきをかく",
+   "source_id": "shouman",
+   "evidence": "睡眠時無呼吸、いびき"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "IV型に対する酵素補充療法が2014年にわが国で承認された。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_078/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は発症率の数値のみのため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:36:53+09:00",
+ "shard": 2
+}

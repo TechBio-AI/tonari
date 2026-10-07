@@ -1,0 +1,58 @@
+{
+ "idx": 529,
+ "name": "乳児型ネマリンミオパチー",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/607",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Nemaline myopathy"
+  }
+ ],
+ "summary": {
+  "text": "Nemaline myopathy (NM) encompasses a large spectrum of myopathies characterized by hypotonia, weakness and depressed or absent deep tendon reflexes, with pathologic evidence of nemaline bodies (rods) on muscle biopsy.",
+  "source_id": "orphanet",
+  "evidence": "Nemaline myopathy (NM) encompasses a lar",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "hypotonia",
+   "source_id": "orphanet",
+   "evidence": "hypotonia"
+  },
+  {
+   "text": "weakness",
+   "source_id": "orphanet",
+   "evidence": "weakness"
+  },
+  {
+   "text": "depressed or absent deep tendon reflexes",
+   "source_id": "orphanet",
+   "evidence": "depressed or absent deep tendon reflexes"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/607",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: nemaline bodies on muscle biopsy",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

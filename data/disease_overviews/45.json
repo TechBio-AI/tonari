@@ -1,0 +1,74 @@
+{
+ "idx": 45,
+ "name": "マルファン症候群",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/13_01_017/",
+   "fetched_at": "2026-09-25T03:29:01+09:00",
+   "sha256": "c97a62b12bd3afc79c292cf7e2ea486cb76268762b0cdb2228893ffe7888afb9",
+   "title": "マルファン（Marfan）症候群 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "大動脈・骨格・目・肺・皮膚など、全身の結合組織が弱くなる遺伝性の病気です。",
+  "source_id": "shouman",
+  "evidence": "全身の結合組織が脆弱になる遺伝性疾患",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "大動脈がこぶのようにふくらむ・裂ける",
+   "source_id": "shouman",
+   "evidence": "大動脈瘤や大動脈解離"
+  },
+  {
+   "text": "背が高い",
+   "source_id": "shouman",
+   "evidence": "高身長"
+  },
+  {
+   "text": "指が長い",
+   "source_id": "shouman",
+   "evidence": "長指"
+  },
+  {
+   "text": "背骨が曲がる（側弯）",
+   "source_id": "shouman",
+   "evidence": "側弯"
+  },
+  {
+   "text": "胸がへこむ（漏斗胸）",
+   "source_id": "shouman",
+   "evidence": "漏斗胸"
+  },
+  {
+   "text": "目のレンズ（水晶体）がずれて視力が下がる",
+   "source_id": "shouman",
+   "evidence": "水晶体亜脱臼により視力の低下"
+  },
+  {
+   "text": "肺に穴があいて息苦しくなる（自然気胸）",
+   "source_id": "shouman",
+   "evidence": "自然気胸により呼吸困難"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "大動脈瘤、大動脈解離に対しては、人工血管置換術を行う。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/13_01_017/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "小児慢性に発症時期の記述が無いため onset は null。"
+ ],
+ "extracted_at": "2026-10-02T21:14:56+09:00",
+ "shard": 2
+}

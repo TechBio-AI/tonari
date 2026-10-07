@@ -1,0 +1,62 @@
+{
+ "idx": 498,
+ "name": "糖原病Ia型",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/364",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Glycogen storage disease due to glucose-6-phosphatase deficiency"
+  }
+ ],
+ "summary": {
+  "text": "A rare inherited metabolic disease (comprising two major subtypes: type Ia and Ib) characterized by poor tolerance to fasting, growth delay and hepatomegaly resulting from accumulation of glycogen and fat in the liver.",
+  "source_id": "orphanet",
+  "evidence": "A rare inherited metabolic disease (comp",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "poor tolerance to fasting",
+   "source_id": "orphanet",
+   "evidence": "poor tolerance to fasting"
+  },
+  {
+   "text": "growth delay",
+   "source_id": "orphanet",
+   "evidence": "growth delay"
+  },
+  {
+   "text": "hepatomegaly",
+   "source_id": "orphanet",
+   "evidence": "hepatomegaly"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/364",
+   "label": "公式ページ"
+  },
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_05_066/",
+   "label": "関連する群のページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

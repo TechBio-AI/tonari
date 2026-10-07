@@ -1,0 +1,71 @@
+{
+ "idx": 85,
+ "name": "拘束型心筋症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/100",
+   "fetched_at": "2026-09-24T00:44:04+09:00",
+   "sha256": "820545882058b706b98555b96460360523025694831d67ae3a42edf66d4a7beb",
+   "title": "拘束型心筋症（指定難病５９） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "心臓の筋肉が硬くなって広がりにくいため、心臓のはたらきが落ちる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "心臓が硬くて拡張しにくいため心不全症状をきたす心臓の筋肉の病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "息が切れる",
+   "source_id": "nanbyou",
+   "evidence": "息切れ"
+  },
+  {
+   "text": "むくむ",
+   "source_id": "nanbyou",
+   "evidence": "むくみ"
+  },
+  {
+   "text": "動悸がする",
+   "source_id": "nanbyou",
+   "evidence": "動悸"
+  },
+  {
+   "text": "疲れやすい",
+   "source_id": "nanbyou",
+   "evidence": "疲れやすい"
+  },
+  {
+   "text": "体がだるい",
+   "source_id": "nanbyou",
+   "evidence": "体がだるい"
+  },
+  {
+   "text": "お腹に水がたまる",
+   "source_id": "nanbyou",
+   "evidence": "さらに進行すると腹水が溜まります"
+  }
+ ],
+ "onset": {
+  "text": "起こりやすい年齢や性別について、今のところ報告はありません",
+  "source_id": "nanbyou",
+  "evidence": "現時点では年齢や性別で発症しやすい特徴があるという報告はありません"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "拘束型心筋症は原因がわからないため 特異的 な治療法はありません"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/100",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:24:20+09:00",
+ "shard": 1
+}

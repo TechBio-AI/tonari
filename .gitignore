@@ -1,0 +1,72 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+.llm-config.json
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# SWC compiler cache
+.swc/
+
+# Playwright E2E
+e2e/test-results/
+e2e/report/
+/playwright-report/
+/blob-report/
+
+# RAGシステム（venvのみ除外。スクリプトとデータは管理対象）
+
+# 開発ログ
+dev.log
+
+orchestrator/__pycache__/
+orchestrator/.env
+
+# local backups / cli temp
+*.bak
+*.bak2
+supabase/.temp/
+
+# 出典 HTML の取得キャッシュ（リポジトリに入れない。scripts/portal/fetch_disease_sources.py が書く）
+.cache/
+
+# Python 生成物
+__pycache__/
+*.pyc
+supabase/snippets/

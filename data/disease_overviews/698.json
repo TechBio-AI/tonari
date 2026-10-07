@@ -1,0 +1,76 @@
+{
+ "idx": 698,
+ "name": "特発性基底核石灰化症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3838",
+   "fetched_at": "2026-09-24T00:44:43+09:00",
+   "sha256": "f28e3438377f876eacd3830bf554bacb4e5ef18f7eccc4b6d029e99667c838a9",
+   "title": "特発性基底核石灰化症（指定難病２７） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "脳の中にカルシウムを多く含むものが異常にたまる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "カルシウムを多く含んだ重金属が病的に沈着する病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "歩きにくくなる",
+   "source_id": "nanbyou",
+   "evidence": "歩行障害"
+  },
+  {
+   "text": "もの忘れが出る",
+   "source_id": "nanbyou",
+   "evidence": "もの忘れ"
+  },
+  {
+   "text": "精神の症状が出る",
+   "source_id": "nanbyou",
+   "evidence": "精神症状などの頻度が高く"
+  },
+  {
+   "text": "発達がゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "精神運動発達遅滞"
+  },
+  {
+   "text": "てんかんが起こる",
+   "source_id": "nanbyou",
+   "evidence": "てんかん"
+  },
+  {
+   "text": "頭が痛む",
+   "source_id": "nanbyou",
+   "evidence": "頭痛"
+  },
+  {
+   "text": "意識を失うことがある",
+   "source_id": "nanbyou",
+   "evidence": "意識消失"
+  }
+ ],
+ "onset": {
+  "text": "男女差はなく、子どもからお年寄りまではば広い年代でみられます",
+  "source_id": "nanbyou",
+  "evidence": "男女差はなく、小児から高齢者まで幅広い年齢層にみられます。"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "出現した症状に応じて症状を和らげる薬やリハビリテーションは有効です"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3838",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:42:40+09:00",
+ "shard": 2
+}

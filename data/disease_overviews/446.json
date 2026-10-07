@@ -1,0 +1,71 @@
+{
+ "idx": 446,
+ "name": "先天性赤血球形成異常性貧血",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4363",
+   "fetched_at": "2026-09-24T00:45:07+09:00",
+   "sha256": "72b825a07be7f1d8f8f002e93eee0efad657d4be8cc40771921ef7807d198ee9",
+   "title": "先天性赤血球形成異常性貧血（CDA: Congenital dyserythropoietic anemia）（指定難病２８２） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "生まれつき赤血球の作られ方に異常があり、慢性の貧血が続く病気です。",
+  "source_id": "nanbyou",
+  "evidence": "先天的に赤血球の形成異常があり、慢性の貧血、および鉄過剰症を伴う疾患群です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "貧血になる",
+   "source_id": "nanbyou",
+   "evidence": "貧血と 黄疸 がみられることが多いです"
+  },
+  {
+   "text": "皮膚や目が黄色くなる",
+   "source_id": "nanbyou",
+   "evidence": "黄疸"
+  },
+  {
+   "text": "肝臓のはたらきが落ちる",
+   "source_id": "nanbyou",
+   "evidence": "肝機能異常"
+  },
+  {
+   "text": "糖尿病になる",
+   "source_id": "nanbyou",
+   "evidence": "糖尿病"
+  },
+  {
+   "text": "皮膚に色素が沈着する",
+   "source_id": "nanbyou",
+   "evidence": "皮膚の色素沈着"
+  },
+  {
+   "text": "心臓のはたらきが落ちる",
+   "source_id": "nanbyou",
+   "evidence": "心不全を起こすことがあります"
+  }
+ ],
+ "onset": {
+  "text": "どのような人に多いかはわかっていません",
+  "source_id": "nanbyou",
+  "evidence": "どのような人に多いかはわかっていません"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "貧血の改善には輸血が有効です。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4363",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:51:03+09:00",
+ "shard": 3
+}

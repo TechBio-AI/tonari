@@ -1,0 +1,71 @@
+{
+ "idx": 947,
+ "name": "鰓耳腎症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4387",
+   "fetched_at": "2026-09-24T00:45:12+09:00",
+   "sha256": "042732e927b7d8b3b7211d755f9a45d5533cf8eb205a9304660136dd20d853d3",
+   "title": "鰓耳腎症候群（指定難病１９０） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "さまざまなタイプの難聴と、腎臓の形の違いをともなう病気です。",
+  "source_id": "nanbyou",
+  "evidence": "さまざまなタイプの難聴と、腎臓の形態異常をともなう病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "耳が聞こえにくい",
+   "source_id": "nanbyou",
+   "evidence": "難聴は約90%の患者さんにみられます"
+  },
+  {
+   "text": "耳の前に小さな穴がある",
+   "source_id": "nanbyou",
+   "evidence": "耳瘻孔を合併します"
+  },
+  {
+   "text": "中耳や内耳に形の違いがある",
+   "source_id": "nanbyou",
+   "evidence": "中耳・内耳の異常"
+  },
+  {
+   "text": "首に小さな穴がある",
+   "source_id": "nanbyou",
+   "evidence": "頸部瘻孔"
+  },
+  {
+   "text": "耳の形に違いがある",
+   "source_id": "nanbyou",
+   "evidence": "耳介の形の異常"
+  },
+  {
+   "text": "腎臓が小さい、水がたまる",
+   "source_id": "nanbyou",
+   "evidence": "腎低形成（生まれつき腎臓が小さく、機能が悪い）や水腎症"
+  }
+ ],
+ "onset": {
+  "text": "耳の穴や耳の形の違いは、生まれてすぐに気づかれます",
+  "source_id": "nanbyou",
+  "evidence": "耳瘻孔や耳介の異常は生後すぐに気づかれます"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "根本的に治す有効な治療はなく、対症療法になります"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4387",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:32:55+09:00",
+ "shard": 1
+}

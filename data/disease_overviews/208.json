@@ -1,0 +1,64 @@
+{
+ "idx": 208,
+ "name": "黄色靭帯骨化症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/58",
+   "fetched_at": "2026-09-25T03:27:09+09:00",
+   "sha256": "765504202dbbec6de641447e730615894f8545638815b4d838e66fdf1cd78a33",
+   "title": "黄色靱帯骨化症（指定難病６８） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "背骨の中にある黄色靱帯が骨のように硬く大きくなって神経を押し、おもに足の麻痺を起こす病気です。",
+  "source_id": "nanbyou",
+  "evidence": "黄色靱帯という靭帯が、骨化してだんだん大きくなってしまい",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "足のしびれ",
+   "source_id": "nanbyou",
+   "evidence": "足のしびれ"
+  },
+  {
+   "text": "締めつけられるような感じ",
+   "source_id": "nanbyou",
+   "evidence": "締めつけられるような感じ"
+  },
+  {
+   "text": "力が入りにくい感じ",
+   "source_id": "nanbyou",
+   "evidence": "脱力感"
+  },
+  {
+   "text": "歩きにくい",
+   "source_id": "nanbyou",
+   "evidence": "歩きにくさ"
+  },
+  {
+   "text": "排尿の障害（頻尿・尿漏れなど）",
+   "source_id": "nanbyou",
+   "evidence": "排尿の障害(頻尿・尿漏れなど)"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "神経を圧迫している靭帯の骨化を取り除く手術をします。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/58",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "onset は数字を含むため null（原文「40歳以上の患者さんが多いです。」）。"
+ ],
+ "extracted_at": "2026-10-02T18:21:44+09:00",
+ "shard": 1
+}

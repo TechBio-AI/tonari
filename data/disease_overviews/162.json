@@ -1,0 +1,76 @@
+{
+ "idx": 162,
+ "name": "極長鎖アシルCoA脱水素酵素欠損症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/28612",
+   "fetched_at": "2026-09-24T00:44:37+09:00",
+   "sha256": "3eac784ff64837285af933be7f27199b90b79c39f76617526ec7e99888c5e719",
+   "title": "極長鎖アシル-CoA 脱水素酵素欠損症（指定難病３４４） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "脂肪をエネルギーに変えるのに必要な酵素がうまく働かない病気です。",
+  "source_id": "nanbyou",
+  "evidence": "エネルギーを作るために脂肪を使う際に必要な「 酵素 」がうまく働かない",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "意識がはっきりしなくなる",
+   "source_id": "nanbyou",
+   "evidence": "意識障害"
+  },
+  {
+   "text": "けいれんが起きる",
+   "source_id": "nanbyou",
+   "evidence": "けいれん"
+  },
+  {
+   "text": "呼吸に障害が出る",
+   "source_id": "nanbyou",
+   "evidence": "呼吸障害"
+  },
+  {
+   "text": "低血糖になる",
+   "source_id": "nanbyou",
+   "evidence": "著しい低血糖"
+  },
+  {
+   "text": "筋力が落ちる",
+   "source_id": "nanbyou",
+   "evidence": "筋力低下"
+  },
+  {
+   "text": "肝臓のはたらきが落ちる",
+   "source_id": "nanbyou",
+   "evidence": "肝機能障害"
+  },
+  {
+   "text": "筋肉が痛む",
+   "source_id": "nanbyou",
+   "evidence": "横紋筋融解症や筋肉痛"
+  }
+ ],
+ "onset": {
+  "text": "特にどのような人に多いということはありません",
+  "source_id": "nanbyou",
+  "evidence": "この病気は特にどのような人に多いというのはありません"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "食事療法では空腹を避ける食事間隔を守ること"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/28612",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:47:21+09:00",
+ "shard": 3
+}

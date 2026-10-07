@@ -1,0 +1,79 @@
+{
+ "idx": 638,
+ "name": "原発性リンパ浮腫（Meige型）",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/16_01_005/",
+   "fetched_at": "2026-09-24T00:53:32+09:00",
+   "sha256": "5229b130a409124f56eb7b89024f28a11ebef5a3f0c0aee31a43f53a69ca52aa",
+   "title": "原発性リンパ浮腫 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "リンパ管が生まれつき育っていないなどの理由で、むくみが続く病気です。",
+  "source_id": "shouman",
+  "evidence": "リンパ管の先天的低形成・無形成や機能不全により",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "足がむくむ",
+   "source_id": "shouman",
+   "evidence": "下肢に発症する"
+  },
+  {
+   "text": "足の甲やすねがはれる",
+   "source_id": "shouman",
+   "evidence": "足背部や下腿を中心として皮膚皮下の浮腫状の腫脹"
+  },
+  {
+   "text": "患部が冷たくなる",
+   "source_id": "shouman",
+   "evidence": "冷感"
+  },
+  {
+   "text": "痛みが出る",
+   "source_id": "shouman",
+   "evidence": "疼痛などを認める"
+  },
+  {
+   "text": "皮膚の感染を起こす",
+   "source_id": "shouman",
+   "evidence": "蜂窩織炎"
+  },
+  {
+   "text": "色素が沈着し皮膚が乾燥する",
+   "source_id": "shouman",
+   "evidence": "色素沈着、皮膚の乾燥"
+  },
+  {
+   "text": "皮膚に潰瘍ができる",
+   "source_id": "shouman",
+   "evidence": "皮膚潰瘍"
+  },
+  {
+   "text": "関節が固くなる",
+   "source_id": "shouman",
+   "evidence": "関節拘縮による機能障害"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "原発性リンパ浮腫に対する根本的治療法はない。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/16_01_005/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は患者数の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:52:18+09:00",
+ "shard": 3
+}

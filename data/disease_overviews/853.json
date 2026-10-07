@@ -1,0 +1,72 @@
+{
+ "idx": 853,
+ "name": "セリンリン酸化経路異常症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2671",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Neu-Laxova syndrome"
+  }
+ ],
+ "summary": {
+  "text": "A rare multiple congenital anomalies/dysmorphic syndrome characterized by ichthyosis, severe microcephaly, intrauterine growth restriction (IUGR), joint contractures, edema, cataracts and morphological central nervous system (CNS) abnormalities which results from distinct enzymatic deficiencies in the serine biosynthesis pathway. It is usually lethal at birth.",
+  "source_id": "orphanet",
+  "evidence": "A rare multiple congenital anomalies/dys",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "ichthyosis",
+   "source_id": "orphanet",
+   "evidence": "ichthyosis"
+  },
+  {
+   "text": "severe microcephaly",
+   "source_id": "orphanet",
+   "evidence": "severe microcephaly"
+  },
+  {
+   "text": "intrauterine growth restriction",
+   "source_id": "orphanet",
+   "evidence": "intrauterine growth restriction"
+  },
+  {
+   "text": "joint contractures",
+   "source_id": "orphanet",
+   "evidence": "joint contractures"
+  },
+  {
+   "text": "edema",
+   "source_id": "orphanet",
+   "evidence": "edema"
+  },
+  {
+   "text": "cataracts",
+   "source_id": "orphanet",
+   "evidence": "cataracts"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2671",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

@@ -1,0 +1,76 @@
+{
+ "idx": 298,
+ "name": "進行性多巣性白質脳症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/126",
+   "fetched_at": "2026-09-24T00:44:15+09:00",
+   "sha256": "023c9c14615d20190a41144fc3558dbe2b5294996a2663c7bd4a65242f83632b",
+   "title": "進行性多巣性白質脳症（PML）（指定難病２５） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "あるウイルスが、免疫が落ちたときに再び活動して脳に病巣を作る病気です。",
+  "source_id": "nanbyou",
+  "evidence": "JCウイルスが、免疫力が低下した状況で再活性化して脳内に多発性の病巣",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "体の片側が麻痺する",
+   "source_id": "nanbyou",
+   "evidence": "片麻痺"
+  },
+  {
+   "text": "手足が麻痺する",
+   "source_id": "nanbyou",
+   "evidence": "四肢麻痺"
+  },
+  {
+   "text": "考える力が落ちる",
+   "source_id": "nanbyou",
+   "evidence": "認知機能 障害"
+  },
+  {
+   "text": "言葉が出にくくなる",
+   "source_id": "nanbyou",
+   "evidence": "失語"
+  },
+  {
+   "text": "見え方に異常が出る",
+   "source_id": "nanbyou",
+   "evidence": "視覚異常"
+  },
+  {
+   "text": "話しにくい、飲み込みにくい",
+   "source_id": "nanbyou",
+   "evidence": "構音障害・ 嚥下障害"
+  },
+  {
+   "text": "動かず話さない状態になる",
+   "source_id": "nanbyou",
+   "evidence": "無動無言状態（寝たきりの状態）に至ります"
+  }
+ ],
+ "onset": {
+  "text": "免疫を抑える治療を受けている方に多くみられます",
+  "source_id": "nanbyou",
+  "evidence": "免疫を抑制する治療を受けている患者さんに多くみられます"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "JCウイルスに対する 特異的 で有効な治療はありません。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/126",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:49:53+09:00",
+ "shard": 3
+}

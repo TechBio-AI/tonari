@@ -1,0 +1,70 @@
+{
+ "idx": 83,
+ "name": "特発性拡張型心筋症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3985",
+   "fetched_at": "2026-09-24T00:44:50+09:00",
+   "sha256": "33b579acfdebf5aa50becc7f1d9be2c4ecac862048812792da43ac5b6c0a420d",
+   "title": "特発性拡張型心筋症（指定難病５７） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "心臓の筋肉の縮む力が落ち、左の部屋が広がってしまう病気です。",
+  "source_id": "nanbyou",
+  "evidence": "心臓(特に左心室)の筋肉の収縮する能力が低下し、左心室が拡張してしまう病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "動悸がする",
+   "source_id": "nanbyou",
+   "evidence": "自覚症状として動悸"
+  },
+  {
+   "text": "息苦しい",
+   "source_id": "nanbyou",
+   "evidence": "息苦しさ"
+  },
+  {
+   "text": "疲れやすい",
+   "source_id": "nanbyou",
+   "evidence": "疲れやすさ等の心不全の症状"
+  },
+  {
+   "text": "はじめは症状がないこともある",
+   "source_id": "nanbyou",
+   "evidence": "病気の初期は無症状のこともあります"
+  },
+  {
+   "text": "夜に呼吸が苦しくなる",
+   "source_id": "nanbyou",
+   "evidence": "夜間の呼吸困難などを来します"
+  },
+  {
+   "text": "むくむ、脈が乱れる",
+   "source_id": "nanbyou",
+   "evidence": "浮腫や不整脈が現れてきます"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "心不全が悪化した場合は、安静、塩分制限、運動制限などが必要となります"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3985",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節の発症年齢は数値と一体のため onset は null。",
+  "治療の節には薬剤名が並ぶので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:46:07+09:00",
+ "shard": 3
+}

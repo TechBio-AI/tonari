@@ -1,0 +1,67 @@
+{
+ "idx": 538,
+ "name": "Freeman-Sheldon症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2053",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Freeman-Sheldon syndrome"
+  }
+ ],
+ "summary": {
+  "text": "A rare congenital, distal arthogryposis syndrome characterized by microstomia, whistling-face appearance, Chin with V- or H- shaped creased, and prominent nasolabial folds; most patients present club foot and congenital joint contractures of the hands and feet. It is the most severe form of distal arthrogryposis.",
+  "source_id": "orphanet",
+  "evidence": "A rare congenital, distal arthogryposis ",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "microstomia",
+   "source_id": "orphanet",
+   "evidence": "microstomia"
+  },
+  {
+   "text": "whistling-face appearance",
+   "source_id": "orphanet",
+   "evidence": "whistling-face appearance"
+  },
+  {
+   "text": "prominent nasolabial folds",
+   "source_id": "orphanet",
+   "evidence": "prominent nasolabial folds"
+  },
+  {
+   "text": "club foot",
+   "source_id": "orphanet",
+   "evidence": "club foot"
+  },
+  {
+   "text": "congenital joint contractures of the hands and feet",
+   "source_id": "orphanet",
+   "evidence": "congenital joint contractures of the"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2053",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

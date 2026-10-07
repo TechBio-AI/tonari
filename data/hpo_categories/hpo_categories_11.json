@@ -1,0 +1,2784 @@
+{
+  "_meta": {
+    "_readme": [
+      "HPO の階層（is_a）から引いた『分類の祖先』。11 疾患の症状ごとに、WATCHED にあるカテゴリのうち祖先にあるものを持つ。",
+      "用途: 疾患ページの折りたたみ『くわしい症状の一覧』での見出し分け、将来の JSON-LD。",
+      "患者向けの『よくある症状』はこのファイルを使わない（data/disease_summaries/ にある）。",
+      "見出しの順序・日本語・上書きは lib/portal/hpo-categories.ts。ここには判断を書かない。",
+      "生成: python3 scripts/hpo/build_hpo_categories.py。data/hpo/ の原本は読み取りのみ（生成前後の SHA-256 を照合）。"
+    ],
+    "generated": "2026-09-13",
+    "hpo_version": "hp/releases/2026-06-23",
+    "source_files": {
+      "hp.obo": {
+        "sha256": "a5092cbdf605f568403cf7380d9173014015692433b2cc631bc5c1b053876b1b"
+      },
+      "hpo_symptoms_11.json": {
+        "sha256": "3e04a81b2049f1918a02b826e59c44fa90f6ef9e74dd993bc55c39b2048d9cc6"
+      }
+    },
+    "watched_categories": {
+      "HP:0001392": "Abnormality of the liver",
+      "HP:0025155": "Abnormal hepatobiliary system physiology",
+      "HP:0001743": "Abnormality of the spleen",
+      "HP:0003011": "Abnormality of the musculature",
+      "HP:0000924": "Abnormality of the skeletal system",
+      "HP:0025354": "Abnormal cellular phenotype",
+      "HP:0001871": "Abnormality of blood and blood-forming tissues",
+      "HP:0000152": "Abnormality of head or neck",
+      "HP:0040064": "Abnormality of limbs",
+      "HP:0001939": "Abnormality of metabolism/homeostasis",
+      "HP:0001197": "Abnormality of prenatal development or birth",
+      "HP:0000769": "Abnormality of the breast",
+      "HP:0001626": "Abnormality of the cardiovascular system",
+      "HP:0025031": "Abnormality of the digestive system",
+      "HP:0000598": "Abnormality of the ear",
+      "HP:0000818": "Abnormality of the endocrine system",
+      "HP:0000478": "Abnormality of the eye",
+      "HP:0000119": "Abnormality of the genitourinary system",
+      "HP:0002715": "Abnormality of the immune system",
+      "HP:0001574": "Abnormality of the integument",
+      "HP:0033127": "Abnormality of the musculoskeletal system",
+      "HP:0000707": "Abnormality of the nervous system",
+      "HP:0002086": "Abnormality of the respiratory system",
+      "HP:0045027": "Abnormality of the thoracic cavity",
+      "HP:0001608": "Abnormality of the voice",
+      "HP:0025142": "Constitutional symptom",
+      "HP:0001507": "Growth abnormality",
+      "HP:0002664": "Neoplasm"
+    }
+  },
+  "entries": {
+    "HP:0000016": {
+      "label_en": "Urinary retention",
+      "categories": [
+        "HP:0000119"
+      ]
+    },
+    "HP:0000023": {
+      "label_en": "Inguinal hernia",
+      "categories": [
+        "HP:0025031",
+        "HP:0033127"
+      ]
+    },
+    "HP:0000083": {
+      "label_en": "Renal insufficiency",
+      "categories": [
+        "HP:0000119"
+      ]
+    },
+    "HP:0000091": {
+      "label_en": "Abnormal renal tubule morphology",
+      "categories": [
+        "HP:0000119"
+      ]
+    },
+    "HP:0000093": {
+      "label_en": "Proteinuria",
+      "categories": [
+        "HP:0000119",
+        "HP:0001939"
+      ]
+    },
+    "HP:0000100": {
+      "label_en": "Nephrotic syndrome",
+      "categories": [
+        "HP:0000119"
+      ]
+    },
+    "HP:0000112": {
+      "label_en": "Nephropathy",
+      "categories": [
+        "HP:0000119"
+      ]
+    },
+    "HP:0000117": {
+      "label_en": "Renal phosphate wasting",
+      "categories": [
+        "HP:0000119",
+        "HP:0001939"
+      ]
+    },
+    "HP:0000121": {
+      "label_en": "Nephrocalcinosis",
+      "categories": [
+        "HP:0000119"
+      ]
+    },
+    "HP:0000158": {
+      "label_en": "Macroglossia",
+      "categories": [
+        "HP:0000152",
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0000164": {
+      "label_en": "Abnormality of the dentition",
+      "categories": [
+        "HP:0000152"
+      ]
+    },
+    "HP:0000179": {
+      "label_en": "Thick lower lip vermilion",
+      "categories": [
+        "HP:0000152"
+      ]
+    },
+    "HP:0000183": {
+      "label_en": "Tongue muscle weakness",
+      "categories": [
+        "HP:0000152"
+      ]
+    },
+    "HP:0000212": {
+      "label_en": "Gingival overgrowth",
+      "categories": [
+        "HP:0000152"
+      ]
+    },
+    "HP:0000225": {
+      "label_en": "Gingival bleeding",
+      "categories": [
+        "HP:0000152",
+        "HP:0001871"
+      ]
+    },
+    "HP:0000232": {
+      "label_en": "Everted lower lip vermilion",
+      "categories": [
+        "HP:0000152"
+      ]
+    },
+    "HP:0000238": {
+      "label_en": "Hydrocephalus",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0000239": {
+      "label_en": "Large fontanelles",
+      "categories": [
+        "HP:0000152",
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0000242": {
+      "label_en": "Parietal bossing",
+      "categories": [
+        "HP:0000152",
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0000246": {
+      "label_en": "Sinusitis",
+      "categories": [
+        "HP:0000152",
+        "HP:0000924",
+        "HP:0002086",
+        "HP:0002715",
+        "HP:0033127"
+      ]
+    },
+    "HP:0000252": {
+      "label_en": "Microcephaly",
+      "categories": [
+        "HP:0000152",
+        "HP:0000707",
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0000256": {
+      "label_en": "Macrocephaly",
+      "categories": [
+        "HP:0000152",
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0000260": {
+      "label_en": "Wide anterior fontanel",
+      "categories": [
+        "HP:0000152",
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0000268": {
+      "label_en": "Dolichocephaly",
+      "categories": [
+        "HP:0000152",
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0000271": {
+      "label_en": "Abnormality of the face",
+      "categories": [
+        "HP:0000152"
+      ]
+    },
+    "HP:0000280": {
+      "label_en": "Coarse facial features",
+      "categories": [
+        "HP:0000152"
+      ]
+    },
+    "HP:0000293": {
+      "label_en": "Full cheeks",
+      "categories": [
+        "HP:0000152"
+      ]
+    },
+    "HP:0000294": {
+      "label_en": "Low anterior hairline",
+      "categories": [
+        "HP:0000152",
+        "HP:0001574"
+      ]
+    },
+    "HP:0000297": {
+      "label_en": "Facial hypotonia",
+      "categories": [
+        "HP:0000152",
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0000309": {
+      "label_en": "Abnormal midface morphology",
+      "categories": [
+        "HP:0000152"
+      ]
+    },
+    "HP:0000338": {
+      "label_en": "Hypomimic face",
+      "categories": [
+        "HP:0000152",
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0000360": {
+      "label_en": "Tinnitus",
+      "categories": [
+        "HP:0000598"
+      ]
+    },
+    "HP:0000365": {
+      "label_en": "Hearing impairment",
+      "categories": [
+        "HP:0000598"
+      ]
+    },
+    "HP:0000389": {
+      "label_en": "Chronic otitis media",
+      "categories": [
+        "HP:0000598",
+        "HP:0002715"
+      ]
+    },
+    "HP:0000407": {
+      "label_en": "Sensorineural hearing impairment",
+      "categories": [
+        "HP:0000598"
+      ]
+    },
+    "HP:0000463": {
+      "label_en": "Anteverted nares",
+      "categories": [
+        "HP:0000152"
+      ]
+    },
+    "HP:0000486": {
+      "label_en": "Strabismus",
+      "categories": [
+        "HP:0000478"
+      ]
+    },
+    "HP:0000488": {
+      "label_en": "Retinopathy",
+      "categories": [
+        "HP:0000478"
+      ]
+    },
+    "HP:0000501": {
+      "label_en": "Glaucoma",
+      "categories": [
+        "HP:0000478"
+      ]
+    },
+    "HP:0000505": {
+      "label_en": "Visual impairment",
+      "categories": [
+        "HP:0000478"
+      ]
+    },
+    "HP:0000508": {
+      "label_en": "Ptosis",
+      "categories": [
+        "HP:0000478"
+      ]
+    },
+    "HP:0000518": {
+      "label_en": "Cataract",
+      "categories": [
+        "HP:0000478"
+      ]
+    },
+    "HP:0000524": {
+      "label_en": "Conjunctival telangiectasia",
+      "categories": [
+        "HP:0000152",
+        "HP:0000478",
+        "HP:0001574",
+        "HP:0001626"
+      ]
+    },
+    "HP:0000648": {
+      "label_en": "Optic atrophy",
+      "categories": [
+        "HP:0000478"
+      ]
+    },
+    "HP:0000657": {
+      "label_en": "Oculomotor apraxia",
+      "categories": [
+        "HP:0000478",
+        "HP:0000707"
+      ]
+    },
+    "HP:0000687": {
+      "label_en": "Widely spaced teeth",
+      "categories": [
+        "HP:0000152"
+      ]
+    },
+    "HP:0000691": {
+      "label_en": "Microdontia",
+      "categories": [
+        "HP:0000152"
+      ]
+    },
+    "HP:0000694": {
+      "label_en": "Odontodysplasia",
+      "categories": [
+        "HP:0000152",
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0000708": {
+      "label_en": "Atypical behavior",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0000716": {
+      "label_en": "Depression",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0000726": {
+      "label_en": "Dementia",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0000736": {
+      "label_en": "Short attention span",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0000737": {
+      "label_en": "Irritability",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0000739": {
+      "label_en": "Anxiety",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0000750": {
+      "label_en": "Delayed speech and language development",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0000772": {
+      "label_en": "Abnormal rib morphology",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0000774": {
+      "label_en": "Narrow chest",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0000787": {
+      "label_en": "Kidney stone",
+      "categories": [
+        "HP:0000119"
+      ]
+    },
+    "HP:0000790": {
+      "label_en": "Hematuria",
+      "categories": [
+        "HP:0000119",
+        "HP:0001939"
+      ]
+    },
+    "HP:0000802": {
+      "label_en": "Impotence",
+      "categories": [
+        "HP:0000119"
+      ]
+    },
+    "HP:0000822": {
+      "label_en": "Hypertension",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0000823": {
+      "label_en": "Delayed puberty",
+      "categories": [
+        "HP:0000818",
+        "HP:0001507"
+      ]
+    },
+    "HP:0000867": {
+      "label_en": "Secondary hyperparathyroidism",
+      "categories": [
+        "HP:0000818"
+      ]
+    },
+    "HP:0000873": {
+      "label_en": "Diabetes insipidus",
+      "categories": [
+        "HP:0000818"
+      ]
+    },
+    "HP:0000897": {
+      "label_en": "Rachitic rosary",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0000920": {
+      "label_en": "Enlargement of the costochondral junction",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0000924": {
+      "label_en": "Abnormality of the skeletal system",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0000938": {
+      "label_en": "Osteopenia",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0000939": {
+      "label_en": "Osteoporosis",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0000944": {
+      "label_en": "Abnormal metaphysis morphology",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0000956": {
+      "label_en": "Acanthosis nigricans",
+      "categories": [
+        "HP:0001574"
+      ]
+    },
+    "HP:0000962": {
+      "label_en": "Hyperkeratosis",
+      "categories": [
+        "HP:0001574"
+      ]
+    },
+    "HP:0000964": {
+      "label_en": "Eczematoid dermatitis",
+      "categories": [
+        "HP:0001574",
+        "HP:0002715"
+      ]
+    },
+    "HP:0000966": {
+      "label_en": "Hypohidrosis",
+      "categories": [
+        "HP:0001574"
+      ]
+    },
+    "HP:0000970": {
+      "label_en": "Anhidrosis",
+      "categories": [
+        "HP:0001574"
+      ]
+    },
+    "HP:0000975": {
+      "label_en": "Hyperhidrosis",
+      "categories": [
+        "HP:0001574"
+      ]
+    },
+    "HP:0001000": {
+      "label_en": "Abnormal skin pigmentation",
+      "categories": [
+        "HP:0001574"
+      ]
+    },
+    "HP:0001004": {
+      "label_en": "Lymphedema",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0001010": {
+      "label_en": "Hypopigmentation of the skin",
+      "categories": [
+        "HP:0001574"
+      ]
+    },
+    "HP:0001014": {
+      "label_en": "Angiokeratoma",
+      "categories": [
+        "HP:0001574",
+        "HP:0001626"
+      ]
+    },
+    "HP:0001024": {
+      "label_en": "Skin dimple over apex of long bone angulation",
+      "categories": [
+        "HP:0001574"
+      ]
+    },
+    "HP:0001081": {
+      "label_en": "Cholelithiasis",
+      "categories": [
+        "HP:0001392",
+        "HP:0025031"
+      ]
+    },
+    "HP:0001097": {
+      "label_en": "Keratoconjunctivitis sicca",
+      "categories": [
+        "HP:0000152",
+        "HP:0000478",
+        "HP:0001626",
+        "HP:0002715"
+      ]
+    },
+    "HP:0001103": {
+      "label_en": "Abnormal macular morphology",
+      "categories": [
+        "HP:0000478"
+      ]
+    },
+    "HP:0001131": {
+      "label_en": "Corneal dystrophy",
+      "categories": [
+        "HP:0000478"
+      ]
+    },
+    "HP:0001156": {
+      "label_en": "Brachydactyly",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0001171": {
+      "label_en": "Split hand",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0001249": {
+      "label_en": "Intellectual disability",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0001250": {
+      "label_en": "Seizure",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0001251": {
+      "label_en": "Ataxia",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0001252": {
+      "label_en": "Hypotonia",
+      "categories": [
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0001254": {
+      "label_en": "Lethargy",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0001259": {
+      "label_en": "Coma",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0001260": {
+      "label_en": "Dysarthria",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0001263": {
+      "label_en": "Global developmental delay",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0001265": {
+      "label_en": "Hyporeflexia",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0001270": {
+      "label_en": "Motor delay",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0001283": {
+      "label_en": "Bulbar palsy",
+      "categories": [
+        "HP:0000707",
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0001284": {
+      "label_en": "Areflexia",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0001288": {
+      "label_en": "Gait disturbance",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0001297": {
+      "label_en": "Stroke",
+      "categories": [
+        "HP:0000707",
+        "HP:0001626"
+      ]
+    },
+    "HP:0001298": {
+      "label_en": "Encephalopathy",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0001300": {
+      "label_en": "Parkinsonism",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0001308": {
+      "label_en": "Tongue fasciculations",
+      "categories": [
+        "HP:0000152",
+        "HP:0000707"
+      ]
+    },
+    "HP:0001315": {
+      "label_en": "Diminished deep tendon reflex",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0001319": {
+      "label_en": "Neonatal hypotonia",
+      "categories": [
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0001324": {
+      "label_en": "Muscle weakness",
+      "categories": [
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0001328": {
+      "label_en": "Specific learning disability",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0001337": {
+      "label_en": "Tremor",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0001349": {
+      "label_en": "Facial diplegia",
+      "categories": [
+        "HP:0000152",
+        "HP:0000707",
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0001363": {
+      "label_en": "Craniosynostosis",
+      "categories": [
+        "HP:0000152",
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0001369": {
+      "label_en": "Arthritis",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0001371": {
+      "label_en": "Flexion contracture",
+      "categories": [
+        "HP:0000924",
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0001373": {
+      "label_en": "Joint dislocation",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0001376": {
+      "label_en": "Limitation of joint mobility",
+      "categories": [
+        "HP:0033127"
+      ]
+    },
+    "HP:0001377": {
+      "label_en": "Limited elbow extension",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0001387": {
+      "label_en": "Joint stiffness",
+      "categories": [
+        "HP:0033127"
+      ]
+    },
+    "HP:0001394": {
+      "label_en": "Cirrhosis",
+      "categories": [
+        "HP:0001392",
+        "HP:0025031"
+      ]
+    },
+    "HP:0001395": {
+      "label_en": "Hepatic fibrosis",
+      "categories": [
+        "HP:0001392",
+        "HP:0025031"
+      ]
+    },
+    "HP:0001399": {
+      "label_en": "Hepatic failure",
+      "categories": [
+        "HP:0025031",
+        "HP:0025155"
+      ]
+    },
+    "HP:0001482": {
+      "label_en": "Subcutaneous nodule",
+      "categories": [
+        "HP:0001574"
+      ]
+    },
+    "HP:0001508": {
+      "label_en": "Failure to thrive",
+      "categories": [
+        "HP:0001507"
+      ]
+    },
+    "HP:0001510": {
+      "label_en": "Growth delay",
+      "categories": [
+        "HP:0001507"
+      ]
+    },
+    "HP:0001513": {
+      "label_en": "Obesity",
+      "categories": [
+        "HP:0001507"
+      ]
+    },
+    "HP:0001531": {
+      "label_en": "Failure to thrive in infancy",
+      "categories": [
+        "HP:0001507"
+      ]
+    },
+    "HP:0001558": {
+      "label_en": "Decreased fetal movement",
+      "categories": [
+        "HP:0001197"
+      ]
+    },
+    "HP:0001608": {
+      "label_en": "Abnormality of the voice",
+      "categories": [
+        "HP:0001608"
+      ]
+    },
+    "HP:0001631": {
+      "label_en": "Atrial septal defect",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0001635": {
+      "label_en": "Congestive heart failure",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0001637": {
+      "label_en": "Abnormal myocardium morphology",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0001639": {
+      "label_en": "Hypertrophic cardiomyopathy",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0001640": {
+      "label_en": "Cardiomegaly",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0001646": {
+      "label_en": "Abnormal aortic valve morphology",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0001653": {
+      "label_en": "Mitral regurgitation",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0001654": {
+      "label_en": "Abnormal heart valve morphology",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0001662": {
+      "label_en": "Bradycardia",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0001678": {
+      "label_en": "Atrioventricular block",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0001681": {
+      "label_en": "Angina pectoris",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0001697": {
+      "label_en": "Abnormal pericardium morphology",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0001712": {
+      "label_en": "Left ventricular hypertrophy",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0001723": {
+      "label_en": "Restrictive cardiomyopathy",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0001744": {
+      "label_en": "Splenomegaly",
+      "categories": [
+        "HP:0001626",
+        "HP:0001743",
+        "HP:0002715",
+        "HP:0025031"
+      ]
+    },
+    "HP:0001789": {
+      "label_en": "Hydrops fetalis",
+      "categories": [
+        "HP:0001197",
+        "HP:0001939"
+      ]
+    },
+    "HP:0001824": {
+      "label_en": "Weight loss",
+      "categories": [
+        "HP:0001507"
+      ]
+    },
+    "HP:0001873": {
+      "label_en": "Thrombocytopenia",
+      "categories": [
+        "HP:0001871"
+      ]
+    },
+    "HP:0001876": {
+      "label_en": "Pancytopenia",
+      "categories": [
+        "HP:0001871"
+      ]
+    },
+    "HP:0001882": {
+      "label_en": "Decreased total leukocyte count",
+      "categories": [
+        "HP:0001871",
+        "HP:0002715"
+      ]
+    },
+    "HP:0001892": {
+      "label_en": "Abnormal bleeding",
+      "categories": [
+        "HP:0001871"
+      ]
+    },
+    "HP:0001903": {
+      "label_en": "Anemia",
+      "categories": [
+        "HP:0001871"
+      ]
+    },
+    "HP:0001928": {
+      "label_en": "Abnormality of coagulation",
+      "categories": [
+        "HP:0001871"
+      ]
+    },
+    "HP:0001942": {
+      "label_en": "Metabolic acidosis",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0001943": {
+      "label_en": "Hypoglycemia",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0001945": {
+      "label_en": "Fever",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0001950": {
+      "label_en": "Respiratory alkalosis",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0001987": {
+      "label_en": "Hyperammonemia",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0002007": {
+      "label_en": "Frontal bossing",
+      "categories": [
+        "HP:0000152",
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0002014": {
+      "label_en": "Diarrhea",
+      "categories": [
+        "HP:0025031"
+      ]
+    },
+    "HP:0002015": {
+      "label_en": "Dysphagia",
+      "categories": [
+        "HP:0000707",
+        "HP:0025031"
+      ]
+    },
+    "HP:0002017": {
+      "label_en": "Nausea and vomiting",
+      "categories": [
+        "HP:0025031"
+      ]
+    },
+    "HP:0002019": {
+      "label_en": "Constipation",
+      "categories": [
+        "HP:0025031"
+      ]
+    },
+    "HP:0002020": {
+      "label_en": "Gastroesophageal reflux",
+      "categories": [
+        "HP:0025031"
+      ]
+    },
+    "HP:0002024": {
+      "label_en": "Malabsorption",
+      "categories": [
+        "HP:0025031"
+      ]
+    },
+    "HP:0002027": {
+      "label_en": "Abdominal pain",
+      "categories": [
+        "HP:0025031",
+        "HP:0025142"
+      ]
+    },
+    "HP:0002033": {
+      "label_en": "Poor suck",
+      "categories": [
+        "HP:0025031"
+      ]
+    },
+    "HP:0002038": {
+      "label_en": "Protein avoidance",
+      "categories": [
+        "HP:0025031"
+      ]
+    },
+    "HP:0002039": {
+      "label_en": "Anorexia",
+      "categories": [
+        "HP:0025031"
+      ]
+    },
+    "HP:0002045": {
+      "label_en": "Hypothermia",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0002046": {
+      "label_en": "Heat intolerance",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0002061": {
+      "label_en": "Lower limb spasticity",
+      "categories": [
+        "HP:0000707",
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0002069": {
+      "label_en": "Bilateral tonic-clonic seizure",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0002071": {
+      "label_en": "Abnormality of extrapyramidal motor function",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0002091": {
+      "label_en": "Restrictive ventilatory defect",
+      "categories": [
+        "HP:0002086"
+      ]
+    },
+    "HP:0002092": {
+      "label_en": "Pulmonary arterial hypertension",
+      "categories": [
+        "HP:0001626",
+        "HP:0002086"
+      ]
+    },
+    "HP:0002093": {
+      "label_en": "Respiratory insufficiency",
+      "categories": [
+        "HP:0002086"
+      ]
+    },
+    "HP:0002094": {
+      "label_en": "Dyspnea",
+      "categories": [
+        "HP:0002086"
+      ]
+    },
+    "HP:0002097": {
+      "label_en": "Emphysema",
+      "categories": [
+        "HP:0002086"
+      ]
+    },
+    "HP:0002098": {
+      "label_en": "Respiratory distress",
+      "categories": [
+        "HP:0002086"
+      ]
+    },
+    "HP:0002100": {
+      "label_en": "Recurrent aspiration pneumonia",
+      "categories": [
+        "HP:0002086",
+        "HP:0002715"
+      ]
+    },
+    "HP:0002104": {
+      "label_en": "Apnea",
+      "categories": [
+        "HP:0002086"
+      ]
+    },
+    "HP:0002119": {
+      "label_en": "Ventriculomegaly",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0002123": {
+      "label_en": "Generalized myoclonic seizure",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0002148": {
+      "label_en": "Hypophosphatemia",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0002176": {
+      "label_en": "Spinal cord compression",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0002179": {
+      "label_en": "Opisthotonus",
+      "categories": [
+        "HP:0000707",
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0002205": {
+      "label_en": "Recurrent respiratory infections",
+      "categories": [
+        "HP:0002086",
+        "HP:0002715"
+      ]
+    },
+    "HP:0002206": {
+      "label_en": "Pulmonary fibrosis",
+      "categories": [
+        "HP:0002086"
+      ]
+    },
+    "HP:0002230": {
+      "label_en": "Generalized hirsutism",
+      "categories": [
+        "HP:0001574"
+      ]
+    },
+    "HP:0002240": {
+      "label_en": "Hepatomegaly",
+      "categories": [
+        "HP:0001392",
+        "HP:0025031"
+      ]
+    },
+    "HP:0002321": {
+      "label_en": "Vertigo",
+      "categories": [
+        "HP:0000598"
+      ]
+    },
+    "HP:0002326": {
+      "label_en": "Transient ischemic attack",
+      "categories": [
+        "HP:0000707",
+        "HP:0001626"
+      ]
+    },
+    "HP:0002329": {
+      "label_en": "Drowsiness",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0002353": {
+      "label_en": "EEG abnormality",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0002360": {
+      "label_en": "Sleep disturbance",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0002376": {
+      "label_en": "Developmental regression",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0002421": {
+      "label_en": "Poor head control",
+      "categories": [
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0002460": {
+      "label_en": "Distal muscle weakness",
+      "categories": [
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0002500": {
+      "label_en": "Abnormal cerebral white matter morphology",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0002540": {
+      "label_en": "Inability to walk",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0002571": {
+      "label_en": "Achalasia",
+      "categories": [
+        "HP:0025031"
+      ]
+    },
+    "HP:0002572": {
+      "label_en": "Episodic vomiting",
+      "categories": [
+        "HP:0025031"
+      ]
+    },
+    "HP:0002578": {
+      "label_en": "Gastroparesis",
+      "categories": [
+        "HP:0003011",
+        "HP:0025031",
+        "HP:0033127"
+      ]
+    },
+    "HP:0002607": {
+      "label_en": "Bowel incontinence",
+      "categories": [
+        "HP:0025031",
+        "HP:0025142"
+      ]
+    },
+    "HP:0002633": {
+      "label_en": "Vasculitis",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0002643": {
+      "label_en": "Neonatal respiratory distress",
+      "categories": [
+        "HP:0002086"
+      ]
+    },
+    "HP:0002650": {
+      "label_en": "Scoliosis",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0002653": {
+      "label_en": "Bone pain",
+      "categories": [
+        "HP:0025142",
+        "HP:0033127"
+      ]
+    },
+    "HP:0002747": {
+      "label_en": "Respiratory insufficiency due to muscle weakness",
+      "categories": [
+        "HP:0002086",
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0002748": {
+      "label_en": "Rickets",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0002750": {
+      "label_en": "Delayed skeletal maturation",
+      "categories": [
+        "HP:0033127"
+      ]
+    },
+    "HP:0002754": {
+      "label_en": "Osteomyelitis",
+      "categories": [
+        "HP:0002715",
+        "HP:0033127"
+      ]
+    },
+    "HP:0002756": {
+      "label_en": "Pathologic fracture",
+      "categories": [
+        "HP:0033127"
+      ]
+    },
+    "HP:0002757": {
+      "label_en": "Recurrent fractures",
+      "categories": [
+        "HP:0033127"
+      ]
+    },
+    "HP:0002758": {
+      "label_en": "Osteoarthritis",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0002791": {
+      "label_en": "Hypoventilation",
+      "categories": [
+        "HP:0002086"
+      ]
+    },
+    "HP:0002797": {
+      "label_en": "Osteolysis",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0002804": {
+      "label_en": "Arthrogryposis multiplex congenita",
+      "categories": [
+        "HP:0000924",
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0002808": {
+      "label_en": "Kyphosis",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0002823": {
+      "label_en": "Abnormal femur morphology",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0002827": {
+      "label_en": "Hip dislocation",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0002828": {
+      "label_en": "Multiple joint contractures",
+      "categories": [
+        "HP:0000924",
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0002829": {
+      "label_en": "Arthralgia",
+      "categories": [
+        "HP:0025142"
+      ]
+    },
+    "HP:0002857": {
+      "label_en": "Genu valgum",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0002869": {
+      "label_en": "Flared iliac wing",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0002870": {
+      "label_en": "Obstructive sleep apnea",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0002875": {
+      "label_en": "Exertional dyspnea",
+      "categories": [
+        "HP:0002086"
+      ]
+    },
+    "HP:0002878": {
+      "label_en": "Respiratory failure",
+      "categories": [
+        "HP:0002086"
+      ]
+    },
+    "HP:0002908": {
+      "label_en": "Conjugated hyperbilirubinemia",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0002910": {
+      "label_en": "Elevated circulating hepatic transaminase concentration",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0002938": {
+      "label_en": "Lumbar hyperlordosis",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0002942": {
+      "label_en": "Thoracic kyphosis",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0002970": {
+      "label_en": "Genu varum",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0002979": {
+      "label_en": "Bowing of the legs",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0002987": {
+      "label_en": "Elbow flexion contracture",
+      "categories": [
+        "HP:0000924",
+        "HP:0003011",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0003026": {
+      "label_en": "Short long bone",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0003072": {
+      "label_en": "Hypercalcemia",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0003077": {
+      "label_en": "Hyperlipidemia",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0003119": {
+      "label_en": "Abnormal circulating lipid concentration",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0003127": {
+      "label_en": "Hypocalciuria",
+      "categories": [
+        "HP:0000119",
+        "HP:0001939"
+      ]
+    },
+    "HP:0003155": {
+      "label_en": "Elevated circulating alkaline phosphatase concentration",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0003180": {
+      "label_en": "Flat acetabular roof",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0003194": {
+      "label_en": "Short nasal bridge",
+      "categories": [
+        "HP:0000152"
+      ]
+    },
+    "HP:0003202": {
+      "label_en": "Skeletal muscle atrophy",
+      "categories": [
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0003218": {
+      "label_en": "Oroticaciduria",
+      "categories": [
+        "HP:0000119",
+        "HP:0001939"
+      ]
+    },
+    "HP:0003233": {
+      "label_en": "Decreased circulating HDL-C concentration",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0003236": {
+      "label_en": "Elevated circulating creatine kinase activity",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0003272": {
+      "label_en": "Abnormal hip bone morphology",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0003281": {
+      "label_en": "Increased circulating ferritin concentration",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0003307": {
+      "label_en": "Hyperlordosis",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0003312": {
+      "label_en": "Abnormal vertebral body morphology",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0003324": {
+      "label_en": "Generalized muscle weakness",
+      "categories": [
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0003326": {
+      "label_en": "Myalgia",
+      "categories": [
+        "HP:0025142"
+      ]
+    },
+    "HP:0003327": {
+      "label_en": "Axial muscle weakness",
+      "categories": [
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0003330": {
+      "label_en": "Abnormal bone structure",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0003355": {
+      "label_en": "Aminoaciduria",
+      "categories": [
+        "HP:0000119",
+        "HP:0001939"
+      ]
+    },
+    "HP:0003375": {
+      "label_en": "Narrow greater sciatic notch",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0003391": {
+      "label_en": "Gowers sign",
+      "categories": [
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0003401": {
+      "label_en": "Paresthesia",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0003416": {
+      "label_en": "Spinal canal stenosis",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0003458": {
+      "label_en": "EMG: myopathic abnormalities",
+      "categories": [
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0003459": {
+      "label_en": "Polyclonal elevation of circulating IgM concentration",
+      "categories": [
+        "HP:0001871",
+        "HP:0001939",
+        "HP:0002715",
+        "HP:0025354"
+      ]
+    },
+    "HP:0003498": {
+      "label_en": "Disproportionate short stature",
+      "categories": [
+        "HP:0001507"
+      ]
+    },
+    "HP:0003546": {
+      "label_en": "Exercise intolerance",
+      "categories": [
+        "HP:0025142"
+      ]
+    },
+    "HP:0003551": {
+      "label_en": "Difficulty climbing stairs",
+      "categories": [
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0003572": {
+      "label_en": "Low plasma citrulline",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0003645": {
+      "label_en": "Prolonged partial thromboplastin time",
+      "categories": [
+        "HP:0001871"
+      ]
+    },
+    "HP:0003656": {
+      "label_en": "Decreased beta-glucocerebrosidase level",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0003698": {
+      "label_en": "Difficulty standing",
+      "categories": [
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0003701": {
+      "label_en": "Proximal muscle weakness",
+      "categories": [
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0003731": {
+      "label_en": "Quadriceps muscle weakness",
+      "categories": [
+        "HP:0003011",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0003856": {
+      "label_en": "Upper limb metaphyseal widening",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0004060": {
+      "label_en": "Trident hand",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0004306": {
+      "label_en": "Abnormal endocardium morphology",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0004322": {
+      "label_en": "Short stature",
+      "categories": [
+        "HP:0001507"
+      ]
+    },
+    "HP:0004343": {
+      "label_en": "Abnormal glycosphingolipid metabolism",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0004349": {
+      "label_en": "Reduced bone mineral density",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0004374": {
+      "label_en": "Hemiplegia/hemiparesis",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0004380": {
+      "label_en": "Aortic valve calcification",
+      "categories": [
+        "HP:0000924",
+        "HP:0001626",
+        "HP:0033127"
+      ]
+    },
+    "HP:0004382": {
+      "label_en": "Mitral valve calcification",
+      "categories": [
+        "HP:0000924",
+        "HP:0001626",
+        "HP:0033127"
+      ]
+    },
+    "HP:0004610": {
+      "label_en": "Lumbar spinal canal stenosis",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0004878": {
+      "label_en": "Intercostal muscle weakness",
+      "categories": [
+        "HP:0002086",
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0004891": {
+      "label_en": "Recurrent infections due to aspiration",
+      "categories": [
+        "HP:0002086",
+        "HP:0002715"
+      ]
+    },
+    "HP:0004923": {
+      "label_en": "Hyperphenylalaninemia",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0004926": {
+      "label_en": "Orthostatic hypotension due to autonomic dysfunction",
+      "categories": [
+        "HP:0000707",
+        "HP:0001626"
+      ]
+    },
+    "HP:0004944": {
+      "label_en": "Dilatation of the cerebral artery",
+      "categories": [
+        "HP:0000707",
+        "HP:0001626"
+      ]
+    },
+    "HP:0004975": {
+      "label_en": "Erlenmeyer flask deformity of the femurs",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0005105": {
+      "label_en": "Abnormal nasal morphology",
+      "categories": [
+        "HP:0000152"
+      ]
+    },
+    "HP:0005165": {
+      "label_en": "Shortened PR interval",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0005216": {
+      "label_en": "Impaired mastication",
+      "categories": [
+        "HP:0000152"
+      ]
+    },
+    "HP:0005257": {
+      "label_en": "Thoracic hypoplasia",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0005280": {
+      "label_en": "Depressed nasal bridge",
+      "categories": [
+        "HP:0000152"
+      ]
+    },
+    "HP:0005619": {
+      "label_en": "Thoracolumbar kyphosis",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0005789": {
+      "label_en": "Generalized osteosclerosis",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0005819": {
+      "label_en": "Short middle phalanx of finger",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0005930": {
+      "label_en": "Abnormal epiphysis morphology",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0005961": {
+      "label_en": "Hypoargininemia",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0006380": {
+      "label_en": "Knee flexion contracture",
+      "categories": [
+        "HP:0000924",
+        "HP:0003011",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0006432": {
+      "label_en": "Trapezoidal distal femoral condyles",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0006487": {
+      "label_en": "Bowing of the long bones",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0006490": {
+      "label_en": "Abnormal lower-limb metaphysis morphology",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0006510": {
+      "label_en": "Chronic pulmonary obstruction",
+      "categories": [
+        "HP:0002086"
+      ]
+    },
+    "HP:0006530": {
+      "label_en": "Abnormal pulmonary interstitial morphology",
+      "categories": [
+        "HP:0002086"
+      ]
+    },
+    "HP:0006640": {
+      "label_en": "Multiple rib fractures",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0006775": {
+      "label_en": "Multiple myeloma",
+      "categories": [
+        "HP:0001871",
+        "HP:0002664"
+      ]
+    },
+    "HP:0006824": {
+      "label_en": "Cranial nerve paralysis",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0006844": {
+      "label_en": "Absent patellar reflexes",
+      "categories": [
+        "HP:0000707",
+        "HP:0040064"
+      ]
+    },
+    "HP:0007002": {
+      "label_en": "Motor axonal neuropathy",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0007018": {
+      "label_en": "Attention deficit hyperactivity disorder",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0007099": {
+      "label_en": "Chiari type I malformation",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0007141": {
+      "label_en": "Sensorimotor neuropathy",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0007340": {
+      "label_en": "Lower limb muscle weakness",
+      "categories": [
+        "HP:0003011",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0007957": {
+      "label_en": "Corneal opacity",
+      "categories": [
+        "HP:0000478"
+      ]
+    },
+    "HP:0008064": {
+      "label_en": "Ichthyosis",
+      "categories": [
+        "HP:0001574"
+      ]
+    },
+    "HP:0008117": {
+      "label_en": "Shortening of the talar neck",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0008144": {
+      "label_en": "Flattening of the talar dome",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0008155": {
+      "label_en": "Mucopolysacchariduria",
+      "categories": [
+        "HP:0000119",
+        "HP:0001939"
+      ]
+    },
+    "HP:0008442": {
+      "label_en": "Vertebral hyperostosis",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0008445": {
+      "label_en": "Cervical spinal canal stenosis",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0008872": {
+      "label_en": "Feeding difficulties in infancy",
+      "categories": [
+        "HP:0025031"
+      ]
+    },
+    "HP:0008905": {
+      "label_en": "Rhizomelia",
+      "categories": [
+        "HP:0000924",
+        "HP:0001507",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0008947": {
+      "label_en": "Floppy infant",
+      "categories": [
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0008959": {
+      "label_en": "Distal upper limb muscle weakness",
+      "categories": [
+        "HP:0003011",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0009027": {
+      "label_en": "Foot dorsiflexor weakness",
+      "categories": [
+        "HP:0003011",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0009046": {
+      "label_en": "Difficulty running",
+      "categories": [
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0009053": {
+      "label_en": "Distal lower limb muscle weakness",
+      "categories": [
+        "HP:0003011",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0009073": {
+      "label_en": "Progressive proximal muscle weakness",
+      "categories": [
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0009113": {
+      "label_en": "Diaphragmatic weakness",
+      "categories": [
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0009826": {
+      "label_en": "Limb undergrowth",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0009928": {
+      "label_en": "Thick nasal alae",
+      "categories": [
+        "HP:0000152"
+      ]
+    },
+    "HP:0010241": {
+      "label_en": "Short proximal phalanx of finger",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0010299": {
+      "label_en": "Abnormal dentin morphology",
+      "categories": [
+        "HP:0000152"
+      ]
+    },
+    "HP:0010471": {
+      "label_en": "Oligosacchariduria",
+      "categories": [
+        "HP:0000119",
+        "HP:0001939"
+      ]
+    },
+    "HP:0010535": {
+      "label_en": "Sleep apnea",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0010536": {
+      "label_en": "Central sleep apnea",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0010702": {
+      "label_en": "Increased circulating immunoglobulin concentration",
+      "categories": [
+        "HP:0001871",
+        "HP:0001939",
+        "HP:0002715",
+        "HP:0025354"
+      ]
+    },
+    "HP:0010729": {
+      "label_en": "Cherry red spot of the macula",
+      "categories": [
+        "HP:0000152",
+        "HP:0000478",
+        "HP:0001626"
+      ]
+    },
+    "HP:0010781": {
+      "label_en": "Skin dimple",
+      "categories": [
+        "HP:0001574"
+      ]
+    },
+    "HP:0010829": {
+      "label_en": "Impaired temperature sensation",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0010864": {
+      "label_en": "Severe intellectual disability",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0010885": {
+      "label_en": "Avascular necrosis",
+      "categories": [
+        "HP:0033127"
+      ]
+    },
+    "HP:0011001": {
+      "label_en": "Increased bone mineral density",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0011227": {
+      "label_en": "Elevated circulating C-reactive protein concentration",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0011452": {
+      "label_en": "Functional abnormality of the middle ear",
+      "categories": [
+        "HP:0000598"
+      ]
+    },
+    "HP:0011675": {
+      "label_en": "Arrhythmia",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0011710": {
+      "label_en": "Bundle branch block",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0011867": {
+      "label_en": "Abnormal iliac wing morphology",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0011947": {
+      "label_en": "Respiratory tract infection",
+      "categories": [
+        "HP:0002086"
+      ]
+    },
+    "HP:0011970": {
+      "label_en": "Cerebral amyloid angiopathy",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0012115": {
+      "label_en": "Hepatitis",
+      "categories": [
+        "HP:0001392",
+        "HP:0002715",
+        "HP:0025031"
+      ]
+    },
+    "HP:0012185": {
+      "label_en": "Constrictive median neuropathy",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0012223": {
+      "label_en": "Splenic rupture",
+      "categories": [
+        "HP:0001626",
+        "HP:0001743",
+        "HP:0002715",
+        "HP:0025031"
+      ]
+    },
+    "HP:0012332": {
+      "label_en": "Abnormal autonomic nervous system physiology",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0012378": {
+      "label_en": "Fatigue",
+      "categories": [
+        "HP:0025142"
+      ]
+    },
+    "HP:0012418": {
+      "label_en": "Hypoxemia",
+      "categories": [
+        "HP:0002086"
+      ]
+    },
+    "HP:0012449": {
+      "label_en": "Sacroiliac joint synovitis",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0012531": {
+      "label_en": "Pain",
+      "categories": [
+        "HP:0025142"
+      ]
+    },
+    "HP:0012532": {
+      "label_en": "Chronic pain",
+      "categories": [
+        "HP:0025142"
+      ]
+    },
+    "HP:0012722": {
+      "label_en": "Heart block",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0012727": {
+      "label_en": "Thoracic aortic aneurysm",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0012735": {
+      "label_en": "Cough",
+      "categories": [
+        "HP:0002086"
+      ]
+    },
+    "HP:0012764": {
+      "label_en": "Orthopnea",
+      "categories": [
+        "HP:0002086"
+      ]
+    },
+    "HP:0025309": {
+      "label_en": "Abnormal pupil shape",
+      "categories": [
+        "HP:0000478"
+      ]
+    },
+    "HP:0025335": {
+      "label_en": "Delayed ability to stand",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0025369": {
+      "label_en": "Thick growth plates",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0025435": {
+      "label_en": "Increased circulating lactate dehydrogenase concentration",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0030148": {
+      "label_en": "Heart murmur",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0030195": {
+      "label_en": "Fatigable weakness of swallowing muscles",
+      "categories": [
+        "HP:0000707",
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0030196": {
+      "label_en": "Fatigable weakness of respiratory muscles",
+      "categories": [
+        "HP:0000707",
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0030231": {
+      "label_en": "Glycogen accumulation in muscle fiber lysosomes",
+      "categories": [
+        "HP:0001939",
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0030319": {
+      "label_en": "Weakness of facial musculature",
+      "categories": [
+        "HP:0000152",
+        "HP:0003011",
+        "HP:0033127"
+      ]
+    },
+    "HP:0030680": {
+      "label_en": "Abnormal cardiovascular system morphology",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0030757": {
+      "label_en": "Tooth abscess",
+      "categories": [
+        "HP:0000152",
+        "HP:0002715"
+      ]
+    },
+    "HP:0031006": {
+      "label_en": "Acroparesthesia",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0031047": {
+      "label_en": "Paraproteinemia",
+      "categories": [
+        "HP:0001871",
+        "HP:0001939",
+        "HP:0002715",
+        "HP:0025354"
+      ]
+    },
+    "HP:0031108": {
+      "label_en": "Triceps weakness",
+      "categories": [
+        "HP:0003011",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0031189": {
+      "label_en": "Wrist drop",
+      "categories": [
+        "HP:0003011",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0031258": {
+      "label_en": "Delirium",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0031310": {
+      "label_en": "Basilar artery calcification",
+      "categories": [
+        "HP:0000924",
+        "HP:0001626",
+        "HP:0033127"
+      ]
+    },
+    "HP:0031327": {
+      "label_en": "Cardiac transthyretin amyloid deposition",
+      "categories": [
+        "HP:0001626",
+        "HP:0001939"
+      ]
+    },
+    "HP:0031936": {
+      "label_en": "Delayed ability to walk",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0031964": {
+      "label_en": "Elevated circulating alanine aminotransferase concentration",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0032092": {
+      "label_en": "Left ventricular outflow tract obstruction",
+      "categories": [
+        "HP:0001626"
+      ]
+    },
+    "HP:0032351": {
+      "label_en": "Phenylalaninuria",
+      "categories": [
+        "HP:0000119",
+        "HP:0001939"
+      ]
+    },
+    "HP:0032640": {
+      "label_en": "Elevated circulating CCL18 concentration",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0033595": {
+      "label_en": "Elevated circulating globotriaosylceramide concentration",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0033748": {
+      "label_en": "Hypoesthesia",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0034336": {
+      "label_en": "Splenic infarction",
+      "categories": [
+        "HP:0001626",
+        "HP:0001743",
+        "HP:0002715",
+        "HP:0025031"
+      ]
+    },
+    "HP:0034864": {
+      "label_en": "Decreased alpha-galactosidase A activity",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0034932": {
+      "label_en": "Decreased circulating acid maltase activity",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:0045086": {
+      "label_en": "Knee joint hypermobility",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0045087": {
+      "label_en": "Hip joint hypermobility",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127",
+        "HP:0040064"
+      ]
+    },
+    "HP:0100022": {
+      "label_en": "Abnormality of movement",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0100261": {
+      "label_en": "Abnormal tendon morphology",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0100543": {
+      "label_en": "Cognitive impairment",
+      "categories": [
+        "HP:0000707"
+      ]
+    },
+    "HP:0100550": {
+      "label_en": "Tendon rupture",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0100579": {
+      "label_en": "Mucosal telangiectasiae",
+      "categories": [
+        "HP:0001574",
+        "HP:0001626"
+      ]
+    },
+    "HP:0100585": {
+      "label_en": "Telangiectasia of the skin",
+      "categories": [
+        "HP:0001574",
+        "HP:0001626"
+      ]
+    },
+    "HP:0100595": {
+      "label_en": "Camptocormia",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0100625": {
+      "label_en": "Enlarged thorax",
+      "categories": [
+        "HP:0000924",
+        "HP:0033127"
+      ]
+    },
+    "HP:0100658": {
+      "label_en": "Cellulitis",
+      "categories": [
+        "HP:0033127"
+      ]
+    },
+    "HP:0100686": {
+      "label_en": "Enthesitis",
+      "categories": [
+        "HP:0033127"
+      ]
+    },
+    "HP:0100704": {
+      "label_en": "Cerebral visual impairment",
+      "categories": [
+        "HP:0000478"
+      ]
+    },
+    "HP:0100750": {
+      "label_en": "Atelectasis",
+      "categories": [
+        "HP:0002086"
+      ]
+    },
+    "HP:0100765": {
+      "label_en": "Abnormality of the tonsils",
+      "categories": [
+        "HP:0001626",
+        "HP:0002715"
+      ]
+    },
+    "HP:0100790": {
+      "label_en": "Hernia",
+      "categories": [
+        "HP:0033127"
+      ]
+    },
+    "HP:0100820": {
+      "label_en": "Glomerulopathy",
+      "categories": [
+        "HP:0000119"
+      ]
+    },
+    "HP:0100832": {
+      "label_en": "Vitreous floaters",
+      "categories": [
+        "HP:0000478"
+      ]
+    },
+    "HP:0410021": {
+      "label_en": "Musty odor",
+      "categories": [
+        "HP:0025142"
+      ]
+    },
+    "HP:0500008": {
+      "label_en": "Cornea verticillata",
+      "categories": [
+        "HP:0000478"
+      ]
+    },
+    "HP:3000062": {
+      "label_en": "Abnormal internal carotid artery morphology",
+      "categories": [
+        "HP:0000152",
+        "HP:0001626"
+      ]
+    },
+    "HP:6000213": {
+      "label_en": "Elevated circulating angiotensin-converting enzyme concentration",
+      "categories": [
+        "HP:0001939"
+      ]
+    },
+    "HP:6000407": {
+      "label_en": "Elevated circulating fibroblast growth factor 23 concentration",
+      "categories": [
+        "HP:0000818"
+      ]
+    }
+  }
+}

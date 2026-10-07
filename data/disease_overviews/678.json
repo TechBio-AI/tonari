@@ -1,0 +1,52 @@
+{
+ "idx": 678,
+ "name": "先天性リポイド過形成症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/90790",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Congenital lipoid adrenal hyperplasia due to STAR deficency"
+  }
+ ],
+ "summary": {
+  "text": "A severe form of congenital adrenal hyperplasia (CAH) characterized by severe adrenal insufficiency and sex reversal in males.",
+  "source_id": "orphanet",
+  "evidence": "A severe form of congenital adrenal hype",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "severe adrenal insufficiency",
+   "source_id": "orphanet",
+   "evidence": "severe adrenal insufficiency"
+  },
+  {
+   "text": "sex reversal in males",
+   "source_id": "orphanet",
+   "evidence": "sex reversal in males"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/90790",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

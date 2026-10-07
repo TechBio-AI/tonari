@@ -1,0 +1,69 @@
+{
+ "idx": 785,
+ "name": "弾性線維性仮性黄色腫",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4579",
+   "fetched_at": "2026-09-24T00:45:40+09:00",
+   "sha256": "4e96a311ba1493b037c5d368ab0d251748df79ef692616f82d89d7d73078c6b6",
+   "title": "弾性線維性仮性黄色腫（指定難病１６６） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "弾性線維が変化するため、主に皮膚・目・血管に障害が出る病気です。",
+  "source_id": "nanbyou",
+  "evidence": "弾性線維が 変性 するため主に皮膚・眼・血管の障害が出る病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "首やわき、足のつけ根の皮膚の弾力が失われる",
+   "source_id": "nanbyou",
+   "evidence": "首や腋や鼠径部の弾性が失われ"
+  },
+  {
+   "text": "黄色い小さな盛り上がりができる",
+   "source_id": "nanbyou",
+   "evidence": "始めは黄色の 丘疹 ができ"
+  },
+  {
+   "text": "皮膚がたれ下がったようになる",
+   "source_id": "nanbyou",
+   "evidence": "次第にたれ下がったようになります"
+  },
+  {
+   "text": "視力が落ちる、視野が欠ける",
+   "source_id": "nanbyou",
+   "evidence": "視力低下・視野欠損が起きます"
+  },
+  {
+   "text": "心筋梗塞や脳梗塞が起こる",
+   "source_id": "nanbyou",
+   "evidence": "心筋 梗塞 や脳梗塞などをおこします"
+  },
+  {
+   "text": "消化管から出血することがある",
+   "source_id": "nanbyou",
+   "evidence": "消化管出血を起こすこともあります"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "現在のところ有効な治療法は存在しません"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4579",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は遺伝の説明で、発症年齢の記載が無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T03:02:14+09:00",
+ "shard": 4
+}

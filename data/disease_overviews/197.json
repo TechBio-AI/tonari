@@ -1,0 +1,65 @@
+{
+ "idx": 197,
+ "name": "自己免疫性膵炎",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/12_12_036/",
+   "fetched_at": "2026-09-24T00:54:04+09:00",
+   "sha256": "49b6812e87c4ea3d68089b1e635ac5d45ad877a4966530bace37fea430d7082d",
+   "title": "自己免疫性膵炎 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "自分の体を守る仕組みが関わっていると考えられている、すい臓の炎症です。",
+  "source_id": "shouman",
+  "evidence": "その発症に自己免疫機序の関与が疑われる膵炎である",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "皮膚や目が黄色くなる",
+   "source_id": "shouman",
+   "evidence": "閉塞性黄疸"
+  },
+  {
+   "text": "のどが渇く",
+   "source_id": "shouman",
+   "evidence": "口渇感"
+  },
+  {
+   "text": "体がだるい",
+   "source_id": "shouman",
+   "evidence": "全身倦怠感"
+  },
+  {
+   "text": "体重が減る",
+   "source_id": "shouman",
+   "evidence": "体重減少"
+  },
+  {
+   "text": "お腹が痛む",
+   "source_id": "shouman",
+   "evidence": "2型自己免疫性膵炎では腹痛が多く"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "炎症性腸疾患の病勢安定とともに改善する"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/12_12_036/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は有病率の数値が中心のため onset は null。",
+  "治療の節は薬剤名が中心のため、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:28:51+09:00",
+ "shard": 1
+}

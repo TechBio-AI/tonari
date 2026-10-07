@@ -1,0 +1,76 @@
+{
+ "idx": 726,
+ "name": "SeSAME/EAST症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/199343",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "EAST syndrome"
+  }
+ ],
+ "summary": {
+  "text": "A rare genetic disease characterized by the association of epilepsy, ataxia, sensorineural hearing impairment, and renal tubulopathy. Patients present in infancy with generalized seizures, cerebellar dysfunction (including gait ataxia, intention tremor, and dysdiadochokinesis), and variable developmental delay and sensorineural hearing loss. Laboratory studies show persistent hypokalemic metabolic acidosis with hypomagnesemia. Additional reported neurologic features include brisk deep tendon reflexes, ankle clonus, extensor plantar responses, or nystagmus.",
+  "source_id": "orphanet",
+  "evidence": "A rare genetic disease characterized by ",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "epilepsy",
+   "source_id": "orphanet",
+   "evidence": "epilepsy"
+  },
+  {
+   "text": "ataxia",
+   "source_id": "orphanet",
+   "evidence": "ataxia"
+  },
+  {
+   "text": "sensorineural hearing impairment",
+   "source_id": "orphanet",
+   "evidence": "sensorineural hearing impairment"
+  },
+  {
+   "text": "generalized seizures",
+   "source_id": "orphanet",
+   "evidence": "generalized seizures"
+  },
+  {
+   "text": "intention tremor",
+   "source_id": "orphanet",
+   "evidence": "intention tremor"
+  },
+  {
+   "text": "variable developmental delay",
+   "source_id": "orphanet",
+   "evidence": "variable developmental delay"
+  }
+ ],
+ "onset": {
+  "text": "present in infancy",
+  "source_id": "orphanet",
+  "evidence": "present in infancy"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/199343",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: hypokalemic metabolic acidosis with hypomagnesemia",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

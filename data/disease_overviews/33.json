@@ -1,0 +1,74 @@
+{
+ "idx": 33,
+ "name": "ベーチェット病",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/187",
+   "fetched_at": "2026-09-24T00:44:30+09:00",
+   "sha256": "094b8cce5bad5f57156c1776be976f834fc7c78a809332d6228da496829653b7",
+   "title": "ベーチェット病（指定難病５６） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "口の中の潰瘍、外陰部の潰瘍、皮膚の症状、目の症状を主な特徴とする病気です。",
+  "source_id": "nanbyou",
+  "evidence": "外陰部潰瘍、皮膚症状、眼症状の4つの症状を主症状とする",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "口の中に円形の潰瘍ができる",
+   "source_id": "nanbyou",
+   "evidence": "口蓋粘膜に円形の境界鮮明な潰瘍ができます"
+  },
+  {
+   "text": "口内炎をくり返す",
+   "source_id": "nanbyou",
+   "evidence": "経過を通じて繰り返して起こることも特徴です"
+  },
+  {
+   "text": "すねや前腕に赤いしこりができる",
+   "source_id": "nanbyou",
+   "evidence": "下腿伸側や前腕に 結節 性紅斑様皮疹がみられます"
+  },
+  {
+   "text": "にきびのような皮疹ができる",
+   "source_id": "nanbyou",
+   "evidence": "座瘡様皮疹は「にきび」に似た皮疹"
+  },
+  {
+   "text": "かみそりまけを起こしやすい",
+   "source_id": "nanbyou",
+   "evidence": "「かみそりまけ」を起こしやすかったり"
+  },
+  {
+   "text": "注射のあとが赤くはれる",
+   "source_id": "nanbyou",
+   "evidence": "注射や採血で針を刺したあと、発赤、腫脹"
+  },
+  {
+   "text": "外陰部に潰瘍ができる",
+   "source_id": "nanbyou",
+   "evidence": "外陰部潰瘍"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "すべての病状に対応できる単一の治療があるわけではありません"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/187",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は性差と重症度の説明で、発症年齢の記載が無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:44:40+09:00",
+ "shard": 3
+}

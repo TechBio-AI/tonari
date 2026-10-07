@@ -1,0 +1,51 @@
+{
+ "idx": 868,
+ "name": "遺伝性ミオパチー（GNE型）",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/602",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "GNE myopathy"
+  }
+ ],
+ "summary": {
+  "text": "GNE myopathy is a rare autosomal recessive distal myopathy characterized by early adult-onset, slowly to moderately progressive distal muscle weakness that preferentially affects the tibialis anterior muscle and that usually spares the quadriceps femoris. Muscle biopsy reveals presence of rimmed vacuoles.",
+  "source_id": "orphanet",
+  "evidence": "GNE myopathy is a rare autosomal recessi",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "slowly to moderately progressive distal muscle weakness",
+   "source_id": "orphanet",
+   "evidence": "slowly to moderately progressive distal"
+  }
+ ],
+ "onset": {
+  "text": "early adult-onset",
+  "source_id": "orphanet",
+  "evidence": "early adult-onset"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/602",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: rimmed vacuoles on muscle biopsy",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

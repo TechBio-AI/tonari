@@ -1,0 +1,70 @@
+{
+ "idx": 47,
+ "name": "ターナー症候群",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_41_088/",
+   "fetched_at": "2026-09-25T03:27:49+09:00",
+   "sha256": "9b8d807fa33ec233dbffa2ab3bf5579d1486c1d2158683040f3304714ab76175",
+   "title": "ターナー（Turner）症候群 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "性染色体の異常による病気で、背が低いこと、卵巣のはたらきの低下、特徴的な体のつくりが見られます。",
+  "source_id": "shouman",
+  "evidence": "低身長，性腺異形成，特徴的奇形徴候により特徴づけられ",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "背が低い",
+   "source_id": "shouman",
+   "evidence": "低身長：ターナー症候群にほぼ必発の症状"
+  },
+  {
+   "text": "月経が始まらない",
+   "source_id": "shouman",
+   "evidence": "原発性無月経となり"
+  },
+  {
+   "text": "月経が途中で止まる",
+   "source_id": "shouman",
+   "evidence": "続発性無月経となる"
+  },
+  {
+   "text": "ひじが外側に曲がっている（外反肘）",
+   "source_id": "shouman",
+   "evidence": "外反肘"
+  },
+  {
+   "text": "首の横の皮膚のひだ、むくみ",
+   "source_id": "shouman",
+   "evidence": "翼状頚やリンパ浮腫"
+  },
+  {
+   "text": "心臓の血管や腎臓の形の異常",
+   "source_id": "shouman",
+   "evidence": "大動脈縮窄や馬蹄腎などの内臓奇形"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "低身長：成長ホルモンが有効である．"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_41_088/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は頻度の記述だけで発症時期の記述が無いため onset は null。",
+  "治療の節の後半には製剤名があるため、evidence は冒頭の一文から選んだ。"
+ ],
+ "extracted_at": "2026-10-02T21:14:56+09:00",
+ "shard": 2
+}

@@ -1,0 +1,76 @@
+{
+ "idx": 10,
+ "name": "血栓性血小板減少性紫斑病",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/87",
+   "fetched_at": "2026-09-24T00:46:46+09:00",
+   "sha256": "976624c0fa9688438baf4abf2a9ad265b0ec07e9d58c229cfc6c60dfb7b75d3e",
+   "title": "血栓性血小板減少性紫斑病(TTP)（指定難病６４） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "細い血管が血のかたまりでふさがれて、全身にいろいろな症状が出る病気です。",
+  "source_id": "nanbyou",
+  "evidence": "末梢の細血管が血小板の凝集塊(血小板血栓)によって閉塞され",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "体がだるい",
+   "source_id": "nanbyou",
+   "evidence": "体のだるさ"
+  },
+  {
+   "text": "吐き気がする",
+   "source_id": "nanbyou",
+   "evidence": "吐き気"
+  },
+  {
+   "text": "筋肉が痛む",
+   "source_id": "nanbyou",
+   "evidence": "筋肉痛"
+  },
+  {
+   "text": "熱が出る",
+   "source_id": "nanbyou",
+   "evidence": "発熱"
+  },
+  {
+   "text": "貧血になる",
+   "source_id": "nanbyou",
+   "evidence": "貧血"
+  },
+  {
+   "text": "手足に紫色のあざが出る",
+   "source_id": "nanbyou",
+   "evidence": "出血（手足に紫斑）"
+  },
+  {
+   "text": "腎臓のはたらきが落ちる",
+   "source_id": "nanbyou",
+   "evidence": "腎障害"
+  }
+ ],
+ "onset": {
+  "text": "赤ちゃんからお年寄りまで、はば広い年代で起こります",
+  "source_id": "nanbyou",
+  "evidence": "発症年令は乳幼児から老人までと幅広く"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "基本となるのは以下の 血漿交換療法 です。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/87",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:22:05+09:00",
+ "shard": 1
+}

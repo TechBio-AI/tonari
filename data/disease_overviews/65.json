@@ -1,0 +1,73 @@
+{
+ "idx": 65,
+ "name": "原発性胆汁性胆管炎",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/93",
+   "fetched_at": "2026-09-24T00:46:47+09:00",
+   "sha256": "38b3c874c68da4c576286f92f9eb7ec2927a3b95f310f4e2e98d7c1e8f716d02",
+   "title": "原発性胆汁性胆管炎（指定難病９３） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "肝臓の中の細い胆管がこわれていく病気です。",
+  "source_id": "nanbyou",
+  "evidence": "肝臓の中の細い胆管が壊れる病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "皮膚がかゆくなる",
+   "source_id": "nanbyou",
+   "evidence": "中等度から重度の皮膚のかゆみ"
+  },
+  {
+   "text": "全身が強くかゆくなる",
+   "source_id": "nanbyou",
+   "evidence": "全身の強いかゆみが起こります"
+  },
+  {
+   "text": "疲れやすい、だるい",
+   "source_id": "nanbyou",
+   "evidence": "疲れやすさやだるさを感じることもあります"
+  },
+  {
+   "text": "食道や胃に血管のこぶができる",
+   "source_id": "nanbyou",
+   "evidence": "食道・胃静脈瘤という合併症も起こります"
+  },
+  {
+   "text": "骨がもろくなりやすい",
+   "source_id": "nanbyou",
+   "evidence": "骨粗鬆症が進行しやすくなります"
+  },
+  {
+   "text": "目の周りに黄色い盛り上がりができる",
+   "source_id": "nanbyou",
+   "evidence": "目の周りに脂肪が沈着する眼瞼黄色腫"
+  }
+ ],
+ "onset": {
+  "text": "中年以降の女性に多い病気です",
+  "source_id": "nanbyou",
+  "evidence": "中年以降の女性に多い病気です。"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "胆汁の流れを良くして肝硬変への進行を抑える"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/93",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:26:37+09:00",
+ "shard": 1
+}

@@ -1,0 +1,82 @@
+{
+ "idx": 665,
+ "name": "Rothmund-Thomson症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2909",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Rothmund-Thomson syndrome"
+  }
+ ],
+ "summary": {
+  "text": "A rare syndrome characterized by facial rash (poikiloderma) associated with short stature due to pre- and postnatal growth delay, sparse scalp hair, sparse or absent eyelashes and/or eyebrows, juvenile cataracts, skeletal abnormalities, radial ray defects, premature aging and cancer susceptibility.",
+  "source_id": "orphanet",
+  "evidence": "A rare syndrome characterized by facial ",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "facial rash (poikiloderma)",
+   "source_id": "orphanet",
+   "evidence": "facial rash (poikiloderma)"
+  },
+  {
+   "text": "short stature",
+   "source_id": "orphanet",
+   "evidence": "short stature"
+  },
+  {
+   "text": "sparse scalp hair",
+   "source_id": "orphanet",
+   "evidence": "sparse scalp hair"
+  },
+  {
+   "text": "sparse or absent eyelashes and/or eyebrows",
+   "source_id": "orphanet",
+   "evidence": "sparse or absent eyelashes and/or"
+  },
+  {
+   "text": "juvenile cataracts",
+   "source_id": "orphanet",
+   "evidence": "juvenile cataracts"
+  },
+  {
+   "text": "skeletal abnormalities",
+   "source_id": "orphanet",
+   "evidence": "skeletal abnormalities"
+  },
+  {
+   "text": "premature aging",
+   "source_id": "orphanet",
+   "evidence": "premature aging"
+  },
+  {
+   "text": "cancer susceptibility",
+   "source_id": "orphanet",
+   "evidence": "cancer susceptibility"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2909",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

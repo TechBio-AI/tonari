@@ -1,0 +1,63 @@
+{
+ "idx": 863,
+ "name": "遺伝性高カリウム性周期性四肢麻痺",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_24_063/",
+   "fetched_at": "2026-09-24T00:51:39+09:00",
+   "sha256": "fda0fc48d3975c1f2ec385d4e7c00e004dafd7ac0e25a0b41e16dc5c5deb5195",
+   "title": "遺伝性高カリウム性周期性四肢麻痺 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "発作のように手足の力が抜けて動かせなくなる、遺伝性の病気です。",
+  "source_id": "shouman",
+  "evidence": "発作性の骨格筋の脱力・麻痺をきたす遺伝性疾患で",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "手足の力が抜ける発作が起こる",
+   "source_id": "shouman",
+   "evidence": "脱力発作の持続は数10分から数時間程度まで"
+  },
+  {
+   "text": "足だけの脱力から全身の麻痺まで幅がある",
+   "source_id": "shouman",
+   "evidence": "下肢のみといった限局性筋力低下から完全四肢麻痺まである"
+  },
+  {
+   "text": "筋肉がこわばる",
+   "source_id": "shouman",
+   "evidence": "ミオトニー（筋強直現象）を臨床的に"
+  },
+  {
+   "text": "寒さや運動後の安静で発作が起こる",
+   "source_id": "shouman",
+   "evidence": "発作の誘発因子として、寒冷、運動後の安静などがある"
+  }
+ ],
+ "onset": {
+  "text": "最初の発作は小児期と早いです",
+  "source_id": "shouman",
+  "evidence": "初回発作は小児期と早い"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "根本治療は無く、麻痺発作急性期の対症療法、間欠期の麻痺予防治療に分けられる"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_24_063/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:52:52+09:00",
+ "shard": 3
+}

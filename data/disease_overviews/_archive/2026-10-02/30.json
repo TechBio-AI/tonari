@@ -1,0 +1,75 @@
+{
+ "idx": 30,
+ "name": "多発性硬化症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_42_103/",
+   "fetched_at": "2026-09-24T00:51:57+09:00",
+   "sha256": "83db9b70a5a7885c61959d971ff4de9d4a5fa07c4175f9b6a001850bd1740fd6",
+   "title": "多発性硬化症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "脳や脊髄で神経をおおう部分がこわれる炎症が、時期や場所を変えて起こる病気です。",
+  "source_id": "shouman",
+  "evidence": "中枢神経系の慢性炎症性脱髄疾患であり、時間的・空間的に病変が多発する",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "視力が落ちる",
+   "source_id": "shouman",
+   "evidence": "視力障害が比較的多く"
+  },
+  {
+   "text": "ものが二重に見える",
+   "source_id": "shouman",
+   "evidence": "複視"
+  },
+  {
+   "text": "ふらつく",
+   "source_id": "shouman",
+   "evidence": "小脳失調"
+  },
+  {
+   "text": "手足が麻痺する",
+   "source_id": "shouman",
+   "evidence": "四肢の麻痺（単麻痺、対麻痺、片麻痺）"
+  },
+  {
+   "text": "感覚に障害が出る",
+   "source_id": "shouman",
+   "evidence": "感覚障害"
+  },
+  {
+   "text": "排尿や排便に障害が出る",
+   "source_id": "shouman",
+   "evidence": "膀胱直腸障害"
+  },
+  {
+   "text": "歩きにくくなる",
+   "source_id": "shouman",
+   "evidence": "歩行障害等"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "急性憎悪期の治療、再発防止及び進行防止の治療"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_42_103/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は有病率の数値が中心のため onset は null。",
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:54:01+09:00",
+ "shard": 4
+}

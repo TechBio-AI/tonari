@@ -1,0 +1,60 @@
+{
+ "idx": 700,
+ "name": "先天性多発性関節拘縮症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/1037",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Arthrogryposis multiplex congenita"
+  }
+ ],
+ "summary": {
+  "text": "A group of disorders characterized by congenital limb contractures manifesting as limitation of movement of multiple limb joints at birth that is usually non-progressive and may include muscle weakness and fibrosis. This disorder is always associated with decreased intrauterine fetal movement which leads secondarily to the contractures.",
+  "source_id": "orphanet",
+  "evidence": "A group of disorders characterized by co",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "congenital limb contractures",
+   "source_id": "orphanet",
+   "evidence": "congenital limb contractures"
+  },
+  {
+   "text": "limitation of movement of multiple limb joints",
+   "source_id": "orphanet",
+   "evidence": "limitation of movement of multiple limb"
+  },
+  {
+   "text": "muscle weakness",
+   "source_id": "orphanet",
+   "evidence": "muscle weakness"
+  }
+ ],
+ "onset": {
+  "text": "at birth",
+  "source_id": "orphanet",
+  "evidence": "at birth"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/1037",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

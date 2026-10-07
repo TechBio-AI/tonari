@@ -1,0 +1,74 @@
+{
+ "idx": 89,
+ "name": "メープルシロップ尿症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4813",
+   "fetched_at": "2026-09-24T00:46:09+09:00",
+   "sha256": "0febf137cd8631b92fc56e2a753fdb5d6cc6aced8af7a4b44562a450d5ae2f19",
+   "title": "メープルシロップ尿症（指定難病２４４） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "酵素の異常で、体の中に害のある物質がたまっていく、生まれつきの病気です。",
+  "source_id": "nanbyou",
+  "evidence": "酵素 の異常によって、体の中に有害な代謝物質が増えて",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "元気がない",
+   "source_id": "nanbyou",
+   "evidence": "元気がない"
+  },
+  {
+   "text": "おっぱいやミルクを飲む力が弱い",
+   "source_id": "nanbyou",
+   "evidence": "哺乳力低下"
+  },
+  {
+   "text": "機嫌が悪い",
+   "source_id": "nanbyou",
+   "evidence": "不機嫌"
+  },
+  {
+   "text": "吐く",
+   "source_id": "nanbyou",
+   "evidence": "嘔吐"
+  },
+  {
+   "text": "意識がはっきりしなくなる",
+   "source_id": "nanbyou",
+   "evidence": "意識障害"
+  },
+  {
+   "text": "けいれんが起きる",
+   "source_id": "nanbyou",
+   "evidence": "けいれん"
+  },
+  {
+   "text": "息がしにくくなる",
+   "source_id": "nanbyou",
+   "evidence": "呼吸困難"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "慢性期にはアミノ酸の制限食や特殊ミルクが必要になります"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4813",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節が保存 HTML に無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:24:20+09:00",
+ "shard": 1
+}

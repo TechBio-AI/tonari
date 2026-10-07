@@ -1,0 +1,80 @@
+{
+ "idx": 174,
+ "name": "クリオピリン関連周期熱症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3994",
+   "fetched_at": "2026-09-24T00:44:52+09:00",
+   "sha256": "84a0c6bc8f574143313173c4e05b72a48053e3ffe94e21155c083f717a0aa745",
+   "title": "クリオピリン関連周期熱症候群（指定難病１０６） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "熱などの炎症が体質として起こってくる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "発熱等の 炎症 が体質的におこってくる病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "熱が出る",
+   "source_id": "nanbyou",
+   "evidence": "発熱、蕁麻疹様発疹"
+  },
+  {
+   "text": "じんましんのような発疹が出る",
+   "source_id": "nanbyou",
+   "evidence": "蕁麻疹様発疹"
+  },
+  {
+   "text": "髄膜炎を起こす",
+   "source_id": "nanbyou",
+   "evidence": "無菌性髄膜炎"
+  },
+  {
+   "text": "発達がゆっくりになる",
+   "source_id": "nanbyou",
+   "evidence": "それに伴う発達遅延"
+  },
+  {
+   "text": "てんかんが起こる",
+   "source_id": "nanbyou",
+   "evidence": "てんかんを認めます"
+  },
+  {
+   "text": "関節が痛む、はれる",
+   "source_id": "nanbyou",
+   "evidence": "関節症状として、関節炎"
+  },
+  {
+   "text": "耳が聞こえにくくなる",
+   "source_id": "nanbyou",
+   "evidence": "感音難聴"
+  },
+  {
+   "text": "寒さで症状が出る",
+   "source_id": "nanbyou",
+   "evidence": "寒冷刺激にともない発熱、結膜充血、関節痛"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "現在、本疾患に最も有効な治療として"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3994",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は人種差の説明で、発症年齢の記載が無いため onset は null。",
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:47:21+09:00",
+ "shard": 3
+}

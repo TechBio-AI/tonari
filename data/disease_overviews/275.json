@@ -1,0 +1,79 @@
+{
+ "idx": 275,
+ "name": "ムコリピドーシスII型",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_095/",
+   "fetched_at": "2026-09-24T00:50:04+09:00",
+   "sha256": "b0425505b7e7bb537fd725cba0d50989489e5ba7233da2e5f75ed5418ca3d639",
+   "title": "ムコリピドーシスⅡ型（I-cell病） 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "ある酵素のはたらきが失われることで起こる病気です。",
+  "source_id": "shouman",
+  "evidence": "N-アセチルグルコサミン-1-リン酸基転移酵素（GNPT）活性欠損",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "特徴的な顔だちになる",
+   "source_id": "shouman",
+   "evidence": "異常な顔貌"
+  },
+  {
+   "text": "頭や顔の形に違いがある",
+   "source_id": "shouman",
+   "evidence": "頭蓋顔面異常"
+  },
+  {
+   "text": "関節が動かしにくい",
+   "source_id": "shouman",
+   "evidence": "関節の可動制限"
+  },
+  {
+   "text": "体がふにゃふにゃしている",
+   "source_id": "shouman",
+   "evidence": "筋緊張低下"
+  },
+  {
+   "text": "発達が強くゆっくりになる",
+   "source_id": "shouman",
+   "evidence": "重度の精神運動発達遅滞"
+  },
+  {
+   "text": "背骨が曲がる",
+   "source_id": "shouman",
+   "evidence": "後側弯や腰椎の突背"
+  },
+  {
+   "text": "股関節がはずれている",
+   "source_id": "shouman",
+   "evidence": "先天性股関節脱臼"
+  },
+  {
+   "text": "歯ぐきが厚くなる",
+   "source_id": "shouman",
+   "evidence": "歯肉腫大"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "頸髄圧迫症状に対しては、除圧術が行われる"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_095/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は頻度の数値のみのため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:40:16+09:00",
+ "shard": 2
+}

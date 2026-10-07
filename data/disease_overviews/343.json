@@ -1,0 +1,52 @@
+{
+ "idx": 343,
+ "name": "脊髄小脳変性症3型",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/98757",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Spinocerebellar ataxia type 3"
+  }
+ ],
+ "summary": {
+  "text": "Spinocerebellar ataxia type 3 (SCA3), also known as Machado-Joseph disease, is the most common subtype of type 1 autosomal dominant cerebellar ataxia (ADCA type 1), a neurodegenerative disorder, and is characterized by ataxia, external progressive ophthalmoplegia, and other neurological manifestations.",
+  "source_id": "orphanet",
+  "evidence": "Spinocerebellar ataxia type 3 (SCA3), al",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "ataxia",
+   "source_id": "orphanet",
+   "evidence": "ataxia"
+  },
+  {
+   "text": "external progressive ophthalmoplegia",
+   "source_id": "orphanet",
+   "evidence": "external progressive ophthalmoplegia"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/98757",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

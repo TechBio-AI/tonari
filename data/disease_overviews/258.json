@@ -1,0 +1,69 @@
+{
+ "idx": 258,
+ "name": "ガストリノーマ",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_32_074/",
+   "fetched_at": "2026-09-24T00:48:13+09:00",
+   "sha256": "dc7a75924daad189ccb0d607cc0a33b71954f50e7a51ed73b289977bbe1a41aa",
+   "title": "ガストリノーマ 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "すい臓や十二指腸にできる腫瘍から、胃酸を出すホルモンが出すぎる病気です。",
+  "source_id": "shouman",
+  "evidence": "膵、十二指腸に発生するガストリン産生腫瘍からのガストリン分泌過剰による疾患。",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "胃や十二指腸に潰瘍ができる",
+   "source_id": "shouman",
+   "evidence": "胃酸過剰分泌による消化性潰瘍"
+  },
+  {
+   "text": "胸やけがする",
+   "source_id": "shouman",
+   "evidence": "胸やけ"
+  },
+  {
+   "text": "出血する",
+   "source_id": "shouman",
+   "evidence": "出血"
+  },
+  {
+   "text": "お腹が痛む",
+   "source_id": "shouman",
+   "evidence": "腹痛"
+  },
+  {
+   "text": "下痢をする",
+   "source_id": "shouman",
+   "evidence": "膵酵素不活性化による下痢がある"
+  },
+  {
+   "text": "潰瘍が治りにくく、くり返す",
+   "source_id": "shouman",
+   "evidence": "治りにくい、容易に再発する"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "ガストリノーマは、切除術によってのみ、根治できる。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_32_074/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は報告数の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:40:16+09:00",
+ "shard": 2
+}

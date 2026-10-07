@@ -1,0 +1,78 @@
+{
+ "idx": 354,
+ "name": "多種カルボキシラーゼ欠損症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/148",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Multiple carboxylase deficiency"
+  }
+ ],
+ "summary": {
+  "text": "A group of inborn errors of biotin metabolism characterized by reduced activities of biotin-dependent enzymes resulting in a wide spectrum of symptoms, including feeding difficulty, breathing difficulties, lethargy, seizures, skin rash, alopecia, and developmental delay. This group includes biotinidase deficiency and biotin holocarboxylase synthetase deficiency.",
+  "source_id": "orphanet",
+  "evidence": "A group of inborn errors of biotin metab",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "feeding difficulty",
+   "source_id": "orphanet",
+   "evidence": "feeding difficulty"
+  },
+  {
+   "text": "breathing difficulties",
+   "source_id": "orphanet",
+   "evidence": "breathing difficulties"
+  },
+  {
+   "text": "lethargy",
+   "source_id": "orphanet",
+   "evidence": "lethargy"
+  },
+  {
+   "text": "seizures",
+   "source_id": "orphanet",
+   "evidence": "seizures"
+  },
+  {
+   "text": "skin rash",
+   "source_id": "orphanet",
+   "evidence": "skin rash"
+  },
+  {
+   "text": "alopecia",
+   "source_id": "orphanet",
+   "evidence": "alopecia"
+  },
+  {
+   "text": "developmental delay",
+   "source_id": "orphanet",
+   "evidence": "developmental delay"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/148",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: reduced activities of biotin-dependent enzymes",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

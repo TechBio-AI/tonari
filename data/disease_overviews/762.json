@@ -1,0 +1,73 @@
+{
+ "idx": 762,
+ "name": "先天性グリコシルホスファチジルイノシトール欠損症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5410",
+   "fetched_at": "2026-09-25T03:27:03+09:00",
+   "sha256": "7b165205f46219fea16b26903e88c3610241d7bd441ffcd10590253e7fc1ab26",
+   "title": "先天性グリコシルホスファチジルイノシトール（GPI）欠損症（指定難病３２０） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "知的障害や運動発達の遅れがあり、多くはてんかんを伴う、遺伝性の病気です。",
+  "source_id": "nanbyou",
+  "evidence": "知的障害、運動発達遅滞と多くはてんかんを伴う遺伝性疾患です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "てんかん",
+   "source_id": "nanbyou",
+   "evidence": "主な症状はてんかんと知的障害"
+  },
+  {
+   "text": "運動の発達の遅れ",
+   "source_id": "nanbyou",
+   "evidence": "運動発達遅滞"
+  },
+  {
+   "text": "指先の骨や爪が小さい",
+   "source_id": "nanbyou",
+   "evidence": "手指の末節骨や爪の低形成"
+  },
+  {
+   "text": "耳が聞こえにくい",
+   "source_id": "nanbyou",
+   "evidence": "難聴"
+  },
+  {
+   "text": "腸の異常",
+   "source_id": "nanbyou",
+   "evidence": "ヒルシュスプルング病といった腸の異常"
+  },
+  {
+   "text": "腎臓が小さいなどの形の異常",
+   "source_id": "nanbyou",
+   "evidence": "腎低形成等種々の奇形"
+  }
+ ],
+ "onset": {
+  "text": "乳幼児期から症状が見られることが多いです",
+  "source_id": "nanbyou",
+  "evidence": "乳幼児期からてんかん発作や知的発達・運動発達の遅れを呈する症例に多い"
+ },
+ "treatment": {
+  "type": "研究段階",
+  "source_id": "nanbyou",
+  "evidence": "根本的な治療として遺伝子治療の研究も進められています"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5410",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節にはビタミン剤の名前があるため、evidence は研究の一文から選んだ。"
+ ],
+ "extracted_at": "2026-10-02T21:14:56+09:00",
+ "shard": 2
+}

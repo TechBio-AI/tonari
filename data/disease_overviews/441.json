@@ -1,0 +1,58 @@
+{
+ "idx": 441,
+ "name": "先天性角化不全症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/1775",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Dyskeratosis congenita"
+  }
+ ],
+ "summary": {
+  "text": "A rare ectodermal dysplasia syndrome that often presents with the classic triad of nail dysplasia, skin pigmentary changes, and oral leukoplakia associated with a high risk of bone marrow failure (BMF) and cancer.",
+  "source_id": "orphanet",
+  "evidence": "A rare ectodermal dysplasia syndrome tha",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "nail dysplasia",
+   "source_id": "orphanet",
+   "evidence": "nail dysplasia"
+  },
+  {
+   "text": "skin pigmentary changes",
+   "source_id": "orphanet",
+   "evidence": "skin pigmentary changes"
+  },
+  {
+   "text": "oral leukoplakia",
+   "source_id": "orphanet",
+   "evidence": "oral leukoplakia"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/1775",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: bone marrow failure (BMF)",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

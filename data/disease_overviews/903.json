@@ -1,0 +1,52 @@
+{
+ "idx": 903,
+ "name": "純粋自律神経不全症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/441",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Pure autonomic failure"
+  }
+ ],
+ "summary": {
+  "text": "A rare sporadic neurodegenerative disease characterized by slowly progressive symptoms of orthostatic hypotension (OH), and other symptoms of generalised dysautonomia related to the impairment of the sympathetic component of the autonomic nervous system.",
+  "source_id": "orphanet",
+  "evidence": "A rare sporadic neurodegenerative diseas",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "orthostatic hypotension",
+   "source_id": "orphanet",
+   "evidence": "orthostatic hypotension"
+  },
+  {
+   "text": "generalised dysautonomia",
+   "source_id": "orphanet",
+   "evidence": "generalised dysautonomia"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/441",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

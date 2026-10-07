@@ -1,0 +1,74 @@
+{
+ "idx": 443,
+ "name": "先天性無巨核球性血小板減少症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/09_16_027/",
+   "fetched_at": "2026-09-24T00:50:29+09:00",
+   "sha256": "dcbe3ddae9ddb1d88a985c7035a4d004c196115c4de75cd704db77076762d5bc",
+   "title": "先天性無巨核球性血小板減少症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "赤ちゃんのころから血小板が少なく、骨髄でそのもとになる細胞が減る病気です。",
+  "source_id": "shouman",
+  "evidence": "新生児期から乳児期より血小板減少があり、骨髄にて巨核球が著減する疾患である",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "皮膚に青あざができる",
+   "source_id": "shouman",
+   "evidence": "皮下出血斑"
+  },
+  {
+   "text": "歯ぐきから出血する",
+   "source_id": "shouman",
+   "evidence": "歯肉出血"
+  },
+  {
+   "text": "鼻血が出る",
+   "source_id": "shouman",
+   "evidence": "鼻出血"
+  },
+  {
+   "text": "顔色が悪い",
+   "source_id": "shouman",
+   "evidence": "顔色不良"
+  },
+  {
+   "text": "動悸がする",
+   "source_id": "shouman",
+   "evidence": "動悸"
+  },
+  {
+   "text": "めまいがする",
+   "source_id": "shouman",
+   "evidence": "めまいなどの貧血症状"
+  },
+  {
+   "text": "感染症にかかりやすい",
+   "source_id": "shouman",
+   "evidence": "易感染性を呈する"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "血小板輸血を行なう"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/09_16_027/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は報告数の数値のみのため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:30:26+09:00",
+ "shard": 1
+}

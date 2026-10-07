@@ -1,0 +1,57 @@
+{
+ "idx": 227,
+ "name": "グリコーゲン蓄積症II型",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/420429",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Glycogen storage disease due to acid maltase deficiency, late-onset"
+  }
+ ],
+ "summary": {
+  "text": "A rare form of glycogen storage disease due to acid maltase deficiency characterized by excessive accumulation of glycogen in lysosomes most notably in skeletal muscle, leading to slowly progressive muscle weakness with walking disability and reduced respiratory function. The late-onset form includes all cases in which hypertrophic cardiomyopathy did not manifest or was not diagnosed at or under the age of 1 year, as well as all cases with symptom onset above the age of 1 year.",
+  "source_id": "orphanet",
+  "evidence": "A rare form of glycogen storage disease ",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "slowly progressive muscle weakness",
+   "source_id": "orphanet",
+   "evidence": "slowly progressive muscle weakness"
+  },
+  {
+   "text": "walking disability",
+   "source_id": "orphanet",
+   "evidence": "walking disability"
+  },
+  {
+   "text": "reduced respiratory function",
+   "source_id": "orphanet",
+   "evidence": "reduced respiratory function"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/420429",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "late-onset の定義は数字（the age of 1 year）を含むため onset は null。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

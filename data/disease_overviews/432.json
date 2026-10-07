@@ -1,0 +1,71 @@
+{
+ "idx": 432,
+ "name": "バルデー・ビードル症候群",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_41_092/",
+   "fetched_at": "2026-09-24T00:48:19+09:00",
+   "sha256": "01272bbdc76cdf1de676bcd150526d164fb5ae4aa042d4d4d05d2ad52f7cda53",
+   "title": "バルデー・ビードル（Bardet-Biedl）症候群 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "肥満・知的な発達の遅れ・目の網膜の変化・腎臓の障害などを特徴とする病気です。",
+  "source_id": "shouman",
+  "evidence": "肥満、知能障害、網膜色素変性症、慢性腎障害、性腺機能低下症",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "太りやすい",
+   "source_id": "shouman",
+   "evidence": "肥満"
+  },
+  {
+   "text": "知的な発達がゆっくり",
+   "source_id": "shouman",
+   "evidence": "知能障害"
+  },
+  {
+   "text": "視力が落ちる、暗いところで見えにくい",
+   "source_id": "shouman",
+   "evidence": "網膜色素変性症(視力低下、夜盲)"
+  },
+  {
+   "text": "腎臓のはたらきが落ちる",
+   "source_id": "shouman",
+   "evidence": "慢性腎障害"
+  },
+  {
+   "text": "月経が来ないことがある",
+   "source_id": "shouman",
+   "evidence": "性腺機能低下症(無月経など)"
+  },
+  {
+   "text": "指の数が多い、指がくっついている",
+   "source_id": "shouman",
+   "evidence": "多指症・合指症"
+  }
+ ],
+ "onset": {
+  "text": "ふつうは子どものころに症状が出て見つかります",
+  "source_id": "shouman",
+  "evidence": "通常は小児期に発症し、診断される"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "対症療法が主体。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_41_092/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:30:26+09:00",
+ "shard": 1
+}

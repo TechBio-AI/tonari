@@ -1,0 +1,61 @@
+{
+ "idx": 243,
+ "name": "片側巨脳症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4783",
+   "fetched_at": "2026-09-24T00:46:04+09:00",
+   "sha256": "771d73704038619f4aa05f7df111826c6823ceb0b33149a33874aea755394be2",
+   "title": "片側巨脳症（指定難病１３６） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "生まれつき片側の大脳が大きく、構造にも違いがある病気です。",
+  "source_id": "nanbyou",
+  "evidence": "先天的に片側の大脳半球が通常よりも大きく形成され、構造の異常も伴う病気",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "てんかん発作が起こる",
+   "source_id": "nanbyou",
+   "evidence": "てんかん発作"
+  },
+  {
+   "text": "発達がゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "発達の遅れ"
+  },
+  {
+   "text": "大きい側と反対の手足が麻痺する",
+   "source_id": "nanbyou",
+   "evidence": "巨脳側とは反対側の手足の麻痺"
+  },
+  {
+   "text": "発作が頻繁に起こる",
+   "source_id": "nanbyou",
+   "evidence": "しばしば発作が頻発し"
+  }
+ ],
+ "onset": {
+  "text": "生まれた直後にてんかん発作で見つかることが多いです",
+  "source_id": "nanbyou",
+  "evidence": "生まれた直後にてんかん発作でみつかる場合が多いです。"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "外科治療（半球離断術など）が行われます"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4783",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:40:16+09:00",
+ "shard": 2
+}

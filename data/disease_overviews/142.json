@@ -1,0 +1,79 @@
+{
+ "idx": 142,
+ "name": "ムコ多糖症VI型",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_079/",
+   "fetched_at": "2026-09-24T00:49:53+09:00",
+   "sha256": "252e9cf436585ecce7d93246ebbca874f90cad8f7b10586fd88570509dd96cb6",
+   "title": "ムコ多糖症Ⅵ型 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "ある酵素が生まれつき足りないために起こる病気です。",
+  "source_id": "shouman",
+  "evidence": "アリルスルファターゼB）が先天的に欠損することに起因する",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "首の骨が不安定になり脊髄が圧迫される",
+   "source_id": "shouman",
+   "evidence": "頸椎軸不安定・亜脱臼による頚髄圧迫"
+  },
+  {
+   "text": "手指が曲がったまま伸びにくい",
+   "source_id": "shouman",
+   "evidence": "手指の屈曲拘縮（鷲手）"
+  },
+  {
+   "text": "背骨が後ろに曲がる",
+   "source_id": "shouman",
+   "evidence": "脊椎後弯"
+  },
+  {
+   "text": "眠っているときに息が止まる、いびきをかく",
+   "source_id": "shouman",
+   "evidence": "睡眠時無呼吸、いびき"
+  },
+  {
+   "text": "角膜がにごる",
+   "source_id": "shouman",
+   "evidence": "進行性の角膜混濁"
+  },
+  {
+   "text": "中耳炎をくり返し、耳が聞こえにくい",
+   "source_id": "shouman",
+   "evidence": "反復性の中耳炎を認め"
+  },
+  {
+   "text": "心臓の弁に異常が出る",
+   "source_id": "shouman",
+   "evidence": "心弁膜症を認める"
+  },
+  {
+   "text": "体の育ちがゆっくり",
+   "source_id": "shouman",
+   "evidence": "成長障害"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "対症療法と原因療法がある。後者としては、造血細胞移植と酵素補充療法がある。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_079/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は症例数の数値のみのため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:47:21+09:00",
+ "shard": 3
+}

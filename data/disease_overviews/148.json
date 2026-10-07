@@ -1,0 +1,59 @@
+{
+ "idx": 148,
+ "name": "分類不能型免疫不全症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/10_03_024/",
+   "fetched_at": "2026-09-24T00:50:47+09:00",
+   "sha256": "35a647af787ccf9023c009867ac37894be544c25c41d63b312cd40661a7aa3bb",
+   "title": "分類不能型免疫不全症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "血液中の抗体が少ないために、細菌による感染症をくり返す病気です。",
+  "source_id": "shouman",
+  "evidence": "低ガンマグロブリン血症のために細菌感染症を繰り返す原発性免疫不全症",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "細菌による感染症をくり返す",
+   "source_id": "shouman",
+   "evidence": "反復する細菌感染症を主徴とする"
+  },
+  {
+   "text": "脾臓が大きくなる",
+   "source_id": "shouman",
+   "evidence": "脾腫"
+  },
+  {
+   "text": "リンパ節がはれる",
+   "source_id": "shouman",
+   "evidence": "リンパ節腫脹"
+  },
+  {
+   "text": "自己免疫の病気を合併することがある",
+   "source_id": "shouman",
+   "evidence": "自己免疫疾患"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "免疫グロブリン補充療法である"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/10_03_024/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は患者数の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:26:37+09:00",
+ "shard": 1
+}

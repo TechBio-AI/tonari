@@ -1,0 +1,69 @@
+{
+ "idx": 584,
+ "name": "偽性軟骨無形成症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/15_02_012/",
+   "fetched_at": "2026-09-24T00:53:28+09:00",
+   "sha256": "c71497b63dc40aa05dd1d48db52b1268f8b3b3b587b3e04651c0376802d19eaf",
+   "title": "偽性軟骨無形成症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "手足が短く背が低い、足の変形、指が短い、関節がゆるいことが特徴の病気です。",
+  "source_id": "shouman",
+  "evidence": "四肢短縮型低身長、下肢の変形、短指、関節弛緩性などを特徴とする",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "出生時は明らかな異常がないことが多い",
+   "source_id": "shouman",
+   "evidence": "出生時には明らかな異常は認めないことが多い"
+  },
+  {
+   "text": "歩き始めが遅れる",
+   "source_id": "shouman",
+   "evidence": "幼児期に始歩の遅延"
+  },
+  {
+   "text": "あひるのような歩き方になる",
+   "source_id": "shouman",
+   "evidence": "あひる様歩行"
+  },
+  {
+   "text": "身長の伸びが急に落ちる",
+   "source_id": "shouman",
+   "evidence": "身長増加の急激な低下"
+  },
+  {
+   "text": "関節がゆるく、ひざが内や外に曲がる",
+   "source_id": "shouman",
+   "evidence": "関節弛緩性が強く、これにより下肢においては著明な内反膝"
+  },
+  {
+   "text": "腰の反りが強く、背骨が曲がる",
+   "source_id": "shouman",
+   "evidence": "腰椎前弯が著しく、年長児では側弯などの脊柱変形"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "本質的な治療法はなく、頻度の高い骨・関節についての障害には対症治療で対応する"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/15_02_012/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は登録数の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T03:01:40+09:00",
+ "shard": 4
+}

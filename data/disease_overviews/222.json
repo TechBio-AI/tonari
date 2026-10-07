@@ -1,0 +1,64 @@
+{
+ "idx": 222,
+ "name": "単心室症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4369",
+   "fetched_at": "2026-09-24T00:45:09+09:00",
+   "sha256": "857fda566c3d7ad83d6b00ad1252d962a1f81590f3d1ca756de1c6777a2940eb",
+   "title": "単心室症（指定難病２１０） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "心臓から血液を送り出す主な部屋が一つしかない病気の総称です。",
+  "source_id": "nanbyou",
+  "evidence": "心臓から血液を送り出す主な心室が一つしかない疾患の総称",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "皮膚や唇が青紫色になる",
+   "source_id": "nanbyou",
+   "evidence": "活動時に強いチアノーゼが見られ"
+  },
+  {
+   "text": "日常生活が制限される",
+   "source_id": "nanbyou",
+   "evidence": "日常生活が制限されます"
+  },
+  {
+   "text": "疲れやすい",
+   "source_id": "nanbyou",
+   "evidence": "疲れやすい"
+  },
+  {
+   "text": "息が切れる",
+   "source_id": "nanbyou",
+   "evidence": "息切れがするなどの心不全症状"
+  },
+  {
+   "text": "動悸がする",
+   "source_id": "nanbyou",
+   "evidence": "不整脈を伴うと動悸が感じられます"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "両方向性グレン手術を経て最終的に１−２歳でフォンタン手術を実施します"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4369",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節に発症年齢の記載が無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:28:23+09:00",
+ "shard": 1
+}

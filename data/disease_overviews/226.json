@@ -1,0 +1,75 @@
+{
+ "idx": 226,
+ "name": "アルギニノコハク酸尿症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_01_015/",
+   "fetched_at": "2026-09-24T00:49:02+09:00",
+   "sha256": "41be30571e802b4153b953d220d6cfdba5e705b5cf17d830f763cefa948903c3",
+   "title": "アルギニノコハク酸尿症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "ある酵素が足りないために、血液中のアンモニアが高くなる病気です。",
+  "source_id": "shouman",
+  "evidence": "アルギニノコハク酸分解酵素(AL)の欠損により、高アンモニア血症をきたす",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "興奮しやすくなる",
+   "source_id": "shouman",
+   "evidence": "新生児発症例は興奮"
+  },
+  {
+   "text": "おっぱいやミルクの飲みが悪い",
+   "source_id": "shouman",
+   "evidence": "哺乳不良"
+  },
+  {
+   "text": "呼吸が速くなる",
+   "source_id": "shouman",
+   "evidence": "多呼吸"
+  },
+  {
+   "text": "吐く",
+   "source_id": "shouman",
+   "evidence": "嘔吐などが生後数日以内に出現し"
+  },
+  {
+   "text": "けいれんが起きる",
+   "source_id": "shouman",
+   "evidence": "痙攣、呼吸不全、意識障害などに及ぶ"
+  },
+  {
+   "text": "眠りがちになる",
+   "source_id": "shouman",
+   "evidence": "傾眠傾向"
+  },
+  {
+   "text": "学習に困難が出る",
+   "source_id": "shouman",
+   "evidence": "学習障害、ADHD様症状などで気付かれる"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "・低蛋白食事療法"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_01_015/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節が保存 HTML に無いため onset は null。",
+  "治療の節は薬剤名が中心のため、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:57:53+09:00",
+ "shard": 4
+}

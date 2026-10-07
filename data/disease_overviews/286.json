@@ -1,0 +1,74 @@
+{
+ "idx": 286,
+ "name": "5p欠失症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4862",
+   "fetched_at": "2026-09-24T00:46:18+09:00",
+   "sha256": "22cf27f4001b7418f2a61286a4803705685a6bad5a1e4d6ca6f2c329d119d613",
+   "title": "５ｐ欠失症候群（指定難病１９９） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "発達の遅れ、筋緊張の低下、成長の遅れ、顔だちの特徴などをもつ病気です。",
+  "source_id": "nanbyou",
+  "evidence": "全般的な発達の遅れ、筋緊張の低下、成長障害、顔貌の特徴など共通する症状を持つ",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "体の育ちがゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "出生後の成長障害"
+  },
+  {
+   "text": "運動の発達がゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "運動発達の遅れ"
+  },
+  {
+   "text": "おっぱいやミルクを飲む力が弱い",
+   "source_id": "nanbyou",
+   "evidence": "哺乳の弱さ"
+  },
+  {
+   "text": "便秘になる",
+   "source_id": "nanbyou",
+   "evidence": "便秘"
+  },
+  {
+   "text": "背骨が横に曲がる",
+   "source_id": "nanbyou",
+   "evidence": "側彎"
+  },
+  {
+   "text": "中耳炎をくり返し、聞こえにくくなる",
+   "source_id": "nanbyou",
+   "evidence": "中耳炎を繰り返しやすく聞こえの症状"
+  },
+  {
+   "text": "近視や眼振など目の症状が出る",
+   "source_id": "nanbyou",
+   "evidence": "近視や眼振など眼の症状"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "根本的な原因をなくすことはできませんが"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4862",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節が保存 HTML に無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:40:16+09:00",
+ "shard": 2
+}

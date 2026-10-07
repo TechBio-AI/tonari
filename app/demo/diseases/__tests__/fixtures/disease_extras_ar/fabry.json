@@ -1,0 +1,74 @@
+{
+  "slug": "fabry",
+  "family": {
+    "inheritance": [
+      {
+        "text": "【サンプル】遺伝のしかたの仮の文1",
+        "source_url": "https://www.nanbyou.or.jp/entry/SAMPLE",
+        "evidence": "【サンプル】仮の原文A"
+      }
+    ],
+    "letter": {
+      "status": "approved",
+      "paragraphs": [
+        "【サンプル】手紙の仮の段落1",
+        "【サンプル】手紙の仮の段落2"
+      ],
+      "writer_note": [
+        "【サンプル】書く人向けの仮の注記"
+      ]
+    },
+    "consult": [
+      {
+        "text": "【サンプル】相談先の仮の文1",
+        "source_url": "https://www.idenshiiryoubumon.org/SAMPLE",
+        "evidence": "【サンプル】仮の原文B",
+        "link": {
+          "url": "http://www.idenshiiryoubumon.org/SAMPLE",
+          "label": "【サンプル】施設を探す"
+        }
+      }
+    ],
+    "diagram_ar": {
+      "parents": {
+        "text": "【サンプル】保因者",
+        "source_url": "https://www.nanbyou.or.jp/entry/SAMPLE",
+        "evidence": "【サンプル】仮の原文P"
+      },
+      "affected": {
+        "text": "【サンプル】子の 4 マスのうち 1 つの仮の文",
+        "source_url": "https://www.nanbyou.or.jp/entry/SAMPLE",
+        "evidence": "【サンプル】仮の原文Q"
+      }
+    }
+  },
+  "clinicians": {
+    "organs": [
+      {
+        "organ": "【サンプル】臓器1",
+        "facts": [
+          {
+            "text": "【サンプル】手がかりの仮の文1",
+            "source_url": "https://www.shouman.jp/SAMPLE",
+            "evidence": "【サンプル】仮の原文C"
+          },
+          {
+            "text": "【サンプル】手がかりの仮の文2",
+            "source_url": "https://www.nanbyou.or.jp/entry/SAMPLE",
+            "evidence": "【サンプル】仮の原文D"
+          }
+        ]
+      },
+      {
+        "organ": "【サンプル】臓器2",
+        "facts": [
+          {
+            "text": "【サンプル】手がかりの仮の文3",
+            "source_url": "https://www.shouman.jp/SAMPLE",
+            "evidence": "【サンプル】仮の原文E"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+ "idx": 62,
+ "name": "川崎病",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2331",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Kawasaki disease"
+  }
+ ],
+ "summary": {
+  "text": "A rare inflammatory disease characterized by an acute febrile, systemic, self-limiting, medium-vessel vasculitis primarily affecting children. It often causes acute coronary arteritis which is associated with coronary arterial aneurysms (CAA) that may be life threatening when untreated.",
+  "source_id": "orphanet",
+  "evidence": "A rare inflammatory disease characterize",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "acute febrile",
+   "source_id": "orphanet",
+   "evidence": "acute febrile"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2331",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "「acute febrile, systemic, self-limiting, medium-vessel vasculitis」のうち症状にあたるのは発熱の語だけ。",
+  "「affecting children」は好発年齢の記述だが、発症時期の明示ではないため onset は null。",
+  "Definition に「when untreated」とあるが治療の内容の明示ではないため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

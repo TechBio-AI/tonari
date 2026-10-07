@@ -1,0 +1,129 @@
+{
+  "_readme": [
+    "★ これは 11 疾患のための暫定形式です。将来 supabase の themes / theme_facts / fact_sources（器）へ移行します。",
+    "  情報の種類を増やすときは、この形式を拡張するのではなく、器への移行を検討してください（docs/CONTENT_ROADMAP.md）。",
+    "中身: ファウンダーが判定した患者向けの文（docs/disease_summaries_draft_2026-09-13.md、2026-09-13 承認）。",
+    "common_symptoms は HPO v2026-06-23 の「非常に多い」「多い」を元に言い換えたもの。各項目は sources に元の HPO ラベルか「執筆者による記述」を持つ。",
+    "表示では頻度を区別しない。薬剤名は書かない。",
+    "読み込み: lib/portal/disease-summaries.ts"
+  ],
+  "slug": "gaucher",
+  "disease": "ゴーシェ病",
+  "orpha_code": "ORPHA:355",
+  "hpo_version": "v2026-06-23",
+  "approved": "2026-09-13",
+  "symptoms_preface": null,
+  "common_symptoms": [
+    {
+      "text": "お腹が張る、脾臓や肝臓が大きくなる",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "脾腫",
+            "肝腫"
+          ],
+          "hpo_ids": [
+            "HP:0001744",
+            "HP:0002240"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "疲れやすい、貧血になる",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "疲労",
+            "貧血"
+          ],
+          "hpo_ids": [
+            "HP:0012378",
+            "HP:0001903"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "骨が痛む、骨折しやすい",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "骨痛",
+            "反復性骨折"
+          ],
+          "hpo_ids": [
+            "HP:0002653",
+            "HP:0002757"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "骨がもろくなる",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "骨減少症"
+          ],
+          "hpo_ids": [
+            "HP:0000938"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "あざができやすい、鼻血が出やすい",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "血小板減少"
+          ],
+          "hpo_ids": [
+            "HP:0001873"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "お腹が痛む",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "腹痛"
+          ],
+          "hpo_ids": [
+            "HP:0002027"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "子どもでは、成長がゆっくり",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "成長遅滞"
+          ],
+          "hpo_ids": [
+            "HP:0001510"
+          ]
+        }
+      ]
+    }
+  ],
+  "treatment_summary": [
+    "不足している酵素を補う治療（点滴）があります。",
+    "体にたまる物質が作られるのを抑える飲み薬もあります。",
+    "症状に合わせた治療を行います。"
+  ],
+  "treatment_source": "知識ファイル（data/knowledge/comprehensive_rare_diseases_knowledge.json）の treatment を元に、薬剤名を除いて執筆者が要約。ファウンダー確認待ち（2026-09-13 下書き）",
+  "nanbyo_number": null
+}

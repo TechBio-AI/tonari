@@ -1,0 +1,870 @@
+{
+ "_readme": [
+  "難病情報センターの保存本文から機械で切り出した、漢数字を含む短い漢字語の候補。",
+  "形態素解析は使っていないので、語の切れ目は正しくないものが混じる。",
+  "numeric_context は「直前 3 文字に算用数字がある」出現の回数。数の文脈で使われる語の目印。",
+  "判定はしていない。許容してよいかはファウンダーが決める。",
+  "生成: scripts/portal/scan_onset_kansuji.py（Web 取得なし）"
+ ],
+ "source": {
+  "pages": 163,
+  "onset_sections": 156
+ },
+ "words": [
+  {
+   "word": "一部",
+   "total": 291,
+   "in_onset": 8,
+   "numeric_context": 1,
+   "examples": [
+    "けている患者さんに多くみられます。近年は一部の生物学的製剤や多発性硬化症の病態修飾薬",
+    "どもが産まれる可能性が出てきます。また、一部のライソゾーム病は「X連鎖性潜性遺伝（劣"
+   ]
+  },
+  {
+   "word": "一般",
+   "total": 287,
+   "in_onset": 6,
+   "numeric_context": 0,
+   "examples": [
+    "らかが同じ病気であることがほとんどです。一般に子供のほうが若い年齢で発病する傾向があ",
+    "って異なりますが、ライ ゾーム病の場合は一般的に150人から200人に1人くらいと考"
+   ]
+  },
+  {
+   "word": "一方",
+   "total": 114,
+   "in_onset": 5,
+   "numeric_context": 0,
+   "examples": [
+    "節性硬化症の患者さんが比較的多くいます。一方皮膚科や泌尿器科、呼吸器内科ではじめて診",
+    "アジソン病は、主に成人にみられ、一方先天性のものは主に小児期に発症がみられま"
+   ]
+  },
+  {
+   "word": "一般的",
+   "total": 60,
+   "in_onset": 4,
+   "numeric_context": 0,
+   "examples": [
+    "って異なりますが、ライ ゾーム病の場合は一般的に150人から200人に1人くらいと考え",
+    "とくにどのような人に多いか、一般的な傾向はありません。"
+   ]
+  },
+  {
+   "word": "一定",
+   "total": 25,
+   "in_onset": 3,
+   "numeric_context": 0,
+   "examples": [
+    "とこなどにももやもや病の方がいる可能性が一定程度（10−20%程度）ありうるというこ",
+    "乳幼児から高齢者までの男女にみられ、一定の傾向はありませんが、患者さんが元来持っ"
+   ]
+  },
+  {
+   "word": "一度",
+   "total": 15,
+   "in_onset": 2,
+   "numeric_context": 0,
+   "examples": [
+    "があって他に大きな病気はないという方は、一度この病気のことを考えて腎臓の検査（超音波",
+    "新によりヒトの設計図である「遺伝子」を、一度にたくさん調べる研究が行われるようになっ"
+   ]
+  },
+  {
+   "word": "十分",
+   "total": 108,
+   "in_onset": 1,
+   "numeric_context": 0,
+   "examples": [
+    "に大きく影響する可能性があるため、医師と十分に相談し慎重に検討しなければなりません。"
+   ]
+  },
+  {
+   "word": "四徴",
+   "total": 33,
+   "in_onset": 1,
+   "numeric_context": 0,
+   "examples": [
+    "群での合併が多いと言われており、ファロー四徴症の15％程度に合併するという報告があり"
+   ]
+  },
+  {
+   "word": "四徴症",
+   "total": 31,
+   "in_onset": 1,
+   "numeric_context": 0,
+   "examples": [
+    "群での合併が多いと言われており、ファロー四徴症の15％程度に合併するという報告がありま"
+   ]
+  },
+  {
+   "word": "四肢",
+   "total": 29,
+   "in_onset": 1,
+   "numeric_context": 0,
+   "examples": [
+    "されたり、生後早期に特徴的な顔つきと短い四肢や指などがあることより気づかれます。"
+   ]
+  },
+  {
+   "word": "一人",
+   "total": 21,
+   "in_onset": 1,
+   "numeric_context": 3,
+   "examples": [
+    "ばれます。保因者の頻度はおよそ350人に一人と計算されます。"
+   ]
+  },
+  {
+   "word": "二次",
+   "total": 21,
+   "in_onset": 1,
+   "numeric_context": 0,
+   "examples": [
+    "また何らかの基礎疾患があって起こるものを二次性あるいは続発性と言います。近年、特定薬"
+   ]
+  },
+  {
+   "word": "二次性",
+   "total": 19,
+   "in_onset": 1,
+   "numeric_context": 0,
+   "examples": [
+    "また何らかの基礎疾患があって起こるものを二次性あるいは続発性と言います。近年、特定薬剤"
+   ]
+  },
+  {
+   "word": "三尖",
+   "total": 17,
+   "in_onset": 1,
+   "numeric_context": 1,
+   "examples": [
+    "色体異常に伴って発生する例がみられます。三尖弁閉鎖症の約10～15％では心臓以外の先"
+   ]
+  },
+  {
+   "word": "三尖弁",
+   "total": 17,
+   "in_onset": 1,
+   "numeric_context": 1,
+   "examples": [
+    "色体異常に伴って発生する例がみられます。三尖弁閉鎖症の約10～15％では心臓以外の先天"
+   ]
+  },
+  {
+   "word": "一番",
+   "total": 13,
+   "in_onset": 1,
+   "numeric_context": 0,
+   "examples": [
+    "こども時代に小児科で診断される患者さんが一番多く、他には皮膚科、脳神経外科、泌尿器科"
+   ]
+  },
+  {
+   "word": "三好",
+   "total": 8,
+   "in_onset": 1,
+   "numeric_context": 0,
+   "examples": [
+    "オパチー（またはGNEミオパチー）」と「三好型ミオパチー」の患者さんの多くは20代～"
+   ]
+  },
+  {
+   "word": "三好型",
+   "total": 8,
+   "in_onset": 1,
+   "numeric_context": 0,
+   "examples": [
+    "オパチー（またはGNEミオパチー）」と「三好型ミオパチー」の患者さんの多くは20代～3"
+   ]
+  },
+  {
+   "word": "同一",
+   "total": 8,
+   "in_onset": 1,
+   "numeric_context": 0,
+   "examples": [
+    "向は明らかではありません。しかし、ときに同一家系内に発生する例、染色体異常に伴って発"
+   ]
+  },
+  {
+   "word": "一番多",
+   "total": 6,
+   "in_onset": 1,
+   "numeric_context": 0,
+   "examples": [
+    "こども時代に小児科で診断される患者さんが一番多く、他には皮膚科、脳神経外科、泌尿器科な"
+   ]
+  },
+  {
+   "word": "千個",
+   "total": 4,
+   "in_onset": 1,
+   "numeric_context": 2,
+   "examples": [
+    "形式」と呼んでいます。 私たちは約2万5千個の遺伝子を持っています。そして、すべての"
+   ]
+  },
+  {
+   "word": "一家",
+   "total": 3,
+   "in_onset": 1,
+   "numeric_context": 0,
+   "examples": [
+    "は明らかではありません。しかし、ときに同一家系内に発生する例、染色体異常に伴って発生"
+   ]
+  },
+  {
+   "word": "一覧",
+   "total": 330,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一般利",
+   "total": 160,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "万人",
+   "total": 102,
+   "in_onset": 0,
+   "numeric_context": 100,
+   "examples": []
+  },
+  {
+   "word": "不十",
+   "total": 17,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一旦",
+   "total": 15,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一時",
+   "total": 15,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "二指",
+   "total": 13,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "二指腸",
+   "total": 13,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "十二",
+   "total": 13,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "十二指",
+   "total": 13,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一次",
+   "total": 12,
+   "in_onset": 0,
+   "numeric_context": 1,
+   "examples": []
+  },
+  {
+   "word": "第一",
+   "total": 12,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一時的",
+   "total": 11,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一種",
+   "total": 11,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一次性",
+   "total": 10,
+   "in_onset": 0,
+   "numeric_context": 1,
+   "examples": []
+  },
+  {
+   "word": "千人",
+   "total": 10,
+   "in_onset": 0,
+   "numeric_context": 7,
+   "examples": []
+  },
+  {
+   "word": "一生",
+   "total": 9,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "万人当",
+   "total": 9,
+   "in_onset": 0,
+   "numeric_context": 9,
+   "examples": []
+  },
+  {
+   "word": "二重",
+   "total": 9,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "数十",
+   "total": 9,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一日",
+   "total": 8,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一緒",
+   "total": 8,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一選",
+   "total": 8,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一選択",
+   "total": 8,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "二重盲",
+   "total": 8,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "万人対",
+   "total": 7,
+   "in_onset": 0,
+   "numeric_context": 7,
+   "examples": []
+  },
+  {
+   "word": "単一",
+   "total": 7,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "設一",
+   "total": 7,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一卵",
+   "total": 6,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一卵性",
+   "total": 6,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一般人",
+   "total": 6,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "数千",
+   "total": 6,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "数百",
+   "total": 6,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一概",
+   "total": 5,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一瞬",
+   "total": 5,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "二塩",
+   "total": 5,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "二塩基",
+   "total": 5,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一時期",
+   "total": 4,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一見",
+   "total": 4,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "万出",
+   "total": 4,
+   "in_onset": 0,
+   "numeric_context": 4,
+   "examples": []
+  },
+  {
+   "word": "万出生",
+   "total": 4,
+   "in_onset": 0,
+   "numeric_context": 4,
+   "examples": []
+  },
+  {
+   "word": "三叉",
+   "total": 4,
+   "in_onset": 0,
+   "numeric_context": 2,
+   "examples": []
+  },
+  {
+   "word": "三叉神",
+   "total": 4,
+   "in_onset": 0,
+   "numeric_context": 2,
+   "examples": []
+  },
+  {
+   "word": "二酸",
+   "total": 4,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "二酸化",
+   "total": 4,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "唯一",
+   "total": 4,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "百人",
+   "total": 4,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "第二",
+   "total": 4,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一対",
+   "total": 3,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一日中",
+   "total": 3,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一旦発",
+   "total": 3,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一社",
+   "total": 3,
+   "in_onset": 0,
+   "numeric_context": 1,
+   "examples": []
+  },
+  {
+   "word": "一致",
+   "total": 3,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一般向",
+   "total": 3,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "十兆",
+   "total": 3,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "十年",
+   "total": 3,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "千種",
+   "total": 3,
+   "in_onset": 0,
+   "numeric_context": 3,
+   "examples": []
+  },
+  {
+   "word": "千種類",
+   "total": 3,
+   "in_onset": 0,
+   "numeric_context": 3,
+   "examples": []
+  },
+  {
+   "word": "等一",
+   "total": 3,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一人一",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一割",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一定以",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一家族",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一年",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一年間",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一旦回",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一旦胃",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一旦鼻",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一次繊",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一番外",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一群",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一見正",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一親",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一連",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "一郎",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "万一",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "万人以",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 2,
+   "examples": []
+  },
+  {
+   "word": "万人出",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 2,
+   "examples": []
+  },
+  {
+   "word": "三大",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "二分",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "人一",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "何十",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "兆個",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "医一",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "十兆個",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "十分抑",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "十数",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "千切",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "四肢遠",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "四肢長",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "四肢麻",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "百人程",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  },
+  {
+   "word": "統一",
+   "total": 2,
+   "in_onset": 0,
+   "numeric_context": 0,
+   "examples": []
+  }
+ ]
+}

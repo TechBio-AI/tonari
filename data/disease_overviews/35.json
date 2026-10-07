@@ -1,0 +1,53 @@
+{
+ "idx": 35,
+ "name": "皮膚筋炎",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/221",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Dermatomyositis"
+  }
+ ],
+ "summary": {
+  "text": "A rare idiopathic inflammatory myopathy (IIM) characterized by evocative skin lesions, muscle involvement with symmetrical proximal muscle weakness, and specific histological features. The clinical subtypes are defined by the presence of myositis-specific antibodies (anti-Mi2, anti-NXP2, anti-TIF1-γ, anti-MDA5, or anti-SAE antibodies) and are associated with specific clinical phenotypes and prognosis.",
+  "source_id": "orphanet",
+  "evidence": "A rare idiopathic inflammatory myopathy ",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "evocative skin lesions",
+   "source_id": "orphanet",
+   "evidence": "evocative skin lesions"
+  },
+  {
+   "text": "symmetrical proximal muscle weakness",
+   "source_id": "orphanet",
+   "evidence": "symmetrical proximal muscle weakness"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/221",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: specific histological features / myositis-specific antibodies",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

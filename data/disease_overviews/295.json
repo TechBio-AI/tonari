@@ -1,0 +1,61 @@
+{
+ "idx": 295,
+ "name": "先天性筋無力症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3963",
+   "fetched_at": "2026-09-24T00:44:49+09:00",
+   "sha256": "598ba62cead2dd3fe6ac12dfc67af3a4932bcd704a525d8884516e63c8e2fd31",
+   "title": "先天性筋無力症候群（指定難病１２） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "神経から筋肉へ信号を伝える部分がうまく働かなくなる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "神経筋接合部の信号の伝達がうまくできなくなります",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "手足や顔、体の筋肉に力が入らない",
+   "source_id": "nanbyou",
+   "evidence": "手足・顔・体幹（胸や腰）の筋肉に力が入らなかったり"
+  },
+  {
+   "text": "筋肉が疲れやすい",
+   "source_id": "nanbyou",
+   "evidence": "筋肉が疲れやすくなったりします"
+  },
+  {
+   "text": "目を動かす筋肉やまぶたにも症状が出る",
+   "source_id": "nanbyou",
+   "evidence": "眼を動かす筋肉やまぶたを上げる筋肉にも同じような症状"
+  },
+  {
+   "text": "かむ力や飲み込みが弱くなる",
+   "source_id": "nanbyou",
+   "evidence": "食べ物をかむ力や飲み込みが悪くなる"
+  }
+ ],
+ "onset": {
+  "text": "男女差はありません",
+  "source_id": "nanbyou",
+  "evidence": "男女差はありません。"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "重症筋無力症に対する薬剤と同じ薬剤が効果があります"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3963",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:40:16+09:00",
+ "shard": 2
+}

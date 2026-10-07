@@ -1,0 +1,60 @@
+{
+ "idx": 59,
+ "name": "成長ホルモン分泌不全性低身長症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_04_005/",
+   "fetched_at": "2026-09-24T00:48:03+09:00",
+   "sha256": "e75e7d7beeb3fe1bab893e79dba7717c6497a6b9b604bd475164ad0f9de714c7",
+   "title": "成長ホルモン（GH）分泌不全性低身長症（脳の器質的原因によるものに限る。） 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "成長ホルモンが足りないために背が低くなる病気です。",
+  "source_id": "shouman",
+  "evidence": "成長ホルモン分泌不全性低身長症(GHD)はGH分泌不全による低身長症で",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "身長の伸びが遅くなる",
+   "source_id": "shouman",
+   "evidence": "GHDの病態は，成長率の低下であり"
+  },
+  {
+   "text": "背が低くなる",
+   "source_id": "shouman",
+   "evidence": "その結果低身長をきたす"
+  },
+  {
+   "text": "乳幼児期から成長の遅れがみられる",
+   "source_id": "shouman",
+   "evidence": "乳幼児期からの成長障害がみられ"
+  },
+  {
+   "text": "低血糖の症状が出ることがある",
+   "source_id": "shouman",
+   "evidence": "低血糖などの症状を伴うことがある"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "短期的には身長増加を促進して、なるべく早く身長を正常化し"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_04_005/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "症状の節が短く、4 件しか取れなかった。",
+  "疫学の節は頻度の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:54:01+09:00",
+ "shard": 4
+}

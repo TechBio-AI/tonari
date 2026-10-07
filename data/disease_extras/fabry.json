@@ -1,0 +1,150 @@
+{
+  "slug": "fabry",
+  "family": {
+    "inheritance": [
+      { "id": "F-01", "text": "ファブリー病は、X 連鎖（えっくすれんさ）という遺伝のしかたをとる病気です。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "X 連鎖遺伝形式の先天代謝異常症である" },
+      { "id": "F-02", "text": "ファブリー病は、女性も発病することが多い病気です。", "source_url": "https://www.nanbyou.or.jp/entry/4063", "evidence": "ファブリー病は例外的で女性も発病することが多いため" },
+      { "id": "F-02b", "text": "このため、「X 連鎖性遺伝形式」と呼ばれています。", "source_url": "https://www.nanbyou.or.jp/entry/4063", "evidence": "「X連鎖性遺伝形式」と呼んでいます" },
+      { "id": "F-03", "text": "父親が患者の場合、娘は通常、女性の患者（ヘテロ患者）になります。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "男性発端者（矢印）の母親および娘は通常女性ヘテロ患者となり" },
+      { "id": "F-04", "text": "父親が患者の場合、息子はファブリー病を発症しません。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "息子はファブリー病を発症しない" },
+      { "id": "F-05", "text": "母親が患者（女性ヘテロ患者）の場合、息子も娘も、それぞれ2分の1の割合で遺伝子の変化を受け継ぎます。受け継いだ息子は男性患者に、娘は女性ヘテロ患者になります。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "女性ヘテロ患者の息子は 50% の確率で男性患者" },
+      { "id": "F-06", "text": "家族に患者がいない例もあります。患者の親が必ずしも患者とは限りません。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "ファブリー病患者の親が必ずしも患者とは限らない" },
+      { "id": "F-07", "text": "女性の経過は人によってさまざまで、子どものころから手足の痛みが出る人もいれば、60 代になって心臓の病気（心肥大）で分かる人もいます。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "60 代になり心肥大で発症するものまで臨床経過は様々である" },
+      { "id": "F-08", "text": "同じ遺伝子の変化をもつ同じ家系の中でも、重さの違いはふつうに見られます。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "同じ遺伝子変異を有する同一家系内でも一般的に認められる" },
+      { "id": "F-09", "text": "遺伝の情報は、血のつながった家族の間で一部共有されています。", "source_url": "https://jams.med.or.jp/guideline/genetics-diagnosis_2022.pdf", "evidence": "血縁者間で一部共有されていること" }
+    ],
+    "diagram": {
+      "father": {
+        "son": { "id": "F-04", "text": "発症しません", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "息子はファブリー病を発症しない" },
+        "daughter": { "id": "F-03", "text": "通常、女性ヘテロ患者になります", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "男性発端者（矢印）の母親および娘は通常女性ヘテロ患者となり" }
+      },
+      "mother": {
+        "son": { "id": "F-05", "text": "2分の1の割合で遺伝子の変化を受け継ぎます。受け継いだ息子は男性患者になります", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "女性ヘテロ患者の息子は 50% の確率で男性患者" },
+        "daughter": { "id": "F-05", "text": "2分の1の割合で遺伝子の変化を受け継ぎます。受け継いだ娘は女性ヘテロ患者になります", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "娘も 50% の確率で女性ヘテロ患者となる" }
+      }
+    },
+    "letter": {
+      "status": "approved",
+      "paragraphs": [
+        "（　　　）さんへ",
+        "わたしは、ファブリー病という病気だと分かりました。この病気は遺伝することがあり、家族にも関係するかもしれないので、この手紙を書きました。",
+        "このことを知ってどうするか、いつ考えるかは、あなたが自分で決めてよいことです。",
+        "検査を受けるかどうかは、よく知ったうえで、あなたが自分で決めてよいことです。",
+        "遺伝のことは、遺伝カウンセリングで相談できます。全国遺伝子医療部門連絡会議のホームページで、相談できる施設を探せます。",
+        "（日付）（名前）"
+      ],
+      "writer_note": [
+        "この手紙は、渡さない選択もあります。渡す時期は、あなたが選べます。遺伝カウンセリングで相談することもできます。"
+      ]
+    },
+    "consult": [
+      { "id": "C-01", "text": "遺伝カウンセリングは、病気の遺伝について、医学的な影響、心の影響、家族への影響を理解し、それに向き合っていくことを助ける場です。", "source_url": "https://jams.med.or.jp/guideline/genetics-diagnosis_2022.pdf", "evidence": "家族への影響を人々が理解し、それに適応していくことを助けるプロセス" },
+      { "id": "C-02", "text": "情報を伝えるだけでなく、自分で選べるよう心の面・生活の面から支えることが大切とされています。", "source_url": "https://jams.med.or.jp/guideline/genetics-diagnosis_2022.pdf", "evidence": "自律的選択が可能となるような心理的社会的支援が重要" },
+      { "id": "C-03", "text": "最終的に決めるのは、相談する人自身の意思が最も大切とされています。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "最終的な決定はクライエント自身の意思が最も重要である" },
+      { "id": "C-04", "text": "遺伝学的検査で分かった個人の遺伝情報は、本人の同意なく、血縁者を含むほかの人に伝えるべきではないとされています。", "source_url": "https://jams.med.or.jp/guideline/genetics-diagnosis_2022.pdf", "evidence": "被検者の同意なく血縁者を含む第三者に開示すべきではない" },
+      { "id": "C-05", "text": "検査を受けるか受けないかは、十分に理解したうえで本人が自分で決められるよう支えるもの、とされています。", "source_url": "https://jams.med.or.jp/guideline/genetics-diagnosis_2022.pdf", "evidence": "検査を受けるか受けないかについて本人が自律的に意思決定" },
+      { "id": "C-06", "text": "全国遺伝子医療部門連絡会議の「登録機関遺伝子医療体制検索・提供システム」では、病気の分類や都道府県から、遺伝子医療を行っている施設を探せます。", "source_url": "http://www.idenshiiryoubumon.org/search/index.html", "evidence": "県内の遺伝子医療を行っている施設名を表示します。", "link": { "url": "http://www.idenshiiryoubumon.org/search/index.html", "label": "施設を探す（全国遺伝子医療部門連絡会議）" } },
+      { "id": "C-07", "text": "未成年など自分で同意できない人の遺伝学的検査が医療上必要になることがあり、その場合は両親などの同意のもとで行い、本人にも分かる範囲で説明することが望ましいとされています。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "未成年者など同意能力のない者を対象とした遺伝学的検査が医療上必要" },
+      { "id": "C-08", "text": "一方で、未成年の人について、保因者かどうかを調べることや、大人になってから発症する病気を発症前に調べることは、原則として本人が成人して自分で判断できるまで延ばすべきとされています。", "source_url": "https://jams.med.or.jp/guideline/genetics-diagnosis_2022.pdf", "evidence": "原則として本人が成人し自律的に判断できるまで実施を延期すべき" },
+      { "id": "C-09", "text": "ファブリー病は子どものころから症状が出ることがあります。お子さんの検査をどうするかは、小児科や遺伝科で相談してください。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "男女とも幼少期から症状を呈すること" }
+    ]
+  },
+  "clinicians": {
+    "organs": [
+      {
+        "organ": "全体",
+        "facts": [
+          { "id": "K-01", "text": "男女とも幼少期から症状を呈することが多い。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "男女とも幼少期から症状を呈すること" },
+          { "id": "K-02", "text": "小児科のほか、循環器内科、腎臓内科、神経内科、耳鼻科、眼科、皮膚科、精神科など多様な診療科を受診することがある。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "多様な診療科を受診することも少なくありません" },
+          { "id": "K-03", "text": "発症から診断までに 10〜15 年程度を要すると報告されている。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "発症から診断までに 10 ～ 15 年程度要すると報告されている" },
+          { "id": "K-04", "text": "蛋白尿、心肥大、慢性下痢などを認める成人では、幼少期の手足の痛みや汗のかきにくさなどを問診することが大切である。", "source_url": "https://www.shouman.jp/disease/details/08_06_091/", "evidence": "幼少期の手足の痛みや汗のかきにくさなどを問診することが大切" }
+        ]
+      },
+      {
+        "organ": "四肢の痛み",
+        "facts": [
+          { "id": "K-05", "text": "四肢末端痛は初発症状として重要で、手指、手掌、手背、足趾、足底、足背などに認められることが多い。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "四肢末端痛は初発症状として重要であり" },
+          { "id": "K-06", "text": "「燃えるように熱い」「耐え難い」などと表現されることが多い。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "「燃えるように熱い」，「耐え難い」などと表現され" },
+          { "id": "K-07", "text": "男性では、四肢の激痛、無汗、腹痛等による不登校をきたし、精神的な問題として捉えられることがある。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "精神的な問題として捉えられることがあり" },
+          { "id": "K-08", "text": "女性も四肢の疼痛があり、成長痛などと間違われることがある。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "成長痛などと間違われることがあります" },
+          { "id": "K-09", "text": "四肢末端痛・発汗障害は幼児期・学童期から認められ、30 歳以降は自然に軽快する傾向がある。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "30 歳以降自然軽快する傾向があり" }
+        ]
+      },
+      {
+        "organ": "汗・皮膚",
+        "facts": [
+          { "id": "K-10", "text": "汗をかきにくいこと（低汗症や無汗症）と、それによる体温の上昇を認める。", "source_url": "https://www.shouman.jp/disease/details/08_06_091/", "evidence": "汗をかきにくいこと（低汗症や無汗症）、それによる体温の上昇" },
+          { "id": "K-11", "text": "古典型は、学童期までに四肢末端痛、発汗異常、被角血管腫で発症する。", "source_url": "https://www.shouman.jp/disease/instructions/08_06_091/", "evidence": "学童期までに四肢末端痛、発汗異常、被角血管腫で発症" }
+        ]
+      },
+      {
+        "organ": "腎臓",
+        "facts": [
+          { "id": "K-12", "text": "腎障害は 20 歳以降に尿蛋白で発症し、進行性の GFR 低下、血清クレアチニン値の上昇を認め、最終的に腎不全に至る場合がある。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "20 歳以降より尿タンパクで発症し" },
+          { "id": "K-13", "text": "一般的な臨床検査で認められる特異的な所見は、尿沈渣のマルベリー細胞のみで、その他は非特異的である。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "特異的な所見は，尿沈渣でのマルベリー細胞のみで" },
+          { "id": "K-15", "text": "腎生検（HE 染色）では、糸球体上皮細胞の泡沫状変化を認める。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "糸球体上皮細胞の泡沫状変化を認め" }
+        ]
+      },
+      {
+        "organ": "心臓",
+        "facts": [
+          { "id": "K-16", "text": "30 歳以降に進行性の心肥大として発症し、40 歳以降に不整脈、心不全を認めるようになる。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "30 歳以降より進行性の心肥大として発症し" },
+          { "id": "K-17", "text": "左室肥大や心筋症の中でのファブリー病の頻度は 3〜4% とされる。", "source_url": "https://www.shouman.jp/disease/details/08_06_091/", "evidence": "左室肥大や心筋症の中での心ファブリー病の頻度は3〜4%" },
+          { "id": "K-18", "text": "遅発型では小児期の四肢末端痛・発汗障害を認めず、成人期以降に心肥大のみを呈するものから末期腎不全に進行するものまである。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "成人期以降より心肥大のみを呈するものから" },
+          { "id": "K-19", "text": "心筋生検では心筋細胞の空胞化と線維化を認め、電子顕微鏡では腎臓・心筋とも同心円状の構造物（ゼブラボディ）を認める。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "心筋細胞の空胞化と線維化を認める" }
+        ]
+      },
+      {
+        "organ": "脳血管",
+        "facts": [
+          { "id": "K-20", "text": "脳血管障害は 30 歳代以降に認められ、若年性脳梗塞、家族性脳梗塞の原因として重要である。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "若年性脳梗塞，家族性脳梗塞の原因として重要" }
+        ]
+      },
+      {
+        "organ": "眼",
+        "facts": [
+          { "id": "K-21", "text": "学童期以降の眼科的診察で、特徴的な渦状角膜混濁を認める。", "source_url": "https://www.shouman.jp/disease/instructions/08_06_091/", "evidence": "本疾患に特徴的な渦状角膜混濁を認める" }
+        ]
+      },
+      {
+        "organ": "耳",
+        "facts": [
+          { "id": "K-22", "text": "難聴・めまい等の耳鼻科的症状を認める。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "難聴・めまい等の耳鼻科的症状" }
+        ]
+      },
+      {
+        "organ": "消化器",
+        "facts": [
+          { "id": "K-23", "text": "下痢・腹痛等の消化器症状を認め、発汗障害とともに自律神経障害に起因すると考えられている。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "発汗障害および消化器症状は自律神経障害に起因する" }
+        ]
+      },
+      {
+        "organ": "家族歴",
+        "facts": [
+          { "id": "K-24", "text": "家族歴は診断の key sign として重要で、女性ヘテロ患者の多くは家族歴から診断される。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "女性ヘテロ患者の多くは家族歴から診断される" },
+          { "id": "K-25", "text": "家族性の四肢末端痛、腎障害、心肥大、脳血管障害は、ファブリー病を疑わせる所見となる。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "家族性の四肢末端痛，腎障害，心肥大，脳血管障害" },
+          { "id": "K-26", "text": "家族歴をもたない de novo 症例が 6.8% と報告されており、患者の親が必ずしも患者とは限らない。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "ファブリー病患者の親が必ずしも患者とは限らない" }
+        ]
+      },
+      {
+        "organ": "女性",
+        "facts": [
+          { "id": "K-27", "text": "女性ヘテロ患者では、発症年齢や進行は男性より遅い傾向があるが、心肥大のみから末期腎不全に至るものまで多様である。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "男性に比べると遅い傾向がある" }
+        ]
+      },
+      {
+        "organ": "検査の留意点",
+        "facts": [
+          { "id": "K-28", "text": "白血球 GLA 活性は、男性患者では正常の 10% 以下まで低下するが、女性ヘテロ患者では低下しないことが多く、診断に有用でない。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "女性ヘテロ患者では低下しないことが多く診断に有用でない" },
+          { "id": "K-29", "text": "2020年のガイドラインによれば、診断のための遺伝学的検査（白血球 GLA 活性の測定、GLA 遺伝子解析）は保険収載されている。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "遺伝学的検査（白血球 GLA 活性の測定，GLA 遺伝子解析）は保険収載" }
+        ]
+      },
+      {
+        "organ": "相談先",
+        "facts": [
+          { "id": "K-30", "text": "日本先天代謝異常学会のホームページから精密検査施設を検索できる。", "source_url": "https://jsimd.net/pdf/fabry2020.pdf", "evidence": "より精密検査施設を検索できる", "link": { "url": "https://jsimd.net/iof.html", "label": "精密検査施設一覧（日本先天代謝異常学会）" } }
+        ]
+      }
+    ]
+  }
+}

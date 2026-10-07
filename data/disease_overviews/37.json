@@ -1,0 +1,75 @@
+{
+ "idx": 37,
+ "name": "結節性多発動脈炎",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/85",
+   "fetched_at": "2026-09-24T00:46:45+09:00",
+   "sha256": "61b991936db14b1bf1e903963ceb93d0b0dffdc2779a60a2428185125ba97df7",
+   "title": "結節性多発動脈炎（指定難病４２） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "中くらいの太さの動脈の壁に炎症が起こる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "中型血管の動脈壁に 炎症 や 壊死 を生じる疾患です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "高い熱が出る",
+   "source_id": "nanbyou",
+   "evidence": "38℃以上の高熱"
+  },
+  {
+   "text": "体重が減る",
+   "source_id": "nanbyou",
+   "evidence": "体重減少"
+  },
+  {
+   "text": "血圧が高くなる",
+   "source_id": "nanbyou",
+   "evidence": "高血圧"
+  },
+  {
+   "text": "紫色のあざや皮膚のただれができる",
+   "source_id": "nanbyou",
+   "evidence": "紫斑や皮膚潰瘍"
+  },
+  {
+   "text": "筋肉や関節が痛む",
+   "source_id": "nanbyou",
+   "evidence": "筋肉痛・関節痛"
+  },
+  {
+   "text": "手足がしびれる",
+   "source_id": "nanbyou",
+   "evidence": "四肢のしびれ"
+  },
+  {
+   "text": "お腹が痛む、便に血がまじる",
+   "source_id": "nanbyou",
+   "evidence": "腹痛・下血"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "治療の目標は、血管の炎症を完全に消失させて、その状態を維持することです"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/85",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節の発症年齢は数値と一体のため onset は null。",
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:35:30+09:00",
+ "shard": 2
+}

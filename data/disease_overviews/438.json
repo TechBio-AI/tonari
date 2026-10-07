@@ -1,0 +1,74 @@
+{
+ "idx": 438,
+ "name": "ウェルナー症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5320",
+   "fetched_at": "2026-09-24T00:46:25+09:00",
+   "sha256": "4189970d053c34b2c2ed595aa7bbf2e391088cfe7470d5b4dc479377356cad91",
+   "title": "ウェルナー症候群（指定難病１９１） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "思春期を過ぎるころから、老化が早く進むように見える病気です。",
+  "source_id": "nanbyou",
+  "evidence": "思春期を過ぎる頃より急速に老化が進んでいくようにみえる",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "白髪が増える、髪が抜ける",
+   "source_id": "nanbyou",
+   "evidence": "白髪・脱毛などの毛髪の変化"
+  },
+  {
+   "text": "両目に白内障が起こる",
+   "source_id": "nanbyou",
+   "evidence": "白内障（両目の場合が多い）"
+  },
+  {
+   "text": "声が高くかすれる",
+   "source_id": "nanbyou",
+   "evidence": "かん高くかすれた声"
+  },
+  {
+   "text": "腕や脚の筋肉がやせる",
+   "source_id": "nanbyou",
+   "evidence": "腕や脚の筋肉がやせ"
+  },
+  {
+   "text": "皮膚が固く薄くなる",
+   "source_id": "nanbyou",
+   "evidence": "皮膚も固く薄くなり"
+  },
+  {
+   "text": "傷が治りにくくなる",
+   "source_id": "nanbyou",
+   "evidence": "深いキズができて治りにくくなります"
+  },
+  {
+   "text": "背が低いことが多い",
+   "source_id": "nanbyou",
+   "evidence": "身長は低いことが多く"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "まだ根本的に治す方法がなく"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5320",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は地域と生活習慣の説明で、発症年齢の記載が無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:30:26+09:00",
+ "shard": 1
+}

@@ -1,0 +1,52 @@
+{
+ "idx": 248,
+ "name": "重症複合免疫不全症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/183660",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Severe combined immunodeficiency"
+  }
+ ],
+ "summary": {
+  "text": "Severe combined immunodeficiency (SCID) comprises a group of rare monogenic primary immunodeficiency disorders characterized by a lack of functional peripheral T lymphocytes resulting in early-onset severe respiratory infections and failure to thrive. They are classified according to immunological phenotype into SCID with absence of T cells but presence of B cells (T-B+ SCID) or SCID with absence of both (T-B- SCID). Both of these groups include several forms, with or without natural killer (NK) cells.",
+  "source_id": "orphanet",
+  "evidence": "Severe combined immunodeficiency (SCID) ",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "severe respiratory infections",
+   "source_id": "orphanet",
+   "evidence": "severe respiratory infections"
+  },
+  {
+   "text": "failure to thrive",
+   "source_id": "orphanet",
+   "evidence": "failure to thrive"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/183660",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "「early-onset」は時期を特定しない言い方のため onset は null。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

@@ -1,0 +1,68 @@
+{
+ "idx": 505,
+ "name": "カルバミルリン酸合成酵素I欠損症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/147",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Carbamoyl-phosphate synthetase 1 deficiency"
+  }
+ ],
+ "summary": {
+  "text": "A rare, severe disorder of urea cycle metabolism typically characterized by either a neonatal-onset of severe hyperammonemia that occurs few days after birth and manifests with lethargy, vomiting, hypothermia, seizures, coma and death or a presentation outside the newborn period at any age with (sometimes) milder symptoms of hyperammonemia.",
+  "source_id": "orphanet",
+  "evidence": "A rare, severe disorder of urea cycle me",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "lethargy",
+   "source_id": "orphanet",
+   "evidence": "lethargy"
+  },
+  {
+   "text": "vomiting",
+   "source_id": "orphanet",
+   "evidence": "vomiting"
+  },
+  {
+   "text": "hypothermia",
+   "source_id": "orphanet",
+   "evidence": "hypothermia"
+  },
+  {
+   "text": "seizures",
+   "source_id": "orphanet",
+   "evidence": "seizures"
+  },
+  {
+   "text": "coma",
+   "source_id": "orphanet",
+   "evidence": "coma"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/147",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: severe hyperammonemia",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "発症は新生児期と「any age」の 2 通りが書かれており、1 つに決められないため onset は null。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

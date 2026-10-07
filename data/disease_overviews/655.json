@@ -1,0 +1,52 @@
+{
+ "idx": 655,
+ "name": "Peutz-Jeghers症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2869",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Peutz-Jeghers syndrome"
+  }
+ ],
+ "summary": {
+  "text": "A genetic intestinal polyposis syndrome characterized by development of characteristic hamartomatous polyps throughout the gastrointestinal (GI) tract, and by mucocutaneous pigmentation. This disorder carries a considerably increased risk of GI and extra-GI malignancies.",
+  "source_id": "orphanet",
+  "evidence": "A genetic intestinal polyposis syndrome ",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "hamartomatous polyps throughout the gastrointestinal (GI) tract",
+   "source_id": "orphanet",
+   "evidence": "hamartomatous polyps throughout the"
+  },
+  {
+   "text": "mucocutaneous pigmentation",
+   "source_id": "orphanet",
+   "evidence": "mucocutaneous pigmentation"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2869",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

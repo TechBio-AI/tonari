@@ -1,0 +1,43 @@
+{
+ "idx": 782,
+ "name": "遺伝性毛髪・歯・爪異常症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/79373",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Ectodermal dysplasia syndrome"
+  }
+ ],
+ "summary": {
+  "text": "The term ''ectodermal dysplasia'' defines a heterogeneous group of heritable disorders of the skin and its appendages characterized by the defective development of two or more ectodermal derivatives, including hair, teeth, nails, sweat glands and their modified structures (i.e. ceruminous, mammary and ciliary glands). The spectrum of clinical manifestations is wide and may include additional manifestations from other ectodermal, mesodermal and endodermal structures.",
+  "source_id": "orphanet",
+  "evidence": "The term ''ectodermal dysplasia'' define",
+  "lang": "en"
+ },
+ "symptoms": [],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/79373",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に症状の列挙が無い（または検査所見だけ）のため symptoms は空。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Definition は外胚葉由来の組織（hair, teeth, nails, sweat glands）の発達異常の説明で、症状として列挙されてはいない。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

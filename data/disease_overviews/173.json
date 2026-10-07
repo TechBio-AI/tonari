@@ -1,0 +1,75 @@
+{
+ "idx": 173,
+ "name": "TNF受容体関連周期性症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4033",
+   "fetched_at": "2026-09-24T00:44:56+09:00",
+   "sha256": "2eeffc5d3b2cced04f0f8f57bd105b72699f02c51854096c06ac4ed6257aa011",
+   "title": "ＴＮＦ受容体関連周期性症候群（指定難病１０８） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "周期的に熱をくり返す、遺伝性の病気です。",
+  "source_id": "nanbyou",
+  "evidence": "周期的に発熱を繰り返す遺伝性の疾患",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "熱が出る",
+   "source_id": "nanbyou",
+   "evidence": "発熱は最も高頻度に認められる症状"
+  },
+  {
+   "text": "筋肉が痛む",
+   "source_id": "nanbyou",
+   "evidence": "筋痛は局所性に生じ"
+  },
+  {
+   "text": "関節が痛む",
+   "source_id": "nanbyou",
+   "evidence": "関節痛"
+  },
+  {
+   "text": "発疹が出る",
+   "source_id": "nanbyou",
+   "evidence": "発疹"
+  },
+  {
+   "text": "目の周りがむくむ",
+   "source_id": "nanbyou",
+   "evidence": "目の周りのむくみ、腹痛"
+  },
+  {
+   "text": "お腹が痛む、胸が痛む",
+   "source_id": "nanbyou",
+   "evidence": "腹痛、胸痛を認める場合もあります"
+  },
+  {
+   "text": "皮膚に赤みが移動して出る",
+   "source_id": "nanbyou",
+   "evidence": "筋痛の部位に一致して移動する紅斑"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "現時点でTRAPSに対する根治療法は存在せず"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4033",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節の発症年齢は数値と一体のため onset は null。",
+  "治療の節には薬の分類名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:38:40+09:00",
+ "shard": 2
+}

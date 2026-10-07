@@ -1,0 +1,72 @@
+{
+ "idx": 390,
+ "name": "若年性パーキンソン病",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2828",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Young-onset Parkinson disease"
+  }
+ ],
+ "summary": {
+  "text": "A rare parkinsonian disorder characterized by an age of onset between 21-45 years, rigidity, painful cramps followed by tremor, bradykinesia, dystonia, gait complaints and falls, and other non-motor symptoms. A slow disease progression and a more pronounced response to dopaminergic therapy are also observed in most forms of this disease.",
+  "source_id": "orphanet",
+  "evidence": "A rare parkinsonian disorder characteriz",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "rigidity",
+   "source_id": "orphanet",
+   "evidence": "rigidity"
+  },
+  {
+   "text": "painful cramps",
+   "source_id": "orphanet",
+   "evidence": "painful cramps"
+  },
+  {
+   "text": "tremor",
+   "source_id": "orphanet",
+   "evidence": "tremor"
+  },
+  {
+   "text": "bradykinesia",
+   "source_id": "orphanet",
+   "evidence": "bradykinesia"
+  },
+  {
+   "text": "dystonia",
+   "source_id": "orphanet",
+   "evidence": "dystonia"
+  },
+  {
+   "text": "gait complaints and falls",
+   "source_id": "orphanet",
+   "evidence": "gait complaints and falls"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2828",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "発症年齢の記述「an age of onset between 21-45 years」は数字を含むため onset は null。",
+  "Definition に「response to dopaminergic therapy」とあるが、治療の推奨ではなく病型の特徴の記述のため treatment は「記載なし」（薬の種類の名前で、個別の薬剤名ではない）。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

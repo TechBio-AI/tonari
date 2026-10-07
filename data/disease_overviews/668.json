@@ -1,0 +1,61 @@
+{
+ "idx": 668,
+ "name": "甲状腺ホルモン不応症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/99",
+   "fetched_at": "2026-09-24T00:46:48+09:00",
+   "sha256": "bf19d8694a41ed3af7b0934f0c0ddfb18bc4b13db08d7491b0daf16b879b73d8",
+   "title": "甲状腺ホルモン不応症（指定難病８０） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "甲状腺ホルモンのはたらきが弱くなる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "この病気では甲状腺ホルモンの働きが弱くなるので",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "のどのあたりがはれる",
+   "source_id": "nanbyou",
+   "evidence": "甲状腺が大きくなってのどのあたりが腫れる"
+  },
+  {
+   "text": "自覚症状がない方もいる",
+   "source_id": "nanbyou",
+   "evidence": "自覚症状がない患者さんもたくさんいます"
+  },
+  {
+   "text": "脈が速くなり動悸がする",
+   "source_id": "nanbyou",
+   "evidence": "脈が速くなって心臓がドキドキする"
+  },
+  {
+   "text": "落ち着きがなくなる",
+   "source_id": "nanbyou",
+   "evidence": "落ち着きのない患者さんも多い"
+  }
+ ],
+ "onset": {
+  "text": "特定の人に多いということはありません",
+  "source_id": "nanbyou",
+  "evidence": "特定の人に多いということはありません。"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "症状がある方にはそれを抑えるような治療を行います。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/99",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:42:40+09:00",
+ "shard": 2
+}

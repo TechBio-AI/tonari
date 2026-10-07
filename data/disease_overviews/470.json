@@ -1,0 +1,82 @@
+{
+ "idx": 470,
+ "name": "多発性スルファターゼ欠損症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/585",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Multiple sulfatase deficiency"
+  }
+ ],
+ "summary": {
+  "text": "A rare lysosomal disease characterized by a clinical phenotype that combines the features of different sulfatase deficiencies (whether lysosomal or not). Clinical manifestations can include developmental delay, progressive neurologic deterioration, hydrocephalus, hypotonia, coarse facial features, retinopathy, skeletal anomalies, hepatomegaly and ichthyosis to a variable degree. Multiple sulfatase deficiency (MSD) comprises severe to attenuated forms historically classified as neonatal (most severe form), infantile (most common form) or juvenile (rarest form).",
+  "source_id": "orphanet",
+  "evidence": "A rare lysosomal disease characterized b",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "developmental delay",
+   "source_id": "orphanet",
+   "evidence": "developmental delay"
+  },
+  {
+   "text": "progressive neurologic deterioration",
+   "source_id": "orphanet",
+   "evidence": "progressive neurologic deterioration"
+  },
+  {
+   "text": "hydrocephalus",
+   "source_id": "orphanet",
+   "evidence": "hydrocephalus"
+  },
+  {
+   "text": "hypotonia",
+   "source_id": "orphanet",
+   "evidence": "hypotonia"
+  },
+  {
+   "text": "coarse facial features",
+   "source_id": "orphanet",
+   "evidence": "coarse facial features"
+  },
+  {
+   "text": "skeletal anomalies",
+   "source_id": "orphanet",
+   "evidence": "skeletal anomalies"
+  },
+  {
+   "text": "hepatomegaly",
+   "source_id": "orphanet",
+   "evidence": "hepatomegaly"
+  },
+  {
+   "text": "ichthyosis",
+   "source_id": "orphanet",
+   "evidence": "ichthyosis"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/585",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "病型ごとに新生児期・乳児期・若年と書かれており、時期を 1 つに決められないため onset は null。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

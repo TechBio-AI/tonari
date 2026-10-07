@@ -1,0 +1,69 @@
+{
+ "idx": 182,
+ "name": "胆道閉鎖症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4735",
+   "fetched_at": "2026-09-24T00:45:55+09:00",
+   "sha256": "1e6c95250237894db2816fbaac797fa1bf329582656730f91b71fbed025664b0",
+   "title": "胆道閉鎖症（指定難病２９６） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "胆汁の通り道である胆管が、生まれて間もなくつまってしまう病気です。",
+  "source_id": "nanbyou",
+  "evidence": "胆汁の通り道である胆管が、生まれつきまたは生後間もなく完全につまってしまい",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "皮膚や白目が黄色くなる",
+   "source_id": "nanbyou",
+   "evidence": "皮膚や眼球結膜（白目）の黄染（黄疸）"
+  },
+  {
+   "text": "便が白っぽくなる",
+   "source_id": "nanbyou",
+   "evidence": "白っぽい色の便"
+  },
+  {
+   "text": "尿が濃い黄色になる",
+   "source_id": "nanbyou",
+   "evidence": "濃い黄色の尿がみられ"
+  },
+  {
+   "text": "お腹の右上に肝臓が硬く触れる",
+   "source_id": "nanbyou",
+   "evidence": "お腹の右上に肝臓が硬く触るようになります"
+  },
+  {
+   "text": "脾臓が大きくなる",
+   "source_id": "nanbyou",
+   "evidence": "脾臓も徐々に大きくなり"
+  },
+  {
+   "text": "出血しやすくなる",
+   "source_id": "nanbyou",
+   "evidence": "ビタミンＫが欠乏すると出血しやすくなり"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "手術法には胆管の閉塞部を取り除いて胆汁の流出をはかる方法"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4735",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は男女比と合併奇形の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:47:21+09:00",
+ "shard": 3
+}

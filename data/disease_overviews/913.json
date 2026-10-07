@@ -1,0 +1,58 @@
+{
+ "idx": 913,
+ "name": "メチオニンアデノシルトランスフェラーゼ欠損症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/168598",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Methionine adenosyltransferase I/III deficiency"
+  }
+ ],
+ "summary": {
+  "text": "A rare inborn error of metabolism characterized by persistently elevated serum methionine levels. Half of patients reported with MAT I/III deficiency, notably those with hypermethioninemia below 800 µM, have no CNS abnormalities and are clinically asymptomatic. However, individuals with higher levels might show evidence of central nervous system abnormalities, most notably hypo- or demyelination on brain MRI, as well as developmental delay and intellectual disability. Bad breath or a strong smell of urine and sweat may be noted in some patients.",
+  "source_id": "orphanet",
+  "evidence": "A rare inborn error of metabolism charac",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "developmental delay",
+   "source_id": "orphanet",
+   "evidence": "developmental delay"
+  },
+  {
+   "text": "intellectual disability",
+   "source_id": "orphanet",
+   "evidence": "intellectual disability"
+  },
+  {
+   "text": "Bad breath or a strong smell of urine and sweat",
+   "source_id": "orphanet",
+   "evidence": "Bad breath or a strong smell of urine"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/168598",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: elevated serum methionine levels / MRI 所見",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

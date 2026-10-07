@@ -1,0 +1,43 @@
+{
+ "idx": 859,
+ "name": "新生児重症副甲状腺機能亢進症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/417",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Neonatal severe primary hyperparathyroidism"
+  }
+ ],
+ "summary": {
+  "text": "Neonatal severe primary hyperparathyroidism (NSHPT) is characterized by severe hypercalcemia (> 3.5 mM) from birth and associated with major hyperparathyroidism.",
+  "source_id": "orphanet",
+  "evidence": "Neonatal severe primary hyperparathyroid",
+  "lang": "en"
+ },
+ "symptoms": [],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/417",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に症状の列挙が無い（または検査所見だけ）のため symptoms は空。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: severe hypercalcemia (> 3.5 mM) / major hyperparathyroidism",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "「from birth」は検査値（高カルシウム血症）の記述で、数字を含む文の一部のため onset に使わなかった。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

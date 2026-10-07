@@ -1,0 +1,72 @@
+{
+ "idx": 748,
+ "name": "先天性線維症症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/45358",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Congenital fibrosis of extraocular muscles"
+  }
+ ],
+ "summary": {
+  "text": "A rare syndromic disorder with strabismus characterized by congenital non-progressive ophthalmoplegia affecting the oculomotor and/or trochlear nucleus/nerve and their innervated muscles. Patients present with abnormal resting position of the eyes (in most cases infraducted and exotropic), limitation of vertical and horizontal gaze, impaired binocular vision, amblyopia, unilateral or bilateral blepharoptosis, and compensatory abnormal head posture. Extraocular manifestations include intellectual disability, peripheral neuropathy, and skeletal abnormalities, among others.",
+  "source_id": "orphanet",
+  "evidence": "A rare syndromic disorder with strabismu",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "abnormal resting position of the eyes",
+   "source_id": "orphanet",
+   "evidence": "abnormal resting position of the eyes"
+  },
+  {
+   "text": "limitation of vertical and horizontal gaze",
+   "source_id": "orphanet",
+   "evidence": "limitation of vertical and horizontal"
+  },
+  {
+   "text": "impaired binocular vision",
+   "source_id": "orphanet",
+   "evidence": "impaired binocular vision"
+  },
+  {
+   "text": "amblyopia",
+   "source_id": "orphanet",
+   "evidence": "amblyopia"
+  },
+  {
+   "text": "unilateral or bilateral blepharoptosis",
+   "source_id": "orphanet",
+   "evidence": "unilateral or bilateral blepharoptosis"
+  },
+  {
+   "text": "compensatory abnormal head posture",
+   "source_id": "orphanet",
+   "evidence": "compensatory abnormal head posture"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/45358",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

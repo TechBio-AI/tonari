@@ -1,0 +1,74 @@
+{
+ "idx": 648,
+ "name": "リンパ管腫症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4636",
+   "fetched_at": "2026-09-25T03:26:48+09:00",
+   "sha256": "46f6cf944c2c44f87225ebd369fa7ddf8b47727ecf7812373179339b2fc510ab",
+   "title": "リンパ管腫症／ゴーハム病（指定難病２７７） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "生まれつき形に異常のあるリンパ管が、骨や肺などさまざまな組織に入り込んで広がる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "リンパ管がうまれつき異常な構造となり、骨や肺などを中心に様々な組織に浸潤し",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "胸に水がたまる（胸水）",
+   "source_id": "nanbyou",
+   "evidence": "主な症状としては、胸水"
+  },
+  {
+   "text": "息切れ",
+   "source_id": "nanbyou",
+   "evidence": "乳び胸による息切れ"
+  },
+  {
+   "text": "咳",
+   "source_id": "nanbyou",
+   "evidence": "息切れ、咳"
+  },
+  {
+   "text": "息が苦しい",
+   "source_id": "nanbyou",
+   "evidence": "呼吸苦"
+  },
+  {
+   "text": "骨の痛みや骨折",
+   "source_id": "nanbyou",
+   "evidence": "疼痛や病的骨折"
+  },
+  {
+   "text": "脊髄の神経の障害",
+   "source_id": "nanbyou",
+   "evidence": "脊髄神経の障害"
+  }
+ ],
+ "onset": {
+  "text": "子どもや若い人に多く発症します",
+  "source_id": "nanbyou",
+  "evidence": "小児、若年者に多く発症します。"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "局所病変に対しては、外科的切除や放射線治療、硬化療法が選択となります"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4636",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "難病情報センターのページはゴーハム病との共通ページ。",
+  "治療の節に「標準的治療はありません」とあるため、treatment は「症状を抑える治療が中心」とした（Claude Code の判断）。"
+ ],
+ "extracted_at": "2026-10-02T21:14:56+09:00",
+ "shard": 2
+}

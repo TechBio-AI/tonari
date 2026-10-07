@@ -1,0 +1,78 @@
+{
+ "idx": 6,
+ "name": "メチルマロン酸血症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4859",
+   "fetched_at": "2026-09-24T00:46:16+09:00",
+   "sha256": "6dd39d3f8c6f2d8375ed6beaef7796b50029d7778648e9dab62cb37bd56ab56e",
+   "title": "メチルマロン酸血症（指定難病２４６） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "体の中に毒性のある酸がたまって、いろいろな臓器に障害が出る病気です。",
+  "source_id": "nanbyou",
+  "evidence": "体内に有機酸（この病気の場合はメチルマロン酸）という毒性のある酸がたまり",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "おっぱいやミルクが飲めなくなる",
+   "source_id": "nanbyou",
+   "evidence": "哺乳ができなくなり"
+  },
+  {
+   "text": "激しく吐く",
+   "source_id": "nanbyou",
+   "evidence": "激しい嘔吐"
+  },
+  {
+   "text": "体に力が入らない",
+   "source_id": "nanbyou",
+   "evidence": "体に力が入らず"
+  },
+  {
+   "text": "呼吸が弱くなる",
+   "source_id": "nanbyou",
+   "evidence": "呼吸も弱くなり"
+  },
+  {
+   "text": "発達がゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "繰り返す嘔吐や発達の遅れ"
+  },
+  {
+   "text": "体温が下がる",
+   "source_id": "nanbyou",
+   "evidence": "低体温"
+  },
+  {
+   "text": "けいれんが起きる",
+   "source_id": "nanbyou",
+   "evidence": "痙攣"
+  }
+ ],
+ "onset": {
+  "text": "重い場合は生まれて数日以内に症状が出ます",
+  "source_id": "nanbyou",
+  "evidence": "生まれて数日以内に発症する重症のお子さん"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "対症療法が主となります"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4859",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節にはビタミン名が出てくるので、含まない箇所を evidence に選んだ。原文には有効なタイプがあるとも書かれている。"
+ ],
+ "extracted_at": "2026-09-25T02:35:30+09:00",
+ "shard": 2
+}

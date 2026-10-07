@@ -1,0 +1,70 @@
+{
+ "idx": 34,
+ "name": "全身性強皮症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4026",
+   "fetched_at": "2026-09-24T00:44:55+09:00",
+   "sha256": "9d069a9091d6accc2810e586714b387cdc94ce91e72ef888736bde23aa971f2f",
+   "title": "全身性強皮症（指定難病５１） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "皮膚や内臓が硬くなる変化が特徴の病気です。",
+  "source_id": "nanbyou",
+  "evidence": "全身性強皮症は皮膚や内臓が硬くなる変化",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "冷たいものに触れると指が白くなる",
+   "source_id": "nanbyou",
+   "evidence": "冷たいものに触れると手指が蒼白～紫色になる症状"
+  },
+  {
+   "text": "手指が腫れぼったくなる",
+   "source_id": "nanbyou",
+   "evidence": "皮膚硬化は手指の腫れぼったい感じからはじまります"
+  },
+  {
+   "text": "手がこわばる",
+   "source_id": "nanbyou",
+   "evidence": "人によっては手のこわばりを伴います"
+  },
+  {
+   "text": "指輪が入らなくなる",
+   "source_id": "nanbyou",
+   "evidence": "今まで入っていた指輪が入らなくなった"
+  },
+  {
+   "text": "皮膚の硬さが体の中心に向かって広がる",
+   "source_id": "nanbyou",
+   "evidence": "体幹と体の中心部分に皮膚硬化が進むことがあります"
+  },
+  {
+   "text": "指先に潰瘍ができる",
+   "source_id": "nanbyou",
+   "evidence": "指先や関節背面の潰瘍"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "全身性強皮症を完全によくする薬剤はありません"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4026",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節の発症年齢は数値と一体のため onset は null。",
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:54:01+09:00",
+ "shard": 4
+}

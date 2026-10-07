@@ -1,0 +1,65 @@
+{
+ "idx": 384,
+ "name": "ロイス・ディーツ症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4792",
+   "fetched_at": "2026-09-25T03:26:56+09:00",
+   "sha256": "015bc09a5ad3a6ecd4f57da6fc678891e6ee308c17de3f808642db679c2b029e",
+   "title": "マルファン症候群／ロイス・ディーツ症候群（指定難病１６７） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "全身の結合組織（細胞と細胞をつなぐ組織）のはたらきが生まれつき弱いため、心臓や血管、骨格の症状が起こる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "ロイス・ディーツ症候群も全身の結合組織の働きが生まれつき弱いため",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "細く長い指など、骨格の症状",
+   "source_id": "nanbyou",
+   "evidence": "細く長い指など骨格の症状"
+  },
+  {
+   "text": "心臓の弁がうまく閉じず息切れがする",
+   "source_id": "nanbyou",
+   "evidence": "息切れがしたり（弁膜症）"
+  },
+  {
+   "text": "大動脈がふくらんで裂ける",
+   "source_id": "nanbyou",
+   "evidence": "血管の膨らみがすすんで壁が裂けたりする（大動脈解離）"
+  },
+  {
+   "text": "腰痛などの痛み",
+   "source_id": "nanbyou",
+   "evidence": "腰痛など痛みの原因"
+  },
+  {
+   "text": "肺に穴があく（気胸）",
+   "source_id": "nanbyou",
+   "evidence": "肺に穴が開く気胸"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "大動脈を人工血管に置き換える手術が必要になる場合があります"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4792",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "難病情報センターのページはマルファン症候群との共通ページ。目の症状はマルファン症候群の特徴と書かれているため入れなかった。",
+  "発症時期の記述が無いため onset は null。"
+ ],
+ "extracted_at": "2026-10-02T21:14:56+09:00",
+ "shard": 2
+}

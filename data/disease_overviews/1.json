@@ -1,0 +1,79 @@
+{
+ "idx": 1,
+ "name": "ムコ多糖症I型",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_075/",
+   "fetched_at": "2026-09-24T00:49:42+09:00",
+   "sha256": "35c518d5fe3c695bedeaf2beb68e1589ae02956c0026cff7d86cfb6a9b5e463c",
+   "title": "ムコ多糖症Ⅰ型 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "ある物質を分解する酵素が生まれつき足りないために起こる病気です。",
+  "source_id": "shouman",
+  "evidence": "ライソゾーム酵素であるα-L-iduronidase の先天的欠損",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "特徴的な顔だちになる",
+   "source_id": "shouman",
+   "evidence": "特異的顔貌"
+  },
+  {
+   "text": "発達がゆっくりになり、できていたことができなくなる",
+   "source_id": "shouman",
+   "evidence": "精神運動発達障害、神経学的退行"
+  },
+  {
+   "text": "角膜がにごる",
+   "source_id": "shouman",
+   "evidence": "角膜混濁"
+  },
+  {
+   "text": "中耳炎をくり返す、耳が聞こえにくい",
+   "source_id": "shouman",
+   "evidence": "繰り返す中耳炎、難聴"
+  },
+  {
+   "text": "息がしにくくなる",
+   "source_id": "shouman",
+   "evidence": "閉塞性呼吸障害"
+  },
+  {
+   "text": "肝臓や脾臓が大きくなる",
+   "source_id": "shouman",
+   "evidence": "肝臓、脾臓の腫大"
+  },
+  {
+   "text": "関節が動かしにくくなる",
+   "source_id": "shouman",
+   "evidence": "関節可動域性制限"
+  },
+  {
+   "text": "背が低くなる",
+   "source_id": "shouman",
+   "evidence": "低身長に転ずる"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "対症療法と原因治療がある。後者としては、酵素補充療法と造血細胞移植がある。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_075/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は頻度の数値のみのため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:35:30+09:00",
+ "shard": 2
+}

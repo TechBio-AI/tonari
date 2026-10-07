@@ -1,0 +1,73 @@
+{
+ "idx": 393,
+ "name": "遺伝性鉄芽球性貧血",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4405",
+   "fetched_at": "2026-09-24T00:45:16+09:00",
+   "sha256": "3a47d5f8c2a652336b83e69e8e6c92a208a6006fd009767bfbe690be0b945de4",
+   "title": "遺伝性鉄芽球性貧血（指定難病２８６） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "鉄をうまく使えないために起こる貧血です。",
+  "source_id": "nanbyou",
+  "evidence": "鉄芽球性貧血は鉄の利用がうまくいかずに発症する貧血です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "動悸がする",
+   "source_id": "nanbyou",
+   "evidence": "動悸"
+  },
+  {
+   "text": "めまいがする",
+   "source_id": "nanbyou",
+   "evidence": "めまい"
+  },
+  {
+   "text": "疲れやすい",
+   "source_id": "nanbyou",
+   "evidence": "疲れやすさなどの貧血による症状"
+  },
+  {
+   "text": "肝臓に障害が出る",
+   "source_id": "nanbyou",
+   "evidence": "肝障害"
+  },
+  {
+   "text": "糖尿病になる",
+   "source_id": "nanbyou",
+   "evidence": "糖尿病"
+  },
+  {
+   "text": "心臓のはたらきが落ちる",
+   "source_id": "nanbyou",
+   "evidence": "心不全"
+  }
+ ],
+ "onset": {
+  "text": "すべての年齢で起こることがあります",
+  "source_id": "nanbyou",
+  "evidence": "全ての年齢で起こる可能性はあります"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "過剰な鉄を除去する除鉄療法が必要になります"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4405",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節にはビタミン名・薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:41:31+09:00",
+ "shard": 2
+}

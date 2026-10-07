@@ -1,0 +1,75 @@
+{
+ "idx": 98,
+ "name": "混合性結合組織病",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/105",
+   "fetched_at": "2026-09-24T00:44:06+09:00",
+   "sha256": "884d9641801048b747845ee4c94b825cd9bf49c9ed377f468a3e57eddba9926e",
+   "title": "混合性結合組織病（指定難病５２） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "いくつかの膠原病に似た症状が混ざって現れる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "全身性強皮症様、多発性筋炎/皮膚筋炎様の症状が混在し",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "寒さや緊張で指が白くなる",
+   "source_id": "nanbyou",
+   "evidence": "寒冷刺激や精神的緊張により血管が収縮して、手指が蒼白化し"
+  },
+  {
+   "text": "指に冷たさやしびれを感じる",
+   "source_id": "nanbyou",
+   "evidence": "冷感やしびれ感を伴うことがあります"
+  },
+  {
+   "text": "手指や手の甲がはれぼったくなる",
+   "source_id": "nanbyou",
+   "evidence": "手指から手背にかけて腫れぼったくなり"
+  },
+  {
+   "text": "指輪が入りにくくなる",
+   "source_id": "nanbyou",
+   "evidence": "指輪が入りにくくなります"
+  },
+  {
+   "text": "関節が痛む、はれる",
+   "source_id": "nanbyou",
+   "evidence": "多発関節炎"
+  },
+  {
+   "text": "リンパ節がはれる",
+   "source_id": "nanbyou",
+   "evidence": "リンパ節腫脹"
+  },
+  {
+   "text": "顔に赤みが出る",
+   "source_id": "nanbyou",
+   "evidence": "顔面紅斑"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "原因に基づく治療を行うことができません"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/105",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節の発症年齢は数値と一体のため onset は null。",
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:36:53+09:00",
+ "shard": 2
+}

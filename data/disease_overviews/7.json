@@ -1,0 +1,57 @@
+{
+ "idx": 7,
+ "name": "遺伝性血管浮腫",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/91378",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Hereditary angioedema"
+  }
+ ],
+ "summary": {
+  "text": "Hereditary angioedema (HAE) is a genetic disease characterized by the occurrence of transitory and recurrent subcutaneous and/or submucosal edemas resulting in swelling and/or abdominal pain.",
+  "source_id": "orphanet",
+  "evidence": "Hereditary angioedema (HAE) is a genetic",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "transitory and recurrent subcutaneous and/or submucosal edemas",
+   "source_id": "orphanet",
+   "evidence": "transitory and recurrent subcutaneous"
+  },
+  {
+   "text": "swelling",
+   "source_id": "orphanet",
+   "evidence": "swelling"
+  },
+  {
+   "text": "abdominal pain",
+   "source_id": "orphanet",
+   "evidence": "abdominal pain"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/91378",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

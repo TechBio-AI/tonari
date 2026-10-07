@@ -1,0 +1,42 @@
+{
+ "idx": 565,
+ "name": "遺伝性痙性対麻痺2型",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/280270",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Pelizaeus-Merzbacher-like disease"
+  }
+ ],
+ "summary": {
+  "text": "Pelizaeus-Merzbacher like disease (PMLD) is an autosomal recessive leukodystrophy sharing identical clinical and radiological features as X-linked Pelizaeus-Merzbacher disease (PMD).",
+  "source_id": "orphanet",
+  "evidence": "Pelizaeus-Merzbacher like disease (PMLD)",
+  "lang": "en"
+ },
+ "symptoms": [],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/280270",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Definition は別の病気（PMD）と同じ特徴を持つとだけ書き、症状の列挙が無い。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

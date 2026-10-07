@@ -1,0 +1,66 @@
+{
+ "idx": 553,
+ "name": "ミトコンドリア三機能蛋白欠損症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/5",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Long chain 3-hydroxyacyl-CoA dehydrogenase deficiency"
+  }
+ ],
+ "summary": {
+  "text": "A mitochondrial disorder of long chain fatty acid oxidation characterized in most patients by onset in infancy/ early childhood of hypoketotic hypoglycemia, metabolic acidosis, liver disease, hypotonia and, frequently, cardiac involvement with arrhythmias and/or cardiomyopathy.",
+  "source_id": "orphanet",
+  "evidence": "A mitochondrial disorder of long chain f",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "hypotonia",
+   "source_id": "orphanet",
+   "evidence": "hypotonia"
+  },
+  {
+   "text": "liver disease",
+   "source_id": "orphanet",
+   "evidence": "liver disease"
+  },
+  {
+   "text": "arrhythmias",
+   "source_id": "orphanet",
+   "evidence": "arrhythmias"
+  },
+  {
+   "text": "cardiomyopathy",
+   "source_id": "orphanet",
+   "evidence": "cardiomyopathy"
+  }
+ ],
+ "onset": {
+  "text": "onset in infancy/ early childhood",
+  "source_id": "orphanet",
+  "evidence": "onset in infancy/ early childhood"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/5",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: hypoketotic hypoglycemia / metabolic acidosis",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

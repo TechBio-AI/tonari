@@ -1,0 +1,65 @@
+{
+ "idx": 472,
+ "name": "シトリン欠損症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5434",
+   "fetched_at": "2026-09-24T00:46:34+09:00",
+   "sha256": "4649b6f1814d848c72bff8eaed08023c50dd9b6f320501226ec6ff8beb73b9d7",
+   "title": "シトリン欠損症（指定難病３１８） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "シトリンというたんぱくをうまく作れない病気です。",
+  "source_id": "nanbyou",
+  "evidence": "「シトリン」という 輸送体タンパク質 を上手に作ることができない",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "皮膚や白目が黄色いことが長引く",
+   "source_id": "nanbyou",
+   "evidence": "皮膚や白目が黄色いこと（ 黄疸 ）が長引いたり"
+  },
+  {
+   "text": "体重の増え方が悪い",
+   "source_id": "nanbyou",
+   "evidence": "体重の増え方が悪いなどの症状"
+  },
+  {
+   "text": "疲れやすい",
+   "source_id": "nanbyou",
+   "evidence": "疲れやすかったり"
+  },
+  {
+   "text": "低血糖を起こすことがある",
+   "source_id": "nanbyou",
+   "evidence": "低血糖をおこしたりする方もいます"
+  },
+  {
+   "text": "ごはんや甘いものを嫌がる",
+   "source_id": "nanbyou",
+   "evidence": "糖質（白いご飯、麺類、甘いジュース"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "胆汁がなくても吸収されやすい脂肪"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5434",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は地域と遺伝の説明で、発症年齢の記載が無いため onset は null。",
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:51:03+09:00",
+ "shard": 3
+}

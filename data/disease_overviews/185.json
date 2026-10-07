@@ -1,0 +1,78 @@
+{
+ "idx": 185,
+ "name": "ダイアモンド・ブラックファン貧血",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4420",
+   "fetched_at": "2026-09-24T00:45:18+09:00",
+   "sha256": "f0bf2c9dc93d3e3137113b7c3a5560332ffb9b99b65ea2dfbc1110e576ed1bfd",
+   "title": "ダイアモンド・ブラックファン貧血（指定難病２８４） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "骨髄で赤血球がうまく作られないために、貧血になる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "骨髄の中で赤血球がうまく造られないために起こります",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "顔色が悪い",
+   "source_id": "nanbyou",
+   "evidence": "新生児期から顔色不良で発見されることが多く"
+  },
+  {
+   "text": "息が切れる",
+   "source_id": "nanbyou",
+   "evidence": "息切れ"
+  },
+  {
+   "text": "動悸がする",
+   "source_id": "nanbyou",
+   "evidence": "動悸"
+  },
+  {
+   "text": "めまいがする",
+   "source_id": "nanbyou",
+   "evidence": "めまい"
+  },
+  {
+   "text": "疲れやすい",
+   "source_id": "nanbyou",
+   "evidence": "易疲労感"
+  },
+  {
+   "text": "頭が痛い",
+   "source_id": "nanbyou",
+   "evidence": "頭痛"
+  },
+  {
+   "text": "体の形の違いをともなうことがある",
+   "source_id": "nanbyou",
+   "evidence": "種々の奇形を合併します"
+  }
+ ],
+ "onset": {
+  "text": "多くは乳児期に症状が出ます",
+  "source_id": "nanbyou",
+  "evidence": "この疾患の多くは乳児期に発症します"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "治療抵抗例では、同種造血細胞移植の適応があります"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4420",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節には薬の分類名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:28:23+09:00",
+ "shard": 1
+}

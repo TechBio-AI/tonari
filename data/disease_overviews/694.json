@@ -1,0 +1,55 @@
+{
+ "idx": 694,
+ "name": "X連鎖性ジストニア・パーキンソニズム",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/53351",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "X-linked dystonia-parkinsonism"
+  }
+ ],
+ "summary": {
+  "text": "X-linked dystonia-parkinsonism (XDP) is a neurodegenerative movement disorder characterized by adult-onset parkinsonism that is frequently accompanied by focal dystonia, which becomes generalized over time, and that has a highly variable clinical course.",
+  "source_id": "orphanet",
+  "evidence": "X-linked dystonia-parkinsonism (XDP) is ",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "adult-onset parkinsonism",
+   "source_id": "orphanet",
+   "evidence": "adult-onset parkinsonism"
+  },
+  {
+   "text": "focal dystonia",
+   "source_id": "orphanet",
+   "evidence": "focal dystonia"
+  }
+ ],
+ "onset": {
+  "text": "adult-onset",
+  "source_id": "orphanet",
+  "evidence": "adult-onset"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/53351",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

@@ -1,0 +1,55 @@
+{
+ "idx": 183,
+ "name": "寒冷凝集素症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/09_06_007/",
+   "fetched_at": "2026-09-24T00:50:15+09:00",
+   "sha256": "4dcf519e54dd4d6de6376a82972d30222c37d90e9271d5ededecb5790f73cdb6",
+   "title": "寒冷凝集素症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "自己抗体が赤血球にくっつく温度によって分けられる貧血のひとつです。",
+  "source_id": "shouman",
+  "evidence": "自己抗体が赤血球に結合する至適温度により、温式と冷式のAIHAに分類され",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "赤血球が傷つけられる",
+   "source_id": "shouman",
+   "evidence": "抗原抗体反応の結果、赤血球が傷害を受け"
+  },
+  {
+   "text": "赤血球の寿命が短くなる",
+   "source_id": "shouman",
+   "evidence": "赤血球寿命が短縮し"
+  },
+  {
+   "text": "貧血になる",
+   "source_id": "shouman",
+   "evidence": "貧血をきたす疾患"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "冷式AIHAでは、寒冷への暴露を避ける。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/09_06_007/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "症状の節が保存 HTML に無いため、同じページの概要の節から症状を取った。3 件しか取れなかった。",
+  "疫学の節は患者数の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:56:25+09:00",
+ "shard": 4
+}

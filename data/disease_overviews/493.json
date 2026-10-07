@@ -1,0 +1,68 @@
+{
+ "idx": 493,
+ "name": "先天性高インスリン血症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_34_078/",
+   "fetched_at": "2026-09-24T00:48:16+09:00",
+   "sha256": "58c4f6ab18789b65ba6386259103cd5edb910aa964fbe6fa6b8c8fe355aba9aa",
+   "title": "先天性高インスリン血症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "血糖を下げるホルモンが出すぎて、低血糖がくり返し起こる病気です。",
+  "source_id": "shouman",
+  "evidence": "インスリン過分泌をきたし、難治性の低血糖をきたす疾患である",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "ぼーっとする",
+   "source_id": "shouman",
+   "evidence": "ボーッとする"
+  },
+  {
+   "text": "冷や汗が出る",
+   "source_id": "shouman",
+   "evidence": "冷や汗"
+  },
+  {
+   "text": "体がふるえる",
+   "source_id": "shouman",
+   "evidence": "ふるえなどの症状"
+  },
+  {
+   "text": "意識がなくなることがある",
+   "source_id": "shouman",
+   "evidence": "意識消失"
+  },
+  {
+   "text": "けいれんが起きる",
+   "source_id": "shouman",
+   "evidence": "けいれんにいたり"
+  }
+ ],
+ "onset": {
+  "text": "赤ちゃんのころに症状が出ることが多いですが、大きくなってからのこともあります",
+  "source_id": "shouman",
+  "evidence": "新生児、乳児期に発症することが多いが、年長児にも存在する"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "内科的治療に抵抗性の場合は膵切除が行われる"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_34_078/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節には薬剤名が並ぶので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:32:02+09:00",
+ "shard": 1
+}

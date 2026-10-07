@@ -1,0 +1,86 @@
+{
+ "idx": 856,
+ "name": "先天性副腎不全(NR0B1型)",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/95702",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "X-linked adrenal hypoplasia congenita"
+  }
+ ],
+ "summary": {
+  "text": "A rare genetic adrenal disease characterized by primary adrenal insufficiency (AI) and/or hypogonadotropic hypogonadism (HH). Male patients typically present with AI with acute onset in infancy or insidious onset in childhood. Clinical features of AI include hyperpigmentation, vomiting, poor feeding, failure to thrive, seizures, vascular collapse, and sometimes sudden death. HH manifests later as delayed or arrested puberty. In rare cases, patients become symptomatic in early adulthood with delayed-onset AI, partial HH, and/or infertility. Histologically, the adrenal glands lack the permanent adult cortical zone. The remaining cells are larger than fetal adrenal cells (''cytomegalic'') and contain characteristic nuclear inclusions.",
+  "source_id": "orphanet",
+  "evidence": "A rare genetic adrenal disease character",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "hyperpigmentation",
+   "source_id": "orphanet",
+   "evidence": "hyperpigmentation"
+  },
+  {
+   "text": "vomiting",
+   "source_id": "orphanet",
+   "evidence": "vomiting"
+  },
+  {
+   "text": "poor feeding",
+   "source_id": "orphanet",
+   "evidence": "poor feeding"
+  },
+  {
+   "text": "failure to thrive",
+   "source_id": "orphanet",
+   "evidence": "failure to thrive"
+  },
+  {
+   "text": "seizures",
+   "source_id": "orphanet",
+   "evidence": "seizures"
+  },
+  {
+   "text": "vascular collapse",
+   "source_id": "orphanet",
+   "evidence": "vascular collapse"
+  },
+  {
+   "text": "delayed or arrested puberty",
+   "source_id": "orphanet",
+   "evidence": "delayed or arrested puberty"
+  },
+  {
+   "text": "infertility",
+   "source_id": "orphanet",
+   "evidence": "infertility"
+  }
+ ],
+ "onset": {
+  "text": "acute onset in infancy or insidious onset in childhood",
+  "source_id": "orphanet",
+  "evidence": "acute onset in infancy or insidious"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/95702",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: 組織所見",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

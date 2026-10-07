@@ -1,0 +1,65 @@
+{
+ "idx": 88,
+ "name": "ホモシスチン尿症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/22375",
+   "fetched_at": "2026-09-24T00:44:33+09:00",
+   "sha256": "fcdf3ef0833b57a80b24ae6af5ba7263605d68689f7a306423f99cad7a0f7b28",
+   "title": "ホモシスチン尿症（指定難病３３７） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "あるアミノ酸の代謝産物が血液にたまることで起こる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "メチオニンの代謝産物であるホモシステインが血中に蓄積することにより発症します",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "発達がゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "乳幼児期から発達の遅れ"
+  },
+  {
+   "text": "水晶体がずれる",
+   "source_id": "nanbyou",
+   "evidence": "水晶体脱臼 が見られます"
+  },
+  {
+   "text": "神経の障害が出る",
+   "source_id": "nanbyou",
+   "evidence": "全身性に神経障害や血栓症による症状"
+  },
+  {
+   "text": "血栓ができる",
+   "source_id": "nanbyou",
+   "evidence": "血栓症による症状が出現し"
+  },
+  {
+   "text": "骨格に異常が出る",
+   "source_id": "nanbyou",
+   "evidence": "骨格異常、眼症状、血液異常が加わります"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "メチオニン除去粉乳を用いたメチオニン制限による食事療法"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/22375",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節（小児慢性）は発見頻度の数値のみのため onset は null。",
+  "治療の節にはビタミン名・薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:55:18+09:00",
+ "shard": 4
+}

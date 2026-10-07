@@ -1,0 +1,74 @@
+{
+ "idx": 434,
+ "name": "ウォルフラム症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4789",
+   "fetched_at": "2026-09-24T00:46:05+09:00",
+   "sha256": "70ee62e611a5bcfedc9a1629954efd631ce0599c9a5bf976c7630d4a43c904d5",
+   "title": "ウォルフラム症候群（指定難病２３３） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "糖尿病と視神経がやせることによる視力の障害を主な特徴とする遺伝性の病気です。",
+  "source_id": "nanbyou",
+  "evidence": "糖尿病と視神経萎縮（視力障害）を主要な徴候とする遺伝性疾患",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "糖尿病が最初の症状になる",
+   "source_id": "nanbyou",
+   "evidence": "糖尿病（インスリン治療が必要）が初発症状となります"
+  },
+  {
+   "text": "視力が落ちる",
+   "source_id": "nanbyou",
+   "evidence": "視神経萎縮による視力障害を来します"
+  },
+  {
+   "text": "尿の量が多くなる",
+   "source_id": "nanbyou",
+   "evidence": "中枢性尿崩症（尿の量が多くなる）"
+  },
+  {
+   "text": "耳が聞こえにくい",
+   "source_id": "nanbyou",
+   "evidence": "聴力障害（感音性難聴）"
+  },
+  {
+   "text": "尿路に異常が出る",
+   "source_id": "nanbyou",
+   "evidence": "尿路異常（水腎症、尿管の拡大）"
+  },
+  {
+   "text": "歩きにくい、けいれんが起こる",
+   "source_id": "nanbyou",
+   "evidence": "歩行・運動障害、けいれんなど"
+  },
+  {
+   "text": "気持ちが落ち込む、気分の波がある",
+   "source_id": "nanbyou",
+   "evidence": "精神症状（抑うつ、双極性障害"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "根本的な治療法は確立されていません"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4789",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は遺伝形式の説明で、発症年齢の記載が無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:51:03+09:00",
+ "shard": 3
+}

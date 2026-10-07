@@ -1,0 +1,70 @@
+{
+ "idx": 202,
+ "name": "特発性多中心性キャッスルマン病",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5749",
+   "fetched_at": "2026-09-24T00:46:39+09:00",
+   "sha256": "5f3173f9faadffc5c84e3c1610d82490dae180d23308b3690083ab6e3e011681",
+   "title": "特発性多中心性キャッスルマン病（指定難病３３１） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "リンパ節のはれと慢性の炎症が続くことを特徴とする病気の集まりです。",
+  "source_id": "nanbyou",
+  "evidence": "慢性のリンパ節腫脹および慢性 炎症 を特徴とする疾患群です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "リンパ節がはれる",
+   "source_id": "nanbyou",
+   "evidence": "症状としてはリンパ節腫脹"
+  },
+  {
+   "text": "熱が出る",
+   "source_id": "nanbyou",
+   "evidence": "発熱"
+  },
+  {
+   "text": "体がだるい",
+   "source_id": "nanbyou",
+   "evidence": "倦怠感"
+  },
+  {
+   "text": "皮疹が出る",
+   "source_id": "nanbyou",
+   "evidence": "皮疹などの 非特異的 な炎症症状"
+  },
+  {
+   "text": "症状がずっと続く",
+   "source_id": "nanbyou",
+   "evidence": "それらの症状が原因なくおこり、ずっと続く"
+  },
+  {
+   "text": "まったく症状がない方もいる",
+   "source_id": "nanbyou",
+   "evidence": "まったく無症状で検査所見だけから診断される事もあります"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "多くの患者で症状が軽快または消失します"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5749",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節の発症年齢は数値と一体のため onset は null。",
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:48:34+09:00",
+ "shard": 3
+}

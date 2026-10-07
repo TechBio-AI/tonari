@@ -1,0 +1,75 @@
+{
+ "idx": 42,
+ "name": "再生不良性貧血",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/106",
+   "fetched_at": "2026-09-24T00:44:07+09:00",
+   "sha256": "e0d16b534243d9ddce10aea3a69266c2ce7126c1d0b52940419c4b2f7dc566b8",
+   "title": "再生不良性貧血（指定難病６０） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "血液の白血球・赤血球・血小板のすべてが減ってしまう病気です。",
+  "source_id": "nanbyou",
+  "evidence": "血液中の白血球、赤血球、血小板のすべてが減少する疾患です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "めまいや頭痛が起こる",
+   "source_id": "nanbyou",
+   "evidence": "脳の酸素欠乏でめまい、頭痛が起こり"
+  },
+  {
+   "text": "体がだるい、疲れやすい",
+   "source_id": "nanbyou",
+   "evidence": "身体がだるくなったり、疲れやすくなったり"
+  },
+  {
+   "text": "胸が痛むことがある",
+   "source_id": "nanbyou",
+   "evidence": "狭心症様の胸痛が起こることもあります"
+  },
+  {
+   "text": "息切れがする",
+   "source_id": "nanbyou",
+   "evidence": "息切れとして感じ"
+  },
+  {
+   "text": "動悸がする",
+   "source_id": "nanbyou",
+   "evidence": "心拍数が速くなった状態を動悸として感じます"
+  },
+  {
+   "text": "顔色が青白くなる",
+   "source_id": "nanbyou",
+   "evidence": "顔色は青白くなります"
+  },
+  {
+   "text": "感染症にかかりやすくなる",
+   "source_id": "nanbyou",
+   "evidence": "重症の細菌感染症になりやすくなります"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "４．骨髄移植、５．支持療法があります"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/106",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節の発症年齢は数値と一体のため onset は null。",
+  "治療の節には薬の分類名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:54:01+09:00",
+ "shard": 4
+}

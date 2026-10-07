@@ -1,0 +1,79 @@
+{
+ "idx": 277,
+ "name": "フコシドーシス",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_081/",
+   "fetched_at": "2026-09-24T00:49:54+09:00",
+   "sha256": "2efd1c67c65f848d7026b5219daf49369ab655f008ce90b3b12fec120130d50d",
+   "title": "フコシドーシス 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "ある糖を含む物質が全身の細胞の中にたまっていく病気です。",
+  "source_id": "shouman",
+  "evidence": "フコースを含む各種の糖蛋白質、糖脂質が全身の細胞のライソゾーム内に蓄積し",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "発達がゆっくりになり、できていたことができなくなる",
+   "source_id": "shouman",
+   "evidence": "精神運動発達遅滞、神経学的退行"
+  },
+  {
+   "text": "顔だちが粗くなる",
+   "source_id": "shouman",
+   "evidence": "粗な顔貌"
+  },
+  {
+   "text": "背が低い",
+   "source_id": "shouman",
+   "evidence": "低身長"
+  },
+  {
+   "text": "感染症にかかりやすい",
+   "source_id": "shouman",
+   "evidence": "易感染性などを高率に認められ"
+  },
+  {
+   "text": "背骨が曲がる",
+   "source_id": "shouman",
+   "evidence": "脊柱後側彎"
+  },
+  {
+   "text": "骨の形成に異常が出る",
+   "source_id": "shouman",
+   "evidence": "多発性骨形成不全"
+  },
+  {
+   "text": "関節が固くなる",
+   "source_id": "shouman",
+   "evidence": "関節拘縮"
+  },
+  {
+   "text": "けいれんが起きる、肝臓や脾臓が大きくなる",
+   "source_id": "shouman",
+   "evidence": "けいれんと肝脾腫が認められる"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "神経症状に対する支持療法などが主たる治療法である。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_081/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節が保存 HTML に無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:59:04+09:00",
+ "shard": 4
+}

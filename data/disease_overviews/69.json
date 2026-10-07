@@ -1,0 +1,70 @@
+{
+ "idx": 69,
+ "name": "副腎白質ジストロフィー",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/186",
+   "fetched_at": "2026-09-24T00:44:29+09:00",
+   "sha256": "029a8489747dc63befd51982f8bfe3a715bd2fd2355df89887395643a0b66d28",
+   "title": "副腎白質ジストロフィー（指定難病２０） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "脳や脊髄で、神経をおおっている部分がこわれていく病気です。",
+  "source_id": "nanbyou",
+  "evidence": "中枢神経系（脳や脊髄）において脱髄",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "学力が下がる",
+   "source_id": "nanbyou",
+   "evidence": "知能低下（学力の低下）"
+  },
+  {
+   "text": "落ち着きがなくなる",
+   "source_id": "nanbyou",
+   "evidence": "行動の異常（学校の落ち着きのなさ）"
+  },
+  {
+   "text": "目の向きがずれる",
+   "source_id": "nanbyou",
+   "evidence": "斜視"
+  },
+  {
+   "text": "見えにくくなる、聞こえにくくなる",
+   "source_id": "nanbyou",
+   "evidence": "視力･聴力低下"
+  },
+  {
+   "text": "歩くときに足がつっぱる",
+   "source_id": "nanbyou",
+   "evidence": "歩行時の足のつっぱり"
+  },
+  {
+   "text": "尿がもれる",
+   "source_id": "nanbyou",
+   "evidence": "尿失禁"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "造血細胞移植(骨髄移植や 臍帯血 移植)の効果が報告されています"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/186",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は遺伝の説明が中心で、発症年齢は数値と一体のため onset は null。",
+  "summary は副腎の機能不全にも触れているが、evidence 1 つに収めるため脱髄の記述を選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:24:20+09:00",
+ "shard": 1
+}

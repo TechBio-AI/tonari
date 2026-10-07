@@ -1,0 +1,69 @@
+{
+ "idx": 80,
+ "name": "視神経脊髄炎",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3806",
+   "fetched_at": "2026-09-25T03:26:35+09:00",
+   "sha256": "d368ae7c79743808a0e2e514a716b169587a8b677847794bb5b9b932f188eeca",
+   "title": "多発性硬化症／視神経脊髄炎（指定難病１３） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "これまで多発性硬化症の「視神経脊髄型」と呼ばれていたものの中に、この病気が多く含まれることがわかりました。",
+  "source_id": "nanbyou",
+  "evidence": "視神経脊髄型MSと言われた中に視神経脊髄炎",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "視力が下がる、見える範囲が欠ける",
+   "source_id": "nanbyou",
+   "evidence": "視力が低下したり、視野が欠けたりします"
+  },
+  {
+   "text": "胸やおなかの帯状のしびれ",
+   "source_id": "nanbyou",
+   "evidence": "胸や腹の帯状のしびれ"
+  },
+  {
+   "text": "手足のしびれや動かしにくさ",
+   "source_id": "nanbyou",
+   "evidence": "手足のしびれや運動麻痺"
+  },
+  {
+   "text": "排尿・排便の障害",
+   "source_id": "nanbyou",
+   "evidence": "排尿・排便障害"
+  },
+  {
+   "text": "しゃっくり、吐く、眠くなる",
+   "source_id": "nanbyou",
+   "evidence": "吃逆、嘔吐、傾眠などが出現することもあります"
+  }
+ ],
+ "onset": {
+  "text": "比較的高齢の方にも発病することがあります",
+  "source_id": "nanbyou",
+  "evidence": "比較的高齢の方にも発病することがあります"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "血漿浄化療法という治療を行ったりすることがあります"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3806",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "難病情報センターのページは多発性硬化症と視神経脊髄炎の共通ページ。症状は共通の記述と NMOSD に特有の記述から取った。",
+  "治療の節は薬剤名が多いため、evidence は薬剤名を含まない一文から選んだ。"
+ ],
+ "extracted_at": "2026-10-02T21:14:56+09:00",
+ "shard": 2
+}

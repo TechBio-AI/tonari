@@ -1,0 +1,68 @@
+{
+ "idx": 269,
+ "name": "ホジキンリンパ腫",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/01_03_022/",
+   "fetched_at": "2026-09-25T03:27:15+09:00",
+   "sha256": "418dbf60b0fd0977cb8ecf6f15d33f2f4a20abe86da094f6e9f1e1a75f13ec9e",
+   "title": "ホジキン（Hodgkin）リンパ腫 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "リンパ節などから発生する、リンパ性の悪性腫瘍（がん）の一種です。",
+  "source_id": "shouman",
+  "evidence": "若年成人世代に多いリンパ性悪性腫瘍の一種",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "首や鎖骨の上の痛くないしこり",
+   "source_id": "shouman",
+   "evidence": "無痛性で弾性硬の、頚部あるいは鎖骨上窩の腫瘤"
+  },
+  {
+   "text": "熱が出る",
+   "source_id": "shouman",
+   "evidence": "発熱、盗汗、体重減少"
+  },
+  {
+   "text": "寝汗",
+   "source_id": "shouman",
+   "evidence": "盗汗"
+  },
+  {
+   "text": "体重が減る",
+   "source_id": "shouman",
+   "evidence": "体重減少を認めることがある"
+  },
+  {
+   "text": "発疹の無いかゆみ",
+   "source_id": "shouman",
+   "evidence": "皮疹を伴わない皮膚掻痒症"
+  }
+ ],
+ "onset": {
+  "text": "若い成人に多い",
+  "source_id": "shouman",
+  "evidence": "若年成人世代に多い"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "多剤併用療法が有効であることが示され"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/01_03_022/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節は薬剤名・製剤名が多いため、evidence は薬剤名を含まない句から選んだ。"
+ ],
+ "extracted_at": "2026-10-02T21:14:56+09:00",
+ "shard": 2
+}

@@ -1,0 +1,75 @@
+{
+ "idx": 648,
+ "name": "リンパ管腫症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/16_01_007/",
+   "fetched_at": "2026-09-24T00:54:05+09:00",
+   "sha256": "b8ce14392d46a3b986a884fa3d9d546e68e3cbfe436e06cb1ec425ae7cd67748",
+   "title": "リンパ管腫症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "リンパ液のたまった袋が集まってこぶを作る、良性の病変です。",
+  "source_id": "shouman",
+  "evidence": "大小のリンパ嚢胞を主体とした腫瘤性病変であり、生物学的には良性である",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "体の表面にこぶができる",
+   "source_id": "shouman",
+   "evidence": "体幹、四肢の体表に突出する腫瘤を形成する"
+  },
+  {
+   "text": "熱が出る、痛む",
+   "source_id": "shouman",
+   "evidence": "発熱や疼痛を生ずる"
+  },
+  {
+   "text": "息が切れる、せきが出る",
+   "source_id": "shouman",
+   "evidence": "息切れ、咳"
+  },
+  {
+   "text": "息をするときに音がする、息苦しくなる",
+   "source_id": "shouman",
+   "evidence": "喘鳴、呼吸困難などを認める"
+  },
+  {
+   "text": "骨が痛む、骨折しやすくなる",
+   "source_id": "shouman",
+   "evidence": "骨痛、病的骨折"
+  },
+  {
+   "text": "お腹に水がたまる",
+   "source_id": "shouman",
+   "evidence": "腹水"
+  },
+  {
+   "text": "血が止まりにくくなる",
+   "source_id": "shouman",
+   "evidence": "血小板減少や凝固能の異常"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "リンパ管腫症に対して標準的治療はない。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/16_01_007/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は発生率の数値が中心のため onset は null。",
+  "治療の節には薬剤名が並ぶので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:32:02+09:00",
+ "shard": 1
+}

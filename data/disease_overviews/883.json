@@ -1,0 +1,68 @@
+{
+ "idx": 883,
+ "name": "Desmin関連ミオパチー",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/98909",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Desminopathy"
+  }
+ ],
+ "summary": {
+  "text": "A rare genetic skeletal muscle disease characterized by abnormal chimeric aggregates of desmin and other cytoskeletal proteins and granulofilamentous material at the ultrastructural level in muscle biopsies and variable clinical myopathological features, age of disease onset and rate of disease progression. Patients present with bilateral skeletal muscle weakness that starts in distal leg muscles and spreads proximally, sometimes involving trunk, neck flexors and facial muscles and often cardiomyopathy manifested by conduction blocks, arrhythmias, chronic heart failure, and sometimes tachyarrhythmia. Weakness eventually leads to wheelchair dependence. Respiratory insufficiency can be a major cause of disability and death, beginning with nocturnal hypoventilation with oxygen desaturation and progressing to daytime respiratory failure.",
+  "source_id": "orphanet",
+  "evidence": "A rare genetic skeletal muscle disease c",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "bilateral skeletal muscle weakness",
+   "source_id": "orphanet",
+   "evidence": "bilateral skeletal muscle weakness"
+  },
+  {
+   "text": "cardiomyopathy",
+   "source_id": "orphanet",
+   "evidence": "cardiomyopathy"
+  },
+  {
+   "text": "arrhythmias",
+   "source_id": "orphanet",
+   "evidence": "arrhythmias"
+  },
+  {
+   "text": "chronic heart failure",
+   "source_id": "orphanet",
+   "evidence": "chronic heart failure"
+  },
+  {
+   "text": "Respiratory insufficiency",
+   "source_id": "orphanet",
+   "evidence": "Respiratory insufficiency"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/98909",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: 筋生検の所見 / conduction blocks（心電図所見）",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

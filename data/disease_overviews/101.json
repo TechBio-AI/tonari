@@ -1,0 +1,73 @@
+{
+ "idx": 101,
+ "name": "IgG4関連疾患",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4504",
+   "fetched_at": "2026-09-24T00:45:31+09:00",
+   "sha256": "df48e5318a307dbd8f798b57f55111e59b8dc001611e06aa12e1424216021baa",
+   "title": "IgG4関連疾患（指定難病３００） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "全身のいろいろな臓器がはれたり、かたまりができたりする、原因のわかっていない病気です。",
+  "source_id": "nanbyou",
+  "evidence": "全身諸臓器に腫大や結節・肥厚性病変などを認める原因不明の疾患です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "まぶたや下あご、耳の下がはれる",
+   "source_id": "nanbyou",
+   "evidence": "眼瞼や下顎部・耳下部の腫れ"
+  },
+  {
+   "text": "目や口が乾く",
+   "source_id": "nanbyou",
+   "evidence": "時にドライアイや口腔乾燥を伴う"
+  },
+  {
+   "text": "皮膚や目が黄色くなる",
+   "source_id": "nanbyou",
+   "evidence": "黄疸"
+  },
+  {
+   "text": "腎臓のはたらきが落ちる",
+   "source_id": "nanbyou",
+   "evidence": "腎機能障害"
+  },
+  {
+   "text": "お腹や腰が痛む",
+   "source_id": "nanbyou",
+   "evidence": "腹痛・腰痛などを来たすことがあります"
+  },
+  {
+   "text": "ぜんそくのような症状が出る",
+   "source_id": "nanbyou",
+   "evidence": "肺では喘息症状"
+  }
+ ],
+ "onset": {
+  "text": "中高年の男性に比較的多くみられます",
+  "source_id": "nanbyou",
+  "evidence": "中高年の男性に比較的多く認められます"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "低用量の維持療法を行います"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4504",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節は薬の分類名を挙げているので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:24:20+09:00",
+ "shard": 1
+}

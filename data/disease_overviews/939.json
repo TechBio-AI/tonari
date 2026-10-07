@@ -1,0 +1,63 @@
+{
+ "idx": 939,
+ "name": "Usher症候群2型",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/231178",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Usher syndrome type 2"
+  }
+ ],
+ "summary": {
+  "text": "A rare ciliopathy characterized by congenital moderate-to-severe deafness, retinitis pigmentosa developing in the first or second decade, and normal vestibular function. Congenital bilateral sensorineural hearing loss is mild to moderate in the low frequencies and severe to profound in the higher frequencies. Additional manifestations include night blindness, constricted visual field (tunnel vision), and later on decreased visual acuity sometimes ending with bare light perception.",
+  "source_id": "orphanet",
+  "evidence": "A rare ciliopathy characterized by conge",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "congenital moderate-to-severe deafness",
+   "source_id": "orphanet",
+   "evidence": "congenital moderate-to-severe deafness"
+  },
+  {
+   "text": "night blindness",
+   "source_id": "orphanet",
+   "evidence": "night blindness"
+  },
+  {
+   "text": "constricted visual field (tunnel vision)",
+   "source_id": "orphanet",
+   "evidence": "constricted visual field (tunnel vision)"
+  },
+  {
+   "text": "decreased visual acuity",
+   "source_id": "orphanet",
+   "evidence": "decreased visual acuity"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/231178",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: retinitis pigmentosa（眼底所見）",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "網膜色素変性の発症「in the first or second decade」は序数を含むため onset は null。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

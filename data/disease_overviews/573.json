@@ -1,0 +1,71 @@
+{
+ "idx": 573,
+ "name": "骨形成不全症IV型",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/216820",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Osteogenesis imperfecta type 4"
+  }
+ ],
+ "summary": {
+  "text": "A moderately severe form of osteogenesis imperfecta characterized by increased bone fragility and low bone mass that clinically manifests from infancy as susceptibility to bone fractures, short stature, mild to moderate scoliosis in most, gray-blue or white sclera, and dentinogenesis imperfecta.",
+  "source_id": "orphanet",
+  "evidence": "A moderately severe form of osteogenesis",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "susceptibility to bone fractures",
+   "source_id": "orphanet",
+   "evidence": "susceptibility to bone fractures"
+  },
+  {
+   "text": "short stature",
+   "source_id": "orphanet",
+   "evidence": "short stature"
+  },
+  {
+   "text": "mild to moderate scoliosis",
+   "source_id": "orphanet",
+   "evidence": "mild to moderate scoliosis"
+  },
+  {
+   "text": "gray-blue or white sclera",
+   "source_id": "orphanet",
+   "evidence": "gray-blue or white sclera"
+  },
+  {
+   "text": "dentinogenesis imperfecta",
+   "source_id": "orphanet",
+   "evidence": "dentinogenesis imperfecta"
+  }
+ ],
+ "onset": {
+  "text": "from infancy",
+  "source_id": "orphanet",
+  "evidence": "from infancy"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/216820",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: low bone mass",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

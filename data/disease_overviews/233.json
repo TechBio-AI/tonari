@@ -1,0 +1,74 @@
+{
+ "idx": 233,
+ "name": "遺伝性出血性末梢血管拡張症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/16_02_008/",
+   "fetched_at": "2026-09-24T00:53:45+09:00",
+   "sha256": "b7260d1e4422a261c07e07a7b2e399092ca47fb1e21218fa863f3e8c98bf15ba",
+   "title": "遺伝性出血性末梢血管拡張症（オスラー病） 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "皮膚や粘膜、消化管の細い血管が広がり、くり返し出血する病気です。",
+  "source_id": "shouman",
+  "evidence": "皮膚・粘膜・消化管の毛細血管拡張病変からの反復する出血、多臓器",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "鼻血をくり返す",
+   "source_id": "shouman",
+   "evidence": "反復性の鼻血・貧血（鼻腔の粘膜病変による）"
+  },
+  {
+   "text": "貧血になる",
+   "source_id": "shouman",
+   "evidence": "貧血・吐血・下血（消化管の粘膜病変による）"
+  },
+  {
+   "text": "脳出血やけいれんが起こる",
+   "source_id": "shouman",
+   "evidence": "脳出血・痙攣（脳の動静脈奇形による）"
+  },
+  {
+   "text": "息が苦しくなる、血を吐く",
+   "source_id": "shouman",
+   "evidence": "呼吸不全・肺出血・喀血"
+  },
+  {
+   "text": "肝臓のはたらきが落ちる",
+   "source_id": "shouman",
+   "evidence": "心不全・肝機能障害・肝性脳症"
+  },
+  {
+   "text": "手足が麻痺する",
+   "source_id": "shouman",
+   "evidence": "下肢麻痺・四肢麻痺（脊髄の動静脈奇形による）"
+  },
+  {
+   "text": "頭が痛む",
+   "source_id": "shouman",
+   "evidence": "頭痛、手指や口腔粘膜・口唇・舌からの出血"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "罹患した臓器それぞれに対し治療が考慮される"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/16_02_008/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は発生頻度の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:48:34+09:00",
+ "shard": 3
+}

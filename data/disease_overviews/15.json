@@ -1,0 +1,75 @@
+{
+ "idx": 15,
+ "name": "遺伝性ATTR型アミロイドーシス",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/271861",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Hereditary ATTR amyloidosis"
+  }
+ ],
+ "summary": {
+  "text": "A rare genetic systemic disease characterized by adult onset, progressive sensorimotor and autonomic neuropathy and infiltrative cardiomyopathy. Neurological involvement usually starts with sensory loss in the extremities and progresses with motor neuropathy. Cardiomyopathy presents with rhythm abnormalities and heart failure. The disease also frequently manifests with a range of additional clinical signs and symptoms due to associated ocular, renal, central nervous system and gastrointestinal involvement.",
+  "source_id": "orphanet",
+  "evidence": "A rare genetic systemic disease characte",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "progressive sensorimotor and autonomic neuropathy",
+   "source_id": "orphanet",
+   "evidence": "progressive sensorimotor and autonomic"
+  },
+  {
+   "text": "infiltrative cardiomyopathy",
+   "source_id": "orphanet",
+   "evidence": "infiltrative cardiomyopathy"
+  },
+  {
+   "text": "sensory loss in the extremities",
+   "source_id": "orphanet",
+   "evidence": "sensory loss in the extremities"
+  },
+  {
+   "text": "motor neuropathy",
+   "source_id": "orphanet",
+   "evidence": "motor neuropathy"
+  },
+  {
+   "text": "rhythm abnormalities",
+   "source_id": "orphanet",
+   "evidence": "rhythm abnormalities"
+  },
+  {
+   "text": "heart failure",
+   "source_id": "orphanet",
+   "evidence": "heart failure"
+  }
+ ],
+ "onset": {
+  "text": "adult onset",
+  "source_id": "orphanet",
+  "evidence": "adult onset"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/271861",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

@@ -1,0 +1,2165 @@
+{
+  "_readme": [
+    "都道府県・指定都市の難病相談支援センター一覧（公開層 /demo/support-centers が読む）。2026-10-02 作成。",
+    "出典は難病情報センター「都道府県・指定都市難病相談支援センター一覧」だけ。出典に無い項目は入れない（無い欄はキーごと無い）。",
+    "値は出典の表から機械で取り出したもの（タグを除き、行ごとに前後の空白を詰め、ゼロ幅空白を除いた。文字は変えていない）。",
+    "  name・address は出典の行のまま（複数行あり）。phone は出典の「TEL」を含む行のまま。url はリンク先（href）。",
+    "  evidence は各欄の原文の先頭 40 字まで（url の evidence はリンクの文言）。",
+    "pref は出典の見出し（h2）から決める。見出しに都道府県名があればそれ（pref_basis: heading）。",
+    "  指定都市だけの見出し（例：札幌市）は、出典の並びで直前の都道府県に入れた（pref_basis: preceding_heading）。",
+    "照合表は docs/support_centers_review_2026-10-02.md。更新するときは出典を取り直し、照合をやり直す。"
+  ],
+  "source": {
+    "name": "難病情報センター「都道府県・指定都市難病相談支援センター一覧」",
+    "url": "https://www.nanbyou.or.jp/entry/1361",
+    "fetched_at": "2026-10-02",
+    "sha256": "e2de120a64e071580e443f83631756e2d50c431b10f64c035f1d25d0ab0cff73"
+  },
+  "prefectures": [
+    {
+      "pref": "北海道",
+      "centers": [
+        {
+          "heading": "北海道",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "北海道難病センター"
+            ],
+            "evidence": "北海道難病センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：011-512-6287",
+              "evidence": "TEL：011-512-6287"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒064-8506　札幌市中央区南4条西10丁目1010番地1"
+            ],
+            "evidence": "〒064-8506　札幌市中央区南4条西10丁目1010番地1"
+          },
+          "url": {
+            "value": "https://www.do-nanren.org/hokkaidonanbyocenter",
+            "evidence": "北海道難病センターホームページへ"
+          }
+        },
+        {
+          "heading": "札幌市",
+          "pref_basis": "preceding_heading",
+          "name": {
+            "value": [
+              "札幌市難病相談支援センター"
+            ],
+            "evidence": "札幌市難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：011-530-5575",
+              "evidence": "TEL：011-530-5575"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒064-8506　札幌市中央区南4条西10丁目1010番地1",
+              "北海道難病センター内"
+            ],
+            "evidence": "〒064-8506　札幌市中央区南4条西10丁目1010番地1北海道難病センター"
+          },
+          "url": {
+            "value": "https://www.do-nanren.org/sapporo-nanbyoucenter",
+            "evidence": "札幌市難病相談支援センターホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "青森県",
+      "centers": [
+        {
+          "heading": "青森県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "青森県難病相談支援センター"
+            ],
+            "evidence": "青森県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：0172-62-5514",
+              "evidence": "TEL：0172-62-5514"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒038-1311　青森市浪岡大字浪岡字稲村274番地",
+              "青森市浪岡総合保健福祉センター2階"
+            ],
+            "evidence": "〒038-1311　青森市浪岡大字浪岡字稲村274番地青森市浪岡総合保健福祉セン"
+          },
+          "url": {
+            "value": "http://aomorinanren.web.fc2.com/",
+            "evidence": "青森県難病相談支援センターホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "岩手県",
+      "centers": [
+        {
+          "heading": "岩手県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "岩手県難病相談支援センター"
+            ],
+            "evidence": "岩手県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：019-614-0711",
+              "evidence": "TEL：019-614-0711"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒020-0831　盛岡市三本柳8-1-3",
+              "ふれあいランド岩手内"
+            ],
+            "evidence": "〒020-0831　盛岡市三本柳8-1-3ふれあいランド岩手内"
+          },
+          "url": {
+            "value": "http://www.iwanan.net/nanshien/index.html",
+            "evidence": "岩手県難病相談支援センターホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "宮城県",
+      "centers": [
+        {
+          "heading": "宮城県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "宮城県難病相談支援センター"
+            ],
+            "evidence": "宮城県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：022-212-3351",
+              "evidence": "TEL：022-212-3351"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒980-0801　仙台市青葉区木町通1-4-15",
+              "仙台市交通局本局庁舎7階"
+            ],
+            "evidence": "〒980-0801　仙台市青葉区木町通1-4-15仙台市交通局本局庁舎7階"
+          },
+          "url": {
+            "value": "https://mpcmiyagi.org/index.php/miyagi/",
+            "evidence": "宮城県難病相談支援センターホームページへ"
+          }
+        },
+        {
+          "heading": "仙台市",
+          "pref_basis": "preceding_heading",
+          "name": {
+            "value": [
+              "仙台市難病サポートセンター"
+            ],
+            "evidence": "仙台市難病サポートセンター"
+          },
+          "phone": [
+            {
+              "value": "TEL：022-796-9131",
+              "evidence": "TEL：022-796-9131"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒980-0801　仙台市青葉区木町通1-4-15",
+              "仙台市交通局本局庁舎7階"
+            ],
+            "evidence": "〒980-0801　仙台市青葉区木町通1-4-15仙台市交通局本局庁舎7階"
+          },
+          "url": {
+            "value": "https://mpcmiyagi.org/index.php/sendai/",
+            "evidence": "仙台市難病サポートセンターホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "秋田県",
+      "centers": [
+        {
+          "heading": "秋田県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "秋田県難病相談支援センター"
+            ],
+            "evidence": "秋田県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：018-866-7754",
+              "evidence": "TEL：018-866-7754"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒010-0922　秋田市旭北栄町1-5",
+              "秋田県社会福祉会館3階"
+            ],
+            "evidence": "〒010-0922　秋田市旭北栄町1-5秋田県社会福祉会館3階"
+          },
+          "url": {
+            "value": "https://akinanren.com/support-center/",
+            "evidence": "秋田県難病相談支援センターホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "山形県",
+      "centers": [
+        {
+          "heading": "山形県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "山形県難病相談支援センター"
+            ],
+            "evidence": "山形県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：023-631-6061",
+              "evidence": "TEL：023-631-6061"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒990-0021　山形市小白川町2-3-30",
+              "山形県小白川庁舎1階"
+            ],
+            "evidence": "〒990-0021　山形市小白川町2-3-30山形県小白川庁舎1階"
+          },
+          "url": {
+            "value": "https://www.yg-nanbyoucenter.com/",
+            "evidence": "山形県難病相談支援センターホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "福島県",
+      "centers": [
+        {
+          "heading": "福島県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "福島県難病相談支援センター"
+            ],
+            "evidence": "福島県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：024-521-2827",
+              "evidence": "TEL：024-521-2827"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒960-8670　福島市杉妻町2-16",
+              "福島県庁本庁舎1階"
+            ],
+            "evidence": "〒960-8670　福島市杉妻町2-16福島県庁本庁舎1階"
+          },
+          "url": {
+            "value": "http://www.pref.fukushima.lg.jp/sec/21035c/nanbyou-center.html",
+            "evidence": "福島県難病相談支援センターホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "茨城県",
+      "centers": [
+        {
+          "heading": "茨城県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "茨城県難病相談支援センター"
+            ],
+            "evidence": "茨城県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：029-840-2838",
+              "evidence": "TEL：029-840-2838"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒300-0394　稲敷郡阿見町阿見4669番地2",
+              "茨城県立医療大学内"
+            ],
+            "evidence": "〒300-0394　稲敷郡阿見町阿見4669番地2茨城県立医療大学内"
+          },
+          "url": {
+            "value": "http://www.pref.ibaraki.jp/hokenfukushi/yobo/shitpei/nannbyousoudann.html",
+            "evidence": "茨城県難病相談支援センターホームページへ"
+          }
+        },
+        {
+          "heading": "茨城県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "茨城県難病相談支援センター地域交流事業"
+            ],
+            "evidence": "茨城県難病相談支援センター地域交流事業"
+          },
+          "phone": [
+            {
+              "value": "TEL：029-244-4535",
+              "evidence": "TEL：029-244-4535"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒310-0851　水戸市千波町1918",
+              "茨城県総合福祉会館4階"
+            ],
+            "evidence": "〒310-0851　水戸市千波町1918茨城県総合福祉会館4階"
+          },
+          "url": {
+            "value": "http://ibananren.web.fc2.com/page-tel.htm",
+            "evidence": "茨城県難病相談支援センター 難病連地域交流事業 ホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "栃木県",
+      "centers": [
+        {
+          "heading": "栃木県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "とちぎ難病相談支援センター"
+            ],
+            "evidence": "とちぎ難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：028-623-6113",
+              "evidence": "TEL：028-623-6113"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒320-8503　宇都宮市駒生町3337-1",
+              "とちぎ健康の森1階"
+            ],
+            "evidence": "〒320-8503　宇都宮市駒生町3337-1とちぎ健康の森1階"
+          },
+          "url": {
+            "value": "http://www.pref.tochigi.lg.jp/e04/welfare/iryou/nanbyou/1234146324820.html",
+            "evidence": "とちぎ難病相談支援センターホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "群馬県",
+      "centers": [
+        {
+          "heading": "群馬県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "群馬県難病相談支援センター"
+            ],
+            "evidence": "群馬県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：027-220-8069",
+              "evidence": "TEL：027-220-8069"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒371-8511　前橋市昭和町三丁目39番15号",
+              "群馬大学医学部附属病院内"
+            ],
+            "evidence": "〒371-8511　前橋市昭和町三丁目39番15号群馬大学医学部附属病院内"
+          },
+          "url": {
+            "value": "http://nanbyou.med.gunma-u.ac.jp/",
+            "evidence": "群馬県難病相談支援センターホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "埼玉県",
+      "centers": [
+        {
+          "heading": "埼玉県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "埼玉県難病相談支援センター"
+            ],
+            "evidence": "埼玉県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：048-768-3351",
+              "evidence": "TEL：048-768-3351"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒349-0196　蓮田市黒浜4147",
+              "独立行政法人国立病院機構東埼玉病院内"
+            ],
+            "evidence": "〒349-0196　蓮田市黒浜4147独立行政法人国立病院機構東埼玉病院内"
+          },
+          "url": {
+            "value": "http://esaitama.org/nanbyo/index.html",
+            "evidence": "埼玉県難病相談支援センターホームページへ"
+          }
+        },
+        {
+          "heading": "埼玉県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "埼玉県難病相談支援センター",
+              "(社)埼玉県障害難病団体協議会"
+            ],
+            "evidence": "埼玉県難病相談支援センター(社)埼玉県障害難病団体協議会"
+          },
+          "phone": [
+            {
+              "value": "TEL：048-834-6674",
+              "evidence": "TEL：048-834-6674"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒330-8522　さいたま市浦和区大原3-10-1",
+              "埼玉県障害者交流センター内"
+            ],
+            "evidence": "〒330-8522　さいたま市浦和区大原3-10-1埼玉県障害者交流センター内"
+          },
+          "url": {
+            "value": "https://saitama-pref-shounankyo.org/",
+            "evidence": "埼玉県障害難病団体協議会ホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "千葉県",
+      "centers": [
+        {
+          "heading": "千葉県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "千葉県総合難病相談支援センター"
+            ],
+            "evidence": "千葉県総合難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：043-222-7171",
+              "evidence": "TEL：043-222-7171"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒260-8677　千葉市中央区亥鼻1-8-1",
+              "千葉大学医学部附属病院"
+            ],
+            "evidence": "〒260-8677　千葉市中央区亥鼻1-8-1千葉大学医学部附属病院"
+          },
+          "url": {
+            "value": "http://www.ho.chiba-u.ac.jp/nanbyo/index.html",
+            "evidence": "総合難病相談支援センターホームページへ"
+          }
+        },
+        {
+          "heading": "千葉県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "東葛南部地域難病相談支援センター"
+            ],
+            "evidence": "東葛南部地域難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：047-353-3111",
+              "evidence": "TEL：047-353-3111"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒279-0021　浦安市富岡2-1-1",
+              "順天堂大学医学部附属浦安病院"
+            ],
+            "evidence": "〒279-0021　浦安市富岡2-1-1順天堂大学医学部附属浦安病院"
+          },
+          "url": {
+            "value": "https://www.hosp-urayasu.juntendo.ac.jp/medicalcare/patientsupportcenter/welfare_consult/disease/",
+            "evidence": "東葛南部地域難病相談支援センターホームページへ"
+          }
+        },
+        {
+          "heading": "千葉県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "東葛北部地域難病相談支援センター"
+            ],
+            "evidence": "東葛北部地域難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：04-7167-9681",
+              "evidence": "TEL：04-7167-9681"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒277-8567　柏市柏下163-1",
+              "東京慈恵会医科大学附属柏病院"
+            ],
+            "evidence": "〒277-8567　柏市柏下163-1東京慈恵会医科大学附属柏病院"
+          },
+          "url": {
+            "value": "http://www.jikei.ac.jp/hospital/kashiwa/news/news03.html",
+            "evidence": "東葛北部地域難病相談支援センターホームページへ"
+          }
+        },
+        {
+          "heading": "千葉県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "印旛山武地域難病相談支援センター"
+            ],
+            "evidence": "印旛山武地域難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：0476-22-2311",
+              "evidence": "TEL：0476-22-2311"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒286-8523　成田市飯田町90-1",
+              "成田赤十字病院"
+            ],
+            "evidence": "〒286-8523　成田市飯田町90-1成田赤十字病院"
+          },
+          "url": {
+            "value": "https://www.narita.jrc.or.jp/department/nanbyosodan/index.html",
+            "evidence": "印旛山武地域難病相談支援センターホームページへ"
+          }
+        },
+        {
+          "heading": "千葉県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "香取・海匝地域難病相談支援センター"
+            ],
+            "evidence": "香取・海匝地域難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：0479-63-8111",
+              "evidence": "TEL：0479-63-8111"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒289-2511　旭市イ1326",
+              "総合病院国保旭中央病院"
+            ],
+            "evidence": "〒289-2511　旭市イ1326総合病院国保旭中央病院"
+          },
+          "url": {
+            "value": "http://www.hospital.asahi.chiba.jp/nanbyou/",
+            "evidence": "香取・海匝地域難病相談支援センターホームページへ"
+          }
+        },
+        {
+          "heading": "千葉県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "夷隅長生地域難病相談支援センター"
+            ],
+            "evidence": "夷隅長生地域難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：0475-34-2121",
+              "evidence": "TEL：0475-34-2121"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒299-4192 　茂原市本納2777",
+              "公立長生病院"
+            ],
+            "evidence": "〒299-4192 　茂原市本納2777公立長生病院"
+          },
+          "url": {
+            "value": "https://www.chouseihp.jp/renkei.html",
+            "evidence": "夷隅長生地域難病相談支援センターホームページへ"
+          }
+        },
+        {
+          "heading": "千葉県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "安房地域難病相談支援センター"
+            ],
+            "evidence": "安房地域難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：04-7099-1223",
+              "evidence": "TEL：04-7099-1223"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒296-8602　鴨川市東町929",
+              "医療法人鉄焦会亀田総合病院"
+            ],
+            "evidence": "〒296-8602　鴨川市東町929医療法人鉄焦会亀田総合病院"
+          },
+          "url": {
+            "value": "https://medical.kameda.com/general/medi_services/index_240.html",
+            "evidence": "安房地域難病相談支援センターホームページへ"
+          }
+        },
+        {
+          "heading": "千葉県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "君津地域難病相談支援センター"
+            ],
+            "evidence": "君津地域難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：0438-36-1071",
+              "evidence": "TEL：0438-36-1071"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒292-8535　木更津市桜井1010",
+              "国保直営総合病院君津中央病院"
+            ],
+            "evidence": "〒292-8535　木更津市桜井1010国保直営総合病院君津中央病院"
+          },
+          "url": {
+            "value": "http://www.hospital.kisarazu.chiba.jp/nanbyo.html",
+            "evidence": "君津地域難病相談支援センターホームページへ"
+          }
+        },
+        {
+          "heading": "千葉県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "市原地域難病相談支援センター"
+            ],
+            "evidence": "市原地域難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：0436-74-1111",
+              "evidence": "TEL：0436-74-1111"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒290-0003　市原市辰巳台東2-16",
+              "千葉労災病院"
+            ],
+            "evidence": "〒290-0003　市原市辰巳台東2-16千葉労災病院"
+          }
+        },
+        {
+          "heading": "千葉市",
+          "pref_basis": "preceding_heading",
+          "name": {
+            "value": [
+              "千葉市難病相談支援センター"
+            ],
+            "evidence": "千葉市難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：043-264-3118",
+              "evidence": "TEL：043-264-3118"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒260-8712　千葉県千葉市中央区仁戸名町673番地",
+              "国立病院機構千葉東病院"
+            ],
+            "evidence": "〒260-8712　千葉県千葉市中央区仁戸名町673番地国立病院機構千葉東病院"
+          },
+          "url": {
+            "value": "https://chiba-east.hosp.go.jp/section/cnt1_00040.html",
+            "evidence": "千葉市難病相談支援センターホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "東京都",
+      "centers": [
+        {
+          "heading": "東京都",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "東京都難病相談・支援センター"
+            ],
+            "evidence": "東京都難病相談・支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：03-5802-1892",
+              "evidence": "TEL：03-5802-1892"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒113-0033　文京区本郷一丁目1番19号",
+              "元町ウェルネスパーク　西館1階"
+            ],
+            "evidence": "〒113-0033　文京区本郷一丁目1番19号元町ウェルネスパーク　西館1階"
+          },
+          "url": {
+            "value": "https://www.hokeniryo.metro.tokyo.lg.jp/kenkou/nanbyo/portal/center/index.html",
+            "evidence": "東京都難病相談・支援センターホ－ムページへ"
+          }
+        },
+        {
+          "heading": "東京都",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "東京都多摩難病相談・支援室"
+            ],
+            "evidence": "東京都多摩難病相談・支援室"
+          },
+          "phone": [
+            {
+              "value": "TEL：042-323-5880",
+              "evidence": "TEL：042-323-5880"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒183-0042　府中市武蔵台2-6-1",
+              "東京都立神経病院2階"
+            ],
+            "evidence": "〒183-0042　府中市武蔵台2-6-1東京都立神経病院2階"
+          }
+        },
+        {
+          "heading": "東京都",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "東京都難病ピア相談室"
+            ],
+            "evidence": "東京都難病ピア相談室"
+          },
+          "phone": [
+            {
+              "value": "TEL：03-3446-0220",
+              "evidence": "TEL：03-3446-0220"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒150-0012　渋谷区広尾5-7-1",
+              "東京都広尾庁舎1階"
+            ],
+            "evidence": "〒150-0012　渋谷区広尾5-7-1東京都広尾庁舎1階"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "神奈川県",
+      "centers": [
+        {
+          "heading": "神奈川県・横浜市・川崎市・相模原市",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "かながわ難病相談支援センター"
+            ],
+            "evidence": "かながわ難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：045-321-2711",
+              "evidence": "TEL：045-321-2711"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒221-0835　横浜市神奈川区鶴屋町2-24-2",
+              "かながわ県民センター14階"
+            ],
+            "evidence": "〒221-0835　横浜市神奈川区鶴屋町2-24-2かながわ県民センター14階"
+          },
+          "url": {
+            "value": "https://www.kanagawa-nanbyo.com/",
+            "evidence": "かながわ難病相談支援センターホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "新潟県",
+      "centers": [
+        {
+          "heading": "新潟県・新潟市",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "新潟県・新潟市難病相談支援センター"
+            ],
+            "evidence": "新潟県・新潟市難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：025-267-2170",
+              "evidence": "TEL：025-267-2170"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒950-2085　新潟市西区真砂1-14-1",
+              "独立行政法人国立病院機構西新潟中央病院内2階"
+            ],
+            "evidence": "〒950-2085　新潟市西区真砂1-14-1独立行政法人国立病院機構西新潟中央"
+          },
+          "url": {
+            "value": "http://www.niigata-nansen.com/",
+            "evidence": "新潟県・新潟市難病相談支援センターホ－ムページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "富山県",
+      "centers": [
+        {
+          "heading": "富山県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "富山県難病相談支援センター"
+            ],
+            "evidence": "富山県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：076-432-6577",
+              "evidence": "TEL：076-432-6577"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒930-0094　富山市安住町5番21号",
+              "サンシップとやま5階"
+            ],
+            "evidence": "〒930-0094　富山市安住町5番21号サンシップとやま5階"
+          },
+          "url": {
+            "value": "http://www.toyama-shakyo.or.jp/nanbyou/",
+            "evidence": "富山県難病相談支援センターホ－ムページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "石川県",
+      "centers": [
+        {
+          "heading": "石川県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "石川県難病相談支援センター"
+            ],
+            "evidence": "石川県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：076-266-2738",
+              "evidence": "TEL：076-266-2738"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒920-0353　金沢市赤土町二13-1",
+              "石川県リハビリテーションセンター内"
+            ],
+            "evidence": "〒920-0353　金沢市赤土町二13-1石川県リハビリテーションセンター内"
+          },
+          "url": {
+            "value": "http://www.pref.ishikawa.lg.jp/nanbyou/",
+            "evidence": "石川県難病相談支援センターホ－ムページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "福井県",
+      "centers": [
+        {
+          "heading": "福井県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "福井県難病支援センター"
+            ],
+            "evidence": "福井県難病支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：0776-52-1135",
+              "evidence": "TEL：0776-52-1135"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒910-8526　福井市四ツ井2-8-1",
+              "福井県立病院 本棟3階"
+            ],
+            "evidence": "〒910-8526　福井市四ツ井2-8-1福井県立病院 本棟3階"
+          },
+          "url": {
+            "value": "http://www.pref.fukui.lg.jp/doc/kenkou/siteinannbyou/nanbyoc.html",
+            "evidence": "福井県難病支援センターホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "山梨県",
+      "centers": [
+        {
+          "heading": "山梨県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "山梨県難病相談支援センター"
+            ],
+            "evidence": "山梨県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：055-244-5260",
+              "evidence": "TEL：055-244-5260"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒400-0005　甲府市北新1-2-12",
+              "山梨県福祉プラザ3階"
+            ],
+            "evidence": "〒400-0005　甲府市北新1-2-12山梨県福祉プラザ3階"
+          },
+          "url": {
+            "value": "http://www.nanbyou-soudan.jp/",
+            "evidence": "山梨県難病相談支援センターホ－ムページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "長野県",
+      "centers": [
+        {
+          "heading": "長野県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "長野県難病相談支援センター"
+            ],
+            "evidence": "長野県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：0263-34-6587",
+              "evidence": "TEL：0263-34-6587"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒390-0802　松本市旭2-11-30",
+              "長野県松本旭町庁舎（信州大学医学部附属病院南側）2階"
+            ],
+            "evidence": "〒390-0802　松本市旭2-11-30長野県松本旭町庁舎（信州大学医学部附属"
+          },
+          "url": {
+            "value": "https://www.pref.nagano.lg.jp/shippei-kansen/kenko/kenko/nanbyo/shiencenter.html",
+            "evidence": "長野県難病相談支援センター"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "岐阜県",
+      "centers": [
+        {
+          "heading": "岐阜県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "難病生きがいサポートセンター"
+            ],
+            "evidence": "難病生きがいサポートセンター"
+          },
+          "phone": [
+            {
+              "value": "TEL：058-214-8733",
+              "evidence": "TEL：058-214-8733"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒500-8385　岐阜市下奈良2-2-1",
+              "岐阜県福祉農業会館3階"
+            ],
+            "evidence": "〒500-8385　岐阜市下奈良2-2-1岐阜県福祉農業会館3階"
+          },
+          "url": {
+            "value": "http://www.gifunanbyo.org/",
+            "evidence": "難病生きがいサポートセンターホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "静岡県",
+      "centers": [
+        {
+          "heading": "静岡県・静岡市",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "静岡県難病相談支援センター"
+            ],
+            "evidence": "静岡県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：054-286-9203",
+              "evidence": "TEL：054-286-9203"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒422-8031　静岡市駿河区有明町二丁目20番",
+              "静岡総合庁舎別館2階"
+            ],
+            "evidence": "〒422-8031　静岡市駿河区有明町二丁目20番静岡総合庁舎別館2階"
+          },
+          "url": {
+            "value": "https://soudansenta.jimdofree.com/",
+            "evidence": "静岡県難病相談支援センターホームページへ"
+          }
+        },
+        {
+          "heading": "浜松市",
+          "pref_basis": "preceding_heading",
+          "name": {
+            "value": [
+              "浜松市難病相談支援センター"
+            ],
+            "evidence": "浜松市難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：053-453-6127",
+              "evidence": "TEL：053-453-6127"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒432-8550　静岡県浜松市中央区鴨江二丁目11－2",
+              "浜松市保健所2階健康増進課内"
+            ],
+            "evidence": "〒432-8550　静岡県浜松市中央区鴨江二丁目11－2浜松市保健所2階健康増進"
+          },
+          "url": {
+            "value": "https://www.city.hamamatsu.shizuoka.jp/hokenk/medical/counseling/index.html",
+            "evidence": "浜松市公式ホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "愛知県",
+      "centers": [
+        {
+          "heading": "愛知県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "愛知県医師会難病相談室"
+            ],
+            "evidence": "愛知県医師会難病相談室"
+          },
+          "phone": [
+            {
+              "value": "TEL：052-241-4144",
+              "evidence": "TEL：052-241-4144"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒460-0008　名古屋市中栄１丁目23番10号",
+              "愛知県医師会仮事務所"
+            ],
+            "evidence": "〒460-0008　名古屋市中栄１丁目23番10号愛知県医師会仮事務所"
+          },
+          "url": {
+            "value": "https://www.aichi.med.or.jp/rd/counsel/",
+            "evidence": "愛知県医師会難病相談室"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "三重県",
+      "centers": [
+        {
+          "heading": "三重県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "三重県難病相談支援センター"
+            ],
+            "evidence": "三重県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：059-223-5035",
+              "evidence": "TEL：059-223-5035"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒514-8567　津市桜橋3丁目446-34",
+              "三重県津庁舎保健所棟1階"
+            ],
+            "evidence": "〒514-8567　津市桜橋3丁目446-34三重県津庁舎保健所棟1階"
+          },
+          "url": {
+            "value": "http://www.mie-nanbyo.server-shared.com/",
+            "evidence": "三重県難病相談支援センターホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "滋賀県",
+      "centers": [
+        {
+          "heading": "滋賀県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "滋賀県難病相談支援センター"
+            ],
+            "evidence": "滋賀県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：077-526-0171",
+              "evidence": "TEL：077-526-0171"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒520-0044　大津市京町4丁目3-28",
+              "滋賀県厚生会館別館2階"
+            ],
+            "evidence": "〒520-0044　大津市京町4丁目3-28滋賀県厚生会館別館2階"
+          },
+          "url": {
+            "value": "https://shigananren.org/activity/nanbyou_center/",
+            "evidence": "滋賀県難病相談支援センターホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "京都府",
+      "centers": [
+        {
+          "heading": "京都府・京都市",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "京都難病相談・支援センター"
+            ],
+            "evidence": "京都難病相談・支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：075-414-7830",
+              "evidence": "TEL：075-414-7830"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒602-8570　京都市上京区下立売通新町西入薮ノ内町",
+              "京都府庁1号館1階"
+            ],
+            "evidence": "〒602-8570　京都市上京区下立売通新町西入薮ノ内町京都府庁1号館1階"
+          },
+          "url": {
+            "value": "http://www.pref.kyoto.jp/nanbyou/center/index.html",
+            "evidence": "京都難病相談・支援センターホ－ムページ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "大阪府",
+      "centers": [
+        {
+          "heading": "大阪府",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "大阪難病相談支援センター"
+            ],
+            "evidence": "大阪難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：06-6926-4553",
+              "evidence": "TEL：06-6926-4553"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒558－0056　大阪市住吉区万代東3-1-46",
+              "大阪府こころの健康総合センター3階"
+            ],
+            "evidence": "〒558－0056　大阪市住吉区万代東3-1-46大阪府こころの健康総合センター"
+          },
+          "url": {
+            "value": "http://www.nanbyo.osaka",
+            "evidence": "大阪難病相談支援センター"
+          }
+        },
+        {
+          "heading": "堺市",
+          "pref_basis": "preceding_heading",
+          "name": {
+            "value": [
+              "堺市難病患者支援センター"
+            ],
+            "evidence": "堺市難病患者支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：072-275-5056",
+              "evidence": "TEL：072-275-5056"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒590－0808　堺市堺区旭ヶ丘中町4丁目3－1",
+              "堺市立健康福祉プラザ4階"
+            ],
+            "evidence": "〒590－0808　堺市堺区旭ヶ丘中町4丁目3－1堺市立健康福祉プラザ4階"
+          },
+          "url": {
+            "value": "http://www.city.sakai.lg.jp/kenko/kenko/nanbyonado/nannbyou/nanbyokanjyasiensenta.html",
+            "evidence": "堺市難病患者支援センター"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "兵庫県",
+      "centers": [
+        {
+          "heading": "兵庫県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "兵庫県難病相談センター"
+            ],
+            "evidence": "兵庫県難病相談センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：06-6480-7730",
+              "evidence": "TEL：06-6480-7730"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒660-8550　尼崎市東難波町2丁目17番77号",
+              "兵庫県立尼崎総合医療センター1階"
+            ],
+            "evidence": "〒660-8550　尼崎市東難波町2丁目17番77号兵庫県立尼崎総合医療センター"
+          },
+          "url": {
+            "value": "https://agmc.hyogo.jp/nanbyo/default.htm",
+            "evidence": "兵庫県難病相談センターホ－ムページへ"
+          }
+        },
+        {
+          "heading": "神戸市",
+          "pref_basis": "preceding_heading",
+          "name": {
+            "value": [
+              "神戸市難病相談支援センター"
+            ],
+            "evidence": "神戸市難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：078－382－6600",
+              "evidence": "TEL：078－382－6600"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒650－0017　兵庫県神戸市中央区楠町７－５－２",
+              "神戸大学医学部附属病院内"
+            ],
+            "evidence": "〒650－0017　兵庫県神戸市中央区楠町７－５－２神戸大学医学部附属病院内"
+          },
+          "url": {
+            "value": "https://www.hosp.kobe-u.ac.jp/knanbyo/",
+            "evidence": "神戸市難病相談センターホ－ムページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "奈良県",
+      "centers": [
+        {
+          "heading": "奈良県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "奈良県難病相談支援センター"
+            ],
+            "evidence": "奈良県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：0743-55-0631",
+              "evidence": "TEL：0743-55-0631"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒639-1041　大和郡山市満願寺町60-1",
+              "奈良県郡山総合庁舎内（北側１階)"
+            ],
+            "evidence": "〒639-1041　大和郡山市満願寺町60-1奈良県郡山総合庁舎内（北側１階)"
+          },
+          "url": {
+            "value": "http://www.pref.nara.jp/1731.htm",
+            "evidence": "奈良県難病相談支援センターホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "和歌山県",
+      "centers": [
+        {
+          "heading": "和歌山県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "和歌山県難病・こども保健相談支援センター"
+            ],
+            "evidence": "和歌山県難病・こども保健相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：073-445-0520",
+              "evidence": "TEL：073-445-0520"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒641-8510　和歌山市紀三井寺811-1",
+              "和歌山県立医科大学附属病院3階"
+            ],
+            "evidence": "〒641-8510　和歌山市紀三井寺811-1和歌山県立医科大学附属病院3階"
+          },
+          "url": {
+            "value": "https://www.pref.wakayama.lg.jp/prefg/050302/050300/kodomo/index.html",
+            "evidence": "和歌山県難病・こども保健相談支援センターホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "鳥取県",
+      "centers": [
+        {
+          "heading": "鳥取県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "鳥取県難病相談・支援センター米子"
+            ],
+            "evidence": "鳥取県難病相談・支援センター米子"
+          },
+          "phone": [
+            {
+              "value": "TEL：0859-38-6986",
+              "evidence": "TEL：0859-38-6986"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒683-8504　米子市西町36-1",
+              "鳥取大学医学部附属病院 第二中央診療棟1階"
+            ],
+            "evidence": "〒683-8504　米子市西町36-1鳥取大学医学部附属病院 第二中央診療棟1階"
+          },
+          "url": {
+            "value": "https://www.med.tottori-u.ac.jp/nanbyou-shien-center/",
+            "evidence": "鳥取県難病相談支援センターホームページへ"
+          }
+        },
+        {
+          "heading": "鳥取県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "鳥取県難病相談・支援センター鳥取"
+            ],
+            "evidence": "鳥取県難病相談・支援センター鳥取"
+          },
+          "phone": [
+            {
+              "value": "TEL：0857-59-0510",
+              "evidence": "TEL：0857-59-0510"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒689-0203　鳥取市三津876",
+              "独立行政法人国立病院機構　鳥取医療センター　1階"
+            ],
+            "evidence": "〒689-0203　鳥取市三津876独立行政法人国立病院機構　鳥取医療センター　"
+          },
+          "url": {
+            "value": "https://tottori.hosp.go.jp/outpatient/support/",
+            "evidence": "鳥取県難病相談・支援センター鳥取ホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "島根県",
+      "centers": [
+        {
+          "heading": "島根県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "しまね難病相談支援センター"
+            ],
+            "evidence": "しまね難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：0853-24-8510",
+              "evidence": "TEL：0853-24-8510"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒693-0021　出雲市塩冶町223-7",
+              "公益財団法人ヘルスサイエンスセンター島根内"
+            ],
+            "evidence": "〒693-0021　出雲市塩冶町223-7公益財団法人ヘルスサイエンスセンター島"
+          },
+          "url": {
+            "value": "http://www.hsc-shimane.jp/nanbyo-shien/",
+            "evidence": "しまね難病相談支援センターホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "岡山県",
+      "centers": [
+        {
+          "heading": "岡山県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "岡山県難病相談支援センター"
+            ],
+            "evidence": "岡山県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：086-246-6284",
+              "evidence": "TEL：086-246-6284"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒700-0952　岡山市北区平田408-1",
+              "岡山県南部健康づくりセンター1階"
+            ],
+            "evidence": "〒700-0952　岡山市北区平田408-1岡山県南部健康づくりセンター1階"
+          },
+          "url": {
+            "value": "http://www.okakenko.jp/nanbyou/",
+            "evidence": "岡山県難病相談支援センターホームページへ"
+          }
+        },
+        {
+          "heading": "岡山市",
+          "pref_basis": "preceding_heading",
+          "name": {
+            "value": [
+              "岡山市難病相談支援センター / ピア・サポート相談"
+            ],
+            "evidence": "岡山市難病相談支援センター / ピア・サポート相談"
+          },
+          "phone": [
+            {
+              "value": "TEL：086-803-1271",
+              "evidence": "TEL：086-803-1271"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒700-8546　岡山市北区鹿田町一丁目1-1",
+              "保健福祉会館2階"
+            ],
+            "evidence": "〒700-8546　岡山市北区鹿田町一丁目1-1保健福祉会館2階"
+          },
+          "url": {
+            "value": "https://www.city.okayama.jp/kurashi/0000025419.html",
+            "evidence": "岡山市難病相談支援センターホームページへ ピア・サポート相談ホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "広島県",
+      "centers": [
+        {
+          "heading": "広島県・広島市",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "難病対策センターひろしま"
+            ],
+            "evidence": "難病対策センターひろしま"
+          },
+          "phone": [
+            {
+              "value": "難病　TEL：082-252-3777",
+              "evidence": "難病　TEL：082-252-3777"
+            },
+            {
+              "value": "小児　TEL：082-256-5558",
+              "evidence": "小児　TEL：082-256-5558"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒734-5881　広島市南区霞1-2-3",
+              "広島大学病院臨床管理棟1階"
+            ],
+            "evidence": "〒734-5881　広島市南区霞1-2-3広島大学病院臨床管理棟1階"
+          },
+          "url": {
+            "value": "http://cidc.hiroshima-u.ac.jp/",
+            "evidence": "難病対策センターひろしまホームページへ"
+          }
+        },
+        {
+          "heading": "広島県・広島市",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "広島難病団体連絡協議会"
+            ],
+            "evidence": "広島難病団体連絡協議会"
+          },
+          "phone": [
+            {
+              "value": "TEL：082-236-1981",
+              "evidence": "TEL：082-236-1981"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒734-0007　広島市南区皆実町1丁目6-29",
+              "広島県健康福祉センター3階"
+            ],
+            "evidence": "〒734-0007　広島市南区皆実町1丁目6-29広島県健康福祉センター3階"
+          },
+          "url": {
+            "value": "http://www.hironanren.info/",
+            "evidence": "広島難病団体連絡協議会ホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "山口県",
+      "centers": [
+        {
+          "heading": "山口県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "山口県難病相談支援センター"
+            ],
+            "evidence": "山口県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：083-933-2958",
+              "evidence": "TEL：083-933-2958"
+            }
+          ],
+          "address": {
+            "value": [
+              "●県難病相談支援センター",
+              "【山口県庁健康増進課】",
+              "〒753-8501 山口市滝町1-1　県庁6階",
+              "●地域難病相談支援センター",
+              "岩国健康福祉センター（〒740-0016 岩国市三笠町1-1-1　岩国総合庁舎2F)",
+              "電話：0827-29-1521",
+              "柳井健康福祉センター（〒742-0031 柳井市南町3丁目9-3　柳井総合庁舎1・2階)",
+              "電話：0820-22-3631",
+              "周南健康福祉センター（〒745-0004 周南市毛利町2-38　周南総合庁舎3F)",
+              "電話：0834-33-6423",
+              "山口健康福祉センター（〒753-8588 山口市吉敷下東3-1-1　山口県総合保健会館1F)",
+              "電話：083-934-2533",
+              "山口健康福祉センター防府保健部（〒747-0801 防府市駅南町13-40　防府総合庁舎1F)",
+              "電話：0835-22-3740",
+              "宇部健康福祉センター（〒755-0033 宇部市琴芝町1-1-50)",
+              "電話：0836-31-3203",
+              "長門健康福祉センター（〒759-4101 長門市東深川1344-1)",
+              "電話：0837-22-2811",
+              "荻健康福祉センター　（〒758-0041 荻市江向河添沖田531-1)",
+              "電話：0838-25-2667",
+              "下関市立下関保健所（〒750-0006 下関市南部町1-1)",
+              "電話：083-231-1446",
+              "FAX：083-235-3901"
+            ],
+            "evidence": "●県難病相談支援センター【山口県庁健康増進課】〒753-8501 山口市滝町1-"
+          },
+          "url": {
+            "value": "http://www.pref.yamaguchi.lg.jp/cms/a15200/nanbyou/nanbyosodanshien.html",
+            "evidence": "山口県難病相談支援センターのホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "徳島県",
+      "centers": [
+        {
+          "heading": "徳島県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "徳島県難病相談支援センター"
+            ],
+            "evidence": "徳島県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：088-621-2999",
+              "evidence": "TEL：088-621-2999"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒770-8570　徳島市万代町1丁目1番地",
+              "徳島県健康寿命推進課 がん・疾病対策担当"
+            ],
+            "evidence": "〒770-8570　徳島市万代町1丁目1番地徳島県健康寿命推進課 がん・疾病対策"
+          },
+          "url": {
+            "value": "https://www.pref.tokushima.lg.jp/ippannokata/kenko/iryo/5014646",
+            "evidence": "徳島県難病相談支援センターのホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "香川県",
+      "centers": [
+        {
+          "heading": "香川県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "香川県難病相談支援ネットワーク"
+            ],
+            "evidence": "香川県難病相談支援ネットワーク"
+          },
+          "phone": [
+            {
+              "value": "TEL：087-832-3260",
+              "evidence": "TEL：087-832-3260"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒760-8570　高松市番町4-1-10",
+              "県庁本館16階 健康福祉総務課 難病等対策グループ"
+            ],
+            "evidence": "〒760-8570　高松市番町4-1-10県庁本館16階 健康福祉総務課 難病等"
+          },
+          "url": {
+            "value": "https://www.pref.kagawa.lg.jp/kenkosomu/siteinanbyo/shien/index.html",
+            "evidence": "香川県難病相談支援ネットワークのホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "愛媛県",
+      "centers": [
+        {
+          "heading": "愛媛県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "愛媛県難病相談支援センター"
+            ],
+            "evidence": "愛媛県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：089-960-5013",
+              "evidence": "TEL：089-960-5013"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒791-0295　東温市志津川454",
+              "愛媛大学医学部附属病院総合診療サポートセンター内"
+            ],
+            "evidence": "〒791-0295　東温市志津川454愛媛大学医学部附属病院総合診療サポートセン"
+          },
+          "url": {
+            "value": "https://www.hsp.ehime-u.ac.jp/department/%E9%9B%A3%E7%97%85%E6%94%AF%E6%8F%B4%E7%9B%B8%E8%AB%87%E7%AA%93%E5%8F%A3/",
+            "evidence": "愛媛県難病相談支援センターホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "高知県",
+      "centers": [
+        {
+          "heading": "高知県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "こうち難病相談支援センター"
+            ],
+            "evidence": "こうち難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：088-855-6258",
+              "evidence": "TEL：088-855-6258"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒780-0062　高知市新本町1丁目14-6　1階"
+            ],
+            "evidence": "〒780-0062　高知市新本町1丁目14-6　1階"
+          },
+          "url": {
+            "value": "https://kochi-nanbyoshien.com/",
+            "evidence": "こうち難病相談支援センターホームページへ ■難病相談支援センター案内リーフレット"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "福岡県",
+      "centers": [
+        {
+          "heading": "福岡県・福岡市",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "福岡県難病相談支援センター",
+              "福岡市難病相談支援センター"
+            ],
+            "evidence": "福岡県難病相談支援センター福岡市難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：092-643-8292",
+              "evidence": "TEL：092-643-8292"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒812-8582　福岡市東区馬出3-1-1",
+              "九州大学病院北棟2階(2Bブレインセンター前)"
+            ],
+            "evidence": "〒812-8582　福岡市東区馬出3-1-1九州大学病院北棟2階(2Bブレインセ"
+          },
+          "url": {
+            "value": "http://www.fnanbyou-c.org/index.php",
+            "evidence": "福岡県・福岡市難病相談支援センターホームページへ"
+          }
+        },
+        {
+          "heading": "福岡県・福岡市",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "福岡県難病相談支援センター（北九州センター）"
+            ],
+            "evidence": "福岡県難病相談支援センター（北九州センター）"
+          },
+          "phone": [
+            {
+              "value": "TEL：093-522-6641",
+              "evidence": "TEL：093-522-6641"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒802-8560　北九州市小倉北区馬借1-7-1",
+              "北九州市総合保健福祉センター6階"
+            ],
+            "evidence": "〒802-8560　北九州市小倉北区馬借1-7-1北九州市総合保健福祉センター6"
+          }
+        },
+        {
+          "heading": "北九州市",
+          "pref_basis": "preceding_heading",
+          "name": {
+            "value": [
+              "北九州市難病相談支援センター"
+            ],
+            "evidence": "北九州市難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：093-522-8761",
+              "evidence": "TEL：093-522-8761"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒802-8560　北九州市小倉北区馬借1-7-1",
+              "北九州市総合保健福祉センター6階"
+            ],
+            "evidence": "〒802-8560　北九州市小倉北区馬借1-7-1北九州市総合保健福祉センター6"
+          },
+          "url": {
+            "value": "http://www.city.kitakyushu.lg.jp/ho-huku/17000129.html",
+            "evidence": "北九州市ホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "佐賀県",
+      "centers": [
+        {
+          "heading": "佐賀県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "佐賀県難病相談支援センター"
+            ],
+            "evidence": "佐賀県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：0952-97-9632",
+              "evidence": "TEL：0952-97-9632"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒840-0804　佐賀市神野東2丁目6番10号",
+              "佐賀県駅北館2階"
+            ],
+            "evidence": "〒840-0804　佐賀市神野東2丁目6番10号佐賀県駅北館2階"
+          },
+          "url": {
+            "value": "https://www.saga-nanbyo.com/",
+            "evidence": "佐賀県難病相談支援センターホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "長崎県",
+      "centers": [
+        {
+          "heading": "長崎県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "長崎県難病相談支援センター"
+            ],
+            "evidence": "長崎県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：095-846-8620",
+              "evidence": "TEL：095-846-8620"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒852-8104　長崎市茂里町3番24号",
+              "長崎県総合福祉センター県棟2階"
+            ],
+            "evidence": "〒852-8104　長崎市茂里町3番24号長崎県総合福祉センター県棟2階"
+          },
+          "url": {
+            "value": "http://www.nagasaki-nanbyou.gr.jp/",
+            "evidence": "長崎県難病相談支援センターホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "熊本県",
+      "centers": [
+        {
+          "heading": "熊本県・熊本市",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "熊本県・熊本市難病相談支援センター"
+            ],
+            "evidence": "熊本県・熊本市難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：096-321-7055",
+              "evidence": "TEL：096-321-7055"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒860-0842　熊本市中央区南千反畑町3-7",
+              "熊本県総合福祉センター１階"
+            ],
+            "evidence": "〒860-0842　熊本市中央区南千反畑町3-7熊本県総合福祉センター１階"
+          },
+          "url": {
+            "value": "http://kumamotonanbyou-center.org/",
+            "evidence": "熊本県難病相談支援センターホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "大分県",
+      "centers": [
+        {
+          "heading": "大分県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "大分県難病相談支援センター"
+            ],
+            "evidence": "大分県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：097-578-7831",
+              "evidence": "TEL：097-578-7831"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒870-0037　大分市東春日町1-1",
+              "NS大分ビル2階"
+            ],
+            "evidence": "〒870-0037　大分市東春日町1-1NS大分ビル2階"
+          },
+          "url": {
+            "value": "https://nanbyo-o.server-shared.com/center.html",
+            "evidence": "大分県難病相談支援センターホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "宮崎県",
+      "centers": [
+        {
+          "heading": "宮崎県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "宮崎県難病相談支援センター"
+            ],
+            "evidence": "宮崎県難病相談支援センター"
+          },
+          "phone": [
+            {
+              "value": "TEL：0985-31-3414",
+              "evidence": "TEL：0985-31-3414"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒880-0007　宮崎市原町2-22",
+              "宮崎県福祉総合センター本館2階"
+            ],
+            "evidence": "〒880-0007　宮崎市原町2-22宮崎県福祉総合センター本館2階"
+          },
+          "url": {
+            "value": "https://miyazakinanbyo.com/",
+            "evidence": "宮崎県難病相談支援センターホームページへ"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "鹿児島県",
+      "centers": [
+        {
+          "heading": "鹿児島県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "鹿児島県難病相談支援センター"
+            ],
+            "evidence": "鹿児島県難病相談支援センター"
+          },
+          "address": {
+            "value": [
+              "１　●県難病相談支援センター",
+              "〒890-0021　鹿児島市小野1丁目1-1（ハートピアかごしま3階）",
+              "２　●地域難病相談支援センター",
+              "【お住まいの市町村を管轄する保健所】",
+              "鹿児島市保健所（電話：099-224-1111）",
+              "指宿保健所（電話：0993-23-3854）",
+              "加世田保健所（電話：0993-53-2315）",
+              "伊集院保健所（電話：099-273-2332）",
+              "川薩保健所（電話：0996-23-3165）",
+              "出水保健所（電話：0996-62-1636）",
+              "大口保健所（電話：0995-23-5103)",
+              "姶良保健所（電話：0995-44-7951）",
+              "志布志保健所（電話：099-472-1021）",
+              "鹿屋保健所（電話：0994-52-2103）",
+              "西之表保健所（電話：0997-22-0777）",
+              "屋久島保健所（電話：0997-46-2024）",
+              "名瀬保健所（電話：0997-52-5411）",
+              "徳之島保健所（電話：0997-82-0149）"
+            ],
+            "evidence": "１　●県難病相談支援センター〒890-0021　鹿児島市小野1丁目1-1（ハート"
+          },
+          "url": {
+            "value": "http://www.pref.kagoshima.jp/ae06/kenko-fukushi/kenko-iryo/nanbyo/nanbyosoudan.html",
+            "evidence": "鹿児島県難病相談支援センター"
+          }
+        }
+      ]
+    },
+    {
+      "pref": "沖縄県",
+      "centers": [
+        {
+          "heading": "沖縄県",
+          "pref_basis": "heading",
+          "name": {
+            "value": [
+              "沖縄県難病相談支援センター",
+              "認定NPO法人 アンビシャス"
+            ],
+            "evidence": "沖縄県難病相談支援センター認定NPO法人 アンビシャス"
+          },
+          "phone": [
+            {
+              "value": "TEL：098-951-0567",
+              "evidence": "TEL：098-951-0567"
+            }
+          ],
+          "address": {
+            "value": [
+              "〒900-0013　那覇市牧志3-24-29",
+              "グレイスハイム喜納2　1階"
+            ],
+            "evidence": "〒900-0013　那覇市牧志3-24-29グレイスハイム喜納2　1階"
+          },
+          "url": {
+            "value": "http://www.ambitious.or.jp/",
+            "evidence": "沖縄県難病相談支援センターホ－ムページへ"
+          }
+        }
+      ]
+    }
+  ]
+}

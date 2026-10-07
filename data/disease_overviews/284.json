@@ -1,0 +1,74 @@
+{
+ "idx": 284,
+ "name": "強直性脊椎炎",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4847",
+   "fetched_at": "2026-09-24T00:46:14+09:00",
+   "sha256": "7ed345e24831e106eb82b97a5b6d3edc5598a3cbafe8f8743f7066843e8623f2",
+   "title": "強直性脊椎炎（指定難病２７１） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "骨盤や腰・背中・首の背骨で、じん帯が骨につく部分に炎症が起こる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "仙腸関節や腰、背中、首の脊椎（背骨）の靱帯付着部に炎症が生じます",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "腰やおしりが痛む",
+   "source_id": "nanbyou",
+   "evidence": "腰痛や殿部痛から始まります"
+  },
+  {
+   "text": "痛みが背中全体や首まで広がる",
+   "source_id": "nanbyou",
+   "evidence": "背中全体や頚部まで広がることがあります"
+  },
+  {
+   "text": "肩や股関節、ひざが痛む",
+   "source_id": "nanbyou",
+   "evidence": "肩や股関節、膝関節など四肢の大きい関節に痛みが生じる"
+  },
+  {
+   "text": "体を曲げ伸ばししにくくなる",
+   "source_id": "nanbyou",
+   "evidence": "体を屈伸することが困難になり"
+  },
+  {
+   "text": "前かがみの姿勢になる",
+   "source_id": "nanbyou",
+   "evidence": "脊椎は次第に前に曲がり、前屈みの姿勢になります"
+  },
+  {
+   "text": "安静にしても痛みが軽くならず、動くとよくなる",
+   "source_id": "nanbyou",
+   "evidence": "安静にしても軽くはならず、むしろ動くと改善する"
+  },
+  {
+   "text": "かかとなど腱の付け根が痛む",
+   "source_id": "nanbyou",
+   "evidence": "腱や靭帯が骨につく部位に痛みが起こる"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "運動療法は治療の基本です。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4847",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節が保存 HTML に無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:28:23+09:00",
+ "shard": 1
+}

@@ -1,0 +1,65 @@
+{
+ "idx": 232,
+ "name": "若年発症型両側性感音難聴",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4627",
+   "fetched_at": "2026-09-24T00:45:46+09:00",
+   "sha256": "49219a7f24fe381e7d24cdbefa9e7384a5033f468f72d54f68691a0aea35518d",
+   "title": "若年発症型両側性感音難聴（指定難病３０４） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "若いうちに始まり、両耳とも少しずつ聞こえが悪くなっていく難聴です。",
+  "source_id": "nanbyou",
+  "evidence": "若年（40歳未満）で発症し両耳とも段々と進行する（聞こえが悪くなる）感音難聴",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "両耳の聞こえが悪くなる",
+   "source_id": "nanbyou",
+   "evidence": "両耳とも段々と進行する（聞こえが悪くなる）難聴"
+  },
+  {
+   "text": "軽い難聴から始まる",
+   "source_id": "nanbyou",
+   "evidence": "一般的には軽度難聴から発症し"
+  },
+  {
+   "text": "少しずつ進んでいく",
+   "source_id": "nanbyou",
+   "evidence": "その後、徐々に進行していきます"
+  },
+  {
+   "text": "耳鳴りがする",
+   "source_id": "nanbyou",
+   "evidence": "耳鳴"
+  },
+  {
+   "text": "めまいがする",
+   "source_id": "nanbyou",
+   "evidence": "めまいなどを合併する例も多く"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "聴力に応じて補聴器あるいは人工内耳"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4627",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は遺伝と検査の説明で、発症年齢の記載が無いため onset は null。",
+  "治療の節には薬の分類名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:40:16+09:00",
+ "shard": 2
+}

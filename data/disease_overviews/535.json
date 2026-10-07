@@ -1,0 +1,66 @@
+{
+ "idx": 535,
+ "name": "エメリー・ドレイフス型筋ジストロフィー",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_21_048/",
+   "fetched_at": "2026-09-25T03:28:37+09:00",
+   "sha256": "9cfdda8a560cef923fd5211bdcaa4d6fe46912ecf5aa13cae3eb49c9fd743f9f",
+   "title": "エメリー・ドレイフス（Emery-Dreifuss）型筋ジストロフィー 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "筋力の低下に加えて、早いうちから関節が固くなることと、心臓の電気の伝わり方の障害が主な症状の筋ジストロフィーです。",
+  "source_id": "shouman",
+  "evidence": "筋力低下のほか、比較的早期から認める関節拘縮、心伝導障害を主症状とする",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "体に近い側の筋肉の力が落ちる",
+   "source_id": "shouman",
+   "evidence": "筋力低下は近位筋に強い"
+  },
+  {
+   "text": "足首を上に曲げにくい",
+   "source_id": "shouman",
+   "evidence": "足関節背屈制限"
+  },
+  {
+   "text": "ひじやひざが伸ばしにくい",
+   "source_id": "shouman",
+   "evidence": "肘・膝関節などの伸展制限"
+  },
+  {
+   "text": "前かがみがしにくい",
+   "source_id": "shouman",
+   "evidence": "前屈制限"
+  },
+  {
+   "text": "心臓の脈の伝わり方の障害",
+   "source_id": "shouman",
+   "evidence": "高頻度に心伝導障害を認め"
+  }
+ ],
+ "onset": {
+  "text": "子どものころに発症します",
+  "source_id": "shouman",
+  "evidence": "発症は通常小児期で"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "必要に応じて、リハビリテーション、呼吸障害や側弯に対する治療が行われる"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_21_048/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-10-02T21:14:56+09:00",
+ "shard": 2
+}

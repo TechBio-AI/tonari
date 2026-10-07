@@ -1,0 +1,145 @@
+{
+  "_readme": [
+    "★ これは 11 疾患のための暫定形式です。将来 supabase の themes / theme_facts / fact_sources（器）へ移行します。",
+    "  情報の種類を増やすときは、この形式を拡張するのではなく、器への移行を検討してください（docs/CONTENT_ROADMAP.md）。",
+    "中身: ファウンダーが判定した患者向けの文（docs/disease_summaries_draft_2026-09-13.md、2026-09-13 承認）。",
+    "common_symptoms は HPO v2026-06-23 の「非常に多い」「多い」を元に言い換えたもの。各項目は sources に元の HPO ラベルか「執筆者による記述」を持つ。",
+    "表示では頻度を区別しない。薬剤名は書かない。",
+    "読み込み: lib/portal/disease-summaries.ts"
+  ],
+  "slug": "attr",
+  "disease": "遺伝性ATTR型アミロイドーシス",
+  "orpha_code": "ORPHA:271861",
+  "hpo_version": "v2026-06-23",
+  "approved": "2026-09-13",
+  "symptoms_preface": null,
+  "common_symptoms": [
+    {
+      "text": "手足のしびれ、感覚の鈍さ、力の弱さ",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "感覚運動ニューロパチー"
+          ],
+          "hpo_ids": [
+            "HP:0007141"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "立ち上がるとふらつく、立ちくらみ",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "自律神経性機能障害による起立性低血圧"
+          ],
+          "hpo_ids": [
+            "HP:0004926"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "下痢や便秘、吐き気",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "下痢",
+            "便秘",
+            "吐き気と嘔吐"
+          ],
+          "hpo_ids": [
+            "HP:0002014",
+            "HP:0002019",
+            "HP:0002017"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "汗をかかない",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "無汗症"
+          ],
+          "hpo_ids": [
+            "HP:0000970"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "手のしびれ（手根管症候群）",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "収縮性正中神経ニューロパチー"
+          ],
+          "hpo_ids": [
+            "HP:0012185"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "心臓の働きが落ちる、脈が乱れる",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "うっ血性心不全",
+            "不整脈",
+            "心ブロック"
+          ],
+          "hpo_ids": [
+            "HP:0001635",
+            "HP:0011675",
+            "HP:0012722"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "尿が出にくい",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "尿閉"
+          ],
+          "hpo_ids": [
+            "HP:0000016"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "目の前に虫のようなものが飛んで見える",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "飛蚊症"
+          ],
+          "hpo_ids": [
+            "HP:0100832"
+          ]
+        }
+      ]
+    }
+  ],
+  "treatment_summary": [
+    "異常なたんぱく質が作られるのを抑えたり、たんぱく質を安定させたりする薬があります。",
+    "肝移植が行われることがあります。",
+    "症状に合わせた治療を行います。"
+  ],
+  "treatment_source": "知識ファイル（data/knowledge/comprehensive_rare_diseases_knowledge.json）の treatment を元に、薬剤名を除いて執筆者が要約。ファウンダー確認待ち（2026-09-13 下書き）",
+  "nanbyo_number": null
+}

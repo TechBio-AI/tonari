@@ -1,0 +1,58 @@
+{
+ "idx": 666,
+ "name": "眼球運動失行を伴う失調症1型",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/1168",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Ataxia-oculomotor apraxia type 1"
+  }
+ ],
+ "summary": {
+  "text": "A rare autosomal recessive cerebellar ataxia, characterized by progressive cerebellar ataxia associated with oculomotor apraxia, severe neuropathy, and hypoalbuminemia.",
+  "source_id": "orphanet",
+  "evidence": "A rare autosomal recessive cerebellar at",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "progressive cerebellar ataxia",
+   "source_id": "orphanet",
+   "evidence": "progressive cerebellar ataxia"
+  },
+  {
+   "text": "oculomotor apraxia",
+   "source_id": "orphanet",
+   "evidence": "oculomotor apraxia"
+  },
+  {
+   "text": "severe neuropathy",
+   "source_id": "orphanet",
+   "evidence": "severe neuropathy"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/1168",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: hypoalbuminemia",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

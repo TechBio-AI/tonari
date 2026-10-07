@@ -1,0 +1,64 @@
+{
+ "idx": 361,
+ "name": "左心低形成症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4372",
+   "fetched_at": "2026-09-24T00:45:10+09:00",
+   "sha256": "68616911fbe97295a939bb25dd17d58a20ae160ec28c5545f16462339c55084b",
+   "title": "左心低形成症候群（指定難病２１１） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "生まれたときから心臓の左側の弁が強く狭いか閉じている病気です。",
+  "source_id": "nanbyou",
+  "evidence": "生まれた時の心臓が、僧帽弁、大動脈弁が強く 狭窄 または閉鎖している病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "顔色が悪くなる",
+   "source_id": "nanbyou",
+   "evidence": "顔色が悪くなり（チアノーゼといいます）"
+  },
+  {
+   "text": "呼吸が荒くなる",
+   "source_id": "nanbyou",
+   "evidence": "呼吸が荒くなり"
+  },
+  {
+   "text": "泣き声が小さくなる",
+   "source_id": "nanbyou",
+   "evidence": "泣き声も小さくなります"
+  },
+  {
+   "text": "脈が速くなる",
+   "source_id": "nanbyou",
+   "evidence": "脈も早くなり"
+  },
+  {
+   "text": "血圧が下がりショック状態になる",
+   "source_id": "nanbyou",
+   "evidence": "低血圧で、ショック状態となります"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "治療法は手術のみです。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4372",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は要因が断定できないという説明のみで、発症年齢の記載が無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:59:04+09:00",
+ "shard": 4
+}

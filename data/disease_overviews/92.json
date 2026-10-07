@@ -1,0 +1,73 @@
+{
+ "idx": 92,
+ "name": "アラジール症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4844",
+   "fetched_at": "2026-09-24T00:46:13+09:00",
+   "sha256": "892c76f675b6afa0a5f15a0fc19629611f5177d6c7421b0d9126a42bc691c645",
+   "title": "アラジール症候群（指定難病２９７） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "生まれつき肝臓や心臓など、さまざまな臓器に合併症をもつ病気です。",
+  "source_id": "nanbyou",
+  "evidence": "生まれつき肝臓や心臓などさまざまな臓器に合併症を有する 先天性 疾患です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "生まれて早い時期に黄疸が出る",
+   "source_id": "nanbyou",
+   "evidence": "出生後早い時期に 黄疸 で気付かれるケースが多い"
+  },
+  {
+   "text": "心雑音など心臓の異常がある",
+   "source_id": "nanbyou",
+   "evidence": "心雑音など心臓の病気で気付かれる"
+  },
+  {
+   "text": "かゆみが出る",
+   "source_id": "nanbyou",
+   "evidence": "胆汁うっ滞に伴う痒み"
+  },
+  {
+   "text": "出血しやすい、骨折しやすい",
+   "source_id": "nanbyou",
+   "evidence": "ビタミン吸収の障害による出血や骨折"
+  },
+  {
+   "text": "特徴的な顔つきになる",
+   "source_id": "nanbyou",
+   "evidence": "特徴的な顔つきが目立ってくる"
+  },
+  {
+   "text": "発達がゆっくり、体の育ちがゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "発達の遅れや成長障害を認めることがあります"
+  }
+ ],
+ "onset": {
+  "text": "性別や地域による差は特にありません",
+  "source_id": "nanbyou",
+  "evidence": "性差や地域差は特にありません。"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "急ぐ場合は点滴をします"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4844",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節にはビタミン名・薬の分類名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:36:53+09:00",
+ "shard": 2
+}

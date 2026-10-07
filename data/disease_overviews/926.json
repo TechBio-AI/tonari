@@ -1,0 +1,52 @@
+{
+ "idx": 926,
+ "name": "先天性後鼻孔閉鎖",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/137914",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Choanal atresia"
+  }
+ ],
+ "summary": {
+  "text": "Choanal atresia (CA) is a congenital anomaly of the posterior nasal airway characterized by the obstruction of one (unilateral) or both (bilateral) choanal aperture(s), with clinical manifestations ranging from acute respiratory distress to chronic nasal obstruction.",
+  "source_id": "orphanet",
+  "evidence": "Choanal atresia (CA) is a congenital ano",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "acute respiratory distress",
+   "source_id": "orphanet",
+   "evidence": "acute respiratory distress"
+  },
+  {
+   "text": "chronic nasal obstruction",
+   "source_id": "orphanet",
+   "evidence": "chronic nasal obstruction"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/137914",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

@@ -1,0 +1,52 @@
+{
+ "idx": 543,
+ "name": "巨大軸索ニューロパチー",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/643",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Giant axonal neuropathy"
+  }
+ ],
+ "summary": {
+  "text": "Giant axonal neuropathy (GAN) is a severe, slowly progressive neurodegenerative disorder characterized by progressive motor and sensory peripheral neuropathy, central nervous system involvement (including pyramidal and cerebellar signs), and characteristic kinky hair in most cases.",
+  "source_id": "orphanet",
+  "evidence": "Giant axonal neuropathy (GAN) is a sever",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "progressive motor and sensory peripheral neuropathy",
+   "source_id": "orphanet",
+   "evidence": "progressive motor and sensory peripheral"
+  },
+  {
+   "text": "characteristic kinky hair",
+   "source_id": "orphanet",
+   "evidence": "characteristic kinky hair"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/643",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

@@ -1,0 +1,63 @@
+{
+ "idx": 205,
+ "name": "汎発性膿疱性乾癬",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/247353",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Generalized pustular psoriasis"
+  }
+ ],
+ "summary": {
+  "text": "Generalized pustular psoriasis is a severe inflammatory skin disease that can be life-threatening and that is characterized by recurrent episodes of high fever, fatigue, episodic erythematous cutaneous eruptions with sterile cutaneous pustules formation on various parts of the body, and neutrophil leukocytosis.",
+  "source_id": "orphanet",
+  "evidence": "Generalized pustular psoriasis is a seve",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "recurrent episodes of high fever",
+   "source_id": "orphanet",
+   "evidence": "recurrent episodes of high fever"
+  },
+  {
+   "text": "fatigue",
+   "source_id": "orphanet",
+   "evidence": "fatigue"
+  },
+  {
+   "text": "episodic erythematous cutaneous eruptions",
+   "source_id": "orphanet",
+   "evidence": "episodic erythematous cutaneous"
+  },
+  {
+   "text": "sterile cutaneous pustules formation",
+   "source_id": "orphanet",
+   "evidence": "sterile cutaneous pustules formation"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/247353",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: neutrophil leukocytosis",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

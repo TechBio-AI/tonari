@@ -1,0 +1,70 @@
+{
+ "idx": 675,
+ "name": "先天性筋ジストロフィー（メロシン欠損型）",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/258",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Laminin subunit alpha 2-related congenital muscular dystrophy"
+  }
+ ],
+ "summary": {
+  "text": "A rare congenital muscular dystrophy characterized by severe hypotonia, muscle weakness and muscle wasting presenting at birth or during infancy, poor spontaneous movements and contractures of the large joints. Patients have poor motor development leading to feeding and respiratory issues.",
+  "source_id": "orphanet",
+  "evidence": "A rare congenital muscular dystrophy cha",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "severe hypotonia",
+   "source_id": "orphanet",
+   "evidence": "severe hypotonia"
+  },
+  {
+   "text": "muscle weakness",
+   "source_id": "orphanet",
+   "evidence": "muscle weakness"
+  },
+  {
+   "text": "muscle wasting",
+   "source_id": "orphanet",
+   "evidence": "muscle wasting"
+  },
+  {
+   "text": "poor spontaneous movements",
+   "source_id": "orphanet",
+   "evidence": "poor spontaneous movements"
+  },
+  {
+   "text": "contractures of the large joints",
+   "source_id": "orphanet",
+   "evidence": "contractures of the large joints"
+  }
+ ],
+ "onset": {
+  "text": "at birth or during infancy",
+  "source_id": "orphanet",
+  "evidence": "at birth or during infancy"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/258",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

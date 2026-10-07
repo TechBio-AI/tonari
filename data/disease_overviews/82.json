@@ -1,0 +1,69 @@
+{
+ "idx": 82,
+ "name": "肺動脈性肺高血圧症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/171",
+   "fetched_at": "2026-09-24T00:44:24+09:00",
+   "sha256": "bc808fb23510f9d93a51c279a6406adf889981507642d776e9d5eab32f01af3a",
+   "title": "肺動脈性肺高血圧症（指定難病８６） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "心臓から肺へ血液を送る血管の圧が、異常に高くなる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "肺動脈の圧力（血圧）が異常に上昇する",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "体を動かすと息苦しい",
+   "source_id": "nanbyou",
+   "evidence": "体を動かす時に息苦しく感じる"
+  },
+  {
+   "text": "すぐに疲れる",
+   "source_id": "nanbyou",
+   "evidence": "すぐに疲れる"
+  },
+  {
+   "text": "体がだるい",
+   "source_id": "nanbyou",
+   "evidence": "体がだるい"
+  },
+  {
+   "text": "意識がなくなることがある",
+   "source_id": "nanbyou",
+   "evidence": "意識がなくなる（失神）"
+  },
+  {
+   "text": "足がむくむ",
+   "source_id": "nanbyou",
+   "evidence": "足がむくむ"
+  },
+  {
+   "text": "少し動いただけでも息苦しい",
+   "source_id": "nanbyou",
+   "evidence": "少し体を動かしただけでも息苦しい"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "肺の血管を拡げて血液の流れをよくする「肺血管拡張療法」が中心"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/171",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は年齢分布の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:36:53+09:00",
+ "shard": 2
+}

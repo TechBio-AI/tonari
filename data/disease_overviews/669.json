@@ -1,0 +1,83 @@
+{
+ "idx": 669,
+ "name": "TSH産生下垂体腺腫",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/91347",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "TSH-secreting pituitary adenoma"
+  }
+ ],
+ "summary": {
+  "text": "A rare, functioning, pituitary adenoma characterized by the presence of a pituitary mass associated with high levels of circulating, free, thyroid hormones in conjunction with normal to high levels of TSH and unresponsiveness of TSH levels to TRH stimulation and T3 suppression tests, typically manifesting with signs and symptoms of mild to moderate hyperthyroidism (e.g. goiter (most frequently observed), palpitation, excessive sweating, arrhythmia, weight loss, tremor) and/or tumor mass effect (such as headache, visual field defects, hypopituitarism). Occasionally, cosecretion of prolactin and/or growth hormone may cause galactorrhea and/or acromegaly.",
+  "source_id": "orphanet",
+  "evidence": "A rare, functioning, pituitary adenoma c",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "goiter",
+   "source_id": "orphanet",
+   "evidence": "goiter"
+  },
+  {
+   "text": "palpitation",
+   "source_id": "orphanet",
+   "evidence": "palpitation"
+  },
+  {
+   "text": "excessive sweating",
+   "source_id": "orphanet",
+   "evidence": "excessive sweating"
+  },
+  {
+   "text": "weight loss",
+   "source_id": "orphanet",
+   "evidence": "weight loss"
+  },
+  {
+   "text": "tremor",
+   "source_id": "orphanet",
+   "evidence": "tremor"
+  },
+  {
+   "text": "headache",
+   "source_id": "orphanet",
+   "evidence": "headache"
+  },
+  {
+   "text": "visual field defects",
+   "source_id": "orphanet",
+   "evidence": "visual field defects"
+  },
+  {
+   "text": "galactorrhea",
+   "source_id": "orphanet",
+   "evidence": "galactorrhea"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/91347",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: 甲状腺ホルモン・TSH の値と負荷試験",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

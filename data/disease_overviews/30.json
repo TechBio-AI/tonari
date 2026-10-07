@@ -1,0 +1,79 @@
+{
+ "idx": 30,
+ "name": "多発性硬化症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3806",
+   "fetched_at": "2026-09-25T03:26:35+09:00",
+   "sha256": "d368ae7c79743808a0e2e514a716b169587a8b677847794bb5b9b932f188eeca",
+   "title": "多発性硬化症／視神経脊髄炎（指定難病１３） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "脳や脊髄（中枢神経）のあちこちで、神経を包む膜が炎症で壊れ、神経の症状の再発をくり返す病気です。",
+  "source_id": "nanbyou",
+  "evidence": "神経症状の再発を繰り返すのが多発性硬化症（MS）です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "視力が下がる、見える範囲が欠ける",
+   "source_id": "nanbyou",
+   "evidence": "視力が低下したり、視野が欠けたりします"
+  },
+  {
+   "text": "ものが二重に見える",
+   "source_id": "nanbyou",
+   "evidence": "ものが二重に見えたり"
+  },
+  {
+   "text": "飲み込みにくい、しゃべりにくい",
+   "source_id": "nanbyou",
+   "evidence": "ものが飲み込みにくくなったり、しゃべりにくくなったり"
+  },
+  {
+   "text": "まっすぐ歩けない",
+   "source_id": "nanbyou",
+   "evidence": "まっすぐ歩けなくなり"
+  },
+  {
+   "text": "胸やおなかの帯状のしびれ",
+   "source_id": "nanbyou",
+   "evidence": "胸や腹の帯状のしびれ"
+  },
+  {
+   "text": "手足のしびれや動かしにくさ",
+   "source_id": "nanbyou",
+   "evidence": "手足のしびれや運動麻痺"
+  },
+  {
+   "text": "排尿・排便の障害",
+   "source_id": "nanbyou",
+   "evidence": "排尿・排便障害"
+  }
+ ],
+ "onset": {
+  "text": "若い成人に発病することが最も多いです",
+  "source_id": "nanbyou",
+  "evidence": "MSは若年成人に発病することが最も多く"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "血漿浄化療法という治療を行ったりすることがあります"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3806",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "難病情報センターのページは多発性硬化症と視神経脊髄炎の共通ページ。症状は両者に共通の記述から取った。",
+  "治療の節は薬剤名が多いため、evidence は薬剤名を含まない一文から選んだ。"
+ ],
+ "extracted_at": "2026-10-02T21:14:56+09:00",
+ "shard": 2
+}

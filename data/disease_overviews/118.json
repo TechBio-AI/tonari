@@ -1,0 +1,75 @@
+{
+ "idx": 118,
+ "name": "下垂体前葉機能低下症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4017",
+   "fetched_at": "2026-09-24T00:44:54+09:00",
+   "sha256": "1b892b2971c7c223ec11904e45457c74b7c37f380423f6ca506393fbd74fc997",
+   "title": "下垂体前葉機能低下症（指定難病７８） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "下垂体の前葉のホルモンが欠乏し、その種類によって症状が変わる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "欠乏したホルモンの種類により、症状は異なります",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "疲れやすい、血圧が低い",
+   "source_id": "nanbyou",
+   "evidence": "疲れやすい、血圧が低い"
+  },
+  {
+   "text": "食欲がなく痩せる",
+   "source_id": "nanbyou",
+   "evidence": "食欲がなく痩せる"
+  },
+  {
+   "text": "寒がり、低体温になる",
+   "source_id": "nanbyou",
+   "evidence": "寒がり、低体温"
+  },
+  {
+   "text": "髪が抜ける、皮膚が乾燥する",
+   "source_id": "nanbyou",
+   "evidence": "脱毛、皮膚が乾燥して荒れる"
+  },
+  {
+   "text": "脈が遅くなる",
+   "source_id": "nanbyou",
+   "evidence": "脈が遅い"
+  },
+  {
+   "text": "記憶力や集中力が落ちる",
+   "source_id": "nanbyou",
+   "evidence": "記憶力・集中力が低下する"
+  },
+  {
+   "text": "子どもでは背が伸びにくい",
+   "source_id": "nanbyou",
+   "evidence": "小児： 成長障害（低身長）"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "主に末梢ホルモンの補充療法を行います"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4017",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "概要の節はホルモンの一覧が長く 40 字に収まる定義の一文が取れなかったため、症状の節の冒頭から summary の evidence を取った（同じページ）。",
+  "「どのような人に多いのですか」の節は原因の説明で、発症年齢の記載が無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:55:18+09:00",
+ "shard": 4
+}

@@ -1,0 +1,82 @@
+{
+ "idx": 897,
+ "name": "遺伝性運動感覚性ニューロパチー(HMSN)VI型",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/90120",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Hereditary motor and sensory neuropathy type 6"
+  }
+ ],
+ "summary": {
+  "text": "A rare axonal hereditary motor and sensory neuropathy disease characterized by progressive, peripheral, axonal sensorimotor neuropathy (of variable severity), affecting predominantly the distal lower limbs, associated with progressive, variably severe, optic atrophy, which frequently leads to visual loss. Patients typically present distal limb muscle weakness and atrophy, hypo/areflexia, foot deformities, poor visual acuity (often with a central scotoma), nystagmus, and reduced peripheral and nocturnal vision. Additional reported manifestations include sensorineural hearing loss, major joint contractures, anosmia, scoliosis/lumbar hyperlordosis, cognitive impairment and vocal cord paresis.",
+  "source_id": "orphanet",
+  "evidence": "A rare axonal hereditary motor and senso",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "distal limb muscle weakness and atrophy",
+   "source_id": "orphanet",
+   "evidence": "distal limb muscle weakness and atrophy"
+  },
+  {
+   "text": "hypo/areflexia",
+   "source_id": "orphanet",
+   "evidence": "hypo/areflexia"
+  },
+  {
+   "text": "foot deformities",
+   "source_id": "orphanet",
+   "evidence": "foot deformities"
+  },
+  {
+   "text": "poor visual acuity",
+   "source_id": "orphanet",
+   "evidence": "poor visual acuity"
+  },
+  {
+   "text": "nystagmus",
+   "source_id": "orphanet",
+   "evidence": "nystagmus"
+  },
+  {
+   "text": "reduced peripheral and nocturnal vision",
+   "source_id": "orphanet",
+   "evidence": "reduced peripheral and nocturnal vision"
+  },
+  {
+   "text": "sensorineural hearing loss",
+   "source_id": "orphanet",
+   "evidence": "sensorineural hearing loss"
+  },
+  {
+   "text": "visual loss",
+   "source_id": "orphanet",
+   "evidence": "visual loss"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/90120",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

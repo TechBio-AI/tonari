@@ -1,0 +1,69 @@
+{
+ "idx": 315,
+ "name": "気管支拡張症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/03_07_009/",
+   "fetched_at": "2026-09-24T00:47:27+09:00",
+   "sha256": "a2f3f7812dccd05c767384e81539ab003dc5b7ba2cc5938190df4a14dd44855b",
+   "title": "気管支拡張症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "気管支の壁がこわれて広がったままになる病気です。",
+  "source_id": "shouman",
+  "evidence": "気管支壁が破壊されて膨隆し、気管支内腔が拡張した状態である",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "せきが続く",
+   "source_id": "shouman",
+   "evidence": "主要症状は慢性的な咳嗽"
+  },
+  {
+   "text": "痰が出る",
+   "source_id": "shouman",
+   "evidence": "喀痰"
+  },
+  {
+   "text": "痰に血がまじることがある",
+   "source_id": "shouman",
+   "evidence": "増悪時に血液が混入することもある"
+  },
+  {
+   "text": "息が切れる、息苦しくなる",
+   "source_id": "shouman",
+   "evidence": "息切れや呼吸困難を伴い"
+  },
+  {
+   "text": "指先が太くなる",
+   "source_id": "shouman",
+   "evidence": "ばち状指が認められる"
+  },
+  {
+   "text": "鼻がつまる、膿のような鼻水が出る",
+   "source_id": "shouman",
+   "evidence": "慢性的な鼻閉や膿性鼻汁を伴う"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "胸部理学療法は長期管理の中心であり"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/03_07_009/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は登録数の数値のみのため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:30:26+09:00",
+ "shard": 1
+}

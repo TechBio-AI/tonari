@@ -1,0 +1,43 @@
+{
+ "idx": 365,
+ "name": "特発性好酸球増多症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/168956",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Hypereosinophilic syndrome"
+  }
+ ],
+ "summary": {
+  "text": "Hypereosinophilic syndrome (HES) constitutes a rare and heterogeneous group of disorders, defined as persistent and marked blood eosinophilia and/or tissue eosinophilia associated with a wide range of clinical manifestations reflecting eosinophil-induced tissue/organ damage.",
+  "source_id": "orphanet",
+  "evidence": "Hypereosinophilic syndrome (HES) constit",
+  "lang": "en"
+ },
+ "symptoms": [],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/168956",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: blood eosinophilia and/or tissue eosinophilia",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Definition は「a wide range of clinical manifestations」とだけ書き、症状の列挙が無い。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

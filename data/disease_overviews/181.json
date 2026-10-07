@@ -1,0 +1,61 @@
+{
+ "idx": 181,
+ "name": "ヒルシュスプルング病",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/12_16_040/",
+   "fetched_at": "2026-09-24T00:52:54+09:00",
+   "sha256": "5dab29bb9f1eb35eff67c4bbfca47b3d1bc9a17a9fb32178486946cfe6708848",
+   "title": "ヒルシュスプルング（Hirschsprung）病 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "肛門から続く腸の一部に神経細胞が無いため、腸がうまく動かず、腸閉塞のような症状が出る病気です。",
+  "source_id": "shouman",
+  "evidence": "肛門から連続する無神経節腸管のため",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "生まれてすぐの便（胎便）が出るのが遅い",
+   "source_id": "shouman",
+   "evidence": "胎便排泄遅延"
+  },
+  {
+   "text": "おなかがふくれる",
+   "source_id": "shouman",
+   "evidence": "腹部膨満で発症し"
+  },
+  {
+   "text": "便秘が続く",
+   "source_id": "shouman",
+   "evidence": "慢性的な便秘症状で経過する"
+  },
+  {
+   "text": "腸炎を起こし重くなることがある",
+   "source_id": "shouman",
+   "evidence": "放置すると腸炎から敗血症へと至り"
+  }
+ ],
+ "onset": {
+  "text": "生まれて数日のうちに見つかります",
+  "source_id": "shouman",
+  "evidence": "生後数日の間に機能性の腸閉塞症状で発見される"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "無神経節腸管の切除と口側正常腸管の肛門への吻合が根治術となる。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/12_16_040/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-10-02T21:14:56+09:00",
+ "shard": 2
+}

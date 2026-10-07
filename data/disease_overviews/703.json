@@ -1,0 +1,62 @@
+{
+ "idx": 703,
+ "name": "環状14番染色体症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/1440",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Ring chromosome 14 syndrome"
+  }
+ ],
+ "summary": {
+  "text": "A rare chromosomal anomalie characterized by intellectual deficit, retinal and skin pigmentation disorders, seizures, and dysmorphic features, including flat occiput, epicanthal folds, downward slanting eyes, flat nasal bridge, upturned nostrils, short neck, and large low set ears.",
+  "source_id": "orphanet",
+  "evidence": "A rare chromosomal anomalie characterize",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "intellectual deficit",
+   "source_id": "orphanet",
+   "evidence": "intellectual deficit"
+  },
+  {
+   "text": "retinal and skin pigmentation disorders",
+   "source_id": "orphanet",
+   "evidence": "retinal and skin pigmentation disorders"
+  },
+  {
+   "text": "seizures",
+   "source_id": "orphanet",
+   "evidence": "seizures"
+  },
+  {
+   "text": "dysmorphic features",
+   "source_id": "orphanet",
+   "evidence": "dysmorphic features"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/1440",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

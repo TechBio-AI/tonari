@@ -1,0 +1,46 @@
+{
+ "idx": 316,
+ "name": "常染色体劣性多発性嚢胞腎",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/731",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Autosomal recessive polycystic kidney disease"
+  }
+ ],
+ "summary": {
+  "text": "A rare, genetic hepatorenal fibrocystic syndrome characterized by cystic dilatation and ectasia of renal collecting tubules, and a ductal plate malformation of the liver resulting in congenital hepatic fibrosis. Clinical presentation, whilst typically in utero or at birth, is variable and in the most severe cases includes Potter-sequence, oligohydramnios, pulmonary hypoplasia, and massively enlarged echogenic kidneys.",
+  "source_id": "orphanet",
+  "evidence": "A rare, genetic hepatorenal fibrocystic ",
+  "lang": "en"
+ },
+ "symptoms": [],
+ "onset": {
+  "text": "typically in utero or at birth",
+  "source_id": "orphanet",
+  "evidence": "typically in utero or at birth"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/731",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: oligohydramnios / massively enlarged echogenic kidneys（画像所見）",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "最重症例の所見の列挙（Potter-sequence 等）は胎児期の画像所見を含むため symptoms に入れなかった。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

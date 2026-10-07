@@ -1,0 +1,82 @@
+{
+ "idx": 775,
+ "name": "Darier病",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/218",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Darier disease"
+  }
+ ],
+ "summary": {
+  "text": "A rare, genetic keratinization disorder which is classically characterized by keratotic papules, acral pits, and acral wart-like lesions that can be associated with a trigger, and may occur anywhere on the body (including mucosal surfaces). Extracutaneous manifestations may include, nail anomalies, blepharitis, dry eye, neuropsychiatric illness and, recurrent parotid gland obstruction and xerostomia.",
+  "source_id": "orphanet",
+  "evidence": "A rare, genetic keratinization disorder ",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "keratotic papules",
+   "source_id": "orphanet",
+   "evidence": "keratotic papules"
+  },
+  {
+   "text": "acral pits",
+   "source_id": "orphanet",
+   "evidence": "acral pits"
+  },
+  {
+   "text": "acral wart-like lesions",
+   "source_id": "orphanet",
+   "evidence": "acral wart-like lesions"
+  },
+  {
+   "text": "nail anomalies",
+   "source_id": "orphanet",
+   "evidence": "nail anomalies"
+  },
+  {
+   "text": "blepharitis",
+   "source_id": "orphanet",
+   "evidence": "blepharitis"
+  },
+  {
+   "text": "dry eye",
+   "source_id": "orphanet",
+   "evidence": "dry eye"
+  },
+  {
+   "text": "neuropsychiatric illness",
+   "source_id": "orphanet",
+   "evidence": "neuropsychiatric illness"
+  },
+  {
+   "text": "xerostomia",
+   "source_id": "orphanet",
+   "evidence": "xerostomia"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/218",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

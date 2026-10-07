@@ -1,0 +1,69 @@
+{
+ "idx": 223,
+ "name": "ファロー四徴症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4741",
+   "fetched_at": "2026-09-24T00:45:56+09:00",
+   "sha256": "a370b852ad60100de49f388dae3f002638a49ad4811492dccbb0474ce44d94ed",
+   "title": "ファロー四徴症（指定難病２１５） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "心臓の中の仕切りの壁が前にずれて生じる、生まれつきの心臓の病気です。",
+  "source_id": "nanbyou",
+  "evidence": "仕切りの壁が体の前方にずれたために起こる心臓の異常",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "口唇や爪が紫色になる",
+   "source_id": "nanbyou",
+   "evidence": "口唇や爪床が紫色になる症状"
+  },
+  {
+   "text": "呼吸が速い",
+   "source_id": "nanbyou",
+   "evidence": "多呼吸"
+  },
+  {
+   "text": "おっぱいやミルクを飲むのが難しい",
+   "source_id": "nanbyou",
+   "evidence": "哺乳困難"
+  },
+  {
+   "text": "体重が増えにくい",
+   "source_id": "nanbyou",
+   "evidence": "体重増加不良"
+  },
+  {
+   "text": "泣いたり興奮したりすると発作が起こる",
+   "source_id": "nanbyou",
+   "evidence": "赤ちゃんが泣いたり興奮したりして"
+  },
+  {
+   "text": "急に不機嫌になる",
+   "source_id": "nanbyou",
+   "evidence": "急に不機嫌になり"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "治療の基本は、心臓手術です。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4741",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は合併率の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:38:40+09:00",
+ "shard": 2
+}

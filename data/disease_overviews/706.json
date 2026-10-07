@@ -1,0 +1,83 @@
+{
+ "idx": 706,
+ "name": "13トリソミー",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/3378",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Trisomy 13 syndrome"
+  }
+ ],
+ "summary": {
+  "text": "A rare chromosomal anomaly characterized by the presence of extra chromosome 13 material and manifesting with severe intellectual disability and multiple congenital anomalies including holoprosencephaly, microcephaly, microphthalmia, scalp defect, cleft lip/palate, congenital heart defects, and postaxial polydactyly. Neurological involvement may lead to seizures and hypotonia.",
+  "source_id": "orphanet",
+  "evidence": "A rare chromosomal anomaly characterized",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "severe intellectual disability",
+   "source_id": "orphanet",
+   "evidence": "severe intellectual disability"
+  },
+  {
+   "text": "microcephaly",
+   "source_id": "orphanet",
+   "evidence": "microcephaly"
+  },
+  {
+   "text": "microphthalmia",
+   "source_id": "orphanet",
+   "evidence": "microphthalmia"
+  },
+  {
+   "text": "scalp defect",
+   "source_id": "orphanet",
+   "evidence": "scalp defect"
+  },
+  {
+   "text": "cleft lip/palate",
+   "source_id": "orphanet",
+   "evidence": "cleft lip/palate"
+  },
+  {
+   "text": "congenital heart defects",
+   "source_id": "orphanet",
+   "evidence": "congenital heart defects"
+  },
+  {
+   "text": "postaxial polydactyly",
+   "source_id": "orphanet",
+   "evidence": "postaxial polydactyly"
+  },
+  {
+   "text": "seizures",
+   "source_id": "orphanet",
+   "evidence": "seizures"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/3378",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: holoprosencephaly（画像所見）",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

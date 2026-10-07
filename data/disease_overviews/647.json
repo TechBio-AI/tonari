@@ -1,0 +1,70 @@
+{
+ "idx": 647,
+ "name": "副腎皮質刺激ホルモン単独欠損症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_19_038/",
+   "fetched_at": "2026-09-24T00:48:08+09:00",
+   "sha256": "a7cddd0b9b15f84f2058437ce981d91bdec58be301c1ac45a64d8241989b0d74",
+   "title": "副腎皮質刺激ホルモン（ACTH）単独欠損症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "副腎皮質を刺激するホルモンが出ず、副腎皮質の働きが落ちる病気です。",
+  "source_id": "shouman",
+  "evidence": "慢性のACTH分泌不全では、副腎皮質は萎縮状となり、機能の低下を招く",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "体がだるい",
+   "source_id": "shouman",
+   "evidence": "倦怠感"
+  },
+  {
+   "text": "血圧が低い",
+   "source_id": "shouman",
+   "evidence": "低血圧"
+  },
+  {
+   "text": "食欲がない",
+   "source_id": "shouman",
+   "evidence": "食欲不振"
+  },
+  {
+   "text": "低血糖や意識障害が出る",
+   "source_id": "shouman",
+   "evidence": "低血糖や低ナトリウム血症による意識障害"
+  },
+  {
+   "text": "新生児期に重い低血糖とけいれんが出る",
+   "source_id": "shouman",
+   "evidence": "新生児期に痙攣を伴う重症低血糖"
+  },
+  {
+   "text": "赤毛や高度の肥満をともなうことがある",
+   "source_id": "shouman",
+   "evidence": "赤毛と高度の肥満も特徴的である"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "感染症、発熱、外傷などのストレス時には服用量を"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_19_038/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節が保存 HTML に無いため onset は null。",
+  "治療の節は薬剤名と用量が中心のため、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T03:01:40+09:00",
+ "shard": 4
+}

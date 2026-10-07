@@ -1,0 +1,67 @@
+{
+ "idx": 873,
+ "name": "Calpain3関連肢帯型筋ジストロフィー",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/267",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Calpain-3-related limb-girdle muscular dystrophy R1"
+  }
+ ],
+ "summary": {
+  "text": "A subtype of autosomal recessive limb girdle muscular dystrophy characterized by a variable age of onset of progressive, typically symmetrical and selective weakness and atrophy of proximal shoulder- and pelvic-girdle muscles (gluteus maximus, thigh adductors, and muscles of the posterior compartment of the limbs are most commonly affected) without cardiac or facial involvement. Clinical manifestations include exercise intolerance, a waddling gait, scapular winging and calf pseudo-hypertrophy.",
+  "source_id": "orphanet",
+  "evidence": "A subtype of autosomal recessive limb gi",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "weakness and atrophy of proximal shoulder- and pelvic-girdle muscles",
+   "source_id": "orphanet",
+   "evidence": "weakness and atrophy of proximal"
+  },
+  {
+   "text": "exercise intolerance",
+   "source_id": "orphanet",
+   "evidence": "exercise intolerance"
+  },
+  {
+   "text": "a waddling gait",
+   "source_id": "orphanet",
+   "evidence": "a waddling gait"
+  },
+  {
+   "text": "scapular winging",
+   "source_id": "orphanet",
+   "evidence": "scapular winging"
+  },
+  {
+   "text": "calf pseudo-hypertrophy",
+   "source_id": "orphanet",
+   "evidence": "calf pseudo-hypertrophy"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/267",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "発症年齢は「variable」とされているため onset は null。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

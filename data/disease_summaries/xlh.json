@@ -1,0 +1,148 @@
+{
+  "_readme": [
+    "★ これは 11 疾患のための暫定形式です。将来 supabase の themes / theme_facts / fact_sources（器）へ移行します。",
+    "  情報の種類を増やすときは、この形式を拡張するのではなく、器への移行を検討してください（docs/CONTENT_ROADMAP.md）。",
+    "中身: ファウンダーが判定した患者向けの文（docs/disease_summaries_draft_2026-09-13.md、2026-09-13 承認）。",
+    "common_symptoms は HPO v2026-06-23 の「非常に多い」「多い」を元に言い換えたもの。各項目は sources に元の HPO ラベルか「執筆者による記述」を持つ。",
+    "表示では頻度を区別しない。薬剤名は書かない。",
+    "読み込み: lib/portal/disease-summaries.ts"
+  ],
+  "slug": "xlh",
+  "disease": "X連鎖性低リン血症性くる病",
+  "orpha_code": "ORPHA:89936",
+  "hpo_version": "v2026-06-23",
+  "approved": "2026-09-13",
+  "symptoms_preface": null,
+  "common_symptoms": [
+    {
+      "text": "骨がやわらかくなり変形する（くる病）",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "くる病"
+          ],
+          "hpo_ids": [
+            "HP:0002748"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "脚が曲がる（O脚・X脚）",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "下肢湾曲",
+            "内反膝",
+            "外反膝"
+          ],
+          "hpo_ids": [
+            "HP:0002979",
+            "HP:0002970",
+            "HP:0002857"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "背が伸びにくい",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "成長遅滞",
+            "不均衡型低身長"
+          ],
+          "hpo_ids": [
+            "HP:0001510",
+            "HP:0003498"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "骨や関節が痛む",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "骨痛",
+            "関節痛"
+          ],
+          "hpo_ids": [
+            "HP:0002653",
+            "HP:0002829"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "立つ・歩くのが遅い",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "起立遅延",
+            "歩行能力の遅れ"
+          ],
+          "hpo_ids": [
+            "HP:0025335",
+            "HP:0031936"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "歯の質に異常がある",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "貝形歯",
+            "象牙質異常"
+          ],
+          "hpo_ids": [
+            "HP:0000694",
+            "HP:0010299"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "骨がもろい",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "骨ミネラル濃度減少"
+          ],
+          "hpo_ids": [
+            "HP:0004349"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "腎臓にカルシウムがたまる",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "腎石灰化症"
+          ],
+          "hpo_ids": [
+            "HP:0000121"
+          ]
+        }
+      ]
+    }
+  ],
+  "treatment_summary": [
+    "リンが尿に失われるのを抑える注射薬があります。",
+    "活性型ビタミンDとリンを補う治療があります。"
+  ],
+  "treatment_source": "知識ファイル（data/knowledge/comprehensive_rare_diseases_knowledge.json）の treatment を元に、薬剤名を除いて執筆者が要約。ファウンダー確認待ち（2026-09-13 下書き）",
+  "nanbyo_number": null
+}

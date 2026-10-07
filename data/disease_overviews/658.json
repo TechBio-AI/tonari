@@ -1,0 +1,62 @@
+{
+ "idx": 658,
+ "name": "多発性内分泌腫瘍症2A型",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/247698",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Multiple endocrine neoplasia type 2A"
+  }
+ ],
+ "summary": {
+  "text": "A form of multiple endocrine neoplasia type 2 (MEN2) syndrome characterized by medullary thyroid carcinoma in association with pheochromocytoma (one or both adrenal glands can be affected) and/or primary hyperparathyroidism (caused by parathyroid adenoma). Onset is typically later than in MEN2B, before 35 years of age. Diarrhea is the most frequent systemic symptom. Patients can develop Hirschsprung disease and, less frequently, cutaneous lichen amyloidosis or excessive production of adrenocorticotropic hormone.",
+  "source_id": "orphanet",
+  "evidence": "A form of multiple endocrine neoplasia t",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "medullary thyroid carcinoma",
+   "source_id": "orphanet",
+   "evidence": "medullary thyroid carcinoma"
+  },
+  {
+   "text": "pheochromocytoma",
+   "source_id": "orphanet",
+   "evidence": "pheochromocytoma"
+  },
+  {
+   "text": "primary hyperparathyroidism",
+   "source_id": "orphanet",
+   "evidence": "primary hyperparathyroidism"
+  },
+  {
+   "text": "Diarrhea",
+   "source_id": "orphanet",
+   "evidence": "Diarrhea"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/247698",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "発症時期の記述「Onset is typically later than in MEN2B, before 35 years of age.」は数字を含むため onset は null。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

@@ -1,0 +1,73 @@
+{
+ "idx": 505,
+ "name": "カルバミルリン酸合成酵素I欠損症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_01_012/",
+   "fetched_at": "2026-09-25T03:28:02+09:00",
+   "sha256": "e22d7fbe8f21a1a3c1ec948ba3bcdc0637a891c47d64b7cb003ee4db9b23e881",
+   "title": "カルバミルリン酸合成酵素欠損症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "尿素サイクルの最初の酵素がはたらかず、血液中のアンモニアが高くなる病気です。",
+  "source_id": "shouman",
+  "evidence": "CPS1欠損症は高アンモニア血症をきたす",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "興奮しやすい",
+   "source_id": "shouman",
+   "evidence": "興奮性亢進"
+  },
+  {
+   "text": "ミルクの飲みが悪い",
+   "source_id": "shouman",
+   "evidence": "哺乳不良"
+  },
+  {
+   "text": "呼吸が速い",
+   "source_id": "shouman",
+   "evidence": "多呼吸"
+  },
+  {
+   "text": "けいれん",
+   "source_id": "shouman",
+   "evidence": "多呼吸、けいれん"
+  },
+  {
+   "text": "体が反り返る",
+   "source_id": "shouman",
+   "evidence": "後弓反張"
+  },
+  {
+   "text": "眠りがちになる、意識がなくなる",
+   "source_id": "shouman",
+   "evidence": "嗜眠・昏睡"
+  }
+ ],
+ "onset": {
+  "text": "生まれてまもなく発症することが多いです",
+  "source_id": "shouman",
+  "evidence": "昏睡などをきたす新生児発症例が多い"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "低蛋白食事療法"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_01_012/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節には薬剤名・製品名があるため、evidence は食事療法の項目から選んだ。"
+ ],
+ "extracted_at": "2026-10-02T21:14:56+09:00",
+ "shard": 2
+}

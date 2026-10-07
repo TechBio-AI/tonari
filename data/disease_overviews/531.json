@@ -1,0 +1,74 @@
+{
+ "idx": 531,
+ "name": "ミニコア病",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_23_061/",
+   "fetched_at": "2026-09-24T00:51:39+09:00",
+   "sha256": "2b84de67b8a1246ac57aea2906969f5548f44c624928d496a7ab043aa2d25366",
+   "title": "ミニコア病 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "顔を含めて全身の筋肉の緊張が弱いことを主な症状とする筋肉の病気です。",
+  "source_id": "shouman",
+  "evidence": "顔面を含む全身の筋緊張低下を主症状とする遺伝性筋疾患",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "体がふにゃふにゃしている",
+   "source_id": "shouman",
+   "evidence": "全身の筋緊張低下(フロッピーインファント)"
+  },
+  {
+   "text": "上あごが高い",
+   "source_id": "shouman",
+   "evidence": "高口蓋"
+  },
+  {
+   "text": "呼吸が苦しくなる",
+   "source_id": "shouman",
+   "evidence": "呼吸障害"
+  },
+  {
+   "text": "おっぱいやミルクを飲む、飲み込むのが難しい",
+   "source_id": "shouman",
+   "evidence": "哺乳・嚥下障害"
+  },
+  {
+   "text": "発育や発達がゆっくり",
+   "source_id": "shouman",
+   "evidence": "発育・発達の遅れ"
+  },
+  {
+   "text": "関節が固くなる",
+   "source_id": "shouman",
+   "evidence": "関節拘縮"
+  },
+  {
+   "text": "背骨に異常が出る",
+   "source_id": "shouman",
+   "evidence": "脊柱異常などを示す"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "根本的治療法は現在までのところ見いだされていない。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_23_061/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節が保存 HTML に無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:32:02+09:00",
+ "shard": 1
+}

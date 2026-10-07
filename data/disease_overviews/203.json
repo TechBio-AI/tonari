@@ -1,0 +1,75 @@
+{
+ "idx": 203,
+ "name": "慢性活動性EBウイルス感染症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/10_09_053/",
+   "fetched_at": "2026-09-24T00:50:53+09:00",
+   "sha256": "ce4c7ee189491b506b4e65eea7f57dd7ba33019cb1b2048cef2367830ec2070f",
+   "title": "慢性活動性EBウイルス感染症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "血液や病変の組織から、あるウイルスの遺伝子が高い量で見つかる病気です。",
+  "source_id": "shouman",
+  "evidence": "末梢血および病変組織に高レベルのEBV DNAが検出される疾患である",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "熱が出る",
+   "source_id": "shouman",
+   "evidence": "1. 発熱"
+  },
+  {
+   "text": "リンパ節がはれる",
+   "source_id": "shouman",
+   "evidence": "2. リンパ節腫脹"
+  },
+  {
+   "text": "肝臓や脾臓が大きくなる",
+   "source_id": "shouman",
+   "evidence": "3. 肝脾腫"
+  },
+  {
+   "text": "発疹が出る",
+   "source_id": "shouman",
+   "evidence": "4. 発疹"
+  },
+  {
+   "text": "肺に炎症が起こる",
+   "source_id": "shouman",
+   "evidence": "5. 間質性肺炎"
+  },
+  {
+   "text": "腎臓に炎症が起こる",
+   "source_id": "shouman",
+   "evidence": "6. 間質性腎炎"
+  },
+  {
+   "text": "目のぶどう膜に炎症が起こる",
+   "source_id": "shouman",
+   "evidence": "7. ぶどう膜炎"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "現段階では唯一の根治療法は造血幹細胞移植である"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/10_09_053/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は発症数の数値が中心のため onset は null。",
+  "治療の節には薬剤名が並ぶので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:57:53+09:00",
+ "shard": 4
+}

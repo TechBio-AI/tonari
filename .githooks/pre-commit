@@ -1,0 +1,47 @@
+#!/usr/bin/env bash
+#
+# pre-commit - コミット前の番人(薄いラッパー)
+#
+# 1. scripts/secret-scan.sh   : 秘密情報を検知したら(exit 1)コミットを中止する。
+# 2. scripts/lint-wording.sh  : 公開面の禁止語を検知したら(exit 1)コミットを中止する。[Phase0-T3]
+# 3. ESLint no-restricted-imports : /demo から製薬・診断系への import を検知したら中止する。[Phase0-T5]
+#
+# 有効化(初回のみ・各自で実行):
+#   git config core.hooksPath .githooks
+#   chmod +x .githooks/pre-commit scripts/secret-scan.sh scripts/lint-wording.sh
+#
+set -u
+
+# リポジトリルートを基準にスキャナを呼ぶ。
+repo_root="$(git rev-parse --show-toplevel)"
+scanner="$repo_root/scripts/secret-scan.sh"
+
+if [ ! -f "$scanner" ]; then
+  echo "⚠️  scripts/secret-scan.sh が見つかりません。番人をスキップします。" >&2
+else
+  bash "$scanner" || exit 1
+fi
+
+# [Phase0-T3] 公開面の表現リント（app/demo/ と抽出 JSON の text。対象が無ければ失敗）
+wording_linter="$repo_root/scripts/lint-wording.sh"
+if [ ! -f "$wording_linter" ]; then
+  echo "⚠️  scripts/lint-wording.sh が見つかりません。表現リントをスキップします。" >&2
+else
+  bash "$wording_linter" || exit 1
+fi
+
+# [Phase0-T5] 公開面（/demo）の import 制限 (ESLint no-restricted-imports)。2026-09-25 に app/demo/ へ付け替え。
+# 対象ディレクトリが無ければ失敗（安全側）。eslint が無い環境だけは skip して成功扱い。
+if [ ! -d "$repo_root/app/demo" ]; then
+  echo "🚫 import リント: app/demo/ が見つかりません。安全側に倒してコミットを中止します。" >&2
+  exit 1
+elif [ -x "$repo_root/node_modules/.bin/eslint" ]; then
+  (cd "$repo_root" && npx eslint "app/demo/**/*.{ts,tsx}" --no-eslintrc --config .eslintrc.json 2>&1) || {
+    echo "🚫 /demo の import 制限違反 (ESLint no-restricted-imports) です。" >&2
+    exit 1
+  }
+else
+  echo "ℹ️  /demo import リント: eslint 未導入のため skip します。"
+fi
+
+exit 0

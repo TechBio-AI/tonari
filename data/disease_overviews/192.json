@@ -1,0 +1,67 @@
+{
+ "idx": 192,
+ "name": "ペリツェウス・メルツバッハー病",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/702",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Pelizaeus-Merzbacher disease"
+  }
+ ],
+ "summary": {
+  "text": "Pelizaeus-Merzbacher disease (PMD) is an X-linked leukodystrophy characterized by developmental delay, nystagmus, hypotonia, spasticity, and variable intellectual deficit. It is classified into three sub-forms based on the age of onset and severity: connatal, transitional, and classic PMD.",
+  "source_id": "orphanet",
+  "evidence": "Pelizaeus-Merzbacher disease (PMD) is an",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "developmental delay",
+   "source_id": "orphanet",
+   "evidence": "developmental delay"
+  },
+  {
+   "text": "nystagmus",
+   "source_id": "orphanet",
+   "evidence": "nystagmus"
+  },
+  {
+   "text": "hypotonia",
+   "source_id": "orphanet",
+   "evidence": "hypotonia"
+  },
+  {
+   "text": "spasticity",
+   "source_id": "orphanet",
+   "evidence": "spasticity"
+  },
+  {
+   "text": "variable intellectual deficit",
+   "source_id": "orphanet",
+   "evidence": "variable intellectual deficit"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/702",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

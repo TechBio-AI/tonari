@@ -1,0 +1,78 @@
+{
+ "idx": 66,
+ "name": "自己免疫性肝炎",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/113",
+   "fetched_at": "2026-09-24T00:44:11+09:00",
+   "sha256": "7d4971722c21e48239e543117c9111fb02c6e9bf49b29c58784c2d30a27976d0",
+   "title": "自己免疫性肝炎（指定難病９５） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "多くは慢性に経過する肝炎で、肝臓の細胞が少しずつ障害される病気です。",
+  "source_id": "nanbyou",
+  "evidence": "多くの場合には慢性に経過する肝炎で、肝細胞が徐々に障害されます",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "自覚症状がないことが多い",
+   "source_id": "nanbyou",
+   "evidence": "通常は自覚症状がなく"
+  },
+  {
+   "text": "体がだるい、疲れやすい",
+   "source_id": "nanbyou",
+   "evidence": "全身倦怠感 、疲労感"
+  },
+  {
+   "text": "食欲がない",
+   "source_id": "nanbyou",
+   "evidence": "食欲不振"
+  },
+  {
+   "text": "皮膚や目が黄色くなる",
+   "source_id": "nanbyou",
+   "evidence": "黄疸"
+  },
+  {
+   "text": "足がむくむ",
+   "source_id": "nanbyou",
+   "evidence": "下肢のむくみ"
+  },
+  {
+   "text": "お腹が張る",
+   "source_id": "nanbyou",
+   "evidence": "腹水による腹部の張り"
+  },
+  {
+   "text": "血を吐くことがある",
+   "source_id": "nanbyou",
+   "evidence": "吐血（食道静脈瘤からの出血）"
+  }
+ ],
+ "onset": {
+  "text": "若い女性や子どもでの発症も、めずらしくはありません",
+  "source_id": "nanbyou",
+  "evidence": "若い女性や小児での発症も珍しくはありません"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "治療の基本は免疫抑制薬の内服で"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/113",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:35:30+09:00",
+ "shard": 2
+}

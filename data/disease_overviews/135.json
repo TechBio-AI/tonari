@@ -1,0 +1,75 @@
+{
+ "idx": 135,
+ "name": "抗リン脂質抗体症候群",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/06_01_005/",
+   "fetched_at": "2026-09-24T00:48:28+09:00",
+   "sha256": "1a5bc0eb9a8a29b2051c87ba75422346fb49bd239125d02a6c646ad60cc1032e",
+   "title": "抗リン脂質抗体症候群 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "ある抗体があることで血が固まりやすくなる病気です。",
+  "source_id": "shouman",
+  "evidence": "抗リン脂質抗体の存在下に血栓傾向が増す疾患であり",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "深い静脈に血栓ができる",
+   "source_id": "shouman",
+   "evidence": "深部静脈血栓症"
+  },
+  {
+   "text": "網目状の発疹が出る",
+   "source_id": "shouman",
+   "evidence": "網状皮疹"
+  },
+  {
+   "text": "皮膚に潰瘍ができる",
+   "source_id": "shouman",
+   "evidence": "皮膚潰瘍"
+  },
+  {
+   "text": "手足の先が壊死することがある",
+   "source_id": "shouman",
+   "evidence": "四肢壊疽"
+  },
+  {
+   "text": "脳梗塞が起こる",
+   "source_id": "shouman",
+   "evidence": "脳梗塞、一過性脳虚血発作"
+  },
+  {
+   "text": "心筋梗塞が起こる",
+   "source_id": "shouman",
+   "evidence": "心筋梗塞"
+  },
+  {
+   "text": "血小板が減ることがある",
+   "source_id": "shouman",
+   "evidence": "血小板減少症がみられることがある"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "血栓症の予防が治療の中心となる"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/06_01_005/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は罹患率が不明としか書かれておらず onset は null。",
+  "治療の節には薬の分類名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:56:25+09:00",
+ "shard": 4
+}

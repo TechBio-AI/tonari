@@ -1,0 +1,56 @@
+{
+ "idx": 874,
+ "name": "Dysferlin関連肢帯型筋ジストロフィー",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/268",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Dysferlin-related limb-girdle muscular dystrophy R2"
+  }
+ ],
+ "summary": {
+  "text": "A subtype of autosomal recessive limb-girdle muscular dystrophy characterized by an onset in late adolescence or early adulthood of slowly progressive, proximal weakness and atrophy of shoulder and pelvic girdle muscles. Cardiac and respiratory muscles are not involved. Hypertrophy of the calf muscles and highly elevated serum creatine kinase levels are frequently observed.",
+  "source_id": "orphanet",
+  "evidence": "A subtype of autosomal recessive limb-gi",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "proximal weakness and atrophy of shoulder and pelvic girdle muscles",
+   "source_id": "orphanet",
+   "evidence": "proximal weakness and atrophy of"
+  },
+  {
+   "text": "Hypertrophy of the calf muscles",
+   "source_id": "orphanet",
+   "evidence": "Hypertrophy of the calf muscles"
+  }
+ ],
+ "onset": {
+  "text": "onset in late adolescence or early adulthood",
+  "source_id": "orphanet",
+  "evidence": "onset in late adolescence or early"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/268",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: highly elevated serum creatine kinase levels",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

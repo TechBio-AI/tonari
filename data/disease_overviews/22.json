@@ -1,0 +1,79 @@
+{
+ "idx": 22,
+ "name": "低ホスファターゼ症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4564",
+   "fetched_at": "2026-09-24T00:45:36+09:00",
+   "sha256": "5b9c41aa368797598620e7b492b8d58139e2d826a790b15267918066e9bb8349",
+   "title": "低ホスファターゼ症（指定難病１７２） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "酵素の異常で骨が硬くなりにくく、骨が弱くなる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "酵素 の異常により骨の石灰化が障害され、骨が弱くなる病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "骨が変形する、骨折する",
+   "source_id": "nanbyou",
+   "evidence": "骨変形や骨折"
+  },
+  {
+   "text": "骨が痛む",
+   "source_id": "nanbyou",
+   "evidence": "骨痛"
+  },
+  {
+   "text": "腕や足が短い、背が低い",
+   "source_id": "nanbyou",
+   "evidence": "腕や足の短縮、低身長"
+  },
+  {
+   "text": "呼吸に障害が出る",
+   "source_id": "nanbyou",
+   "evidence": "呼吸障害を起こします"
+  },
+  {
+   "text": "けいれんが起きる",
+   "source_id": "nanbyou",
+   "evidence": "けいれんを起こす患者さん"
+  },
+  {
+   "text": "腎臓に結石ができる",
+   "source_id": "nanbyou",
+   "evidence": "腎臓に結石ができる患者さん"
+  },
+  {
+   "text": "おっぱいやミルクの飲みが悪い、体重が増えにくい",
+   "source_id": "nanbyou",
+   "evidence": "哺乳不良や体重増加不良"
+  },
+  {
+   "text": "乳歯が早く抜ける",
+   "source_id": "nanbyou",
+   "evidence": "乳歯早期脱落"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "足りないアルカリホスファターゼ酵素を補充する酵素薬が開発され"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4564",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は遺伝の説明で、発症年齢の記載が無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:44:40+09:00",
+ "shard": 3
+}

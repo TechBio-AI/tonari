@@ -1,0 +1,70 @@
+{
+ "idx": 384,
+ "name": "ロイス・ディーツ症候群",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/13_01_018/",
+   "fetched_at": "2026-09-24T00:53:04+09:00",
+   "sha256": "851c2b3d66286152297833519e1f7fc090ba0ac88a0cd06201fe65fd03e3e328",
+   "title": "ロイス・ディーツ症候群 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "血管や骨、皮膚などに特徴的な症状が出る、全身の結合組織の病気です。",
+  "source_id": "shouman",
+  "evidence": "心血管系、骨格系、皮膚他にも特徴的な症状を伴う全身性の遺伝性結合織疾患",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "大動脈に病変ができる",
+   "source_id": "shouman",
+   "evidence": "大動脈病変を主に"
+  },
+  {
+   "text": "上あごが割れている",
+   "source_id": "shouman",
+   "evidence": "口蓋裂"
+  },
+  {
+   "text": "のどちんこが二つに分かれている",
+   "source_id": "shouman",
+   "evidence": "二分口蓋垂"
+  },
+  {
+   "text": "両目の間隔が広い",
+   "source_id": "shouman",
+   "evidence": "眼間解離"
+  },
+  {
+   "text": "全身の動脈が蛇行する",
+   "source_id": "shouman",
+   "evidence": "全身動脈の蛇行"
+  },
+  {
+   "text": "頭の骨の縫い目が早く閉じる",
+   "source_id": "shouman",
+   "evidence": "頭蓋骨早期融合"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "対症療法が基本であり"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/13_01_018/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "症状の節が保存 HTML に無いため、同じページの概要の節から症状を取った。",
+  "疫学の節は頻度が不明と書かれており数値も混じるため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:30:26+09:00",
+ "shard": 1
+}

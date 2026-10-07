@@ -1,0 +1,74 @@
+{
+ "idx": 121,
+ "name": "福山型先天性筋ジストロフィー",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_21_051/",
+   "fetched_at": "2026-09-24T00:51:36+09:00",
+   "sha256": "ed210fe3df1ca6ab73187cc0cf98dd30b2de20a4957c5c5e32c4f890a87f7e4c",
+   "title": "福山型先天性筋ジストロフィー 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "筋肉の力が強く落ち、脳の形づくりや目にも異常が出ることを特徴とする病気です。",
+  "source_id": "shouman",
+  "evidence": "重度の筋ジストロフィー，神経細胞遊走障害による脳奇形と高頻度の眼合併症が特徴",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "顔を含めて全身の力が弱い",
+   "source_id": "shouman",
+   "evidence": "顔面筋を含む全身性筋力低下"
+  },
+  {
+   "text": "体がふにゃふにゃしている",
+   "source_id": "shouman",
+   "evidence": "筋緊張低下"
+  },
+  {
+   "text": "おっぱいやミルクの飲みが悪い",
+   "source_id": "shouman",
+   "evidence": "哺乳不良"
+  },
+  {
+   "text": "体重が増えにくい",
+   "source_id": "shouman",
+   "evidence": "体重増加不良"
+  },
+  {
+   "text": "発達がゆっくり",
+   "source_id": "shouman",
+   "evidence": "発達遅滞"
+  },
+  {
+   "text": "関節が固くなる",
+   "source_id": "shouman",
+   "evidence": "関節拘縮は早期より認められ"
+  },
+  {
+   "text": "目の向きがずれる、目がゆれる",
+   "source_id": "shouman",
+   "evidence": "異常眼球運動（斜視），眼振を伴い"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "現時点では，対症療法に限られる．"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_21_051/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は頻度の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:26:37+09:00",
+ "shard": 1
+}

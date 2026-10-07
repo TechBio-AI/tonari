@@ -1,0 +1,76 @@
+{
+ "idx": 193,
+ "name": "脊髄空洞症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/133",
+   "fetched_at": "2026-09-24T00:44:16+09:00",
+   "sha256": "14705e59435316c3b95256b8d2b5d8369f2fcbd41c9de3b6b5e063c92c4e5635",
+   "title": "脊髄空洞症（指定難病１１７） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "脊髄の中に液体がたまった空洞ができ、内側から脊髄を圧迫する病気です。",
+  "source_id": "nanbyou",
+  "evidence": "脊髄の中にこの脳脊髄液がたまった大きな空洞ができ、脊髄を内側から圧迫する",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "片方の腕の感覚が鈍くなる、力が入らない",
+   "source_id": "nanbyou",
+   "evidence": "片側の腕の感覚障害もしくは脱力で発病することが多く"
+  },
+  {
+   "text": "重苦しさや痛み、不快なしびれが出る",
+   "source_id": "nanbyou",
+   "evidence": "重苦しい、痛み、不快なしびれ感ではじまる"
+  },
+  {
+   "text": "温度や痛みを感じにくくなる",
+   "source_id": "nanbyou",
+   "evidence": "温度や痛みがわからなくなる障害"
+  },
+  {
+   "text": "筋肉がやせる",
+   "source_id": "nanbyou",
+   "evidence": "筋肉のやせ"
+  },
+  {
+   "text": "手足に力が入らない、つっぱる",
+   "source_id": "nanbyou",
+   "evidence": "手足の脱力、つっぱり"
+  },
+  {
+   "text": "汗のかき方が変わる",
+   "source_id": "nanbyou",
+   "evidence": "汗の異常（初めは多く、進行すると汗をかかなくなります）"
+  },
+  {
+   "text": "立ちくらみがする",
+   "source_id": "nanbyou",
+   "evidence": "立ちくらみ"
+  }
+ ],
+ "onset": {
+  "text": "どの年代にもみられます",
+  "source_id": "nanbyou",
+  "evidence": "あらゆる年齢層にみられます"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "症状の進行予防および改善目的で行われます"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/133",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:28:23+09:00",
+ "shard": 1
+}

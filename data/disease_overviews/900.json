@@ -1,0 +1,73 @@
+{
+ "idx": 900,
+ "name": "先天性無痛症（HSAN V型）",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/64752",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Hereditary sensory and autonomic neuropathy type 5"
+  }
+ ],
+ "summary": {
+  "text": "A rare congenital sensory neuropathy characterized by selective or generalized loss of pain perception and impaired temperature sensitivity, in the absence of other abnormal neurological function. Patients present with variable severity of insensibility to pain and temperature. Self-mutilation of the lips, tongue, and fingers, painless injuries resulting in cuts, bruises, fractures, destroyed joints (Charcot joints) mostly in the knees and and feet are frequentyly observed. Patients have normal motor and sensory nerve conduction. Nerve biopsy typically manifest with reduced/absent small myelinated fibers whereas unmyelinated fibers are usually not affected. Episodic increase in body temperature, skin blotching, decreased sweating, poor wound healing, infections in teeth, joints and bone, neurotrophic keratitis, prematurely aged appearance, with malar hypoplasia, sunken eyes are reported in few patients. Mild intellectual disability may also be present.",
+  "source_id": "orphanet",
+  "evidence": "A rare congenital sensory neuropathy cha",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "loss of pain perception",
+   "source_id": "orphanet",
+   "evidence": "loss of pain perception"
+  },
+  {
+   "text": "impaired temperature sensitivity",
+   "source_id": "orphanet",
+   "evidence": "impaired temperature sensitivity"
+  },
+  {
+   "text": "Self-mutilation of the lips, tongue, and fingers",
+   "source_id": "orphanet",
+   "evidence": "Self-mutilation of the lips, tongue, and"
+  },
+  {
+   "text": "painless injuries",
+   "source_id": "orphanet",
+   "evidence": "painless injuries"
+  },
+  {
+   "text": "decreased sweating",
+   "source_id": "orphanet",
+   "evidence": "decreased sweating"
+  },
+  {
+   "text": "poor wound healing",
+   "source_id": "orphanet",
+   "evidence": "poor wound healing"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/64752",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: 神経伝導・神経生検の所見",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

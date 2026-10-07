@@ -1,0 +1,62 @@
+{
+ "idx": 577,
+ "name": "多発性骨端異形成症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/251",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Multiple epiphyseal dysplasia"
+  }
+ ],
+ "summary": {
+  "text": "A rare group of primary bone dysplasia disorders characterized by the association of epiphyseal anomalies of long bones causing joint pain early in life, recurrent osteochondritis and early arthrosis. This group contains an heterogeneous group of diseases with variable expression. Common reported clinical signs include waddling gait and pain at onset, and moderate short stature. Some forms are mainly limited to the femoral epiphyses, while several other syndromes are characterized by the association of multiple epiphyseal dysplasia with other clinical manifestations such as myopia, deafness and facial dysmorphism. Diagnosis relies on identification of the radiological features.",
+  "source_id": "orphanet",
+  "evidence": "A rare group of primary bone dysplasia d",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "recurrent osteochondritis",
+   "source_id": "orphanet",
+   "evidence": "recurrent osteochondritis"
+  },
+  {
+   "text": "early arthrosis",
+   "source_id": "orphanet",
+   "evidence": "early arthrosis"
+  },
+  {
+   "text": "waddling gait",
+   "source_id": "orphanet",
+   "evidence": "waddling gait"
+  },
+  {
+   "text": "moderate short stature",
+   "source_id": "orphanet",
+   "evidence": "moderate short stature"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/251",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

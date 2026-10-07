@@ -1,0 +1,78 @@
+{
+ "idx": 138,
+ "name": "アジソン病",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/44",
+   "fetched_at": "2026-09-24T00:45:14+09:00",
+   "sha256": "ea2840d8df726166ea36f8b6842945da248632a9e3ed28b44c3201eb5a41f5b7",
+   "title": "アジソン病（指定難病８３） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "副腎皮質から出るホルモンが足りなくなる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "副腎皮質ホルモンの欠落により",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "疲れやすい、体がだるい",
+   "source_id": "nanbyou",
+   "evidence": "易疲労感、 全身倦怠感"
+  },
+  {
+   "text": "力が入らない、筋力が落ちる",
+   "source_id": "nanbyou",
+   "evidence": "脱力感、筋力低下"
+  },
+  {
+   "text": "体重が減る",
+   "source_id": "nanbyou",
+   "evidence": "体重減少"
+  },
+  {
+   "text": "血圧が低い",
+   "source_id": "nanbyou",
+   "evidence": "低血圧などがみられます"
+  },
+  {
+   "text": "食欲がない、吐き気がする",
+   "source_id": "nanbyou",
+   "evidence": "食欲不振、 悪心 ･嘔吐"
+  },
+  {
+   "text": "下痢をする",
+   "source_id": "nanbyou",
+   "evidence": "下痢などの消化器症状"
+  },
+  {
+   "text": "皮膚や口の中に色素が沈着する",
+   "source_id": "nanbyou",
+   "evidence": "色素沈着は皮膚、肘や膝などの関節部、爪床、口腔内"
+  }
+ ],
+ "onset": {
+  "text": "主に大人にみられます",
+  "source_id": "nanbyou",
+  "evidence": "アジソン病は、主に成人にみられ"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "不足するステロイドホルモンを補充します。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/44",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "概要の節が長い一文で 40 字に収まらないため、症状の節の冒頭から summary の evidence を取った（同じページ）。"
+ ],
+ "extracted_at": "2026-09-25T02:47:21+09:00",
+ "shard": 3
+}

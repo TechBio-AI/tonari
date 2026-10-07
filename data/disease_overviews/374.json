@@ -1,0 +1,69 @@
+{
+ "idx": 374,
+ "name": "ベックウィズ・ヴィーデマン症候群",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/13_01_008/",
+   "fetched_at": "2026-09-24T00:53:02+09:00",
+   "sha256": "a10a2de94d91282247a5246fe74e59bc82abe06f32aa0e7ebb8efd37e39bfe87",
+   "title": "ベックウィズ・ヴィーデマン（Beckwith-Wiedemann）症候群 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "へその緒の部分のヘルニアと、大きな舌を主な特徴とする病気です。",
+  "source_id": "shouman",
+  "evidence": "臍帯ヘルニア(Exomphalos), 巨舌(Macroglossia)",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "へその緒の部分に腸が突出する",
+   "source_id": "shouman",
+   "evidence": "圧出された腸がへその緒に突出し"
+  },
+  {
+   "text": "舌が大きい",
+   "source_id": "shouman",
+   "evidence": "口腔内に収まり切れない巨舌"
+  },
+  {
+   "text": "体が大きくなる",
+   "source_id": "shouman",
+   "evidence": "巨体については、胎生期から過成長を示し"
+  },
+  {
+   "text": "肝臓や腎臓など臓器が大きくなる",
+   "source_id": "shouman",
+   "evidence": "肝臓・腎臓・脾臓・膵臓など臓器の肥大"
+  },
+  {
+   "text": "おっぱいやミルクを飲むのが難しい",
+   "source_id": "shouman",
+   "evidence": "ほ乳障害を"
+  },
+  {
+   "text": "かみ合わせに問題が出る",
+   "source_id": "shouman",
+   "evidence": "咬合障害・下顎前突を生じる"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "必要に応じてヘルニア根治術や舌縮小術などの外科的手術を行う"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/13_01_008/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節が保存 HTML に無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:59:04+09:00",
+ "shard": 4
+}

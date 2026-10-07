@@ -1,0 +1,53 @@
+{
+ "idx": 672,
+ "name": "アルギニン血症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/90",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Argininemia"
+  }
+ ],
+ "summary": {
+  "text": "A rare autosomal recessive amino acid metabolism disorder characterized by variable degrees of hyperammonemia leading to progressive loss of developmental milestones and spasticity in the absence of treatment.",
+  "source_id": "orphanet",
+  "evidence": "A rare autosomal recessive amino acid me",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "progressive loss of developmental milestones",
+   "source_id": "orphanet",
+   "evidence": "progressive loss of developmental"
+  },
+  {
+   "text": "spasticity",
+   "source_id": "orphanet",
+   "evidence": "spasticity"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/90",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: hyperammonemia",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に「in the absence of treatment」とあるが、治療の有無・内容の明示ではないため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

@@ -1,0 +1,56 @@
+{
+ "idx": 237,
+ "name": "特発性間質性肺炎",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/156",
+   "fetched_at": "2026-09-24T00:44:20+09:00",
+   "sha256": "619775403698ae85b53f9094dab7f930c5594af141fc8d1bfd0b7aa8358fd000",
+   "title": "特発性間質性肺炎（指定難病８５） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "間質性肺炎は、はじめのころは症状がないことが多い病気です。",
+  "source_id": "nanbyou",
+  "evidence": "間質性肺炎が存在していても病初期には多くは無症状です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "はじめは症状がないことが多い",
+   "source_id": "nanbyou",
+   "evidence": "病初期には多くは無症状です"
+  },
+  {
+   "text": "痰をともなわない空咳が出る",
+   "source_id": "nanbyou",
+   "evidence": "乾性咳嗽と呼ばれる痰を伴わない空咳"
+  },
+  {
+   "text": "体を動かすと息が苦しくなる",
+   "source_id": "nanbyou",
+   "evidence": "労作時呼吸困難などを自覚する"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "進行抑制が現実的な目標となります"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/156",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "概要の節は肺の仕組みの説明が長く、40 字に収まる定義の一文が取れなかったため、症状の節の冒頭から summary の evidence を取った（同じページ）。",
+  "症状の節が短く、3 件しか取れなかった。",
+  "「どのような人に多いのですか」の節の発症年齢は数値と一体のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:40:16+09:00",
+ "shard": 2
+}

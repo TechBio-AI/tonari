@@ -1,0 +1,65 @@
+{
+ "idx": 190,
+ "name": "インスリノーマ",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_34_077/",
+   "fetched_at": "2026-09-24T00:48:15+09:00",
+   "sha256": "90dcf6db00f05fdeb6dc416bdce468556796089cba69d57a3562277111a5e8e4",
+   "title": "インスリノーマ 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "空腹のときに低血糖の発作が起こることが主な症状の病気です。",
+  "source_id": "shouman",
+  "evidence": "空腹時の低血糖発作が主要な症状である。",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "空腹のときに低血糖の発作が起こる",
+   "source_id": "shouman",
+   "evidence": "空腹時の低血糖発作が主要な症状である"
+  },
+  {
+   "text": "意識がはっきりしなくなる",
+   "source_id": "shouman",
+   "evidence": "意識障害"
+  },
+  {
+   "text": "けいれんが起きる",
+   "source_id": "shouman",
+   "evidence": "けいれんなどの中枢神経症状"
+  },
+  {
+   "text": "汗が出る",
+   "source_id": "shouman",
+   "evidence": "発汗"
+  },
+  {
+   "text": "体がふるえる",
+   "source_id": "shouman",
+   "evidence": "震えなどの自律神経症状"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "インスリノーマ切除術が推奨される"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/05_34_077/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "概要にあたる節が保存 HTML に無いため、症状の節の冒頭から summary の evidence を取った。",
+  "疫学の節は発症年齢の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:48:34+09:00",
+ "shard": 3
+}

@@ -1,0 +1,79 @@
+{
+ "idx": 392,
+ "name": "リジン尿性蛋白不耐症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4681",
+   "fetched_at": "2026-09-24T00:45:47+09:00",
+   "sha256": "42ba85d2aa2509c114bef8e5e48b21a0ca6a854beba08540db09bdd3b5fa5172",
+   "title": "リジン尿性蛋白不耐症（指定難病２５２） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "あるアミノ酸が腸から吸収されにくく、尿にたくさん出てしまう体質の病気です。",
+  "source_id": "nanbyou",
+  "evidence": "腸からの吸収が弱く、そして尿にもこれらのアミノ酸が沢山出てしまう",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "吐く",
+   "source_id": "nanbyou",
+   "evidence": "嘔吐"
+  },
+  {
+   "text": "下痢をする",
+   "source_id": "nanbyou",
+   "evidence": "下痢"
+  },
+  {
+   "text": "体重が増えにくい",
+   "source_id": "nanbyou",
+   "evidence": "体重増加不良"
+  },
+  {
+   "text": "筋力が弱い",
+   "source_id": "nanbyou",
+   "evidence": "筋力が弱いなどで気づかれます"
+  },
+  {
+   "text": "肝臓や脾臓が大きくなる",
+   "source_id": "nanbyou",
+   "evidence": "肝脾腫を認める場合もあります"
+  },
+  {
+   "text": "たんぱくの多い食品を嫌がる",
+   "source_id": "nanbyou",
+   "evidence": "高蛋白食品を嫌うようになることが多いです"
+  },
+  {
+   "text": "背が低い、体重が少ない",
+   "source_id": "nanbyou",
+   "evidence": "低身長、低体重"
+  },
+  {
+   "text": "骨がもろくなる",
+   "source_id": "nanbyou",
+   "evidence": "骨粗鬆症を呈する割合は半数近く"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "充分なカロリー摂取と蛋白制限、アミノ酸補充が主体となります"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4681",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は遺伝の説明で、発症年齢の記載が無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:30:26+09:00",
+ "shard": 1
+}

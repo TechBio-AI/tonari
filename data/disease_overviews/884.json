@@ -1,0 +1,47 @@
+{
+ "idx": 884,
+ "name": "Myosin Heavy Chain 7関連ミオパチー",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/59135",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Laing distal myopathy"
+  }
+ ],
+ "summary": {
+  "text": "A rare autosomal dominant distal myopathy characterized by preferential weakness of the great toe, ankle dorsiflexor, finger extensor and neck flexor. Progression is slow with variations in age of onset, severity, weakness, cardiac, and respiratory involvement.",
+  "source_id": "orphanet",
+  "evidence": "A rare autosomal dominant distal myopath",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "preferential weakness of the great toe, ankle dorsiflexor, finger extensor and neck flexor",
+   "source_id": "orphanet",
+   "evidence": "preferential weakness of the great toe"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/59135",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "発症年齢は「variations in age of onset」とされているため onset は null。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

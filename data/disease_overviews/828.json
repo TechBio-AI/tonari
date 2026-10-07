@@ -1,0 +1,68 @@
+{
+ "idx": 828,
+ "name": "特発性頭蓋内圧亢進症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/238624",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Idiopathic intracranial hypertension"
+  }
+ ],
+ "summary": {
+  "text": "Idiopathic intracranial hypertension is a neurological disorder characterized by isolated increased intracranial pressure manifesting with recurrent and persistent headaches, nausea, vomiting, progressive and transient obstruction of the visual field, papilledema. Visual loss can be irreversible.",
+  "source_id": "orphanet",
+  "evidence": "Idiopathic intracranial hypertension is ",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "recurrent and persistent headaches",
+   "source_id": "orphanet",
+   "evidence": "recurrent and persistent headaches"
+  },
+  {
+   "text": "nausea",
+   "source_id": "orphanet",
+   "evidence": "nausea"
+  },
+  {
+   "text": "vomiting",
+   "source_id": "orphanet",
+   "evidence": "vomiting"
+  },
+  {
+   "text": "progressive and transient obstruction of the visual field",
+   "source_id": "orphanet",
+   "evidence": "progressive and transient obstruction of"
+  },
+  {
+   "text": "Visual loss",
+   "source_id": "orphanet",
+   "evidence": "Visual loss"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/238624",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: papilledema（眼底所見） / increased intracranial pressure",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

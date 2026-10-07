@@ -1,0 +1,81 @@
+{
+ "idx": 54,
+ "name": "嚢胞性線維症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4531",
+   "fetched_at": "2026-09-24T00:45:33+09:00",
+   "sha256": "377456e09d40935d79a9d46464508886725dfb71bfc995875d67b2da07bfb7f2",
+   "title": "嚢胞性線維症（指定難病２９９） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "粘り気の強い分泌液で、気管支や消化管がつまりやすくなる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "粘り気の強い分泌液で詰まりやすくなり、多様な症状を表す病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "生まれて最初の便が出ない",
+   "source_id": "nanbyou",
+   "evidence": "胎便（生まれて最初に出る便）が出ないため"
+  },
+  {
+   "text": "お腹がふくらむ、吐く",
+   "source_id": "nanbyou",
+   "evidence": "腹部の膨満と嘔吐を引き起こします"
+  },
+  {
+   "text": "消化不良や下痢になる",
+   "source_id": "nanbyou",
+   "evidence": "消化不良、下痢になります"
+  },
+  {
+   "text": "においの強い脂肪便が出る",
+   "source_id": "nanbyou",
+   "evidence": "悪臭を伴う 脂肪便"
+  },
+  {
+   "text": "栄養が足りず、やせる",
+   "source_id": "nanbyou",
+   "evidence": "栄養不良、やせ、成長不良になります"
+  },
+  {
+   "text": "気管支炎や肺炎をくり返す",
+   "source_id": "nanbyou",
+   "evidence": "気管支炎や肺炎を繰り返します"
+  },
+  {
+   "text": "痰のからむ咳が続く",
+   "source_id": "nanbyou",
+   "evidence": "痰のからむ咳が続き"
+  },
+  {
+   "text": "副鼻腔炎が起こる",
+   "source_id": "nanbyou",
+   "evidence": "副鼻腔炎が見られます"
+  }
+ ],
+ "onset": {
+  "text": "多くは新生児期から乳幼児期に発病します",
+  "source_id": "nanbyou",
+  "evidence": "ほとんどの患者さんでは、新生児期～乳幼児期に発病します。"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "粘り気の強い胎便を溶かす浣腸が行われます"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4531",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:35:30+09:00",
+ "shard": 2
+}

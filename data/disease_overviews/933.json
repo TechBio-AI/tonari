@@ -1,0 +1,53 @@
+{
+ "idx": 933,
+ "name": "先天性緑内障",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/98976",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Congenital glaucoma"
+  }
+ ],
+ "summary": {
+  "text": "A rare ophthalmic disorder characterized by an elevated intra-ocular pressure. The clinical presentation frequently associates an increase in the size of the eye, as well as corneal edema.",
+  "source_id": "orphanet",
+  "evidence": "A rare ophthalmic disorder characterized",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "increase in the size of the eye",
+   "source_id": "orphanet",
+   "evidence": "increase in the size of the eye"
+  },
+  {
+   "text": "corneal edema",
+   "source_id": "orphanet",
+   "evidence": "corneal edema"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/98976",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: elevated intra-ocular pressure（検査値）",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

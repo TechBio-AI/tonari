@@ -1,0 +1,75 @@
+{
+ "idx": 64,
+ "name": "潰瘍性大腸炎",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/62",
+   "fetched_at": "2026-09-24T00:46:40+09:00",
+   "sha256": "84ea678a168ff1ab2bf09780d904292f059708345ff7c5260d41e599c4efdc64",
+   "title": "潰瘍性大腸炎（指定難病９７） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "下痢や血便が認められる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "下痢（便が軟らかくなって、回数が増えること）や血便が認められます",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "下痢をする",
+   "source_id": "nanbyou",
+   "evidence": "下痢（便が軟らかくなって、回数が増えること）"
+  },
+  {
+   "text": "便に血がまじる",
+   "source_id": "nanbyou",
+   "evidence": "血便が認められます"
+  },
+  {
+   "text": "お腹が痛む",
+   "source_id": "nanbyou",
+   "evidence": "痙攣性または持続的な腹痛を伴うこともあります"
+  },
+  {
+   "text": "熱が出る",
+   "source_id": "nanbyou",
+   "evidence": "重症になると、発熱"
+  },
+  {
+   "text": "体重が減る",
+   "source_id": "nanbyou",
+   "evidence": "体重減少"
+  },
+  {
+   "text": "貧血になる",
+   "source_id": "nanbyou",
+   "evidence": "貧血などの全身の症状"
+  },
+  {
+   "text": "皮膚や関節、目に症状が出ることがある",
+   "source_id": "nanbyou",
+   "evidence": "皮膚の症状、関節や眼の症状が出現する"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "原則的には薬による内科的治療が行われます。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/62",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "概要の節は消化器の仕組みの説明が長く、40 字に収まる定義の一文が取れなかったため、症状の節の冒頭から summary の evidence を取った（同じページ）。",
+  "「どのような人に多いのですか」の節の発症年齢は数値と一体のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:54:01+09:00",
+ "shard": 4
+}

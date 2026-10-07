@@ -1,0 +1,68 @@
+{
+ "idx": 39,
+ "name": "IgA腎症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/41",
+   "fetched_at": "2026-09-24T00:44:59+09:00",
+   "sha256": "6433e30807853048deaa7feabfc14c221e26f7fa5ac64e380a7a1076fff77faf",
+   "title": "ＩｇＡ腎症（指定難病６６） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "腎臓のろ過装置に、IgAというたんぱくがたまる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "腎臓の糸球体に 免疫グロブリン のIgAという蛋白が沈着する病気",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "はじめは症状がない",
+   "source_id": "nanbyou",
+   "evidence": "初期は無症状です"
+  },
+  {
+   "text": "検尿でたんぱくや血が見つかる",
+   "source_id": "nanbyou",
+   "evidence": "偶然蛋白尿や血尿を指摘されることが多く"
+  },
+  {
+   "text": "腎臓のはたらきが落ちる",
+   "source_id": "nanbyou",
+   "evidence": "進行すると腎機能が低下し"
+  },
+  {
+   "text": "血圧が高くなる",
+   "source_id": "nanbyou",
+   "evidence": "高血圧の合併"
+  },
+  {
+   "text": "コーラのような色の尿が出ることがある",
+   "source_id": "nanbyou",
+   "evidence": "コーラのような色の血尿（肉眼的血尿）"
+  }
+ ],
+ "onset": {
+  "text": "子どもから大人まで、はば広い年代の方がいます",
+  "source_id": "nanbyou",
+  "evidence": "患者さんは、子供から大人まで広い年齢層にわたります。"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "食事療法としては減塩を行います"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/41",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:44:40+09:00",
+ "shard": 3
+}

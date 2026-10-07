@@ -1,0 +1,3060 @@
+{
+ "_meta": {
+  "title": "知識ベース構造修正案（重複統合・埋没疾患）",
+  "created": "2026-09-11",
+  "source": "data/knowledge/comprehensive_rare_diseases_knowledge.json（1,001 件、ORPHA 209 件適用後）",
+  "status_semantics": "status は proposed / approved / rejected / deferred / no_change / resolved。適用セッションは approved だけを適用する（merges は keep_index/drop_indices、renames は action に従う）。deferred = 保留（今回は適用しない）。no_change = 判定済みで知識ファイルに変更なし（番号の付け替えは carry_over に記録し ORPHA 照合の次バッチへ）。resolved = 解消済み（番号修正で一致）または統合で解消（適用対象外）",
+  "apply_rules": {
+   "disease": "keep 側",
+   "alternate_names": "keep 側 + drop 側の主名 + drop 側の別名（重複除去、keep 主名と同じ語は除く）",
+   "orpha_code": "keep 側。keep 側が空なら drop 側の承認済み番号を継承（orpha_inherited_from_dropped: true）。keep 側の番号と違う drop 側の番号は捨てる（dropped_orpha_codes_not_carried に記録）",
+   "description": "keep 側。drop 側は dropped_descriptions_for_review に残す",
+   "symptoms": "順序を保って和集合",
+   "symptom_patterns": "順序を保って和集合（1 語も減らない）",
+   "diagnosis": "順序を保って和集合",
+   "treatment": "順序を保って和集合",
+   "rename": "disease を new_disease に、旧主名を alternate_names の先頭へ。remove_from_alternate の語を別名から外す",
+   "alias_cleanup": "remove_from_alternate の語を別名から外す。add_to_alternate の語を別名の末尾に足す。move_to_alternate_of があれば、その index のレコードの別名末尾に words を足す（重複除去）",
+   "order": "renames（rename / alias_cleanup、元 index で参照）→ merges → drop_indices の削除。index はすべて適用前の並び"
+  },
+  "invariants": {
+   "symptom_patterns_unique": 1880,
+   "symptoms_union_unique": 3663,
+   "symptoms_unique": 1962
+  },
+  "founder_decisions": [
+   {
+    "date": "2026-09-12",
+    "session": "前セッション",
+    "decisions": [
+     "統合 47 組 → approved",
+     "保留 4 組（組 19・20・44・50）→ deferred",
+     "主名付け直し 5 件（178・401・262・588・56）→ approved（new_disease は提案どおり）",
+     "docs/guardrails.md 4 の疾患数の行の改訂 → approved（文言は kb_restructure_apply_log_2026-09-13.md に記載）"
+    ]
+   },
+   {
+    "date": "2026-09-13",
+    "session": "本セッション",
+    "decisions": [
+     "別名整理 6 件（109・209・351・14・219・147）→ approved。147 は「ニーマン・ピック病A/B型」を A型・B型の 2 語に分けて残す（ASMD は 2021 年頃からの新総称、旧称で探す患者のため）",
+     "118 褐色細胞腫 → 案B（残す。番号 276621 は次バッチ）",
+     "106 天疱瘡 → 案B（主名維持。指定難病 35 は群名。番号は次バッチ）",
+     "111 肺胞蛋白症 → 案B（主名維持。指定難病 229 は群名。番号は次バッチ）",
+     "530 テトラヒドロビオプテリン欠乏症 → 案A（主名維持。番号 238583 は次バッチ）",
+     "581 ミトコンドリア三機能蛋白欠損症 → 案A（主名維持。番号 746 は次バッチ）",
+     "406 神経有棘赤血球症 → 案A（そのまま）",
+     "番号の付け替え 5 件は今回触らず、ORPHA 照合の次バッチへ持ち越し（各 carry_over に記録）"
+    ]
+   }
+  ]
+ },
+ "merges": [
+  {
+   "group": 1,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 16,
+     "disease": "遺伝性ATTR型アミロイドーシス",
+     "orpha_code": "ORPHA:271861",
+     "orphanet_name": "Hereditary ATTR amyloidosis",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "hATTR",
+      "家族性アミロイドポリニューロパチー"
+     ],
+     "description": "トランスサイレチン（TTR）遺伝子の変異により、変異TTRがアミロイドとして沈着し、末梢神経や心臓に障害を引き起こす疾患です。"
+    },
+    {
+     "index": 326,
+     "disease": "遺伝性ニューロパチー伴うアミロイドーシス",
+     "orpha_code": "ORPHA:271861",
+     "orphanet_name": "Hereditary ATTR amyloidosis",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "ATTRv",
+      "遺伝性TTRアミロイドーシス",
+      "hereditary ATTR Amyloidosis"
+     ],
+     "description": "トランスサイレチン遺伝子変異によりアミロイドが末梢神経と心臓に沈着する遺伝性疾患です。指定難病28。"
+    }
+   ],
+   "keep_index": 16,
+   "keep_disease": "遺伝性ATTR型アミロイドーシス",
+   "drop_indices": [
+    326
+   ],
+   "drop_diseases": [
+    "遺伝性ニューロパチー伴うアミロイドーシス"
+   ],
+   "orpha_code_result": "ORPHA:271861",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "326": "トランスサイレチン遺伝子変異によりアミロイドが末梢神経と心臓に沈着する遺伝性疾患です。指定難病28。"
+   },
+   "reason": "名前が臨床の呼び方に近く、/demo・発症年齢・診療科・HPO 重ね書きの鍵になっている（326 を残すと 4 ファイルの鍵が切れる）。番号は両方 271861 で同じ",
+   "note": "326 の言い回し（立ちくらみ／下痢・便秘／目がかすむ）と治療（ビュートリシラン／肝移植／ジフルニサル）が加わる。948（V30M以外）は亜型として保留"
+  },
+  {
+   "group": 2,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 26,
+     "disease": "ALS",
+     "orpha_code": "ORPHA:803",
+     "orphanet_name": "Amyotrophic lateral sclerosis",
+     "symptoms_count": 6,
+     "symptom_patterns_count": 6,
+     "alternate_names": [
+      "筋萎縮性側索硬化症",
+      "Amyotrophic Lateral Sclerosis"
+     ],
+     "description": "運動神経細胞の選択的変性により、進行性の筋萎縮と筋力低下を呈する神経変性疾患です。"
+    },
+    {
+     "index": 75,
+     "disease": "筋萎縮性側索硬化症",
+     "orpha_code": "ORPHA:803",
+     "orphanet_name": "Amyotrophic lateral sclerosis",
+     "symptoms_count": 6,
+     "symptom_patterns_count": 6,
+     "alternate_names": [
+      "ALS",
+      "Amyotrophic Lateral Sclerosis"
+     ],
+     "description": "上位・下位運動ニューロンの進行性変性により筋萎縮と筋力低下を来す神経変性疾患です。指定難病2。"
+    }
+   ],
+   "keep_index": 75,
+   "keep_disease": "筋萎縮性側索硬化症",
+   "drop_indices": [
+    26
+   ],
+   "drop_diseases": [
+    "ALS"
+   ],
+   "orpha_code_result": "ORPHA:803",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "26": "運動神経細胞の選択的変性により、進行性の筋萎縮と筋力低下を呈する神経変性疾患です。"
+   },
+   "reason": "指定難病の正式名。番号は両方 803。26 は英字のみで日本語名なし枠に落ちる",
+   "note": "発症年齢の重ね書き（data/onset）に 'ALS' の鍵が残るので、適用時に統合先へ寄せる。17 遺伝性ALS は家族性の亜型として保留"
+  },
+  {
+   "group": 3,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 13,
+     "disease": "遺伝性チロシン血症1型",
+     "orpha_code": null,
+     "orphanet_name": null,
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "HT1",
+      "Hereditary tyrosinemia type 1"
+     ],
+     "description": "フマリルアセト酢酸ヒドロラーゼ酵素の欠損により、チロシン代謝産物が蓄積し、肝腎障害を引き起こす疾患です。"
+    },
+    {
+     "index": 323,
+     "disease": "チロシン血症I型",
+     "orpha_code": "ORPHA:882",
+     "orphanet_name": "Tyrosinemia type 1",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "HT1",
+      "Tyrosinemia Type 1"
+     ],
+     "description": "フマリルアセト酢酸ヒドラーゼ欠損により肝障害と腎障害を来す先天性代謝疾患です。指定難病253。"
+    },
+    {
+     "index": 962,
+     "disease": "チロシン血症1型",
+     "orpha_code": "ORPHA:882",
+     "orphanet_name": "Tyrosinemia type 1",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "HT1",
+      "Tyrosinemia Type 1"
+     ],
+     "description": "FAH遺伝子変異によるフマリルアセト酢酸ヒドロラーゼ欠損で肝不全と腎尿細管障害を来す重症アミノ酸代謝異常症です。指定難病337。"
+    }
+   ],
+   "keep_index": 962,
+   "keep_disease": "チロシン血症1型",
+   "drop_indices": [
+    13,
+    323
+   ],
+   "drop_diseases": [
+    "遺伝性チロシン血症1型",
+    "チロシン血症I型"
+   ],
+   "orpha_code_result": "ORPHA:882",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "13": "フマリルアセト酢酸ヒドロラーゼ酵素の欠損により、チロシン代謝産物が蓄積し、肝腎障害を引き起こす疾患です。",
+    "323": "フマリルアセト酢酸ヒドラーゼ欠損により肝障害と腎障害を来す先天性代謝疾患です。指定難病253。"
+   },
+   "reason": "番号 882 を持ち、算用数字（課題23 の方向）。13 は番号なし、323 はローマ数字",
+   "note": "13（第1批次）の症状 5 語（肝腫大／肝硬変／発達遅滞／くる病様骨変化 等）は合算で残る。指定難病名は「高チロシン血症1型」だが名前の付け替えは今回扱わない"
+  },
+  {
+   "group": 4,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 92,
+     "disease": "ホモシスチン尿症",
+     "orpha_code": "ORPHA:394",
+     "orphanet_name": "Homocystinuria due to cystathionine beta-synthase deficiency",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "Homocystinuria"
+     ],
+     "description": "メチオニン代謝異常により血中ホモシスチンが上昇し、多臓器障害を来す先天性代謝疾患です。指定難病337。"
+    },
+    {
+     "index": 576,
+     "disease": "ホモシスチン尿症（CBS欠損型）",
+     "orpha_code": "ORPHA:394",
+     "orphanet_name": "Homocystinuria due to cystathionine beta-synthase deficiency",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "Classical Homocystinuria",
+      "CBS Deficiency"
+     ],
+     "description": "シスタチオニンβ合成酵素欠損による高ホモシステイン血症で、水晶体偏位と血栓症を来す代謝疾患です。指定難病337。"
+    },
+    {
+     "index": 960,
+     "disease": "ホモシスチン尿症(CBS型)",
+     "orpha_code": "ORPHA:394",
+     "orphanet_name": "Homocystinuria due to cystathionine beta-synthase deficiency",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "Classical Homocystinuria",
+      "CBS Deficiency"
+     ],
+     "description": "CBS遺伝子変異によるシスタチオニンβ合成酵素欠損で水晶体偏位・高身長・血栓症を呈する含硫アミノ酸代謝異常症です。指定難病337。"
+    }
+   ],
+   "keep_index": 92,
+   "keep_disease": "ホモシスチン尿症",
+   "drop_indices": [
+    576,
+    960
+   ],
+   "drop_diseases": [
+    "ホモシスチン尿症（CBS欠損型）",
+    "ホモシスチン尿症(CBS型)"
+   ],
+   "orpha_code_result": "ORPHA:394",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "576": "シスタチオニンβ合成酵素欠損による高ホモシステイン血症で、水晶体偏位と血栓症を来す代謝疾患です。指定難病337。",
+    "960": "CBS遺伝子変異によるシスタチオニンβ合成酵素欠損で水晶体偏位・高身長・血栓症を呈する含硫アミノ酸代謝異常症です。指定難病337。"
+   },
+   "reason": "指定難病の正式名「ホモシスチン尿症」。番号は 3 件とも 394（CBS 欠損型）",
+   "note": "576/960 の別名 Classical Homocystinuria / CBS Deficiency を合算。CBS 型以外のホモシスチン尿症は収録なし"
+  },
+  {
+   "group": 5,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 191,
+     "disease": "先天性赤芽球異形成性貧血",
+     "orpha_code": "ORPHA:85",
+     "orphanet_name": "Congenital dyserythropoietic anemia",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "CDA",
+      "Congenital Dyserythropoietic Anemia"
+     ],
+     "description": "赤芽球の成熟障害により無効造血と貧血を来す先天性疾患です。指定難病284。"
+    },
+    {
+     "index": 464,
+     "disease": "先天性赤血球形成異常性貧血",
+     "orpha_code": "ORPHA:85",
+     "orphanet_name": "Congenital dyserythropoietic anemia",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "CDA",
+      "Congenital Dyserythropoietic Anemia"
+     ],
+     "description": "赤血球前駆細胞の形態異常と無効造血を特徴とする先天性貧血です。指定難病282。"
+    },
+    {
+     "index": 847,
+     "disease": "先天性赤血球生成異常性貧血",
+     "orpha_code": "ORPHA:85",
+     "orphanet_name": "Congenital dyserythropoietic anemia",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "CDA",
+      "Congenital Dyserythropoietic Anemia"
+     ],
+     "description": "SEC23B/CDAN1等の遺伝子変異による赤芽球の無効造血と特徴的形態異常を呈する先天性貧血です。指定難病283。"
+    }
+   ],
+   "keep_index": 464,
+   "keep_disease": "先天性赤血球形成異常性貧血",
+   "drop_indices": [
+    191,
+    847
+   ],
+   "drop_diseases": [
+    "先天性赤芽球異形成性貧血",
+    "先天性赤血球生成異常性貧血"
+   ],
+   "orpha_code_result": "ORPHA:85",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "191": "赤芽球の成熟障害により無効造血と貧血を来す先天性疾患です。指定難病284。",
+    "847": "SEC23B/CDAN1等の遺伝子変異による赤芽球の無効造血と特徴的形態異常を呈する先天性貧血です。指定難病283。"
+   },
+   "reason": "指定難病の正式名「先天性赤血球形成異常性貧血」。番号は 3 件とも 85",
+   "note": "847 の症状（慢性貧血／胆石）と 191 のものは合算で残る"
+  },
+  {
+   "group": 6,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 181,
+     "disease": "高IgD症候群",
+     "orpha_code": "ORPHA:343",
+     "orphanet_name": "Hyperimmunoglobulinemia D with periodic fever",
+     "symptoms_count": 6,
+     "symptom_patterns_count": 6,
+     "alternate_names": [
+      "HIDS",
+      "Hyper-IgD Syndrome",
+      "メバロン酸キナーゼ欠損症"
+     ],
+     "description": "MVK遺伝子変異により周期的発熱と血清IgD高値を呈する自己炎症性疾患です。指定難病325。"
+    },
+    {
+     "index": 632,
+     "disease": "Mevalonate Kinase欠損症",
+     "orpha_code": "ORPHA:343",
+     "orphanet_name": "Hyperimmunoglobulinemia D with periodic fever",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "MKD",
+      "Hyper-IgD Syndrome",
+      "HIDS",
+      "メバロン酸キナーゼ欠損症"
+     ],
+     "description": "MVK遺伝子変異によるメバロン酸経路の異常で周期性発熱を呈する自己炎症性疾患です。指定難病325。"
+    }
+   ],
+   "keep_index": 181,
+   "keep_disease": "高IgD症候群",
+   "drop_indices": [
+    632
+   ],
+   "drop_diseases": [
+    "Mevalonate Kinase欠損症"
+   ],
+   "orpha_code_result": "ORPHA:343",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "632": "MVK遺伝子変異によるメバロン酸経路の異常で周期性発熱を呈する自己炎症性疾患です。指定難病325。"
+   },
+   "reason": "指定難病の正式名「高IgD症候群」。番号は両方 343（HIDS）",
+   "note": "632 の主名 Mevalonate Kinase欠損症 は広い概念（メバロン酸尿症を含む。Orphanet 309025）だが中身は HIDS。MKD を別名として残す"
+  },
+  {
+   "group": 7,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 52,
+     "disease": "プラダー・ウィリー症候群",
+     "orpha_code": "ORPHA:739",
+     "orphanet_name": "Prader-Willi syndrome",
+     "symptoms_count": 6,
+     "symptom_patterns_count": 6,
+     "alternate_names": [
+      "PWS",
+      "Prader-Willi Syndrome"
+     ],
+     "description": "15番染色体の刷込み異常により、過食と肥満、知的障害を呈する疾患です。"
+    },
+    {
+     "index": 392,
+     "disease": "Prader-Willi症候群",
+     "orpha_code": "ORPHA:739",
+     "orphanet_name": "Prader-Willi syndrome",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "PWS",
+      "プラダー・ウィリー症候群"
+     ],
+     "description": "15q11-q13領域の父親由来遺伝子の機能喪失による肥満・低身長・知的障害を呈する疾患です。指定難病193。"
+    }
+   ],
+   "keep_index": 52,
+   "keep_disease": "プラダー・ウィリー症候群",
+   "drop_indices": [
+    392
+   ],
+   "drop_diseases": [
+    "Prader-Willi症候群"
+   ],
+   "orpha_code_result": "ORPHA:739",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "392": "15q11-q13領域の父親由来遺伝子の機能喪失による肥満・低身長・知的障害を呈する疾患です。指定難病193。"
+   },
+   "reason": "カナ表記・症状 6 語。番号は両方 739"
+  },
+  {
+   "group": 8,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 171,
+     "disease": "ドラベ症候群",
+     "orpha_code": "ORPHA:33069",
+     "orphanet_name": "Dravet syndrome",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "SMEI",
+      "Dravet Syndrome"
+     ],
+     "description": "SCN1A遺伝子変異による乳児期発症の難治性てんかんで、発熱誘発発作が特徴です。指定難病140。"
+    },
+    {
+     "index": 508,
+     "disease": "Dravet症候群",
+     "orpha_code": "ORPHA:33069",
+     "orphanet_name": "Dravet syndrome",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "SMEI",
+      "乳児重症ミオクロニーてんかん"
+     ],
+     "description": "SCN1A遺伝子変異による難治性てんかん症候群で、発熱で誘発される痙攣重積が特徴です。指定難病140。"
+    }
+   ],
+   "keep_index": 171,
+   "keep_disease": "ドラベ症候群",
+   "drop_indices": [
+    508
+   ],
+   "drop_diseases": [
+    "Dravet症候群"
+   ],
+   "orpha_code_result": "ORPHA:33069",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "508": "SCN1A遺伝子変異による難治性てんかん症候群で、発熱で誘発される痙攣重積が特徴です。指定難病140。"
+   },
+   "reason": "指定難病の正式名「ドラベ症候群」。番号は両方 33069",
+   "note": "508 の別名「乳児重症ミオクロニーてんかん」が加わる"
+  },
+  {
+   "group": 9,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 172,
+     "disease": "ウエスト症候群",
+     "orpha_code": "ORPHA:697160",
+     "orphanet_name": "Infantile epileptic spasms syndrome",
+     "symptoms_count": 3,
+     "symptom_patterns_count": 3,
+     "alternate_names": [
+      "WS",
+      "West Syndrome",
+      "点頭てんかん"
+     ],
+     "description": "乳児期に発症する点頭てんかんで、ヒプスアリスミアと発達退行を特徴とします。指定難病145。"
+    },
+    {
+     "index": 510,
+     "disease": "West症候群",
+     "orpha_code": "ORPHA:697160",
+     "orphanet_name": "Infantile epileptic spasms syndrome",
+     "symptoms_count": 3,
+     "symptom_patterns_count": 3,
+     "alternate_names": [
+      "IS",
+      "点頭てんかん",
+      "Infantile Spasms"
+     ],
+     "description": "乳児期のてんかん性スパズム、ヒプスアリスミア、精神運動発達遅滞を三徴とするてんかん症候群です。指定難病145。"
+    }
+   ],
+   "keep_index": 172,
+   "keep_disease": "ウエスト症候群",
+   "drop_indices": [
+    510
+   ],
+   "drop_diseases": [
+    "West症候群"
+   ],
+   "orpha_code_result": "ORPHA:697160",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "510": "乳児期のてんかん性スパズム、ヒプスアリスミア、精神運動発達遅滞を三徴とするてんかん症候群です。指定難病145。"
+   },
+   "reason": "カナ表記「ウエスト症候群」。番号は両方 697160（IESS）",
+   "note": "510 の別名 Infantile Spasms / IS が加わる"
+  },
+  {
+   "group": 10,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 170,
+     "disease": "レノックス・ガストー症候群",
+     "orpha_code": "ORPHA:2382",
+     "orphanet_name": "Lennox-Gastaut syndrome",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "LGS",
+      "Lennox-Gastaut Syndrome"
+     ],
+     "description": "多彩なてんかん発作型、遅い棘徐波複合、知的障害を三徴とする重症てんかん症候群です。指定難病144。"
+    },
+    {
+     "index": 509,
+     "disease": "Lennox-Gastaut症候群",
+     "orpha_code": "ORPHA:2382",
+     "orphanet_name": "Lennox-Gastaut syndrome",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "LGS",
+      "レノックス・ガストー症候群"
+     ],
+     "description": "難治性てんかん症候群で、複数の発作型、緩徐棘徐波、知的障害を三徴とします。指定難病144。"
+    }
+   ],
+   "keep_index": 170,
+   "keep_disease": "レノックス・ガストー症候群",
+   "drop_indices": [
+    509
+   ],
+   "drop_diseases": [
+    "Lennox-Gastaut症候群"
+   ],
+   "orpha_code_result": "ORPHA:2382",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "509": "難治性てんかん症候群で、複数の発作型、緩徐棘徐波、知的障害を三徴とします。指定難病144。"
+   },
+   "reason": "カナ表記。番号は両方 2382"
+  },
+  {
+   "group": 11,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 173,
+     "disease": "スタージ・ウェーバー症候群",
+     "orpha_code": "ORPHA:3205",
+     "orphanet_name": "Sturge-Weber syndrome",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "SWS",
+      "Sturge-Weber Syndrome"
+     ],
+     "description": "GNAQ遺伝子の体細胞モザイク変異による顔面血管腫と脳軟膜血管腫を特徴とする疾患です。指定難病157。"
+    },
+    {
+     "index": 468,
+     "disease": "Sturge-Weber症候群",
+     "orpha_code": "ORPHA:3205",
+     "orphanet_name": "Sturge-Weber syndrome",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "SWS",
+      "スタージ・ウェーバー症候群"
+     ],
+     "description": "GNAQ遺伝子の体細胞モザイク変異による顔面血管腫、軟膜血管腫、緑内障を呈する症候群です。指定難病157。"
+    }
+   ],
+   "keep_index": 173,
+   "keep_disease": "スタージ・ウェーバー症候群",
+   "drop_indices": [
+    468
+   ],
+   "drop_diseases": [
+    "Sturge-Weber症候群"
+   ],
+   "orpha_code_result": "ORPHA:3205",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "468": "GNAQ遺伝子の体細胞モザイク変異による顔面血管腫、軟膜血管腫、緑内障を呈する症候群です。指定難病157。"
+   },
+   "reason": "カナ表記。番号は両方 3205"
+  },
+  {
+   "group": 12,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 195,
+     "disease": "肺胞低換気症候群",
+     "orpha_code": "ORPHA:661",
+     "orphanet_name": "Congenital central hypoventilation syndrome",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "CCHS",
+      "先天性中枢性低換気症候群",
+      "Congenital Central Hypoventilation Syndrome"
+     ],
+     "description": "PHOX2B遺伝子変異により睡眠時の低換気を来す疾患です。指定難病230。"
+    },
+    {
+     "index": 475,
+     "disease": "先天性中枢性低換気症候群",
+     "orpha_code": "ORPHA:661",
+     "orphanet_name": "Congenital central hypoventilation syndrome",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "CCHS",
+      "Ondine curse"
+     ],
+     "description": "PHOX2B遺伝子変異により中枢性の換気ドライブが障害される疾患です。指定難病328。"
+    }
+   ],
+   "keep_index": 475,
+   "keep_disease": "先天性中枢性低換気症候群",
+   "drop_indices": [
+    195
+   ],
+   "drop_diseases": [
+    "肺胞低換気症候群"
+   ],
+   "orpha_code_result": "ORPHA:661",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "195": "PHOX2B遺伝子変異により睡眠時の低換気を来す疾患です。指定難病230。"
+   },
+   "reason": "主名が番号 661（CCHS）と中身に一致する。195 の主名「肺胞低換気症候群」は上位概念（指定難病 230 の名称）",
+   "note": "粒度不一致 #4 も同時に解消。「肺胞低換気症候群」は別名へ移す（FMF と同じ扱い）。573（非ポリアラニン型）は亜型として保留"
+  },
+  {
+   "group": 13,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 60,
+     "disease": "先天性副腎過形成",
+     "orpha_code": "ORPHA:418",
+     "orphanet_name": "Congenital adrenal hyperplasia",
+     "symptoms_count": 6,
+     "symptom_patterns_count": 6,
+     "alternate_names": [
+      "CAH",
+      "Congenital Adrenal Hyperplasia"
+     ],
+     "description": "副腎皮質ホルモン合成酵素の欠損により、コルチゾール不足とアンドロゲン過剰を来す疾患です。"
+    },
+    {
+     "index": 319,
+     "disease": "副腎皮質過形成症",
+     "orpha_code": "ORPHA:418",
+     "orphanet_name": "Congenital adrenal hyperplasia",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "CAH",
+      "Congenital Adrenal Hyperplasia",
+      "先天性副腎皮質過形成"
+     ],
+     "description": "副腎皮質のステロイド合成酵素欠損により副腎過形成を来す先天性疾患です。21-水酸化酵素欠損が最多。指定難病85。"
+    }
+   ],
+   "keep_index": 60,
+   "keep_disease": "先天性副腎過形成",
+   "drop_indices": [
+    319
+   ],
+   "drop_diseases": [
+    "副腎皮質過形成症"
+   ],
+   "orpha_code_result": "ORPHA:418",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "319": "副腎皮質のステロイド合成酵素欠損により副腎過形成を来す先天性疾患です。21-水酸化酵素欠損が最多。指定難病85。"
+   },
+   "reason": "症状 6 語、第2批次。番号は両方 418",
+   "note": "319 の別名「先天性副腎皮質過形成」が加わる。711/712/826（酵素別）は亜型として保留"
+  },
+  {
+   "group": 14,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 242,
+     "disease": "遺伝性出血性末梢血管拡張症",
+     "orpha_code": "ORPHA:774",
+     "orphanet_name": "Hereditary hemorrhagic telangiectasia",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "HHT",
+      "Osler-Weber-Rendu",
+      "遺伝性出血性毛細血管拡張症"
+     ],
+     "description": "血管奇形により鼻出血と多臓器動静脈瘻を来す常染色体優性遺伝疾患です。指定難病227。"
+    },
+    {
+     "index": 670,
+     "disease": "遺伝性出血性毛細血管拡張症",
+     "orpha_code": "ORPHA:774",
+     "orphanet_name": "Hereditary hemorrhagic telangiectasia",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "HHT",
+      "Osler-Weber-Rendu Disease"
+     ],
+     "description": "ENG/ACVRL1遺伝子変異による血管形成異常で鼻出血と多臓器AVM(動静脈奇形)を呈する疾患です。指定難病227。"
+    }
+   ],
+   "keep_index": 242,
+   "keep_disease": "遺伝性出血性末梢血管拡張症",
+   "drop_indices": [
+    670
+   ],
+   "drop_diseases": [
+    "遺伝性出血性毛細血管拡張症"
+   ],
+   "orpha_code_result": "ORPHA:774",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "670": "ENG/ACVRL1遺伝子変異による血管形成異常で鼻出血と多臓器AVM(動静脈奇形)を呈する疾患です。指定難病227。"
+   },
+   "reason": "指定難病の正式名「遺伝性出血性末梢血管拡張症」。番号は両方 774",
+   "note": "242 の別名に既に「遺伝性出血性毛細血管拡張症」がある"
+  },
+  {
+   "group": 15,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 292,
+     "disease": "弾力線維性仮性黄色腫",
+     "orpha_code": "ORPHA:758",
+     "orphanet_name": "Pseudoxanthoma elasticum",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "PXE",
+      "Pseudoxanthoma Elasticum"
+     ],
+     "description": "ABCC6遺伝子変異により弾力線維の石灰化を来し、皮膚・眼・血管の障害を呈する遺伝性疾患です。指定難病166。"
+    },
+    {
+     "index": 824,
+     "disease": "弾性線維性仮性黄色腫",
+     "orpha_code": "ORPHA:758",
+     "orphanet_name": "Pseudoxanthoma elasticum",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "PXE",
+      "Pseudoxanthoma Elasticum"
+     ],
+     "description": "ABCC6遺伝子変異による弾性線維の石灰化で、皮膚・眼・血管障害を呈する遺伝性結合組織疾患です。指定難病166。"
+    }
+   ],
+   "keep_index": 824,
+   "keep_disease": "弾性線維性仮性黄色腫",
+   "drop_indices": [
+    292
+   ],
+   "drop_diseases": [
+    "弾力線維性仮性黄色腫"
+   ],
+   "orpha_code_result": "ORPHA:758",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "292": "ABCC6遺伝子変異により弾力線維の石灰化を来し、皮膚・眼・血管の障害を呈する遺伝性疾患です。指定難病166。"
+   },
+   "reason": "指定難病の正式名は「弾性線維性仮性黄色腫」（824）。番号は両方 758",
+   "note": "292 の表記「弾力線維性」は別名へ"
+  },
+  {
+   "group": 16,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 216,
+     "disease": "黄色靭帯骨化症",
+     "orpha_code": null,
+     "orphanet_name": null,
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "OYL",
+      "OLF",
+      "Ossification of Yellow Ligament"
+     ],
+     "description": "脊椎黄色靭帯の骨化による脊柱管狭窄症で胸椎に好発します。指定難病68。"
+    },
+    {
+     "index": 855,
+     "disease": "黄色靱帯骨化症",
+     "orpha_code": null,
+     "orphanet_name": null,
+     "symptoms_count": 3,
+     "symptom_patterns_count": 3,
+     "alternate_names": [
+      "OYL",
+      "Ossification of Yellow Ligament"
+     ],
+     "description": "黄色靱帯の骨化により胸椎の脊柱管狭窄を来す疾患です。指定難病68。"
+    }
+   ],
+   "keep_index": 216,
+   "keep_disease": "黄色靭帯骨化症",
+   "drop_indices": [
+    855
+   ],
+   "drop_diseases": [
+    "黄色靱帯骨化症"
+   ],
+   "orpha_code_result": null,
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "855": "黄色靱帯の骨化により胸椎の脊柱管狭窄を来す疾患です。指定難病68。"
+   },
+   "reason": "症状 4 語・検査 3・治療 2（855 は 3/1/1）。番号はどちらも無し",
+   "note": "指定難病名は「黄色靱帯骨化症」（靱）。KB の 後縦靭帯骨化症 と字体を揃えるため 216 を残し、靱 表記を別名に"
+  },
+  {
+   "group": 17,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 320,
+     "disease": "緑内障（先天性）",
+     "orpha_code": "ORPHA:98976",
+     "orphanet_name": "Congenital glaucoma",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "PCG",
+      "Primary Congenital Glaucoma"
+     ],
+     "description": "隅角の先天的発育異常により眼圧が上昇し視神経障害を来す疾患です。指定難病310。"
+    },
+    {
+     "index": 983,
+     "disease": "先天性緑内障",
+     "orpha_code": "ORPHA:98976",
+     "orphanet_name": "Congenital glaucoma",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "PCG",
+      "Primary Congenital Glaucoma"
+     ],
+     "description": "CYP1B1遺伝子変異による先天性の隅角発達異常で眼圧上昇と角膜混濁を来す眼疾患です。指定難病215。"
+    }
+   ],
+   "keep_index": 983,
+   "keep_disease": "先天性緑内障",
+   "drop_indices": [
+    320
+   ],
+   "drop_diseases": [
+    "緑内障（先天性）"
+   ],
+   "orpha_code_result": "ORPHA:98976",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "320": "隅角の先天的発育異常により眼圧が上昇し視神経障害を来す疾患です。指定難病310。"
+   },
+   "reason": "自然な語順「先天性緑内障」。番号は両方 98976"
+  },
+  {
+   "group": 18,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 346,
+     "disease": "慢性偽性腸閉塞症",
+     "orpha_code": "ORPHA:2978",
+     "orphanet_name": "Chronic intestinal pseudoobstruction syndrome",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "CIPO",
+      "Chronic Intestinal Pseudo-obstruction"
+     ],
+     "description": "腸管の運動障害により閉塞所見なく腸閉塞様症状を呈する疾患です。指定難病99。"
+    },
+    {
+     "index": 780,
+     "disease": "偽性腸閉塞症（慢性特発性）",
+     "orpha_code": "ORPHA:2978",
+     "orphanet_name": "Chronic intestinal pseudoobstruction syndrome",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "CIPO",
+      "Chronic Intestinal Pseudo-Obstruction"
+     ],
+     "description": "腸管の運動障害により機械的閉塞なしに腸閉塞症状を呈する疾患です。指定難病99。"
+    }
+   ],
+   "keep_index": 346,
+   "keep_disease": "慢性偽性腸閉塞症",
+   "drop_indices": [
+    780
+   ],
+   "drop_diseases": [
+    "偽性腸閉塞症（慢性特発性）"
+   ],
+   "orpha_code_result": "ORPHA:2978",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "780": "腸管の運動障害により機械的閉塞なしに腸閉塞症状を呈する疾患です。指定難病99。"
+   },
+   "reason": "指定難病名「慢性特発性偽性腸閉塞症」に近い。番号は両方 2978"
+  },
+  {
+   "group": 19,
+   "status": "deferred",
+   "recommendation": "保留",
+   "records": [
+    {
+     "index": 11,
+     "disease": "原発性高シュウ酸尿症1型",
+     "orpha_code": "ORPHA:93598",
+     "orphanet_name": "Primary hyperoxaluria type 1",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "PH1",
+      "Primary hyperoxaluria type 1"
+     ],
+     "description": "アラニン：グリオキシル酸アミノトランスフェラーゼ（AGT）酵素の欠損により、シュウ酸が過剰産生される疾患です。"
+    },
+    {
+     "index": 355,
+     "disease": "原発性シュウ酸過多症",
+     "orpha_code": "ORPHA:416",
+     "orphanet_name": "Primary hyperoxaluria",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "PH",
+      "Primary Hyperoxaluria"
+     ],
+     "description": "肝臓でのシュウ酸過剰産生により腎結石と腎不全を来す先天性代謝疾患です。指定難病340。"
+    }
+   ],
+   "reason": "番号修正で 11 = 93598（1型）、355 = 416（原発性高シュウ酸尿症の全体）になった。355 の検査は AGXT/GRHPR/HOGA1（1〜3型）で群レコードとして成立している",
+   "note": "上位下位の関係。粒度不一致 #17 は番号修正で解消済み",
+   "decision": "保留（2026-09-12 ファウンダー判定）。次回の構造修正で再検討"
+  },
+  {
+   "group": 20,
+   "status": "deferred",
+   "recommendation": "保留",
+   "records": [
+    {
+     "index": 559,
+     "disease": "中心核ミオパチー",
+     "orpha_code": "ORPHA:595",
+     "orphanet_name": "Centronuclear myopathy",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "CNM",
+      "Centronuclear Myopathy"
+     ],
+     "description": "MTM1/DNM2/BIN1遺伝子変異による先天性ミオパチーで、X連鎖型が最重症です。指定難病111。"
+    },
+    {
+     "index": 562,
+     "disease": "筋細管ミオパチー（X連鎖型）",
+     "orpha_code": "ORPHA:596",
+     "orphanet_name": "X-linked centronuclear myopathy",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "XLMTM",
+      "X-Linked Myotubular Myopathy"
+     ],
+     "description": "MTM1遺伝子変異の重症型で新生児期の重症筋力低下と呼吸不全を呈する。指定難病111。"
+    }
+   ],
+   "reason": "番号修正で 559 = 595（中心核ミオパチー全体）、562 = 596（X連鎖型）。559 の説明は MTM1/DNM2/BIN1 を並べた群の記述で、922/923 も別レコードにある",
+   "note": "上位下位の関係。粒度不一致 #18 は番号修正で解消済み",
+   "decision": "保留（2026-09-12 ファウンダー判定）。次回の構造修正で再検討"
+  },
+  {
+   "group": 21,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 583,
+     "disease": "D-2-ヒドロキシグルタル酸尿症",
+     "orpha_code": "ORPHA:79315",
+     "orphanet_name": "D-2-hydroxyglutaric aciduria",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "D2HGA"
+     ],
+     "description": "D2HGDH遺伝子変異またはIDH2機能獲得変異によるD-2-ヒドロキシグルタル酸の蓄積で、てんかんと心筋症を来す疾患です。指定難病327。"
+    },
+    {
+     "index": 897,
+     "disease": "D-2ヒドロキシグルタル酸尿症",
+     "orpha_code": "ORPHA:79315",
+     "orphanet_name": "D-2-hydroxyglutaric aciduria",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "D-2-HGA",
+      "D2HGA"
+     ],
+     "description": "D2HGDH遺伝子変異による有機酸代謝異常症で、てんかんと心筋症を呈します。指定難病320。"
+    }
+   ],
+   "keep_index": 583,
+   "keep_disease": "D-2-ヒドロキシグルタル酸尿症",
+   "drop_indices": [
+    897
+   ],
+   "drop_diseases": [
+    "D-2ヒドロキシグルタル酸尿症"
+   ],
+   "orpha_code_result": "ORPHA:79315",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "897": "D2HGDH遺伝子変異による有機酸代謝異常症で、てんかんと心筋症を呈します。指定難病320。"
+   },
+   "reason": "ハイフン表記が Orphanet 名 D-2-hydroxyglutaric aciduria に対応。番号は両方 79315"
+  },
+  {
+   "group": 22,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 584,
+     "disease": "L-2-ヒドロキシグルタル酸尿症",
+     "orpha_code": "ORPHA:79314",
+     "orphanet_name": "L-2-hydroxyglutaric aciduria",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "L2HGA"
+     ],
+     "description": "L2HGDH遺伝子変異によるL-2-ヒドロキシグルタル酸の蓄積で、小脳失調と白質異常を来す疾患です。指定難病327。"
+    },
+    {
+     "index": 898,
+     "disease": "L-2ヒドロキシグルタル酸尿症",
+     "orpha_code": "ORPHA:79314",
+     "orphanet_name": "L-2-hydroxyglutaric aciduria",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "L-2-HGA",
+      "L2HGA"
+     ],
+     "description": "L2HGDH遺伝子変異による白質脳症で、緩徐進行性の小脳失調と知的障害を呈します。指定難病320。"
+    }
+   ],
+   "keep_index": 584,
+   "keep_disease": "L-2-ヒドロキシグルタル酸尿症",
+   "drop_indices": [
+    898
+   ],
+   "drop_diseases": [
+    "L-2ヒドロキシグルタル酸尿症"
+   ],
+   "orpha_code_result": "ORPHA:79314",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "898": "L2HGDH遺伝子変異による白質脳症で、緩徐進行性の小脳失調と知的障害を呈します。指定難病320。"
+   },
+   "reason": "症状 5 語。番号は両方 79314"
+  },
+  {
+   "group": 23,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 79,
+     "disease": "皮質基底核変性症",
+     "orpha_code": "ORPHA:2098",
+     "orphanet_name": "Acromesomelic dysplasia, Grebe type",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "CBD",
+      "Corticobasal Degeneration"
+     ],
+     "description": "大脳皮質と基底核の変性により進行性の運動障害と認知機能障害を呈する疾患です。指定難病7。"
+    },
+    {
+     "index": 80,
+     "disease": "大脳皮質基底核変性症",
+     "orpha_code": null,
+     "orphanet_name": null,
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "CBGD"
+     ],
+     "description": "タウオパチーの一つで、非対称性の運動障害を特徴とする神経変性疾患です。"
+    }
+   ],
+   "keep_index": 80,
+   "keep_disease": "大脳皮質基底核変性症",
+   "drop_indices": [
+    79
+   ],
+   "drop_diseases": [
+    "皮質基底核変性症"
+   ],
+   "orpha_code_result": null,
+   "orpha_inherited_from_dropped": false,
+   "orpha_do_not_inherit": true,
+   "dropped_orpha_codes_not_carried": [
+    "ORPHA:2098"
+   ],
+   "dropped_descriptions_for_review": {
+    "79": "大脳皮質と基底核の変性により進行性の運動障害と認知機能障害を呈する疾患です。指定難病7。"
+   },
+   "reason": "指定難病の正式名「大脳皮質基底核変性症」。79 の番号 2098 は Orphanet では Acromesomelic dysplasia, Grebe type（別疾患）",
+   "note": "番号 2098 は誤りなので継承しない → 統合後は番号なし（805 → 804 の要因）。正しい番号は Orphanet 278 が廃止（→ 454887 Corticobasal syndrome）のため未特定（課題12）"
+  },
+  {
+   "group": 24,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 164,
+     "disease": "Lambert-Eaton症候群",
+     "orpha_code": "ORPHA:43393",
+     "orphanet_name": "Lambert-Eaton myasthenic syndrome",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "LEMS",
+      "Lambert-Eaton Myasthenic Syndrome"
+     ],
+     "description": "電位依存性カルシウムチャネルに対する自己抗体による神経筋接合部疾患です。指定難病12。"
+    },
+    {
+     "index": 663,
+     "disease": "Lambert-Eaton筋無力症候群",
+     "orpha_code": "ORPHA:43393",
+     "orphanet_name": "Lambert-Eaton myasthenic syndrome",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "LEMS"
+     ],
+     "description": "抗VGCC抗体によるアセチルコリン放出障害で近位筋力低下と自律神経障害を呈する神経筋接合部疾患です。約60%に悪性腫瘍を合併。指定難病119。"
+    }
+   ],
+   "keep_index": 663,
+   "keep_disease": "Lambert-Eaton筋無力症候群",
+   "drop_indices": [
+    164
+   ],
+   "drop_diseases": [
+    "Lambert-Eaton症候群"
+   ],
+   "orpha_code_result": "ORPHA:43393",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "164": "電位依存性カルシウムチャネルに対する自己抗体による神経筋接合部疾患です。指定難病12。"
+   },
+   "reason": "主名に「筋無力」を含み指定難病名「ランバート・イートン筋無力症候群」に近い。番号は両方 43393",
+   "note": "カナ表記の正式名は別名にも無い（名前の追加は今回扱わない）"
+  },
+  {
+   "group": 25,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 575,
+     "disease": "チロシン血症II型",
+     "orpha_code": "ORPHA:28378",
+     "orphanet_name": "Tyrosinemia type 2",
+     "symptoms_count": 3,
+     "symptom_patterns_count": 3,
+     "alternate_names": [
+      "HT2",
+      "Tyrosinemia Type II",
+      "Richner-Hanhart症候群"
+     ],
+     "description": "TAT欠損によるチロシン蓄積で角膜異常と掌蹠角化症を来す代謝疾患です。指定難病253。"
+    },
+    {
+     "index": 963,
+     "disease": "チロシン血症2型",
+     "orpha_code": "ORPHA:28378",
+     "orphanet_name": "Tyrosinemia type 2",
+     "symptoms_count": 3,
+     "symptom_patterns_count": 3,
+     "alternate_names": [
+      "HT2",
+      "Tyrosinemia Type 2",
+      "Richner-Hanhart症候群"
+     ],
+     "description": "TAT遺伝子変異によるチロシンアミノトランスフェラーゼ欠損で角膜炎と掌蹠角化症を呈するアミノ酸代謝異常症です。指定難病337。"
+    }
+   ],
+   "keep_index": 963,
+   "keep_disease": "チロシン血症2型",
+   "drop_indices": [
+    575
+   ],
+   "drop_diseases": [
+    "チロシン血症II型"
+   ],
+   "orpha_code_result": "ORPHA:28378",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "575": "TAT欠損によるチロシン蓄積で角膜異常と掌蹠角化症を来す代謝疾患です。指定難病253。"
+   },
+   "reason": "算用数字（課題23 の方向）。番号は両方 28378"
+  },
+  {
+   "group": 26,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 235,
+     "disease": "カルニチン欠乏症",
+     "orpha_code": "ORPHA:158",
+     "orphanet_name": "Systemic primary carnitine deficiency",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "PCD",
+      "Primary Carnitine Deficiency",
+      "全身性カルニチン欠乏症"
+     ],
+     "description": "カルニチントランスポーター異常による心筋症と低血糖を来す脂肪酸酸化異常症です。指定難病316。"
+    },
+    {
+     "index": 955,
+     "disease": "全身性カルニチン欠乏症",
+     "orpha_code": "ORPHA:158",
+     "orphanet_name": "Systemic primary carnitine deficiency",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "Primary Carnitine Deficiency",
+      "SLC22A5変異"
+     ],
+     "description": "SLC22A5遺伝子変異による腎カルニチン再吸収障害で心筋症と低血糖を来す脂肪酸酸化障害です。指定難病316。"
+    }
+   ],
+   "keep_index": 955,
+   "keep_disease": "全身性カルニチン欠乏症",
+   "drop_indices": [
+    235
+   ],
+   "drop_diseases": [
+    "カルニチン欠乏症"
+   ],
+   "orpha_code_result": "ORPHA:158",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "235": "カルニチントランスポーター異常による心筋症と低血糖を来す脂肪酸酸化異常症です。指定難病316。"
+   },
+   "reason": "主名「全身性カルニチン欠乏症」が番号 158（Systemic primary carnitine deficiency）に対応。235 の「カルニチン欠乏症」は二次性も含む広い名",
+   "note": "235 の別名 PCD と主名は別名へ。955 の別名 'SLC22A5変異' は遺伝子名で疾患名ではない（残すが要整理）"
+  },
+  {
+   "group": 27,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 20,
+     "disease": "非典型溶血性尿毒症症候群",
+     "orpha_code": "ORPHA:2134",
+     "orphanet_name": "Atypical hemolytic uremic syndrome",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "aHUS",
+      "Atypical hemolytic uremic syndrome"
+     ],
+     "description": "補体制御異常により、血栓性微小血管症を引き起こし、腎機能障害を呈する疾患です。"
+    },
+    {
+     "index": 750,
+     "disease": "非典型溶血性尿毒症症候群(補体介在型)",
+     "orpha_code": "ORPHA:2134",
+     "orphanet_name": "Atypical hemolytic uremic syndrome",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "aHUS",
+      "Atypical Hemolytic Uremic Syndrome"
+     ],
+     "description": "補体代替経路の制御異常による血栓性微小血管障害で、腎不全と血小板減少を来す疾患です。指定難病109。"
+    }
+   ],
+   "keep_index": 20,
+   "keep_disease": "非典型溶血性尿毒症症候群",
+   "drop_indices": [
+    750
+   ],
+   "drop_diseases": [
+    "非典型溶血性尿毒症症候群(補体介在型)"
+   ],
+   "orpha_code_result": "ORPHA:2134",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "750": "補体代替経路の制御異常による血栓性微小血管障害で、腎不全と血小板減少を来す疾患です。指定難病109。"
+   },
+   "reason": "指定難病の正式名。症状 5 語。番号は両方 2134"
+  },
+  {
+   "group": 28,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 333,
+     "disease": "腸回転異常症",
+     "orpha_code": null,
+     "orphanet_name": null,
+     "symptoms_count": 4,
+     "symptom_patterns_count": 3,
+     "alternate_names": [
+      "Malrotation"
+     ],
+     "description": "胎生期の腸管回転不全により中腸軸捻転のリスクがある先天異常です。指定難病294。"
+    },
+    {
+     "index": 645,
+     "disease": "先天性腸回転異常症",
+     "orpha_code": null,
+     "orphanet_name": null,
+     "symptoms_count": 3,
+     "symptom_patterns_count": 3,
+     "alternate_names": [
+      "Malrotation",
+      "腸回転異常"
+     ],
+     "description": "胎生期の腸管回転・固定異常で中腸軸捻転のリスクを持つ先天奇形です。指定難病293。"
+    }
+   ],
+   "keep_index": 333,
+   "keep_disease": "腸回転異常症",
+   "drop_indices": [
+    645
+   ],
+   "drop_diseases": [
+    "先天性腸回転異常症"
+   ],
+   "orpha_code_result": null,
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "645": "胎生期の腸管回転・固定異常で中腸軸捻転のリスクを持つ先天奇形です。指定難病293。"
+   },
+   "reason": "症状 4 語・検査 3。番号はどちらも無し"
+  },
+  {
+   "group": 29,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 166,
+     "disease": "グルタル酸血症1型",
+     "orpha_code": "ORPHA:25",
+     "orphanet_name": "Glutaryl-CoA dehydrogenase deficiency",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "GA1",
+      "Glutaric Acidemia Type 1"
+     ],
+     "description": "グルタリルCoA脱水素酵素欠損により急性脳症発作と運動障害を来す有機酸代謝異常症です。指定難病247。"
+    },
+    {
+     "index": 527,
+     "disease": "グルタル酸血症I型",
+     "orpha_code": "ORPHA:25",
+     "orphanet_name": "Glutaryl-CoA dehydrogenase deficiency",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "GA1",
+      "Glutaric Acidemia Type I"
+     ],
+     "description": "GCDH遺伝子変異によるリジン/トリプトファン代謝異常で、急性脳症と基底核壊死を来す有機酸代謝異常症です。指定難病245。"
+    }
+   ],
+   "keep_index": 166,
+   "keep_disease": "グルタル酸血症1型",
+   "drop_indices": [
+    527
+   ],
+   "drop_diseases": [
+    "グルタル酸血症I型"
+   ],
+   "orpha_code_result": "ORPHA:25",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "527": "GCDH遺伝子変異によるリジン/トリプトファン代謝異常で、急性脳症と基底核壊死を来す有機酸代謝異常症です。指定難病245。"
+   },
+   "reason": "算用数字（課題23 の方向）。番号は両方 25",
+   "note": "527 の症状（基底核壊死／硬膜下血腫）は合算で残る"
+  },
+  {
+   "group": 30,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 14,
+     "disease": "MELAS症候群",
+     "orpha_code": "ORPHA:550",
+     "orphanet_name": "MELAS",
+     "symptoms_count": 6,
+     "symptom_patterns_count": 6,
+     "alternate_names": [
+      "MELAS",
+      "ミトコンドリア脳筋症"
+     ],
+     "description": "ミトコンドリアDNAの変異により、エネルギー産生が障害され、脳と筋肉に症状が現れる疾患です。"
+    },
+    {
+     "index": 341,
+     "disease": "MELAS",
+     "orpha_code": "ORPHA:550",
+     "orphanet_name": "MELAS",
+     "symptoms_count": 7,
+     "symptom_patterns_count": 7,
+     "alternate_names": [
+      "Mitochondrial Encephalomyopathy Lactic Acidosis and Stroke-like Episodes"
+     ],
+     "description": "m.3243A>G変異が最多のミトコンドリア病で、脳卒中様発作と乳酸アシドーシスを呈します。指定難病21。"
+    }
+   ],
+   "keep_index": 14,
+   "keep_disease": "MELAS症候群",
+   "drop_indices": [
+    341
+   ],
+   "drop_diseases": [
+    "MELAS"
+   ],
+   "orpha_code_result": "ORPHA:550",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "341": "m.3243A>G変異が最多のミトコンドリア病で、脳卒中様発作と乳酸アシドーシスを呈します。指定難病21。"
+   },
+   "reason": "日本語を含む主名（341 'MELAS' は英字のみで日本語名なし枠）。番号は両方 550",
+   "note": "341 の症状 7 語（頭痛／嘔吐／乳酸アシドーシス 等）は合算で残る。14 の別名「ミトコンドリア脳筋症」は上位概念（タスク3 #26）"
+  },
+  {
+   "group": 31,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 223,
+     "disease": "食道閉鎖症",
+     "orpha_code": "ORPHA:1199",
+     "orphanet_name": "Esophageal atresia",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "EA",
+      "Esophageal Atresia"
+     ],
+     "description": "食道の先天的断裂・閉鎖で、多くは気管食道瘻を伴います。指定難病292。"
+    },
+    {
+     "index": 969,
+     "disease": "先天性食道閉鎖症",
+     "orpha_code": "ORPHA:1199",
+     "orphanet_name": "Esophageal atresia",
+     "symptoms_count": 3,
+     "symptom_patterns_count": 3,
+     "alternate_names": [
+      "EA",
+      "Esophageal Atresia"
+     ],
+     "description": "食道の先天的閉鎖で、多くは気管食道瘻を伴います。Gross分類C型が最多。指定難病293。"
+    }
+   ],
+   "keep_index": 223,
+   "keep_disease": "食道閉鎖症",
+   "drop_indices": [
+    969
+   ],
+   "drop_diseases": [
+    "先天性食道閉鎖症"
+   ],
+   "orpha_code_result": "ORPHA:1199",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "969": "食道の先天的閉鎖で、多くは気管食道瘻を伴います。Gross分類C型が最多。指定難病293。"
+   },
+   "reason": "症状 5 語。番号は両方 1199"
+  },
+  {
+   "group": 32,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 234,
+     "disease": "アルギニノコハク酸尿症",
+     "orpha_code": "ORPHA:23",
+     "orphanet_name": "Argininosuccinic aciduria",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "ASA",
+      "Argininosuccinic Aciduria"
+     ],
+     "description": "アルギニノコハク酸リアーゼ欠損による尿素サイクル異常症です。指定難病251。"
+    },
+    {
+     "index": 705,
+     "disease": "尿素サイクル異常症（アルギニノコハク酸尿症）",
+     "orpha_code": "ORPHA:23",
+     "orphanet_name": "Argininosuccinic aciduria",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "ASA",
+      "Argininosuccinic Aciduria"
+     ],
+     "description": "ASL遺伝子変異によるアルギニノコハク酸リアーゼ欠損で高アンモニア血症を来す尿素サイクル異常症です。指定難病251。"
+    }
+   ],
+   "keep_index": 234,
+   "keep_disease": "アルギニノコハク酸尿症",
+   "drop_indices": [
+    705
+   ],
+   "drop_diseases": [
+    "尿素サイクル異常症（アルギニノコハク酸尿症）"
+   ],
+   "orpha_code_result": "ORPHA:23",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "705": "ASL遺伝子変異によるアルギニノコハク酸リアーゼ欠損で高アンモニア血症を来す尿素サイクル異常症です。指定難病251。"
+   },
+   "reason": "疾患名そのもの。705 は群名を冠した表記。番号は両方 23"
+  },
+  {
+   "group": 33,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 158,
+     "disease": "先天性フィブリノゲン欠乏症",
+     "orpha_code": "ORPHA:98880",
+     "orphanet_name": "Familial afibrinogenemia",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "Congenital Afibrinogenemia"
+     ],
+     "description": "フィブリノゲンの先天的欠乏により重症出血を来す凝固異常症です。"
+    },
+    {
+     "index": 839,
+     "disease": "先天性無フィブリノゲン血症",
+     "orpha_code": "ORPHA:98880",
+     "orphanet_name": "Familial afibrinogenemia",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "Congenital Afibrinogenemia"
+     ],
+     "description": "FGA遺伝子変異によるフィブリノゲン完全欠損で重症出血と血栓の両方を来しうる最重症の凝固異常症です。指定難病290。"
+    }
+   ],
+   "keep_index": 839,
+   "keep_disease": "先天性無フィブリノゲン血症",
+   "drop_indices": [
+    158
+   ],
+   "drop_diseases": [
+    "先天性フィブリノゲン欠乏症"
+   ],
+   "orpha_code_result": "ORPHA:98880",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "158": "フィブリノゲンの先天的欠乏により重症出血を来す凝固異常症です。"
+   },
+   "reason": "主名「先天性無フィブリノゲン血症」が番号 98880（Familial afibrinogenemia）に対応。158 の「フィブリノゲン欠乏症」は低・異常フィブリノゲン血症も含む広い名"
+  },
+  {
+   "group": 34,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 244,
+     "disease": "大理石骨病",
+     "orpha_code": "ORPHA:2781",
+     "orphanet_name": "Osteopetrosis and related disorders",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "Osteopetrosis"
+     ],
+     "description": "破骨細胞機能不全により骨硬化と骨髄腔の減少を来す遺伝性骨疾患です。指定難病275。"
+    },
+    {
+     "index": 604,
+     "disease": "骨硬化症(大理石骨病)",
+     "orpha_code": "ORPHA:2783",
+     "orphanet_name": "Autosomal dominant osteopetrosis type 1",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "Osteopetrosis",
+      "大理石骨病"
+     ],
+     "description": "破骨細胞機能不全により骨吸収が障害され骨が過度に緻密化する疾患です。指定難病274。"
+    }
+   ],
+   "keep_index": 244,
+   "keep_disease": "大理石骨病",
+   "drop_indices": [
+    604
+   ],
+   "drop_diseases": [
+    "骨硬化症(大理石骨病)"
+   ],
+   "orpha_code_result": "ORPHA:2781",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [
+    "ORPHA:2783"
+   ],
+   "dropped_descriptions_for_review": {
+    "604": "破骨細胞機能不全により骨吸収が障害され骨が過度に緻密化する疾患です。指定難病274。"
+   },
+   "reason": "指定難病の正式名「大理石骨病」。244 の番号 2781 は群（Osteopetrosis and related disorders）、604 の 2783 は常染色体優性1型で中身（TCIRG1/CLCN7、移植）と合わない",
+   "note": "2783 は継承しない。番号の粒度は今回扱わない"
+  },
+  {
+   "group": 35,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 261,
+     "disease": "ウルリッヒ型先天性筋ジストロフィー",
+     "orpha_code": "ORPHA:75840",
+     "orphanet_name": "Ullrich congenital muscular dystrophy",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "UCMD",
+      "Ullrich CMD"
+     ],
+     "description": "VI型コラーゲン異常による先天性筋ジストロフィーで、関節拘縮と過可動性が共存します。指定難病113。"
+    },
+    {
+     "index": 710,
+     "disease": "Ullrich型先天性筋ジストロフィー",
+     "orpha_code": "ORPHA:75840",
+     "orphanet_name": "Ullrich congenital muscular dystrophy",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "UCMD"
+     ],
+     "description": "COL6A遺伝子変異による重症型で、関節拘縮と過可動性の混在が特徴的です。指定難病113。"
+    }
+   ],
+   "keep_index": 261,
+   "keep_disease": "ウルリッヒ型先天性筋ジストロフィー",
+   "drop_indices": [
+    710
+   ],
+   "drop_diseases": [
+    "Ullrich型先天性筋ジストロフィー"
+   ],
+   "orpha_code_result": "ORPHA:75840",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "710": "COL6A遺伝子変異による重症型で、関節拘縮と過可動性の混在が特徴的です。指定難病113。"
+   },
+   "reason": "カナ表記・症状 5 語。番号は両方 75840"
+  },
+  {
+   "group": 36,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 25,
+     "disease": "AADC欠損症",
+     "orpha_code": null,
+     "orphanet_name": null,
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "芳香族L-アミノ酸脱炭酸酵素欠損症"
+     ],
+     "description": "芳香族L-アミノ酸脱炭酸酵素（AADC）の欠損により、ドーパミンとセロトニンの合成が障害される疾患です。"
+    },
+    {
+     "index": 521,
+     "disease": "芳香族Lアミノ酸脱炭酸酵素欠損症",
+     "orpha_code": "ORPHA:35708",
+     "orphanet_name": "Aromatic L-amino acid decarboxylase deficiency",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "AADC欠損症",
+      "Aromatic L-Amino Acid Decarboxylase Deficiency"
+     ],
+     "description": "DDC遺伝子変異によるドパミン・セロトニン合成障害で、運動障害と自律神経障害を呈する遺伝性疾患です。指定難病320。"
+    }
+   ],
+   "keep_index": 521,
+   "keep_disease": "芳香族Lアミノ酸脱炭酸酵素欠損症",
+   "drop_indices": [
+    25
+   ],
+   "drop_diseases": [
+    "AADC欠損症"
+   ],
+   "orpha_code_result": "ORPHA:35708",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "25": "芳香族L-アミノ酸脱炭酸酵素（AADC）の欠損により、ドーパミンとセロトニンの合成が障害される疾患です。"
+   },
+   "reason": "番号 35708 を持ち、指定難病名「芳香族L-アミノ酸脱炭酸酵素欠損症」に対応。25 は番号なし",
+   "note": "25 の別名にハイフン付き正式表記があり、合算で残る"
+  },
+  {
+   "group": 37,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 96,
+     "disease": "アラジール症候群",
+     "orpha_code": "ORPHA:52",
+     "orphanet_name": "Alagille syndrome",
+     "symptoms_count": 6,
+     "symptom_patterns_count": 6,
+     "alternate_names": [
+      "Alagille Syndrome"
+     ],
+     "description": "肝内胆管減少症を主徴とし、心疾患、骨格異常、眼異常を伴う常染色体優性遺伝疾患です。指定難病297。"
+    },
+    {
+     "index": 399,
+     "disease": "Alagille症候群",
+     "orpha_code": "ORPHA:52",
+     "orphanet_name": "Alagille syndrome",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "ALGS",
+      "アラジール症候群"
+     ],
+     "description": "JAG1遺伝子変異による肝内胆汁うっ滞・心奇形・特徴的顔貌・蝶形椎体を呈する症候群です。指定難病297。"
+    }
+   ],
+   "keep_index": 96,
+   "keep_disease": "アラジール症候群",
+   "drop_indices": [
+    399
+   ],
+   "drop_diseases": [
+    "Alagille症候群"
+   ],
+   "orpha_code_result": "ORPHA:52",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "399": "JAG1遺伝子変異による肝内胆汁うっ滞・心奇形・特徴的顔貌・蝶形椎体を呈する症候群です。指定難病297。"
+   },
+   "reason": "指定難病の正式名「アラジール症候群」。症状 6 語。番号は両方 52"
+  },
+  {
+   "group": 38,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 192,
+     "disease": "ダイアモンド・ブラックファン貧血",
+     "orpha_code": "ORPHA:124",
+     "orphanet_name": "Diamond-Blackfan anemia",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "DBA",
+      "Diamond-Blackfan Anemia"
+     ],
+     "description": "リボソーマルタンパク遺伝子変異による先天性赤芽球減少症です。指定難病285。"
+    },
+    {
+     "index": 458,
+     "disease": "Diamond-Blackfan貧血",
+     "orpha_code": "ORPHA:124",
+     "orphanet_name": "Diamond-Blackfan anemia",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "DBA",
+      "ダイアモンド・ブラックファン貧血"
+     ],
+     "description": "リボソーム蛋白遺伝子変異による先天性赤芽球癆です。指定難病284。"
+    }
+   ],
+   "keep_index": 192,
+   "keep_disease": "ダイアモンド・ブラックファン貧血",
+   "drop_indices": [
+    458
+   ],
+   "drop_diseases": [
+    "Diamond-Blackfan貧血"
+   ],
+   "orpha_code_result": "ORPHA:124",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "458": "リボソーム蛋白遺伝子変異による先天性赤芽球癆です。指定難病284。"
+   },
+   "reason": "指定難病の正式名。番号は両方 124"
+  },
+  {
+   "group": 39,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 200,
+     "disease": "ペリツェウス・メルツバッハー病",
+     "orpha_code": "ORPHA:702",
+     "orphanet_name": "Pelizaeus-Merzbacher disease",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "PMD",
+      "Pelizaeus-Merzbacher Disease"
+     ],
+     "description": "PLP1遺伝子異常による髄鞘形成不全を特徴とするX連鎖性白質ジストロフィーです。指定難病131。"
+    },
+    {
+     "index": 486,
+     "disease": "Pelizaeus-Merzbacher病",
+     "orpha_code": "ORPHA:702",
+     "orphanet_name": "Pelizaeus-Merzbacher disease",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "PMD",
+      "ペリツェウス・メルツバッハー病"
+     ],
+     "description": "PLP1遺伝子異常による髄鞘形成不全を呈するX連鎖性白質ジストロフィーです。指定難病131。"
+    }
+   ],
+   "keep_index": 200,
+   "keep_disease": "ペリツェウス・メルツバッハー病",
+   "drop_indices": [
+    486
+   ],
+   "drop_diseases": [
+    "Pelizaeus-Merzbacher病"
+   ],
+   "orpha_code_result": "ORPHA:702",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "486": "PLP1遺伝子異常による髄鞘形成不全を呈するX連鎖性白質ジストロフィーです。指定難病131。"
+   },
+   "reason": "カナ表記。番号は両方 702",
+   "note": "486 の言い回し「姿勢異常」が加わる"
+  },
+  {
+   "group": 40,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 199,
+     "disease": "アレキサンダー病",
+     "orpha_code": "ORPHA:58",
+     "orphanet_name": "Alexander disease",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "Alexander Disease",
+      "AxD"
+     ],
+     "description": "GFAP遺伝子変異によるアストロサイトの異常蓄積を特徴とする白質脳症です。指定難病130。"
+    },
+    {
+     "index": 485,
+     "disease": "Alexander病",
+     "orpha_code": "ORPHA:58",
+     "orphanet_name": "Alexander disease",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "Alexander Disease"
+     ],
+     "description": "GFAP遺伝子変異によるローゼンタール線維の蓄積で白質変性を来す疾患です。指定難病131。"
+    }
+   ],
+   "keep_index": 199,
+   "keep_disease": "アレキサンダー病",
+   "drop_indices": [
+    485
+   ],
+   "drop_diseases": [
+    "Alexander病"
+   ],
+   "orpha_code_result": "ORPHA:58",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "485": "GFAP遺伝子変異によるローゼンタール線維の蓄積で白質変性を来す疾患です。指定難病131。"
+   },
+   "reason": "カナ表記。番号は両方 58"
+  },
+  {
+   "group": 41,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 159,
+     "disease": "先天性プロテインC欠乏症",
+     "orpha_code": null,
+     "orphanet_name": null,
+     "symptoms_count": 3,
+     "symptom_patterns_count": 3,
+     "alternate_names": [
+      "Protein C Deficiency"
+     ],
+     "description": "プロテインCの先天的欠乏・活性低下により血栓傾向を呈する凝固異常症です。"
+    },
+    {
+     "index": 465,
+     "disease": "先天性蛋白C欠乏症",
+     "orpha_code": null,
+     "orphanet_name": null,
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "Protein C Deficiency"
+     ],
+     "description": "蛋白Cの先天的欠乏による血栓症素因です。重症型は新生児電撃性紫斑病を来します。指定難病327。"
+    }
+   ],
+   "keep_index": 159,
+   "keep_disease": "先天性プロテインC欠乏症",
+   "drop_indices": [
+    465
+   ],
+   "drop_diseases": [
+    "先天性蛋白C欠乏症"
+   ],
+   "orpha_code_result": null,
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "465": "蛋白Cの先天的欠乏による血栓症素因です。重症型は新生児電撃性紫斑病を来します。指定難病327。"
+   },
+   "reason": "「プロテインC」表記が一般的。番号はどちらも無し",
+   "note": "465 は症状 4 語で 1 語多いが合算で残る"
+  },
+  {
+   "group": 42,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 222,
+     "disease": "鎖肛",
+     "orpha_code": "ORPHA:96346",
+     "orphanet_name": "Anorectal malformation",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "Anorectal Malformation",
+      "直腸肛門奇形"
+     ],
+     "description": "直腸肛門の先天的形成異常で、肛門の位置異常や欠損を呈します。指定難病293。"
+    },
+    {
+     "index": 972,
+     "disease": "鎖肛（直腸肛門奇形）",
+     "orpha_code": "ORPHA:96346",
+     "orphanet_name": "Anorectal malformation",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "Anorectal Malformation",
+      "Imperforate Anus"
+     ],
+     "description": "肛門直腸の先天的形成異常で、高位/中位/低位に分類。VACTERL連合に合併。指定難病293。"
+    }
+   ],
+   "keep_index": 222,
+   "keep_disease": "鎖肛",
+   "drop_indices": [
+    972
+   ],
+   "drop_diseases": [
+    "鎖肛（直腸肛門奇形）"
+   ],
+   "orpha_code_result": "ORPHA:96346",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "972": "肛門直腸の先天的形成異常で、高位/中位/低位に分類。VACTERL連合に合併。指定難病293。"
+   },
+   "reason": "主名がそのもの。番号は両方 96346"
+  },
+  {
+   "group": 43,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 314,
+     "disease": "慢性炎症性脱髄性多発根神経炎（MADSAM型）",
+     "orpha_code": "ORPHA:48162",
+     "orphanet_name": "Lewis-Sumner syndrome",
+     "symptoms_count": 3,
+     "symptom_patterns_count": 3,
+     "alternate_names": [
+      "MADSAM",
+      "Multifocal Acquired Demyelinating Sensory And Motor neuropathy"
+     ],
+     "description": "CIDP亜型で非対称性の感覚運動障害を呈する免疫介在性末梢神経障害です。指定難病14。"
+    },
+    {
+     "index": 866,
+     "disease": "Lewis-Sumner症候群",
+     "orpha_code": "ORPHA:48162",
+     "orphanet_name": "Lewis-Sumner syndrome",
+     "symptoms_count": 3,
+     "symptom_patterns_count": 2,
+     "alternate_names": [
+      "MADSAM",
+      "Multifocal Acquired Demyelinating Sensory and Motor Neuropathy"
+     ],
+     "description": "多巣性の感覚運動脱髄性ニューロパチーでCIDPの非対称型。指定難病14。"
+    }
+   ],
+   "keep_index": 314,
+   "keep_disease": "慢性炎症性脱髄性多発根神経炎（MADSAM型）",
+   "drop_indices": [
+    866
+   ],
+   "drop_diseases": [
+    "Lewis-Sumner症候群"
+   ],
+   "orpha_code_result": "ORPHA:48162",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "866": "多巣性の感覚運動脱髄性ニューロパチーでCIDPの非対称型。指定難病14。"
+   },
+   "reason": "CIDP の亜型であることが主名で分かる。症状 3 語（866 は 3/2）。番号は両方 48162",
+   "note": "Orphanet 名 Lewis-Sumner syndrome は別名として残る"
+  },
+  {
+   "group": 44,
+   "status": "deferred",
+   "recommendation": "要判定",
+   "records": [
+    {
+     "index": 500,
+     "disease": "Zellweger症候群（軽症型）",
+     "orpha_code": "ORPHA:44",
+     "orphanet_name": "Neonatal adrenoleukodystrophy",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "NALD",
+      "Neonatal Adrenoleukodystrophy-like"
+     ],
+     "description": "ペルオキシソーム形成異常の軽症型。IRDとも。指定難病234。"
+    },
+    {
+     "index": 966,
+     "disease": "ペルオキシソーム形成異常症（Zellweger Spectrum）軽症型",
+     "orpha_code": "ORPHA:772",
+     "orphanet_name": "Infantile Refsum disease",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "IRD",
+      "NALD",
+      "Infantile Refsum",
+      "Mild PBD"
+     ],
+     "description": "PEX遺伝子変異のZellwegerスペクトラム軽症型（NALD/IRD）。指定難病234。"
+    }
+   ],
+   "reason": "中身は両方「Zellweger スペクトラム軽症型（NALD/IRD）」で同じだが、番号が 500 = 44（NALD、Orphanet では中間型）、966 = 772（IRD、軽症型）と別エンティティを指す",
+   "note": "統合するなら番号は 772（Mild PBD-ZSD）が『軽症型』に合う。Orphanet が NALD と IRD を分けている以上、統合は医学判断",
+   "decision": "保留（2026-09-12 ファウンダー判定）。次回の構造修正で再検討"
+  },
+  {
+   "group": 45,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 579,
+     "disease": "短鎖アシルCoA脱水素酵素欠損症",
+     "orpha_code": "ORPHA:26792",
+     "orphanet_name": "Short chain acyl-CoA dehydrogenase deficiency",
+     "symptoms_count": 3,
+     "symptom_patterns_count": 3,
+     "alternate_names": [
+      "SCADD",
+      "SCAD Deficiency"
+     ],
+     "description": "ACADS変異による短鎖脂肪酸酸化異常。多くは無症状だが、一部で症状。指定難病316。"
+    },
+    {
+     "index": 957,
+     "disease": "Short-Chain Acyl-CoA Dehydrogenase欠損症",
+     "orpha_code": "ORPHA:26792",
+     "orphanet_name": "Short chain acyl-CoA dehydrogenase deficiency",
+     "symptoms_count": 3,
+     "symptom_patterns_count": 1,
+     "alternate_names": [
+      "SCADD"
+     ],
+     "description": "ACADS遺伝子変異による短鎖脂肪酸酸化障害ですが、臨床的意義は議論中。NBS対象。指定難病316。"
+    }
+   ],
+   "keep_index": 579,
+   "keep_disease": "短鎖アシルCoA脱水素酵素欠損症",
+   "drop_indices": [
+    957
+   ],
+   "drop_diseases": [
+    "Short-Chain Acyl-CoA Dehydrogenase欠損症"
+   ],
+   "orpha_code_result": "ORPHA:26792",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "957": "ACADS遺伝子変異による短鎖脂肪酸酸化障害ですが、臨床的意義は議論中。NBS対象。指定難病316。"
+   },
+   "reason": "日本語主名・症状 3 語（957 は 3/1）。番号は両方 26792"
+  },
+  {
+   "group": 46,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 577,
+     "disease": "3-ヒドロキシ-3-メチルグルタル酸尿症",
+     "orpha_code": "ORPHA:20",
+     "orphanet_name": "3-hydroxy-3-methylglutaric aciduria",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "HMG-CoA Lyase Deficiency"
+     ],
+     "description": "HMG-CoAリアーゼ欠損によるケトン体合成障害で低血糖と代謝性アシドーシスを来す疾患です。指定難病244。"
+    },
+    {
+     "index": 958,
+     "disease": "3-Hydroxy-3-Methylglutaryl-CoA Lyase欠損症",
+     "orpha_code": "ORPHA:20",
+     "orphanet_name": "3-hydroxy-3-methylglutaric aciduria",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "HMG-CoA Lyase Deficiency"
+     ],
+     "description": "HMGCL遺伝子変異によるロイシン分解障害で低ケトン性低血糖と代謝性アシドーシスを来す有機酸代謝異常症です。指定難病251。"
+    }
+   ],
+   "keep_index": 577,
+   "keep_disease": "3-ヒドロキシ-3-メチルグルタル酸尿症",
+   "drop_indices": [
+    958
+   ],
+   "drop_diseases": [
+    "3-Hydroxy-3-Methylglutaryl-CoA Lyase欠損症"
+   ],
+   "orpha_code_result": "ORPHA:20",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "958": "HMGCL遺伝子変異によるロイシン分解障害で低ケトン性低血糖と代謝性アシドーシスを来す有機酸代謝異常症です。指定難病251。"
+   },
+   "reason": "日本語主名。番号は両方 20（2026-09-10 承認済み）。課題10 でファウンダーが統合検討を指示済み"
+  },
+  {
+   "group": 47,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 327,
+     "disease": "全身性ALアミロイドーシス",
+     "orpha_code": "ORPHA:85443",
+     "orphanet_name": "AL amyloidosis",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "AL Amyloidosis"
+     ],
+     "description": "形質細胞由来の免疫グロブリン軽鎖がアミロイドとして臓器に沈着する疾患です。指定難病28。"
+    },
+    {
+     "index": 949,
+     "disease": "ALアミロイドーシス（免疫グロブリン軽鎖型）",
+     "orpha_code": "ORPHA:85443",
+     "orphanet_name": "AL amyloidosis",
+     "symptoms_count": 6,
+     "symptom_patterns_count": 6,
+     "alternate_names": [
+      "AL Amyloidosis"
+     ],
+     "description": "免疫グロブリン軽鎖由来のアミロイド沈着で心臓・腎臓・消化管・末梢神経を障害する全身性アミロイドーシスです。指定難病28。"
+    }
+   ],
+   "keep_index": 327,
+   "keep_disease": "全身性ALアミロイドーシス",
+   "drop_indices": [
+    949
+   ],
+   "drop_diseases": [
+    "ALアミロイドーシス（免疫グロブリン軽鎖型）"
+   ],
+   "orpha_code_result": "ORPHA:85443",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "949": "免疫グロブリン軽鎖由来のアミロイド沈着で心臓・腎臓・消化管・末梢神経を障害する全身性アミロイドーシスです。指定難病28。"
+   },
+   "reason": "指定難病名「全身性アミロイドーシス」に沿う。番号は両方 85443",
+   "note": "949 の症状 6 語（出血傾向／起立性低血圧）は合算で残る"
+  },
+  {
+   "group": 48,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 51,
+     "disease": "クラインフェルター症候群",
+     "orpha_code": "ORPHA:484",
+     "orphanet_name": "NON RARE IN EUROPE: Klinefelter syndrome",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "Klinefelter Syndrome"
+     ],
+     "description": "47,XXY染色体構成による性腺機能不全を呈する疾患です。"
+    },
+    {
+     "index": 717,
+     "disease": "Klinefelter症候群",
+     "orpha_code": "ORPHA:484",
+     "orphanet_name": "NON RARE IN EUROPE: Klinefelter syndrome",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "47,XXY"
+     ],
+     "description": "47,XXY核型による性腺機能低下で、高身長、精巣萎縮、不妊を呈する最も頻度の高い性染色体異常です。指定難病123。"
+    }
+   ],
+   "keep_index": 51,
+   "keep_disease": "クラインフェルター症候群",
+   "drop_indices": [
+    717
+   ],
+   "drop_diseases": [
+    "Klinefelter症候群"
+   ],
+   "orpha_code_result": "ORPHA:484",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "717": "47,XXY核型による性腺機能低下で、高身長、精巣萎縮、不妊を呈する最も頻度の高い性染色体異常です。指定難病123。"
+   },
+   "reason": "カナ表記。番号は両方 484（Non-rare in Europe、維持方針）",
+   "note": "717 の別名 '47,XXY' が加わる"
+  },
+  {
+   "group": 49,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 280,
+     "disease": "ミオクローヌス・ジストニア症候群",
+     "orpha_code": "ORPHA:36899",
+     "orphanet_name": "Myoclonus-dystonia syndrome",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "M-D",
+      "Myoclonus-Dystonia Syndrome"
+     ],
+     "description": "SGCE遺伝子変異による電撃様のミオクローヌスとジストニアを呈する遺伝性運動障害です。指定難病120。"
+    },
+    {
+     "index": 730,
+     "disease": "遺伝性ミオクロニージストニア",
+     "orpha_code": "ORPHA:36899",
+     "orphanet_name": "Myoclonus-dystonia syndrome",
+     "symptoms_count": 4,
+     "symptom_patterns_count": 4,
+     "alternate_names": [
+      "DYT11",
+      "SGCE関連ジストニア"
+     ],
+     "description": "SGCE遺伝子変異による電撃性ミオクローヌスとジストニアを呈し、アルコールで改善する特徴的疾患です。指定難病7。"
+    }
+   ],
+   "keep_index": 280,
+   "keep_disease": "ミオクローヌス・ジストニア症候群",
+   "drop_indices": [
+    730
+   ],
+   "drop_diseases": [
+    "遺伝性ミオクロニージストニア"
+   ],
+   "orpha_code_result": "ORPHA:36899",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "730": "SGCE遺伝子変異による電撃性ミオクローヌスとジストニアを呈し、アルコールで改善する特徴的疾患です。指定難病7。"
+   },
+   "reason": "指定難病名「ミオクローヌス・ジストニア」に近い。番号は両方 36899",
+   "note": "730 の別名 DYT11 が加わる"
+  },
+  {
+   "group": 50,
+   "status": "deferred",
+   "recommendation": "要判定",
+   "records": [
+    {
+     "index": 194,
+     "disease": "キャッスルマン病",
+     "orpha_code": "ORPHA:160",
+     "orphanet_name": "Castleman disease",
+     "symptoms_count": 6,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "Castleman Disease",
+      "MCD"
+     ],
+     "description": "リンパ節の異常増殖を特徴とする稀なリンパ増殖性疾患です。指定難病331。"
+    },
+    {
+     "index": 210,
+     "disease": "特発性多中心性キャッスルマン病",
+     "orpha_code": "ORPHA:570431",
+     "orphanet_name": "Idiopathic multicentric Castleman disease",
+     "symptoms_count": 6,
+     "symptom_patterns_count": 6,
+     "alternate_names": [
+      "iMCD",
+      "Idiopathic Multicentric Castleman Disease"
+     ],
+     "description": "既存のキャッスルマン病のiMCDサブタイプ。IL-6駆動型。"
+    },
+    {
+     "index": 618,
+     "disease": "多中心性Castleman病",
+     "orpha_code": "ORPHA:160",
+     "orphanet_name": "Castleman disease",
+     "symptoms_count": 6,
+     "symptom_patterns_count": 6,
+     "alternate_names": [
+      "MCD",
+      "Multicentric Castleman Disease"
+     ],
+     "description": "IL-6過剰産生によるリンパ増殖性疾患で、全身炎症と多臓器障害を来します。指定難病331。"
+    }
+   ],
+   "reason": "3 段階の粒度: 194 キャッスルマン病（160 = CD 全体）⊃ 618 多中心性Castleman病（160）⊃ 210 特発性多中心性（570431 = iMCD 亜型）。ただし 3 件の中身（IL-6、シルツキシマブ、全身症状）はすべて MCD/iMCD の記述で、単中心性の記述は無い",
+   "note": "案 A: 3 件を 210（指定難病 331 の名称）へ統合し、キャッスルマン病・多中心性Castleman病 を別名にする。案 B: 194+618 → 194 に統合し、210 を亜型として残す。私の傾き: 案 A（中身が iMCD）",
+   "decision": "保留（2026-09-12 ファウンダー判定）。次回の構造修正で再検討"
+  },
+  {
+   "group": 51,
+   "status": "approved",
+   "recommendation": "統合",
+   "records": [
+    {
+     "index": 631,
+     "disease": "中條-西村症候群",
+     "orpha_code": "ORPHA:324977",
+     "orphanet_name": "Proteasome-associated autoinflammatory syndrome",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "NNS",
+      "Nakajo-Nishimura Syndrome"
+     ],
+     "description": "PSMB8遺伝子変異による日本特異的な自己炎症性疾患で、消耗性紫斑と脂肪萎縮を呈します。指定難病268。"
+    },
+    {
+     "index": 623,
+     "disease": "CANDLE症候群",
+     "orpha_code": "ORPHA:324977",
+     "orphanet_name": "Proteasome-associated autoinflammatory syndrome",
+     "symptoms_count": 5,
+     "symptom_patterns_count": 5,
+     "alternate_names": [
+      "Chronic Atypical Neutrophilic Dermatosis with Lipodystrophy and Elevated Temperature"
+     ],
+     "description": "PSMB8/PSMB9等のプロテアソーム構成因子の変異による自己炎症性疾患です。指定難病325。"
+    }
+   ],
+   "keep_index": 631,
+   "keep_disease": "中條-西村症候群",
+   "drop_indices": [
+    623
+   ],
+   "drop_diseases": [
+    "CANDLE症候群"
+   ],
+   "orpha_code_result": "ORPHA:324977",
+   "orpha_inherited_from_dropped": false,
+   "dropped_orpha_codes_not_carried": [],
+   "dropped_descriptions_for_review": {
+    "623": "PSMB8/PSMB9等のプロテアソーム構成因子の変異による自己炎症性疾患です。指定難病325。"
+   },
+   "reason": "指定難病 268 の名称「中條-西村症候群」。番号は両方 324977（2026-09-10 に Orphanet 統合先へ追随、課題11）",
+   "note": "調査の 50 組には無く、ORPHA 照合 v2 で見つかった追加の組。CANDLE症候群 は別名へ"
+  }
+ ],
+ "renames": [
+  {
+   "index": 178,
+   "status": "approved",
+   "action": "rename",
+   "current_disease": "自己炎症性疾患",
+   "orpha_code": "ORPHA:342",
+   "orphanet_name": "Familial Mediterranean fever",
+   "alternate_names": [
+    "家族性地中海熱",
+    "FMF",
+    "Familial Mediterranean Fever"
+   ],
+   "recommendation": "主名を付け直す",
+   "basis": "ORPHA:342 = FMF。説明・症状・検査（MEFV）・治療（コルヒチン）すべて FMF。他の自己炎症性疾患は独立レコードあり: CAPS 180、TRAPS 179、HIDS 181、Muckle-Wells 626、PFAPA 629、中條-西村 631",
+   "new_disease": "家族性地中海熱",
+   "move_current_disease_to_alternate": [
+    "自己炎症性疾患"
+   ],
+   "note": "群名「自己炎症性疾患」は別名へ（ファウンダー案のとおり）。受け入れテストの kb_aliases は不要になる"
+  },
+  {
+   "index": 401,
+   "status": "approved",
+   "action": "rename",
+   "current_disease": "Marfan症候群関連疾患",
+   "orpha_code": "ORPHA:60030",
+   "orphanet_name": "Loeys-Dietz syndrome",
+   "alternate_names": [
+    "Loeys-Dietz Syndrome",
+    "ロイス・ディーツ症候群",
+    "LDS"
+   ],
+   "recommendation": "主名を付け直す",
+   "basis": "ORPHA:60030 = Loeys-Dietz。説明（TGFβ受容体）・症状（動脈蛇行／二分口蓋垂）・検査 TGFBR1/2 すべて LDS。マルファン症候群は 48 に独立レコードあり",
+   "new_disease": "ロイス・ディーツ症候群",
+   "move_current_disease_to_alternate": [
+    "Marfan症候群関連疾患"
+   ],
+   "note": "群名「Marfan症候群関連疾患」を別名へ。LDS の別名として不正確なので外す案もある（要判定）"
+  },
+  {
+   "index": 109,
+   "status": "approved",
+   "action": "alias_cleanup",
+   "current_disease": "好酸球性消化管疾患",
+   "orpha_code": "ORPHA:402029",
+   "orphanet_name": "Primary eosinophilic gastrointestinal disease",
+   "alternate_names": [
+    "EGID",
+    "好酸球性食道炎",
+    "Eosinophilic Gastrointestinal Disease"
+   ],
+   "recommendation": "要判定（別名整理）",
+   "basis": "ORPHA:402029 = EGID（群）で名前と番号は一致。中身は食道（嚥下障害／食物つかえ感）と胃腸（腹痛／下痢／嘔吐）の混合＝群として妥当。好酸球性食道炎は 206 に独立レコードあり、非食道型は 771",
+   "remove_from_alternate": [
+    "好酸球性食道炎"
+   ],
+   "note": "別名から「好酸球性食道炎」を外すだけでよい。主名は指定難病 98 の名称なので変えない"
+  },
+  {
+   "index": 195,
+   "status": "resolved",
+   "action": "none",
+   "current_disease": "肺胞低換気症候群",
+   "orpha_code": "ORPHA:661",
+   "orphanet_name": "Congenital central hypoventilation syndrome",
+   "alternate_names": [
+    "CCHS",
+    "先天性中枢性低換気症候群",
+    "Congenital Central Hypoventilation Syndrome"
+   ],
+   "recommendation": "統合で解消（組12）",
+   "basis": "組12 で 475 先天性中枢性低換気症候群 へ統合し、「肺胞低換気症候群」を別名へ移す"
+  },
+  {
+   "index": 262,
+   "status": "approved",
+   "action": "rename",
+   "current_disease": "ペルオキシソーム病",
+   "orpha_code": "ORPHA:912",
+   "orphanet_name": "Zellweger syndrome",
+   "alternate_names": [
+    "Peroxisomal Disorder",
+    "ツェルウェガー症候群"
+   ],
+   "recommendation": "主名を付け直す",
+   "basis": "ORPHA:912 = Zellweger syndrome。説明は「先天性代謝疾患群」だが症状（筋緊張低下／痙攣／肝腫大／特徴的顔貌／難聴／視覚障害）は古典的 Zellweger。古典型の独立レコードは無い（500/966 は軽症型のみ）",
+   "new_disease": "ツェルウェガー症候群",
+   "move_current_disease_to_alternate": [
+    "ペルオキシソーム病"
+   ],
+   "note": "群名「ペルオキシソーム病」（指定難病 234 の名称）は別名へ。FMF と同じ扱い。群レコードを別に残すかは要判定"
+  },
+  {
+   "index": 49,
+   "status": "resolved",
+   "action": "none",
+   "current_disease": "エーラス・ダンロス症候群",
+   "orpha_code": "ORPHA:98249",
+   "orphanet_name": "Ehlers-Danlos syndrome",
+   "alternate_names": [
+    "EDS",
+    "Ehlers-Danlos Syndrome"
+   ],
+   "recommendation": "解消済み（番号修正）",
+   "basis": "番号が 287（古典型）→ 98249（EDS 全体）に修正済み。中身も型を特定しない一般的な EDS。名前・番号・中身が群レベルで一致"
+  },
+  {
+   "index": 1,
+   "status": "resolved",
+   "action": "none",
+   "current_disease": "ムコ多糖症I型",
+   "orpha_code": "ORPHA:579",
+   "orphanet_name": "Mucopolysaccharidosis type 1",
+   "alternate_names": [
+    "MPS I",
+    "Hurler症候群",
+    "Scheie症候群",
+    "Hurler-Scheie症候群"
+   ],
+   "recommendation": "解消済み（番号修正）",
+   "basis": "番号が 93473（Hurler）→ 579（MPS I 全体）に修正済み。別名の Hurler／Scheie／Hurler-Scheie は MPS I の亜型で、探す名前として残してよい。/demo の疾患",
+   "note": "/demo・重ね書き 3 ファイルの鍵。変更しない"
+  },
+  {
+   "index": 567,
+   "status": "resolved",
+   "action": "none",
+   "current_disease": "遺伝性感覚性自律神経性ニューロパチー",
+   "orpha_code": "ORPHA:140471",
+   "orphanet_name": "Hereditary sensory and autonomic neuropathy",
+   "alternate_names": [
+    "HSAN",
+    "Hereditary Sensory and Autonomic Neuropathy"
+   ],
+   "recommendation": "解消済み（番号修正）",
+   "basis": "番号が 642（HSAN IV）→ 140471（HSAN 全体）に修正済み。CIPA は 651 に独立レコードあり"
+  },
+  {
+   "index": 209,
+   "status": "approved",
+   "action": "alias_cleanup",
+   "current_disease": "ミオクロニーてんかん",
+   "orpha_code": "ORPHA:98261",
+   "orphanet_name": "Progressive myoclonic epilepsy",
+   "alternate_names": [
+    "PME",
+    "Progressive Myoclonus Epilepsy",
+    "ウンフェルリヒト・ルンドボルグ病"
+   ],
+   "recommendation": "要判定（別名整理）",
+   "basis": "番号 98261（PME 全体）で群として一致。別名「ウンフェルリヒト・ルンドボルグ病」は 514 進行性ミオクローヌスてんかん（Unverricht-Lundborg型）に独立レコードがある",
+   "remove_from_alternate": [
+    "ウンフェルリヒト・ルンドボルグ病"
+   ],
+   "note": "別名を 209 から外し、514 の別名へ移す（514 は日本語別名を持たないので探しやすくなる）。主名「ミオクロニーてんかん」は指定難病名「進行性ミオクローヌスてんかん」と違うが名前の修正は今回扱わない",
+   "move_to_alternate_of": {
+    "index": 514,
+    "disease": "進行性ミオクローヌスてんかん（Unverricht-Lundborg型）",
+    "words": [
+     "ウンフェルリヒト・ルンドボルグ病"
+    ]
+   }
+  },
+  {
+   "index": 306,
+   "status": "resolved",
+   "action": "none",
+   "current_disease": "周期性四肢麻痺",
+   "orpha_code": "ORPHA:206976",
+   "orphanet_name": "Periodic paralysis",
+   "alternate_names": [
+    "PP",
+    "Periodic Paralysis"
+   ],
+   "recommendation": "解消済み（番号修正）",
+   "basis": "番号が 681（低K型）→ 206976（周期性四肢麻痺 全体）に修正済み。906/907 が低K／高K の独立レコード"
+  },
+  {
+   "index": 118,
+   "status": "no_change",
+   "action": "none",
+   "current_disease": "褐色細胞腫",
+   "orpha_code": "ORPHA:29072",
+   "orphanet_name": "Hereditary pheochromocytoma-paraganglioma",
+   "alternate_names": [
+    "Pheochromocytoma"
+   ],
+   "recommendation": "要判定",
+   "basis": "主名・中身は褐色細胞腫一般（散発例を含む）だが番号 29072 は Hereditary pheochromocytoma-paraganglioma。693 遺伝性褐色細胞腫/パラガングリオーマ症候群 も同じ 29072。Orphanet の Pheochromocytoma 群番号 717 は廃止、散発例は 276621 Sporadic pheochromocytoma/secreting paraganglioma",
+   "note": "案 A: 118 を 693 へ統合（遺伝性に寄せる）。案 B: 118 は散発例として残し番号を 276621 へ（番号は今回対象外）。私の傾き: 案 B（散発例と遺伝性は別の探され方をする）",
+   "decision": "案B: 118 は散発例として残す。散発例と遺伝性は臨床的に別物で、散発例が圧倒的に多い（2026-09-13）",
+   "carry_over": {
+    "target": "ORPHA 照合 次バッチ（B41+C42 と同列）",
+    "field": "orpha_code",
+    "current": "ORPHA:29072",
+    "proposed": "ORPHA:276621",
+    "orphanet_name": "Sporadic pheochromocytoma/secreting paraganglioma"
+   }
+  },
+  {
+   "index": 247,
+   "status": "resolved",
+   "action": "none",
+   "current_disease": "肺ランゲルハンス細胞組織球症",
+   "orpha_code": "ORPHA:687733",
+   "orphanet_name": "Pulmonary Langerhans cell histiocytosis",
+   "alternate_names": [
+    "PLCH",
+    "Pulmonary Langerhans Cell Histiocytosis"
+   ],
+   "recommendation": "解消済み（番号修正）",
+   "basis": "番号が 389（LCH 全体）→ 687733（肺 LCH 亜型）に修正済み。LCH 全体は 350 に独立レコード"
+  },
+  {
+   "index": 106,
+   "status": "no_change",
+   "action": "none",
+   "current_disease": "天疱瘡",
+   "orpha_code": "ORPHA:704",
+   "orphanet_name": "Pemphigus vulgaris",
+   "alternate_names": [
+    "Pemphigus"
+   ],
+   "recommendation": "要判定",
+   "basis": "主名「天疱瘡」は指定難病 35 の名称（尋常性・落葉状を含む群）。番号 704 = Pemphigus vulgaris、中身（弛緩性水疱・ニコルスキー）は尋常性。尋常性・落葉状の独立レコードは無い",
+   "note": "案 A: 主名を「尋常性天疱瘡」にし「天疱瘡」を別名へ。案 B: 主名を残し番号を群へ（番号は今回対象外）。私の傾き: 案 B（患者は「天疱瘡」で探す）",
+   "decision": "案B: 主名「天疱瘡」を維持。尋常性・落葉状・腫瘍随伴性を含む群名で、指定難病 35 の名称（2026-09-13）",
+   "carry_over": {
+    "target": "ORPHA 照合 次バッチ（B41+C42 と同列）",
+    "field": "orpha_code",
+    "current": "ORPHA:704",
+    "proposed": "群（Pemphigus）の番号を次バッチで照合",
+    "orphanet_name": null
+   }
+  },
+  {
+   "index": 111,
+   "status": "no_change",
+   "action": "none",
+   "current_disease": "肺胞蛋白症",
+   "orpha_code": "ORPHA:747",
+   "orphanet_name": "Autoimmune pulmonary alveolar proteinosis",
+   "alternate_names": [
+    "PAP",
+    "Pulmonary Alveolar Proteinosis"
+   ],
+   "recommendation": "要判定",
+   "basis": "主名「肺胞蛋白症」は指定難病 229（自己免疫性又は先天性）の名称。番号 747 = 自己免疫性 PAP、検査に抗 GM-CSF 抗体",
+   "note": "案 A: 主名を「自己免疫性肺胞蛋白症」に。案 B: 主名を残す（番号側の粒度、今回対象外）。私の傾き: 案 B",
+   "decision": "案B: 主名「肺胞蛋白症」を維持。自己免疫性が 9 割だが先天性・続発性もある。指定難病 229 は群名（2026-09-13）",
+   "carry_over": {
+    "target": "ORPHA 照合 次バッチ（B41+C42 と同列）",
+    "field": "orpha_code",
+    "current": "ORPHA:747",
+    "proposed": "群（Pulmonary alveolar proteinosis）の番号を次バッチで照合",
+    "orphanet_name": null
+   }
+  },
+  {
+   "index": 126,
+   "status": "resolved",
+   "action": "none",
+   "current_disease": "ナルコレプシー",
+   "orpha_code": "ORPHA:619284",
+   "orphanet_name": "Narcolepsy",
+   "alternate_names": [
+    "Narcolepsy"
+   ],
+   "recommendation": "解消済み（番号修正）",
+   "basis": "番号が 2073（1型）→ 619284（ナルコレプシー 全体）に修正済み"
+  },
+  {
+   "index": 212,
+   "status": "resolved",
+   "action": "none",
+   "current_disease": "血球貪食性リンパ組織球症",
+   "orpha_code": "ORPHA:158032",
+   "orphanet_name": "Hemophagocytic syndrome",
+   "alternate_names": [
+    "HLH",
+    "Hemophagocytic Lymphohistiocytosis"
+   ],
+   "recommendation": "解消済み（番号修正）",
+   "basis": "番号が 540（家族性 HLH）→ 158032（血球貪食症候群）に修正済み。中身は HLH 一般"
+  },
+  {
+   "index": 355,
+   "status": "resolved",
+   "action": "none",
+   "current_disease": "原発性シュウ酸過多症",
+   "orpha_code": "ORPHA:416",
+   "orphanet_name": "Primary hyperoxaluria",
+   "alternate_names": [
+    "PH",
+    "Primary Hyperoxaluria"
+   ],
+   "recommendation": "解消済み（番号修正）",
+   "basis": "番号が 93598（1型）→ 416（原発性高シュウ酸尿症 全体）に修正済み。組19 は保留"
+  },
+  {
+   "index": 559,
+   "status": "resolved",
+   "action": "none",
+   "current_disease": "中心核ミオパチー",
+   "orpha_code": "ORPHA:595",
+   "orphanet_name": "Centronuclear myopathy",
+   "alternate_names": [
+    "CNM",
+    "Centronuclear Myopathy"
+   ],
+   "recommendation": "解消済み（番号修正）",
+   "basis": "番号が 596（X連鎖型）→ 595（中心核ミオパチー 全体）に修正済み。組20 は保留"
+  },
+  {
+   "index": 588,
+   "status": "approved",
+   "action": "rename",
+   "current_disease": "先天性大脳白質形成不全症",
+   "orpha_code": "ORPHA:289494",
+   "orphanet_name": "4H leukodystrophy",
+   "alternate_names": [
+    "LBSL",
+    "4H Leukodystrophy",
+    "POLR3関連白質ジストロフィー"
+   ],
+   "recommendation": "主名を付け直す",
+   "basis": "番号 289494 = 4H leukodystrophy（承認済み）。説明・症状（歯牙低形成／低ゴナドトロピン）・検査 POLR3A/B すべて 4H。別名 LBSL は別疾患（ORPHA:137898、課題8）。主名「先天性大脳白質形成不全症」は指定難病 131 の群名で、871（TUBB4A型）872（SOX10型）200（PMD）が同じ群",
+   "new_disease": "4H白質ジストロフィー",
+   "move_current_disease_to_alternate": [
+    "先天性大脳白質形成不全症"
+   ],
+   "remove_from_alternate": [
+    "LBSL"
+   ],
+   "note": "新主名は要判定: 「4H白質ジストロフィー」または KB の他レコードに合わせた「先天性大脳白質形成不全症（POLR3型）」。LBSL は別名から外す（課題8 の対応）"
+  },
+  {
+   "index": 351,
+   "status": "approved",
+   "action": "alias_cleanup",
+   "current_disease": "遠位型ミオパチー",
+   "orpha_code": "ORPHA:599",
+   "orphanet_name": "Distal myopathy",
+   "alternate_names": [
+    "Distal Myopathy",
+    "三好型ミオパチー",
+    "GNEミオパチー"
+   ],
+   "recommendation": "要判定（別名整理）",
+   "basis": "番号 599（Distal myopathy、Category）で群として一致。別名の三好型は 918 Dysferlin関連（別名に三好型ミオパチーあり）、GNE 型は 912 遺伝性ミオパチー（GNE型）に独立レコード",
+   "remove_from_alternate": [
+    "三好型ミオパチー",
+    "GNEミオパチー"
+   ],
+   "note": "別名 2 語を 351 から外す。「GNEミオパチー」は 912 の別名へ移す（912 は日本語の呼び名を持たない）。主名は指定難病 30 の名称なので変えない",
+   "move_to_alternate_of": {
+    "index": 912,
+    "disease": "遺伝性ミオパチー（GNE型）",
+    "words": [
+     "GNEミオパチー"
+    ]
+   }
+  },
+  {
+   "index": 56,
+   "status": "approved",
+   "action": "rename",
+   "current_disease": "多発性嚢胞腎",
+   "orpha_code": "ORPHA:730",
+   "orphanet_name": "Autosomal dominant polycystic kidney disease",
+   "alternate_names": [
+    "PKD",
+    "ADPKD",
+    "Polycystic Kidney Disease"
+   ],
+   "recommendation": "主名を付け直す",
+   "basis": "番号 730 = ADPKD。説明 PKD1/PKD2・治療トルバプタンは ADPKD。330 常染色体劣性多発性嚢胞腎 が独立レコードにあるので、対にする",
+   "new_disease": "常染色体優性多発性嚢胞腎",
+   "move_current_disease_to_alternate": [
+    "多発性嚢胞腎"
+   ],
+   "note": "群名「多発性嚢胞腎」（指定難病 67 の名称）は別名へ。付け直さず群名のまま残す案もある（要判定）"
+  },
+  {
+   "index": 326,
+   "status": "resolved",
+   "action": "none",
+   "current_disease": "遺伝性ニューロパチー伴うアミロイドーシス",
+   "orpha_code": "ORPHA:271861",
+   "orphanet_name": "Hereditary ATTR amyloidosis",
+   "alternate_names": [
+    "ATTRv",
+    "遺伝性TTRアミロイドーシス",
+    "hereditary ATTR Amyloidosis"
+   ],
+   "recommendation": "統合で解消（組1）",
+   "basis": "組1 で 16 遺伝性ATTR型アミロイドーシス へ統合"
+  },
+  {
+   "index": 530,
+   "status": "no_change",
+   "action": "none",
+   "current_disease": "テトラヒドロビオプテリン欠乏症",
+   "orpha_code": "ORPHA:226",
+   "orphanet_name": "Dihydropteridine reductase deficiency",
+   "alternate_names": [
+    "BH4 Deficiency"
+   ],
+   "recommendation": "要判定",
+   "basis": "主名「テトラヒドロビオプテリン欠乏症」は群名で、検査に PCBD/PTS/QDPR/GCH1 と群の中身。番号 226 = DHPR 欠損（亜型）。Orphanet の群番号は 238583 Hyperphenylalaninemia due to tetrahydrobiopterin deficiency",
+   "note": "主名は変えない。番号を群へ付け替える案（番号は今回対象外、記録のみ）",
+   "decision": "案A: 主名維持。検査欄に 4 遺伝子が並び群の記述。間違っているのは番号（2026-09-13）",
+   "carry_over": {
+    "target": "ORPHA 照合 次バッチ（B41+C42 と同列）",
+    "field": "orpha_code",
+    "current": "ORPHA:226",
+    "proposed": "ORPHA:238583",
+    "orphanet_name": "Hyperphenylalaninemia due to tetrahydrobiopterin deficiency"
+   }
+  },
+  {
+   "index": 581,
+   "status": "no_change",
+   "action": "none",
+   "current_disease": "ミトコンドリア三機能蛋白欠損症",
+   "orpha_code": "ORPHA:5",
+   "orphanet_name": "Long chain 3-hydroxyacyl-CoA dehydrogenase deficiency",
+   "alternate_names": [
+    "TFP Deficiency",
+    "LCHAD Deficiency"
+   ],
+   "recommendation": "要判定",
+   "basis": "主名「ミトコンドリア三機能蛋白欠損症」に対し番号 5 = LCHAD 欠損症（TFP の一酵素）。説明は「LCHAD 単独欠損を含む」。Orphanet の TFP 欠損症は 746",
+   "note": "主名は変えない。番号を 746 へ付け替える案（番号は今回対象外、記録のみ）",
+   "decision": "案A: 主名維持。説明が群として書かれている。番号側の問題（2026-09-13）",
+   "carry_over": {
+    "target": "ORPHA 照合 次バッチ（B41+C42 と同列）",
+    "field": "orpha_code",
+    "current": "ORPHA:5",
+    "proposed": "ORPHA:746",
+    "orphanet_name": "Mitochondrial trifunctional protein deficiency"
+   }
+  },
+  {
+   "index": 406,
+   "status": "no_change",
+   "action": "none",
+   "current_disease": "神経有棘赤血球症",
+   "orpha_code": "ORPHA:263440",
+   "orphanet_name": "Neuroacanthocytosis",
+   "alternate_names": [
+    "NA",
+    "Neuroacanthocytosis",
+    "コレア有棘赤血球症"
+   ],
+   "recommendation": "要判定",
+   "basis": "主名「神経有棘赤血球症」（指定難病 8 の群名）、番号 263440 = Neuroacanthocytosis（群）。中身は VPS13A＝有棘赤血球舞踏病（ChAc、ORPHA:2388）。McLeod 症候群は 725 に独立レコードあり",
+   "note": "案 A: そのまま（名前と番号は群で一致、中身が ChAc 寄りなだけ）。案 B: 主名を「有棘赤血球舞踏病」にし群名を別名へ。私の傾き: 案 A",
+   "decision": "案A: そのまま。指定難病 8 の群名で番号も群。McLeod は 725 に独立レコード（2026-09-13）"
+  },
+  {
+   "index": 14,
+   "status": "approved",
+   "action": "alias_cleanup",
+   "current_disease": "MELAS症候群",
+   "orpha_code": "ORPHA:550",
+   "orphanet_name": "MELAS",
+   "alternate_names": [
+    "MELAS",
+    "ミトコンドリア脳筋症"
+   ],
+   "recommendation": "要判定（別名整理）",
+   "basis": "別名「ミトコンドリア脳筋症」は MELAS より広い概念（ミトコンドリア病一般）。組30 の統合時に外す",
+   "remove_from_alternate": [
+    "ミトコンドリア脳筋症"
+   ],
+   "note": "適用時確認済み: 208 ミトコンドリア脳筋症、70 ミトコンドリア病 の独立レコードあり。組 30（341 MELAS の統合）と同時に外す"
+  },
+  {
+   "index": 219,
+   "status": "approved",
+   "action": "alias_cleanup",
+   "current_disease": "デンスデポジット病",
+   "orpha_code": "ORPHA:93571",
+   "orphanet_name": "Dense deposit disease",
+   "alternate_names": [
+    "DDD",
+    "Dense Deposit Disease",
+    "C3腎症"
+   ],
+   "recommendation": "要判定（別名整理）",
+   "basis": "別名「C3腎症」は DDD を含む上位概念で、751 C3腎症 に独立レコードあり",
+   "remove_from_alternate": [
+    "C3腎症"
+   ],
+   "note": "別名から外すだけ"
+  },
+  {
+   "index": 147,
+   "status": "approved",
+   "action": "alias_cleanup",
+   "current_disease": "酸性スフィンゴミエリナーゼ欠損症",
+   "orpha_code": "ORPHA:618899",
+   "orphanet_name": "Acid sphingomyelinase deficiency",
+   "alternate_names": [
+    "ASMD",
+    "ニーマン・ピック病A/B型"
+   ],
+   "recommendation": "要判定（別名整理）",
+   "basis": "番号 618899 = ASMD（群）で名前と一致。別名「ニーマン・ピック病A/B型」は 2 疾患の連結表記。537 Niemann-Pick病A型（77292）、489 Niemann-Pick病B型（77293）が独立レコードにある",
+   "remove_from_alternate": [
+    "ニーマン・ピック病A/B型"
+   ],
+   "note": "別名を「ニーマン・ピック病A型」「ニーマン・ピック病B型」の 2 語に分けて残す（外さない。ASMD は 2021 年頃からの新総称で、旧称で探す患者がいる）。2026-09-13 承認",
+   "add_to_alternate": [
+    "ニーマン・ピック病A型",
+    "ニーマン・ピック病B型"
+   ]
+  }
+ ]
+}

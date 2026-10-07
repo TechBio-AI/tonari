@@ -1,0 +1,84 @@
+{
+ "idx": 140,
+ "name": "ムコ多糖症III型",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_077/",
+   "fetched_at": "2026-09-24T00:49:51+09:00",
+   "sha256": "ef1d006ad91a50ec0c5a4761f0322b6070122b29517796b967bf2c443ec0280a",
+   "title": "ムコ多糖症Ⅲ型 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "ある物質を分解する酵素が生まれつき足りないために起こる病気です。",
+  "source_id": "shouman",
+  "evidence": "ヘパラン硫酸（HS）の分解に必要なライソゾーム酵素の先天的欠損",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "落ち着きがなく動き回る",
+   "source_id": "shouman",
+   "evidence": "多動"
+  },
+  {
+   "text": "乱暴な行動が見られる",
+   "source_id": "shouman",
+   "evidence": "乱暴な行動"
+  },
+  {
+   "text": "発達がゆっくり",
+   "source_id": "shouman",
+   "evidence": "発達遅滞"
+  },
+  {
+   "text": "毛が太くて多い",
+   "source_id": "shouman",
+   "evidence": "粗い毛、多毛"
+  },
+  {
+   "text": "言葉が失われていく",
+   "source_id": "shouman",
+   "evidence": "言語は消失する"
+  },
+  {
+   "text": "眠りが乱れる",
+   "source_id": "shouman",
+   "evidence": "睡眠障害"
+  },
+  {
+   "text": "肝臓や脾臓が大きくなる",
+   "source_id": "shouman",
+   "evidence": "肝脾腫"
+  },
+  {
+   "text": "けいれん発作が起きる",
+   "source_id": "shouman",
+   "evidence": "痙攣発作"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "研究段階",
+  "source_id": "shouman",
+  "evidence": "酵素補充療法が、ⅢA型とⅢB型で開発中である。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_077/",
+   "label": "公式ページ"
+  },
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4063",
+   "label": "関連する群のページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は頻度の数値のみのため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:26:37+09:00",
+ "shard": 1
+}

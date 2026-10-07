@@ -1,0 +1,56 @@
+{
+ "idx": 293,
+ "name": "家族性高コレステロール血症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_12_130/",
+   "fetched_at": "2026-09-24T00:50:11+09:00",
+   "sha256": "5d2c1d0372a1b61cdcf3e93922e6bd64d618a65ab7bc1487b2fd19930cb4f36a",
+   "title": "家族性高コレステロール血症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "血液中のLDLコレステロールがとても高くなる病気です。",
+  "source_id": "shouman",
+  "evidence": "LDLコレステロールの血中レベルがきわめて高値となる",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "皮膚や腱にこぶのようなふくらみができる",
+   "source_id": "shouman",
+   "evidence": "皮膚や腱の黄色腫"
+  },
+  {
+   "text": "若いうちに狭心症や心筋梗塞を起こすことがある",
+   "source_id": "shouman",
+   "evidence": "若年で狭心症や心筋梗塞を発症する"
+  },
+  {
+   "text": "動脈硬化が進みやすい",
+   "source_id": "shouman",
+   "evidence": "動脈硬化の非常に高いリスクとなる"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "脂質レベルとリスク因子を考慮して個別に対応する"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_12_130/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は頻度の数値が中心のため onset は null。",
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。",
+  "症状の節の原文に禁止語にあたる言い回しがあったため、その語を含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:28:36+09:00",
+ "shard": 1
+}

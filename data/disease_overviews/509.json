@@ -1,0 +1,75 @@
+{
+ "idx": 509,
+ "name": "脳腱黄色腫症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4618",
+   "fetched_at": "2026-09-24T00:45:45+09:00",
+   "sha256": "953db8bebbb6282559657d9e6d3e1301b46f38d1c1d027b6c57355df1f98244c",
+   "title": "脳腱黄色腫症（指定難病２６３） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "体の中にある脂質がたまって、さまざまな症状が出る病気です。",
+  "source_id": "nanbyou",
+  "evidence": "体内にコレスタノールとよばれる脂質が溜まることにより様々な症状を表す病気です。",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "アキレス腱が太くなる",
+   "source_id": "nanbyou",
+   "evidence": "アキレス腱が太くなります"
+  },
+  {
+   "text": "知能が低下していく",
+   "source_id": "nanbyou",
+   "evidence": "進行性の知能低下"
+  },
+  {
+   "text": "歩きにくくなる、ふらつく",
+   "source_id": "nanbyou",
+   "evidence": "歩行障害，ふらつき"
+  },
+  {
+   "text": "若いうちに心臓や血管の病気が起こる",
+   "source_id": "nanbyou",
+   "evidence": "早発性の心血管疾患"
+  },
+  {
+   "text": "新生児期に胆汁のうっ滞が起こる",
+   "source_id": "nanbyou",
+   "evidence": "新生児期の胆汁うっ滞"
+  },
+  {
+   "text": "治りにくい下痢が出る",
+   "source_id": "nanbyou",
+   "evidence": "難治性の下痢"
+  },
+  {
+   "text": "若いうちに白内障になる",
+   "source_id": "nanbyou",
+   "evidence": "若年性白内障で気づかれる"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "早期に服用することにより、コレスタノールの値や症状が改善する"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4618",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は遺伝形式の説明で、発症年齢の記載が無いため onset は null。",
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T03:01:40+09:00",
+ "shard": 4
+}

@@ -1,0 +1,64 @@
+{
+ "idx": 242,
+ "name": "遺伝性球状赤血球症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/09_08_011/",
+   "fetched_at": "2026-09-24T00:50:20+09:00",
+   "sha256": "f1cadbc67a8b59655b6cac0bc063755d1fa1278de2dfdafeea9394ce35d95532",
+   "title": "遺伝性球状赤血球症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "赤血球の膜に異常があるために赤血球がこわれやすくなり、貧血になる病気です。",
+  "source_id": "shouman",
+  "evidence": "赤血球膜の遺伝的異常により赤血球が破壊され、貧血を来たす疾患",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "貧血になる",
+   "source_id": "shouman",
+   "evidence": "赤血球破壊による貧血"
+  },
+  {
+   "text": "皮膚や目が黄色くなる",
+   "source_id": "shouman",
+   "evidence": "黄疸"
+  },
+  {
+   "text": "脾臓が大きくなる",
+   "source_id": "shouman",
+   "evidence": "脾腫が主症状である"
+  },
+  {
+   "text": "胆石ができやすい",
+   "source_id": "shouman",
+   "evidence": "胆石症（ビリルビン結石）を合併しやすい"
+  },
+  {
+   "text": "感染をきっかけに貧血が急に強くなることがある",
+   "source_id": "shouman",
+   "evidence": "感染などを契機に溶血発作"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "貧血が重症の場合に、脾臓摘出術が唯一の治療法である。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/09_08_011/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は頻度の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:28:23+09:00",
+ "shard": 1
+}

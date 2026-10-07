@@ -1,0 +1,66 @@
+{
+ "idx": 644,
+ "name": "遺伝性痙性対麻痺4型",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/100985",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Autosomal dominant spastic paraplegia type 4"
+  }
+ ],
+ "summary": {
+  "text": "A rare form of hereditary spastic paraplegia with high intrafamilial clinical variability, characterized in most cases as a pure phenotype with an adult onset (mainly the 3rd to 5th decade of life, but that can present at any age) of progressive gait impairment due to bilateral lower-limb spasticity and weakness as well as very mild proximal weakness and urinary urgency. In some cases, a complex phenotype is also reported with additional manifestations including cognitive impairment, cerebellar ataxia, epilepsy and neuropathy. A faster disease progression is noted in patients with a later age of onset.",
+  "source_id": "orphanet",
+  "evidence": "A rare form of hereditary spastic parapl",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "progressive gait impairment",
+   "source_id": "orphanet",
+   "evidence": "progressive gait impairment"
+  },
+  {
+   "text": "bilateral lower-limb spasticity and weakness",
+   "source_id": "orphanet",
+   "evidence": "bilateral lower-limb spasticity and"
+  },
+  {
+   "text": "very mild proximal weakness",
+   "source_id": "orphanet",
+   "evidence": "very mild proximal weakness"
+  },
+  {
+   "text": "urinary urgency",
+   "source_id": "orphanet",
+   "evidence": "urinary urgency"
+  }
+ ],
+ "onset": {
+  "text": "adult onset",
+  "source_id": "orphanet",
+  "evidence": "adult onset"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/100985",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "onset は「adult onset」の語句だけを取った。直後の括弧内（mainly the 3rd to 5th decade of life）は数字を含むため入れていない。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

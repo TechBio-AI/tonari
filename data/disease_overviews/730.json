@@ -1,0 +1,69 @@
+{
+ "idx": 730,
+ "name": "先天性肝線維症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/12_09_029/",
+   "fetched_at": "2026-09-24T00:52:28+09:00",
+   "sha256": "14ddb2d7fc367820435cb9f58a5bf05eb22c73ba965c45239f1e0f62ed80d884",
+   "title": "先天性肝線維症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "肝臓の中で線維が増え、胆管が広がる変化が特徴の病気です。",
+  "source_id": "shouman",
+  "evidence": "各門脈域間を連結する著明な線維化と肝内胆管の拡張、つぶれた門脈が特徴である",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "肝臓や脾臓が大きくなる",
+   "source_id": "shouman",
+   "evidence": "偶然に発見される肝脾腫"
+  },
+  {
+   "text": "血のすべての成分が減る",
+   "source_id": "shouman",
+   "evidence": "原因不明の汎血球減少"
+  },
+  {
+   "text": "血を吐く",
+   "source_id": "shouman",
+   "evidence": "吐血"
+  },
+  {
+   "text": "熱が出る",
+   "source_id": "shouman",
+   "evidence": "発熱"
+  },
+  {
+   "text": "お腹が痛む",
+   "source_id": "shouman",
+   "evidence": "腹痛"
+  },
+  {
+   "text": "皮膚や目が黄色くなる",
+   "source_id": "shouman",
+   "evidence": "黄疸"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "各々の症状にたいしての対症療法が基本となる。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/12_09_029/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は合併率の数値が中心のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:32:55+09:00",
+ "shard": 1
+}

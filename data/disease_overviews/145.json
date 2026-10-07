@@ -1,0 +1,48 @@
+{
+ "idx": 145,
+ "name": "特発性肺動脈性肺高血圧症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/275766",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Idiopathic pulmonary arterial hypertension"
+  }
+ ],
+ "summary": {
+  "text": "Idiopathic pulmonary arterial hypertension (IPAH) is a sporadic form of pulmonary arterial hypertension (PAH) characterized by elevated pulmonary arterial resistance leading to right heart failure. IPAH is progressive and potentially fatal and not associated with an underlying condition or family history of PAH.",
+  "source_id": "orphanet",
+  "evidence": "Idiopathic pulmonary arterial hypertensi",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "right heart failure",
+   "source_id": "orphanet",
+   "evidence": "right heart failure"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/275766",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: elevated pulmonary arterial resistance",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

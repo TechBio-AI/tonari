@@ -1,0 +1,70 @@
+{
+ "idx": 336,
+ "name": "遠位型ミオパチー",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4002",
+   "fetched_at": "2026-09-24T00:44:53+09:00",
+   "sha256": "80826a11cdd3e12b0c06964b1b963cfde657a3db91d72ac130e23aa91a7d100a",
+   "title": "遠位型ミオパチー（指定難病３０） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "足首や指先を動かす筋肉から障害されていく筋肉の病気です。",
+  "source_id": "nanbyou",
+  "evidence": "足首を動かすような筋肉や指先を動かすような筋肉から障害されます",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "足首が上がらず段差でつまずく",
+   "source_id": "nanbyou",
+   "evidence": "小さな段差などで躓くことがよくあります"
+  },
+  {
+   "text": "走りにくい、歩きにくい",
+   "source_id": "nanbyou",
+   "evidence": "走りにくいとか歩きにくいといった症状"
+  },
+  {
+   "text": "筋肉が徐々にやせる",
+   "source_id": "nanbyou",
+   "evidence": "また筋肉が徐々に痩せてきます"
+  },
+  {
+   "text": "ふくらはぎがやせる",
+   "source_id": "nanbyou",
+   "evidence": "ふくらはぎが痩せてきます"
+  },
+  {
+   "text": "つま先立ちができなくなる",
+   "source_id": "nanbyou",
+   "evidence": "つま先立ちができなくなります"
+  },
+  {
+   "text": "階段が上りにくい、椅子から立ち上がりにくい",
+   "source_id": "nanbyou",
+   "evidence": "階段が上りにくいとか、椅子からの立ち上がりが難しくなる"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "研究段階",
+  "source_id": "nanbyou",
+  "evidence": "有効な薬剤を探す研究が行われています"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4002",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節は病型ごとに状況が違い、承認済みの薬がある病型と研究段階の病型が並ぶ。薬剤名を含まない箇所を選んだ結果、type は研究段階にした。判断が要る。",
+  "「どのような人に多いのですか」の節の発症年齢は数値と一体のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:49:53+09:00",
+ "shard": 3
+}

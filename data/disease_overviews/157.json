@@ -1,0 +1,64 @@
+{
+ "idx": 157,
+ "name": "プロピオン酸血症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5323",
+   "fetched_at": "2026-09-24T00:46:26+09:00",
+   "sha256": "7b9cc8f3bf5408d0fb6a7777a736c31e423beb3d82221cd0627635b7d6b8e004",
+   "title": "プロピオン酸血症（指定難病２４５） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "ある物質が細胞の中に必要以上にたまってしまう病気です。",
+  "source_id": "nanbyou",
+  "evidence": "プロピオニルCoAが細胞の中で必要以上に蓄積してしまいます",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "呼吸に障害が出る",
+   "source_id": "nanbyou",
+   "evidence": "呼吸障害"
+  },
+  {
+   "text": "意識がはっきりしなくなる",
+   "source_id": "nanbyou",
+   "evidence": "意識障害"
+  },
+  {
+   "text": "食欲がない",
+   "source_id": "nanbyou",
+   "evidence": "乳幼児期からの食欲不振"
+  },
+  {
+   "text": "吐くことをくり返す",
+   "source_id": "nanbyou",
+   "evidence": "繰り返す嘔吐"
+  },
+  {
+   "text": "体の育ちや発達がゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "身体発育や精神運動発達の遅れをきたします"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "特殊ミルクを用いた食事療法などの栄養管理"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5323",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "onset は発症時期の記述ではないため null（2026-10-04 ファウンダー指示）。"
+ ],
+ "extracted_at": "2026-09-25T02:47:21+09:00",
+ "shard": 3
+}

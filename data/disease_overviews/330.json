@@ -1,0 +1,56 @@
+{
+ "idx": 330,
+ "name": "Pearson症候群",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/699",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Pearson syndrome"
+  }
+ ],
+ "summary": {
+  "text": "A rare mitochondrial oxidative phosphorylation disorder due to large-scale single deletion of mitochondrial DNA characterized by hyporegenerative anemia in early infancy with vacuolization of bone marrow precursors, lactic acidosis and multi-organ dysfunctions such as exocrine pancreatic dysfunction, and renal tubulopathy.",
+  "source_id": "orphanet",
+  "evidence": "A rare mitochondrial oxidative phosphory",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "exocrine pancreatic dysfunction",
+   "source_id": "orphanet",
+   "evidence": "exocrine pancreatic dysfunction"
+  },
+  {
+   "text": "multi-organ dysfunctions",
+   "source_id": "orphanet",
+   "evidence": "multi-organ dysfunctions"
+  }
+ ],
+ "onset": {
+  "text": "in early infancy",
+  "source_id": "orphanet",
+  "evidence": "in early infancy"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/699",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: hyporegenerative anemia / lactic acidosis / renal tubulopathy",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

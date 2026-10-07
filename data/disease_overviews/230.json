@@ -1,0 +1,74 @@
+{
+ "idx": 230,
+ "name": "バッド・キアリ症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/174",
+   "fetched_at": "2026-09-24T00:44:26+09:00",
+   "sha256": "b5f4d17ceeef10b97d833b82bf16d05084c97343db08db940044f1d02e9cb624",
+   "title": "バッド・キアリ症候群（指定難病９１） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "肝臓から出る血液の流れが悪くなり、その手前の血管の圧が高くなる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "肝臓から出る血液の流れが悪くなり、門脈の圧が上昇し",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "脾臓が大きくなる",
+   "source_id": "nanbyou",
+   "evidence": "脾臓が大きくなったり"
+  },
+  {
+   "text": "お腹の壁の血管が浮き出る",
+   "source_id": "nanbyou",
+   "evidence": "腹壁の静脈が怒張したり"
+  },
+  {
+   "text": "食道や胃に血管のこぶができる",
+   "source_id": "nanbyou",
+   "evidence": "食道や胃に静脈瘤ができたり"
+  },
+  {
+   "text": "お腹に水がたまる",
+   "source_id": "nanbyou",
+   "evidence": "腹水がたまったりします"
+  },
+  {
+   "text": "貧血になる",
+   "source_id": "nanbyou",
+   "evidence": "貧血や血小板、白血球の減少"
+  },
+  {
+   "text": "血を吐いたり便に血がまじったりする",
+   "source_id": "nanbyou",
+   "evidence": "吐血・下血等の症状が出ます"
+  },
+  {
+   "text": "足がむくむ",
+   "source_id": "nanbyou",
+   "evidence": "下腿浮腫"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "門脈圧亢進症による症状が治療の対象となります"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/174",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節の発症年齢は数値と一体のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:28:23+09:00",
+ "shard": 1
+}

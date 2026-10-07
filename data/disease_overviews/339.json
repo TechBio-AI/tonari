@@ -1,0 +1,65 @@
+{
+ "idx": 339,
+ "name": "ウォルマン病",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/75233",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Wolman disease"
+  }
+ ],
+ "summary": {
+  "text": "A severe form of lysosomal acid lipase deficiency characterized by rapidly progressive lipid accumulation in organs and tissues that presents in the neonatal or infantile period with massive hepatosplenomegaly, liver failure, diarrhea/steatorrhea and vomiting.",
+  "source_id": "orphanet",
+  "evidence": "A severe form of lysosomal acid lipase d",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "massive hepatosplenomegaly",
+   "source_id": "orphanet",
+   "evidence": "massive hepatosplenomegaly"
+  },
+  {
+   "text": "liver failure",
+   "source_id": "orphanet",
+   "evidence": "liver failure"
+  },
+  {
+   "text": "diarrhea/steatorrhea",
+   "source_id": "orphanet",
+   "evidence": "diarrhea/steatorrhea"
+  },
+  {
+   "text": "vomiting",
+   "source_id": "orphanet",
+   "evidence": "vomiting"
+  }
+ ],
+ "onset": {
+  "text": "in the neonatal or infantile period",
+  "source_id": "orphanet",
+  "evidence": "in the neonatal or infantile period"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/75233",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

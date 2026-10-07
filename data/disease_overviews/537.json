@@ -1,0 +1,67 @@
+{
+ "idx": 537,
+ "name": "遠位関節拘縮症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/97120",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Distal arthrogryposis"
+  }
+ ],
+ "summary": {
+  "text": "A group of rare arthrogryposis syndromes characterized by congenital contractures of two or more areas of the body, primarily involving the hands and feet, while the proximal joints are largely spared, in the absence of primary neurologic and/or muscle disease affecting limb function. Diagnostic features include camptodactyly or pseudocamptodactyly, hypoplastic or absent flexion creases, overriding fingers, ulnar deviation at the wrist, talipes equinovarus, calcaneovalgus deformities, vertical talus, and/or metatarsus varus.",
+  "source_id": "orphanet",
+  "evidence": "A group of rare arthrogryposis syndromes",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "congenital contractures",
+   "source_id": "orphanet",
+   "evidence": "congenital contractures"
+  },
+  {
+   "text": "camptodactyly or pseudocamptodactyly",
+   "source_id": "orphanet",
+   "evidence": "camptodactyly or pseudocamptodactyly"
+  },
+  {
+   "text": "overriding fingers",
+   "source_id": "orphanet",
+   "evidence": "overriding fingers"
+  },
+  {
+   "text": "ulnar deviation at the wrist",
+   "source_id": "orphanet",
+   "evidence": "ulnar deviation at the wrist"
+  },
+  {
+   "text": "talipes equinovarus",
+   "source_id": "orphanet",
+   "evidence": "talipes equinovarus"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/97120",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

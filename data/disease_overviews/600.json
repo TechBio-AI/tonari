@@ -1,0 +1,59 @@
+{
+ "idx": 600,
+ "name": "ブラウ症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3826",
+   "fetched_at": "2026-09-24T00:44:41+09:00",
+   "sha256": "0f73de4cfecbcbe4c01aa8074c375f7b73000c2d7d1ee266ac2dbf82fbb9e8ee",
+   "title": "ブラウ症候群（指定難病１１０） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "皮膚と関節、目に肉芽腫というかたまりができる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "皮膚と関節そして眼に肉芽腫ができる病気です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "皮膚にかゆみのない硬いブツブツができる",
+   "source_id": "nanbyou",
+   "evidence": "痒みのない5mm程の大きさの硬いブツブツ（ 丘疹 ）ができます"
+  },
+  {
+   "text": "皮膚が乾燥する",
+   "source_id": "nanbyou",
+   "evidence": "むしろ皮膚は乾燥します"
+  },
+  {
+   "text": "全身の皮膚に症状が出ることがある",
+   "source_id": "nanbyou",
+   "evidence": "全身の皮膚に症状が出ますが"
+  },
+  {
+   "text": "症状がよくなったり出たりをくり返す",
+   "source_id": "nanbyou",
+   "evidence": "数ヶ月の経過で良くなったり、また現れたりします"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "現時点では、ブラウ症候群に 特異的 な治療法は確立していません。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3826",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節が保存 HTML に無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:42:40+09:00",
+ "shard": 2
+}

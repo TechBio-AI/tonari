@@ -1,0 +1,70 @@
+{
+ "idx": 134,
+ "name": "再発性多発軟骨炎",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3856",
+   "fetched_at": "2026-09-24T00:44:46+09:00",
+   "sha256": "126eacb2ea2b326a99290ae5096a069215dd85200e58586eae79f618ad8c377b",
+   "title": "再発性多発軟骨炎（指定難病５５） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "軟骨に原因のわからない炎症がくり返し起こる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "軟骨に原因不明の 炎症 が繰り返し起きる（再発性）疾患です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "耳や鼻が赤くはれて痛む",
+   "source_id": "nanbyou",
+   "evidence": "当該部位が赤くはれ痛みを伴います"
+  },
+  {
+   "text": "耳や鼻の形が変わる",
+   "source_id": "nanbyou",
+   "evidence": "耳介および鼻軟骨炎が長引くと変形が見られる"
+  },
+  {
+   "text": "耳が聞こえにくい、めまい、ふらつき",
+   "source_id": "nanbyou",
+   "evidence": "難聴、めまい、ふらつき、吐き気など"
+  },
+  {
+   "text": "呼吸のときにゼイゼイ音がする",
+   "source_id": "nanbyou",
+   "evidence": "ゼイゼイ、ヒュウヒュウという呼吸音"
+  },
+  {
+   "text": "息が苦しくなる",
+   "source_id": "nanbyou",
+   "evidence": "呼吸困難が伴います"
+  },
+  {
+   "text": "目が赤くなる",
+   "source_id": "nanbyou",
+   "evidence": "眼球（結膜炎や強膜炎が中心）"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "おもには内科的治療が中心となります。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/3856",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節の発症年齢は数値と一体のため onset は null。",
+  "治療の節には薬の分類名が並ぶので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:47:21+09:00",
+ "shard": 3
+}

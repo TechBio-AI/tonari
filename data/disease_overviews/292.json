@@ -1,0 +1,73 @@
+{
+ "idx": 292,
+ "name": "周期性好中球減少症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/10_05_036/",
+   "fetched_at": "2026-09-24T00:50:49+09:00",
+   "sha256": "4fdc9f698399acd69a78b47d460215dd773fb9e58c9e20db21e06d71e666ab83",
+   "title": "周期性好中球減少症 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "白血球の一種が周期的に減り、そのたびに感染症にかかる病気です。",
+  "source_id": "shouman",
+  "evidence": "好中球が減少し、その際、感染症に罹患するが",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "周期的に好中球が減る",
+   "source_id": "shouman",
+   "evidence": "最も多い例で21日周期で好中球が減少し"
+  },
+  {
+   "text": "熱が出る",
+   "source_id": "shouman",
+   "evidence": "その際に発熱"
+  },
+  {
+   "text": "のどが痛む",
+   "source_id": "shouman",
+   "evidence": "咽頭炎"
+  },
+  {
+   "text": "歯ぐきに炎症が起こる",
+   "source_id": "shouman",
+   "evidence": "歯肉炎"
+  },
+  {
+   "text": "口内炎ができる",
+   "source_id": "shouman",
+   "evidence": "口内炎などの細菌感染症が発症する"
+  },
+  {
+   "text": "お腹に不快感や痛みが出ることがある",
+   "source_id": "shouman",
+   "evidence": "腹部の不快感や腹痛がある場合"
+  }
+ ],
+ "onset": {
+  "text": "年齢とともに重症度は軽くなっていきます",
+  "source_id": "shouman",
+  "evidence": "年齢と共にその重症度は軽快し"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "支持療法として口腔ケア"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/10_05_036/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節は薬剤名が中心のため、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:59:15+09:00",
+ "shard": 4
+}

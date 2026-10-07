@@ -1,0 +1,74 @@
+{
+ "idx": 71,
+ "name": "表皮水疱症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5338",
+   "fetched_at": "2026-09-24T00:46:28+09:00",
+   "sha256": "1e551c57f28379ed37ea93fc98dae73ca7b540935ae671e8551711b772726fc5",
+   "title": "表皮水疱症（指定難病３６） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "生まれて間もなく、皮膚に水ぶくれや潰瘍ができる病気です。",
+  "source_id": "nanbyou",
+  "evidence": "生まれて間もなく、皮膚に水疱や潰瘍が生じます",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "皮膚に水ぶくれができる",
+   "source_id": "nanbyou",
+   "evidence": "皮膚に水疱や潰瘍が生じます"
+  },
+  {
+   "text": "大きな潰瘍が多発することがある",
+   "source_id": "nanbyou",
+   "evidence": "大きな潰瘍が多発すると"
+  },
+  {
+   "text": "皮膚の感染や炎症をくり返す",
+   "source_id": "nanbyou",
+   "evidence": "皮膚の感染や 炎症反応 を繰り返し"
+  },
+  {
+   "text": "栄養が不足する",
+   "source_id": "nanbyou",
+   "evidence": "低栄養"
+  },
+  {
+   "text": "貧血になる",
+   "source_id": "nanbyou",
+   "evidence": "鉄欠乏性貧血を合併します"
+  },
+  {
+   "text": "手のひらや足の裏の皮膚が厚く固くなる",
+   "source_id": "nanbyou",
+   "evidence": "掌や足の裏の皮膚の角質が厚く固くなり"
+  },
+  {
+   "text": "歩きにくくなることがある",
+   "source_id": "nanbyou",
+   "evidence": "場合によっては歩行困難となることもあります"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "今のところ、表皮水疱症を根本的に治す治療はありません。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/5338",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節が保存 HTML に無いため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:46:07+09:00",
+ "shard": 3
+}

@@ -1,0 +1,48 @@
+{
+ "idx": 331,
+ "name": "慢性偽性腸閉塞症",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2978",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Chronic intestinal pseudoobstruction syndrome"
+  }
+ ],
+ "summary": {
+  "text": "A rare and heterogeneous gastroenterological clinical syndrome characterized by recurrent symptoms of intestinal obstruction with radiological features of dilated small or large intestine in absence of any mechanical occlusive lesion. Permanent alterations in neural, muscular, or mesenchymal structures of the intestinal wall or its extrinsic neural control, chronically impair tonic and propulsive motor functions in one or more segments of the gut.",
+  "source_id": "orphanet",
+  "evidence": "A rare and heterogeneous gastroenterolog",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "recurrent symptoms of intestinal obstruction",
+   "source_id": "orphanet",
+   "evidence": "recurrent symptoms of intestinal"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2978",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: radiological features of dilated small or large intestine",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

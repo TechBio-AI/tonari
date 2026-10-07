@@ -1,0 +1,83 @@
+{
+ "idx": 645,
+ "name": "遺伝性痙性対麻痺11型",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2822",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Autosomal recessive spastic paraplegia type 11"
+  }
+ ],
+ "summary": {
+  "text": "A complex hereditary spastic paraplegia characterized by progressive lower limbs weakness and spasticity, upper limbs weakness, dysarthria, hypomimia, sphincter disturbances, peripheral neuropathy, learning difficulties, cognitive impairment and dementia. Magnetic resonance imaging shows thin corpus callosum, cerebral atrophy, and periventricular white matter changes.",
+  "source_id": "orphanet",
+  "evidence": "A complex hereditary spastic paraplegia ",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "progressive lower limbs weakness and spasticity",
+   "source_id": "orphanet",
+   "evidence": "progressive lower limbs weakness and"
+  },
+  {
+   "text": "upper limbs weakness",
+   "source_id": "orphanet",
+   "evidence": "upper limbs weakness"
+  },
+  {
+   "text": "dysarthria",
+   "source_id": "orphanet",
+   "evidence": "dysarthria"
+  },
+  {
+   "text": "hypomimia",
+   "source_id": "orphanet",
+   "evidence": "hypomimia"
+  },
+  {
+   "text": "sphincter disturbances",
+   "source_id": "orphanet",
+   "evidence": "sphincter disturbances"
+  },
+  {
+   "text": "peripheral neuropathy",
+   "source_id": "orphanet",
+   "evidence": "peripheral neuropathy"
+  },
+  {
+   "text": "learning difficulties",
+   "source_id": "orphanet",
+   "evidence": "learning difficulties"
+  },
+  {
+   "text": "dementia",
+   "source_id": "orphanet",
+   "evidence": "dementia"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/2822",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: MRI 所見",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

@@ -1,0 +1,81 @@
+{
+ "idx": 899,
+ "name": "遺伝性ニューロパチー（GDAP1型）",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/99948",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Charcot-Marie-Tooth disease type 4A"
+  }
+ ],
+ "summary": {
+  "text": "A form of Charcot-Marie-Tooth disease type 4 characterized by early-onset (infancy to early childhood) of severe, rapidly progressing axonal, demyelinating, or intermediate sensorimotor neuropathy usually affecting first, and more severely, the distal lower extremities and later the proximal muscles and upper extremities. Nerve conduction velocities range from very slow to normal. Apart from the typical CMT phenotype (distal muscle weakness and atrophy, sensory loss, frequent pes cavus foot deformity), patients commonly present delayed motor development, vocal cord paresis, mild sensory loss, abolished deep tendon reflexes, and skeletal deformities.",
+  "source_id": "orphanet",
+  "evidence": "A form of Charcot-Marie-Tooth disease ty",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "distal muscle weakness and atrophy",
+   "source_id": "orphanet",
+   "evidence": "distal muscle weakness and atrophy"
+  },
+  {
+   "text": "sensory loss",
+   "source_id": "orphanet",
+   "evidence": "sensory loss"
+  },
+  {
+   "text": "pes cavus foot deformity",
+   "source_id": "orphanet",
+   "evidence": "pes cavus foot deformity"
+  },
+  {
+   "text": "delayed motor development",
+   "source_id": "orphanet",
+   "evidence": "delayed motor development"
+  },
+  {
+   "text": "vocal cord paresis",
+   "source_id": "orphanet",
+   "evidence": "vocal cord paresis"
+  },
+  {
+   "text": "abolished deep tendon reflexes",
+   "source_id": "orphanet",
+   "evidence": "abolished deep tendon reflexes"
+  },
+  {
+   "text": "skeletal deformities",
+   "source_id": "orphanet",
+   "evidence": "skeletal deformities"
+  }
+ ],
+ "onset": {
+  "text": "infancy to early childhood",
+  "source_id": "orphanet",
+  "evidence": "infancy to early childhood"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/99948",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "検査所見・病理所見・画像所見のため symptoms に入れなかった語句: Nerve conduction velocities（検査）",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T16:11:47+09:00",
+ "shard": 1
+}

@@ -1,0 +1,70 @@
+{
+ "idx": 732,
+ "name": "自己免疫性腸症",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/12_04_017/",
+   "fetched_at": "2026-09-24T00:52:08+09:00",
+   "sha256": "4b755bda59e6edaae747719502fe3f55587bdfcc5363530bf8f06469b3456068",
+   "title": "自己免疫性腸症（IPEX症候群を含む。） 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "自分の免疫のはたらきで腸が傷つき、治りにくい下痢が続く病気です。",
+  "source_id": "shouman",
+  "evidence": "自己免疫機序によって腸管が障害され．難治性下痢症を来す疾患である",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "治りにくい下痢が続く",
+   "source_id": "shouman",
+   "evidence": "食餌療法・完全静脈栄養で改善しない慢性難治性下痢症"
+  },
+  {
+   "text": "乳児期から下痢が始まる",
+   "source_id": "shouman",
+   "evidence": "通常乳児期に発症し"
+  },
+  {
+   "text": "たんぱくがもれ出ることがある",
+   "source_id": "shouman",
+   "evidence": "蛋白漏出を伴うことがある"
+  },
+  {
+   "text": "貧血や血小板減少が起こる",
+   "source_id": "shouman",
+   "evidence": "自己免疫性溶血性貧血・血小板減少症"
+  },
+  {
+   "text": "腎臓の病気を合併する",
+   "source_id": "shouman",
+   "evidence": "腎疾患として間質性腎炎・ネフローゼ・糸球体腎炎"
+  },
+  {
+   "text": "湿疹が出る",
+   "source_id": "shouman",
+   "evidence": "皮膚疾患として湿疹がしばしば見られる"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "中心静脈栄養などによる水・電解質および栄養管理を要することが多い"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/12_04_017/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は報告家系数が中心で、発症年齢の記載が無いため onset は null。",
+  "治療の節には薬剤名が並ぶので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:43:21+09:00",
+ "shard": 2
+}

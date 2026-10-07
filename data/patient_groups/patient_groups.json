@@ -1,0 +1,429 @@
+{
+  "_readme": [
+    "患者会ディレクトリ（明日のデモ用のサンプル。2026-09-10 作成）。",
+    "",
+    "入れてよいもの: 実在が確認できている団体だけ。",
+    "入れてはいけないもの: 架空の団体名・未確認のURL・確認していない活動内容。",
+    "",
+    "diseases は配列。1団体が複数の疾患を扱う実態に合わせる（1団体=1疾患にしない）。",
+    "疾患名は data/knowledge/comprehensive_rare_diseases_knowledge.json の表記に合わせる。",
+    "  合わせないと疾患ページから引けなくなるため。",
+    "",
+    "description は現在すべて『準備中』。ファウンダーが後で書く。",
+    "  AI は団体の紹介文を書かない（実在の団体について事実でないことを書かないため）。",
+    "",
+    "url が null の団体は、公式サイトのURLをまだ確認できていないという意味。",
+    "  推測でURLを入れない。",
+    "",
+    "intro は公式サイトだけを出典にした紹介文（2026-10-02 作成）。各文に source_url と evidence（原文 40 字以内）。照合表は docs/patient_groups_review_2026-10-02.md。",
+    "  intro.status が \"draft_unreviewed\" の intro は、「公式サイトの記載をもとに運営が作成（団体の確認前）」の注記をつけて画面に出す（2026-10-02 ファウンダー指示）。注記なしでは出さない。",
+    "  卒業後の公開の前には、団体ごとの承認を必須とする。承認の済んでいない団体の intro は、卒業後の公開では出さない。",
+    "  承認後の status の値と、承認の手順は、ファウンダーが決める。",
+    "  description（画面が読む既存の欄）は「準備中」のまま。",
+    "  上の「AI は団体の紹介文を書かない」は、出典つきの intro に限ってファウンダー指示で例外にしたもの。",
+    "tonari_status は団体の「となり」への参加の状態: \"joined\"（参加している）か \"not_joined\"（まだ参加していない）。参加希望・会の新設・会のページ・/demo/groups の判定はこの欄で行う（2026-10-04 ファウンダー指示。ローカルの見本では 7 団体とも \"joined\"）。"
+  ],
+  "version": "2026-09-10",
+  "status": "sample-pending-founder-review",
+  "groups": [
+    {
+      "id": "fabry-fukurou",
+      "name": "一般社団法人 全国ファブリー病患者と家族の会（ふくろうの会）",
+      "url": "https://fabrynet.jp",
+      "diseases": [
+        "ファブリー病"
+      ],
+      "tonari_status": "joined",
+      "description": "準備中",
+      "intro": {
+        "status": "draft_unreviewed",
+        "checked_at": "2026-10-02",
+        "contact_url": "https://www.fabrynet.jp/clipmail1/inquiry.html",
+        "unknown": [
+          "会員数",
+          "代表者名"
+        ],
+        "facts": [
+          {
+            "kind": "name",
+            "text": "一般社団法人 全国ファブリー病患者と家族の会（別称 ふくろうの会）です。ファブリー病の患者と家族の会です。",
+            "source_url": "https://www.fabrynet.jp/",
+            "evidence": "一般社団法人　全国ファブリー病患者と家族の会（別称 ふくろうの会）"
+          },
+          {
+            "kind": "founded",
+            "text": "2022年に会の設立20周年を迎えています。",
+            "source_url": "https://www.fabrynet.jp/",
+            "evidence": "2022年は会設立20周年の年"
+          },
+          {
+            "kind": "activity",
+            "text": "全国各地でセミナーやシンポジウム（勉強会）を開いています。",
+            "source_url": "https://www.fabrynet.jp/about/index.html",
+            "evidence": "全国各地でセミナー・シンポジウム(勉強会)を開催しています"
+          },
+          {
+            "kind": "activity",
+            "text": "早期発見・早期診断・早期治療・継続治療をテーマに、全国で啓発活動をしています。",
+            "source_url": "https://www.fabrynet.jp/about/index.html",
+            "evidence": "早期発見・早期診断・早期治療・継続治療をテーマに全国の啓発活動"
+          },
+          {
+            "kind": "contact",
+            "text": "問い合わせは、公式サイトのお問い合わせのページからできます。",
+            "source_url": "https://www.fabrynet.jp/",
+            "evidence": "お問い合わせ"
+          }
+        ],
+        "membership": [
+          {
+            "text": "患者や家族の入会を受け付けています。",
+            "source_url": "https://www.fabrynet.jp/about/entry.html",
+            "evidence": "患者さんやご家族の方の入会をお待ちしています"
+          },
+          {
+            "text": "公式サイトのお問い合わせフォームに「入会希望」と書いて送ると、入会申込書と年会費の振込用紙が郵送されます。",
+            "source_url": "https://www.fabrynet.jp/about/entry.html",
+            "evidence": "「入会希望」と書き添えて送信してください"
+          },
+          {
+            "text": "年会費を振り込んだ時点で、入会登録となります。",
+            "source_url": "https://www.fabrynet.jp/about/entry.html",
+            "evidence": "年会費をお振込みいただいた時点で、入会登録とさせていただきます"
+          },
+          {
+            "text": "入会申込書（PDF）を公式サイトから取り出して記入し、FAX で送ることもできます。",
+            "source_url": "https://www.fabrynet.jp/about/entry.html",
+            "evidence": "入会申込書（PDF）をダウンロードしてご記入の上お送りください"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gaucher-japan",
+      "name": "日本ゴーシェ病の会",
+      "url": "https://gaucherjapan.com",
+      "diseases": [
+        "ゴーシェ病"
+      ],
+      "tonari_status": "joined",
+      "description": "準備中",
+      "intro": {
+        "status": "draft_unreviewed",
+        "checked_at": "2026-10-02",
+        "contact_url": "https://gaucherjapan.com/%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B",
+        "unknown": [
+          "設立年",
+          "会員数",
+          "代表者名"
+        ],
+        "facts": [
+          {
+            "kind": "name",
+            "text": "日本ゴーシェ病の会です。先天性代謝疾患であるゴーシェ病の患者会です。",
+            "source_url": "https://gaucherjapan.com/",
+            "evidence": "日本ゴーシェ病の会 - 先天性代謝疾患ゴーシェ病の患者会"
+          },
+          {
+            "kind": "activity",
+            "text": "勉強会「ゴーシェの集い」を開いています。",
+            "source_url": "https://gaucherjapan.com/",
+            "evidence": "第11回ゴーシェの集い　～大阪～2025年の勉強会が無事に終わりました"
+          },
+          {
+            "kind": "activity",
+            "text": "5月4日を「ゴーシェ病の日」とし、国内での啓発活動に力を入れています。",
+            "source_url": "https://gaucherjapan.com/%E4%BC%9A%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+            "evidence": "5（ｺﾞｰ）月4（ｼｪ）日を「ゴーシェ病の日」とし"
+          },
+          {
+            "kind": "activity",
+            "text": "ゴーシェ病の国際的な患者団体である IGA に参画しています。",
+            "source_url": "https://gaucherjapan.com/%E4%BC%9A%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+            "evidence": "当会はゴーシェ病の国際的な患者団体であるIGAに参画しています。"
+          },
+          {
+            "kind": "contact",
+            "text": "入会や問い合わせは、公式サイトの問い合わせフォームからできます。",
+            "source_url": "https://gaucherjapan.com/%E4%BC%9A%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+            "evidence": "入会希望の方は問い合わせフォームでご連絡をお願い致します。"
+          }
+        ],
+        "membership": [
+          {
+            "text": "入会を希望する人は、公式サイトの問い合わせフォームから連絡します。",
+            "source_url": "https://gaucherjapan.com/%E4%BC%9A%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+            "evidence": "入会希望の方は問い合わせフォームでご連絡をお願い致します。"
+          },
+          {
+            "text": "会員は患者と家族です。",
+            "source_url": "https://gaucherjapan.com/%E4%BC%9A%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+            "evidence": "会員　　　　年会費３,０００円（患者と家族）"
+          },
+          {
+            "text": "会の目的に賛同する人は、賛助会員になれます。",
+            "source_url": "https://gaucherjapan.com/%E4%BC%9A%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+            "evidence": "（会の目的に賛同してくれる方)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mps-japan",
+      "name": "日本ムコ多糖症患者家族の会",
+      "url": "https://mps-japan.org",
+      "diseases": [
+        "ムコ多糖症I型"
+      ],
+      "tonari_status": "joined",
+      "description": "準備中",
+      "intro": {
+        "status": "draft_unreviewed",
+        "checked_at": "2026-10-02",
+        "contact_url": "https://www.mps-japan.org/member/",
+        "unknown": [
+          "会員数",
+          "代表者名"
+        ],
+        "facts": [
+          {
+            "kind": "name",
+            "text": "日本ムコ多糖症患者家族の会です。",
+            "source_url": "https://www.mps-japan.org/member/",
+            "evidence": "会について - 日本ムコ多糖症患者家族の会"
+          },
+          {
+            "kind": "founded",
+            "text": "会の歩みは、1986年に患者の家族へ設立趣意書を送ったことから始まっています。",
+            "source_url": "https://www.mps-japan.org/member/",
+            "evidence": "1986年 患者の家族に設立趣意書送付"
+          },
+          {
+            "kind": "target",
+            "text": "ムコ多糖症の患者と家族の会で、ほかのライソゾーム病関連の病気の患者も多く加わっています。",
+            "source_url": "https://www.mps-japan.org/lysobridge-japan/",
+            "evidence": "多くのライソゾーム病関連疾患の患者が加わっています"
+          },
+          {
+            "kind": "activity",
+            "text": "親睦交流会や医療相談会を開いています。",
+            "source_url": "https://www.mps-japan.org/member/",
+            "evidence": "（２）親睦交流会の開催（３）医療相談会の開催"
+          },
+          {
+            "kind": "activity",
+            "text": "交流会は、研究者と医療関係者で作る「日本ムコ多糖症研究会」との合同シンポジウムとして開いています。",
+            "source_url": "https://www.mps-japan.org/member/",
+            "evidence": "「日本ムコ多糖症研究会」との合同シンポジウムとして開催"
+          },
+          {
+            "kind": "activity",
+            "text": "「LysoBridge JAPAN」として、ライソゾーム病全体の患者と家族を支援することを目指しています。",
+            "source_url": "https://www.mps-japan.org/lysobridge-japan/",
+            "evidence": "ライソゾーム病全体の患者と家族を支援します"
+          },
+          {
+            "kind": "contact",
+            "text": "連絡先は、公式サイトの「会について」のページに載っています。",
+            "source_url": "https://www.mps-japan.org/member/",
+            "evidence": "連絡先"
+          }
+        ],
+        "membership": [
+          {
+            "text": "共に活動する病気の患者と、その子どもをもつ家族なら、誰でも正会員として入会できます。",
+            "source_url": "https://www.mps-japan.org/memberinfo/",
+            "evidence": "共に活動する疾患の患者及びその子供達を持つご家族なら誰でも入会できます"
+          },
+          {
+            "text": "申し込みは、公式サイトの Web 入力フォームで受け付けています。",
+            "source_url": "https://www.mps-japan.org/memberinfo/",
+            "evidence": "申込みは、WEB入力フォームにて受け付けています。"
+          },
+          {
+            "text": "入会の前に、メールで問い合わせることもできます。",
+            "source_url": "https://www.mps-japan.org/memberinfo/",
+            "evidence": "事前にメールでの連絡も受けておりますので"
+          }
+        ]
+      }
+    },
+    {
+      "id": "japan-pku",
+      "name": "フェニルケトン尿症親の会連絡協議会",
+      "url": "https://japan-pku.net",
+      "diseases": [
+        "フェニルケトン尿症"
+      ],
+      "tonari_status": "joined",
+      "description": "準備中",
+      "intro": {
+        "status": "draft_unreviewed",
+        "checked_at": "2026-10-02",
+        "contact_url": "https://www.japan-pku.net/%e3%81%8a%e5%95%8f%e3%81%84%e5%90%88%e3%82%8f%e3%81%9b",
+        "unknown": [
+          "設立年",
+          "代表者名"
+        ],
+        "facts": [
+          {
+            "kind": "name",
+            "text": "フェニルケトン尿症親の会連絡協議会（略称：PKU親の会連絡協議会）です。",
+            "source_url": "https://japan-pku.net/",
+            "evidence": "フェニルケトン尿症親の会連絡協議会（略称：ＰＫＵ親の会連絡協議会）"
+          },
+          {
+            "kind": "target",
+            "text": "フェニルケトン尿症などの子どもをもつ家族と患者本人が、自ら運営している患者団体です。",
+            "source_url": "https://japan-pku.net/",
+            "evidence": "患児をもつ家族と患者本人が自ら運営、活動をしている患者団体です"
+          },
+          {
+            "kind": "members",
+            "text": "北海道から沖縄まで、約210家族以上が加入しています（公式サイトに時点の記載なし）。",
+            "source_url": "https://japan-pku.net/",
+            "evidence": "北海道から沖縄まで約２１０家族以上の方々が加入しています"
+          },
+          {
+            "kind": "activity",
+            "text": "全国に5つの地域の会があります。",
+            "source_url": "https://japan-pku.net/",
+            "evidence": "５つの地域の会の活動"
+          },
+          {
+            "kind": "activity",
+            "text": "食事療法ガイドブックや低タンパク料理の紹介を、公式サイトの資料室に載せています。",
+            "source_url": "https://japan-pku.net/",
+            "evidence": "食事療法ガイドブック低タンパク料理紹介"
+          },
+          {
+            "kind": "contact",
+            "text": "問い合わせは、公式サイトのお問い合わせのページからできます。",
+            "source_url": "https://japan-pku.net/",
+            "evidence": "お問い合わせContact Us"
+          }
+        ],
+        "membership": [
+          {
+            "text": "入会する人は、全国に5つある地域の会のいずれかに加入します。",
+            "source_url": "https://www.japan-pku.net/%ef%bd%90%ef%bd%8b%ef%bd%95%e8%a6%aa%e3%81%ae%e4%bc%9a%e5%85%a5%e4%bc%9a%e6%96%b9%e6%b3%95",
+            "evidence": "全国に５つある地域の会のいずれかに加入していただきます"
+          },
+          {
+            "text": "申し込みは、公式サイトの「入会フォーム」から連絡します。",
+            "source_url": "https://www.japan-pku.net/%ef%bd%90%ef%bd%8b%ef%bd%95%e8%a6%aa%e3%81%ae%e4%bc%9a%e5%85%a5%e4%bc%9a%e6%96%b9%e6%b3%95",
+            "evidence": "トップページ右の「入会フォーム」よりご連絡ください"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sma-kazoku",
+      "name": "一般社団法人 SMA家族の会",
+      "url": "https://sma-kazoku.net",
+      "diseases": [
+        "脊髄性筋萎縮症"
+      ],
+      "tonari_status": "joined",
+      "description": "準備中",
+      "intro": {
+        "status": "draft_unreviewed",
+        "checked_at": "2026-10-02",
+        "contact_url": null,
+        "unknown": [
+          "すべて（公式サイトを取得できなかった）"
+        ],
+        "facts": [],
+        "reason": "登録の URL（https://sma-kazoku.net）は別のドメイン（https://www.sma-jp.org/）へ転送された。登録外のドメインなので取得していない（2026-10-02）"
+      }
+    },
+    {
+      "id": "tsukushinokai",
+      "name": "つくしの会（全国軟骨無形成症患者・家族の会）",
+      "url": "https://tsukushinokai.net",
+      "diseases": [
+        "軟骨無形成症"
+      ],
+      "tonari_status": "joined",
+      "description": "準備中",
+      "intro": {
+        "status": "draft_unreviewed",
+        "checked_at": "2026-10-02",
+        "contact_url": "https://tsukushinokai.net/inquiries/",
+        "unknown": [
+          "代表者名"
+        ],
+        "facts": [
+          {
+            "kind": "name",
+            "text": "軟骨無形成症患者・家族の会 つくしの会です。",
+            "source_url": "https://tsukushinokai.net/",
+            "evidence": "軟骨無形成症患者・家族の会つくしの会"
+          },
+          {
+            "kind": "founded",
+            "text": "1982年（昭和57年）9月に発足しました。",
+            "source_url": "https://tsukushinokai.net/tukushi/about/",
+            "evidence": "昭和57年（1982年）9月につくしの会は発足しました"
+          },
+          {
+            "kind": "members",
+            "text": "全国で500家族近い会員が活動に参加しています（公式サイトに時点の記載なし）。",
+            "source_url": "https://tsukushinokai.net/tukushi/about/",
+            "evidence": "全国で500家族近い会員が活動に参加するようになりました"
+          },
+          {
+            "kind": "activity",
+            "text": "各県・地域で支部をつくり、支部会や勉強会を開いています。",
+            "source_url": "https://tsukushinokai.net/tukushi/about/",
+            "evidence": "各県･地域で支部を結成し、支部会や勉強会なども開催して"
+          },
+          {
+            "kind": "activity",
+            "text": "患者と家族の視点から、制度などの情報の共有や、日常生活での工夫を共に考えています。",
+            "source_url": "https://tsukushinokai.net/",
+            "evidence": "患者と家族の視点から制度等の情報共有、日常生活上の対応など"
+          },
+          {
+            "kind": "contact",
+            "text": "問い合わせは、公式サイトのお問合せのページからできます。",
+            "source_url": "https://tsukushinokai.net/",
+            "evidence": "お問合せ"
+          }
+        ],
+        "membership": [
+          {
+            "text": "正会員は、軟骨無形成症や類似した骨の病気の当事者とその家族です。ほかに賛助会員と購読会員があります。",
+            "source_url": "https://tsukushinokai.net/tukushi/join/",
+            "evidence": "軟骨無形成症や類似した骨の病気の当事者とその家族を正会員とするほか"
+          },
+          {
+            "text": "入会は、公式サイトのフォームから事務局へ申し込みます。",
+            "source_url": "https://tsukushinokai.net/tukushi/join/",
+            "evidence": "当会事務局へ下記フォームからお申し込みください"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hpp-hope",
+      "name": "HPP HOPE（低ホスファターゼ症コミュニティ）",
+      "url": null,
+      "diseases": [
+        "低ホスファターゼ症"
+      ],
+      "tonari_status": "joined",
+      "description": "準備中",
+      "intro": {
+        "status": "draft_unreviewed",
+        "checked_at": "2026-10-02",
+        "contact_url": null,
+        "unknown": [
+          "すべて（公式サイトの URL が未確認）"
+        ],
+        "facts": [],
+        "reason": "data の url が null（公式サイト未確認）。推測で URL を作らないため取得していない"
+      }
+    }
+  ]
+}

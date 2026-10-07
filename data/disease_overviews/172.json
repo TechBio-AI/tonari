@@ -1,0 +1,70 @@
+{
+ "idx": 172,
+ "name": "家族性地中海熱",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4447",
+   "fetched_at": "2026-09-24T00:45:23+09:00",
+   "sha256": "b4be0a93022948d6cba4bc0711fdd7266f27a6d92410324f9df46d3ac3a9bb90",
+   "title": "家族性地中海熱（指定難病２６６） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "発作のように熱が出て、お腹や胸の痛み、関節のはれなどをくり返す病気です。",
+  "source_id": "nanbyou",
+  "evidence": "発作性におこる発熱と腹部、胸部の疼痛や関節の腫れなどの症状が繰り返される",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "熱が出る",
+   "source_id": "nanbyou",
+   "evidence": "発熱"
+  },
+  {
+   "text": "お腹が痛くなる",
+   "source_id": "nanbyou",
+   "evidence": "お腹全体から部分的な痛みまでみられます"
+  },
+  {
+   "text": "胸から背中に刺すような痛みが出る",
+   "source_id": "nanbyou",
+   "evidence": "胸部から背中に刺すような痛みを伴います"
+  },
+  {
+   "text": "息を吸うときに胸に違和感がある",
+   "source_id": "nanbyou",
+   "evidence": "吸気時の胸部の違和感といった症状"
+  },
+  {
+   "text": "足の関節がはれて痛む",
+   "source_id": "nanbyou",
+   "evidence": "下肢の関節（足首・膝・股関節など）に症状が現れやすい"
+  },
+  {
+   "text": "関節に水がたまることがある",
+   "source_id": "nanbyou",
+   "evidence": "関節内に水が溜まったりすることがあります"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "反復しておこる発作を防ぎ、アミロイドーシスの予防にもなります"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4447",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は地域・民族の説明で、発症年齢の記載が無いため onset は null。",
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:26:37+09:00",
+ "shard": 1
+}

@@ -1,0 +1,74 @@
+{
+ "idx": 50,
+ "name": "ダウン症候群",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/13_01_014/",
+   "fetched_at": "2026-09-25T03:29:00+09:00",
+   "sha256": "3e4eeb6370faefb5c55c0dabcd086894405b7d607a11f6480808a4fa25dd9c2f",
+   "title": "ダウン（Down）症候群 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "21番目の染色体が1本多いことによって起こる病気です。",
+  "source_id": "shouman",
+  "evidence": "過剰染色体が21番染色体であることが明らかになった",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "体がやわらかい（筋肉の張りが弱い）",
+   "source_id": "shouman",
+   "evidence": "筋緊張低下"
+  },
+  {
+   "text": "関節がやわらかい",
+   "source_id": "shouman",
+   "evidence": "関節弛緩"
+  },
+  {
+   "text": "顔立ちが平たい",
+   "source_id": "shouman",
+   "evidence": "平坦な顔"
+  },
+  {
+   "text": "目じりが上がっている",
+   "source_id": "shouman",
+   "evidence": "眼瞼裂斜上"
+  },
+  {
+   "text": "耳が小さい",
+   "source_id": "shouman",
+   "evidence": "小さい耳"
+  },
+  {
+   "text": "手のひらのしわが一本",
+   "source_id": "shouman",
+   "evidence": "単一掌屈曲線"
+  },
+  {
+   "text": "発育がゆっくり",
+   "source_id": "shouman",
+   "evidence": "発育の遅れ"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "症状・年齢に応じて、適切な臨床検査や治療をタイムリーに行う必要がある"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/13_01_014/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "小児慢性に発症時期の記述が無いため onset は null。"
+ ],
+ "extracted_at": "2026-10-02T21:14:56+09:00",
+ "shard": 2
+}

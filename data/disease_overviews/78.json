@@ -1,0 +1,70 @@
+{
+ "idx": 78,
+ "name": "慢性炎症性脱髄性多発神経炎",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4089",
+   "fetched_at": "2026-09-25T03:26:36+09:00",
+   "sha256": "271bf0b335fe933c7933e1859374b6a4c2adce151f97ab9ca1a92e3a41aa1d54",
+   "title": "慢性炎症性脱髄性多発神経炎／多巣性運動ニューロパチー（指定難病１４） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "手足の力が入りにくくなったり、しびれたりする、末梢神経の病気です。",
+  "source_id": "nanbyou",
+  "evidence": "四肢の筋力低下やしびれ感をきたす末梢神経の疾患（神経炎）です",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "髪を洗うとき腕が上がらない",
+   "source_id": "nanbyou",
+   "evidence": "洗髪の際に腕が上がらない"
+  },
+  {
+   "text": "箸が使いにくい",
+   "source_id": "nanbyou",
+   "evidence": "箸が使いづらい"
+  },
+  {
+   "text": "足がしびれる",
+   "source_id": "nanbyou",
+   "evidence": "足がしびれる"
+  },
+  {
+   "text": "スリッパが脱げやすい",
+   "source_id": "nanbyou",
+   "evidence": "スリッパが脱げやすい"
+  },
+  {
+   "text": "歩きにくい",
+   "source_id": "nanbyou",
+   "evidence": "歩きにくいなどの症状がおこります"
+  },
+  {
+   "text": "手足の筋肉がやせる",
+   "source_id": "nanbyou",
+   "evidence": "四肢の筋肉が痩せてくる（筋萎縮）"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "ステロイド療法、免疫グロブリン療法、血液浄化療法が行われます"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4089",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "onset は数字を含むため null（原文「発症年齢は2～70歳までとかなり広い年齢層にまたがる」）。",
+  "難病情報センターのページは多巣性運動ニューロパチーとの共通ページ。症状は CIDP の記述から取った。"
+ ],
+ "extracted_at": "2026-10-02T21:14:56+09:00",
+ "shard": 2
+}

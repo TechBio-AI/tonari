@@ -1,0 +1,56 @@
+{
+ "idx": 217,
+ "name": "QT延長症候群",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/04_11_015/",
+   "fetched_at": "2026-09-24T00:47:30+09:00",
+   "sha256": "e669842d13874434a29b9dacd2a0c50ba1c2b9fa5561209e2d24ba37bf8e898f",
+   "title": "QT延長症候群 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "脈が乱れて突然死の危険がある、心電図の異常です。",
+  "source_id": "shouman",
+  "evidence": "多形性心室頻拍、心室細動などが誘発され、突然死の危険のある心電図異常",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "失神する",
+   "source_id": "shouman",
+   "evidence": "失神、突然死をおこす。"
+  },
+  {
+   "text": "突然死が起こることがある",
+   "source_id": "shouman",
+   "evidence": "突然死をおこす"
+  },
+  {
+   "text": "生まれつき耳が聞こえないことがある",
+   "source_id": "shouman",
+   "evidence": "先天性聾を伴う"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "有症状例やハイリスク例では治療の適応がある"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/04_11_015/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "症状の節が 2 文しかなく、3 件しか取れなかった。",
+  "疫学の節は発見率の数値のみのため onset は null。",
+  "治療の節は薬の分類名が中心のため、概要の節から evidence を取った（同じページ）。"
+ ],
+ "extracted_at": "2026-09-25T02:38:40+09:00",
+ "shard": 2
+}

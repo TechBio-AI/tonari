@@ -1,0 +1,70 @@
+{
+ "idx": 166,
+ "name": "ウエスト症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4414",
+   "fetched_at": "2026-09-24T00:45:17+09:00",
+   "sha256": "50eda287ba8b64d3d2e5a75fecb368dca4f913d69be25be082e21a1ef424638e",
+   "title": "ウエスト症候群（指定難病１４５） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "赤ちゃんのころに始まり、薬が効きにくいてんかんです。",
+  "source_id": "nanbyou",
+  "evidence": "乳児期に発症し、薬剤治療を行っても発作が止まりにくい（薬剤抵抗性）てんかん",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "頭を一瞬たれる発作が出る",
+   "source_id": "nanbyou",
+   "evidence": "頭部を一瞬垂れたり"
+  },
+  {
+   "text": "手足を一瞬縮める発作が出る",
+   "source_id": "nanbyou",
+   "evidence": "四肢を一瞬縮めたりする発作"
+  },
+  {
+   "text": "発作がくり返し続く",
+   "source_id": "nanbyou",
+   "evidence": "繰り返し続きます"
+  },
+  {
+   "text": "笑わなくなる",
+   "source_id": "nanbyou",
+   "evidence": "患児は笑わなくなったり"
+  },
+  {
+   "text": "視線を合わせなくなる",
+   "source_id": "nanbyou",
+   "evidence": "視線を合わせなくなったり"
+  },
+  {
+   "text": "できていた首のすわりやお座りができなくなる",
+   "source_id": "nanbyou",
+   "evidence": "今までできていた首のすわりやお座りができなくなったり"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "てんかん外科治療が有効な場合があります"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4414",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は割合の数値が中心のため onset は null。",
+  "治療の節には薬剤名が並ぶので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:38:40+09:00",
+ "shard": 2
+}

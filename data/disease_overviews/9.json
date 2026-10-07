@@ -1,0 +1,70 @@
+{
+ "idx": 9,
+ "name": "デュシェンヌ型筋ジストロフィー",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_21_047/",
+   "fetched_at": "2026-09-24T00:51:33+09:00",
+   "sha256": "e70fa27d7d99b12437c8ecc5a46106d685fbdebac4f604a0b7725e9dbece238c",
+   "title": "デュシェンヌ（Duchenne）型筋ジストロフィー 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "子どものころに始まる筋ジストロフィーの代表的な病気です。",
+  "source_id": "shouman",
+  "evidence": "ジストロフィン遺伝子変異による小児期発症の筋ジストロフィーの代表的疾患である。",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "ふくらはぎが太くなる",
+   "source_id": "shouman",
+   "evidence": "下腿の肥大"
+  },
+  {
+   "text": "転びやすい、走れない",
+   "source_id": "shouman",
+   "evidence": "転びやすい、走れないことで発症"
+  },
+  {
+   "text": "運動の能力が下がっていく",
+   "source_id": "shouman",
+   "evidence": "以後緩除に症状が進行し"
+  },
+  {
+   "text": "車椅子の生活になる",
+   "source_id": "shouman",
+   "evidence": "車椅子生活となる"
+  },
+  {
+   "text": "背骨が横に曲がる",
+   "source_id": "shouman",
+   "evidence": "側弯の出現、進行をみとめる"
+  },
+  {
+   "text": "呼吸が苦しくなる、心臓の筋肉が弱る",
+   "source_id": "shouman",
+   "evidence": "呼吸不全、心筋症を認めるようになる"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "側弯に対するケア・治療、心筋症に対する治療"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_21_047/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "疫学の節は発症頻度の数値のみのため onset は null。",
+  "治療の節には薬の分類名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:54:01+09:00",
+ "shard": 4
+}

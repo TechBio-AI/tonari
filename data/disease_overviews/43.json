@@ -1,0 +1,61 @@
+{
+ "idx": 43,
+ "name": "骨髄異形成症候群",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/01_02_017/",
+   "fetched_at": "2026-09-24T00:46:50+09:00",
+   "sha256": "79bc8f52a541c11f8f796278dc903de8847b6ed7b3d822a6b38a576707bb95ed",
+   "title": "骨髄異形成症候群 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "血を作るもとになる細胞に異常が起きて、血液がうまく作られなくなる病気です。",
+  "source_id": "shouman",
+  "evidence": "骨髄異形成症候群(MDS)は造血幹細胞のクローン性異常により無効造血を来す疾患",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "顔色が悪くなる",
+   "source_id": "shouman",
+   "evidence": "顔色不良"
+  },
+  {
+   "text": "体がだるい",
+   "source_id": "shouman",
+   "evidence": "倦怠感"
+  },
+  {
+   "text": "熱が出る",
+   "source_id": "shouman",
+   "evidence": "発熱"
+  },
+  {
+   "text": "血が止まりにくい",
+   "source_id": "shouman",
+   "evidence": "出血症状"
+  }
+ ],
+ "onset": {
+  "text": "赤ちゃんから思春期まで、どの年代でも起こります",
+  "source_id": "shouman",
+  "evidence": "乳幼児から思春期まで全年齢群で発症し"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "造血幹細胞移植 (HSCT)を行なうべきである"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/01_02_017/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:24:20+09:00",
+ "shard": 1
+}

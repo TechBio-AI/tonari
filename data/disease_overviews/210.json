@@ -1,0 +1,60 @@
+{
+ "idx": 210,
+ "name": "一次性膜性増殖性糸球体腎炎",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4423",
+   "fetched_at": "2026-09-24T00:45:19+09:00",
+   "sha256": "c08f2562743e7bb1db844e674a57c75ee9ec150bc70c32b76a66756728020656",
+   "title": "一次性膜性増殖性糸球体腎炎（指定難病２２３） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "腎臓のろ過装置の壁が厚くなり、細胞が増える変化が特徴の腎炎です。",
+  "source_id": "nanbyou",
+  "evidence": "糸球体係蹄壁の肥厚（基底膜二重化）と分葉状の細胞増殖病変",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "健診で血尿やたんぱく尿が見つかる",
+   "source_id": "nanbyou",
+   "evidence": "健診で発見される無症候の血尿・蛋白尿"
+  },
+  {
+   "text": "突然血尿が出る",
+   "source_id": "nanbyou",
+   "evidence": "突然の血尿（時に肉眼的）"
+  },
+  {
+   "text": "むくみが出る",
+   "source_id": "nanbyou",
+   "evidence": "浮腫を認める急性腎炎症候群"
+  },
+  {
+   "text": "強いむくみが出ることがある",
+   "source_id": "nanbyou",
+   "evidence": "強い浮腫（時に胸水や腹水を伴う全身性）"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "効果的治療法の根拠となる十分な臨床試験成績がないのが現状です。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4423",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "症状の節は検査で分かる所見が中心で、4 件しか取れなかった。",
+  "「どのような人に多いのですか」の節の発症年齢は数値と一体のため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:48:34+09:00",
+ "shard": 3
+}

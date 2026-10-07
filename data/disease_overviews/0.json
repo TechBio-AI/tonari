@@ -1,0 +1,73 @@
+{
+ "idx": 0,
+ "name": "ファブリー病",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_091/",
+   "fetched_at": "2026-09-24T00:50:02+09:00",
+   "sha256": "09848a223211b27c96c275d50db17a4723e716849ec06b7c58148274da6fad93",
+   "title": "ファブリー（Fabry）病 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "酵素のはたらきが弱いために、体のいろいろな場所に物質がたまっていく病気です。",
+  "source_id": "shouman",
+  "evidence": "α-ガラクトシダーゼ活性の低下により",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "手足が痛む",
+   "source_id": "shouman",
+   "evidence": "手足の痛み（四肢末端痛）"
+  },
+  {
+   "text": "汗をかきにくい",
+   "source_id": "shouman",
+   "evidence": "汗をかきにくいこと（低汗症や無汗症）"
+  },
+  {
+   "text": "体温が上がりやすい",
+   "source_id": "shouman",
+   "evidence": "それによる体温の上昇を認める"
+  },
+  {
+   "text": "目が見えにくくなることがある",
+   "source_id": "shouman",
+   "evidence": "角膜混濁"
+  },
+  {
+   "text": "腎臓のはたらきが落ちる",
+   "source_id": "shouman",
+   "evidence": "腎障害"
+  },
+  {
+   "text": "耳が聞こえにくくなることがある",
+   "source_id": "shouman",
+   "evidence": "難聴"
+  }
+ ],
+ "onset": {
+  "text": "多くは学童期までに症状が出ます",
+  "source_id": "shouman",
+  "evidence": "多くが、学童期までに発症する。"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "shouman",
+  "evidence": "酵素補充療法、シャペロン療法、対症療法がある。"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/08_06_091/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "難病情報センターの判定が none のため、小児慢性だけを読んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:22:05+09:00",
+ "shard": 1
+}

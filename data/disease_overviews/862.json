@@ -1,0 +1,63 @@
+{
+ "idx": 862,
+ "name": "遺伝性低カリウム性周期性四肢麻痺",
+ "sources": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_24_064/",
+   "fetched_at": "2026-09-24T00:51:40+09:00",
+   "sha256": "7c044fbf961db8722269bf36c4942e67363ad9d8c070c4c1b78d7130607af2f6",
+   "title": "遺伝性低カリウム性周期性四肢麻痺 概要 - 小児慢性特定疾病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "発作のように手足の力が抜けて動かせなくなる、遺伝性の病気です。",
+  "source_id": "shouman",
+  "evidence": "発作性の骨格筋の脱力・麻痺をきたす遺伝性疾患",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "手足の力が抜ける発作が起こる",
+   "source_id": "shouman",
+   "evidence": "脱力発作の持続は１時間から数日まで"
+  },
+  {
+   "text": "足だけの脱力から全身の麻痺まで幅がある",
+   "source_id": "shouman",
+   "evidence": "下肢のみといった限局性筋力低下から完全四肢麻痺まである"
+  },
+  {
+   "text": "左右対称に起こることが多い",
+   "source_id": "shouman",
+   "evidence": "症状は両側対称性のことが多いが"
+  },
+  {
+   "text": "発作と発作の間にも筋力の低下が続くことがある",
+   "source_id": "shouman",
+   "evidence": "発作間欠期においても進行性・持続性の筋力低下を示す"
+  }
+ ],
+ "onset": {
+  "text": "最初の発作は思春期のころが多いです",
+  "source_id": "shouman",
+  "evidence": "初回発作は思春期頃であることが多く"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "shouman",
+  "evidence": "根本治療はなく、麻痺発作急性期の対症療法、間欠期の麻痺予防治療に分けられる"
+ },
+ "links": [
+  {
+   "id": "shouman",
+   "url": "https://www.shouman.jp/disease/details/11_24_064/",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "治療の節には薬剤名が出てくるので、含まない箇所を evidence に選んだ。"
+ ],
+ "extracted_at": "2026-09-25T02:43:21+09:00",
+ "shard": 2
+}

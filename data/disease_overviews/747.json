@@ -1,0 +1,50 @@
+{
+ "idx": 747,
+ "name": "遺伝性眼瞼下垂",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/91411",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Congenital ptosis"
+  }
+ ],
+ "summary": {
+  "text": "Congenital ptosis is characterized by superior eyelid drop present at birth.",
+  "source_id": "orphanet",
+  "evidence": "Congenital ptosis is characterized by su",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "superior eyelid drop",
+   "source_id": "orphanet",
+   "evidence": "superior eyelid drop"
+  }
+ ],
+ "onset": {
+  "text": "present at birth",
+  "source_id": "orphanet",
+  "evidence": "present at birth"
+ },
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/91411",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

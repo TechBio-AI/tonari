@@ -1,0 +1,71 @@
+{
+ "idx": 12,
+ "name": "フェニルケトン尿症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4747",
+   "fetched_at": "2026-09-24T00:45:58+09:00",
+   "sha256": "012baac24d636851c7cb5c01dd9037386b6701c7a78c792133255a0f0601f259",
+   "title": "フェニルケトン尿症（指定難病２４０） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "あるアミノ酸が体にたまり、別のアミノ酸が少なくなる、生まれつきの病気です。",
+  "source_id": "nanbyou",
+  "evidence": "身体にフェニルアラニンが蓄積しチロシンが少なくなる",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "新生児のころはほとんど症状がない",
+   "source_id": "nanbyou",
+   "evidence": "新生児期にはほとんど症状はありません"
+  },
+  {
+   "text": "発達がゆっくりになる",
+   "source_id": "nanbyou",
+   "evidence": "発達遅滞などの神経症状"
+  },
+  {
+   "text": "尿に特有のにおいが出る",
+   "source_id": "nanbyou",
+   "evidence": "ネズミ尿臭のあるフェニルケトン体として尿に排泄されます"
+  },
+  {
+   "text": "髪や肌の色がうすくなる",
+   "source_id": "nanbyou",
+   "evidence": "赤毛や色白などの色素欠乏症"
+  },
+  {
+   "text": "おっぱいやミルクの飲みが悪い、夜泣きする",
+   "source_id": "nanbyou",
+   "evidence": "早期からほ乳不良や夜泣き"
+  },
+  {
+   "text": "けいれんが起きる",
+   "source_id": "nanbyou",
+   "evidence": "夜泣き痙攣"
+  }
+ ],
+ "onset": {
+  "text": "この病気の危険因子は報告されていません",
+  "source_id": "nanbyou",
+  "evidence": "この病気の危険因子などは報告されていません。"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "食事中のタンパク質を制限してフェニルアラニンの摂取を抑え"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4747",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:35:30+09:00",
+ "shard": 2
+}

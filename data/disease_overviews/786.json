@@ -1,0 +1,52 @@
+{
+ "idx": 786,
+ "name": "遺伝性結合組織疾患（Cutis Laxa）",
+ "sources": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/209",
+   "fetched_at": "2026-06-23",
+   "sha256": null,
+   "title": "Cutis laxa"
+  }
+ ],
+ "summary": {
+  "text": "Cutis laxa (CL) is an inherited or acquired connective tissue disorder characterized by wrinkled, redundant and sagging inelastic skin associated with skeletal and developmental anomalies and, in some cases, with severe systemic involvement. Several different forms of inherited CL have been described, differentiated on the basis of the mode of inheritance and differences in the extent of internal organ involvement, associated anomalies and disease severity.",
+  "source_id": "orphanet",
+  "evidence": "Cutis laxa (CL) is an inherited or acqui",
+  "lang": "en"
+ },
+ "symptoms": [
+  {
+   "text": "wrinkled, redundant and sagging inelastic skin",
+   "source_id": "orphanet",
+   "evidence": "wrinkled, redundant and sagging"
+  },
+  {
+   "text": "skeletal and developmental anomalies",
+   "source_id": "orphanet",
+   "evidence": "skeletal and developmental anomalies"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "記載なし",
+  "source_id": "orphanet",
+  "evidence": null
+ },
+ "links": [
+  {
+   "id": "orphanet",
+   "url": "https://www.orpha.net/en/disease/detail/209",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "日本語の出典が無いため、Orphanet の英語 Definition をそのまま出している（翻訳・要約はしていない）。",
+  "Definition に発症時期の明示が無いため onset は null。",
+  "Definition に治療の明示が無いため treatment は「記載なし」。",
+  "Orphanet の URL 形式は未確定（lib/portal/orphanet-link.ts の定数。ファウンダー確認待ち）。"
+ ],
+ "extracted_at": "2026-09-25T03:46:11+09:00",
+ "shard": 2
+}

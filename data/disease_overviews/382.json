@@ -1,0 +1,71 @@
+{
+ "idx": 382,
+ "name": "スミス・マギニス症候群",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4853",
+   "fetched_at": "2026-09-24T00:46:15+09:00",
+   "sha256": "2923d3e8609e94cac041c30397c6e2739a6e6ab31b8bff7605c2311b07dd90e2",
+   "title": "スミス・マギニス症候群（指定難病２０２） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "顔だちや行動に特徴があり、発達の遅れと睡眠の乱れをともなう病気です。",
+  "source_id": "nanbyou",
+  "evidence": "特徴的なお顔立ち、特徴的な行動特性、発達の遅れ、睡眠障害を有する先天異常症候群",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "治りにくいてんかんが出ることがある",
+   "source_id": "nanbyou",
+   "evidence": "難治性てんかんが時に見られます"
+  },
+  {
+   "text": "手足の神経に障害が出る",
+   "source_id": "nanbyou",
+   "evidence": "末梢神経 障害の合併もしばしば認められます"
+  },
+  {
+   "text": "心臓の病気を合併することがある",
+   "source_id": "nanbyou",
+   "evidence": "心疾患の合併を認めることもあります"
+  },
+  {
+   "text": "自分を傷つける行動をとることがある",
+   "source_id": "nanbyou",
+   "evidence": "特徴的な行動（自傷行為"
+  },
+  {
+   "text": "発達や言葉の獲得がゆっくり",
+   "source_id": "nanbyou",
+   "evidence": "発達や言語の獲得はゆっくりである事が多いです"
+  },
+  {
+   "text": "睡眠が乱れる",
+   "source_id": "nanbyou",
+   "evidence": "睡眠障害を認める場合があります"
+  }
+ ],
+ "onset": {
+  "text": "どのような場合に生まれやすいということはありません",
+  "source_id": "nanbyou",
+  "evidence": "どのような場合に生まれやすい、ということはありません。"
+ },
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "心臓の病気や哺乳がうまく進まないことを手術等の治療により解決する"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4853",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:49:53+09:00",
+ "shard": 3
+}

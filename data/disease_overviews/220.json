@@ -1,0 +1,69 @@
+{
+ "idx": 220,
+ "name": "総動脈幹遺残症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4895",
+   "fetched_at": "2026-09-24T00:46:21+09:00",
+   "sha256": "66fd5bf82eb784dcea71d5c603ede8cb39982b8401bc772f7d172d43d544c7fb",
+   "title": "総動脈幹遺残症（指定難病２０７） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "左右の心室から一本の太い血管に血液が送り出される心臓の病気です。",
+  "source_id": "nanbyou",
+  "evidence": "左右両心室から単一の総動脈幹に血液を送り出すことで",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "呼吸が速い",
+   "source_id": "nanbyou",
+   "evidence": "多呼吸"
+  },
+  {
+   "text": "息を吸うときに胸がへこむ",
+   "source_id": "nanbyou",
+   "evidence": "陥没呼吸"
+  },
+  {
+   "text": "おっぱいやミルクの飲みが悪い",
+   "source_id": "nanbyou",
+   "evidence": "哺乳不良"
+  },
+  {
+   "text": "体重が増えにくい",
+   "source_id": "nanbyou",
+   "evidence": "体重増加不良"
+  },
+  {
+   "text": "汗をかく",
+   "source_id": "nanbyou",
+   "evidence": "発汗などの心不全症状"
+  },
+  {
+   "text": "皮膚や唇が青紫色にならないこともある",
+   "source_id": "nanbyou",
+   "evidence": "チアノーゼ には気づかれない症例もあります"
+  }
+ ],
+ "onset": null,
+ "treatment": {
+  "type": "治療法あり",
+  "source_id": "nanbyou",
+  "evidence": "最終的な修復手術としてラステリ手術"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4895",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [
+  "「どのような人に多いのですか」の節は合併率の数値のみのため onset は null。"
+ ],
+ "extracted_at": "2026-09-25T02:48:34+09:00",
+ "shard": 3
+}

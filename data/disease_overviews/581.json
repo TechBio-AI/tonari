@@ -1,0 +1,71 @@
+{
+ "idx": 581,
+ "name": "タナトフォリック骨異形成症",
+ "sources": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4714",
+   "fetched_at": "2026-09-24T00:45:49+09:00",
+   "sha256": "e58afc2fc7734825c453992ee0d076c421fcef5590d8fd978721ac07a5fc1a78",
+   "title": "タナトフォリック骨異形成症（指定難病２７５） – 難病情報センター"
+  }
+ ],
+ "summary": {
+  "text": "手足の骨が強く短くなって背が低く、肋骨が短いため呼吸に障害が出る病気です。",
+  "source_id": "nanbyou",
+  "evidence": "重症の四肢骨の短縮による低身長や肋骨の短縮による呼吸障害を示す",
+  "lang": "ja"
+ },
+ "symptoms": [
+  {
+   "text": "手足の長い骨が強く短い",
+   "source_id": "nanbyou",
+   "evidence": "著明な四肢長管骨の短縮を認め"
+  },
+  {
+   "text": "頭が比較的大きい",
+   "source_id": "nanbyou",
+   "evidence": "頭蓋骨は比較的大きくなり"
+  },
+  {
+   "text": "額が突き出て鼻の付け根がくぼむ",
+   "source_id": "nanbyou",
+   "evidence": "前頭部の突出と鼻根部の陥凹が目立ちます"
+  },
+  {
+   "text": "胸が小さく呼吸が苦しくなる",
+   "source_id": "nanbyou",
+   "evidence": "胸郭は低形成でこれによる呼吸不全症状"
+  },
+  {
+   "text": "お腹がふくらむ",
+   "source_id": "nanbyou",
+   "evidence": "腹部膨満"
+  },
+  {
+   "text": "手足の皮膚にしわが多い",
+   "source_id": "nanbyou",
+   "evidence": "皮膚過剰による四肢皮膚のしわ"
+  }
+ ],
+ "onset": {
+  "text": "なりやすさに特定の傾向はありません",
+  "source_id": "nanbyou",
+  "evidence": "病気のなりやすさに特定の傾向はありません。"
+ },
+ "treatment": {
+  "type": "症状を抑える治療が中心",
+  "source_id": "nanbyou",
+  "evidence": "呼吸障害に対して、酸素投与や人工呼吸を行う等の対症療法のみです。"
+ },
+ "links": [
+  {
+   "id": "nanbyou",
+   "url": "https://www.nanbyou.or.jp/entry/4714",
+   "label": "公式ページ"
+  }
+ ],
+ "notes": [],
+ "extracted_at": "2026-09-25T02:52:18+09:00",
+ "shard": 3
+}

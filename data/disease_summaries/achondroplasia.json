@@ -1,0 +1,147 @@
+{
+  "_readme": [
+    "★ これは 11 疾患のための暫定形式です。将来 supabase の themes / theme_facts / fact_sources（器）へ移行します。",
+    "  情報の種類を増やすときは、この形式を拡張するのではなく、器への移行を検討してください（docs/CONTENT_ROADMAP.md）。",
+    "中身: ファウンダーが判定した患者向けの文（docs/disease_summaries_draft_2026-09-13.md、2026-09-13 承認）。",
+    "common_symptoms は HPO v2026-06-23 の「非常に多い」「多い」を元に言い換えたもの。各項目は sources に元の HPO ラベルか「執筆者による記述」を持つ。",
+    "表示では頻度を区別しない。薬剤名は書かない。",
+    "読み込み: lib/portal/disease-summaries.ts"
+  ],
+  "slug": "achondroplasia",
+  "disease": "軟骨無形成症",
+  "orpha_code": "ORPHA:15",
+  "hpo_version": "v2026-06-23",
+  "approved": "2026-09-13",
+  "symptoms_preface": null,
+  "common_symptoms": [
+    {
+      "text": "手足が短く、背が低い",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "不均衡型低身長",
+            "四肢成長不全"
+          ],
+          "hpo_ids": [
+            "HP:0003498",
+            "HP:0009826"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "脚が曲がる",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "下肢湾曲"
+          ],
+          "hpo_ids": [
+            "HP:0002979"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "背中が丸くなる",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "後弯",
+            "胸腰椎後弯"
+          ],
+          "hpo_ids": [
+            "HP:0002808",
+            "HP:0005619"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "頭が大きめで、額が出ている",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "大頭",
+            "前頭突出, 額突出"
+          ],
+          "hpo_ids": [
+            "HP:0000256",
+            "HP:0002007"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "指が短く、開くと三つ又のように見える",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "鉾状の手"
+          ],
+          "hpo_ids": [
+            "HP:0004060"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "眠っている間に呼吸が止まることがある",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "閉塞性睡眠時無呼吸",
+            "中枢性睡眠時無呼吸"
+          ],
+          "hpo_ids": [
+            "HP:0002870",
+            "HP:0010536"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "耳が聞こえにくい",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "難聴",
+            "中耳機能異常"
+          ],
+          "hpo_ids": [
+            "HP:0000365",
+            "HP:0011452"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "背骨の中の神経の通り道が狭くなる",
+      "sources": [
+        {
+          "type": "hpo",
+          "labels_ja": [
+            "脊椎管狭窄"
+          ],
+          "hpo_ids": [
+            "HP:0003416"
+          ]
+        }
+      ]
+    }
+  ],
+  "treatment_summary": [
+    "成長ホルモンによる治療があります。",
+    "骨や関節の状態に応じて、整形外科の手術が行われることがあります。",
+    "リハビリテーションを行います。"
+  ],
+  "treatment_source": "知識ファイル（data/knowledge/comprehensive_rare_diseases_knowledge.json）の treatment を元に、薬剤名を除いて執筆者が要約。ファウンダー確認待ち（2026-09-13 下書き）",
+  "nanbyo_number": null
+}
